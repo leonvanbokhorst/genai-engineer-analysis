@@ -73,7 +73,9 @@ def analyze_clusters(file_path):
         cluster_docs = df[df["cluster"] == cluster_id]["lemmatized_text"].tolist()
 
         try:
-            vectorizer = TfidfVectorizer(max_features=1000, ngram_range=(1, 2))
+            vectorizer = TfidfVectorizer(
+                stop_words=list(final_stop_words), max_features=1000, ngram_range=(1, 2)
+            )
             tfidf_matrix = vectorizer.fit_transform(cluster_docs)
 
             sum_tfidf = tfidf_matrix.sum(axis=0)
