@@ -1,55 +1,43 @@
-# GenAI Engineer Job Market Analysis
+# GenAI Engineer Job Market Analysis: A Semantic Clustering Approach
 
-This project provides a flexible pipeline to analyze job market data for specific roles, inspired by the methodology in the paper "What Is an AI Engineer? An Empirical Analysis of Job Ads in The Netherlands" (CAIN 2022). This implementation replays the paper's analysis with a new dataset and a focus on the **Generative AI Engineer** role.
+This project has evolved. We are moving beyond simple keyword analysis to a more sophisticated, scientifically sound method for understanding the job market: **semantic clustering**.
 
-## Findings: The GenAI Engineer Profile (Definitive)
+The goal is to automatically discover natural groupings of job descriptions based on their _meaning_, not just the words they contain. This will allow us to answer questions like:
 
-Our final, refined analysis pipeline filtered a dataset of 1,283 job ads down to **1,173 relevant jobs** that mention AI or Generative AI concepts. This comprehensive filter provides a clear and robust profile of the modern AI/GenAI Engineer. The key findings are summarized below.
+- Do job ads that only mention "AI" cluster together with ads that mention "Generative AI," suggesting they describe the same role?
+- What are the distinct _types_ or _flavors_ of GenAI Engineer roles that emerge from the data?
+- Can we identify the key skills and technologies that define these emergent clusters?
 
-### Job Tasks (RQ1)
+## Methodology: From Keywords to Meaning
 
-The role is defined by three core pillars: Software Development, GenAI/LLM-specific engineering, and a deep understanding of the business context. This confirms the AI/GenAI Engineer is a product-focused role, not just a research or modeling position.
+Our new pipeline follows a state-of-the-art Natural Language Processing (NLP) methodology.
 
-| Task Category          | Mentions |
-| ---------------------- | -------- |
-| Software Development   | 991      |
-| Business Understanding | 935      |
-| GenAI/LLM Engineering  | 753      |
-| Modeling               | 647      |
-| Operations Engineering | 529      |
-| Data Engineering       | 129      |
+### 1. High-Quality Multilingual Embeddings
 
-### Technologies (RQ2)
+At the core of this approach is the concept of **text embeddings**. Each job description is fed into a sophisticated deep learning model which outputs a high-dimensional vector (an "embedding"). This vector represents the semantic meaning of the text. Job descriptions with similar meanings will have vectors that are close to each other in this high-dimensional space.
 
-The technology landscape is dominated by core software engineering tools (Git, Python, Cloud Platforms). Specific AI company ecosystems (OpenAI, Google, Microsoft) are also frequently mentioned, indicating the importance of platform-specific knowledge.
+To handle the multilingual nature of our dataset (Dutch and English), we are using the powerful `paraphrase-multilingual-mpnet-base-v2` model from the `sentence-transformers` library. This model is specifically designed to understand and map the meaning of text from over 50 languages into a shared vector space, ensuring high-quality results.
 
-| Technology        | Mentions |
-| ----------------- | -------- |
-| Git               | 183      |
-| Python            | 163      |
-| Azure             | 131      |
-| AWS               | 129      |
-| OpenAI            | 54       |
-| ... (and 24 more) | ...      |
+### 2. Caching for Efficiency
 
-### Soft Skills (RQ3)
+Generating embeddings is computationally expensive. To ensure our analysis is fast and repeatable, the pipeline automatically caches the generated embeddings to a file (e.g., `data/embeddings-paraphrase-multilingual-mpnet-base-v2.npy`). On subsequent runs, these embeddings are loaded directly from the cache, saving significant time.
 
-The ideal candidate is a senior-level figure, expected to be a mentor and an innovator for their team and the company, with a strong emphasis on continuous learning.
+### 3. (Upcoming) Dimensionality Reduction & Clustering
 
-| Soft Skill       | Mentions |
-| ---------------- | -------- |
-| Open to learn    | 519      |
-| Coaching         | 512      |
-| Innovative       | 487      |
-| Team-oriented    | 371      |
-| Passionate       | 330      |
-| ... (and 5 more) | ...      |
+Once we have the embeddings, the next steps in the pipeline will be:
+
+- **Dimensionality Reduction:** Using **UMAP** to reduce the high-dimensional vectors (e.g., 768 dimensions) down to 2 dimensions, which allows for visualization.
+- **Clustering:** Using **HDBSCAN**, a powerful density-based algorithm, to identify clusters of job descriptions in the reduced dimensional space. HDBSCAN is effective because it can find clusters of different shapes and sizes, and it can identify which points are "noise" and don't belong to any cluster.
+
+### 4. (Upcoming) Analysis and Visualization
+
+The final step will be to analyze the resulting clusters. We will visualize the clusters on a 2D plot and then programmatically extract the most representative keywords from each cluster to understand its defining theme.
 
 ---
 
-## How to Use the Pipeline
+## How to Use the Pipeline (Current State)
 
-This pipeline is designed to be flexible. You can easily adapt it to analyze any job role by changing the keywords in the configuration.
+This pipeline is under construction. The instructions below cover the project up to its current state: generating the embeddings.
 
 ### 1. Prerequisites
 
@@ -71,36 +59,12 @@ source .venv/bin/activate
 uv pip sync pyproject.toml
 ```
 
-### 3. Data Consolidation
+### 3. Run the Embedding Generation
 
-**a. Place Data:** Add your source `.xls` files into the `/data` directory.
-
-**b. Run the Consolidation Script:** This script combines all `.xls` files in the `/data` directory into a single `consolidated.csv`.
+This is the first step of the new pipeline.
 
 ```bash
-python consolidate_data.py
+python semantic_clustering.py
 ```
 
-### 4. Customize and Run the Analysis
-
-**a. Configure Your Search:**
-Open `config.py`. To analyze a different job role, simply change the `JOB_FILTER_KEYWORDS` list. For example, to search for "LLM Engineer":
-
-```python
-# in config.py
-JOB_FILTER_KEYWORDS = [
-    'llm engineer', 'large language model engineer'
-    # ... add any other relevant keywords
-]
-```
-
-You can also customize the keywords for technologies, soft skills, and job tasks in the same file to refine the analysis.
-
-**b. Run the Pipeline:**
-Execute the main analysis script. It will use your configuration to filter the jobs and generate a new report.
-
-```bash
-python analysis_pipeline.py
-```
-
-The results will be printed to your terminal.
+On the first run, this script will download the multilingual model (approx. 1.1 GB) and generate the embeddings for all job descriptions, caching the result in the `/data` directory. Subsequent runs will be much faster.
