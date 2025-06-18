@@ -1,16 +1,29 @@
+[tool.uv.sources]
+genai-engineer-analysis = { path = "." }
+
 [project]
 name = "genai-engineer-analysis"
 version = "0.1.0"
-description = "Analysis of GenAI engineer roles"
-authors = [{ name = "Lonn", email = "lonn@genai.engineer" }]
+description = "Analysis of GenAI Engineer job descriptions"
+authors = [
+    {name = "Lonn", email = "lonn@raccoons.world"},
+]
 dependencies = [
     "pandas",
-    "openpyxl",
     "xlrd",
-    "numpy",
+    "sentence-transformers",
+    "umap-learn",
+    "hdbscan",
+    "scikit-learn",
+    "matplotlib",
+    "spacy",
+    "numpy<2.1", # Pinned for Numba compatibility
     "pytz",
     "python-dateutil",
-    "six",
-    "pymupdf",
+    "pip",
+    "seaborn",
 ]
-requires-python = ">=3.12" 
+requires-python = ">=3.12"
+
+[tool.uv.pip]
+# 

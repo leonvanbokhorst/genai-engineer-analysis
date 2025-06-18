@@ -6,21 +6,21 @@
 # product names or libraries.
 JOB_FILTER_KEYWORDS = [
     # Foundational AI/ML Terms (often used for GenAI roles)
-    # "ai",
-    # "artificial intelligence",
-    # "machine learning",
+    "ai",
+    "artificial intelligence",
+    "machine learning",
     # Core GenAI Concepts
-    "generative ai",
-    "genai",
-    "large language model",
-    "llm",
-    "prompt engineer",
-    "prompt engineering",
-    "prompt",
-    # Foundational AI/ML Concepts (often precursors to GenAI roles)
-    "natural language processing",
-    "nlp",
-    "computer vision",
+    # "generative ai",
+    # "genai",
+    # "large language model",
+    # "llm",
+    # "prompt engineer",
+    # "prompt engineering",
+    # "prompt",
+    # # Foundational AI/ML Concepts (often precursors to GenAI roles)
+    # "natural language processing",
+    # "nlp",
+    # "computer vision",
 ]
 
 # Keywords for Technology Analysis (RQ2)
