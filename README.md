@@ -55,3 +55,7 @@ To re-run only the final keyword analysis on the existing clustered data:
 ```bash
 python analyze_clusters.py
 ```
+
+## Analysis Results
+
+The results of the cluster analysis, including the top keywords for each identified cluster, are documented in [`ANALYSIS_RESULTS.md`](./ANALYSIS_RESULTS.md).
