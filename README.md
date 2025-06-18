@@ -2,7 +2,7 @@
 
 This project has evolved. We are moving beyond simple keyword analysis to a more sophisticated, scientifically sound method for understanding the job market: **semantic clustering**.
 
-The goal is to automatically discover natural groupings of job descriptions based on their _meaning_, not just the words they contain. This will allow us to answer questions like:
+The goal is to automatically discover natural groupings of job descriptions based on their _meaning_, not just the words they contain. This allows us to answer questions like:
 
 - Do job ads that only mention "AI" cluster together with ads that mention "Generative AI," suggesting they describe the same role?
 - What are the distinct _types_ or _flavors_ of GenAI Engineer roles that emerge from the data?
@@ -20,31 +20,35 @@ To handle the multilingual nature of our dataset (Dutch and English), we are usi
 
 ### 2. Caching for Efficiency
 
-Generating embeddings is computationally expensive. To ensure our analysis is fast and repeatable, the pipeline automatically caches the generated embeddings to a file (e.g., `data/embeddings-paraphrase-multilingual-mpnet-base-v2.npy`). On subsequent runs, these embeddings are loaded directly from the cache, saving significant time.
+Generating embeddings is computationally expensive. To ensure our analysis is fast and repeatable, the pipeline automatically caches the generated embeddings to a file (`data/embeddings-paraphrase-multilingual-mpnet-base-v2.npy`). On subsequent runs, these embeddings are loaded directly from the cache, saving significant time.
 
-### 3. (Upcoming) Dimensionality Reduction & Clustering
+### 3. Dimensionality Reduction & Clustering
 
-Once we have the embeddings, the next steps in the pipeline will be:
+Once we have the embeddings, the pipeline performs two crucial steps:
 
-- **Dimensionality Reduction:** Using **UMAP** to reduce the high-dimensional vectors (e.g., 768 dimensions) down to 2 dimensions, which allows for visualization.
+- **Dimensionality Reduction:** Using **UMAP** to reduce the high-dimensional vectors (768 dimensions) down to 2 dimensions for visualization and more effective clustering.
 - **Clustering:** Using **HDBSCAN**, a powerful density-based algorithm, to identify clusters of job descriptions in the reduced dimensional space. HDBSCAN is effective because it can find clusters of different shapes and sizes, and it can identify which points are "noise" and don't belong to any cluster.
+
+The result of this process is a new file, `data/clustered_jobs.csv`, which contains the original job data enriched with cluster labels and 2D coordinates for visualization.
 
 ### 4. (Upcoming) Analysis and Visualization
 
-The final step will be to analyze the resulting clusters. We will visualize the clusters on a 2D plot and then programmatically extract the most representative keywords from each cluster to understand its defining theme.
+The next logical step is to analyze and visualize the resulting clusters. This will involve creating a new script to:
+
+- Create a 2D scatter plot of the clusters.
+- Programmatically extract the most representative keywords from each cluster to understand its defining theme.
+- Interactively explore the clusters to gain insights into the different types of GenAI Engineer roles.
 
 ---
 
-## How to Use the Pipeline (Current State)
-
-This pipeline is under construction. The instructions below cover the project up to its current state: generating the embeddings.
+## How to Use the Pipeline
 
 ### 1. Prerequisites
 
 - Python 3.12+
 - `uv` (a fast Python package installer and resolver)
 
-### 2. Setup
+### 2. Setup & The Dependency Gauntlet
 
 **a. Create a Virtual Environment:**
 
@@ -52,19 +56,94 @@ This pipeline is under construction. The instructions below cover the project up
 uv venv -p python3.12
 ```
 
-**b. Activate the Environment and Install Dependencies:**
+**b. A Note on Dependencies:**
+
+Our journey to a working environment was fraught with peril. The `uv pip sync` command, while fast, is extremely strict and **does not install transitive dependencies** (dependencies of your dependencies). This led to a long and arduous process of identifying and manually adding every single required package to our `pyproject.toml`.
+
+To save you from this trial by fire, ensure your `pyproject.toml`'s `[project]` section includes the following complete list of dependencies:
+
+```toml
+dependencies = [
+    "pandas",
+    "openpyxl",
+    "xlrd",
+    "numpy<=2.2",
+    "pytz",
+    "python-dateutil",
+    "six",
+    "pymupdf",
+    "sentence-transformers",
+    "scikit-learn",
+    "umap-learn",
+    "hdbscan",
+    "matplotlib",
+    "seaborn",
+    "huggingface-hub",
+    "requests",
+    "urllib3",
+    "idna",
+    "chardet",
+    "certifi",
+    "transformers",
+    "tqdm",
+    "torch",
+    "scipy",
+    "Pillow",
+    "typing_extensions",
+    "pyyaml",
+    "filelock",
+    "packaging",
+    "regex",
+    "safetensors",
+    "tokenizers",
+    "joblib",
+    "threadpoolctl",
+    "sympy",
+    "mpmath",
+    "numba",
+    "llvmlite",
+    "pynndescent",
+    "pyparsing",
+    "cycler",
+    "kiwisolver",
+]
+```
+
+**c. Activate the Environment and Install Dependencies:**
 
 ```bash
 source .venv/bin/activate
 uv pip sync pyproject.toml
 ```
 
-### 3. Run the Embedding Generation
+### 3. Run the Analysis Pipeline
 
-This is the first step of the new pipeline.
+The project now contains two main scripts:
+
+**a. Run the Clustering Pipeline:**
+
+This command will run the entire pipeline: loading data, generating/loading embeddings, reducing dimensionality, and performing clustering.
 
 ```bash
 python semantic_clustering.py
 ```
 
-On the first run, this script will download the multilingual model (approx. 1.1 GB) and generate the embeddings for all job descriptions, caching the result in the `/data` directory. Subsequent runs will be much faster.
+This will produce the `data/clustered_jobs.csv` file.
+
+**b. Run the Visualization Script:**
+
+Once the clustering is complete, you can generate a visualization of the clusters.
+
+```bash
+python visualize_clusters.py
+```
+
+This will create the `data/cluster_visualization.png` image file.
+
+## Next Steps
+
+With the clusters identified and visualized, the next logical step is to perform a qualitative analysis to understand the _meaning_ of each cluster. This involves creating a new analysis script to:
+
+- Load the `clustered_jobs.csv` data.
+- For each cluster, extract the most common words or n-grams from the `Functieomschrijving` (job description) to identify its theme.
+- Present a summary of each cluster's defining characteristics.
