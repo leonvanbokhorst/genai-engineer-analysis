@@ -9,22 +9,10 @@ import re
 CLUSTERED_DATA_FILE = "data/clustered_jobs.csv"
 NUM_TOP_KEYWORDS = 15  # Number of top keywords to display for each cluster
 
-
 # --- SpaCy Model Setup ---
-def download_spacy_model(model_name):
-    """Downloads a spaCy model if it's not already installed."""
-    try:
-        spacy.load(model_name)
-    except OSError:
-        print(f"Downloading spaCy model: {model_name}")
-        spacy.cli.download(model_name)
-
-
-# Download necessary models
-download_spacy_model("en_core_web_sm")
-download_spacy_model("nl_core_news_sm")
-
-# Load models
+# Assumes models are downloaded. Run these commands if not:
+# python -m spacy download en_core_web_sm
+# python -m spacy download nl_core_news_sm
 nlp_en = spacy.load("en_core_web_sm")
 nlp_nl = spacy.load("nl_core_news_sm")
 final_stop_words = set(en_stop).union(nl_stop)
