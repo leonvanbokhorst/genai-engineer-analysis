@@ -10,111 +10,111 @@ This document contains the output of the `analyze_clusters.py` script, showing t
 
 ### Cluster 1
 
-**Keywords:** `customer`, `operational`, `service`, `ai`, `efficiency`, `technical`, `advanced`, `operational efficiency`, `aidriven`, `satisfaction`, `customer satisfaction`, `technology`, `system`, `systems`, `tools`
+**Keywords:** `customer`, `operational`, `efficiency`, `ai`, `service`, `technical`, `advanced`, `aidriven`, `operational efficiency`, `satisfaction`, `customer satisfaction`, `systems`, `efficiency customer`, `aidriven systems`, `tools`
 
 ### Cluster 2
 
-**Keywords:** `ai`, `aar`, `system`, `human expertise`, `human`, `ai system`, `complex`, `customer`, `the`, `expertise`, `technical`, `improving the`, `likely struggle`, `likely`, `yet`
+**Keywords:** `ai`, `aar`, `complex`, `system`, `human expertise`, `human`, `ai system`, `customer`, `expertise`, `technical`, `fully resolve`, `complex issues`, `provide detailed`, `complex tickets`, `prototype test`
 
 ### Cluster 3
 
-**Keywords:** `ai`, `product`, `the`, `aidriven`, `strategic`, `engineering`, `development`, `creating`, `tools`, `solution`, `strategic product`, `expertise`, `team`, `new`, `expect`
+**Keywords:** `ai`, `product`, `aidriven`, `strategic`, `development`, `creating`, `engineering`, `tools`, `solution`, `expertise`, `strategic product`, `team`, `new`, `expect`, `feature`
 
 ### Cluster 4
 
-**Keywords:** `client`, `ai`, `consulting`, `project`, `the`, `software`, `delivery`, `panel`, `project delivery`, `youre`, `generative`, `business`, `generative ai`, `service`, `gathering`
+**Keywords:** `client`, `ai`, `consulting`, `project`, `software`, `delivery`, `youre`, `project delivery`, `panel`, `business`, `generative ai`, `service`, `generative`, `survey`, `configuration`
 
 ### Cluster 5
 
-**Keywords:** `ai`, `development`, `student`, `integrate`, `application`, `that`, `educational`, `thousands student`, `thousands`, `web`, `backen`, `fronten backen`, `product`, `fronten`, `wont`
+**Keywords:** `ai`, `development`, `student`, `application`, `integrate`, `fronten`, `educational`, `fronten backen`, `product`, `wont`, `backen`, `thousands student`, `web`, `thousands`, `products`
 
 ### Cluster 6
 
-**Keywords:** `model`, `ai`, `ai model`, `code`, `expertise`, `help`, `opportunity`, `train`, `trainen ai`, `generative`, `trainen`, `outlier`, `the`, `related computer`, `related`
+**Keywords:** `model`, `ai`, `ai model`, `code`, `expertise`, `help`, `opportunity`, `generative`, `train`, `trainen ai`, `trainen`, `outlier`, `generated ai`, `science order`, `science`
 
 ### Cluster 7
 
-**Keywords:** `model`, `ai`, `ai model`, `project`, `code`, `rate`, `expertise`, `as`, `outlier`, `generative`, `trainen`, `trainen ai`, `train`, `projects`, `payment`
+**Keywords:** `model`, `ai`, `ai model`, `project`, `code`, `rate`, `expertise`, `payment`, `generative`, `opportunity`, `help`, `train`, `projects`, `outlier`, `trainen ai`
 
 ### Cluster 8
 
-**Keywords:** `ai`, `cloud`, `development`, `the`, `software`, `customer`, `as`, `our`, `software development`, `new`, `infrastructure`, `our customer`, `customer cloud`, `innovation`, `azure`
+**Keywords:** `ai`, `cloud`, `development`, `software`, `customer`, `software development`, `infrastructure`, `new`, `customer cloud`, `innovation`, `azure`, `satisfaction`, `crafting`, `getting`, `innovative`
 
 ### Cluster 9
 
-**Keywords:** `databricks`, `data`, `platform`, `technical`, `customer`, `client`, `business`, `makes`, `platform makes`, `creativity`, `values`, `forward`, `analytics`, `create`, `help`
+**Keywords:** `databricks`, `data`, `platform`, `technical`, `customer`, `client`, `business`, `creativity`, `platform makes`, `forward`, `values`, `help customer`, `makes`, `analytics`, `create`
 
 ### Cluster 10
 
-**Keywords:** `supporten`, `the`, `ai`, `service`, `internal`, `service quality`, `support`, `maintaining`, `tickets`, `same`, `the same`, `technologie`, `supporten tickets`, `enhance`, `customer`
+**Keywords:** `supporten`, `ai`, `service`, `supporten tickets`, `tickets`, `maintaining`, `technologie`, `service quality`, `support`, `internal`, `enhance`, `customer`, `quality`, `gebruikersapplicatie`, `ontwikkele`
 
 ### Cluster 11
 
-**Keywords:** `learning`, `ai`, `the`, `product`, `technical`, `our`, `products`, `that`, `team`, `engineering`, `wer`, `engineer`, `development`, `youll`, `education`
+**Keywords:** `learning`, `ai`, `product`, `technical`, `products`, `team`, `engineering`, `wer`, `engineer`, `development`, `youll`, `challenge`, `latest`, `education`, `cuttingedge`
 
 ### Cluster 12
 
-**Keywords:** `cpq`, `configuration`, `business`, `ai`, `technology`, `customer`, `role`, `salesforce`, `aidriven`, `the`, `solutions`, `directly`, `team`, `configuring`, `effective`
+**Keywords:** `cpq`, `configuration`, `business`, `ai`, `technology`, `customer`, `role`, `salesforce`, `aidriven`, `solutions`, `directly`, `team`, `configuring`, `effective`, `customers`
 
 ### Cluster 13
 
-**Keywords:** `security`, `defens`, `team`, `privacy`, `the`, `cyber`, `cyber defens`, `engineer`, `as`, `software`, `our`, `product`, `collaborate`, `platform`, `ai`
+**Keywords:** `security`, `defens`, `team`, `privacy`, `cyber`, `cyber defens`, `engineer`, `software`, `product`, `collaborate`, `platform`, `ai`, `design`, `software engineer`, `aar`
 
 ### Cluster 14
 
-**Keywords:** `the`, `infrastructure`, `team`, `linux`, `kandidaat`, `uitvoeren`, `werkzaamheid`, `iv`, `user`, `manager`, `responsible`, `engineer`, `new`, `beheer`, `meet`
+**Keywords:** `infrastructure`, `team`, `linux`, `manager`, `uitvoeren`, `werkzaamheid`, `iv`, `kandidaat`, `responsible`, `user`, `new`, `engineer`, `sien`, `beheer`, `system`
 
 ### Cluster 15
 
-**Keywords:** `ai`, `software`, `development`, `automation`, `tools`, `the`, `service`, `solutions`, `test`, `code`, `scalable`, `enhance`, `solution`, `aidriven`, `product`
+**Keywords:** `ai`, `software`, `development`, `tools`, `automation`, `service`, `solutions`, `test`, `scalable`, `code`, `enhance`, `solution`, `aidriven`, `product`, `customer`
 
 ### Cluster 16
 
-**Keywords:** `supporten`, `ai`, `service quality`, `technologie`, `maintaining`, `support`, `service`, `quality`, `internal`, `the`, `gebruiken`, `performance`, `improve`, `learning`, `development`
+**Keywords:** `supporten`, `ai`, `technologie`, `service`, `support`, `maintaining`, `service quality`, `quality`, `internal`, `gebruiken`, `performance`, `improve`, `llm`, `development`, `platforms`
 
 ### Cluster 17
 
-**Keywords:** `model`, `meet`, `team`, `llm`, `the`, `training`, `ai`, `customer`, `data`, `language`, `ontwikkelen`, `complexe`, `organisatie`, `custom`, `language model`
+**Keywords:** `model`, `meet`, `team`, `llm`, `training`, `ai`, `customer`, `data`, `language`, `ontwikkelen`, `organisatie`, `complexe`, `custom`, `language model`, `best`
 
 ### Cluster 18
 
-**Keywords:** `data`, `client`, `visualization`, `data visualization`, `business`, `ai`, `use`, `use ai`, `define`, `define requirement`, `delivery`, `provide recommendation`, `development`, `data workflows`, `development building`
+**Keywords:** `data`, `client`, `data visualization`, `visualization`, `business`, `ai`, `use`, `intelligence solutions`, `requirement`, `requirement provide`, `ensure solution`, `enhancing data`, `satisfaction`, `enhancing`, `engaging client`
 
 ### Cluster 19
 
-**Keywords:** `the`, `team`, `aws`, `work`, `software`, `cloud`, `as`, `company`, `bkw`, `aar`, `our`, `engineer`, `technisch`, `development`, `services`
+**Keywords:** `team`, `aws`, `work`, `software`, `cloud`, `company`, `aar`, `bkw`, `engineer`, `development`, `services`, `technisch`, `google`, `manage`, `technical`
 
 ### Cluster 20
 
-**Keywords:** `ai`, `genai`, `the`, `software`, `team`, `quality`, `engineering`, `service`, `engineer`, `delivery`, `development`, `as`, `services`, `testing`, `code`
+**Keywords:** `ai`, `genai`, `software`, `team`, `quality`, `engineering`, `service`, `engineer`, `delivery`, `development`, `services`, `testing`, `code`, `innovation`, `architecture`
 
 ### Cluster 21
 
-**Keywords:** `model`, `team`, `ai`, `review`, `learning`, `machine`, `machine learning`, `ml`, `code`, `data`, `python`, `business`, `the`, `development`, `system`
+**Keywords:** `model`, `team`, `ai`, `review`, `machine learning`, `learning`, `machine`, `ml`, `code`, `data`, `python`, `business`, `development`, `system`, `build`
 
 ### Cluster 22
 
-**Keywords:** `team`, `the`, `as`, `azure`, `maintain`, `client`, `meet`, `new`, `data`, `code`, `infrastructure`, `technical`, `devop`, `continuous`, `development`
+**Keywords:** `team`, `azure`, `maintain`, `client`, `meet`, `new`, `data`, `infrastructure`, `code`, `technical`, `continuous`, `devop`, `development`, `help`, `solution`
 
 ### Cluster 23
 
-**Keywords:** `data`, `the`, `ai`, `engineer`, `team`, `as`, `cloud`, `analytics`, `day`, `solutions`, `aar`, `looking`, `building`, `data engineer`, `engineering`
+**Keywords:** `data`, `team`, `ai`, `engineer`, `cloud`, `analytics`, `day`, `aar`, `solutions`, `looking`, `building`, `data engineer`, `engineering`, `azure`, `environment`
 
 ### Cluster 24
 
-**Keywords:** `machine`, `meet`, `machine learn`, `learn`, `modellen`, `oplossingen`, `middel`, `datum`, `ai`, `the`, `learning`, `machine learning`, `ervoor`, `team`, `zorgen`
+**Keywords:** `machine`, `meet`, `machine learn`, `learn`, `modellen`, `oplossingen`, `middel`, `ai`, `datum`, `machine learning`, `learning`, `team`, `ervoor`, `zorgen`, `data`
 
 ### Cluster 25
 
-**Keywords:** `data`, `machine`, `learning`, `machine learning`, `ml`, `model`, `team`, `the`, `engineer`, `ai`, `as`, `our`, `aar`, `platform`, `large`
+**Keywords:** `data`, `machine`, `learning`, `machine learning`, `ml`, `model`, `team`, `engineer`, `ai`, `aar`, `platform`, `llm`, `large`, `language`, `pipeline`
 
 ### Cluster 26
 
-**Keywords:** `ai`, `application`, `engineer`, `datum`, `customer`, `model`, `solutions`, `data`, `dept`, `software`, `team`, `business`, `microsoft`, `io`, `software engineer`
+**Keywords:** `ai`, `application`, `engineer`, `datum`, `customer`, `model`, `solutions`, `data`, `dept`, `software`, `team`, `business`, `microsoft`, `software engineer`, `technologies`
 
 ### Cluster 27
 
-**Keywords:** `data`, `datum`, `ai`, `the`, `team`, `engineer`, `pipeline`, `verantwoordelijk`, `onderhouden`, `generative ai`, `generative`, `generatieve`, `datum science`, `aiinfrastructuur`, `ondersteune`
+**Keywords:** `data`, `datum`, `ai`, `team`, `engineer`, `pipeline`, `verantwoordelijk`, `onderhouden`, `generative ai`, `generative`, `datum science`, `ondersteune`, `generatieve`, `aiinfrastructuur`, `development`
 
 ### Cluster 28
 
@@ -122,23 +122,23 @@ This document contains the output of the `analyze_clusters.py` script, showing t
 
 ### Cluster 29
 
-**Keywords:** `team`, `meet`, `the`, `ai`, `engineer`, `user`, `as`, `product`, `software`, `development`, `backen`, `code`, `youll`, `backend`, `stack`
+**Keywords:** `team`, `meet`, `ai`, `engineer`, `user`, `product`, `software`, `development`, `backen`, `youll`, `code`, `backend`, `working`, `developer`, `stack`
 
 ### Cluster 30
 
-**Keywords:** `ai`, `model`, `team`, `performance`, `llm`, `language`, `the`, `ml`, `training`, `engineer`, `data`, `research`, `learning`, `development`, `as`
+**Keywords:** `ai`, `model`, `team`, `performance`, `llm`, `language`, `ml`, `training`, `engineer`, `data`, `research`, `learning`, `development`, `datum`, `solutions`
 
 ### Cluster 31
 
-**Keywords:** `ai`, `team`, `data`, `the`, `new`, `business`, `solutions`, `design`, `as`, `engineer`, `products`, `application`, `digital`, `collaborate`, `system`
+**Keywords:** `ai`, `team`, `data`, `new`, `business`, `solutions`, `design`, `engineer`, `products`, `digital`, `application`, `collaborate`, `system`, `aar`, `students`
 
 ### Cluster 32
 
-**Keywords:** `meet`, `data`, `ai`, `team`, `customer`, `the`, `solutions`, `werk`, `our`, `ai solutions`, `engineer`, `model`, `machine`, `new`, `maken`
+**Keywords:** `meet`, `data`, `ai`, `team`, `customer`, `solutions`, `werk`, `ai solutions`, `engineer`, `new`, `model`, `machine`, `wer`, `software`, `product`
 
 ### Cluster 33
 
-**Keywords:** `team`, `the`, `ai`, `meet`, `generative`, `generative ai`, `product`, `platform`, `developer`, `new`, `as`, `data`, `solutions`, `customer`, `nieuwe`
+**Keywords:** `team`, `ai`, `meet`, `generative`, `generative ai`, `product`, `platform`, `new`, `developer`, `data`, `solutions`, `customer`, `engineer`, `nieuwe`, `design`
 
 ### Cluster 34
 
@@ -146,4 +146,4 @@ This document contains the output of the `analyze_clusters.py` script, showing t
 
 ### Cluster 35
 
-**Keywords:** `ai`, `meet`, `data`, `team`, `model`, `the`, `engineer`, `customer`, `solutions`, `generative`, `generative ai`, `maken`, `implementeren`, `aimodellen`, `ai engineer`
+**Keywords:** `ai`, `meet`, `data`, `team`, `model`, `engineer`, `customer`, `solutions`, `generative`, `generative ai`, `maken`, `implementeren`, `aimodellen`, `ai engineer`, `role`
