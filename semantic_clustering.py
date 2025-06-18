@@ -4,6 +4,7 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 from umap import UMAP
 import hdbscan
+from sklearn.metrics import pairwise_distances
 
 # --- Configuration ---
 DATA_FILE = "data/consolidated.csv"
@@ -13,6 +14,12 @@ EMBEDDINGS_FILE = (
     f"data/embeddings-{MODEL_NAME.replace('/', '_')}.npy"  # Sanitize filename
 )
 CLUSTERED_DATA_FILE = "data/clustered_jobs.csv"
+
+# --- Clustering Parameters ---
+N_NEIGHBORS = 15
+MIN_DIST = 0.1
+MIN_CLUSTER_SIZE = 20  # A more balanced setting
+METRIC = "cosine"
 
 # --- Core Functions ---
 
@@ -57,7 +64,7 @@ def reduce_dimensionality(embeddings):
     """
     print("Reducing dimensionality with UMAP...")
     reducer = UMAP(
-        n_neighbors=15, n_components=2, min_dist=0.1, metric="cosine", random_state=42
+        n_neighbors=N_NEIGHBORS, min_dist=MIN_DIST, metric=METRIC, random_state=42
     )
     reduced_embeddings = reducer.fit_transform(embeddings)
     print(f"Dimensionality reduced to {reduced_embeddings.shape}.")
@@ -68,11 +75,17 @@ def perform_clustering(embeddings, df):
     """
     Performs clustering using HDBSCAN and returns the updated DataFrame.
     """
-    print("Performing clustering with HDBSCAN...")
+    print("Clustering with HDBSCAN...")
+    # HDBSCAN works well with precomputed distances
+    distance_matrix = pairwise_distances(embeddings, metric=METRIC)
+
     clusterer = hdbscan.HDBSCAN(
-        min_cluster_size=10, metric="euclidean", gen_min_span_tree=True
-    )
-    clusterer.fit(embeddings)
+        min_cluster_size=MIN_CLUSTER_SIZE,
+        metric="precomputed",
+        cluster_selection_epsilon=CLUSTER_SELECTION_EPSILON,
+    ).fit(
+        distance_matrix.astype(np.float64)
+    )  # Ensure float64 dtype
 
     # Add cluster labels to the DataFrame
     df["cluster"] = clusterer.labels_
@@ -104,8 +117,8 @@ def main():
         df["x"] = reduced_embeddings[:, 0]
         df["y"] = reduced_embeddings[:, 1]
 
-        # Step 3: Perform clustering on the reduced embeddings
-        df_clustered = perform_clustering(reduced_embeddings, df)
+        # Step 3: Perform clustering on the original high-dimensional embeddings
+        df_clustered = perform_clustering(embeddings, df)
 
         # Step 4: Save the results
         print(f"Saving clustered data to {CLUSTERED_DATA_FILE}...")
