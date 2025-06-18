@@ -4,38 +4,46 @@
 # These are used to filter the initial dataset.
 # The script will search for these in the job title and description.
 JOB_FILTER_KEYWORDS = [
+    # Core GenAI Terms
     "generative ai",
     "genai",
     "large language model",
     "llm",
     "gpt",
-    "dalle",
-    "midjourney",
-    "stable diffusion",
-    "prompt engineer",
     "langchain",
     "llama",
+    # Foundational AI/ML Concepts
+    "natural language processing",
+    "nlp",
+    "computer vision",
+    "semantic search",
+    "vector search",
+    # Specific Models & Companies
+    "claude",
+    "anthropic",
+    "gemini",
+    "mistral",
+    # Techniques
+    "prompt engineer",
+    "fine-tuning",
+    "rag",
+    "retrieval augmented generation",
 ]
 
 # Keywords for Technology Analysis (RQ2)
 TECHNOLOGIES = {
     # Programming Languages
     "Python": ["python"],
-    "Java": ["java"],
-    "C++": ["c\\+\\+"],
-    "JavaScript": ["javascript", "js"],
-    "TypeScript": ["typescript", "ts"],
-    "Go": ["golang", " go "],
-    "Rust": ["rust"],
-    "SQL": ["sql"],
+    "JavaScript": [r"\bjs\b", "javascript"],
+    "TypeScript": [r"\bts\b", "typescript"],
     # AI/ML/Data Frameworks
-    "TensorFlow": ["tensorflow", "tf"],
-    "PyTorch": ["pytorch", "torch"],
+    "TensorFlow": [r"\btf\b", "tensorflow"],
+    "PyTorch": ["torch", "pytorch"],
     "Keras": ["keras"],
     "Scikit-learn": ["scikit-learn", "sklearn"],
     "Pandas": ["pandas"],
     "NumPy": ["numpy"],
-    "Hugging Face": ["hugging face", "huggingface"],
+    "Hugging Face": ["hugging face", "huggingface", "transformers"],
     "LangChain": ["langchain"],
     "LlamaIndex": ["llamaindex"],
     "Spark": ["spark"],
@@ -47,13 +55,20 @@ TECHNOLOGIES = {
     "Docker": ["docker"],
     "Kubernetes": ["kubernetes", "k8s"],
     "Git": ["git"],
+    "GitHub / GitLab / Bitbucket": ["github", "git hub", "gitlab", "bitbucket"],
     "MLFlow": ["mlflow"],
     "Kubeflow": ["kubeflow"],
     # Vector Databases
     "Pinecone": ["pinecone"],
     "Weaviate": ["weaviate"],
     "Milvus": ["milvus"],
-    "Chroma": ["chroma"],
+    "Chroma": ["chroma", "chromadb"],
+    "OpenAI": ["openai"],
+    "Anthropic": ["anthropic"],
+    "Google": ["google"],
+    "Meta": ["meta"],
+    "Microsoft": ["microsoft"],
+    "NVIDIA": ["nvidia"],
 }
 
 # Keywords for Soft Skills Analysis (RQ3)
@@ -126,6 +141,7 @@ JOB_TASKS = {
         "infrastructure",
         "ci/cd",
         "mlops",
+        "llmops"
         "robust",
     ],
 }
