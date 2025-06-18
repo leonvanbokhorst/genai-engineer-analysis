@@ -4,20 +4,20 @@ This project provides a flexible pipeline to analyze job market data for specifi
 
 ## Findings: The GenAI Engineer Profile (Definitive)
 
-Our refined analysis pipeline filtered a dataset of 1,283 job ads down to **937 relevant GenAI Engineer job ads**. This broader and more accurate filter reveals a clear profile of the modern GenAI Engineer. The key findings are summarized below.
+Our final, refined analysis pipeline filtered a dataset of 1,283 job ads down to **1,173 relevant jobs** that mention AI or Generative AI concepts. This comprehensive filter provides a clear and robust profile of the modern AI/GenAI Engineer. The key findings are summarized below.
 
 ### Job Tasks (RQ1)
 
-The role is defined by three core pillars: Software Development, GenAI/LLM-specific engineering, and a deep understanding of the business context. This confirms the GenAI Engineer is a product-focused role, not just a research or modeling position.
+The role is defined by three core pillars: Software Development, GenAI/LLM-specific engineering, and a deep understanding of the business context. This confirms the AI/GenAI Engineer is a product-focused role, not just a research or modeling position.
 
 | Task Category          | Mentions |
 | ---------------------- | -------- |
-| Software Development   | 787      |
-| GenAI/LLM Engineering  | 743      |
-| Business Understanding | 743      |
-| Modeling               | 561      |
-| Operations Engineering | 437      |
-| Data Engineering       | 94       |
+| Software Development   | 991      |
+| Business Understanding | 935      |
+| GenAI/LLM Engineering  | 753      |
+| Modeling               | 647      |
+| Operations Engineering | 529      |
+| Data Engineering       | 129      |
 
 ### Technologies (RQ2)
 
@@ -25,26 +25,24 @@ The technology landscape is dominated by core software engineering tools (Git, P
 
 | Technology        | Mentions |
 | ----------------- | -------- |
-| Git               | 151      |
-| Python            | 130      |
-| AWS               | 117      |
-| Azure             | 112      |
-| OpenAI            | 53       |
-| Google            | 46       |
-| Microsoft         | 45       |
-| ... (and 22 more) | ...      |
+| Git               | 183      |
+| Python            | 163      |
+| Azure             | 131      |
+| AWS               | 129      |
+| OpenAI            | 54       |
+| ... (and 24 more) | ...      |
 
 ### Soft Skills (RQ3)
 
-The ideal candidate is a senior-level figure, expected to be a mentor and an innovator for their team and the company.
+The ideal candidate is a senior-level figure, expected to be a mentor and an innovator for their team and the company, with a strong emphasis on continuous learning.
 
 | Soft Skill       | Mentions |
 | ---------------- | -------- |
-| Coaching         | 431      |
-| Innovative       | 418      |
-| Open to learn    | 414      |
-| Team-oriented    | 296      |
-| Passionate       | 270      |
+| Open to learn    | 519      |
+| Coaching         | 512      |
+| Innovative       | 487      |
+| Team-oriented    | 371      |
+| Passionate       | 330      |
 | ... (and 5 more) | ...      |
 
 ---
