@@ -2,6 +2,8 @@ import pandas as pd
 import os
 import numpy as np
 from sentence_transformers import SentenceTransformer
+from umap import UMAP
+import hdbscan
 
 # --- Configuration ---
 DATA_FILE = "data/consolidated.csv"
@@ -10,6 +12,7 @@ MODEL_NAME = "paraphrase-multilingual-mpnet-base-v2"
 EMBEDDINGS_FILE = (
     f"data/embeddings-{MODEL_NAME.replace('/', '_')}.npy"  # Sanitize filename
 )
+CLUSTERED_DATA_FILE = "data/clustered_jobs.csv"
 
 # --- Core Functions ---
 
@@ -48,6 +51,39 @@ def generate_embeddings(texts, model_name, cache_file):
     return embeddings
 
 
+def reduce_dimensionality(embeddings):
+    """
+    Reduces the dimensionality of embeddings using UMAP.
+    """
+    print("Reducing dimensionality with UMAP...")
+    reducer = UMAP(
+        n_neighbors=15, n_components=2, min_dist=0.1, metric="cosine", random_state=42
+    )
+    reduced_embeddings = reducer.fit_transform(embeddings)
+    print(f"Dimensionality reduced to {reduced_embeddings.shape}.")
+    return reduced_embeddings
+
+
+def perform_clustering(embeddings, df):
+    """
+    Performs clustering using HDBSCAN and returns the updated DataFrame.
+    """
+    print("Performing clustering with HDBSCAN...")
+    clusterer = hdbscan.HDBSCAN(
+        min_cluster_size=10, metric="euclidean", gen_min_span_tree=True
+    )
+    clusterer.fit(embeddings)
+
+    # Add cluster labels to the DataFrame
+    df["cluster"] = clusterer.labels_
+
+    num_clusters = len(set(clusterer.labels_)) - (1 if -1 in clusterer.labels_ else 0)
+    num_noise = list(clusterer.labels_).count(-1)
+
+    print(f"Found {num_clusters} clusters and {num_noise} noise points.")
+    return df
+
+
 def main():
     """Main function to run the semantic clustering pipeline."""
     df = load_and_prepare_data(DATA_FILE)
@@ -62,8 +98,19 @@ def main():
         print(
             f"Successfully generated/loaded {embeddings.shape[0]} embeddings of dimension {embeddings.shape[1]}."
         )
-        # --- Further steps (clustering, reduction) will be added here ---
-        print("Next steps: Clustering and dimensionality reduction.")
+
+        # Step 2: Reduce dimensionality for visualization and easier clustering
+        reduced_embeddings = reduce_dimensionality(embeddings)
+        df["x"] = reduced_embeddings[:, 0]
+        df["y"] = reduced_embeddings[:, 1]
+
+        # Step 3: Perform clustering on the reduced embeddings
+        df_clustered = perform_clustering(reduced_embeddings, df)
+
+        # Step 4: Save the results
+        print(f"Saving clustered data to {CLUSTERED_DATA_FILE}...")
+        df_clustered.to_csv(CLUSTERED_DATA_FILE, index=False)
+        print("Done.")
 
 
 if __name__ == "__main__":
