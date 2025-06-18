@@ -1,33 +1,26 @@
 # Configuration file for the Job Analysis Pipeline
 
 # Keywords to identify the target job role (e.g., GenAI Engineer)
-# These are used to filter the initial dataset.
-# The script will search for these in the job title and description.
+# This list is sanitized to be more "in the spirit" of the CAIN2022 paper,
+# focusing on broad concepts and techniques rather than specific, fast-moving
+# product names or libraries.
 JOB_FILTER_KEYWORDS = [
-    # Core GenAI Terms
+    # Foundational AI/ML Terms (often used for GenAI roles)
+    # "ai",
+    # "artificial intelligence",
+    # "machine learning",
+    # Core GenAI Concepts
     "generative ai",
     "genai",
     "large language model",
     "llm",
-    "gpt",
-    "langchain",
-    "llama",
-    # Foundational AI/ML Concepts
+    "prompt engineer",
+    "prompt engineering",
+    "prompt",
+    # Foundational AI/ML Concepts (often precursors to GenAI roles)
     "natural language processing",
     "nlp",
     "computer vision",
-    "semantic search",
-    "vector search",
-    # Specific Models & Companies
-    "claude",
-    "anthropic",
-    "gemini",
-    "mistral",
-    # Techniques
-    "prompt engineer",
-    "fine-tuning",
-    "rag",
-    "retrieval augmented generation",
 ]
 
 # Keywords for Technology Analysis (RQ2)
@@ -63,12 +56,6 @@ TECHNOLOGIES = {
     "Weaviate": ["weaviate"],
     "Milvus": ["milvus"],
     "Chroma": ["chroma", "chromadb"],
-    "OpenAI": ["openai"],
-    "Anthropic": ["anthropic"],
-    "Google": ["google"],
-    "Meta": ["meta"],
-    "Microsoft": ["microsoft"],
-    "NVIDIA": ["nvidia"],
 }
 
 # Keywords for Soft Skills Analysis (RQ3)
@@ -141,7 +128,6 @@ JOB_TASKS = {
         "infrastructure",
         "ci/cd",
         "mlops",
-        "llmops"
-        "robust",
+        "llmops",
     ],
 }
