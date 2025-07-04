@@ -23,7 +23,7 @@ This document contains the manual coding for the "Motion & ai production develop
 
 ### Overarching Professional Skills
 
-- **1.C.1. Business Aunderstanding & Strategy:**
+- **1.C.1. Business Understanding & Strategy:**
   - "Act as a bridge between project teams and production to gather insights and improve capabilities."
   - "explore new innovations to enhance customer communication and production processes."
 
