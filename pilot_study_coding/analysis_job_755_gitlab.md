@@ -16,7 +16,7 @@ This document contains the manual coding for the "Intermediate Machine Learning 
   - "Build scalable evaluation pipelines and frameworks"
   - "Ensure all solutions align with GitLab's infrastructure and security protocols"
 
-### Macro-Gategory B: GenAI Specialization
+### Macro-Category B: GenAI Specialization
 
 - **1.B.1. Model Development & Fine-Tuning:**
   - "Design and implement technical evaluators for LLM assessment."
