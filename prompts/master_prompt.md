@@ -38,11 +38,21 @@ Inside the `<chain_of_thought>` block, you will perform the following steps:
 
 ### Step 5: Profile Assignment
 
-- Based on the evidence gathered in the Job Task Analysis, assign one of the three profiles:
-  - `Core GenAI Engineer`: A balanced mix of tasks from both `Macro-Category A: Core Software Engineering` and `Macro-Category B: GenAI Specialization`.
-  - `AI-Adjacent Software Engineer`: Tasks are predominantly from `Macro-Category A`. The role builds software that _uses_ or _supports_ AI, but doesn't build the models themselves.
-  - `GenAI Specialist`: Tasks are predominantly from `Macro-Category B`. The role is deeply focused on a specific aspect of the AI lifecycle (e.g., model training, prompt engineering, data science for modeling) and involves less general software development.
+- Based on the evidence gathered, assign one of the seven profiles. Pay close attention to the distinction between traditional ML and modern GenAI roles.
+  - `Core GenAI Engineer`: Balanced mix of A and B. Tasks/tools are specific to Generative AI (LLMs, RAG, etc.).
+  - `Core ML Engineer`: Balanced mix of A and B. Tasks/tools are specific to traditional ML (predictive models, classifiers, etc.).
+  - `AI-Adjacent Software Engineer`: Mostly A. Integrates AI/ML features into a product.
+  - `Software Engineer`: Exclusively A. Does not integrate AI/ML into the product.
+  - `GenAI Specialist`: Mostly B. Focused on Generative AI tasks.
+  - `ML Specialist (Data Scientist)`: Mostly B. Focused on traditional ML tasks.
+  - `Not Relevant`: No significant tasks from A or B.
 - Provide a clear, evidence-based rationale for your profile choice, referencing your findings from Step 2.
+
+### Step 6: Confidence Assessment
+
+- After assigning the profile, reflect on the quality and clarity of the job ad.
+- Assess your confidence in your analysis on a scale of 1 to 5, where 1 is very low (pure guess) and 5 is very high (unambiguous).
+- Provide a brief reason for your confidence score. For example, a low score might be due to vague language, a lack of detail, or conflicting responsibilities. A high score would be for a clear, detailed, and consistent job description.
 
 ---
 
@@ -79,6 +89,10 @@ The final JSON output must conform to the following structure:
   "profile": {
     "assigned_profile": "...",
     "rationale": "..."
+  },
+  "confidence": {
+    "score": 5,
+    "reasoning": "The job ad was exceptionally clear and detailed, with a perfect alignment between the listed responsibilities and the defined profiles."
   }
 }
 ```

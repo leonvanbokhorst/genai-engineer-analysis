@@ -61,3 +61,77 @@ This evolution is an **extension, not a replacement,** of the original paper's m
 - Directly test the "software engineering first" hypothesis by quantifying the prevalence of each profile.
 
 This decision will be applied to all ads coded during the pilot study and the subsequent automated analysis.
+
+---
+
+## 2025-07-05: Refining Analysis Profiles and Process
+
+Upon reviewing the initial automated analysis approach, a critical need for further refinement was identified to handle edge cases and ensure the scientific rigor of our results.
+
+### The Challenge: Ambiguity of "AI-Adjacent" and Irrelevant Ads
+
+1.  **"AI-Adjacent" was too broad:** The definition could inadvertently include software engineers who merely _use_ AI-assisted tools (e.g., GitHub Copilot) rather than building software that _integrates_ AI as a feature.
+2.  **Lack of a "Not Relevant" category:** The initial keyword-based data collection inevitably pulled in some job ads that, upon closer inspection, were completely unrelated to either software or AI engineering (e.g., sales roles mentioning "AI").
+
+### The Solution: Stricter Definitions and a Validation Phase
+
+Following a discussion inspired by Petra's feedback, the following actions were taken:
+
+1.  **Refined `AI-Adjacent` Definition:** The `CODING_BOOK.md` and `master_prompt.md` were updated to clarify that this profile is for roles where the _output_ of the work is an AI-powered feature, not just roles using AI tools for productivity.
+2.  **Added `Not Relevant` Profile:** A new profile, `Not Relevant`, was introduced to formally categorize and exclude job ads that do not fit our study's criteria. This aligns with the implicit filtering methodology of the original CAIN2022 paper.
+3.  **Adopted Post-Analysis Validation:** A new step was formally added to our `PLAN.md`. After the automated analysis is complete, a random sample of the results will be manually reviewed. This will allow us to validate the accuracy of the automated system and quantify its performance on ambiguous or edge-case job ads.
+4.  **Cleared Obsolete Results:** All analysis files generated with the old, less precise methodology were deleted from `data/automated_analysis/` to ensure a clean slate for the upcoming, more rigorous analysis run.
+
+---
+
+## 2025-07-05 (PM): Final Profile Refinement
+
+A final, crucial distinction was proposed to ensure the highest fidelity in our analysis.
+
+### The Challenge: Differentiating AI Builders from AI Users
+
+The refined definition of `AI-Adjacent Software Engineer` was good, but it didn't fully separate a key group: standard Software Engineers who work in an "AI-first" company or use AI-assisted tools (like Copilot) for productivity, but whose work product is not itself an AI-powered system.
+
+### The Solution: A Five-Profile System
+
+A new profile was created to capture this distinction:
+
+1.  **`Software Engineer` Profile Added:** This new profile is for roles that are purely `Core Software Engineering` (Macro-Category A). They do not build or integrate AI models into the product. This distinguishes them from `AI-Adjacent` roles, which _do_ integrate AI into the product.
+2.  **Five-Profile Model:** Our final classification system now consists of five distinct profiles: `Core GenAI Engineer`, `AI-Adjacent Software Engineer`, `Software Engineer`, `GenAI Specialist`, and `Not Relevant`.
+3.  **Documentation Updated:** The `CODING_BOOK.md` and `master_prompt.md` were both updated to reflect this final, more nuanced system before commencing the definitive analysis run.
+
+---
+
+## 2025-07-05 (Evening): Adding Confidence Scoring
+
+To better handle ambiguity and assess the reliability of the automated analysis on a per-job basis, a confidence scoring mechanism was introduced.
+
+### The Challenge: Quantifying Uncertainty
+
+Some job ads are vague, contradictory, or lack detail. A simple classification doesn't capture the model's potential uncertainty in these cases.
+
+### The Solution: Self-Reflection in the Prompt
+
+Instead of a more complex ensemble method, a "self-reflection" step was added directly into the `master_prompt.md`:
+
+1.  **Confidence Score:** The prompt now instructs the model to add a `confidence` block to its JSON output, containing a `score` (1-5) and a `reasoning` field.
+2.  **Explicit Instruction:** The model must assess its own confidence based on the clarity and consistency of the job ad it just analyzed.
+3.  **Benefit:** This provides a direct, per-item measure of confidence without increasing analysis time or cost, allowing us to easily identify and review low-confidence classifications later.
+
+---
+
+## 2025-07-05 (Final Refinement): Distinguishing ML vs. GenAI Roles
+
+The last and most subtle refinement was to differentiate between traditional Machine Learning engineering and modern Generative AI engineering.
+
+### The Challenge: The "AI Engineer" Title is Ambiguous
+
+The term "AI Engineer" is often used to describe both classical ML roles (focused on predictive models, MLOps) and the newer GenAI roles (focused on LLMs). Grouping them together as `Core GenAI Engineer` would obscure a key trend in the job market.
+
+### The Solution: A Six-Profile System with Clear Specializations
+
+The classification system was expanded to its final six-profile form:
+
+1.  **`Core GenAI Engineer` vs. `Core ML Engineer`:** The core engineering profile was split to distinguish between those working with generative tech versus traditional ML.
+2.  **`GenAI Specialist` vs. `ML Specialist`:** The specialist profile was also split to maintain symmetry, clearly identifying roles focused purely on traditional data science.
+3.  **Final System:** The definitive list of profiles is now: `Core GenAI Engineer`, `Core ML Engineer`, `AI-Adjacent Software Engineer`, `Software Engineer`, `GenAI Specialist`, `ML Specialist (Data Scientist)`, and `Not Relevant`. All documentation was updated to reflect this.
