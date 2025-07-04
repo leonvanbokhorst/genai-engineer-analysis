@@ -48,16 +48,16 @@ Our mission is to understand the role, skills, and expectations for a **GenAI En
     - Educational requirements
     - Common job titles
 
-2.  **Automated Thematic Coding with Human Validation:** To analyze a much larger dataset with scientific rigor, we will automate the coding process using the Gemini API, validated by human experts.
+2.  **Automated Thematic Coding with Human Validation:** To analyze a much larger dataset with scientific rigor, we will automate the coding process using the Gemini API, validated by human experts. The analysis will use our three-profile system (`Core GenAI Engineer`, `AI-Adjacent Software Engineer`, `GenAI Specialist`) and a `Not Relevant` category to filter out inapplicable ads.
 
     - **a. Develop a "Coding Book":** We will first create a comprehensive document defining every category and sub-category for job tasks, technologies, and soft skills. This ensures consistency and is based on our semantic, multilingual guiding principles.
-    - **b. Manual Pilot Study:** We will manually code a small set of ~50 ads using the Coding Book. This creates our "ground truth" dataset, which serves as the basis for training and validating the AI.
-    - **c. Data-Driven Refinement of Coding Book:** As per your directive, we will analyze the manually coded data from the pilot study to identify the most common real-world phrases and terminology for each category. We will then use these insights to update and improve the `Example Phrases` in our `CODING_BOOK.md`, making it more aligned with the language currently used in the industry.
-    - **d. Engineer and Refine Master Prompt:** Using our refined Coding Book, we will craft a detailed master prompt for the Gemini API. We will then test and iteratively refine this prompt against our "ground truth" dataset until its performance is satisfactory.
-    - **e. Full-Scale Automated Coding:** Once validated, the refined prompt will be used to process the entire dataset of job ads automatically.
-    - **f. Scientific Validation (`Steekproef`):** To ensure our automated method is scientifically sound, we will perform a final validation. A human expert will manually code a new, larger random sample (10-15%) of the AI-coded data. We will then calculate the Inter-Rater Reliability (e.g., Cohen's Kappa) between the human and AI "raters". A high score will validate our approach. We will report this entire process and the final score in our paper for full transparency.
+    - **b. Manual Pilot Study:** We have manually coded a small set of ~15 ads using the Coding Book. This created our "ground truth" dataset, which served as the basis for training and validating the AI.
+    - **c. Data-Driven Refinement of Coding Book:** We have analyzed the manually coded data from the pilot study to identify the most common real-world phrases and terminology for each category. We then used these insights to update and improve the `Example Phrases` in our `CODING_BOOK.md`.
+    - **d. Engineer and Refine Master Prompt:** We have crafted a detailed master prompt for the Gemini API using our refined Coding Book.
+    - **e. Full-Scale Automated Coding:** The refined prompt will be used to process the entire dataset of job ads automatically.
+    - **f. Scientific Validation (`Steekproef`):** To ensure our automated method is scientifically sound, we will perform a final validation. A human expert will manually code a new, random sample (e.g., 50-100 ads) of the AI-coded data. We will then calculate the Inter-Rater Reliability (e.g., Cohen's Kappa) between the human and AI "raters". A high score will validate our approach and allow us to report the accuracy of our automated method. This step is critical for ensuring the trustworthiness of our final results.
 
-3.  **Synthesize Findings:** We will analyze the structured data from the coding phase to answer our research questions, identifying key patterns and frequencies.
+3.  **Synthesize Findings:** We will analyze the structured data from the validated coding phase to answer our research questions, identifying key patterns and frequencies.
 
 ---
 

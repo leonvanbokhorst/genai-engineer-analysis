@@ -16,13 +16,25 @@ This document provides the definitions for the thematic coding of GenAI Engineer
 
 ### Rationale for a Two-Tiered Categorization
 
-To rigorously test the hypothesis that the GenAI Engineer is fundamentally a software engineering role augmented with AI-specific skills, we are adopting a two-tiered categorization system. This approach differs from the original paper's flat list of categories by explicitly grouping tasks into **Core Software Engineering** and **GenAI Specialization**.
+To rigorously test the hypothesis that the GenAI Engineer is fundamentally a software engineering role augmented with AI-specific skills, we are adopting a two-tiered categorization system. This approach differs from the original paper's CAIN2022 (2022 Heck et al.) flat list of categories by explicitly grouping tasks into **Core Software Engineering** and **AI Specialization**.
 
 This structure allows us to quantitatively analyze the job market's emphasis. If the "software engineering first" hypothesis is correct, we expect to see a significantly higher frequency of coded phrases within the _Core Software Engineering_ macro-category. This methodological decision enables a more nuanced analysis, directly addressing a central question about the nature of the GenAI Engineer profession.
 
 The following detailed sub-categories provide the necessary granularity for accurate coding, while the two primary macro-categories frame our analysis. `Business Understanding` is kept separate as it represents a general professional skill applicable across senior technical roles.
 
 ---
+
+### Job Profiles
+
+Based on the distribution of tasks between the two macro-categories, each job ad will be assigned one of the following profiles. The distinction between `GenAI` and `ML` engineer is critical.
+
+- **`Core GenAI Engineer`**: A balanced mix of tasks from `Macro-Category A` and `B`. Critically, the tasks and technologies are focused on **Generative AI** (e.g., LLMs, RAG, LangChain, prompt engineering, diffusion models).
+- **`Core ML Engineer`**: A balanced mix of tasks from `Macro-Category A` and `B`. The tasks and technologies are focused on **traditional Machine Learning** (e.g., predictive modeling, classification, regression, computer vision) and do not significantly involve generative models.
+- **`AI-Adjacent Software Engineer`**: Tasks are predominantly from `Macro-Category A`. The role builds or maintains software that directly uses or supports AI/ML models as a core part of its functionality. The output of their work is an AI-powered feature or system.
+- **`Software Engineer`**: Tasks are exclusively from `Macro-Category A`. The role does not involve building or integrating AI models. The job may mention AI-assisted tools for productivity, but the final product is not an AI-powered system.
+- **`GenAI Specialist`**: Tasks are predominantly from `Macro-Category B` and are focused on **Generative AI**.
+- **`ML Specialist (Data Scientist)`**: Tasks are predominantly from `Macro-Category B` and are focused on **traditional Machine Learning**.
+- **`Not Relevant`**: The job ad shows no significant tasks related to either `Core Software Engineering` or `GenAI Specialization`. It is likely an unrelated role (e.g., sales, marketing, traditional data analysis) that may have been caught by broad keyword searches.
 
 ### Macro-Category A: Core Software Engineering
 
@@ -38,6 +50,9 @@ _Encompasses the foundational tasks of building, shipping, and maintaining robus
   - "ensuring that what you deliver is scalable, reliable, and secure"
   - "Je integreert de ontwikkelde machine learning-oplossingen in bestaande systemen en applicaties" (You integrate the developed machine learning solutions into existing systems and applications)
   - "Code review of team members' commits"
+  - "je hebt de vrijheid om je creativiteit en technische vaardigheden in te zetten waar het écht telt." (you have the freedom to apply your creativity and technical skills where it really counts.)
+  - "Provide technical leadership"
+  - "rally peers behind your vision"
 
 #### 1.A.2. Operations & MLOps (LLMOps)
 
@@ -205,6 +220,7 @@ This section defines the non-technical, interpersonal, and mindset-related skill
 
 - **Definition:** A proactive and entrepreneurial mindset. The drive to take initiative, lead projects, champion new ideas, and take full responsibility for the quality and success of one's work.
 - **Examples:**
+
   - "showing entrepreneurship"
   - "Take the helm"
   - "Blaze a trail"
