@@ -1,0 +1,74 @@
+{
+    "analysis": {
+        "job_tasks": [
+            {
+                "category_id": "1.A.1",
+                "category_name": "Software Development & Integration",
+                "phrase": "Ontwikkeling van web- en mobiele applicaties: Het ontwerp en de bouw van gebruiksvriendelijke applicaties waarin de S2T-dienst wordt getoetst.",
+                "justification": "This phrase describes the traditional software engineering task of designing and building user-friendly applications."
+            },
+            {
+                "category_id": "1.A.1",
+                "category_name": "Software Development & Integration",
+                "phrase": "Integratie van de dienst in gebruikersapplicaties: Meehelpen aan de integratie van de S2T-dienst in bestaande gebruikersapplicaties.",
+                "justification": "This directly refers to integrating a service (S2T-dienst) into existing applications, a core software integration task."
+            },
+            {
+                "category_id": "1.A.1",
+                "category_name": "Software Development & Integration",
+                "phrase": "Bijdrage aan de middleware-layer: Bijdragen aan de ontwikkeling van de middleware-layer, waar de API-definitie wordt gerealiseerd en authenticatie plaatsvindt.",
+                "justification": "Developing a middleware layer, including API definition and authentication, is a fundamental software engineering activity."
+            },
+            {
+                "category_id": "1.A.2",
+                "category_name": "Operations & MLOps (LLMOps)",
+                "phrase": "De LLM's moeten via virtualisatietechnieken gedeployed worden op de Nvidia-stack.",
+                "justification": "Deploying LLMs on a specific stack (Nvidia) using virtualization techniques falls under MLOps/LLMOps for operationalizing models."
+            },
+            {
+                "category_id": "1.A.1",
+                "category_name": "Software Development & Integration",
+                "phrase": "De engineer werkt hier aan een schaalbaar, multi-tenant model.",
+                "justification": "Working on a scalable, multi-tenant model is a software engineering concern related to system architecture and design."
+            },
+            {
+                "category_id": "1.B.1",
+                "category_name": "Model Development & Fine-Tuning",
+                "phrase": "Primaire doelstelling is de S2T (door) te ontwikkelen zodat deze geïntegreerd kan worden in onze interne gebruikersapplicaties. Daarvoor is het van belang dat er een generieke dienst gebouwd wordt waarop LLM's gedraaid en getraind kunnen worden.",
+                "justification": "The primary objective of developing a generic service to run and train LLMs points to model development and operationalization."
+            },
+            {
+                "category_id": "1.B.1",
+                "category_name": "Model Development & Fine-Tuning",
+                "phrase": "Hier ligt de hoofdfocus van de opdracht.",
+                "justification": "This phrase emphasizes the focus on the generic service for running and training LLMs, which is a core ML/GenAI task."
+            }
+        ],
+        "technologies": [
+            {
+                "category_id": "2.3",
+                "category_name": "LLM / Generative Models",
+                "tool_name": "LLM's"
+            },
+            {
+                "category_id": "2.6",
+                "category_name": "MLOps & Data Pipelines",
+                "tool_name": "Ci/cd"
+            },
+            {
+                "category_id": "2.9",
+                "category_name": "Other Technical Skills",
+                "tool_name": "Nvidia-stack"
+            }
+        ],
+        "soft_skills": []
+    },
+    "profile": {
+        "assigned_profile": "Core GenAI Engineer",
+        "rationale": "The job ad focuses on developing a generic service for running and training LLMs, which is a core GenAI task (1.B.1). It also involves significant software engineering activities like building applications, middleware, API definitions, and ensuring scalability (1.A.1). The deployment of LLMs on a specific stack (Nvidia) and CI/CD mention also point to MLOps/LLMOps (1.A.2). The balance of core GenAI tasks with substantial software engineering and MLOps responsibilities aligns best with the 'Core GenAI Engineer' profile."
+    },
+    "confidence": {
+        "score": 4,
+        "reasoning": "The job ad clearly outlines responsibilities related to LLMs, software development, and deployment. While the term 'Ci/cd engineer machine learning' in the title might suggest a stronger MLOps focus, the description leans more towards building the core service for LLMs and integrating it. The tasks are specific enough to assign a profile with high confidence, but the exact balance between pure software engineering and GenAI model operationalization could be slightly clearer."
+    }
+}
