@@ -1,4 +1,5 @@
 import os
+from dotenv import load_dotenv
 import google.generativeai as genai
 import pandas as pd
 import json
@@ -7,16 +8,18 @@ import time
 from tqdm import tqdm
 
 # --- Configuration ---
-# Add your Google API Key to your environment variables
+load_dotenv()  # Load variables from .env file
+
+# Add your Google API Key to your environment variables or a .env file
 # For example, in your ~/.zshrc or ~/.bashrc add:
 # export GOOGLE_API_KEY='YOUR_API_KEY'
 API_KEY = os.getenv("GOOGLE_API_KEY")
 if not API_KEY:
-    raise ValueError("GOOGLE_API_KEY environment variable not set.")
+    raise ValueError("GOOGLE_API_KEY not found in environment variables or .env file.")
 
 genai.configure(api_key=API_KEY)
 
-MODEL_NAME = "gemini-1.5-pro-latest"
+MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-1.5-pro-latest")
 GENERATION_CONFIG = {
     "temperature": 0.2,
     "top_p": 1,
@@ -103,18 +106,14 @@ def main():
 
     # For the purpose of this script, we'll combine relevant text fields
     df["full_text"] = (
-        df["Vacaturetitel"].fillna("")
-        + "\n\n"
-        + df["Vacaturetekst (origineel)"].fillna("")
-        + "\n\n"
-        + df["Functie-eisen (origineel)"].fillna("")
+        df["Vacaturetitel"].fillna("") + "\n\n" + df["Functieomschrijving"].fillna("")
     )
 
     print(f"Found {len(df)} total job ads to analyze.")
 
     # --- Analysis Loop ---
     for index, row in tqdm(df.iterrows(), total=df.shape[0], desc="Analyzing Jobs"):
-        job_id = row.get("id", index)
+        job_id = index
         output_path = OUTPUT_DIR / f"analysis_job_{job_id}.json"
 
         # Skip if already analyzed
