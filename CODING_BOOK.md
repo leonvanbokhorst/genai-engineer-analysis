@@ -31,17 +31,25 @@ _Encompasses the foundational tasks of building, shipping, and maintaining robus
 #### 1.A.1. Software Development & Integration
 
 - **Definition:** Traditional software engineering tasks required to build, integrate, and deploy GenAI features into user-facing applications. This includes API development, building backend services, and ensuring the application is robust and scalable.
-- **Example Phrases:**
-  - "Build a robust API endpoint to serve our new summarization model."
-  - "Integrate the GenAI service with our existing web application."
+- **Examples:**
+  - "Designing, developing, testing, maintaining, and deploying software"
+  - "Integrate ML models into deployable Python applications and microservices"
+  - "Write production-grade product and platform code"
+  - "ensuring that what you deliver is scalable, reliable, and secure"
+  - "Je integreert de ontwikkelde machine learning-oplossingen in bestaande systemen en applicaties" (You integrate the developed machine learning solutions into existing systems and applications)
+  - "Code review of team members' commits"
 
 #### 1.A.2. Operations & MLOps (LLMOps)
 
-- **Definition:** Tasks related to the deployment, monitoring, and maintenance of generative models in production. This is the "Ops" in LLMOps/MLOps, focused on automation, scalability, and reliability.
-- **Example Phrases:**
-  - "Deploy models to a production environment using Kubernetes."
-  - "Set up a monitoring system to track model performance and drift."
-  - "Create a CI/CD pipeline for automated model retraining and deployment."
+- **Definition:** Building and managing the infrastructure and pipelines required to test, deploy, monitor, and maintain ML/GenAI models and systems in production. This includes CI/CD, versioning, monitoring for drift or performance degradation, and ensuring system uptime and reliability. It is the "DevOps" of the AI world.
+- **Examples:**
+  - "Build CI/CD pipelines for ML model deployment"
+  - "unleashing lightning-fast execution and seamless continuous delivery"
+  - "Maintain ML models in production (i.e. retraining, monitoring health and ensuring service availability)"
+  - "Collaborate with our AI team to construct an infrastructure that ignites rapid, high-scale deep learning exploration, development, and deployment."
+  - "champion of our DevOps culture"
+  - "Optimaliseren van onze interne tools en infrastructuur" (Optimizing our internal tools and infrastructure)
+  - "Set the standard for observability best practices"
 
 ---
 
@@ -51,26 +59,36 @@ _Encompasses the unique tasks and skills required to work specifically with gene
 
 #### 1.B.1. Model Development & Fine-Tuning
 
-- **Definition:** The core activities of creating, training, or adapting generative models. This includes selecting the right base model, fine-tuning on custom data, implementing new model architectures, and quantization/optimization.
-- **Example Phrases:**
-  - "Fine-tune open-source models like Llama 3 on our internal knowledge base."
-  - "Develop and train novel generative model architectures from scratch."
-  - "Optimize models for low-latency inference."
+- **Definition:** The core process of creating, training, or adapting machine learning models. This includes selecting appropriate algorithms, defining model architecture, training the model on data, and fine-tuning it for specific tasks. It also encompasses research and experimentation with new modeling techniques.
+- **Examples:**
+  - "having a strong knowledge of Gen AI alogorithms to using wide variety of AI/ML techniques to solve business problems."
+  - "designing the methodology of a wide range of models used in the Trading book."
+  - "Develop implementations for Trading Risk methodologies"
+  - "Research and choose an appropriate set of potential models and loss functions"
+  - "Execute experiments while logging your model's metrics, parameters and metadata to a model registry"
+  - "Vervolgens ontwikkel je machine learning-algoritmen en modellen en test je deze om de nauwkeurigheid en robuustheid te waarborgen." (You then develop machine learning algorithms and models and test them to ensure accuracy and robustness.)
+  - "Design and implement technical evaluators for LLM assessment."
+  - "bouwen van predictive models" (building predictive models)
 
 #### 1.B.2. Prompt Engineering & RAG
 
-- **Definition:** Tasks focused on designing, testing, and optimizing prompts to elicit desired outputs from generative models. Includes the development and implementation of Retrieval-Augmented Generation (RAG) systems.
-- **Example Phrases:**
-  - "Design and test complex prompt chains for our agentic workflows."
-  - "Develop a RAG pipeline to ground model responses in factual documentation."
+- **Definition:** Designing, developing, and refining the prompts used to interact with large language models. This also includes implementing Retrieval-Augmented Generation (RAG) systems, where prompts are dynamically enriched with information retrieved from a knowledge base to improve the relevance and accuracy of the model's responses.
+- **Examples:**
+  - "De voorwaarden waaraan moet worden voldaan t.a.v. de beslissinguit de bronnen kan worden gehaald." (The conditions that must be met regarding the decision can be extracted from the sources.)
+  - "Onderzoek of het functiewaarderingsproces kan worden ondersteund door AI." (Investigate if the job evaluation process can be supported by AI.)
+  - "Develop our Community Tools. Kicking this off with our very own AI Chatbot."
 
 #### 1.B.3. Data Engineering & Management
 
-- **Definition:** Tasks related to the collection, storage, cleaning, and processing of data used for training, fine-tuning, or evaluating generative models. This includes building data pipelines and ensuring data quality.
-- **Example Phrases:**
-  - "Build and maintain data pipelines for fine-tuning our proprietary models."
-  - "Manage and curate large-scale datasets for pre-training."
-  - "Set up and manage vector stores like Pinecone or Chroma."
+- **Definition:** The process of preparing and managing the data used for training and evaluating models. This includes data collection, cleaning, preprocessing, feature engineering, and creating data pipelines. It also involves managing large datasets and ensuring data quality.
+- **Examples:**
+  - "formulate the GenAI data architecture"
+  - "Perform exploratory data analysis to assess data quality and gain important insights"
+  - "Perform feature engineering, be creative and combine new sources with the traditional data warehouses or our vast data lakes"
+  - "Develop and manage datasets and evaluation metrics."
+  - "optimize dataset management"
+  - "Analyse van datasets om inzichten te krijgen" (Analysis of datasets to gain insights)
+  - "analyseren van complexe datasets om relevante patronen en trends te identificeren." (analyzing complex datasets to identify relevant patterns and trends.)
 
 ---
 
@@ -78,10 +96,15 @@ _Encompasses the unique tasks and skills required to work specifically with gene
 
 #### 1.C.1. Business Understanding & Strategy
 
-- **Definition:** Tasks related to understanding business needs, identifying opportunities for GenAI solutions, and aligning projects with company goals. Includes translating business requirements into technical specifications and communicating with non-technical stakeholders.
-- **Example Phrases:**
-  - "Work with product managers to define the scope of new generative features."
-  - "Identify key business problems that can be solved using LLMs."
+- **Definition:** The ability to understand the broader business context, align technical solutions with strategic goals, and effectively translate business needs into technical requirements.
+- **Examples:**
+  - "Design and implement Gen AI use cases for major institutions for their business problems."
+  - "develop innovative solutions that meet the needs of our growing user community"
+  - "in gesprekken met de klant met de klant begrijp je de projectbehoeften en lever je oplossingen die aan deze behoeften voldoen." (in conversations with the client, you understand the project needs and deliver solutions that meet these needs.)
+  - "you will fully immerse yourself in the context of the business in order to come up with the best solution to the challenge."
+  - "Be a reliable partner for the business"
+  - "Helpen bij de transformatie naar een data-driven organisatie" (Helping with the transformation to a data-driven organization)
+  - "Samenwerken met diverse teams om AI en ML oplossingen af te stemmen op bedrijfsdoelen" (Collaborating with various teams to align AI and ML solutions with business goals)
 
 ## 2. Technologies & Tools
 
@@ -89,42 +112,45 @@ The API should extract the specific name of every tool, library, or platform men
 
 ---
 
-### Technology Categories & Examples
+### Technology Categories
+
+_\*\*(No examples needed here as the task is to extract literal tool names)_\*\*
 
 #### 2.1. Programming Languages
 
-- **Definition:** Core programming languages used for development.
-- **Examples:** `Python`, `TypeScript`, `JavaScript`, `Go`, `Rust`, `Java`, `C++`
+- **Definition:** Core programming languages used for development (e.g., `Python`, `Go`).
 
 #### 2.2. Cloud Platforms & Services
 
-- **Definition:** Major cloud providers and their specific AI/ML/Data services.
-- **Examples:** `AWS (S3, SageMaker, Bedrock)`, `GCP (Vertex AI, GCS)`, `Azure (OpenAI Service, ML Studio)`, `Hugging Face Hub`
+- **Definition:** Major cloud providers and their specific AI/ML/Data services (e.g., `AWS SageMaker`, `GCP Vertex AI`, `Azure OpenAI Service`).
 
 #### 2.3. LLM / Generative Models
 
-- **Definition:** Specific Large Language Models or other types of generative models.
-- **Examples:** `GPT-4`, `Claude 3`, `Llama 3`, `Mistral`, `Gemini`, `DALL-E`, `Stable Diffusion`
+- **Definition:** Specific Large Language Models or other types of generative models (e.g., `GPT-4`, `Llama 3`, `Claude 3`).
 
 #### 2.4. LLM Frameworks & Libraries
 
-- **Definition:** Frameworks and libraries designed to build applications on top of LLMs.
-- **Examples:** `LangChain`, `LlamaIndex`, `Hugging Face Transformers`, `Haystack`, `Semantic Kernel`
+- **Definition:** Frameworks and libraries designed to build applications on top of LLMs (e.g., `LangChain`, `LlamaIndex`, `Hugging Face Transformers`).
 
 #### 2.5. Vector Databases & Search
 
-- **Definition:** Specialized databases for storing and searching vector embeddings.
-- **Examples:** `Pinecone`, `ChromaDB`, `FAISS`, `Weaviate`, `Milvus`, `Elasticsearch (with vector search)`
+- **Definition:** Specialized databases for storing and searching vector embeddings (e.g., `Pinecone`, `ChromaDB`, `Weaviate`).
 
 #### 2.6. MLOps & Data Pipelines
 
-- **Definition:** Tools for building data pipelines, orchestrating workflows, and managing the machine learning lifecycle.
-- **Examples:** `Airflow`, `Kubeflow`, `MLFlow`, `Weights & Biases`, `Docker`, `Kubernetes`, `Terraform`
+- **Definition:** Tools for building data pipelines, orchestrating workflows, and managing the machine learning lifecycle (e.g., `Airflow`, `MLFlow`, `Docker`, `Kubernetes`).
 
 #### 2.7. Traditional Data Tools
 
-- **Definition:** Standard data processing libraries and databases that are not vector-specific.
-- **Examples:** `Pandas`, `NumPy`, `PySpark`, `SQL`, `PostgreSQL`, `MongoDB`
+- **Definition:** Standard data processing libraries and databases that are not vector-specific (e.g., `Pandas`, `PySpark`, `SQL`).
+
+#### 2.8. Application Frameworks
+
+- **Definition:** Frameworks for building applications, particularly web backends (e.g., `Flutter`, `microservices`).
+
+#### 2.9. Other Technical Skills
+
+- **Definition:** Any other specific technical skill, methodology, or domain-specific tool mentioned (e.g., `RuleSpeak`, `FUWADEF methode`, `3D`).
 
 ---
 
@@ -138,35 +164,52 @@ This section defines the non-technical, interpersonal, and mindset-related skill
 
 #### 3.1. Communication & Collaboration
 
-- **Definition:** The ability to effectively share information with technical and non-technical audiences, and to work productively as part of a team.
-- **Example Phrases:**
-  - "Clearly communicate complex technical concepts to product managers."
-  - "Collaborate with cross-functional teams to deliver on project goals."
+- **Definition:** The ability to work effectively in a team, share knowledge, and communicate complex technical concepts to both technical and non-technical audiences.
+- **Examples:**
+  - "Good communication & interfacing skills"
+  - "Strong in collaboration"
+  - "Promote feedback and knowledge sharing culture."
+  - "Participate in and lead design reviews with peers and stakeholders."
+  - "Contribute to system documentation and team knowledge sharing."
+  - "documenteer code, processen en procedures om kennis te behouden en samenwerking te vergemakkelijken." (document code, processes, and procedures to retain knowledge and facilitate collaboration.)
+  - "Share your greatest lessons at one of the community events"
+  - "Coach junior/medior data scientists & ML Engineers"
 
 #### 3.2. Learning & Adaptability
 
-- **Definition:** A commitment to continuous learning and the ability to adapt quickly in a fast-evolving field. This was the most requested skill in the original paper ("open to learn").
-- **Example Phrases:**
-  - "A passion for staying on top of the latest research papers and models."
-  - "Ability to quickly learn and apply new tools and frameworks."
+- **Definition:** A demonstrated commitment to continuous learning and the ability to adapt to new technologies, tools, and methodologies in a rapidly evolving field.
+- **Examples:**
+  - "Eager to be open to learn, advice & implement new technologies"
+  - "comfortable with uncertainty"
+  - "Heel veel leergierigheid! Groei is bij ons een must." (A lot of eagerness to learn! Growth is a must for us.)
+  - "You are also encouraged and expected to spend 15-20% of your time with us learning new things, doing research and developing yourself."
+  - "Onderzoeken van nieuwe technologieen en trends." (Researching new technologies and trends.)
+  - "Our biggest expectation is that you'll stay curious. Keep learning. Take on responsibility."
 
 #### 3.3. Problem Solving & Pragmatism
 
-- **Definition:** The ability to analyze complex problems, think critically, and find effective, practical solutions.
-- **Example Phrases:**
-  - "Demonstrate a pragmatic approach to solution-building."
-  - "Strong analytical and debugging skills."
+- **Definition:** The ability to analyze complex, open-ended problems, apply a blend of creativity and rigor to find solutions, and maintain a practical, results-oriented approach.
+- **Examples:**
+  - "showcasing a blend of rigor and creativity when tackling open-ended questions, shaping early ideas, and rigorously testing GenAI solutions."
+  - "adopting a practical and pragmatic mindset"
 
 #### 3.4. Ethical & Legal Responsibility
 
-- **Definition:** A strong awareness of the ethical implications of GenAI, including issues of bias, fairness, transparency, and safety. Includes understanding of the evolving legal and regulatory landscape.
-- **Example Phrases:**
-  - "A strong commitment to building responsible and ethical AI systems."
-  - "Ensure our solutions comply with emerging regulations like the EU AI Act."
+- **Definition:** An awareness of and commitment to developing responsible, fair, and transparent AI systems. This includes considering potential biases, privacy implications, and the broader societal impact of the technology.
+- **Examples:**
+  - "contributing significantly to the development of impactful and responsible user-centered products and services."
+  - "guide responsible innovation"
+  - "ensure that every AI feature we deliver is robust, reliable, and meets the highest quality standards."
 
 #### 3.5. Innovation & Ownership
 
-- **Definition:** A proactive and creative mindset, with the ability to take ownership of projects, drive them forward independently, and propose novel ideas.
-- **Example Phrases:**
-  - "Take ownership of the end-to-end model development lifecycle."
-  - "Proactively identify and explore new and creative applications for GenAI."
+- **Definition:** A proactive and entrepreneurial mindset. The drive to take initiative, lead projects, champion new ideas, and take full responsibility for the quality and success of one's work.
+- **Examples:**
+  - "showing entrepreneurship"
+  - "Take the helm"
+  - "Blaze a trail"
+  - "champion of our DevOps culture"
+  - "lead design reviews"
+  - "je hebt de vrijheid om je creativiteit en technische vaardigheden in te zetten waar het écht telt." (you have the freedom to apply your creativity and technical skills where it really counts.)
+  - "Provide technical leadership"
+  - "rally peers behind your vision"
