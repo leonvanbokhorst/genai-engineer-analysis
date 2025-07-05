@@ -48,14 +48,17 @@ Our mission is to understand the role, skills, and expectations for a **GenAI En
     - Educational requirements
     - Common job titles
 
-2.  **Automated Thematic Coding with Human Validation:** To analyze a much larger dataset with scientific rigor, we will automate the coding process using the Gemini API, validated by human experts. The analysis will use our three-profile system (`Core GenAI Engineer`, `AI-Adjacent Software Engineer`, `GenAI Specialist`) and a `Not Relevant` category to filter out inapplicable ads.
+2.  **Automated Thematic Coding with Human Validation:** To analyze a much larger dataset with scientific rigor, we will automate the coding process using the Gemini API, validated by human experts. The analysis will use a simplified four-profile system to categorize each job ad:
 
-    - **a. Develop a "Coding Book":** We will first create a comprehensive document defining every category and sub-category for job tasks, technologies, and soft skills. This ensures consistency and is based on our semantic, multilingual guiding principles.
-    - **b. Manual Pilot Study:** We have manually coded a small set of ~15 ads using the Coding Book. This created our "ground truth" dataset, which served as the basis for training and validating the AI.
-    - **c. Data-Driven Refinement of Coding Book:** We have analyzed the manually coded data from the pilot study to identify the most common real-world phrases and terminology for each category. We then used these insights to update and improve the `Example Phrases` in our `CODING_BOOK.md`.
-    - **d. Engineer and Refine Master Prompt:** We have crafted a detailed master prompt for the Gemini API using our refined Coding Book.
-    - **e. Full-Scale Automated Coding:** The refined prompt will be used to process the entire dataset of job ads automatically.
-    - **f. Scientific Validation (`Steekproef`):** To ensure our automated method is scientifically sound, we will perform a final validation. A human expert will manually code a new, random sample (e.g., 50-100 ads) of the AI-coded data. We will then calculate the Inter-Rater Reliability (e.g., Cohen's Kappa) between the human and AI "raters". A high score will validate our approach and allow us to report the accuracy of our automated method. This step is critical for ensuring the trustworthiness of our final results.
+    - **`AI Engineer`**: Generalist role with balanced tasks across both ML and Generative AI.
+    - **`ML Engineer`**: Specialist focused on predictive modeling, MLOps, and traditional data science.
+    - **`GenAI Engineer`**: Specialist focused on language models, interaction, and application development (RAG, fine-tuning).
+    - **`Ambiguous / Not Relevant`**: A catch-all for ads that are non-technical, too vague, or do not fit the primary profiles.
+
+    - **a. Develop a "Coding Book":** We will first create a comprehensive document defining every category and sub-category for job tasks, technologies, and soft skills, all aligned with the four-profile system.
+    - **b. Engineer and Refine Master Prompt:** We will craft a detailed master prompt for the Gemini API based on the new, simplified Coding Book.
+    - **c. Full-Scale Automated Coding:** The new, refined prompt will be used to process the entire dataset of job ads automatically. This is a complete re-analysis of the data.
+    - **d. Scientific Validation (`Steekproef`):** To ensure our automated method is scientifically sound, we will perform a final validation. A human expert will manually code a new, random sample (e.g., 50-100 ads) of the AI-coded data. We will then calculate the Inter-Rater Reliability (e.g., Cohen's Kappa) between the human and AI "raters". A high score will validate our approach and allow us to report the accuracy of our automated method. This step is critical for ensuring the trustworthiness of our final results.
 
 3.  **Synthesize Findings:** We will analyze the structured data from the validated coding phase to answer our research questions, identifying key patterns and frequencies.
 
