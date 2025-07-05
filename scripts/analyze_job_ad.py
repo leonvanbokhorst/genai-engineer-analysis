@@ -17,7 +17,7 @@ API_KEY = os.getenv("GOOGLE_API_KEY")
 if not API_KEY:
     raise ValueError("GOOGLE_API_KEY not found in environment variables or .env file.")
 
-genai.configure(api_key=API_KEY) # type: ignore
+genai.configure(api_key=API_KEY)  # type: ignore
 
 MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-1.5-pro-latest")
 GENERATION_CONFIG = {
@@ -39,8 +39,8 @@ WORKSPACE_DIR = Path(__file__).resolve().parent.parent
 PROMPTS_DIR = WORKSPACE_DIR / "prompts"
 CODING_BOOK_PATH = WORKSPACE_DIR / "CODING_BOOK.md"
 MASTER_PROMPT_PATH = PROMPTS_DIR / "master_prompt.md"
-INPUT_DATA_PATH = WORKSPACE_DIR / "data" / "consolidated.csv"
-OUTPUT_DIR = WORKSPACE_DIR / "data" / "automated_analysis"
+INPUT_DATA_PATH = WORKSPACE_DIR / "data" / "consolidated_deduplicated.csv"
+OUTPUT_DIR = WORKSPACE_DIR / "data" / "automated_analysis_deduplicated"
 
 # --- Main Functions ---
 
