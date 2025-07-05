@@ -170,3 +170,23 @@ Following the successful analysis run, a new phase of the project began: manual 
 
 - **Insight:** After reviewing approximately 10 records, a critical insight was uncovered. The current six-profile classification system (`Core GenAI Engineer`, `Core ML Engineer`, etc.) is **too granular**. The subtle distinctions between the profiles, while logical in theory, proved difficult for the model to apply consistently to real-world, often ambiguous, job descriptions.
 - **Decision:** To improve the robustness and clarity of our findings, a decision was made to simplify the classification schema. The next step will be to revise the `CODING_BOOK.md` to reflect broader, more distinct categories before proceeding further with the validation or final analysis.
+
+---
+
+## 2025-07-05 (PM): The Final Simplification
+
+Based on the insight from the initial validation, a final, decisive pivot was made to the classification schema to maximize clarity and analytical power.
+
+### Action: Schema Collapse
+
+The previous, multi-layered profile system was collapsed into four, high-level archetypes:
+
+1.  **`AI Engineer`**: A generalist role with significant, balanced tasks across both Machine Learning and Generative AI.
+2.  **`ML Engineer`**: A specialist role focused on predictive modeling, MLOps, and traditional data science tasks.
+3.  **`GenAI Engineer`**: A specialist role focused on language models, interaction, and application development (e.g., RAG, fine-tuning).
+4.  **`Ambiguous / Not Relevant`**: A catch-all category for any job ad that does not clearly fit one of the three primary profiles, is non-technical, or is too vague to classify.
+
+### Consequence: Analysis Reset
+
+- **Obsolete Results Archived:** This new schema renders all previous analysis obsolete. Per the Master's instruction, all 1,223 analysis files and the corresponding summary CSV have been moved to a `data_archive/` directory for historical reference.
+- **Full Re-Analysis Required:** The project will now proceed with updating the core `CODING_BOOK.md` and `master_prompt.md` before re-running the entire automated analysis pipeline from the beginning. This ensures the final results are based on a consistent, robust, and simplified methodology.
