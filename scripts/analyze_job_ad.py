@@ -17,7 +17,7 @@ API_KEY = os.getenv("GOOGLE_API_KEY")
 if not API_KEY:
     raise ValueError("GOOGLE_API_KEY not found in environment variables or .env file.")
 
-genai.configure(api_key=API_KEY)
+genai.configure(api_key=API_KEY) # type: ignore
 
 MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-1.5-pro-latest")
 GENERATION_CONFIG = {
