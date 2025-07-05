@@ -190,3 +190,21 @@ The previous, multi-layered profile system was collapsed into four, high-level a
 
 - **Obsolete Results Archived:** This new schema renders all previous analysis obsolete. Per the Master's instruction, all 1,223 analysis files and the corresponding summary CSV have been moved to a `data_archive/` directory for historical reference.
 - **Full Re-Analysis Required:** The project will now proceed with updating the core `CODING_BOOK.md` and `master_prompt.md` before re-running the entire automated analysis pipeline from the beginning. This ensures the final results are based on a consistent, robust, and simplified methodology.
+
+---
+
+## 2025-07-05: The Definitive Analysis Pipeline
+
+Following the decision to simplify the classification schema, a new, definitive analysis pipeline was constructed, incorporating all lessons learned from previous iterations.
+
+### Actions & Methodological Improvements
+
+1.  **Definitive `CODING_BOOK.md` Created:** A new coding book (`v3 - Definitive`) was created. It combines the simplified 4-profile classification with a detailed, evidence-based thematic analysis, directly inspired by the five core job task categories in the CAIN 2022 paper (`TASK1: Business Understanding`, `TASK2: Data Engineering`, etc.). This provides high-level clarity and deep, granular evidence.
+2.  **Dynamic Prompting Implemented:** A new analysis script (`scripts/analysis_pipeline.py`) was built from the ground up. It dynamically constructs its prompt by reading the `CODING_BOOK.md` at runtime, ensuring it always uses the latest definitions. This replaces the old, static `master_prompt.md`, which has been deleted.
+3.  **Justification Added to Prompt:** Per the Master's instruction, the prompt was further refined to require the AI analyst to provide a `justification` for every `job_task` it identifies, adding a crucial layer of transparency to the results.
+4.  **Enriched Consolidation Script:** A new consolidation script (`scripts/consolidate_results.py`) was created. It will produce a "tidy" dataset by merging the JSON analysis results with the original job data (`consolidated_deduplicated.csv`) and the full category descriptions from the `CODING_BOOK.md`, creating a single, rich file for final analysis.
+
+### Current Status
+
+- The definitive analysis pipeline is currently running in the background, processing all 1,272 job advertisements with the final, robust methodology.
+- The project is on hold, awaiting the completion of this final analysis run.
