@@ -135,3 +135,38 @@ The classification system was expanded to its final six-profile form:
 1.  **`Core GenAI Engineer` vs. `Core ML Engineer`:** The core engineering profile was split to distinguish between those working with generative tech versus traditional ML.
 2.  **`GenAI Specialist` vs. `ML Specialist`:** The specialist profile was also split to maintain symmetry, clearly identifying roles focused purely on traditional data science.
 3.  **Final System:** The definitive list of profiles is now: `Core GenAI Engineer`, `Core ML Engineer`, `AI-Adjacent Software Engineer`, `Software Engineer`, `GenAI Specialist`, `ML Specialist (Data Scientist)`, and `Not Relevant`. All documentation was updated to reflect this.
+
+---
+
+## 2025-07-08: Definitive Analysis and Consolidation
+
+The full, definitive automated analysis and subsequent consolidation of the results are complete.
+
+### Actions
+
+1.  **Corrected Analysis Run:** The `scripts/analyze_job_ad.py` script was corrected to use the deduplicated dataset (`data/consolidated_deduplicated.csv`) and was executed to analyze all 1272 job ads. The results were saved to a new directory, `data/automated_analysis_deduplicated/`, to preserve the original run.
+2.  **Consolidated Results:** The `scripts/consolidate_analysis.py` script was run to merge the individual JSON outputs into a single master file.
+    - During this process, 49 files with API response errors (e.g., malformed JSON, empty responses) were automatically identified and excluded.
+    - The remaining 1223 clean records were consolidated.
+
+### Outcome
+
+- A single, unified dataset, `data/analysis_results.csv`, has been created, containing the structured analysis for 1223 job advertisements.
+- This file is now the primary source for the subsequent validation, analysis, and visualization phases of the project.
+
+---
+
+## 2025-07-05: Initial Validation and Methodological Pivot
+
+Following the successful analysis run, a new phase of the project began: manual validation of the AI's classifications.
+
+### Actions
+
+1.  **Validation Sample Creation:** A random sample of 50 job ads was created (`data/validation_sample.csv`) from the 1,223 analyzed records.
+2.  **Interactive Validation Tool:** To facilitate an efficient and accurate review, an interactive web application was built using Streamlit (`scripts/validation_app.py`). This tool presents the AI's analysis side-by-side with the original job ad text.
+3.  **Initial Human-in-the-Loop Validation:** The Jedi Master (Lonn) began the validation process using the Streamlit tool.
+
+### Key Finding and Decision
+
+- **Insight:** After reviewing approximately 10 records, a critical insight was uncovered. The current six-profile classification system (`Core GenAI Engineer`, `Core ML Engineer`, etc.) is **too granular**. The subtle distinctions between the profiles, while logical in theory, proved difficult for the model to apply consistently to real-world, often ambiguous, job descriptions.
+- **Decision:** To improve the robustness and clarity of our findings, a decision was made to simplify the classification schema. The next step will be to revise the `CODING_BOOK.md` to reflect broader, more distinct categories before proceeding further with the validation or final analysis.
