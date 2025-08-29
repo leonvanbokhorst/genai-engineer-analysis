@@ -1,0 +1,73 @@
+{
+    "analysis": {
+        "job_tasks": [
+            {
+                "category_id": "1.A.1",
+                "category_name": "Software Development & Integration",
+                "phrase": "Ontwikkeling van web- en mobiele applicaties: Het ontwerp en de bouw van gebruiksvriendelijke applicaties waarin de S2T-dienst wordt getoetst.",
+                "justification": "This phrase describes the traditional software engineering task of designing and building user-friendly applications."
+            },
+            {
+                "category_id": "1.A.1",
+                "category_name": "Software Development & Integration",
+                "phrase": "Integratie van de dienst in gebruikersapplicaties: Meehelpen aan de integratie van de S2T-dienst in bestaande gebruikersapplicaties.",
+                "justification": "This directly refers to integrating a service (S2T-dienst) into existing applications, a core software integration task."
+            },
+            {
+                "category_id": "1.A.1",
+                "category_name": "Software Development & Integration",
+                "phrase": "Bijdrage aan de middleware-layer: Bijdragen aan de ontwikkeling van de middleware-layer, waar de API-definitie wordt gerealiseerd en authenticatie plaatsvindt.",
+                "justification": "Developing a middleware layer, including API definition and authentication, is a fundamental software development task."
+            },
+            {
+                "category_id": "1.A.2",
+                "category_name": "Operations & MLOps (LLMOps)",
+                "phrase": "De LLM's moeten via virtualisatietechnieken gedeployed worden op de Nvidia-stack.",
+                "justification": "Deploying LLMs on specific hardware stacks using virtualization techniques falls under the operational aspects of making models available, akin to MLOps/LLMOps."
+            },
+            {
+                "category_id": "1.A.1",
+                "category_name": "Software Development & Integration",
+                "phrase": "De engineer werkt hier aan een schaalbaar, multi-tenant model.",
+                "justification": "Working on a scalable, multi-tenant model is a core software engineering concern related to system architecture and design."
+            },
+            {
+                "category_id": "1.B.1",
+                "category_name": "Model Development & Fine-Tuning",
+                "phrase": "Primaire doelstelling is de S2T (door) te ontwikkelen zodat deze geïntegreerd kan worden in onze interne gebruikersapplicaties. Daarvoor is het van belang dat er een generieke dienst gebouwd wordt waarop LLM's gedraaid en getraind kunnen worden. Hier ligt de hoofdfocus van de opdracht.",
+                "justification": "The primary objective of developing a generic service on which LLMs can be run and trained directly relates to model development and deployment infrastructure, fitting into model development."
+            }
+        ],
+        "technologies": [
+            {
+                "category_id": "2.1",
+                "category_name": "Programming Languages",
+                "tool_name": "API"
+            },
+            {
+                "category_id": "2.3",
+                "category_name": "LLM / Generative Models",
+                "tool_name": "LLM's"
+            },
+            {
+                "category_id": "2.6",
+                "category_name": "MLOps & Data Pipelines",
+                "tool_name": "virtualisatietechnieken"
+            },
+            {
+                "category_id": "2.9",
+                "category_name": "Other Technical Skills",
+                "tool_name": "Nvidia-stack"
+            }
+        ],
+        "soft_skills": []
+    },
+    "profile": {
+        "assigned_profile": "AI-Adjacent Software Engineer",
+        "rationale": "The job ad focuses heavily on software development tasks such as building applications, middleware, and integrating services. While it mentions LLMs and training/running them, the core emphasis is on the engineering and integration aspects of making these models available through a generic service and deploying them. The primary objective is to develop a service for LLM integration, rather than focusing on the core model development or advanced GenAI techniques themselves. Therefore, it aligns best with an AI-Adjacent Software Engineer role."
+    },
+    "confidence": {
+        "score": 4,
+        "reasoning": "The job ad is reasonably clear about the tasks involved, leaning towards software engineering with AI integration. However, the specific mention of 'Ci/cd engineer machine learning' in the title is slightly misleading as the description focuses more on development and integration than pure CI/CD for ML. The core tasks are well-defined, but the title could cause initial confusion."
+    }
+}

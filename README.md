@@ -1,61 +1,106 @@
-# GenAI Engineer Job Analysis
+# GenAI Engineer Job Market Analysis
 
-This project analyzes a dataset of GenAI Engineer and related job descriptions to identify key themes, skills, and technologies in the current job market.
+This project provides a flexible pipeline to analyze job market data for specific roles, inspired by the methodology in the paper "What Is an AI Engineer? An Empirical Analysis of Job Ads in The Netherlands" (CAIN 2022). This implementation replays the paper's analysis with a new dataset and a focus on the **Generative AI Engineer** role.
 
-The pipeline performs the following steps:
+## Findings: The GenAI Engineer Profile (Definitive)
 
-1.  **Consolidates Data**: Merges multiple `.xls` export files into a single `consolidated.csv`.
-2.  **Semantic Clustering**:
-    - Generates sentence-transformer embeddings (`paraphrase-multilingual-mpnet-base-v2`) for each job description.
-    - Caches embeddings to `embeddings.npy` for faster re-runs.
-    - Uses UMAP for dimensionality reduction and HDBSCAN for density-based clustering.
-    - Saves the results, including cluster labels and 2D coordinates, to `clustered_jobs.csv`.
-3.  **Cluster Visualization**: Creates a 2D scatter plot of the job clusters and saves it as `cluster_visualization.png`.
-4.  **Qualitative Analysis**: For each cluster, it performs TF-IDF analysis on the lemmatized text (handling both English and Dutch) to extract and display the most representative keywords, giving insight into the theme of each cluster.
+Our final, refined analysis pipeline filtered a dataset of 1,283 job ads down to **1,173 relevant jobs** that mention AI or Generative AI concepts. This comprehensive filter provides a clear and robust profile of the modern AI/GenAI Engineer. The key findings are summarized below.
 
-## Setup and Execution
+### Job Tasks (RQ1)
 
-This project uses `uv` for package and environment management.
+The role is defined by three core pillars: Software Development, GenAI/LLM-specific engineering, and a deep understanding of the business context. This confirms the AI/GenAI Engineer is a product-focused role, not just a research or modeling position.
 
-### The Great Dependency Gauntlet of `uv`
+| Task Category          | Mentions |
+| ---------------------- | -------- |
+| Software Development   | 991      |
+| Business Understanding | 935      |
+| GenAI/LLM Engineering  | 753      |
+| Modeling               | 647      |
+| Operations Engineering | 529      |
+| Data Engineering       | 129      |
 
-**A Word of Warning:** Our journey through setting up this environment was fraught with peril. We initially used `uv pip sync`, which is extremely strict and **does not** install transitive dependencies (dependencies of dependencies). This led to a long and painful process of adding each missing sub-package manually.
+### Technologies (RQ2)
 
-**The Correct Way (The Master Lonn Method):**
-The correct way to install the environment is to treat the `pyproject.toml` as a requirements file and let `uv` resolve the entire dependency graph.
+The technology landscape is dominated by core software engineering tools (Git, Python, Cloud Platforms). Specific AI company ecosystems (OpenAI, Google, Microsoft) are also frequently mentioned, indicating the importance of platform-specific knowledge.
 
-1.  **Create the virtual environment:**
-    ```bash
-    python -m venv .venv
-    source .venv/bin/activate
-    ```
-2.  **Install all dependencies using `uv`:**
-    ```bash
-    uv pip install -r pyproject.toml
-    ```
-3.  **Download SpaCy Models:**
-    The analysis script requires spaCy's language models. Download them with:
-    ```bash
-    python -m spacy download en_core_web_sm
-    python -m spacy download nl_core_news_sm
-    ```
+| Technology        | Mentions |
+| ----------------- | -------- |
+| Git               | 183      |
+| Python            | 163      |
+| Azure             | 131      |
+| AWS               | 129      |
+| OpenAI            | 54       |
+| ... (and 24 more) | ...      |
 
-### Running the Pipeline
+### Soft Skills (RQ3)
 
-To run the full analysis from start to finish, simply execute the main pipeline script:
+The ideal candidate is a senior-level figure, expected to be a mentor and an innovator for their team and the company, with a strong emphasis on continuous learning.
+
+| Soft Skill       | Mentions |
+| ---------------- | -------- |
+| Open to learn    | 519      |
+| Coaching         | 512      |
+| Innovative       | 487      |
+| Team-oriented    | 371      |
+| Passionate       | 330      |
+| ... (and 5 more) | ...      |
+
+---
+
+## How to Use the Pipeline
+
+This pipeline is designed to be flexible. You can easily adapt it to analyze any job role by changing the keywords in the configuration.
+
+### 1. Prerequisites
+
+- Python 3.12+
+- `uv` (a fast Python package installer and resolver)
+
+### 2. Setup
+
+**a. Create a Virtual Environment:**
 
 ```bash
-python semantic_clustering.py
+uv venv -p python3.12
 ```
 
-This will generate the embeddings, perform the clustering, and create the visualization.
-
-To re-run only the final keyword analysis on the existing clustered data:
+**b. Activate the Environment and Install Dependencies:**
 
 ```bash
-python analyze_clusters.py
+source .venv/bin/activate
+uv pip sync pyproject.toml
 ```
 
-## Analysis Results
+### 3. Data Consolidation
 
-The results of the cluster analysis, including the top keywords for each identified cluster, are documented in [`ANALYSIS_RESULTS.md`](./ANALYSIS_RESULTS.md).
+**a. Place Data:** Add your source `.xls` files into the `/data` directory.
+
+**b. Run the Consolidation Script:** This script combines all `.xls` files in the `/data` directory into a single `consolidated.csv`.
+
+```bash
+python consolidate_data.py
+```
+
+### 4. Customize and Run the Analysis
+
+**a. Configure Your Search:**
+Open `config.py`. To analyze a different job role, simply change the `JOB_FILTER_KEYWORDS` list. For example, to search for "LLM Engineer":
+
+```python
+# in config.py
+JOB_FILTER_KEYWORDS = [
+    'llm engineer', 'large language model engineer'
+    # ... add any other relevant keywords
+]
+```
+
+You can also customize the keywords for technologies, soft skills, and job tasks in the same file to refine the analysis.
+
+**b. Run the Pipeline:**
+Execute the main analysis script. It will use your configuration to filter the jobs and generate a new report.
+
+```bash
+python analysis_pipeline.py
+```
+
+The results will be printed to your terminal.
