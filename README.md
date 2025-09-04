@@ -1,55 +1,22 @@
 # GenAI Engineer Job Market Analysis
 
-This project provides a flexible pipeline to analyze job market data for specific roles, inspired by the methodology in the paper "What Is an AI Engineer? An Empirical Analysis of Job Ads in The Netherlands" (CAIN 2022). This implementation replays the paper's analysis with a new dataset and a focus on the **Generative AI Engineer** role.
+This project provides a flexible, automated pipeline to analyze job market data for AI-related engineering roles, inspired by the methodology in the paper "What Is an AI Engineer?" (Heck et al., CAIN 2022). This implementation replays and extends the paper's analysis with a new dataset, focusing on the **Generative AI Engineer** and **ML Engineer** roles.
 
-## Findings: The GenAI Engineer Profile (Definitive)
+The full methodology, findings, and plots can be found in the auto-generated **[REPORT.md](REPORT.md)**.
 
-Our final, refined analysis pipeline filtered a dataset of 1,283 job ads down to **1,173 relevant jobs** that mention AI or Generative AI concepts. This comprehensive filter provides a clear and robust profile of the modern AI/GenAI Engineer. The key findings are summarized below.
+## Research & Documentation
 
-### Job Tasks (RQ1)
+The `/docs` directory contains the foundational research for this project:
 
-The role is defined by three core pillars: Software Development, GenAI/LLM-specific engineering, and a deep understanding of the business context. This confirms the AI/GenAI Engineer is a product-focused role, not just a research or modeling position.
-
-| Task Category          | Mentions |
-| ---------------------- | -------- |
-| Software Development   | 991      |
-| Business Understanding | 935      |
-| GenAI/LLM Engineering  | 753      |
-| Modeling               | 647      |
-| Operations Engineering | 529      |
-| Data Engineering       | 129      |
-
-### Technologies (RQ2)
-
-The technology landscape is dominated by core software engineering tools (Git, Python, Cloud Platforms). Specific AI company ecosystems (OpenAI, Google, Microsoft) are also frequently mentioned, indicating the importance of platform-specific knowledge.
-
-| Technology        | Mentions |
-| ----------------- | -------- |
-| Git               | 183      |
-| Python            | 163      |
-| Azure             | 131      |
-| AWS               | 129      |
-| OpenAI            | 54       |
-| ... (and 24 more) | ...      |
-
-### Soft Skills (RQ3)
-
-The ideal candidate is a senior-level figure, expected to be a mentor and an innovator for their team and the company, with a strong emphasis on continuous learning.
-
-| Soft Skill       | Mentions |
-| ---------------- | -------- |
-| Open to learn    | 519      |
-| Coaching         | 512      |
-| Innovative       | 487      |
-| Team-oriented    | 371      |
-| Passionate       | 330      |
-| ... (and 5 more) | ...      |
+- **[CAIN2022.pdf](docs/CAIN2022.pdf)**: The original paper by Heck et al. that inspired the five-category analysis framework (Business Understanding, Data Engineering, Modeling, Software Development, Operations).
+- **[The AI Job Market for Engineers in 2025](docs/The%20AI%20Job%20Market%20for%20Engineers%20in%202025_%20A%20Comprehensive%20Field%20Research%20Report.md)**: A comprehensive manuscript detailing the findings from this project's analysis of the AI job market.
+- **[/docs/AI Terminology Evolution](docs/AI%20Terminology%20Evolution/The%20Evolving%20Definition%20of%20AI:%20A%20Historical%20and%20Contemporary%20Analysis.md)**: A series of research manuscripts analyzing the historical and contemporary definitions of "Artificial Intelligence" and related terms, providing crucial context for the classification schema used in this project.
 
 ---
 
 ## How to Use the Pipeline
 
-This pipeline is designed to be flexible. You can easily adapt it to analyze any job role by changing the keywords in the configuration.
+This pipeline is designed to be fully automated. After setup, running the scripts in order will reproduce the analysis from raw data to the final report.
 
 ### 1. Prerequisites
 
@@ -58,49 +25,56 @@ This pipeline is designed to be flexible. You can easily adapt it to analyze any
 
 ### 2. Setup
 
-**a. Create a Virtual Environment:**
+**a. Create and Activate a Virtual Environment:**
 
 ```bash
 uv venv -p python3.12
-```
-
-**b. Activate the Environment and Install Dependencies:**
-
-```bash
 source .venv/bin/activate
-uv pip sync pyproject.toml
 ```
 
-### 3. Data Consolidation
-
-**a. Place Data:** Add your source `.xls` files into the `/data` directory.
-
-**b. Run the Consolidation Script:** This script combines all `.xls` files in the `/data` directory into a single `consolidated.csv`.
+**b. Install Dependencies:**
 
 ```bash
-python consolidate_data.py
+uv sync
 ```
 
-### 4. Customize and Run the Analysis
+### 3. Running the Full Pipeline
 
-**a. Configure Your Search:**
-Open `config.py`. To analyze a different job role, simply change the `JOB_FILTER_KEYWORDS` list. For example, to search for "LLM Engineer":
-
-```python
-# in config.py
-JOB_FILTER_KEYWORDS = [
-    'llm engineer', 'large language model engineer'
-    # ... add any other relevant keywords
-]
-```
-
-You can also customize the keywords for technologies, soft skills, and job tasks in the same file to refine the analysis.
-
-**b. Run the Pipeline:**
-Execute the main analysis script. It will use your configuration to filter the jobs and generate a new report.
+**a. Consolidate Raw Data:**
+Place your source `.xls` files into the `/data/raw` directory, then run:
 
 ```bash
-python analysis_pipeline.py
+# Consolidate XLS files
+python scripts/consolidate_data.py
+
+# Deduplicate records
+python scripts/deduplicate_data.py
 ```
 
-The results will be printed to your terminal.
+**b. Run Automated Analysis:**
+This script uses the Gemini API to analyze each job ad based on the `CODING_BOOK.md` schema.
+
+```bash
+python scripts/analysis_pipeline.py
+```
+
+**c. Consolidate JSON Results:**
+This script flattens the individual JSON analysis files into tidy CSVs for analysis.
+
+```bash
+python scripts/consolidate_automated_analysis.py
+```
+
+**d. Generate Descriptive Analysis & Plots:**
+This script computes all the CAIN-style metrics, cross-tabulations, and generates the plots.
+
+```bash
+python scripts/descriptive_analysis.py
+```
+
+**e. Generate the Final Report:**
+This script assembles the plots and tables into a final `REPORT.md` file.
+
+```bash
+python scripts/generate_report.py
+```

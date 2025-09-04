@@ -1,122 +1,169 @@
-import pandas as pd
-import json
 import os
-from tqdm import tqdm
+import json
+from pathlib import Path
+from typing import Any, Dict, List
+
+import pandas as pd
 
 
-def consolidate_analysis_results(input_dir, output_csv):
+WORKSPACE_DIR = Path(__file__).resolve().parent.parent
+INPUT_DIR = WORKSPACE_DIR / "data" / "automated_analysis"
+OUTPUT_TIDY_CSV = WORKSPACE_DIR / "data" / "automated_analysis_consolidated.csv"
+OUTPUT_PROFILES_CSV = WORKSPACE_DIR / "data" / "automated_analysis_profiles.csv"
+OUTPUT_PER_JOB_CSV = WORKSPACE_DIR / "data" / "automated_analysis_per_job.csv"
+
+
+def parse_job_id(filename: str) -> int:
+    """Extract integer job_id from filename like 'analysis_123.json'."""
+    stem = Path(filename).stem
+    # Expect format analysis_<id>
+    try:
+        return int(stem.split("_")[1])
+    except Exception:
+        return -1
+
+
+def load_json_safely(path: Path) -> Dict[str, Any]:
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as exc:
+        print(f"WARN: Failed to parse {path.name}: {exc}")
+        return {}
+
+
+def consolidate(input_dir: Path) -> pd.DataFrame:
     """
-    Reads all JSON files from an input directory, consolidates them,
-    and saves the result as a CSV file.
+    Flatten all JSON files into a tidy long-form DataFrame with columns:
+    - job_id, category_type, category_id, category_name, phrase, tool_name,
+      justification, profile, confidence, rationale
     """
-    all_data = []
-    files = [f for f in os.listdir(input_dir) if f.endswith(".json")]
+    tidy_rows: List[Dict[str, Any]] = []
+    profile_rows: List[Dict[str, Any]] = []
+    per_job: Dict[int, Dict[str, Any]] = {}
 
-    for filename in tqdm(files, desc="Consolidating analysis files"):
-        file_path = os.path.join(input_dir, filename)
-        with open(file_path, "r") as f:
-            try:
-                data = json.load(f)
-                # Add original filename for traceability
-                data["source_file"] = filename
-                all_data.append(data)
-            except json.JSONDecodeError:
-                print(f"Warning: Could not decode JSON from {filename}")
+    files = sorted(input_dir.glob("analysis_*.json"))
+    print(f"Found {len(files)} analysis files in {input_dir}")
 
-    if not all_data:
-        print("No data to consolidate.")
-        return
+    for fp in files:
+        job_id = parse_job_id(fp.name)
+        data = load_json_safely(fp)
+        if not data:
+            continue
 
-    # Flatten the data for easier DataFrame creation
-    flattened_data = []
-    for entry in all_data:
-        # Extract classification info
-        classification_info = entry.get("classification", {})
-        profile = classification_info.get("profile")
-        confidence = classification_info.get("confidence")
-        rationale = classification_info.get("rationale")
+        classification = data.get("classification", {})
+        profile = classification.get("profile")
+        confidence = classification.get("confidence")
+        rationale = classification.get("rationale")
 
-        # Extract thematic analysis info
-        thematic_info = entry.get("thematic_analysis", {})
-        job_tasks = thematic_info.get("job_tasks", [])
-        technologies = thematic_info.get("technologies", [])
-        soft_skills = thematic_info.get("soft_skills", [])
+        profile_rows.append(
+            {
+                "job_id": job_id,
+                "profile": profile,
+                "confidence": confidence,
+                "rationale": rationale,
+            }
+        )
 
-        # Create a record for each extracted phrase (task, tech, skill)
-        # This creates a long-format dataframe which is good for analysis
+        # Initialize per-job aggregation structure
+        if job_id not in per_job:
+            per_job[job_id] = {
+                "job_id": job_id,
+                "profile": profile,
+                "confidence": confidence,
+                "rationale": rationale,
+                "job_tasks": [],
+                "technologies": [],
+                "soft_skills": [],
+            }
 
-        for task in job_tasks:
-            flattened_data.append(
+        thematic = data.get("thematic_analysis", {})
+
+        # Job tasks
+        for item in thematic.get("job_tasks", []) or []:
+            tidy_rows.append(
                 {
-                    "source_file": entry.get("source_file"),
-                    "profile": profile,
-                    "confidence": confidence,
-                    "rationale": rationale,
+                    "job_id": job_id,
                     "category_type": "job_task",
-                    "category_id": task.get("category_id"),
-                    "category_name": task.get("category_name"),
-                    "phrase": task.get("phrase"),
-                    "justification": task.get("justification"),
+                    "category_id": item.get("category_id"),
+                    "category_name": item.get("category_name"),
+                    "phrase": item.get("phrase"),
+                    "tool_name": None,
+                    "justification": item.get("justification"),
                 }
             )
+            per_job[job_id]["job_tasks"].append(item)
 
-        for tech in technologies:
-            flattened_data.append(
+        # Technologies
+        for item in thematic.get("technologies", []) or []:
+            tidy_rows.append(
                 {
-                    "source_file": entry.get("source_file"),
-                    "profile": profile,
-                    "confidence": confidence,
-                    "rationale": rationale,
+                    "job_id": job_id,
                     "category_type": "technology",
-                    "category_id": tech.get("category_id"),
-                    "category_name": tech.get("category_name"),
-                    "phrase": tech.get("phrase"),
-                    "justification": None,  # Justification might not be present for all types
-                }
-            )
-
-        for skill in soft_skills:
-            flattened_data.append(
-                {
-                    "source_file": entry.get("source_file"),
-                    "profile": profile,
-                    "confidence": confidence,
-                    "rationale": rationale,
-                    "category_type": "soft_skill",
-                    "category_id": skill.get("category_id"),
-                    "category_name": skill.get("category_name"),
-                    "phrase": skill.get("phrase"),
-                    "justification": None,
-                }
-            )
-
-        # If a job ad has no thematic analysis, we should still keep its classification
-        if not any([job_tasks, technologies, soft_skills]):
-            flattened_data.append(
-                {
-                    "source_file": entry.get("source_file"),
-                    "profile": profile,
-                    "confidence": confidence,
-                    "rationale": rationale,
-                    "category_type": None,
-                    "category_id": None,
-                    "category_name": None,
+                    "category_id": item.get("category_id"),
+                    "category_name": item.get("category_name"),
                     "phrase": None,
+                    "tool_name": item.get("tool_name"),
                     "justification": None,
                 }
             )
+            per_job[job_id]["technologies"].append(item)
 
-    df = pd.DataFrame(flattened_data)
+        # Soft skills
+        for item in thematic.get("soft_skills", []) or []:
+            tidy_rows.append(
+                {
+                    "job_id": job_id,
+                    "category_type": "soft_skill",
+                    "category_id": item.get("category_id"),
+                    "category_name": item.get("category_name"),
+                    "phrase": item.get("phrase"),
+                    "tool_name": None,
+                    "justification": None,
+                }
+            )
+            per_job[job_id]["soft_skills"].append(item)
 
-    # Save to CSV
-    df.to_csv(output_csv, index=False)
-    print(f"Consolidated data saved to {output_csv}")
-    print(f"Total records: {len(df)}")
-    print("DataFrame columns:", df.columns.tolist())
-    print("DataFrame head:\n", df.head())
+    tidy_df = pd.DataFrame(tidy_rows)
+    profiles_df = (
+        pd.DataFrame(profile_rows).drop_duplicates(subset=["job_id"])
+        if profile_rows
+        else pd.DataFrame(columns=["job_id", "profile", "confidence", "rationale"])
+    )
+
+    # Build per-job aggregated DataFrame (store lists as JSON strings)
+    per_job_rows: List[Dict[str, Any]] = []
+    for job in per_job.values():
+        per_job_rows.append(
+            {
+                "job_id": job["job_id"],
+                "profile": job["profile"],
+                "confidence": job["confidence"],
+                "rationale": job["rationale"],
+                "job_tasks": json.dumps(job["job_tasks"], ensure_ascii=False),
+                "technologies": json.dumps(job["technologies"], ensure_ascii=False),
+                "soft_skills": json.dumps(job["soft_skills"], ensure_ascii=False),
+            }
+        )
+    per_job_df = pd.DataFrame(per_job_rows)
+
+    # Save outputs
+    OUTPUT_TIDY_CSV.parent.mkdir(parents=True, exist_ok=True)
+    tidy_df.to_csv(OUTPUT_TIDY_CSV, index=False, encoding="utf-8")
+    profiles_df.to_csv(OUTPUT_PROFILES_CSV, index=False, encoding="utf-8")
+    per_job_df.to_csv(OUTPUT_PER_JOB_CSV, index=False, encoding="utf-8")
+
+    print(f"Saved tidy dataset to: {OUTPUT_TIDY_CSV}")
+    print(f"Saved profiles dataset to: {OUTPUT_PROFILES_CSV}")
+    print(f"Saved per-job consolidated dataset to: {OUTPUT_PER_JOB_CSV}")
+    return tidy_df
+
+
+def main():
+    if not INPUT_DIR.exists():
+        raise FileNotFoundError(f"Input directory does not exist: {INPUT_DIR}")
+    consolidate(INPUT_DIR)
 
 
 if __name__ == "__main__":
-    INPUT_DIRECTORY = "data/automated_analysis"
-    OUTPUT_CSV = "data/automated_analysis_consolidated.csv"
-    consolidate_analysis_results(INPUT_DIRECTORY, OUTPUT_CSV)
+    main()
