@@ -122,6 +122,19 @@ def generate_normalized_crosstabs(tidy_df, profiles_df):
             print(f"Saved empty crosstab for {category_type} to {output_path}")
             continue
 
+        # --- Filter for significant technologies ---
+        if category_type == "technology":
+            # A technology is significant if it's mentioned at least 10 times in total
+            significance_threshold = 10
+            total_mentions = crosstab.sum(axis=1)
+            significant_techs = total_mentions[
+                total_mentions >= significance_threshold
+            ].index
+            crosstab = crosstab.loc[significant_techs]
+            print(
+                f"-> Filtered for technologies with at least {significance_threshold} mentions. Kept {len(significant_techs)} technologies."
+            )
+
         # Normalize by column (profile)
         crosstab_norm = crosstab.div(crosstab.sum(axis=0), axis=1).mul(100).round(2)
         output_path = OUTPUT_DIR / f"normalized_crosstab_{category_type}.csv"
