@@ -231,3 +231,21 @@ This entry marks the completion of the end-to-end analysis pipeline, from raw da
 
 - The project is now considered **full-cycle complete**. The pipeline can be run from start to finish to reproduce the entire analysis.
 - The final outputs, including the summary `REPORT.md`, are located in `data/analysis_results/`.
+
+---
+
+## 2025-09-04 (PM): Exploratory Topic Modeling
+
+To discover hidden thematic structures beyond the predefined `CODING_BOOK.md` schema, an exploratory analysis using Topic Modeling (LDA) was performed.
+
+### Actions & Process
+
+1.  **Data Reconstruction:** It was discovered that the raw, consolidated text file was missing. A new script (`scripts/consolidate_raw_data.py`) was created and run to rebuild the `consolidated.csv` and `consolidated_deduplicated.csv` files from the original `.xls` sources.
+2.  **Topic Modeling Script:** A new script (`scripts/topic_modeling.py`) was created to preprocess the raw job descriptions and apply Latent Dirichlet Allocation (LDA) to identify 10 distinct topics.
+3.  **Correlation Analysis:** The `statistical_analysis.py` script was enhanced to correlate the dominant topic of each job ad with its previously assigned profile (`GenAI Engineer`, `ML Engineer`, `Ambiguous / Not Relevant`).
+
+### Key Findings
+
+- The analysis successfully identified distinct thematic clusters, including topics related to core engineering, seniority, business process automation, and HR/benefits.
+- Crucially, the analysis served as a powerful validation of the primary classification schema. Topics composed of generic business terms or HR-related keywords showed a very strong correlation with the `Ambiguous / Not Relevant` profile, confirming that our pipeline correctly identifies and separates these ads from true technical roles.
+- The results, including the topic-profile correlation table, were added to the main `REPORT.md`.
