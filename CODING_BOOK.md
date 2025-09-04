@@ -2,7 +2,7 @@
 
 ## PART 1: JOB PROFILE CLASSIFICATION
 
-**Primary Goal:** The ultimate goal of the analysis is to assign **one** of the following four profiles to the job advertisement. This classification should be the final conclusion, based on the evidence gathered in Part 2.
+**Primary Goal:** The ultimate goal of the analysis is to assign **one** of the following profiles to the job advertisement. This classification should be the final conclusion, based on the evidence gathered in Part 2.
 
 ### 1. `ML Engineer` (Predictive Modeling Specialist)
 
@@ -17,11 +17,12 @@
 
 - **Typical Projects:**
 
-  - Creating a fraud detection system using classifmodels.
+  - Creating a fraud detection system using classification models.
   - Developing a customer churn prediction model to reduce attrition.
   - Developing a time series analysis model to predict future sales.
 
 - **Evidence Profile:**
+  - A strong emphasis on `Data Engineering (TASK2)`, `Modeling (TASK3)` with predictive models (e.g., classification, regression), and `Operations Engineering (MLOps) (TASK5)`. The `Software Development (TASK4)` is present but more focused on productionizing models rather than building user-facing applications. Key technologies include `Data Modeling` libraries (e.g., Scikit-learn, TensorFlow), `MLOps & Data Pipelines` tools (e.g., Airflow, Docker), and `Cloud Platforms & Services`.
 
 ### 2. `GenAI Engineer` (Language, Vision, and Interaction Specialist)
 
@@ -42,7 +43,7 @@
   - Building a chatbot that can interact by voice or text with users about the company's products and services.
 
 - **Evidence Profile:**
-  - A strong emphasis on `Modeling (TASK3)` using generative techniques (LLMs, RAG, TTS, Fine-Tuning) and the `Software Development (TASK4)` needed to build applications around them (e.g., using LangChain, Pinecone, FAISS, building security-aware APIs, etc.).
+  - A strong emphasis on `Modeling (TASK3)` using generative techniques (LLMs, RAG, TTS, Fine-Tuning), the `Software Development (TASK4)` needed to build applications around them, and the `Operations Engineering (MLOps) (TASK5)` required to deploy and maintain them. Key technologies include `LLM / Generative Models`, `LLM Frameworks & Libraries` (e.g., LangChain, Pinecone, FAISS), and security-aware API development.
 
 ### 4. `Ambiguous / Not Relevant`
 
@@ -67,7 +68,7 @@ The analyst will identify phrases in the job description that correspond to the 
 
 ### 2.2 Technologies
 
-The analyst will extract the specific name of every tool, library, or platform mentioned and classify it.
+The analyst will extract the specific name of every tool, library, or platform mentioned and classify it. Note: some entities like "Hugging Face" may appear to fit multiple categories (e.g., as a platform and a library provider). The analyst should categorize based on the context provided in the job description.
 
 - `TECH1: Programming Languages` (e.g., Python, TypeScript, JavaScript, Go, Rust, Java, C++, etc.)
 - `TECH2: Cloud Platforms & Services` (e.g., AWS, Azure, GCP, Hugging Face, OpenAI, Anthropic, etc.)
@@ -85,7 +86,7 @@ The analyst will extract the specific name of every tool, library, or platform m
 
 The analyst will identify phrases related to non-technical, interpersonal skills.
 
-- **`SKILL1: Communication & Collaboration`**: The ability to effectively communicate complex technical concepts to both technical and non-technical audiences.
+- **`SKILL1: Communication & Collaboration`**: The ability to effectively translate complex technical concepts for diverse audiences (both technical and non-technical) and to work collaboratively in multidisciplinary teams with domain experts, AI/IT professionals, and other stakeholders.
 - **`SKILL2: Learning & Adaptability`**: A demonstrated commitment to continuous learning and the ability to adapt to new technologies, tools, and methodologies in a rapidly evolving field.
 - **`SKILL3: Problem Solving & Pragmatism`**: The ability to analyze complex, open-ended problems, apply a blend of creativity and rigor to find solutions, and maintain a practical, results-oriented approach.
 - **`SKILL4: Ethical & Legal Responsibility`**: An awareness of and commitment to developing responsible, fair, and transparent AI systems. This includes considering potential biases, privacy implications, and the broader societal impact of the technology.
