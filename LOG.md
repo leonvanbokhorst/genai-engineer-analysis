@@ -208,3 +208,26 @@ Following the decision to simplify the classification schema, a new, definitive 
 
 - The definitive analysis pipeline is currently running in the background, processing all 1,272 job advertisements with the final, robust methodology.
 - The project is on hold, awaiting the completion of this final analysis run.
+
+---
+
+## 2025-09-04: Full-Cycle CAIN-Style Analysis Pipeline
+
+This entry marks the completion of the end-to-end analysis pipeline, from raw data processing to a final, comprehensive report, mirroring the methodology of the CAIN2022 paper.
+
+### Actions & Methodological Improvements
+
+1.  **CAIN-Style Consolidation:** A new script (`scripts/consolidate_automated_analysis.py`) was implemented to flatten raw JSON analyses into multiple tidy CSVs, separating profiles from categorical data to prevent duplication.
+2.  **Enhanced Descriptive Analysis:** The `scripts/descriptive_analysis.py` script was significantly upgraded to:
+    - Generate distribution plots for profiles, job tasks, technologies, and soft skills.
+    - Implement **tool-name normalization** (e.g., "aws" -> "AWS") for accurate frequency counts.
+    - Compute and save **top-N tool tables** overall and per-profile (`top_tools_*.csv`).
+    - Derive and plot a **job focus** metric (RQ1b: Modeling vs. Software vs. Mixed) per job.
+    - Calculate **per-job task coverage** to clarify the distinction between phrase counts and job counts.
+3.  **Automated Report Generation:** A new script (`scripts/generate_report.py`) was created to automatically assemble all generated plots and key data tables into a single, comprehensive `REPORT.md` file.
+4.  **Documentation Overhaul:** The project `README.md` was completely rewritten to provide clear, step-by-step instructions for running the full pipeline and to include references to the key research documents in the `/docs` directory.
+
+### Current Status
+
+- The project is now considered **full-cycle complete**. The pipeline can be run from start to finish to reproduce the entire analysis.
+- The final outputs, including the summary `REPORT.md`, are located in `data/analysis_results/`.

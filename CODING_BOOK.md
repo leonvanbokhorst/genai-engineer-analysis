@@ -1,4 +1,4 @@
-# GenAI Engineer Analysis: Coding Book (v3 - Definitive)
+# GenAI Engineer Analysis: Coding Book (v4 - 20250904)
 
 ## PART 1: JOB PROFILE CLASSIFICATION
 
