@@ -13,14 +13,17 @@ OUTPUT_PROFILES_CSV = WORKSPACE_DIR / "data" / "automated_analysis_profiles.csv"
 OUTPUT_PER_JOB_CSV = WORKSPACE_DIR / "data" / "automated_analysis_per_job.csv"
 
 
+import logging
+
 def parse_job_id(filename: str) -> int:
     """Extract integer job_id from filename like 'analysis_123.json'."""
     stem = Path(filename).stem
     # Expect format analysis_<id>
     try:
         return int(stem.split("_")[1])
-    except Exception:
-        return -1
+    except Exception as e:
+        logging.error(f"Failed to parse job_id from filename '{filename}': {e}")
+        raise ValueError(f"Invalid filename format for job_id extraction: '{filename}'") from e
 
 
 def load_json_safely(path: Path) -> Dict[str, Any]:
