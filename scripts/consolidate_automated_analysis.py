@@ -134,20 +134,20 @@ def consolidate(input_dir: Path) -> pd.DataFrame:
         else pd.DataFrame(columns=["job_id", "profile", "confidence", "rationale"])
     )
 
-    # Build per-job aggregated DataFrame (store lists as JSON strings)
-    per_job_rows: List[Dict[str, Any]] = []
-    for job in per_job.values():
-        per_job_rows.append(
-            {
-                "job_id": job["job_id"],
-                "profile": job["profile"],
-                "confidence": job["confidence"],
-                "rationale": job["rationale"],
-                "job_tasks": json.dumps(job["job_tasks"], ensure_ascii=False),
-                "technologies": json.dumps(job["technologies"], ensure_ascii=False),
-                "soft_skills": json.dumps(job["soft_skills"], ensure_ascii=False),
-            }
-        )
+    per_job_rows: List[Dict[str, Any]] = [
+        {
+            "job_id": job["job_id"],
+            "profile": job["profile"],
+            "confidence": job["confidence"],
+            "rationale": job["rationale"],
+            "job_tasks": json.dumps(job["job_tasks"], ensure_ascii=False),
+            "technologies": json.dumps(
+                job["technologies"], ensure_ascii=False
+            ),
+            "soft_skills": json.dumps(job["soft_skills"], ensure_ascii=False),
+        }
+        for job in per_job.values()
+    ]
     per_job_df = pd.DataFrame(per_job_rows)
 
     # Save outputs
