@@ -92,10 +92,36 @@ def generate_normalized_crosstabs(tidy_df, profiles_df):
     df_filtered = df[df["profile"].isin(PROFILES_TO_COMPARE)]
 
     for category_type in ["job_task", "technology", "soft_skill"]:
+        # Use 'tool_name' for technology, otherwise 'category_name'
+        if category_type == "technology":
+            column_to_crosstab = "tool_name"
+            # Filter out rows where tool_name is NaN, as it can't be grouped
+            category_df = df_filtered[
+                df_filtered["category_type"] == category_type
+            ].dropna(subset=[column_to_crosstab])
+        else:
+            column_to_crosstab = "category_name"
+            category_df = df_filtered[df_filtered["category_type"] == category_type]
+
+        if category_df.empty:
+            print(f"Skipping normalized crosstab for {category_type} due to no data.")
+            continue
+
         crosstab = pd.crosstab(
-            df_filtered[df_filtered["category_type"] == category_type]["category_name"],
-            df_filtered[df_filtered["category_type"] == category_type]["profile"],
+            category_df[column_to_crosstab],
+            category_df["profile"],
         )
+
+        if crosstab.empty:
+            print(
+                f"Skipping normalized crosstab for {category_type} as crosstab is empty."
+            )
+            # Create an empty file to avoid downstream errors
+            output_path = OUTPUT_DIR / f"normalized_crosstab_{category_type}.csv"
+            pd.DataFrame().to_csv(output_path)
+            print(f"Saved empty crosstab for {category_type} to {output_path}")
+            continue
+
         # Normalize by column (profile)
         crosstab_norm = crosstab.div(crosstab.sum(axis=0), axis=1).mul(100).round(2)
         output_path = OUTPUT_DIR / f"normalized_crosstab_{category_type}.csv"

@@ -109,7 +109,108 @@ The following tables show the distribution of tasks, technologies, and skills *w
 
 #### Technologies (Normalized)
 
-*(Table is empty)*
+| tool_name                            |   GenAI Engineer |   ML Engineer |
+|:-------------------------------------|-----------------:|--------------:|
+| (Azure) OpenAI                       |             0.05 |          0    |
+| .NET                                 |             0.1  |          0.25 |
+| AAA                                  |             0.1  |          0    |
+| ADF                                  |             0    |          0.13 |
+| AI                                   |             0.96 |          0.76 |
+| AI (LLM)                             |             0    |          0.38 |
+| AI Agents                            |             0.05 |          0    |
+| AI Controllers                       |             0.05 |          0    |
+| AI Legal Assistant                   |             0.05 |          0    |
+| AI Studio                            |             0.05 |          0.13 |
+| AI capabilities                      |             0.05 |          0    |
+| AI deployment pipelines              |             0.05 |          0    |
+| AI development agents                |             0.1  |          0    |
+| AI development frameworks            |             0.05 |          0    |
+| AI language model                    |             0.05 |          0    |
+| AI language models                   |             0.05 |          0    |
+| AI large language models             |             0.14 |          0    |
+| AI model                             |             0.1  |          0    |
+| AI models                            |             0    |          0.13 |
+| AI prompts                           |             0.05 |          0    |
+| AI systems                           |             0.1  |          0    |
+| AI technologieën                     |             0.05 |          0    |
+| AI tools                             |             0.48 |          0    |
+| AI-assistent                         |             0.05 |          0    |
+| AI-based technologies                |             0.05 |          0    |
+| AI-bots                              |             0.05 |          0    |
+| AI-driven systems                    |             0.34 |          0    |
+| AI-driven tools                      |             0.05 |          0    |
+| AI-gedreven toepassingen             |             0.05 |          0    |
+| AI-gegenereerde code                 |             0.05 |          0    |
+| AI-modellen                          |             0.1  |          0    |
+| AI-taalmodel                         |             0.05 |          0    |
+| AI/ML                                |             0.05 |          0.13 |
+| AI/ML models                         |             0.1  |          0    |
+| API's                                |             0.05 |          0    |
+| APIs                                 |             0.1  |          0    |
+| APIs GraphQL                         |             0.1  |          0    |
+| APIs REST                            |             0.1  |          0    |
+| ARM templates                        |             0.05 |          0.38 |
+| ASR                                  |             0    |          0.13 |
+| AWS                                  |             3.17 |          1.77 |
+| AWS (SageMaker, Bedrock)             |             0.05 |          0    |
+| AWS Bedrock                          |             0.1  |          0    |
+| AWS Cloud Development Kit            |             0.05 |          0    |
+| AWS Cloud9                           |             0.05 |          0    |
+| AWS ECS                              |             0.05 |          0    |
+| AWS Fargate                          |             0.05 |          0    |
+| AWS Lambda                           |             0.05 |          0    |
+| AWS SDK                              |             0.05 |          0    |
+| AWS Serverless                       |             0.14 |          0    |
+| AWS serverless                       |             0.05 |          0    |
+| AWS serverless patterns              |             0.05 |          0    |
+| AchmeaGPT                            |             0.05 |          0    |
+| AdaLORA                              |             0.05 |          0    |
+| Agentic AI                           |             0.1  |          0    |
+| Agentic Frameworks                   |             0.1  |          0    |
+| Agents                               |             0.24 |          0    |
+| Airflow                              |             0.05 |          1.14 |
+| Airtable                             |             0.05 |          0    |
+| Algolia                              |             0.05 |          0    |
+| Amazon CodeWhisperer                 |             1.39 |          0    |
+| Amazon Elastic Compute Cloud (EC2)   |             0.05 |          0    |
+| Amazon Web Services (AWS)            |             0.29 |          0    |
+| Amazon's Simple Storage Service (S3) |             0.05 |          0    |
+| Amplitude                            |             0    |          0.13 |
+| Angular                              |             0.43 |          0    |
+| AngularJS                            |             0.05 |          0    |
+| Anthropic                            |             0.24 |          0.13 |
+| Anthropic Claude                     |             0.05 |          0    |
+| Anthropic Claude models              |             0.05 |          0    |
+| Apache Beam                          |             0    |          0.13 |
+| Apache Spark                         |             0    |          0.13 |
+| Apache spark                         |             0    |          0.25 |
+| Apex                                 |             0.1  |          0    |
+| App Scripts                          |             0.05 |          0    |
+| ArgoCD                               |             0    |          0.13 |
+| Artificial Intelligence              |             0    |          0.13 |
+| Asyncio                              |             0.05 |          0    |
+| Atlassian Suite (Confluence, JIRA)   |             0    |          0.13 |
+| Aurora                               |             0.05 |          0    |
+| AutoGen                              |             0.1  |          0    |
+| Autogen                              |             0.05 |          0    |
+| Azure                                |             0.96 |          2.27 |
+| Azure AI                             |             0.1  |          0    |
+| Azure AI model catalog               |             0.05 |          0    |
+| Azure AI services                    |             0.1  |          0.13 |
+| Azure API Manager                    |             0.05 |          0    |
+| Azure Cloud                          |             0.24 |          0    |
+| Azure Cloud Stack                    |             0    |          0.38 |
+| Azure Cognitive Search               |             0    |          0.25 |
+| Azure Cognitive Services             |             0    |          0.13 |
+| Azure Data & AI Services             |             0    |          0.13 |
+| Azure DevOps                         |             0.29 |          1.01 |
+| Azure DevOps (Platform)              |             0    |          0.13 |
+| Azure Infrastructure Automation      |             0    |          0.13 |
+| Azure ML                             |             0.1  |          0.13 |
+| Azure Machine Learning               |             0.05 |          0    |
+| Azure OpenAI                         |             0.43 |          0.13 |
+| Azure OpenAI services                |             0.05 |          0    |
+| Azure SQL                            |             0    |          0.13 |
 
 #### Soft Skills (Normalized)
 
