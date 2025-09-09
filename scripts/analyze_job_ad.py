@@ -5,6 +5,7 @@ import pandas as pd
 import json
 from pathlib import Path
 import time
+import math
 from tqdm import tqdm
 
 # --- Configuration ---
@@ -40,28 +41,52 @@ PROMPTS_DIR = WORKSPACE_DIR / "prompts"
 CODING_BOOK_PATH = WORKSPACE_DIR / "CODING_BOOK.md"
 MASTER_PROMPT_PATH = PROMPTS_DIR / "master_prompt.md"
 INPUT_DATA_PATH = WORKSPACE_DIR / "data" / "consolidated_deduplicated.csv"
-OUTPUT_DIR = WORKSPACE_DIR / "data" / "automated_analysis_deduplicated"
+OUTPUT_DIR = WORKSPACE_DIR / "data" / "automated_analysis"
 
 # --- Main Functions ---
 
 
-def load_prompt_template():
-    """Loads the master prompt and the coding book."""
-    with open(CODING_BOOK_PATH, "r", encoding="utf-8") as f:
-        coding_book = f.read()
-    with open(MASTER_PROMPT_PATH, "r", encoding="utf-8") as f:
-        master_prompt = f.read()
+def get_analysis_prompt(coding_book, job_description):
+    """Creates the prompt for the Gemini API call."""
+    return f"""
+    **Instructions for the Job Analyst:**
 
-    return f"{master_prompt}\n\n---\n\n## CODING_BOOK.md\n\n{coding_book}"
+    You are an expert Job Analyst. Your task is to analyze the following job description based on the provided Coding Book and produce a structured JSON output.
+
+    **Analysis Workflow:**
+    1.  **Thematic Analysis:** First, carefully read the job description and the Coding Book. Extract all relevant phrases, tools, and skills. For each **Job Task**, you must also provide a brief `justification` explaining why the phrase matches the category.
+    2.  **Profile Classification:** After completing the thematic analysis, review your findings. Based on the evidence, assign the single most appropriate job profile from Part 1 of the Coding Book.
+    3.  **Confidence Score:** Provide a confidence score (1-5) for your profile classification.
+    4.  **Rationale:** Provide a concise rationale (2-3 sentences) explaining your choice of profile, referencing the thematic evidence you found.
+
+    You may change obvious spelling mistakes in the job description, technology names, etc.
+    
+    **Output Format:**
+    Return your analysis as a single, VALID JSON object. **Do not include a "chain of thought" or any other commentary outside of the JSON structure.**
+
+    ---
+    **Coding Book:**
+
+    {coding_book}
+
+    ---
+    **Job Description to Analyze:**
+
+    {job_description}
+    """
 
 
-def analyze_job_ad(job_ad_text: str, template: str) -> dict:
+def analyze_job_ad(
+    job_ad_text: str, template: str, job_id: int, job_info: dict
+) -> dict:
     """
     Analyzes a single job ad using the Gemini API.
 
     Args:
         job_ad_text: The full text of the job advertisement.
         template: The full prompt template including the master prompt and coding book.
+        job_id: The unique identifier for the job ad.
+        job_info: A dictionary containing all original data for the job ad.
 
     Returns:
         A dictionary containing the structured analysis from the API.
@@ -72,18 +97,36 @@ def analyze_job_ad(job_ad_text: str, template: str) -> dict:
         safety_settings=SAFETY_SETTINGS,
     )
 
-    prompt = f"{template}\n\n---\n\n## Job Advertisement to Analyze:\n\n```text\n{job_ad_text}\n```"
+    prompt = template  # The template is now the full prompt
 
     try:
         response = model.generate_content(prompt)
         # The API is configured to return JSON directly, so we parse the text part.
-        return json.loads(response.text)
+        analysis_data = json.loads(response.text)
+
+        # Combine original job info with the new analysis
+        final_result = {
+            "job_id": job_id,
+            "job_details": {
+                k: (None if isinstance(v, float) and math.isnan(v) else v)
+                for k, v in job_info.items()
+            },
+            "analysis": analysis_data,
+        }
+        return final_result
     except Exception as e:
         print(f"An error occurred: {e}")
         # In case of an error, we still want to see the raw response if possible
         if "response" in locals() and hasattr(response, "prompt_feedback"):
             print(f"Prompt Feedback: {response.prompt_feedback}")
-        return {"error": str(e)}
+        return {
+            "job_id": job_id,
+            "job_details": {
+                k: (None if isinstance(v, float) and math.isnan(v) else v)
+                for k, v in job_info.items()
+            },
+            "analysis": {"error": str(e)},
+        }
 
 
 def main():
@@ -97,8 +140,9 @@ def main():
     print(f"Output directory created/ensured at: {OUTPUT_DIR}")
 
     # 2. Load the prompt template
-    print("Loading prompt template and coding book...")
-    prompt_template = load_prompt_template()
+    print("Loading coding book...")
+    with open(CODING_BOOK_PATH, "r", encoding="utf-8") as f:
+        coding_book = f.read()
 
     # 3. Load the input data
     print(f"Loading job data from: {INPUT_DATA_PATH}")
@@ -113,7 +157,8 @@ def main():
 
     # --- Analysis Loop ---
     for index, row in tqdm(df.iterrows(), total=df.shape[0], desc="Analyzing Jobs"):
-        job_id = index
+        job_id = row["job_id"]  # Use job_id from the dataframe
+        job_info = row.to_dict()  # Get all job info as a dict
         output_path = OUTPUT_DIR / f"analysis_job_{job_id}.json"
 
         # Skip if already analyzed
@@ -129,7 +174,10 @@ def main():
 
         print(f"\nAnalyzing job {job_id}: {row['Vacaturetitel'][:50]}...")
 
-        analysis_result = analyze_job_ad(job_text, prompt_template)
+        # Create the prompt for each job ad
+        prompt = get_analysis_prompt(coding_book, job_text)
+
+        analysis_result = analyze_job_ad(job_text, prompt, job_id, job_info)
 
         # Save the result
         with open(output_path, "w", encoding="utf-8") as f:

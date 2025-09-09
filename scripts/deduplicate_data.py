@@ -29,6 +29,11 @@ def deduplicate_csv(input_path, output_path, column_names):
     num_duplicates = len(df) - len(deduplicated_df)
     print(f"Number of duplicate rows removed: {num_duplicates}")
 
+    # --- Add a unique job_id ---
+    print("Adding unique job_id to each row...")
+    deduplicated_df = deduplicated_df.reset_index(drop=True)
+    deduplicated_df.insert(0, "job_id", deduplicated_df.index)
+
     # Create the directory for the output file if it doesn't exist
     output_dir = os.path.dirname(output_path)
     if not os.path.exists(output_dir):
