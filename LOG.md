@@ -249,3 +249,29 @@ To discover hidden thematic structures beyond the predefined `CODING_BOOK.md` sc
 - The analysis successfully identified distinct thematic clusters, including topics related to core engineering, seniority, business process automation, and HR/benefits.
 - Crucially, the analysis served as a powerful validation of the primary classification schema. Topics composed of generic business terms or HR-related keywords showed a very strong correlation with the `Ambiguous / Not Relevant` profile, confirming that our pipeline correctly identifies and separates these ads from true technical roles.
 - The results, including the topic-profile correlation table, were added to the main `REPORT.md`.
+
+---
+
+## 2025-09-09: Final Analysis and Reporting Cycle
+
+This entry documents the final, iterative cycle of the project, which involved consolidating a new batch of agent-based analyses and performing a full suite of cleaning, statistical analysis, and reporting.
+
+### Actions & Process
+
+1.  **Consolidation and Cleaning:** A new set of `analysis_job_*.json` files were consolidated. During this process, it was discovered that the JSON schema had evolved, and the analysis scripts were not robust enough to handle the different formats.
+    - The `consolidate_automated_analysis.py` script was refactored multiple times to handle at least three different JSON structures gracefully.
+    - A new, more robust data cleaning script (`scripts/clean_analysis_output.py`) was created to standardize `category_name` and `profile` fields across all consolidated files, and the old cleaning script was deleted.
+2.  **Analysis and Refinement:** The full suite of analysis scripts were run:
+    - `descriptive_analysis.py`: Generated initial charts.
+    - `topic_modeling.py`: Performed exploratory topic analysis.
+    - `analyze_topics_by_profile.py`: Correlated topics with profiles and generated a heatmap.
+    - `statistical_analysis.py`: Performed Chi-Squared tests and technology co-occurrence analysis.
+3.  **Heatmap Correction:** It was identified that the technology co-occurrence heatmap was cluttered with high-level category names instead of specific tools. The `statistical_analysis.py` script was refined to filter these out, producing a much cleaner and more accurate visualization.
+4.  **Final Report Generation:** The `generate_report.py` script was run to assemble all the final, cleaned artifacts into the `REPORT.md`.
+5.  **Comparative Analysis:** A `COMPARISON_OF_REPORTS.md` was created to document the significant improvements in the results between the pre-cleaning and post-cleaning analysis runs.
+6.  **Pipeline Documentation:** A comprehensive `PIPELINE.md` was created, detailing every step of the workflow to ensure full reproducibility.
+7.  **Git Hygiene:** A stray `.DS_Store` file was discovered in the repository, removed from the Git history, and added to the `.gitignore` file.
+
+### Current Status
+
+- The project is complete. The data pipeline is robust, the analyses are clean, and the final report and all documentation have been generated.
