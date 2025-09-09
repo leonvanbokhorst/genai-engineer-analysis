@@ -63,24 +63,9 @@ def perform_descriptive_analysis(tidy_input_csv, profiles_csv, output_dir):
 
     print("\n--- Analysis of Technologies ---")
 
-    tech_mapping = {
-        "TECH1": "Programming Languages",
-        "TECH2": "Cloud Platforms & Services",
-        "TECH3": "LLM / Generative Models",
-        "TECH4": "LLM Frameworks & Libraries",
-        "TECH5": "Vector Stores & Search",
-        "TECH6": "MLOps & Data Pipelines",
-        "TECH7": "Data Visualization",
-        "TECH8": "Data Processing",
-        "TECH9": "Data Storage",
-        "TECH10": "Data Modeling",
-        "TECH11": "Data Analysis",
-    }
-
     technologies_df = tidy_df[tidy_df["category_type"] == "technology"].copy()
-    technologies_df["category_name"] = technologies_df["category_id"].map(tech_mapping)
 
-    # Count by category_id as category_name might be missing
+    # Count by category_name as category_id might be missing
     tech_counts = technologies_df["category_name"].value_counts().head(20)  # Top 20
     print(tech_counts)
 
@@ -124,25 +109,11 @@ def compute_top_tools(tidy_input_csv, profiles_csv, output_dir, top_n: int = 20)
     tidy_df = pd.read_csv(tidy_input_csv)
     profiles_df = pd.read_csv(profiles_csv)
 
-    tech_mapping = {
-        "TECH1": "Programming Languages",
-        "TECH2": "Cloud Platforms & Services",
-        "TECH3": "LLM / Generative Models",
-        "TECH4": "LLM Frameworks & Libraries",
-        "TECH5": "Vector Stores & Search",
-        "TECH6": "MLOps & Data Pipelines",
-        "TECH7": "Data Visualization",
-        "TECH8": "Data Processing",
-        "TECH9": "Data Storage",
-        "TECH10": "Data Modeling",
-        "TECH11": "Data Analysis",
-    }
-
     tech_df = tidy_df[tidy_df["category_type"] == "technology"].copy()
     tech_df = tech_df[
         pd.notna(tech_df["tool_name"]) & (tech_df["tool_name"].str.strip() != "")
     ]
-    tech_df["family"] = tech_df["category_id"].map(tech_mapping)
+    tech_df["family"] = tech_df["category_name"]
 
     # Normalize tool names to reduce duplicates caused by casing/aliases
     def normalize_tool_name(name: str) -> str:
@@ -246,17 +217,23 @@ def derive_focus_rq1b(tidy_input_csv, output_dir):
     """
     tidy_df = pd.read_csv(tidy_input_csv)
     tasks = tidy_df[tidy_df["category_type"] == "job_task"][
-        ["job_id", "category_id"]
+        ["job_id", "category_name"]
     ].copy()
 
     # Presence flags per job
     modeling = (
-        tasks.assign(is_modeling=(tasks["category_id"] == "TASK3"))
+        tasks.assign(
+            is_modeling=tasks["category_name"].str.contains("Modeling", na=False)
+        )
         .groupby("job_id")["is_modeling"]
         .any()
     )
     software = (
-        tasks.assign(is_software=(tasks["category_id"] == "TASK4"))
+        tasks.assign(
+            is_software=tasks["category_name"].str.contains(
+                "Software Development", na=False
+            )
+        )
         .groupby("job_id")["is_software"]
         .any()
     )
@@ -345,21 +322,7 @@ def perform_profile_analysis(tidy_input_csv, profiles_csv):
     print(task_profile_ct)
 
     print("\n--- Cross-Tabulation: Profiles vs. Technologies ---")
-    tech_mapping = {
-        "TECH1": "Programming Languages",
-        "TECH2": "Cloud Platforms & Services",
-        "TECH3": "LLM / Generative Models",
-        "TECH4": "LLM Frameworks & Libraries",
-        "TECH5": "Vector Stores & Search",
-        "TECH6": "MLOps & Data Pipelines",
-        "TECH7": "Data Visualization",
-        "TECH8": "Data Processing",
-        "TECH9": "Data Storage",
-        "TECH10": "Data Modeling",
-        "TECH11": "Data Analysis",
-    }
     technologies_df = df_filtered[df_filtered["category_type"] == "technology"].copy()
-    technologies_df["category_name"] = technologies_df["category_id"].map(tech_mapping)
     tech_profile_ct = pd.crosstab(
         technologies_df["category_name"], technologies_df["profile"]
     )
@@ -382,4 +345,7 @@ if __name__ == "__main__":
     if not os.path.exists(OUTPUT_DIR):
         os.makedirs(OUTPUT_DIR)
     perform_descriptive_analysis(INPUT_TIDY_CSV, INPUT_PROFILES_CSV, OUTPUT_DIR)
+    compute_top_tools(INPUT_TIDY_CSV, INPUT_PROFILES_CSV, OUTPUT_DIR)
+    derive_focus_rq1b(INPUT_TIDY_CSV, OUTPUT_DIR)
+    job_task_coverage_per_job(INPUT_TIDY_CSV, OUTPUT_DIR)
     perform_profile_analysis(INPUT_TIDY_CSV, INPUT_PROFILES_CSV)
