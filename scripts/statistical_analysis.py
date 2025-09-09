@@ -58,6 +58,12 @@ def technology_cooccurrence_analysis(tidy_df):
     tech_df = tidy_df[tidy_df["category_type"] == "technology"].copy()
     tech_df.dropna(subset=["tool_name"], inplace=True)
 
+    # Filter out tool names that are just category labels to get a true tool co-occurrence
+    tech_df = tech_df[~tech_df["tool_name"].str.contains(r"^TECH\d*:", na=False)]
+    tech_df = tech_df[
+        ~tech_df["tool_name"].str.contains(r"Retrieval-Augmented Generation", na=False)
+    ]
+
     # Get the top 20 most frequent tools
     top_tools = tech_df["tool_name"].value_counts().nlargest(20).index.tolist()
     tech_df_top = tech_df[tech_df["tool_name"].isin(top_tools)]
@@ -99,6 +105,16 @@ def generate_normalized_crosstabs(tidy_df, profiles_df):
             category_df = df_filtered[
                 df_filtered["category_type"] == category_type
             ].dropna(subset=[column_to_crosstab])
+
+            # Also filter out the category labels from this analysis
+            category_df = category_df[
+                ~category_df["tool_name"].str.contains(r"^TECH\d*:", na=False)
+            ]
+            category_df = category_df[
+                ~category_df["tool_name"].str.contains(
+                    r"Retrieval-Augmented Generation", na=False
+                )
+            ]
         else:
             column_to_crosstab = "category_name"
             category_df = df_filtered[df_filtered["category_type"] == category_type]
