@@ -15,8 +15,8 @@ The pipeline is a sequence of Python scripts that progressively process, analyze
 
 Before running the pipeline, ensure the following are set up:
 
-1.  **Python Environment:** A Python 3.12 virtual environment is required. [[memory:7590819]]
-2.  **Dependencies:** All required packages must be installed. This project uses `uv` for dependency management. [[memory:7590819]]
+1.  **Python Environment:** A Python 3.12 virtual environment is required. 
+2.  **Dependencies:** All required packages must be installed. This project uses `uv` for dependency management.
 3.  **spaCy Model:** The topic modeling script requires the `en_core_web_sm` model. Install it with:
     ```bash
     source .venv/bin/activate
