@@ -27,83 +27,65 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional backend software engineering with Golang and cloud-native environments. While it mentions LLM applications, it lacks specific details on generative model development, fine-tuning, or RAG systems, which are core to a GenAI Engineer role."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on backend software engineering for cloud-native environments and distributed systems, specifically mentioning Kubernetes and Golang. While it mentions catering to LLM applications and streaming APIs, it does not detail core generative AI tasks like model fine-tuning, prompt engineering, or RAG system development. The primary focus remains on traditional backend development and infrastructure, rather than the specialized tasks of a GenAI Engineer or ML Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "Backend Software Engineer",
-                        "developing high-performance, scalable software solutions",
-                        "designing and constructing an innovative, real-time cloud platform",
-                        "Implement robust backend systems",
-                        "Collaborate closely with DevOps and front-end teams to ensure seamless integration with backend systems",
-                        "Drive comprehensive test coverage, instrumentation, and documentation"
-                    ],
-                    "justification": "These phrases describe the core activities of building, integrating, and testing backend software systems, which falls under traditional software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description emphasizes 'developing high-performance, scalable software solutions', 'designing and constructing an innovative, real-time cloud platform', 'Implement robust backend systems', and 'seamless integration with backend systems', which are core software development activities.",
+                    "phrase": "Backend Software Engineer"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Kubernetes-based, cloud-native environments",
-                        "distributed systems",
-                        "cloud technologies",
-                        "streaming APIs",
-                        "network protocols",
-                        "security best practices throughout the software stack",
-                        "DevOps"
-                    ],
-                    "justification": "The mention of Kubernetes, cloud-native environments, distributed systems, and collaboration with DevOps points to operational aspects of deploying and managing software in cloud infrastructure."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves building systems that cater to LLM applications, implying software development around these models rather than direct model development.",
+                    "phrase": "modern LLM (Large Language Model) mission-critical applications"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "mission-critical applications",
-                        "real-time cloud platform that caters most modern LLM (Large Language Model) mission-critical applications"
-                    ],
-                    "justification": "This phrase indicates an understanding of the business context and the criticality of the applications being built, specifically in relation to LLM use cases."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH1: Programming Languages",
-                    "value": "Golang"
+                    "category": "TASK4: Software Development",
+                    "justification": "The mention of 'streaming APIs, network protocols, and security best practices throughout the software stack' points to the development of software components and their integration.",
+                    "phrase": "streaming APIs, network protocols, and security best practices"
                 },
                 {
-                    "tech_name": "TECH6: MLOps & Data Pipelines",
-                    "value": "Kubernetes"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The role is for a 'cloud-native environment' and mentions 'Kubernetes-based', which are key components of modern operational infrastructure and deployment, often associated with MLOps in an AI context.",
+                    "phrase": "Kubernetes-based, cloud-native environments"
                 },
                 {
-                    "tech_name": "TECH2: Cloud Platforms & Services",
-                    "value": "cloud-native environments"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Implement robust backend systems using the selected infrastructure frameworks and open-source' directly relates to the development of backend software.",
+                    "phrase": "Implement robust backend systems"
                 },
                 {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "value": "LLM (Large Language Model)"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The need to 'Collaborate closely with DevOps and front-end teams' indicates a requirement for strong communication and teamwork.",
+                    "phrase": "Collaborate closely with DevOps and front-end teams"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The responsibility to 'Drive comprehensive test coverage, instrumentation, and documentation' falls under the operational aspects of ensuring software quality and maintainability, which is part of MLOps.",
+                    "phrase": "Drive comprehensive test coverage, instrumentation, and documentation"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "value": "Collaborate closely with DevOps and front-end teams"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate closely with DevOps and front-end teams"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Golang"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "value": "high-performance, scalable software solutions",
-                    "justification": "Designing for high performance and scalability implies a pragmatic approach to solving complex engineering challenges."
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Kubernetes"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "value": "innovative, real-time cloud platform",
-                    "justification": "The use of 'innovative' suggests a need for proactive and ownership-driven development."
-                },
-                {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "value": "cloud technologies",
-                    "justification": "Working with various cloud technologies implies a need for continuous learning and adaptation."
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLM (Large Language Model)"
                 }
             ]
         }

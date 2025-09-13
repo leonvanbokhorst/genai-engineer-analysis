@@ -28,62 +28,45 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job title and description explicitly mention 'GenAI' and focus on applying generative AI to transform the company. The core responsibilities, though not detailed, imply building and deploying GenAI solutions within a business context."
+            "rationale": "The job title is 'GenAI Developer' and the description explicitly mentions reshaping the future of the pension sector with GenAI, and transforming the company step-by-step using GenAI. This strongly aligns with the definition and core responsibilities of a GenAI Engineer, focusing on the application and development of generative AI technologies."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "de toekomst van de pensioensector opnieuw vorm te geven met de kracht van GenAI",
-                            "justification": "This phrase indicates understanding the business domain (pension sector) and the strategic goal of transforming it using GenAI."
-                        },
-                        {
-                            "phrase": "Bij Athora Netherlands (o.a. Zwitserleven) krijg je de kans om deel uit te maken van een innovatief team dat dagelijks werkt aan de toepassing van GenAI om ons bedrijf stap voor stap te transformeren.",
-                            "justification": "This highlights the business context (Athora Netherlands, Zwitserleven) and the objective of company transformation through GenAI application."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'reshaping the future of the pension sector' indicates a need to understand the business context and strategic goals within that industry.",
+                    "phrase": "reshaping the future of the pension sector"
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        {
-                            "phrase": "de toepassing van GenAI",
-                            "justification": "This directly refers to the application of Generative AI models, which falls under the Modeling task category."
-                        }
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The title 'GenAI Developer' and the mention of 'application of GenAI' and 'transforming our company' imply the development and deployment of software solutions.",
+                    "phrase": "GenAI Developer"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "de toepassing van GenAI om ons bedrijf stap voor stap te transformeren",
-                            "justification": "Transforming a business with GenAI implies developing and integrating GenAI capabilities into existing systems or creating new ones, which is part of Software Development."
-                        }
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'application of GenAI' suggests building and integrating GenAI capabilities into existing or new software systems.",
+                    "phrase": "application of GenAI"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'transforming our company step-by-step' implies a continuous process of development, deployment, and integration, which falls under operational aspects of AI systems.",
+                    "phrase": "transforming our company step-by-step"
                 }
             ],
-            "technologies": [],
             "soft_skills": [
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        {
-                            "phrase": "innovatief team",
-                            "justification": "This phrase directly points to an innovative environment and likely requires individuals who are innovative and take ownership."
-                        }
-                    ]
+                    "category": "SKILL5: Innovation and Ownership",
+                    "phrase": "innovatief team"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        {
-                            "phrase": "dagelijks werkt aan de toepassing van GenAI",
-                            "justification": "Working daily with GenAI implies a need for continuous learning and adaptation to new developments in a rapidly evolving field."
-                        }
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "klaar om de toekomst ... opnieuw vorm te geven"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "GenAI"
                 }
             ]
         }

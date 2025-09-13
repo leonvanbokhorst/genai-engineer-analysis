@@ -28,29 +28,50 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job title explicitly mentions 'GENAI Studio' and the description emphasizes building and deploying generative AI applications. While 'Machine Learning Engineer' is in the title, the focus on generative models and application development aligns more closely with the GenAI Engineer profile."
+            "rationale": "The job title explicitly mentions 'GENAI Studio' and the role's focus is on designing, developing, fine-tuning, and deploying applications built on top of large language models and other generative models, aligning perfectly with the definition of a GenAI Engineer. While 'ML Engineer' is in the title, the specific responsibilities described point towards generative AI applications rather than purely predictive modeling."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "Machine Learning Engineer",
-                        "GENAI Studio"
-                    ],
-                    "justification": "The title 'Machine Learning Engineer' and the mention of 'GENAI Studio' directly imply work with machine learning models, specifically within the generative AI domain."
+                    "category": "TASK3",
+                    "justification": "The description mentions 'designing, developing, fine-tuning, and deploying applications built on top of large language models, diffusion models, and other generative models', which directly relates to adapting and creating generative AI models.",
+                    "phrase": "designing, developing, fine-tuning, and deploying applications built on top of large language models, diffusion models, and other generative models"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "Machine Learning Engineer I"
-                    ],
-                    "justification": "The 'Engineer I' designation suggests a role involved in the practical application and development of ML technologies, which often includes software development aspects to integrate models into systems."
+                    "category": "TASK4",
+                    "justification": "The role involves 'building and maintaining production-grade user-facing software systems', which is a core aspect of traditional software development applied to AI applications.",
+                    "phrase": "building and maintaining production-grade user-facing software systems"
+                },
+                {
+                    "category": "TASK5",
+                    "justification": "The phrase 'building and maintaining production-grade user-facing software systems' implies the operational aspects of deploying and managing AI models in a live environment.",
+                    "phrase": "building and maintaining production-grade user-facing software systems"
                 }
             ],
-            "technologies": [],
-            "soft_skills": []
+            "soft_skills": [
+                {
+                    "category": "SKILL2",
+                    "phrase": "rapidly evolving field"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "Ownership"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "large language models"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "diffusion models"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "generative models"
+                }
+            ]
         }
     }
 }

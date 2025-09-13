@@ -28,99 +28,78 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 5,
-            "rationale": "The job description heavily emphasizes developing and fine-tuning LLM-based solutions, including prompt tuning and model fine-tuning. It also mentions building RAG systems and contributing to generative AI tech strategy, aligning directly with the core responsibilities of a GenAI Engineer."
+            "rationale": "The job description emphasizes developing and deploying LLM-based solutions, including prompt tuning and model fine-tuning. It also mentions LLM Ops and building end-to-end solutions for text analytics and NLP, aligning strongly with the core responsibilities and evidence profile of a GenAI Engineer. While there's mention of data scientists and platform engineers, the primary focus is on generative AI applications and user-facing systems built around LLMs."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrases": [
-                        "support and enhance business processes and outcome",
-                        "translate business requirements into technical requirements"
-                    ],
-                    "justification": "These phrases indicate the need to understand business needs and translate them into technical specifications for AI solutions."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'develop LLM-based solutions for information extraction, classification, question answering and more, leveraging prompt tuning or model fine-tuning as appropriate' directly describes the creation and adaptation of models, specifically generative ones.",
+                    "phrase": "develop LLM-based solutions for information extraction, classification, question answering and more, leveraging prompt tuning or model fine-tuning as appropriate"
                 },
                 {
-                    "task": "TASK3: Modeling",
-                    "phrases": [
-                        "generative AI, in particular large language models (LLMs)",
-                        "develop LLM-based solutions for information extraction, classification, question answering and more",
-                        "leveraging prompt tuning or model fine-tuning as appropriate",
-                        "LLM Ops"
-                    ],
-                    "justification": "The core of the role involves working with LLMs, including developing solutions, prompt tuning, fine-tuning, and LLM Operations, which are central to generative AI modeling."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'builds and owns end-to-end solutions and services around text mining, document analytics, and NLP' implies the development of complete systems and services, which falls under software development.",
+                    "phrase": "builds and owns end-to-end solutions and services around text mining, document analytics, and NLP"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrases": [
-                        "development, validation, and performance of the solutions you are working on",
-                        "builds and owns end-to-end solutions and services around text mining, document analytics, and NLP"
-                    ],
-                    "justification": "This task involves the practical development and delivery of AI solutions, integrating them into services and ensuring their performance, which falls under software development."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'contribute to our broader tech strategy for generative AI, involving LLM Ops' directly mentions LLM Operations, which is a key component of MLOps.",
+                    "phrase": "contribute to our broader tech strategy for generative AI, involving LLM Ops"
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "LLM Ops",
-                        "systematic re-use of specific models and platforms"
-                    ],
-                    "justification": "The mention of 'LLM Ops' and ensuring systematic reuse of models and platforms directly points to the operational aspects of managing and deploying AI models in production."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "LLM / Generative Models",
-                    "type": "TECH3",
-                    "mentions": [
-                        "generative AI",
-                        "large language models (LLMs)"
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrases 'support and enhance business processes and outcome' and 'translate business requirements into technical requirements' indicate a need to understand business needs and align technical solutions with them.",
+                    "phrase": "support and enhance business processes and outcome"
                 },
                 {
-                    "technology": "LLM Frameworks & Libraries",
-                    "type": "TECH4",
-                    "mentions": [
-                        "prompt tuning",
-                        "model fine-tuning"
-                    ]
-                },
-                {
-                    "technology": "Programming Languages",
-                    "type": "TECH1",
-                    "mentions": [
-                        "NLP"
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrases 'support and enhance business processes and outcome' and 'translate business requirements into technical requirements' indicate a need to understand business needs and align technical solutions with them.",
+                    "phrase": "translate business requirements into technical requirements"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "strong in communication",
-                        "collaboration with colleagues and clients across the company",
-                        "closely collaborate and coordinate with (re)insurance professionals"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "strong in communication"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "eager to extend their competencies, both technical and regarding collaboration"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "collaboration with colleagues and clients across the company"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "support and enhance business processes and outcome",
-                        "translate business requirements into technical requirements"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "closely collaborate and coordinate with (re)insurance professionals"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "development, validation, and performance of the solutions you are working on",
-                        "contribute to our broader tech strategy for generative AI"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "eager to extend their competencies"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "generative AI"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "large language models (LLMs)"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLM-based solutions"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "prompt tuning"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "model fine-tuning"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "LLM Ops"
                 }
             ]
         }

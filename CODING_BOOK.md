@@ -45,9 +45,9 @@
 - **Evidence Profile:**
   - A strong emphasis on `Modeling (TASK3)` using generative techniques (LLMs, RAG, TTS, Fine-Tuning), the `Software Development (TASK4)` needed to build applications around them, and the `Operations Engineering (MLOps) (TASK5)` required to deploy and maintain them. Key technologies include `LLM / Generative Models`, `LLM Frameworks & Libraries` (e.g., LangChain, Pinecone, FAISS), and security-aware API development.
 
-### 4. `Ambiguous / Not Relevant`
+### 4. `Ambiguous`
 
-- **Definition:** Use this category if the job ad is NOT a technical role, is too vague, too short, business-focused, educational, primarilly focusses on the USE of AI tools to enhance productivity (like AI-powered tools, AI-powered workflows, AI-assisted programming, etc.), or NOT related to AI (like traditional software engineering, media design, traditional infrastructure engineering, marketing, sales, etc.).
+- **Definition:** Use this category if the job ad is NOT a technical role, is too vague, too short, only business-focused, educational, primarilly focusses on the USE of AI tools to enhance productivity (like AI-powered tools, AI-powered workflows, AI-assisted programming, etc.), or NOT related to AI (like traditional software engineering, media design, infrastructure engineering, marketing, sales, etc.).
 - **Evidence Profile:** Lacks significant evidence in the job task categories outlined in Part 2.
 
 ---

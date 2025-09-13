@@ -28,111 +28,85 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes MLOps lifecycle support, streamlining ML development processes, and implementing tooling for orchestration, experiment tracking, and deployment. While it mentions supporting research teams, the core focus is on the operational and engineering aspects of machine learning systems, aligning with the ML Engineer profile."
+            "rationale": "The job description heavily emphasizes MLOps, streamlining ML development processes, supporting research teams, and establishing coding standards for ML and MLOps. While it mentions supporting 'full stack' teams, the core responsibilities revolve around the ML lifecycle, including troubleshooting, CI/CD integration, defining automated processes for services and data pipelines, implementing tooling for orchestration, experiment tracking, deployment, and Infrastructure as Code. The focus on building and improving infrastructure for ML workflows, experiment tracking, and repository templates aligns directly with the 'ML Engineer' profile, particularly its emphasis on MLOps and productionizing models."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "MLOps Engineer",
-                        "streamline our ML development process",
-                        "ML Platform Team",
-                        "support to our R&D Researchers in all aspects of the MLOps lifecycle",
-                        "establish general coding standards when it comes to ML and MLOps",
-                        "fixing issues with their current setups (this includes troubleshooting, integrating CI/CD etc.)",
-                        "Help define our \"1 click process\" to create custom services and data-pipelines",
-                        "Implement new tooling in the areas of orchestration, experiment tracking, service deployment, Infrastructure as Code",
-                        "improve standardisation of environments across R&D Teams",
-                        "Create / Improve infrastructure for Github Actions",
-                        "Improve Template capabilities - you will be in charge of our basic ML repository"
-                    ],
-                    "justification": "These phrases directly relate to the operational aspects of machine learning, including deployment, monitoring, CI/CD integration, infrastructure management, and standardizing ML environments, which are core to MLOps."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The job explicitly states 'MLOps Engineer' and details responsibilities like 'streamline our ML development process', 'supporting 7+ teams that work \"full stack\"', 'support to our R&D Researchers in all aspects of the MLOps lifecycle', 'establish general coding standards when it comes to ML and MLOps', 'fixing issues with their current setups (this includes troubleshooting, integrating CI/CD etc.)', 'define our \"1 click process\" to create custom services and data-pipelines', 'Implement new tooling in the areas of orchestration, experiment tracking, service deployment, Infrastructure as Code', 'standardisation of environments', and 'Create / Improve infrastructure for Github Actions', 'Improve Template capabilities - you will be in charge of our basic ML repository'.",
+                    "phrase": "MLOps Engineer"
                 },
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "create custom services and data-pipelines"
-                    ],
-                    "justification": "The mention of creating custom data pipelines falls under the umbrella of data engineering, as it involves building and maintaining the infrastructure for data flow."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The core of the role is to streamline the ML development process and accelerate research teams, which directly falls under MLOps.",
+                    "phrase": "streamline our ML development process"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "integrating CI/CD",
-                        "Infrastructure as Code",
-                        "Github Actions"
-                    ],
-                    "justification": "While not building user-facing applications, tasks like integrating CI/CD, managing infrastructure as code, and working with CI/CD platforms like Github Actions involve software development principles for operational systems."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Supporting teams in the MLOps lifecycle is a key responsibility.",
+                    "phrase": "support to our R&D Researchers in all aspects of the MLOps lifecycle"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "accelerate our research teams",
-                        "supporting 7+ teams that work \"full stack\"",
-                        "Our Research Engineers run Ops, Engineering and Science",
-                        "Now we want to streamline the process, adopt the right tools and super-charge the work we are doing"
-                    ],
-                    "justification": "These phrases indicate an understanding of the business need to accelerate research, support multiple teams, and improve overall productivity through better tooling and processes."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH6: MLOps & Data Pipelines",
-                    "technologies": [
-                        "MLOps",
-                        "CI/CD",
-                        "orchestration",
-                        "experiment tracking",
-                        "service deployment",
-                        "Infrastructure as Code",
-                        "Github Actions",
-                        "data-pipelines"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Establishing coding standards for ML and MLOps is part of operationalizing ML practices.",
+                    "phrase": "establish general coding standards when it comes to ML and MLOps"
                 },
                 {
-                    "tech_name": "TECH1: Programming Languages",
-                    "technologies": [
-                        "ML"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Troubleshooting and integrating CI/CD are fundamental MLOps tasks.",
+                    "phrase": "fixing issues with their current setups (this includes troubleshooting, integrating CI/CD etc.)"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Defining automated processes for creating services and data pipelines is a core MLOps function.",
+                    "phrase": "Help define our \"1 click process\" to create custom services and data-pipelines"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Implementing tooling for orchestration, experiment tracking, deployment, and IaC are direct MLOps responsibilities.",
+                    "phrase": "Implement new tooling in the areas of orchestration, experiment tracking, service deployment, Infrastructure as Code"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Improving standardization of environments across R&D teams is an MLOps effort to ensure consistency and reproducibility.",
+                    "phrase": "Conduct research & implement ways to improve standardisation of environments across R&D Teams"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Creating and improving infrastructure for Github Actions is a CI/CD and MLOps task.",
+                    "phrase": "Create / Improve infrastructure for Github Actions"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Improving template capabilities for ML repositories is about standardizing and streamlining the ML development workflow.",
+                    "phrase": "Improve Template capabilities - you will be in charge of our basic ML repository"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "While the primary focus is MLOps, supporting 'full stack' teams implies some involvement in the software development aspects of integrating ML functionalities.",
+                    "phrase": "supporting 7+ teams that work \"full stack\""
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "skills": [
-                        "fixing issues with their current setups",
-                        "troubleshooting",
-                        "Help define our \"1 click process\"",
-                        "Implement new tooling",
-                        "improve standardisation",
-                        "Improve Template capabilities"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "supporting 7+ teams"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "skills": [
-                        "streamline our ML development process",
-                        "accelerate our research teams",
-                        "super-charge the work we are doing",
-                        "Improve Template capabilities - you will be in charge of our basic ML repository"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "fixing issues with their current setups"
                 },
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "skills": [
-                        "supporting 7+ teams",
-                        "Assist R&D Researchers"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "you will be in charge of our basic ML repository"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "skills": [
-                        "Conduct research & implement ways to improve standardisation"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Conduct research & implement ways to improve"
                 }
-            ]
+            ],
+            "technologies": []
         }
     }
 }

@@ -27,69 +27,54 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on Linux system administration and infrastructure management, with no mention of AI, machine learning, or generative models. The core responsibilities involve automation, system building, and lifecycle management, which are traditional IT infrastructure tasks rather than AI-specific engineering roles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on Linux engineering, infrastructure management, and operational tasks. It does not mention any specific AI, machine learning, or generative AI technologies, models, frameworks, or related tasks (like modeling, prompt engineering, RAG, fine-tuning, etc.). Therefore, it does not align with the profiles of ML Engineer or GenAI Engineer and falls under the 'Ambiguous' category as it is a traditional infrastructure engineering role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "improving the current infrastructure landscape by automation",
-                        "ensuring excellent operations",
-                        "enhancing existing infrastructure",
-                        "carrying out life cycle management of systems and software"
-                    ],
-                    "justification": "These phrases relate to maintaining and improving operational systems, automating processes, and managing the lifecycle of infrastructure, which aligns with the operational aspects of MLOps, though in a traditional IT context."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The description mentions 'ensuring excellent operations', 'enhancing existing infrastructure', and 'carrying out life cycle management of systems and software', which are core operational responsibilities for infrastructure.",
+                    "phrase": "ensuring excellent operations"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "building and expanding (new) systems and platforms",
-                        "infra delivery to our internal customers"
-                    ],
-                    "justification": "These phrases describe the creation and delivery of infrastructure systems and platforms, which can be considered a form of software development in the context of infrastructure as code or platform engineering."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'automation' directly relates to improving and streamlining operational processes within infrastructure management.",
+                    "phrase": "automation"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "work with Delivery & contract managers, Product Owners and Project managers and the demand side"
-                    ],
-                    "justification": "This phrase indicates interaction with various business stakeholders to understand and fulfill infrastructure needs."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH1: Programming Languages",
-                    "value": "Linux"
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions 'building and expanding (new) systems and platforms' and 'enhancing existing infrastructure', which involves development and integration aspects of infrastructure.",
+                    "phrase": "building and expanding (new) systems and platforms"
                 },
                 {
-                    "tech_name": "TECH6: MLOps & Data Pipelines",
-                    "value": "automation"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves working with 'Delivery & contract managers, Product Owners and Project managers' and understanding the 'demand side', indicating a need to align technical work with business needs and stakeholders.",
+                    "phrase": "work with Delivery & contract managers, Product Owners and Project managers and the demand side"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "work with Delivery & contract managers, Product Owners and Project managers and the demand side"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "work with Delivery & contract managers, Product Owners and Project managers"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "improving the current infrastructure landscape by automation",
-                        "building and expanding (new) systems and platforms",
-                        "enhancing existing infrastructure"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "use of new technologies"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "improving the current infrastructure landscape by automation and the use of new technologies",
-                        "building and expanding (new) systems and platforms"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "improving the current infrastructure landscape"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "building and expanding (new) systems and platforms"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Linux"
                 }
             ]
         }

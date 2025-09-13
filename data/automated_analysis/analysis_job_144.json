@@ -27,85 +27,59 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 1,
-            "rationale": "The job description focuses on Linux/Infra System Engineering, managing physical servers, OS, and networks, and operating automation tooling. It lacks any mention of AI, machine learning, generative models, or related tasks, making it irrelevant to the GenAI Engineer profile."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on infrastructure management, system administration, and DevOps principles within a Linux/Infra environment. It does not mention any specific AI, ML, or GenAI technologies, models, or tasks, which are central to the ML Engineer and GenAI Engineer profiles. Therefore, it falls under the 'Ambiguous' category as it is a traditional IT/Infrastructure role, not directly related to AI development or application."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Achieve uptime >99.99%",
-                        "Manage and expand the physical servers, OS's and networks in multiple datacenters",
-                        "Operate and improve our automation tooling",
-                        "Participate in 24/7 on-call rotation schedule",
-                        "Provide a flexible infrastructure to the rest of the company up to and including the base OS layer and kubernetes",
-                        "Work with a DevOps mindset with other teams within the company"
-                    ],
-                    "justification": "These phrases relate to managing and maintaining infrastructure, ensuring high availability, operating automation tools, and working with a DevOps mindset, which are core aspects of operations engineering, though not specifically MLOps in an AI context."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The description mentions 'Operate and improve our automation tooling' and 'Work with a DevOps mindset', which are core components of operations engineering and MLOps, even though it's in an infrastructure context.",
+                    "phrase": "Operate and improve our automation tooling"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "Provide a flexible infrastructure to the rest of the company up to and including the base OS layer and kubernetes"
-                    ],
-                    "justification": "While not traditional application development, providing and managing the underlying infrastructure, including Kubernetes, involves software development principles for system stability and scalability."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Work with a DevOps mindset' directly aligns with the principles of Operations Engineering.",
+                    "phrase": "Work with a DevOps mindset"
                 },
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "Understand a complex technical architecture with a high degree of customisation",
-                        "Work with a DevOps mindset with other teams within the company to bring our products to a large number of corporate customers worldwide."
-                    ],
-                    "justification": "These phrases indicate a need to understand the company's technical landscape and how infrastructure supports product delivery to customers, aligning with business objectives."
-                }
-            ],
-            "technologies": [
+                    "category": "TASK4: Software Development",
+                    "justification": "Providing 'a flexible infrastructure... up to and including the base OS layer and kubernetes' implies development and maintenance of underlying software systems.",
+                    "phrase": "Provide a flexible infrastructure to the rest of the company up to and including the base OS layer and kubernetes"
+                },
                 {
-                    "technology_category": "TECH6: MLOps & Data Pipelines",
-                    "technologies": [
-                        "kubernetes"
-                    ],
-                    "justification": "Kubernetes is a platform for automating deployment, scaling, and management of containerized applications, often used in MLOps pipelines."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Achieving high uptime and managing infrastructure for corporate customers implies a need to understand business requirements and impact.",
+                    "phrase": "Achieve uptime >99.99%"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Understanding a complex technical architecture with a high degree of customisation is crucial for aligning infrastructure with business needs.",
+                    "phrase": "Understand a complex technical architecture with a high degree of customisation"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Achieve uptime >99.99%",
-                        "Understand a complex technical architecture with a high degree of customisation",
-                        "Provide a flexible infrastructure"
-                    ],
-                    "justification": "These phrases imply the need to solve complex infrastructure challenges to meet high availability targets and provide adaptable solutions."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Work with a DevOps mindset with other teams within the company"
                 },
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "You will work in a team of highly skilled engineers",
-                        "Work with a DevOps mindset with other teams within the company"
-                    ],
-                    "justification": "The job requires working within a team and collaborating with other departments, highlighting communication and teamwork."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Having an influence on our products"
                 },
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "Understand a complex technical architecture with a high degree of customisation",
-                        "Operate and improve our automation tooling"
-                    ],
-                    "justification": "The need to understand complex, customized architectures and continuously improve tooling suggests a requirement for learning and adapting."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Participating in our yearly week-long hackathon but also joining meet-ups, training courses and/or scientific conferences"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Linux"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "Achieve uptime >99.99%",
-                        "Manage and expand the physical servers, OS's and networks",
-                        "Operate and improve our automation tooling",
-                        "Provide a flexible infrastructure",
-                        "Having an influence on our products"
-                    ],
-                    "justification": "The emphasis on achieving high uptime, managing and expanding infrastructure, improving tooling, and influencing products suggests a need for initiative and ownership."
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "kubernetes"
                 }
             ]
         }

@@ -27,58 +27,43 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 1,
-            "rationale": "The job description focuses on Linux infrastructure and operations, with no mention of AI, machine learning, or generative models. It describes traditional IT infrastructure engineering tasks rather than roles related to AI development or deployment."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on Linux infrastructure management, automation, and system operations. It does not mention any specific AI, machine learning, or generative AI technologies, models, or frameworks. The role is primarily related to traditional infrastructure engineering and system administration, which falls outside the scope of ML Engineer or GenAI Engineer profiles. Therefore, the 'Ambiguous' profile is the most appropriate."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrase": "ensuring excellent operations",
-                    "justification": "This phrase directly relates to the maintenance and management of systems, which is a core component of operations engineering, analogous to MLOps in the AI context."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The description emphasizes 'ensuring excellent operations', 'managing systems and platforms', and 'life cycle management of systems and software', which are core to operations engineering, albeit in a traditional infrastructure context rather than MLOps.",
+                    "phrase": "ensuring excellent operations"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrase": "building and expanding (new) systems and platforms",
-                    "justification": "This involves the creation and deployment of new systems and platforms, which aligns with software development principles, even if not AI-specific."
-                },
-                {
-                    "task_name": "Software Development",
-                    "phrase": "enhancing existing infrastructure",
-                    "justification": "Improving or modifying existing systems falls under the umbrella of software development and system engineering."
-                },
-                {
-                    "task_name": "Business Understanding",
-                    "phrase": "infra delivery to our internal customers",
-                    "justification": "This highlights the need to understand and serve the needs of internal users, connecting technical delivery to business requirements."
-                },
-                {
-                    "task_name": "Software Development",
-                    "phrase": "carrying out life cycle management of systems and software",
-                    "justification": "Managing the entire lifecycle of systems and software is a software engineering and operations task."
-                },
-                {
-                    "task_name": "Business Understanding",
-                    "phrase": "work with Delivery & contract managers, Product Owners and Project managers",
-                    "justification": "This indicates interaction with various business and project management roles, requiring an understanding of project goals and delivery processes."
-                }
-            ],
-            "technologies": [],
-            "soft_skills": [
-                {
-                    "skill_name": "Communication & Collaboration",
-                    "phrase": "work with Delivery & contract managers, Product Owners and Project managers"
-                },
-                {
-                    "skill_name": "Learning & Adaptability",
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of 'automation' and 'use of new technologies' in improving infrastructure aligns with the operational aspects of managing and enhancing systems.",
                     "phrase": "automation and the use of new technologies"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrase": "improving the current infrastructure landscape"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'building and expanding (new) systems and platforms' and 'enhancing existing infrastructure' implies development and integration work within the infrastructure domain.",
+                    "phrase": "building and expanding (new) systems and platforms"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves working with 'internal customers', 'Delivery & contract managers, Product Owners and Project managers', indicating a need to understand business needs and demands for infrastructure services.",
+                    "phrase": "infra delivery to our internal customers"
                 }
-            ]
+            ],
+            "soft_skills": [
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "work with Delivery & contract managers, Product Owners and Project managers"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "use of new technologies"
+                }
+            ],
+            "technologies": []
         }
     }
 }

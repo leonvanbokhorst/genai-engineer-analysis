@@ -26,112 +26,161 @@
         "full_text": "Medior Back End Engineer (Kotlin, Microservices, Azure, Kubernetes, Kafka)\n\nAs a passionate Medior Engineer, you help with the realization of new features. You contribute by keeping up the high security and coding standards of the platform. And develop new features using the latest technology.\n\n   You participate in standups and refinements, develop code, enforce code quality, develop best practices, write tests and manage the continuous integration of code. More specifically, as Medior Devops Engineer you: \n     * Develop a feature-rich product for our employees, guided by a senior developer.  \n\n     * Understand how to technically scale the services in the 'employee experience platform', which empowers the \"@AH app\". \n\n     * Understand how to combine best agile development practices in combination with a services-based architecture. \n\n     * Are knowledgeable of your domain (Kotlin back-end services on our Azure Kubernetes platform), though you can also liaise with other engineers and their respective technologies (Front and Back End). \n\n   Why we believe this is a cool job \n     * You get to work with modern technologies, and since this is a new-build solution, we have zero legacy.\n\n     * Opportunity to learn more about test automation, IT security. As long as you have a solid background as a backend developer (Kotlin).\n\n     * Everything we build in the app is scalable, using Azure and Microservices, Kubernetes, CI/CD pipelines. We work in small increments so we're able to put things live straight away, hence reduce our time to market.  \n\n     * We work in a multi-disciplinarian team; with dedicated QA, UX designer, developers, product owner. In total the team consists of 8+ people.\n\n     * This initiative, building an employee app for your own colleagues, is a priority project for Albert Heijn, with the potential of scaling to other brands within Ahold Delhaize. \n\n   What do you bring \n\n   At AH Technology you will be working for one of the biggest food retailers in the Netherlands. To be successful as our new medior back end engineer you bring: \n     * A Technology/IT Engineering bachelor's or master's degree, or equivalent work experience;  \n\n     * You know your technology stack: you have experience with Kotlin and some experience with MongoDB, Azure, Docker, k8s and / or Kafka.\n\n     * Know your way around with CI/CD, including test automation integrations and release engineering automation (fyi, we use Azure DevOps and Github Actions)"
     },
     "analysis": {
-        "job_profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional backend development, microservices, and cloud infrastructure (Azure, Kubernetes) with a specific programming language (Kotlin). While it mentions CI/CD and test automation, there is no indication of AI, machine learning, or generative models, which are the core focus of ML Engineer and GenAI Engineer profiles."
+        "profile_classification": {
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on traditional backend software development, microservices architecture, CI/CD, and cloud infrastructure (Azure, Kubernetes). While it mentions modern technologies and a new-build solution, there is no indication of Generative AI, LLMs, diffusion models, or any related advanced AI/ML modeling techniques. The role is primarily about building and maintaining scalable backend services, which falls outside the scope of GenAI or ML Engineering as defined in the coding book. Therefore, it is classified as Ambiguous because it is a technical role but not related to AI."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "Understand how to technically scale the services in the 'employee experience platform', which empowers the \"@AH app\".",
-                        "This initiative, building an employee app for your own colleagues, is a priority project for Albert Heijn, with the potential of scaling to other brands within Ahold Delhaize."
-                    ],
-                    "justification": "These phrases indicate an understanding of the business context, the purpose of the platform ('employee experience platform', '@AH app'), and its strategic importance and potential for wider application."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description emphasizes developing new features, writing code, enforcing code quality, developing best practices, writing tests, managing continuous integration, and building feature-rich products. It also mentions building backend services and ensuring scalability.",
+                    "phrase": "realization of new features"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "As a passionate Medior Engineer, you help with the realization of new features.",
-                        "develop new features using the latest technology.",
-                        "develop code",
-                        "Develop a feature-rich product for our employees, guided by a senior developer.",
-                        "Understand how to combine best agile development practices in combination with a services-based architecture.",
-                        "Are knowledgeable of your domain (Kotlin back-end services on our Azure Kubernetes platform), though you can also liaise with other engineers and their respective technologies (Front and Back End).",
-                        "you have experience with Kotlin",
-                        "you have experience with MongoDB, Azure, Docker, k8s and / or Kafka."
-                    ],
-                    "justification": "These phrases directly relate to the creation of software, building features, working with specific backend technologies, and understanding architectural patterns like microservices."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves developing code, enforcing code quality, and writing tests.",
+                    "phrase": "develop code, enforce code quality, develop best practices, write tests"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "keeping up the high security and coding standards of the platform.",
-                        "enforce code quality",
-                        "develop best practices",
-                        "write tests",
-                        "manage the continuous integration of code.",
-                        "Are knowledgeable of your domain (Kotlin back-end services on our Azure Kubernetes platform)",
-                        "Everything we build in the app is scalable, using Azure and Microservices, Kubernetes, CI/CD pipelines.",
-                        "We work in small increments so we're able to put things live straight away, hence reduce our time to market.",
-                        "Know your way around with CI/CD, including test automation integrations and release engineering automation (fyi, we use Azure DevOps and Github Actions)"
-                    ],
-                    "justification": "These phrases cover aspects of maintaining code quality, CI/CD, testing, deployment, and managing infrastructure (Kubernetes, Azure), which are all part of operations and DevOps, though not specifically MLOps."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology_category": "TECH1: Programming Languages",
-                    "technologies": [
-                        "Kotlin"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The core responsibility is to develop a feature-rich product.",
+                    "phrase": "Develop a feature-rich product"
                 },
                 {
-                    "technology_category": "TECH2: Cloud Platforms & Services",
-                    "technologies": [
-                        "Azure",
-                        "Azure DevOps",
-                        "Github Actions"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The role requires understanding how to technically scale services within a platform.",
+                    "phrase": "understand how to technically scale the services"
                 },
                 {
-                    "technology_category": "TECH6: MLOps & Data Pipelines",
-                    "technologies": [
-                        "Kubernetes",
-                        "Docker",
-                        "Kafka",
-                        "CI/CD pipelines"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The job involves combining agile development practices with a services-based architecture.",
+                    "phrase": "combine best agile development practices in combination with a services-based architecture"
                 },
                 {
-                    "technology_category": "TECH9: Data Storage",
-                    "technologies": [
-                        "MongoDB"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The role requires liaising with other engineers and their respective technologies, indicating a software development context.",
+                    "phrase": "liaise with other engineers and their respective technologies"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The description highlights building scalable solutions using Azure and Microservices, Kubernetes, CI/CD pipelines.",
+                    "phrase": "Everything we build in the app is scalable, using Azure and Microservices, Kubernetes, CI/CD pipelines."
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves working in a multi-disciplinary team with QA, UX designers, and developers, which is typical in software development projects.",
+                    "phrase": "work in a multi-disciplinarian team; with dedicated QA, UX designer, developers, product owner."
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The requirement for a backend developer background with experience in specific technologies points to software development.",
+                    "phrase": "solid background as a backend developer"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The job involves managing the continuous integration of code and mentions CI/CD pipelines, test automation integrations, and release engineering automation.",
+                    "phrase": "manage the continuous integration of code"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The role requires experience with CI/CD, including test automation integrations and release engineering automation.",
+                    "phrase": "Know your way around with CI/CD, including test automation integrations and release engineering automation"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role contributes to the realization of new features for employees and understanding the business context of the 'employee experience platform'.",
+                    "phrase": "realization of new features"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires understanding the technical scaling of services for the 'employee experience platform', which is a business-oriented product.",
+                    "phrase": "Understand how to technically scale the services in the 'employee experience platform', which empowers the \"@AH app\"."
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The project is a priority for Albert Heijn with potential scaling to other brands, indicating business impact and strategic alignment.",
+                    "phrase": "This initiative, building an employee app for your own colleagues, is a priority project for Albert Heijn, with the potential of scaling to other brands within Ahold Delhaize."
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "liaise with other engineers and their respective technologies (Front and Back End).",
-                        "We work in a multi-disciplinarian team; with dedicated QA, UX designer, developers, product owner."
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "liaise with other engineers and their respective technologies"
                 },
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "develop new features using the latest technology.",
-                        "Opportunity to learn more about test automation, IT security."
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "work in a multi-disciplinarian team"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Understand how to technically scale the services in the 'employee experience platform'",
-                        "Understand how to combine best agile development practices in combination with a services-based architecture.",
-                        "We work in small increments so we're able to put things live straight away, hence reduce our time to market."
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Opportunity to learn more about test automation, IT security."
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "As a passionate Medior Engineer, you help with the realization of new features.",
-                        "Develop a feature-rich product for our employees, guided by a senior developer.",
-                        "This initiative, building an employee app for your own colleagues, is a priority project for Albert Heijn"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "develop code, enforce code quality, develop best practices, write tests"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Understand how to technically scale the services"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "combine best agile development practices in combination with a services-based architecture"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "contribute by keeping up the high security and coding standards of the platform."
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "develop new features using the latest technology."
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Kotlin"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "Microservices"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Kubernetes"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Kafka"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "CI/CD pipelines"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "CI/CD"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "MongoDB"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Docker"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Azure DevOps"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Github Actions"
                 }
             ]
         }

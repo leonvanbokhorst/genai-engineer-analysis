@@ -27,65 +27,50 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on media design and development for online marketing campaigns, with a mention of Generative AI as one of many potential areas. It lacks the depth and specific technical requirements for an ML Engineer or GenAI Engineer role, leaning more towards creative development and application of existing AI tools."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on media design and development for online marketing campaigns, including banner creation, social media ads, and online videos. While it mentions 'Generative AI' as a potential area for development, the primary focus is on traditional creative development and marketing, not on building, fine-tuning, or deploying generative models themselves. The role is described as an internship ('stagiair') and leans heavily into creative design and marketing execution rather than core AI engineering tasks. Therefore, it does not fit the profile of an ML Engineer or GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "coding skills",
-                    "justification": "Refers to the ability to write code, a fundamental aspect of software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'coding skills' and 'het ontwikkelen van andere online creatieve concepten en tools' indicates a focus on building and developing creative digital assets and tools.",
+                    "phrase": "coding skills"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "developers",
-                    "justification": "Indicates the presence of software development roles within the team."
+                    "category": "TASK4: Software Development",
+                    "justification": "The mention of developing 'Conversational, AR, Generative AI en Digital Audio' suggests involvement in building or integrating these types of creative technologies.",
+                    "phrase": "het ontwikkelen van andere online creatieve concepten en tools"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "online creatieve concepten en tools",
-                    "justification": "Suggests the development of creative digital products and tools."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves working on 'online marketing campagnes voor A-merk klanten' and developing 'de mooiste en meest effectieve online creaties', indicating a need to understand marketing goals and client needs.",
+                    "phrase": "online marketing campagnes"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "innovatieve oplossingen",
-                    "justification": "Implies the creation of new and advanced technical solutions."
-                },
-                {
-                    "task": "TASK3: Modeling",
-                    "phrase": "Generative AI",
-                    "justification": "Mentions Generative AI as a technology area, which can involve modeling, though the context is broad."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "TECH3: LLM / Generative Models",
-                    "phrase": "Generative AI",
-                    "justification": "Explicitly mentions Generative AI as a technology area of interest."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The description mentions collaborating with 'designers, developers, marketeers', implying an understanding of different roles within a marketing and creative context.",
+                    "phrase": "marketeers"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrase": "Samen met je collega's (designers, developers, marketeers) ontwikkel je de mooiste en meest effectieve online creaties.",
-                    "justification": "Highlights collaboration with a multidisciplinary team (designers, developers, marketers)."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Samen met je collega's (designers, developers, marketeers) ontwikkel je"
                 },
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrase": "Je klanten en je team vertrouwen op jouw design of coding skills.",
-                    "justification": "Indicates reliance on skills from team members and clients, implying communication and trust."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Bouw je liever mee aan innovatieve oplossingen die nog in de kinderschoenen staan?"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrase": "Bouw je liever mee aan innovatieve oplossingen die nog in de kinderschoenen staan?",
-                    "justification": "Suggests an interest in building new and innovative solutions, implying initiative and ownership."
-                },
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Als stagiair binnen de Creative Craft van Greenhouse krijg je de kans om mee te werken"
+                }
+            ],
+            "technologies": [
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "phrase": "Als stagiair binnen de Creative Craft van Greenhouse krijg je de kans om mee te werken aan online marketing campagnes",
-                    "justification": "The role is an internship, implying a learning and development opportunity, and exposure to various campaigns."
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Generative AI"
                 }
             ]
         }

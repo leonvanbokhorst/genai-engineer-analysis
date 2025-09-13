@@ -26,114 +26,165 @@
         "full_text": "Software Engineer\n\nWe are currently accepting WEB Engineers and various other positions in order to expand our enterprise.\n   A perfect opportunity for individuals wishing to challenge their abilities abroad!\n\n   We, Create Entrance located in the Netherlands operates website system development, expand major service features and maintenance and management of the service. Furthermore, we support Japanese firms in order to expand their market overseas by implementing approaches that is only possible overseas.\n\n   We assertively develop new ideas and proposal to our clients by scheduling periodic meetings to improve and expand the service. It is a progressive environment in which each staff member's ideas are implemented. We look forward to hearing from those who wishes to reach the top with high-level skills!, The general way of living in the Netherlands focuses on quality of life. We believe that a proper Work / Life balance is vital for maximum productivity so each employee will be granted with generous amount of personal time. A popular way of spending vacation time is to travel within the EU countries and or attending sports events as well as various other events held here in Europe. 90% of the European countries uses English as a form of communication and it may be a valuable learning experience for those seeking to learn a new language as well. We feel that the Netherlands is a perfect environment for individuals who wish to challenge themselves abroad., Weekends and Dutch holidays / No overtime / Paid vacations 25 days or more per year / Transportation expenses / Housing support / Holiday allowance 8% annually (including monthly salary) / Regular social gathering / Free car sharing / Japanese grocery support / Cosmetic discount / Gel nail polish discount / English and Dutch group lesson / Annual medical health checkup / Smartphone Subsidies\n\n   Quality of life\n\nJob Info\n\n     * Software Engineer(Android)\n     * Software Engineer(iOS)\n     * Software Engineer(PHP)\n     * Software Engineer(Node.js)\n     * Frontend Engineer\n     * Infrastructure Engineer\n     * Web Designer\n     * Customer Support\n     * Sales representative and administrator, Building, operationg, ensuring cybersecurity and monitoring of server for stable operation for a large-scale service\n\n   Specific tasks will be...\n\n   ・Building, verifying, operating and monitoring of server on cloud/on-premises\n   ・Cost reduction of existing service\n   ・Planning, verifying and introducing of measure to improve fault-tolerance\n   ・Designing, building, verifying, introducing and operating of server data backup system (MySQL, LVM)\n   ・Performance tuning, redundancy ensuring and maintenance optimisation of middlewares\n   ・Planning, introducing and operating of security software\n   ・Improving of business about system operation\n   ・Troubleshooting and solving performance problems for existing system\n   ※Most of OS which we use is Linux. Your task will be operating command of Linux OS and scripting, not only planning and/or suggesting.\n   (We highly welcome experienced person on working with open-source products), It is a Customer Support of a large-scale service consigned by third party.\n   You are responsible for supporting many users.\n   ※ It is not related to our own service of start-up support.\n\n   Your main tasks are supporting question/request from client, analysing data, and, improving, proposal, operating the service based on the data.\n   We guarantee that you will be trained and work with a friendly and helpful staff in a good environment!, ・Handling Email, phone calls, complains\n   ・Maintain client records\n   ・Preparing reports, schedule adjustment\n   ・Consulting service\n   ・Account management including accounts receivable and payable, invoicing\n   ・Creating contracts and concluding contracts\n   ・Sales planning, proposal to new clients\n   ・Data aggregation, analysis, Please prepare the required documents in digital format and submit them via Email.Please see here for details."
     },
     "analysis": {
-        "profile": "Ambiguous / Not Relevant",
-        "confidence_score": 1,
-        "rationale": "The job description focuses heavily on traditional software engineering roles (web, Android, iOS, PHP, Node.js) and infrastructure engineering. While it mentions 'server operation' and 'cybersecurity', there is no mention of AI, machine learning, generative models, or related tasks, making it irrelevant to GenAI or ML Engineer profiles.",
+        "profile_classification": {
+            "profile": "Ambiguous",
+            "rationale": "The job description lists various software engineering roles (Android, iOS, PHP, Node.js, Frontend, Infrastructure) and also non-technical roles like Customer Support, Sales, and Web Designer. While it mentions 'server for stable operation for a large-scale service' and tasks related to server building, operation, cybersecurity, and monitoring, these are described in the context of general infrastructure and operations engineering, not specifically tied to ML/GenAI model deployment or MLOps in the context of AI. The core responsibilities listed under 'Specific tasks will be...' are typical for an Infrastructure Engineer or System Administrator, focusing on server management, cost reduction, fault tolerance, backup systems, middleware optimization, and security software. There is no mention of ML models, generative AI, data science, or related technologies. Therefore, it does not fit the profile of an ML Engineer or GenAI Engineer."
+        },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK4: Software Development",
-                    "phrases": [
-                        "Software Engineer(Android)",
-                        "Software Engineer(iOS)",
-                        "Software Engineer(PHP)",
-                        "Software Engineer(Node.js)",
-                        "Frontend Engineer"
-                    ],
-                    "justification": "These phrases directly indicate roles focused on building and developing software applications using specific technologies."
+                    "category": "TASK4: Software Development",
+                    "justification": "The job description lists various software engineering roles such as 'Software Engineer(Android)', 'Software Engineer(iOS)', 'Software Engineer(PHP)', 'Software Engineer(Node.js)', and 'Frontend Engineer', indicating a need for traditional software development skills.",
+                    "phrase": "Software Engineer(Android)"
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Building, operationg, ensuring cybersecurity and monitoring of server for stable operation for a large-scale service",
-                        "Building, verifying, operating and monitoring of server on cloud/on-premises",
-                        "Cost reduction of existing service",
-                        "Planning, verifying and introducing of measure to improve fault-tolerance",
-                        "Designing, building, verifying, introducing and operating of server data backup system (MySQL, LVM)",
-                        "Performance tuning, redundancy ensuring and maintenance optimisation of middlewares",
-                        "Planning, introducing and operating of security software",
-                        "Improving of business about system operation",
-                        "Troubleshooting and solving performance problems for existing system",
-                        "operating command of Linux OS and scripting"
-                    ],
-                    "justification": "These phrases describe the management, maintenance, security, and operational aspects of server infrastructure and services, which fall under operations engineering."
+                    "category": "TASK4: Software Development",
+                    "justification": "The job description lists 'Frontend Engineer' as a role, which falls under traditional software development.",
+                    "phrase": "Frontend Engineer"
                 },
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrases": [
-                        "expand our enterprise",
-                        "expand major service features and maintenance and management of the service",
-                        "support Japanese firms in order to expand their market overseas",
-                        "implementing approaches that is only possible overseas",
-                        "assertively develop new ideas and proposal to our clients",
-                        "scheduling periodic meetings to improve and expand the service",
-                        "improving of business about system operation",
-                        "improving, proposal, operating the service based on the data",
-                        "Consulting service",
-                        "Sales planning, proposal to new clients"
-                    ],
-                    "justification": "These phrases relate to understanding client needs, proposing solutions, market expansion, and improving business operations through technical means."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "TECH1: Programming Languages",
-                    "items": [
-                        "PHP",
-                        "Node.js",
-                        "Linux"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The description details tasks like 'Building, operationg, ensuring cybersecurity and monitoring of server for stable operation for a large-scale service', 'Building, verifying, operating and monitoring of server on cloud/on-premises', 'Cost reduction of existing service', 'Planning, verifying and introducing of measure to improve fault-tolerance', 'Designing, building, verifying, introducing and operating of server data backup system', 'Performance tuning, redundancy ensuring and maintenance optimisation of middlewares', 'Planning, introducing and operating of security software', 'Improving of business about system operation', and 'Troubleshooting and solving performance problems for existing system'. These are core responsibilities for operations and infrastructure management, which align with the broader scope of operations engineering.",
+                    "phrase": "Building, operationg, ensuring cybersecurity and monitoring of server for stable operation for a large-scale service"
                 },
                 {
-                    "technology": "TECH9: Data Storage",
-                    "items": [
-                        "MySQL",
-                        "LVM"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Specific tasks related to server management, including cloud/on-premises operations, fault tolerance, backup systems, middleware optimization, and security software introduction, are detailed.",
+                    "phrase": "Building, verifying, operating and monitoring of server on cloud/on-premises"
                 },
                 {
-                    "technology": "TECH6: MLOps & Data Pipelines",
-                    "items": [
-                        "cloud",
-                        "on-premises"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Cost reduction of existing services is a common operational task aimed at optimizing resource usage and efficiency.",
+                    "phrase": "Cost reduction of existing service"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Improving fault tolerance is a key aspect of ensuring system reliability and stability in operations.",
+                    "phrase": "Planning, verifying and introducing of measure to improve fault-tolerance"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Designing, building, and operating data backup systems is a critical part of operational infrastructure management.",
+                    "phrase": "Designing, building, verifying, introducing and operating of server data backup system (MySQL, LVM)"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Performance tuning and maintenance optimization of middlewares are standard operational tasks for system administrators and infrastructure engineers.",
+                    "phrase": "Performance tuning, redundancy ensuring and maintenance optimisation of middlewares"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Planning and introducing security software is a direct responsibility within operations engineering to protect systems.",
+                    "phrase": "Planning, introducing and operating of security software"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Improving business processes related to system operation is an operational improvement task.",
+                    "phrase": "Improving of business about system operation"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Troubleshooting and solving performance problems are core operational tasks for maintaining system health.",
+                    "phrase": "Troubleshooting and solving performance problems for existing system"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The explicit mention of 'operating command of Linux OS and scripting' indicates a need for software development skills in system administration and automation.",
+                    "phrase": "operating command of Linux OS and scripting"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves supporting Japanese firms in expanding their market overseas by implementing overseas-specific approaches, which requires understanding business strategy and market expansion.",
+                    "phrase": "support Japanese firms in order to expand their market overseas by implementing approaches that is only possible overseas"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The description mentions 'assertively develop new ideas and proposal to our clients by scheduling periodic meetings to improve and expand the service', indicating a need to understand client needs and business development.",
+                    "phrase": "assertively develop new ideas and proposal to our clients"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The customer support section mentions 'analysing data, and, improving, proposal, operating the service based on the data', which can involve data analysis and potentially simple modeling to improve service operations.",
+                    "phrase": "analysing data, and, improving, proposal, operating the service based on the data"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Tasks for customer support include 'Consulting service', 'Sales planning, proposal to new clients', and 'Creating contracts and concluding contracts', all of which are business-oriented.",
+                    "phrase": "Consulting service"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Sales planning and proposing to new clients are core business development activities.",
+                    "phrase": "Sales planning, proposal to new clients"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The customer support role involves 'Data aggregation, analysis', which are foundational steps in data engineering.",
+                    "phrase": "Data aggregation, analysis"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "challenge their abilities abroad",
-                        "challenge themselves abroad",
-                        "Troubleshooting and solving performance problems for existing system",
-                        "analysing data",
-                        "improving, proposal, operating the service based on the data"
-                    ]
+                    "category": "SKILL5: Innovation and Ownership",
+                    "phrase": "We assertively develop new ideas and proposal to our clients"
                 },
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "scheduling periodic meetings",
-                        "each staff member's ideas are implemented",
-                        "friendly and helpful staff",
-                        "Handling Email, phone calls, complains",
-                        "Consulting service"
-                    ]
+                    "category": "SKILL5: Innovation and Ownership",
+                    "phrase": "It is a progressive environment in which each staff member's ideas are implemented."
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "assertively develop new ideas and proposal",
-                        "progressive environment",
-                        "take initiative"
-                    ]
+                    "category": "SKILL5: Innovation and Ownership",
+                    "phrase": "We look forward to hearing from those who wishes to reach the top with high-level skills!"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "learn a new language",
-                        "trained"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "We believe that a proper Work / Life balance is vital for maximum productivity"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "it may be a valuable learning experience for those seeking to learn a new language as well."
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "We feel that the Netherlands is a perfect environment for individuals who wish to challenge themselves abroad."
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Your task will be operating command of Linux OS and scripting, not only planning and/or suggesting."
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "We highly welcome experienced person on working with open-source products"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "We guarantee that you will be trained and work with a friendly and helpful staff in a good environment!"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Handling Email, phone calls, complains"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "PHP"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Node.js"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Linux"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "MySQL"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "LVM"
                 }
             ]
         }

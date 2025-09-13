@@ -28,86 +28,97 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The role focuses heavily on building and standardizing model development experiences for ML Engineers and Data Scientists, including feature engineering, training, serving, and ML-Ops. While generative AI is mentioned as an extension, the core emphasis remains on traditional ML model development and productionization within a platform context."
+            "rationale": "The job description emphasizes building and standardizing model development experiences for ML Engineers and Data Scientists, focusing on the entire ML lifecycle from feature engineering to monitoring and serving. While it mentions extending support to generative AI and large-scale models, the core focus remains on the platform and tools for traditional ML model development and productionization. The responsibilities like 'data curation pipelines', 'training / analyzing / serving large scale models', and 'ML-Ops' align strongly with the definition and evidence profile of an ML Engineer, particularly the aspect of productionizing prototypes and building MLOps infrastructure."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "Provide solutions for data curation pipelines.",
-                    "category": "Data Engineering",
-                    "justification": "This phrase directly relates to managing and preparing data, which is a core component of data engineering."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Provide solutions for data curation pipelines' directly relates to the process of preparing and managing data for ML models.",
+                    "phrase": "Provide solutions for data curation pipelines"
                 },
                 {
-                    "task": "Develop the platform for training / analyzing / serving large scale models, embedding, NLP models.",
-                    "category": "Modeling",
-                    "justification": "This describes the development of a platform for core ML activities like training, analysis, and serving of various model types, including embeddings and NLP models."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrases 'develop the platform for training / analyzing / serving large scale models, embedding, NLP models' and 'extending our modeling support to generative AI and large scale models' clearly indicate the core activity of creating, training, and deploying models.",
+                    "phrase": "develop the platform for training / analyzing / serving large scale models, embedding, NLP models"
                 },
                 {
-                    "task": "As a core member of Michelangelo, work with team members in US to develop solutions for NLP and generative AI used by all ML engineers in Uber.",
-                    "category": "Modeling",
-                    "justification": "This involves developing solutions for specific AI domains (NLP, generative AI) which falls under the modeling category, especially when building them for use by other engineers."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'extending our modeling support to generative AI and large scale models' indicates a focus on adapting and developing models, including generative ones.",
+                    "phrase": "extending our modeling support to generative AI and large scale models"
                 },
                 {
-                    "task": "We build and operate the dev tool known as Canvas, where ML engineers can develop the model solutions for their business needs in all critical ML phases, such as feature engineering, training, serving, ML-Ops, and monitoring.",
-                    "category": "Operations Engineering (MLOps)",
-                    "justification": "This describes building and operating a development tool that covers the entire ML lifecycle, including ML-Ops and monitoring, indicating a strong focus on productionizing and maintaining models."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description of building and operating 'the dev tool known as Canvas' and developing 'the platform' suggests significant software engineering effort to create user-facing tools and infrastructure for ML engineers.",
+                    "phrase": "build and operate the dev tool known as Canvas"
                 },
                 {
-                    "task": "With the Canvas tool, users can iterate quickly and collaboratively during model dev time to build their ML solution, and the solution will be automatically scaled up to run robustly when it is deployed into production.",
-                    "category": "Operations Engineering (MLOps)",
-                    "justification": "This highlights the operational aspect of scaling ML solutions robustly into production, which is a key part of MLOps."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'develop solutions for NLP and generative AI used by all ML engineers in Uber' implies building software solutions that incorporate these technologies for a wider user base.",
+                    "phrase": "develop solutions for NLP and generative AI used by all ML engineers in Uber"
                 },
                 {
-                    "task": "We are looking for talents with experience building and productionize large scaling models solving business problems.",
-                    "category": "Operations Engineering (MLOps)",
-                    "justification": "The emphasis on 'productionize' and 'large scaling models' points directly to MLOps responsibilities."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of 'ML-Ops' as a critical ML phase within the Canvas tool, and the goal of solutions being 'automatically scaled up to run robustly when it is deployed into production', points to MLOps practices.",
+                    "phrase": "ML-Ops"
                 },
                 {
-                    "task": "This team is formed by a group of talents with various expertise, such as modeling techniques, batch data processing optimization, orchestrations, dev tool development, and distributed algorithms.",
-                    "category": "Data Engineering",
-                    "justification": "Batch data processing optimization and orchestrations are key components of data engineering and pipeline management."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'building and productionize large scaling models' directly relates to the operational aspect of deploying and managing models in a production environment.",
+                    "phrase": "building and productionize large scaling models"
                 },
                 {
-                    "task": "This team is formed by a group of talents with various expertise, such as modeling techniques, batch data processing optimization, orchestrations, dev tool development, and distributed algorithms.",
-                    "category": "Software Development",
-                    "justification": "Dev tool development is a software engineering task, even if it's for ML engineers."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "NLP",
-                    "category": "TECH3: LLM / Generative Models"
-                },
-                {
-                    "technology": "generative AI",
-                    "category": "TECH3: LLM / Generative Models"
-                },
-                {
-                    "technology": "embedding",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'solving business problems' indicates that the developed models and platforms are intended to address specific business needs.",
+                    "phrase": "solving business problems"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "work with team members in US",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "work with team members in US"
                 },
                 {
-                    "skill": "ML engineers can develop the model solutions for their business needs",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "develop the model solutions for their business needs"
                 },
                 {
-                    "skill": "iterate quickly and collaboratively during model dev time",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "building leading edge solutions"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
                 },
                 {
-                    "skill": "build and operate the dev tool",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "generative AI"
                 },
                 {
-                    "skill": "develop solutions for NLP and generative AI",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "large scale models"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "embedding"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "NLP models"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "modeling techniques"
+                },
+                {
+                    "category": "TECH11: Data Analysis",
+                    "phrase": "batch data processing"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "ML-Ops"
                 }
             ]
         }

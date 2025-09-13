@@ -27,75 +27,57 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional software development and microservices within a security context, with no explicit mention of AI, ML, or generative models. While it mentions 'cutting edge technologies', the core responsibilities align with standard software engineering rather than specialized AI roles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on traditional software development tasks like building and maintaining microservices, backend service components, and CI/CD pipelines. While it mentions 'cutting edge technologies in the security field' and 'protect IBM's customers from cyber threats at scale', it lacks any specific mention of AI, machine learning, generative models, or related technologies. The role appears to be a standard Software Developer position, not one focused on AI/ML engineering."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "designing, building, and maintaining software",
-                        "work on existing and new microservices",
-                        "design decisions of backend service components",
-                        "develop and test your applications",
-                        "make them production ready",
-                        "responsible for those components"
-                    ],
-                    "justification": "These phrases directly describe the creation, implementation, and maintenance of software applications and backend services, which are core to software development."
+                    "category": "TASK4",
+                    "justification": "The description explicitly mentions 'designing, building, and maintaining software', 'working on existing and new microservices', 'design decisions of backend service components', and 'develop and test your applications in order to make them production ready'. This aligns directly with traditional software development responsibilities.",
+                    "phrase": "designing, building, and maintaining software"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "writing the CI/CD pipelines of the component"
-                    ],
-                    "justification": "Writing CI/CD pipelines is a key aspect of Operations Engineering, ensuring automated building, testing, and deployment of software components."
+                    "category": "TASK4",
+                    "justification": "The phrase 'working on existing and new microservices' is a clear indicator of software development tasks related to building and maintaining service-oriented architectures.",
+                    "phrase": "working on existing and new microservices"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "work on cutting edge technologies in the security field",
-                        "contribute to protect IBM's customers from cyber threats at scale"
-                    ],
-                    "justification": "These phrases indicate an understanding of the business domain (security, cyber threats) and the strategic goals of protecting customers."
+                    "category": "TASK4",
+                    "justification": "The responsibility for 'design decisions of backend service components' falls under the scope of software engineering for backend systems.",
+                    "phrase": "design decisions of backend service components"
                 },
                 {
-                    "task_name": "Communication & Collaboration",
-                    "phrases": [
-                        "work in a collaborative environment",
-                        "everybody's voice is heard"
-                    ],
-                    "justification": "These phrases highlight the importance of teamwork and open communication within the development process."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "Programming Languages",
-                    "phrase": "Python",
-                    "category": "TECH1"
+                    "category": "TASK4",
+                    "justification": "The requirement to 'develop and test your applications in order to make them production ready' is a fundamental aspect of the software development lifecycle.",
+                    "phrase": "develop and test your applications in order to make them production ready"
                 },
                 {
-                    "tech_name": "MLOps & Data Pipelines",
-                    "phrase": "CI/CD pipelines",
-                    "category": "TECH6"
+                    "category": "TASK4",
+                    "justification": "The statement 'You will be responsible for those components' indicates ownership and accountability for the developed software, a common aspect of software engineering roles.",
+                    "phrase": "responsible for those components"
+                },
+                {
+                    "category": "TASK5",
+                    "justification": "The mention of 'writing the CI/CD pipelines of the component' directly relates to Operations Engineering and the automation of software deployment and integration.",
+                    "phrase": "writing the CI/CD pipelines of the component"
+                },
+                {
+                    "category": "SKILL1",
+                    "justification": "The phrase 'working in a collaborative environment, where everybody's voice is heard' highlights the importance of teamwork and open communication.",
+                    "phrase": "working in a collaborative environment, where everybody's voice is heard"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrase": "work in a collaborative environment, where everybody's voice is heard",
-                    "category": "SKILL1"
-                },
+                    "category": "SKILL1",
+                    "phrase": "collaborative environment"
+                }
+            ],
+            "technologies": [
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrase": "responsible for those components",
-                    "category": "SKILL5"
-                },
-                {
-                    "skill_name": "Learning & Adaptability",
-                    "phrase": "work on cutting edge technologies",
-                    "category": "SKILL2"
+                    "category": "TECH1",
+                    "phrase": "Python"
                 }
             ]
         }

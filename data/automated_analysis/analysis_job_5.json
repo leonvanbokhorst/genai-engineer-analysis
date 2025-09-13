@@ -28,96 +28,103 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The role heavily emphasizes research and development of generative models for synthetic humans using text-to-video, aligning with GenAI principles. Key responsibilities include building models that guide avatar cues from various inputs and productionizing these models, indicating a strong fit for a GenAI Engineer."
+            "rationale": "The job description heavily emphasizes the development and deployment of generative models for creating synthetic humans using text-to-video, and guiding avatar cues based on various inputs (audio, video, text). This aligns directly with the core responsibilities of a GenAI Engineer, particularly in areas like fine-tuning generative models and building production-ready software systems around them. While there's mention of ML lifecycle and computer vision, the primary focus is on generative AI applications."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK3: Modeling",
-                    "phrases": [
-                        "research and development of our generative avatar performance abilities",
-                        "create models that guides the avatar's verbal and non verbal cues",
-                        "Developing, maintaining and deploying Computer Vision algorithms and models",
-                        "Adapting off-the-shelf solutions for the purposes of our product",
-                        "turning prototypes into working solutions"
-                    ],
-                    "justification": "The job description explicitly mentions creating and developing models for generative avatar performance, guiding cues, and adapting existing solutions, which are core to the modeling aspect of GenAI."
+                    "category": "TASK3",
+                    "justification": "The core of the role involves 'creating models that guides the avatar's verbal and non verbal cues' using conditioning signals like audio, video, or text, and adapting 'off-the-shelf solutions for the purposes of our product'. This directly relates to developing and adapting generative models.",
+                    "phrase": "create models that guides the avatar's verbal and non verbal cues"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrases": [
-                        "create high quality, production ready code",
-                        "Building libraries to accelerate the iteration speed during development",
-                        "Contribute to a high-quality codebase, develop tests where necessary, and participate in code reviews",
-                        "Writing clean and efficient code, and defining best practices both in the code base you own and in adoption of the tools you build",
-                        "Developing production quality software, our teams work \"full stack\" with the ability to deliver direct to product and impact the world"
-                    ],
-                    "justification": "The role requires building production-ready code, libraries, contributing to codebases, defining best practices, and developing full-stack software, all of which fall under software development."
+                    "category": "TASK3",
+                    "justification": "The role involves 'research and development of our generative avatar performance abilities', which is a direct application of generative modeling.",
+                    "phrase": "research and development of our generative avatar performance abilities"
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "take ownership of production pipelines",
-                        "automating tests sweeps",
-                        "integrating CI/CD",
-                        "Taking ownership of the full ML lifecycle from concept, development, testing, validation to deployment",
-                        "Optimising for deployment"
-                    ],
-                    "justification": "The description includes managing production pipelines, automating tests, integrating CI/CD, owning the full ML lifecycle, and optimizing for deployment, which are key MLOps responsibilities."
+                    "category": "TASK4",
+                    "justification": "The description mentions 'Building libraries to accelerate the iteration speed during development (abstracting common functionality, automating tests sweeps, visualising results etc.)' and 'Writing clean and efficient code, and defining best practices both in the code base you own and in adoption of the tools you build.'",
+                    "phrase": "Building libraries to accelerate the iteration speed during development"
                 },
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrases": [
-                        "passion for working on cutting edge problems that can help us create highly realistic, emotional and life-like synthetic humans through text-to-video",
-                        "impact the world"
-                    ],
-                    "justification": "The role expresses a passion for solving cutting-edge problems and creating impactful products, indicating an understanding of the business's strategic goals and the desire to align technical work with them."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Computer Vision",
-                    "category": "TECH10: Data Modeling"
+                    "category": "TASK4",
+                    "justification": "The role involves 'Developing production quality software, our teams work \"full stack\" with the ability to deliver direct to product and impact the world.'",
+                    "phrase": "Developing production quality software"
                 },
                 {
-                    "technology": "text-to-video",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK4",
+                    "justification": "The description states to 'Contribute to a high-quality codebase, develop tests where necessary, and participate in code reviews.'",
+                    "phrase": "Contribute to a high-quality codebase"
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "The phrase 'Writing clean and efficient code' directly relates to software development practices.",
+                    "phrase": "Writing clean and efficient code"
+                },
+                {
+                    "category": "TASK5",
+                    "justification": "The role includes 'Developing, maintaining and deploying Computer Vision algorithms and models to update our product, integrating CI/CD.'",
+                    "phrase": "Developing, maintaining and deploying Computer Vision algorithms and models to update our product, integrating CI/CD"
+                },
+                {
+                    "category": "TASK5",
+                    "justification": "The description states 'Taking ownership of the full ML lifecycle from concept, development, testing, validation to deployment.'",
+                    "phrase": "Taking ownership of the full ML lifecycle from concept, development, testing, validation to deployment"
+                },
+                {
+                    "category": "TASK5",
+                    "justification": "The phrase 'optimising for deployment - turning prototypes into working solutions' directly refers to the operational aspects of getting models into production.",
+                    "phrase": "Optimising for deployment - turning prototypes into working solutions"
+                },
+                {
+                    "category": "TASK5",
+                    "justification": "The description mentions taking 'ownership of production pipelines.'",
+                    "phrase": "take ownership of production pipelines"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "take ownership of production pipelines",
-                        "Taking ownership of the full ML lifecycle",
-                        "defining best practices both in the code base you own and in adoption of the tools you build",
-                        "take ownership of production pipelines"
-                    ],
-                    "justification": "The repeated emphasis on 'ownership' of pipelines, lifecycle, and codebase demonstrates a proactive and responsible approach."
+                    "category": "SKILL5",
+                    "phrase": "take ownership of production pipelines"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "working on cutting edge problems",
-                        "research and development"
-                    ],
-                    "justification": "The focus on 'cutting edge problems' and 'research and development' implies a need for continuous learning and adaptation to new technologies."
+                    "category": "SKILL5",
+                    "phrase": "take ownership of the full ML lifecycle"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "optimising for deployment - turning prototypes into working solutions",
-                        "Adapting off-the-shelf solutions for the purposes of our product"
-                    ],
-                    "justification": "The tasks of optimizing prototypes into working solutions and adapting existing tools highlight a pragmatic and problem-solving approach."
+                    "category": "SKILL5",
+                    "phrase": "take ownership"
                 },
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "participate in code reviews"
-                    ],
-                    "justification": "Participation in code reviews inherently involves communication and collaboration with team members."
+                    "category": "SKILL5",
+                    "phrase": "passion for working on cutting edge problems"
+                },
+                {
+                    "category": "SKILL2",
+                    "phrase": "passion for working on cutting edge problems"
+                },
+                {
+                    "category": "SKILL3",
+                    "phrase": "help us create highly realistic, emotional and life-like synthetic humans"
+                },
+                {
+                    "category": "SKILL1",
+                    "phrase": "work in a hybrid setting"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "generative avatar performance"
+                },
+                {
+                    "category": "TECH4",
+                    "phrase": "libraries to accelerate the iteration speed"
+                },
+                {
+                    "category": "TECH6",
+                    "phrase": "CI/CD"
                 }
             ]
         }

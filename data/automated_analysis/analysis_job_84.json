@@ -28,95 +28,89 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes MLOps, data management, model training, validation, and deployment, aligning with the core responsibilities of an ML Engineer. While generative AI is not explicitly mentioned, the focus on productionizing models and ensuring reliability points towards a predictive modeling specialist."
+            "rationale": "The job description heavily emphasizes the development, deployment, and maintenance of machine learning models, with a strong focus on MLOps pipelines, data management, and infrastructure automation. While generative AI is not explicitly mentioned, the core responsibilities align with building and operationalizing predictive models, which is the hallmark of an ML Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Support development and deployment of machine learning models ensuring reliability and performance.",
-                        "Design, develop, and maintain MLOps pipelines to automate the model training, validation, deployment, and monitoring.",
-                        "Implement infrastructure automation processes to streamline the deployment and management of services and hardware resources.",
-                        "Continuously improve and optimize the performance of implemented solutions through monitoring, evaluation, and iterative enhancements.",
-                        "Design and develop CI/CD workflows and automated testing frameworks for machine learning and related projects."
-                    ],
-                    "justification": "These phrases directly describe the building, automation, deployment, monitoring, and maintenance of ML systems in production, which are the hallmarks of MLOps."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Phrases like 'Support development and deployment of machine learning models ensuring reliability and performance', 'Design, develop, and maintain MLOps pipelines to automate the model training, validation, deployment, and monitoring', 'Implement infrastructure automation processes to streamline the deployment and management of services and hardware resources', and 'Design and develop CI/CD workflows and automated testing frameworks for machine learning and related projects' directly map to MLOps responsibilities.",
+                    "phrase": "Support development and deployment of machine learning models ensuring reliability and performance"
                 },
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "Ensure proper data management, data versioning, and reproducibility throughout the machine learning lifecycle."
-                    ],
-                    "justification": "This phrase highlights the importance of managing and versioning data, which is a key aspect of data engineering within the ML lifecycle."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "This phrase explicitly mentions MLOps pipelines and their automation for the entire model lifecycle.",
+                    "phrase": "Design, develop, and maintain MLOps pipelines to automate the model training, validation, deployment, and monitoring"
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "Support development and deployment of machine learning models ensuring reliability and performance.",
-                        "automate the model training, validation, deployment, and monitoring."
-                    ],
-                    "justification": "These phrases refer to the core activities of developing, training, and validating machine learning models, which falls under the modeling task."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "Ensuring proper data management, data versioning, and reproducibility are key aspects of data engineering within the ML lifecycle.",
+                    "phrase": "Ensure proper data management, data versioning, and reproducibility throughout the machine learning lifecycle"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "Implement infrastructure automation processes to streamline the deployment and management of services and hardware resources.",
-                        "Design and develop CI/CD workflows and automated testing frameworks for machine learning and related projects.",
-                        "Implement and optimize libraries and tools using Python/C++/other languages and relevant libraries/frameworks (e.g., PyTorch, TensorFlow, numpy, scikit-learn, etc)."
-                    ],
-                    "justification": "These phrases involve the practical implementation of software engineering principles for infrastructure, CI/CD, testing, and optimizing code with specific libraries, which are part of software development for ML systems."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH1: Programming Languages",
-                    "values": [
-                        "Python",
-                        "C++"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Infrastructure automation for deployment and resource management is a core MLOps function.",
+                    "phrase": "Implement infrastructure automation processes to streamline the deployment and management of services and hardware resources"
                 },
                 {
-                    "tech_name": "TECH10: Data Modeling",
-                    "values": [
-                        "PyTorch",
-                        "TensorFlow",
-                        "numpy",
-                        "scikit-learn"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Continuous improvement and optimization through monitoring and evaluation are essential for maintaining production systems, a key MLOps responsibility.",
+                    "phrase": "Continuously improve and optimize the performance of implemented solutions through monitoring, evaluation, and iterative enhancements"
                 },
                 {
-                    "tech_name": "TECH8: Data Processing",
-                    "values": [
-                        "numpy"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Designing and developing CI/CD workflows and automated testing for ML projects falls under the MLOps umbrella.",
+                    "phrase": "Design and develop CI/CD workflows and automated testing frameworks for machine learning and related projects"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Implementing libraries and tools using programming languages and frameworks is a software development task that supports ML model implementation.",
+                    "phrase": "Implement and optimize libraries and tools using Python/C++/other languages and relevant libraries/frameworks (e.g., PyTorch, TensorFlow, numpy, scikit-learn, etc)"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'implement and optimize libraries and tools using ... relevant libraries/frameworks (e.g., PyTorch, TensorFlow, numpy, scikit-learn, etc)' implies working with and optimizing models built using these libraries.",
+                    "phrase": "Implement and optimize libraries and tools using Python/C++/other languages and relevant libraries/frameworks (e.g., PyTorch, TensorFlow, numpy, scikit-learn, etc)"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Continuously improve and optimize the performance of implemented solutions through monitoring, evaluation, and iterative enhancements."
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Continuously improve and optimize the performance of implemented solutions through monitoring, evaluation, and iterative enhancements"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "Support development and deployment of machine learning models ensuring reliability and performance.",
-                        "Design, develop, and maintain MLOps pipelines to automate the model training, validation, deployment, and monitoring.",
-                        "Ensure proper data management, data versioning, and reproducibility throughout the machine learning lifecycle.",
-                        "Implement infrastructure automation processes to streamline the deployment and management of services and hardware resources.",
-                        "Continuously improve and optimize the performance of implemented solutions through monitoring, evaluation, and iterative enhancements.",
-                        "Design and develop CI/CD workflows and automated testing frameworks for machine learning and related projects.",
-                        "Implement and optimize libraries and tools using Python/C++/other languages and relevant libraries/frameworks (e.g., PyTorch, TensorFlow, numpy, scikit-learn, etc)."
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Support development and deployment of machine learning models ensuring reliability and performance"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "Continuously improve and optimize the performance of implemented solutions through monitoring, evaluation, and iterative enhancements."
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Design, develop, and maintain MLOps pipelines to automate the model training, validation, deployment, and monitoring"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "C++"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "PyTorch"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "TensorFlow"
+                },
+                {
+                    "category": "TECH8: Data Processing",
+                    "phrase": "numpy"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "scikit-learn"
                 }
             ]
         }

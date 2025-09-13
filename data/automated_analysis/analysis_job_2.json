@@ -28,131 +28,123 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The role heavily emphasizes building data processing pipelines, preparing datasets for large models using machine learning techniques, and working with Big Data tools. While generative models are mentioned, the core focus is on the data engineering and modeling aspects for these models, aligning with the ML Engineer profile."
+            "rationale": "The job description heavily emphasizes building data processing pipelines, preparing datasets for large models, and leveraging machine learning algorithms. While it mentions LLM-based TTS systems, the core focus is on the data engineering and ML aspects of preparing data for these models, rather than the development or fine-tuning of the generative models themselves. The responsibilities align closely with data preprocessing, feature engineering, and productionizing data pipelines for ML, which are hallmarks of an ML Engineer role. The mention of 'large models' and 'machine learning techniques' points towards traditional ML applications and data preparation for them, rather than the core generative AI development associated with a GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "build data processing pipelines",
-                        "preparing ready-to-train datasets for large models",
-                        "Designing, developing, and maintaining data processing pipelines, utilising machine learning techniques to handle vast amounts of text and audio data, while ensuring data quality and accessibility.",
-                        "Use Big Data tools and frameworks to process, analyse, and derive insights from structured and unstructured data.",
-                        "Monitoring the performance of data pipeline and machine learning models, troubleshoot data-related issues, and perform root cause analysis to implement strategic solutions.",
-                        "Document data pipeline architecture and workflow"
-                    ],
-                    "justification": "These phrases directly describe the creation, maintenance, and optimization of data infrastructure and pipelines, including handling large volumes of text and audio data, which are core to data engineering."
+                    "category": "TASK2",
+                    "justification": "The job description explicitly mentions 'Designing, developing, and maintaining data processing pipelines, utilising machine learning techniques to handle vast amounts of text and audio data, while ensuring data quality and accessibility.' and 'Use Big Data tools and frameworks to process, analyse, and derive insights from structured and unstructured data.'",
+                    "phrase": "Designing, developing, and maintaining data processing pipelines, utilising machine learning techniques to handle vast amounts of text and audio data, while ensuring data quality and accessibility."
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "using machine learning techniques to build data processing pipelines",
-                        "preparing ready-to-train datasets for large models",
-                        "Leveraging your understanding of machine learning algorithms and workflows to prepare data most effectively for usage in large scale models.",
-                        "help develop our LLM-based TTS system",
-                        "voice clones that are indistinguishable from real voices"
-                    ],
-                    "justification": "The job involves preparing data for large models and understanding ML algorithms, as well as developing an LLM-based TTS system, indicating a focus on model preparation and application."
+                    "category": "TASK2",
+                    "justification": "The phrase 'prepare ready-to-train datasets for large models' directly relates to preparing data for machine learning.",
+                    "phrase": "preparing ready-to-train datasets for large models"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "code and build working systems",
-                        "experience with the software development life cycle, from ideation through implementation, to testing and release.",
-                        "create high quality, production ready code",
-                        "take ownership of production pipelines"
-                    ],
-                    "justification": "The description highlights the need to write code, build systems, and follow the full software development lifecycle, including testing and release, which are fundamental to software development."
+                    "category": "TASK3",
+                    "justification": "The description states 'Leveraging your understanding of machine learning algorithms and workflows to prepare data most effectively for usage in large scale models.'",
+                    "phrase": "Leveraging your understanding of machine learning algorithms and workflows to prepare data most effectively for usage in large scale models."
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "take ownership of production pipelines",
-                        "Monitoring the performance of data pipeline and machine learning models, troubleshoot data-related issues, and perform root cause analysis to implement strategic solutions.",
-                        "Stay up-to-date with emerging technologies and tools in machine learning and data engineering to continually improve our data infrastructure."
-                    ],
-                    "justification": "This task category is supported by phrases related to owning production pipelines, monitoring performance, troubleshooting, and improving data infrastructure, which are key MLOps responsibilities."
+                    "category": "TASK4",
+                    "justification": "The job description mentions 'You will be someone who loves to code and build working systems. You are used to working in a fast-paced start-up environment. You will have experience with the software development life cycle, from ideation through implementation, to testing and release.' and 'help us create high quality, production ready code'.",
+                    "phrase": "experience with the software development life cycle, from ideation through implementation, to testing and release."
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "Our aim is to make video content creation available for all - not only to studio production!",
-                        "help develop our LLM-based TTS system that will provide our customers with voice clones that are indistinguishable from real voices."
-                    ],
-                    "justification": "These phrases indicate an understanding of the company's mission and the business value of the developed technology, connecting technical work to broader goals."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "LLM / Generative Models",
-                    "classification": "TECH3",
-                    "mentions": [
-                        "LLM-based TTS system",
-                        "Voicebox",
-                        "Whisper",
-                        "VALL-E",
-                        "SPEAR-TTS"
-                    ]
+                    "category": "TASK4",
+                    "justification": "The phrase 'build working systems' implies software development.",
+                    "phrase": "build working systems"
                 },
                 {
-                    "tech_name": "Programming Languages",
-                    "classification": "TECH1",
-                    "mentions": [
-                        "code"
-                    ]
+                    "category": "TASK5",
+                    "justification": "The responsibilities include 'Monitoring the performance of data pipeline and machine learning models, troubleshoot data-related issues, and perform root cause analysis to implement strategic solutions.' and 'take ownership of production pipelines.'",
+                    "phrase": "Monitoring the performance of data pipeline and machine learning models, troubleshoot data-related issues, and perform root cause analysis to implement strategic solutions."
                 },
                 {
-                    "tech_name": "Data Processing",
-                    "classification": "TECH8",
-                    "mentions": [
-                        "NumPy",
-                        "SciPy"
-                    ]
+                    "category": "TASK5",
+                    "justification": "The phrase 'take ownership of production pipelines' directly relates to operations and maintenance of production systems.",
+                    "phrase": "take ownership of production pipelines"
                 },
                 {
-                    "tech_name": "Data Analysis",
-                    "classification": "TECH11",
-                    "mentions": [
-                        "Pandas",
-                        "PySpark",
-                        "SQL"
-                    ]
+                    "category": "TASK1",
+                    "justification": "The job description mentions 'Our aim is to make video content creation available for all - not only to studio production!' and 'If you are excited about the intersection of AI, Machine Learning, and Large Data, this role provides a unique opportunity to make a high-impact contribution.'",
+                    "phrase": "Our aim is to make video content creation available for all - not only to studio production!"
+                },
+                {
+                    "category": "TASK1",
+                    "justification": "The phrase 'high-impact contribution' suggests alignment with business goals.",
+                    "phrase": "high-impact contribution"
+                },
+                {
+                    "category": "TASK1",
+                    "justification": "The responsibility 'Collaborating with other ML Engineers and Researchers to understand their data requirements and provide them with ready-to-train datasets.' shows an understanding of stakeholder needs.",
+                    "phrase": "Collaborating with other ML Engineers and Researchers to understand their data requirements and provide them with ready-to-train datasets."
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "classification": "SKILL2",
-                    "mentions": [
-                        "Stay up-to-date with emerging technologies and tools in machine learning and data engineering to continually improve our data infrastructure."
-                    ]
+                    "category": "SKILL1",
+                    "phrase": "Collaborating with other ML Engineers and Researchers"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "classification": "SKILL3",
-                    "mentions": [
-                        "troubleshoot data-related issues",
-                        "perform root cause analysis to implement strategic solutions."
-                    ]
+                    "category": "SKILL1",
+                    "phrase": "present findings to relevant stakeholders"
                 },
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "classification": "SKILL1",
-                    "mentions": [
-                        "Collaborating with other ML Engineers and Researchers to understand their data requirements and provide them with ready-to-train datasets.",
-                        "present findings to relevant stakeholders, and provide training as needed."
-                    ]
+                    "category": "SKILL2",
+                    "phrase": "Stay up-to-date with emerging technologies and tools in machine learning and data engineering"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "classification": "SKILL5",
-                    "mentions": [
-                        "take ownership of production pipelines",
-                        "You will be someone who loves to code and build working systems.",
-                        "You are used to working in a fast-paced start-up environment."
-                    ]
+                    "category": "SKILL3",
+                    "phrase": "troubleshoot data-related issues, and perform root cause analysis to implement strategic solutions"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "take ownership of production pipelines"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "provide training as needed"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "LLM-based TTS system"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "Voicebox"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "Whisper"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "VALL-E"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "SPEAR-TTS"
+                },
+                {
+                    "category": "TECH10",
+                    "phrase": "machine learning techniques"
+                },
+                {
+                    "category": "TECH1",
+                    "phrase": "code"
+                },
+                {
+                    "category": "TECH6",
+                    "phrase": "Big Data tools and frameworks"
+                },
+                {
+                    "category": "TECH10",
+                    "phrase": "machine learning algorithms"
                 }
             ]
         }

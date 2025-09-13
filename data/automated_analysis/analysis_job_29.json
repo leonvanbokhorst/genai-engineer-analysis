@@ -28,67 +28,98 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes Large Language Models (LLMs), foundational model training, and developing language generation technology. While it mentions 'Machine Learning Engineer' in the title, the core responsibilities and focus areas align more closely with the specialized tasks of a GenAI Engineer, particularly in building and optimizing generative models and their infrastructure."
+            "rationale": "The job description heavily emphasizes work with Large Language Models (LLM), including foundational model training, web-scale data collection, efficient inference strategies, model alignment, and evaluation. The tasks explicitly mention architecting distributed training and data processing infrastructure for LLMs, innovating with deep learning techniques for model quality, enriching training data, and optimizing training/inference infrastructure. These align directly with the core responsibilities and evidence profile of a GenAI Engineer, particularly in the 'Modeling' and 'Operations Engineering' aspects related to generative models."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "Foundational model training",
-                        "Model alignment techniques",
-                        "Innovating with advanced deep learning techniques to elevate the model quality",
-                        "Exploring methodologies to enrich training data quality and quantity"
-                    ],
-                    "justification": "These phrases directly relate to the creation, training, and refinement of machine learning models, specifically focusing on generative models (LLMs) and their underlying techniques."
+                    "category": "TASK3",
+                    "justification": "The phrase 'Foundational model training' directly relates to the creation and adaptation of machine learning models, specifically generative ones in this context.",
+                    "phrase": "Foundational model training"
                 },
                 {
-                    "task_category": "TASK2: Data Engineering",
-                    "phrases": [
-                        "Web-scale data collection",
-                        "Architecting and developing the distributed training and data processing infrastructure",
-                        "Exploring methodologies to enrich training data quality and quantity"
-                    ],
-                    "justification": "These phrases describe the processes involved in gathering, processing, and preparing large datasets, which are crucial for training LLMs, and building the infrastructure to support these operations."
+                    "category": "TASK2",
+                    "justification": "The phrase 'Web-scale data collection' falls under data engineering as it involves gathering and preparing large volumes of data for model training.",
+                    "phrase": "Web-scale data collection"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "craft cutting-edge language generation technology",
-                        "customer-centric applications",
-                        "shaping the state-of-the-art ALM stack"
-                    ],
-                    "justification": "While not explicitly detailing application building, these phrases imply the development of systems and technologies that will be used in applications, suggesting a software development component."
+                    "category": "TASK5",
+                    "justification": "The phrase 'Efficient inference strategies' relates to optimizing the deployment and execution of models in production, which is a key part of Operations Engineering (MLOps).",
+                    "phrase": "Efficient inference strategies"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Efficient inference strategies",
-                        "Model evaluation methodologies",
-                        "Optimizing training and inference infrastructure to maximize hardware performance"
-                    ],
-                    "justification": "These phrases relate to the deployment, performance optimization, and evaluation of models in a production or near-production environment, which are core aspects of MLOps."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Large Language Models (LLM)",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK3",
+                    "justification": "The phrase 'Model alignment techniques' refers to fine-tuning or adapting models to behave in specific ways, a core aspect of generative model development.",
+                    "phrase": "Model alignment techniques"
                 },
                 {
-                    "technology": "deep learning",
-                    "category": "TECH10: Data Modeling"
+                    "category": "TASK3",
+                    "justification": "The phrase 'Model evaluation methodologies' is crucial for assessing the performance and quality of trained models, a fundamental part of the modeling process.",
+                    "phrase": "Model evaluation methodologies"
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "The phrase 'Architecting and developing the distributed training and data processing infrastructure' involves building the systems and pipelines necessary for model development and deployment, which bridges Software Development and Operations Engineering, but the emphasis on 'architecting and developing' leans towards building the software systems.",
+                    "phrase": "Architecting and developing the distributed training and data processing infrastructure"
+                },
+                {
+                    "category": "TASK3",
+                    "justification": "The phrase 'Innovating with advanced deep learning techniques to elevate the model quality' directly pertains to the core process of creating and improving machine learning models.",
+                    "phrase": "Innovating with advanced deep learning techniques to elevate the model quality"
+                },
+                {
+                    "category": "TASK2",
+                    "justification": "The phrase 'Exploring methodologies to enrich training data quality and quantity' is about improving the data used for training, which is a data engineering task.",
+                    "phrase": "Exploring methodologies to enrich training data quality and quantity"
+                },
+                {
+                    "category": "TASK5",
+                    "justification": "The phrase 'Optimizing training and inference infrastructure to maximize hardware performance' is about improving the operational efficiency and performance of the model deployment and training systems, fitting into Operations Engineering (MLOps).",
+                    "phrase": "Optimizing training and inference infrastructure to maximize hardware performance"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "enthusiasm for expansive language models",
-                    "category": "SKILL2: Learning & Adaptability"
+                    "category": "SKILL5",
+                    "phrase": "visionary leader"
                 },
                 {
-                    "skill": "skilled Machine Learning (ML) Engineers",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL5",
+                    "phrase": "pushing the boundaries"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "at the forefront"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "craft cutting-edge"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "driving the evolution"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "enthusiasm for expansive language models"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "play a pivotal role"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "shaping the state-of-the-art"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "Large Language Models (LLM)"
+                },
+                {
+                    "category": "TECH1",
+                    "phrase": "deep learning"
                 }
             ]
         }

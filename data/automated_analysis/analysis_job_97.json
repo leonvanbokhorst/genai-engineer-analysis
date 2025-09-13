@@ -27,111 +27,81 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The role emphasizes building and implementing machine learning algorithms and models, improving and benchmarking functionalities, and making key technical decisions for a software solution. While Generative AI is mentioned, the core focus appears to be on the broader ML engineering aspects of developing and productionizing models within a software application."
+            "profile": "GenAI Engineer",
+            "rationale": "The job description emphasizes building a 'Syntho Engine Core Application' using 'Generative AI models', 'Python', and 'FastAPI'. It also mentions developing and implementing 'cutting-edge machine learning algorithms and models', improving and extending 'key functionalities of our software solution', and identifying 'new features'. The responsibilities align with developing and deploying AI-powered applications, particularly with the mention of Generative AI, which is a core focus of the GenAI Engineer profile. While 'Machine Learning' is in the title, the specific mention of 'Generative AI models' and the application-building context points more strongly to a GenAI Engineer role than a general ML Engineer focused solely on predictive modeling."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "implementing cutting-edge machine learning algorithms and models",
-                        "Generative AI models"
-                    ],
-                    "justification": "These phrases directly relate to the creation, training, and adaptation of machine learning and generative AI models, which is the core of the Modeling task."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'developing and implementing cutting-edge machine learning algorithms and models' directly relates to the creation and adaptation of models.",
+                    "phrase": "developing and implementing cutting-edge machine learning algorithms and models"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "Build a scalable Syntho Engine Core Application",
-                        "FastAPI",
-                        "interfaces with the back-end",
-                        "developing our software solution",
-                        "Improve, extend and benchmark key functionalities of our software solution",
-                        "Identify and implement new features for improving our software solution"
-                    ],
-                    "justification": "These phrases indicate the development of a core application, integration with back-end systems, and the implementation of new features, all falling under traditional software engineering for application development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Build a scalable Syntho Engine Core Application (Python, Generative AI models, Ray, FastAPI), that interfaces with the back-end' describes the development of a software application, including its architecture and integration.",
+                    "phrase": "Build a scalable Syntho Engine Core Application (Python, Generative AI models, Ray, FastAPI), that interfaces with the back-end"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "scalable Syntho Engine Core Application",
-                        "Ray"
-                    ],
-                    "justification": "Building a 'scalable' application and using a distributed computing framework like 'Ray' suggests a focus on productionizing and managing the performance of the ML system, which aligns with MLOps principles."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'A key role in developing our software solution, involved with important technical decisions' indicates involvement in the broader software development lifecycle and architectural decisions.",
+                    "phrase": "A key role in developing our software solution, involved with important technical decisions"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "solve complex problems",
-                        "involved with important technical decisions",
-                        "Actively participate in technical strategy sessions with respect to the development of our solution",
-                        "contribute in solving one of the key global challenges: the data / privacy dilemma"
-                    ],
-                    "justification": "These phrases highlight the need to understand the problem domain, contribute to strategic technical direction, and align development with broader goals, including solving global challenges."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "Python",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrases 'Improve, extend and benchmark key functionalities of our software solution' and 'Identify and implement new features for improving our software solution' describe ongoing development and enhancement of an existing software product.",
+                    "phrase": "Improve, extend and benchmark key functionalities of our software solution"
                 },
                 {
-                    "tech_name": "Generative AI models",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrases 'Improve, extend and benchmark key functionalities of our software solution' and 'Identify and implement new features for improving our software solution' describe ongoing development and enhancement of an existing software product.",
+                    "phrase": "Identify and implement new features for improving our software solution"
                 },
                 {
-                    "tech_name": "Ray",
-                    "category": "TECH6: MLOps & Data Pipelines"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Actively participate in technical strategy sessions with respect to the development of our solution' implies involvement in planning and strategic aspects of software development.",
+                    "phrase": "Actively participate in technical strategy sessions with respect to the development of our solution"
                 },
                 {
-                    "tech_name": "FastAPI",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'contribute in solving one of the key global challenges: the data / privacy dilemma' indicates an understanding of the business context and the societal impact of the technology being developed.",
+                    "phrase": "contribute in solving one of the key global challenges: the data / privacy dilemma"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "solve complex problems",
-                        "involved with important technical decisions",
-                        "Improve, extend and benchmark key functionalities",
-                        "Identify and implement new features"
-                    ],
-                    "justification": "The role requires tackling complex issues, making critical decisions, and iteratively improving the software, indicating a strong need for problem-solving and a pragmatic approach."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "An awesome startup culture of responsibility and freedom to turn your ambition into reality."
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        "Build a scalable Syntho Engine Core Application",
-                        "involved with important technical decisions",
-                        "Actively participate in technical strategy sessions",
-                        "freedom to turn your ambition into reality"
-                    ],
-                    "justification": "The emphasis on building core applications, making strategic decisions, and having the freedom to act suggests a need for initiative, ownership, and an entrepreneurial spirit."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Work with state-of-the-art technologies and become front-runner with the latest (AI) developments."
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        "Work with state-of-the-art technologies and become front-runner with the latest (AI) developments"
-                    ],
-                    "justification": "The explicit mention of working with cutting-edge technologies and staying at the forefront of AI developments points to the importance of continuous learning and adaptability."
+                    "category": "SKILL4: Ethical & Legal Responsibility",
+                    "phrase": "Doing good - contribute in solving one of the key global challenges: the data / privacy dilemma."
                 },
                 {
-                    "skill_name": "Ethical & Legal Responsibility",
-                    "phrases": [
-                        "contribute in solving one of the key global challenges: the data / privacy dilemma"
-                    ],
-                    "justification": "The focus on addressing the data/privacy dilemma highlights an awareness and responsibility towards ethical considerations in AI development."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Working with a young & ambitious team."
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
                 },
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        "Actively participate in technical strategy sessions with respect to the development of our solution",
-                        "Working with a young & ambitious team"
-                    ],
-                    "justification": "Participation in strategy sessions and working within a team environment implies the need for effective communication and collaboration."
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Generative AI models"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Ray"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "FastAPI"
                 }
             ]
         }

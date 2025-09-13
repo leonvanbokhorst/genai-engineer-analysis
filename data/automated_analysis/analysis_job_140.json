@@ -27,57 +27,61 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on Linux system administration and infrastructure management, with no mention of AI, machine learning, or generative models. The core responsibilities revolve around automation, system operations, and lifecycle management within an IT infrastructure context."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on Linux engineering and infrastructure management, with no mention of AI, machine learning, or generative models. The tasks described (automation, system building, lifecycle management, supplier management, working with product owners) are typical of traditional IT infrastructure roles, not AI-specific engineering roles. Therefore, it falls under the 'Ambiguous' category as it is not an AI-related technical role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrase": "ensuring excellent operations",
-                    "justification": "This phrase directly relates to the operational aspects of managing and maintaining systems, which is a core component of Operations Engineering, including MLOps in an AI context, but here it refers to general infrastructure operations."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'improving the current infrastructure landscape by automation' implies developing scripts or tools to automate infrastructure tasks, which aligns with software development principles applied to infrastructure.",
+                    "phrase": "automation"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrase": "carrying out life cycle management of systems and software",
-                    "justification": "Lifecycle management of systems and software is a key responsibility within operations engineering, ensuring systems are maintained, updated, and eventually retired, analogous to MLOps practices for ML models."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The description emphasizes 'ensuring excellent operations', 'managing several external suppliers responsible for infrastructure', and 'carrying out life cycle management of systems and software,' which are core responsibilities of operations engineering in managing and maintaining IT systems.",
+                    "phrase": "ensuring excellent operations"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrase": "automation",
-                    "justification": "Automation is a key aspect of modern software development and operations, used to streamline processes and improve efficiency, which can be applied to infrastructure management."
+                    "category": "TASK4: Software Development",
+                    "justification": "The mention of 'building and expanding (new) systems and platforms' and 'enhancing existing infrastructure' involves the development and integration of infrastructure components, aligning with software development practices in an infrastructure context.",
+                    "phrase": "building and expanding (new) systems and platforms"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrase": "building and expanding (new) systems and platforms",
-                    "justification": "This involves the development and deployment of new infrastructure components and platforms, aligning with software development principles applied to infrastructure."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'enhancing existing infrastructure' suggests modifying or improving current systems, which can involve development or configuration work.",
+                    "phrase": "enhancing existing infrastructure"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrase": "enhancing existing infrastructure",
-                    "justification": "This task involves modifying and improving current systems, which falls under the umbrella of software development and engineering applied to infrastructure."
-                }
-            ],
-            "technologies": [],
-            "soft_skills": [
-                {
-                    "skill_name": "Communication & Collaboration",
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves working with 'Delivery & contract managers, Product Owners and Project managers' and managing 'internal customers', indicating a need to understand business requirements and align infrastructure services with business needs.",
                     "phrase": "work with Delivery & contract managers, Product Owners and Project managers"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrase": "use of new technologies"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'carrying out life cycle management of systems and software' directly relates to the operational management of IT assets throughout their lifespan, a key aspect of operations engineering.",
+                    "phrase": "carrying out life cycle management of systems and software"
+                }
+            ],
+            "soft_skills": [
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "work with Delivery & contract managers, Product Owners and Project managers"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "managing several external suppliers"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
                     "phrase": "improving the current infrastructure landscape"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrase": "responsible for managing several external suppliers"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "building and expanding (new) systems and platforms"
                 }
-            ]
+            ],
+            "technologies": []
         }
     }
 }

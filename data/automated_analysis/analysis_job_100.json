@@ -27,164 +27,121 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 1,
-            "rationale": "The job description focuses heavily on traditional systems engineering, infrastructure management, and cloud operations, with no mention of AI, machine learning, or generative models. The core responsibilities are centered around Linux systems, networking, and cloud infrastructure deployment and maintenance, which falls outside the scope of AI-focused roles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on traditional systems engineering, infrastructure management (Linux, servers, networks, datacenters), and cloud operations (AWS, Terraform, EC2, VPC, EKS, S3, EFS). While it mentions a 'DevOps mindset' and 'automation tooling', there is no mention of AI, machine learning, generative models, LLMs, or related technologies. The core responsibilities are centered around infrastructure reliability, scalability, and cost optimization, which are characteristic of a Systems Engineer or DevOps Engineer role, not an ML Engineer or GenAI Engineer. Therefore, it falls under the 'Ambiguous' category as it is not an AI-specific technical role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "Provide a flexible infrastructure to the rest of the company",
-                            "justification": "This phrase indicates an understanding of how the infrastructure supports the broader company's needs and goals."
-                        },
-                        {
-                            "phrase": "Work with a DevOps mindset with other teams within the company to bring our products to a large number of corporate customers worldwide.",
-                            "justification": "This highlights the need to understand how infrastructure and product delivery contribute to business objectives and customer reach."
-                        }
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The description emphasizes achieving high uptime (>99.99%), managing and improving automation tooling, participating in on-call rotations, and providing flexible infrastructure, which are all core aspects of operations engineering and MLOps, albeit in a broader infrastructure context.",
+                    "phrase": "Achieve uptime >99.99%"
                 },
                 {
-                    "task_category": "TASK2: Data Engineering",
-                    "phrases": []
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Managing and improving automation tooling is a key responsibility in operations engineering to ensure efficiency and reliability.",
+                    "phrase": "Operate and improve our automation tooling"
                 },
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": []
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Participating in a 24/7 on-call rotation is a standard duty for operations and SRE roles responsible for maintaining system availability.",
+                    "phrase": "Participate in 24/7 on-call rotation schedule"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "Design, deploy (via Terraform), and manage AWS cloud infrastructure components",
-                            "justification": "While focused on infrastructure, the design and deployment aspects using tools like Terraform involve software development principles for infrastructure as code."
-                        }
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'DevOps mindset' directly relates to the principles and practices of operations engineering, focusing on collaboration and efficiency between development and operations.",
+                    "phrase": "Work with a DevOps mindset"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        {
-                            "phrase": "Achieve uptime >99.99%.",
-                            "justification": "This is a key operational metric for ensuring service availability and reliability, a core concern in MLOps."
-                        },
-                        {
-                            "phrase": "Manage and expand the physical servers, OS's and networks in multiple datacenters, including our AWS cloud platforms.",
-                            "justification": "This describes the management and maintenance of production infrastructure, a fundamental aspect of operations engineering."
-                        },
-                        {
-                            "phrase": "Operate and improve our automation tooling.",
-                            "justification": "Automation is a critical component of efficient operations and MLOps pipelines."
-                        },
-                        {
-                            "phrase": "Participate in 24/7 on-call rotation schedule.",
-                            "justification": "This indicates responsibility for maintaining production systems and responding to incidents, a common duty in operations roles."
-                        },
-                        {
-                            "phrase": "Manage & Support our Cloud Infrastructure",
-                            "justification": "Directly relates to the operational management of cloud-based systems."
-                        },
-                        {
-                            "phrase": "Optimize cloud resources for cost efficiency and performance.",
-                            "justification": "Performance and cost optimization are key operational concerns for deployed systems."
-                        },
-                        {
-                            "phrase": "Monitor and maintain high availability and fault tolerance of cloud services.",
-                            "justification": "Monitoring and ensuring high availability are core responsibilities of operations engineering."
-                        },
-                        {
-                            "phrase": "Ensure compliance with security best practices and industry standards.",
-                            "justification": "Security and compliance are crucial aspects of maintaining production systems."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Linux",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Managing and supporting cloud infrastructure, including design, deployment, monitoring, and maintenance for high availability and fault tolerance, falls under operations engineering.",
+                    "phrase": "Manage & Support our Cloud Infrastructure"
                 },
                 {
-                    "technology": "AWS",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Deploying infrastructure using Terraform is a core practice in infrastructure as code and operations engineering.",
+                    "phrase": "deploy (via Terraform)"
                 },
                 {
-                    "technology": "Terraform",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Monitoring and maintaining high availability and fault tolerance are critical aspects of operations engineering to ensure system reliability.",
+                    "phrase": "Monitor and maintain high availability and fault tolerance of cloud services"
                 },
                 {
-                    "technology": "EC2 instances",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Ensuring compliance with security best practices and industry standards is a key responsibility in maintaining secure and reliable infrastructure operations.",
+                    "phrase": "Ensure compliance with security best practices and industry standards"
                 },
                 {
-                    "technology": "VPC",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK4: Software Development",
+                    "justification": "While the primary focus is infrastructure, the design and deployment of cloud infrastructure components can involve software development principles, especially in defining and managing infrastructure as code.",
+                    "phrase": "Design, deploy (via Terraform), and manage AWS cloud infrastructure components"
                 },
                 {
-                    "technology": "EKS",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Understanding a complex technical architecture with a high degree of customisation is crucial for aligning infrastructure decisions with business needs and ensuring effective support.",
+                    "phrase": "Understand a complex technical architecture with a high degree of customisation"
                 },
                 {
-                    "technology": "S3",
-                    "category": "TECH2: Cloud Platforms & Services"
-                },
-                {
-                    "technology": "EFS",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Providing a flexible infrastructure to the rest of the company implies understanding and meeting the diverse needs of different business units.",
+                    "phrase": "Provide a flexible infrastructure to the rest of the company"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        {
-                            "phrase": "You will work in a team of highly skilled engineers"
-                        },
-                        {
-                            "phrase": "Work with a DevOps mindset with other teams within the company"
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Work with a DevOps mindset with other teams within the company"
                 },
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        {
-                            "phrase": "Understand a complex technical architecture with a high degree of customisation."
-                        }
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Achieve uptime >99.99%"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        {
-                            "phrase": "Achieve uptime >99.99%."
-                        },
-                        {
-                            "phrase": "Manage and expand the physical servers, OS's and networks"
-                        },
-                        {
-                            "phrase": "Operate and improve our automation tooling."
-                        },
-                        {
-                            "phrase": "Optimize cloud resources for cost efficiency and performance."
-                        },
-                        {
-                            "phrase": "Monitor and maintain high availability and fault tolerance of cloud services."
-                        }
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Optimize cloud resources for cost efficiency and performance"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        {
-                            "phrase": "Operate and improve our automation tooling."
-                        },
-                        {
-                            "phrase": "Design, deploy (via Terraform), and manage AWS cloud infrastructure components"
-                        }
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Operate and improve our automation tooling"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Provide a flexible infrastructure to the rest of the company"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Linux"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "AWS"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "EC2 instances"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "VPC"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "EKS"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "S3"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "EFS"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Terraform"
                 }
             ]
         }

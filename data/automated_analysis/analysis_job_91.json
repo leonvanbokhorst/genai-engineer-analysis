@@ -28,82 +28,66 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description emphasizes building and operationalizing end-to-end solutions using statistical models and predictive algorithms, aligning with the core responsibilities of an ML Engineer. While generative AI is not explicitly mentioned, the focus on data processing, predictive modeling, and productionizing models points strongly towards this profile."
+            "rationale": "The job description heavily emphasizes the use of statistical models and predictive algorithms for uncovering patterns, developing end-to-end solutions, and operationalizing them for production use, which aligns directly with the definition and core responsibilities of an ML Engineer. While AI techniques are mentioned, the focus is on traditional ML tasks like prediction and data mining rather than generative AI specific applications."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK3: Modeling",
-                    "phrase": "statistische modellen en voorspellende algoritmes",
-                    "justification": "This phrase directly refers to the creation and application of predictive models and algorithms, which is the core of the Modeling task."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'zet statistische modellen en voorspellende algoritmes in om verborgen patronen te onthullen' directly describes the core activity of building and applying models for prediction and pattern discovery.",
+                    "phrase": "zet statistische modellen en voorspellende algoritmes in om verborgen patronen te onthullen"
                 },
                 {
-                    "task": "TASK3: Modeling",
-                    "phrase": "deep learning technologieën",
-                    "justification": "Deep learning is a subset of machine learning focused on complex model architectures, fitting within the Modeling task."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'ontwikkel je end-tot-end oplossingen om je werk te operationaliseren' implies building complete solutions, which extends beyond just model development to include software engineering aspects for deployment.",
+                    "phrase": "ontwikkel je end-tot-end oplossingen om je werk te operationaliseren"
                 },
                 {
-                    "task": "TASK2: Data Engineering",
-                    "phrase": "verwerken van complexe data",
-                    "justification": "Processing complex data is a fundamental aspect of preparing data for modeling, falling under Data Engineering."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Niet alleen PoC's maar ook robuuste oplossingen die in productie worden gebruikt' indicates a focus on production-grade systems and operationalizing solutions, which is a key aspect of MLOps.",
+                    "phrase": "Niet alleen PoC's maar ook robuuste oplossingen die in productie worden gebruikt"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "ontwikkel je end-tot-end oplossingen",
-                    "justification": "Developing end-to-end solutions implies building the full lifecycle of a model, including integration into applications, which relates to Software Development."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'verwerken van complexe data door middel van machine learning, data mining en deep learning technologieën' suggests involvement in handling and processing complex data, which is a foundational aspect of data engineering for ML tasks.",
+                    "phrase": "verwerken van complexe data door middel van machine learning, data mining en deep learning technologieën"
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrase": "operationaliseren",
-                    "justification": "Operationalizing solutions means making them ready for production use, which is a key aspect of MLOps."
-                },
-                {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrase": "robuuste oplossingen die in productie worden gebruikt",
-                    "justification": "This phrase explicitly mentions deploying robust solutions into production, a core responsibility of MLOps."
-                },
-                {
-                    "task": "TASK1: Business Understanding",
-                    "phrase": "help je onze klanten vertrouwd te maken met het verwerken van complexe data door middel van machine learning",
-                    "justification": "This indicates an understanding of client needs and translating them into ML solutions, touching on Business Understanding."
-                },
-                {
-                    "task": "TASK1: Business Understanding",
-                    "phrase": "creëert echte impact door middel van het toepassen van machine learning en AI-technieken",
-                    "justification": "Focusing on creating real impact implies aligning technical work with business value, which relates to Business Understanding."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech": "TECH10: Data Modeling",
-                    "phrase": "statistische modellen"
-                },
-                {
-                    "tech": "TECH10: Data Modeling",
-                    "phrase": "voorspellende algoritmes"
-                },
-                {
-                    "tech": "TECH10: Data Modeling",
-                    "phrase": "deep learning technologieën"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'help je onze klanten vertrouwd te maken met het verwerken van complexe data door middel van machine learning' implies understanding client needs and translating them into data processing solutions.",
+                    "phrase": "help je onze klanten vertrouwd te maken met het verwerken van complexe data"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrase": "samen met het Center of Excellence (CoE) van ons AI-team, of in directe samenwerking met de klant"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "in directe samenwerking met de klant"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "verwerken van complexe data"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "samen met het Center of Excellence (CoE) van ons AI-team"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "ontwikkel je end-tot-tot oplossingen"
-                },
-                {
-                    "skill": "SKILL5: Innovation & Ownership",
+                    "category": "SKILL5: Innovation & Ownership",
                     "phrase": "creëert echte impact"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "machine learning"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "deep learning"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "statistische modellen"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "voorspellende algoritmes"
                 }
             ]
         }

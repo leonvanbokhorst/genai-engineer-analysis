@@ -27,71 +27,91 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on building software systems for ML solutions and mentions cloud platforms and deployment, but lacks specific details on core AI/ML tasks like model development, fine-tuning, or generative techniques. It appears to be a traditional software engineering role with an AI focus rather than a specialized AI/ML engineering role."
+            "profile": "ML Engineer",
+            "rationale": "The job description emphasizes building robust software systems for Machine Learning solutions, productionizing ML applications on cloud platforms, and translating client needs into technical solutions. While it mentions software engineering, the core focus is on the ML aspect, including collaboration with ML Engineers and Data Engineers, and deploying ML applications, aligning well with the 'ML Engineer' profile which includes MLOps and productionizing ML models."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        "Translate and design technical solutions and concepts based on client needs",
-                        "Gather requirements from clients and users"
-                    ],
-                    "justification": "These phrases indicate the need to understand client requirements and translate them into technical solutions, which is a core aspect of business understanding."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Translate and design technical solutions and concepts based on client needs' and 'Gather requirements from clients and users' directly indicates understanding client needs and translating them into technical solutions, which is core to business understanding.",
+                    "phrase": "Translate and design technical solutions and concepts based on client needs"
                 },
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        "building robust software systems for our Machine Learning solutions",
-                        "Explore, design and implement software and cloud architecture with a focus on security, reliability, scalability, testability, etc.",
-                        "Design demo's and production ready applications"
-                    ],
-                    "justification": "The description emphasizes building software systems, designing architecture, and creating production-ready applications, which are all core software development activities."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Gather requirements from clients and users' indicates the need to understand what clients and users need, a crucial aspect of business understanding.",
+                    "phrase": "Gather requirements from clients and users"
                 },
                 {
-                    "task_name": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "building robust software systems for our Machine Learning solutions, both on premise and on major cloud platforms",
-                        "Build and deploy production ready machine learning applications on AWS, Azure and GCP"
-                    ],
-                    "justification": "The mention of building and deploying production-ready applications on cloud platforms aligns with MLOps responsibilities, focusing on the operational aspects of ML systems."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'building robust software systems for our Machine Learning solutions' implies the need to handle data pipelines and infrastructure necessary for ML, which falls under data engineering, especially when working alongside Data Engineers.",
+                    "phrase": "building robust software systems for our Machine Learning solutions"
                 },
                 {
-                    "task_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Collaborate with Machine Learning Engineers, Data Engineers, Project Managers and other internal stakeholders to bring projects to life"
-                    ],
-                    "justification": "This phrase explicitly mentions collaboration with various stakeholders, highlighting the importance of teamwork and communication."
-                }
-            ],
-            "technologies": [
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'production ready machine learning applications' implies the development and deployment of models, which is a core part of the modeling task.",
+                    "phrase": "production ready machine learning applications"
+                },
                 {
-                    "tech_name": "TECH2: Cloud Platforms & Services",
-                    "technologies": [
-                        "AWS",
-                        "Azure",
-                        "GCP"
-                    ],
-                    "justification": "The job description explicitly lists AWS, Azure, and GCP as platforms where applications will be built and deployed."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Software Engineer' and 'building robust software systems' clearly points to traditional software development tasks. The responsibilities like 'Explore, design and implement software and cloud architecture' and 'Design demo's and production ready applications' are direct indicators of software development.",
+                    "phrase": "building robust software systems"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Explore, design and implement software and cloud architecture with a focus on security, reliability, scalability, testability, etc.' describes core software engineering activities related to system design and architecture.",
+                    "phrase": "Explore, design and implement software and cloud architecture with a focus on security, reliability, scalability, testability, etc."
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Design demo's and production ready applications' indicates the development of user-facing or client-facing applications, a key aspect of software development.",
+                    "phrase": "Design demo's and production ready applications"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Build and deploy production ready machine learning applications on AWS, Azure and GCP' directly relates to deploying and managing ML models in a production environment, which is the essence of MLOps.",
+                    "phrase": "Build and deploy production ready machine learning applications on AWS, Azure and GCP"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'building robust software systems for our Machine Learning solutions, both on premise and on major cloud platforms' implies the operational aspects of maintaining and deploying ML systems in production environments.",
+                    "phrase": "building robust software systems for our Machine Learning solutions, both on premise and on major cloud platforms"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Collaborate with Machine Learning Engineers, Data Engineers, Project Managers and other internal stakeholders to bring projects to life"
-                    ],
-                    "justification": "This phrase directly indicates the need for collaboration with various team members."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate with Machine Learning Engineers, Data Engineers, Project Managers and other internal stakeholders"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Translate and design technical solutions and concepts based on client needs",
-                        "Explore, design and implement software and cloud architecture with a focus on security, reliability, scalability, testability, etc."
-                    ],
-                    "justification": "These phrases imply the need to solve problems by translating client needs into technical designs and architecting robust systems."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Translate and design technical solutions and concepts based on client needs"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Explore, design and implement software and cloud architecture with a focus on security, reliability, scalability, testability, etc."
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "accelerate businesses with intelligent technology"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "AWS"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "GCP"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Machine Learning solutions"
                 }
             ]
         }

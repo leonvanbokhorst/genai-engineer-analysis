@@ -27,100 +27,94 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on full-stack development and integration with existing systems, with only a mention of LLM and AI ethics in the company description. There is no explicit mention of core GenAI engineering tasks like model fine-tuning, RAG implementation, or prompt engineering."
+            "profile": "GenAI Engineer",
+            "rationale": "The job description emphasizes building and maintaining production-grade user-facing software systems, specifically mentioning integrations with customer APIs and contact centers, and working on a UI for document training and encouragement. It also highlights the company's passion for neural networks, LLMs, and AI ethics, and their goal of creating user-friendly AI assistants. While it mentions full-stack development, the core focus aligns with the GenAI Engineer role's responsibility of developing and deploying applications built on generative models."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "phrase": "Backend- en frontend-services ontwerpen, ontwikkelen, monitoren en optimaliseren",
                     "category": "TASK4: Software Development",
-                    "justification": "This phrase directly describes the design, development, monitoring, and optimization of backend and frontend services, which are core activities in software development."
+                    "justification": "The phrase 'Backend- en frontend-services ontwerpen, ontwikkelen, monitoren en optimaliseren' directly refers to the design, development, and maintenance of software services, which is a core aspect of software development.",
+                    "phrase": "Backend- en frontend-services ontwerpen, ontwikkelen, monitoren en optimaliseren"
                 },
                 {
-                    "phrase": "Het bouwen van integraties met verschillende API's van onze klanten",
                     "category": "TASK4: Software Development",
-                    "justification": "Building integrations with customer APIs falls under software development, specifically focusing on connecting different systems and services."
+                    "justification": "Building integrations with various customer APIs and contact centers involves developing software to connect different systems, a key software development task.",
+                    "phrase": "Het bouwen van integraties met verschillende API's van onze klanten"
                 },
                 {
-                    "phrase": "Integraties met contactcentra",
                     "category": "TASK4: Software Development",
-                    "justification": "Integrating with contact centers involves developing software to connect systems and facilitate communication, a software development task."
+                    "justification": "Working on the UI to make document training and encouragement accessible to customers involves front-end development and user interface design, which falls under software development.",
+                    "phrase": "Werken aan de UI om documenttraining en aanmoediging toegankelijk te maken voor onze klanten"
                 },
                 {
-                    "phrase": "Werken aan de UI om documenttraining en aanmoediging toegankelijk te maken voor onze klanten",
                     "category": "TASK4: Software Development",
-                    "justification": "Working on the UI to make features accessible to customers is a direct software development responsibility, focusing on the user interface."
+                    "justification": "The phrase 'Het verbeteren van onze code en voortduren op zoek zijn naar manieren om meer onderhoudbare en schaalbare services te schrijven' describes continuous improvement of code quality and architectural design for maintainability and scalability, which are fundamental software development practices.",
+                    "phrase": "Het verbeteren van onze code en voortduren op zoek zijn naar manieren om meer onderhoudbare en schaalbare services te schrijven"
                 },
                 {
-                    "phrase": "Het verbeteren van onze code en voortduren op zoek zijn naar manieren om meer onderhoudbare en schaalbare services te schrijven",
+                    "category": "TASK3: Modeling",
+                    "justification": "The company's passion for 'neurale netwerken, LLM en AI-ethiek' and their goal of creating 'digitale collega's, aangedreven door AI' strongly implies work with generative models and AI, which falls under the modeling category.",
+                    "phrase": "neurale netwerken, LLM en AI-ethiek"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'digitale collega's, aangedreven door AI' suggests the development or application of AI models to create intelligent agents or assistants.",
+                    "phrase": "digitale collega's, aangedreven door AI"
+                },
+                {
                     "category": "TASK4: Software Development",
-                    "justification": "This describes the ongoing process of code improvement, focusing on maintainability and scalability, which are key aspects of software development."
+                    "justification": "The phrase 'ontwerpen van complexe softwareproducten' indicates experience in the broader software engineering lifecycle, including design and architecture.",
+                    "phrase": "ontwerpen van complexe softwareproducten"
                 },
                 {
-                    "phrase": "neurale netwerken, LLM en AI-ethiek",
-                    "category": "TASK1: Business Understanding",
-                    "justification": "Mentioning neural networks, LLM, and AI ethics indicates an awareness of the broader technological context and ethical considerations relevant to the company's domain, aligning with business understanding."
-                },
-                {
-                    "phrase": "gebruiksvriendelijk zijn om wijdverspreid te worden aangenomen en geen ongelijkheid te veroorzaken",
-                    "category": "TASK1: Business Understanding",
-                    "justification": "This phrase reflects an understanding of the business goals related to AI adoption, user-friendliness, and ethical implications, which is part of business understanding."
-                },
-                {
-                    "phrase": "het voor mensen supergemakkelijk te maken om nuttige AI-assistenten op de werkplek te gebruiken en het potentieel van digitale transformatie op het werk te benutten",
-                    "category": "TASK1: Business Understanding",
-                    "justification": "This describes the company's mission and business objective of making AI assistants accessible and leveraging digital transformation, falling under business understanding."
-                },
-                {
-                    "phrase": "creëren we de meest gebruiksvriendelijke digitale collega's, aangedreven door AI",
-                    "category": "TASK1: Business Understanding",
-                    "justification": "This statement articulates the company's product vision and business strategy, which is a component of business understanding."
-                }
-            ],
-            "technologies": [
-                {
-                    "phrase": "TypeScript",
-                    "category": "TECH1: Programming Languages",
-                    "justification": "TypeScript is explicitly mentioned as a required development language."
-                },
-                {
-                    "phrase": "LLM",
-                    "category": "TECH3: LLM / Generative Models",
-                    "justification": "LLM is mentioned in the context of the company's focus and technology."
-                },
-                {
-                    "phrase": "AI",
-                    "category": "TECH3: LLM / Generative Models",
-                    "justification": "AI is mentioned as a core technology driving the company's products."
-                },
-                {
-                    "phrase": "chatGPT",
-                    "category": "TECH3: LLM / Generative Models",
-                    "justification": "ChatGPT is mentioned as a reference point for the company's early involvement in the LLM/genAI space."
+                    "category": "TASK4: Software Development",
+                    "justification": "The requirement to 'neemt beveiliging en privacy serieus' in the context of developing AI-driven products points to secure software development practices.",
+                    "phrase": "neemt beveiliging en privacy serieus"
                 }
             ],
             "soft_skills": [
                 {
-                    "phrase": "open-minded",
                     "category": "SKILL3: Problem Solving & Pragmatism",
-                    "justification": "Being open-minded is a trait that supports problem-solving and adaptability."
+                    "phrase": "voortduren op zoek zijn naar manieren om meer onderhoudbare en schaalbare services te schrijven"
                 },
                 {
-                    "phrase": "proactief",
                     "category": "SKILL5: Innovation & Ownership",
-                    "justification": "Being proactive indicates initiative and a willingness to take ownership, aligning with innovation and ownership."
+                    "phrase": "proactief"
                 },
                 {
-                    "phrase": "kan zelfstandig werken",
                     "category": "SKILL3: Problem Solving & Pragmatism",
-                    "justification": "The ability to work independently is crucial for problem-solving and pragmatic execution."
+                    "phrase": "zelfstandig werken"
                 },
                 {
-                    "phrase": "neemt beveiliging en privacy serieus",
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "open-minded"
+                },
+                {
                     "category": "SKILL4: Ethical & Legal Responsibility",
-                    "justification": "Taking security and privacy seriously directly relates to ethical and legal responsibilities in technology development."
+                    "phrase": "neemt beveiliging en privacy serieus"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "deel uit te maken van onze beginfase, wat enorm uniek is en veel energie geeft!"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "TypeScript"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLM"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "genAI"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "chatGPT"
                 }
             ]
         }

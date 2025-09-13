@@ -28,105 +28,140 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The role heavily emphasizes building and deploying production-grade ML systems, including data pipelines, model training, and MLOps. While GenAI is mentioned for fine-tuning, the core focus remains on recommendation systems and traditional ML engineering practices."
+            "rationale": "The job description emphasizes the development, productionization, and maintenance of ML systems, including model design, training, and MLOps. While GenAI is mentioned for future optimization, the core responsibilities and evidence point towards a traditional ML Engineer role focused on recommendation systems, data engineering, and software development for ML systems."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "Business Understanding",
-                    "phrases": [
-                        "collecting business requirements from product stakeholders",
-                        "Evaluate possible architecture solutions considering business and technology requirements."
-                    ],
-                    "justification": "These phrases indicate the need to understand business needs and translate them into technical requirements and architectural decisions."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Be responsible for business-related data governance processes, technical implementation, and maintenance of data processing services and storage systems' directly relates to managing data infrastructure and processes.",
+                    "phrase": "Be responsible for business-related data governance processes, technical implementation, and maintenance of data processing services and storage systems"
                 },
                 {
-                    "task": "Data Engineering",
-                    "phrases": [
-                        "data processing services and storage systems",
-                        "leveraging published research, open-source technologies, and previously-developed products at Booking."
-                    ],
-                    "justification": "The mention of 'data processing services and storage systems' directly relates to data infrastructure, and 'leveraging previously-developed products' implies working with existing data pipelines and systems."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'collecting business requirements from product stakeholders to implementation' implies understanding and gathering data needs for ML systems.",
+                    "phrase": "collecting business requirements from product stakeholders to implementation"
                 },
                 {
-                    "task": "Modeling",
-                    "phrases": [
-                        "Recommendation Applications ML team is dedicated to enhancing the overall customer experience and user journey.",
-                        "centralized hub for all machine learning (ML) recommendation initiatives, providing scalable, reusable, state-of-the-art ML models.",
-                        "increase relevance and personalization",
-                        "leveraging GenAI to build fine-tuned models for more relevant recommendations.",
-                        "model design, and training.",
-                        "ML/AI concepts"
-                    ],
-                    "justification": "This task category is central, with explicit mentions of ML recommendation models, personalization, fine-tuning with GenAI, model design, training, and general ML/AI concepts."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'leveraging GenAI to build fine-tuned models for more relevant recommendations' explicitly mentions model fine-tuning and generative AI for recommendations.",
+                    "phrase": "leveraging GenAI to build fine-tuned models for more relevant recommendations"
                 },
                 {
-                    "task": "Software Development",
-                    "phrases": [
-                        "system architecture to coding",
-                        "ML engineering",
-                        "Develop production-grade ML systems, from models to features and pipelines",
-                        "Build readable and reusable code, applying code quality best practices and using standard libraries.",
-                        "Choose the right technology or coding methodology and refactor and simplify code when necessary.",
-                        "Take full ownership of services end-to-end",
-                        "abstracting ML/AI concepts from one application to a generalized framework"
-                    ],
-                    "justification": "The job requires building production-grade systems, writing code with best practices, owning services end-to-end, and abstracting concepts, all of which fall under software development."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'focus on expanding and optimizing our recommendation systems, for example by improving personalization' indicates work on refining and enhancing recommendation models.",
+                    "phrase": "expanding and optimizing our recommendation systems, for example by improving personalization"
                 },
                 {
-                    "task": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "production-grade ML systems, from models to features and pipelines, accounting for reliability, scalability, real-time requirements, monitoring, and retraining.",
-                        "Take full ownership of services end-to-end by actively monitoring system health, performance, and business impact.",
-                        "Set relevant service level objectives (SLOs) and act accordingly when they are not met.",
-                        "technical implementation, and maintenance of data processing services and storage systems, as well as ML governance processes."
-                    ],
-                    "justification": "Key MLOps aspects like production deployment, reliability, scalability, monitoring, retraining, SLOs, and maintenance of ML governance are explicitly mentioned."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech": "TECH3: LLM / Generative Models",
-                    "value": "GenAI"
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'providing scalable, reusable, state-of-the-art ML models' directly refers to the creation and provision of machine learning models.",
+                    "phrase": "providing scalable, reusable, state-of-the-art ML models"
                 },
                 {
-                    "tech": "TECH10: Data Modeling",
-                    "value": "ML"
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'encompassing ML engineering, model design, and training' covers the core activities of building and training ML models.",
+                    "phrase": "encompassing ML engineering, model design, and training"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'You will own the design and delivery of ML systems, from initial idea generation... to implementation' indicates responsibility for the full lifecycle of ML systems, including software implementation.",
+                    "phrase": "You will own the design and delivery of ML systems, from initial idea generation... to implementation"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Build readable and reusable code, applying code quality best practices and using standard libraries' is a direct description of software development practices.",
+                    "phrase": "Build readable and reusable code, applying code quality best practices and using standard libraries"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Choose the right technology or coding methodology and refactor and simplify code when necessary' pertains to software design and implementation choices.",
+                    "phrase": "Choose the right technology or coding methodology and refactor and simplify code when necessary"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'abstracting ML/AI concepts from one application to a generalized framework' implies building reusable software components and frameworks.",
+                    "phrase": "abstracting ML/AI concepts from one application to a generalized framework"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Develop production-grade ML systems, from models to features and pipelines, accounting for reliability, scalability, real-time requirements, monitoring, and retraining' covers key MLOps aspects like production deployment, monitoring, and retraining.",
+                    "phrase": "Develop production-grade ML systems, from models to features and pipelines, accounting for reliability, scalability, real-time requirements, monitoring, and retraining"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Take full ownership of services end-to-end by actively monitoring system health, performance, and business impact. Set relevant service level objectives (SLOs) and act accordingly when they are not met' describes operational responsibility and monitoring of ML systems.",
+                    "phrase": "Take full ownership of services end-to-end by actively monitoring system health, performance, and business impact. Set relevant service level objectives (SLOs) and act accordingly when they are not met"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Be responsible for business-related data governance processes, technical implementation, and maintenance of data processing services and storage systems, as well as ML governance processes' includes ML governance, which is part of MLOps.",
+                    "phrase": "Be responsible for business-related data governance processes, technical implementation, and maintenance of data processing services and storage systems, as well as ML governance processes"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'collecting business requirements from product stakeholders' directly indicates the need to understand business needs and translate them into technical requirements.",
+                    "phrase": "collecting business requirements from product stakeholders"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Evaluate possible architecture solutions considering business and technology requirements' shows the need to align technical solutions with business needs.",
+                    "phrase": "Evaluate possible architecture solutions considering business and technology requirements"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "You will own the design and delivery of ML systems",
-                        "Take full ownership of services end-to-end",
-                        "Combine innovation with reuse"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "You will work closely together with the other Machine Learning Scientists and Machine Learning Engineers as well as with Data Engineers, Software Engineers and Product Managers."
                 },
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "You will work closely together with the other Machine Learning Scientists and Machine Learning Engineers as well as with Data Engineers, Software Engineers and Product Managers.",
-                        "Contribute to the internal ML/AI community by sharing knowledge and participating in internal ML programs.",
-                        "Coach others through evidence and clear communication, explaining advanced technical concepts in simpler terms.",
-                        "Achieve mutually agreeable solutions by staying adaptable, communicating ideas in clear coherent language, and practicing active listening."
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Coach others through evidence and clear communication, explaining advanced technical concepts in simpler terms."
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "Continuously evolve your craft by keeping up to date with the latest developments in ML/AI and related technologies and upskilling as needed.",
-                        "staying adaptable"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Achieve mutually agreeable solutions by staying adaptable, communicating ideas in clear coherent language, and practicing active listening."
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Develop production-grade ML systems, from models to features and pipelines, accounting for reliability, scalability, real-time requirements, monitoring, and retraining.",
-                        "Evaluate possible architecture solutions considering business and technology requirements.",
-                        "refactor and simplify code when necessary."
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Continuously evolve your craft by keeping up to date with the latest developments in ML/AI and related technologies and upskilling as needed."
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "staying adaptable"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "You will own the design and delivery of ML systems, from initial idea generation and collecting business requirements from product stakeholders to implementation."
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Choose the right technology or coding methodology and refactor and simplify code when necessary."
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Evaluate possible architecture solutions considering business and technology requirements."
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "You will own the design and delivery of ML systems, from initial idea generation and collecting business requirements from product stakeholders to implementation."
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Take full ownership of services end-to-end by actively monitoring system health, performance, and business impact."
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Combine innovation with reuse by abstracting ML/AI concepts from one application to a generalized framework, including leveraging published research, open-source technologies, and previously-developed products at Booking."
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "GenAI"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "ML"
                 }
             ]
         }

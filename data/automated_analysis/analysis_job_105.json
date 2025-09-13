@@ -28,92 +28,111 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes building and standardizing model development experiences for ML Engineers and Data Scientists, focusing on the entire ML lifecycle from feature engineering to serving and MLOps. While generative AI is mentioned as an extension, the core focus remains on traditional ML model development and productionization within a platform context."
+            "rationale": "The job description heavily emphasizes building and standardizing model development experiences for ML Engineers and Data Scientists, focusing on the entire ML lifecycle from feature engineering, training, serving, ML-Ops, and monitoring. While it mentions extending support to generative AI, the core focus remains on traditional ML model development, productionization, and the MLOps aspects of a platform like Canvas. The emphasis on 'model dev experiences', 'iterating quickly and collaboratively during model dev time', and 'automatically scaled up to run robustly when it is deployed into production' aligns strongly with the 'ML Engineer' profile, particularly the 'Operations Engineering (MLOps)' and 'Modeling' aspects. The mention of generative AI appears to be an extension of existing ML capabilities rather than the primary focus."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "feature engineering",
-                        "batch data processing optimization"
-                    ],
-                    "justification": "Phrases like 'feature engineering' and 'batch data processing optimization' directly relate to preparing and processing data for machine learning models, which falls under data engineering."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'feature engineering' is a core component of data preparation and transformation for machine learning models.",
+                    "phrase": "feature engineering"
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "model dev experiences",
-                        "develop the model solutions",
-                        "training",
-                        "serving",
-                        "modeling techniques",
-                        "generative AI",
-                        "large scale models",
-                        "productionize large scaling models"
-                    ],
-                    "justification": "The description repeatedly mentions developing, training, serving, and productionizing models, including both traditional and generative AI/large-scale models, which is the core of modeling tasks."
+                    "category": "TASK3: Modeling",
+                    "justification": "The job explicitly mentions 'model dev experiences', 'develop the model solutions', 'training', and 'modeling techniques', indicating a focus on creating and refining machine learning models.",
+                    "phrase": "develop the model solutions"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "building and standardizing model dev experiences",
-                        "build and operate the dev tool known as Canvas",
-                        "build their ML solution",
-                        "solution will be automatically scaled up to run robustly when it is deployed into production"
-                    ],
-                    "justification": "The role involves building and operating a development tool ('Canvas') and ensuring ML solutions are scalable and robust for production, indicating software development responsibilities."
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'training' is a fundamental aspect of the model development process.",
+                    "phrase": "training"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "ML-Ops",
-                        "serving",
-                        "ML-Ops",
-                        "deployed into production",
-                        "productionize large scaling models"
-                    ],
-                    "justification": "The explicit mention of 'ML-Ops', 'serving', and 'deployed into production' points to responsibilities in managing and maintaining models in a production environment."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "value": "generative AI",
-                    "justification": "Explicitly mentioned as an area of extension for modeling support."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'modeling techniques' directly refers to the methods and algorithms used in machine learning.",
+                    "phrase": "modeling techniques"
                 },
                 {
-                    "tech_name": "TECH10: Data Modeling",
-                    "value": "model dev experiences",
-                    "justification": "Refers to the development and creation of machine learning models."
+                    "category": "TASK3: Modeling",
+                    "justification": "The job description states an extension to 'generative AI and large scale models', which falls under the umbrella of modeling.",
+                    "phrase": "generative AI and large scale models"
                 },
                 {
-                    "tech_name": "TECH10: Data Modeling",
-                    "value": "modeling techniques",
-                    "justification": "Indicates expertise in various methods for building machine learning models."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves building and operating a 'dev tool known as Canvas' and standardizing 'model dev experiences', which implies software development to create and maintain these tools and platforms.",
+                    "phrase": "building and standardizing model dev experiences"
                 },
                 {
-                    "tech_name": "TECH10: Data Modeling",
-                    "value": "large scale models",
-                    "justification": "Refers to the development and productionization of large, complex models."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'build and operate the dev tool known as Canvas' indicates the development of software tools.",
+                    "phrase": "build and operate the dev tool known as Canvas"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The ability to 'iterate quickly and collaboratively' during model development time and have solutions 'automatically scaled up to run robustly when it is deployed into production' suggests software engineering practices for application development and deployment.",
+                    "phrase": "iterate quickly and collaboratively during model dev time"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The job explicitly mentions 'ML-Ops' as a critical ML phase supported by the Canvas tool.",
+                    "phrase": "ML-Ops"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'serving' in the context of ML models refers to deploying them for inference, which is a key MLOps activity.",
+                    "phrase": "serving"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of 'monitoring' in the context of ML models is a crucial part of MLOps for tracking performance and health.",
+                    "phrase": "monitoring"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'productionize large scaling models' directly relates to deploying and managing models in a production environment, a core MLOps responsibility.",
+                    "phrase": "productionize large scaling models"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'automatically scaled up to run robustly when it is deployed into production' describes automated deployment and scaling, which are key MLOps practices.",
+                    "phrase": "automatically scaled up to run robustly when it is deployed into production"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The mention of 'batch data processing optimization' is a specific task within data engineering focused on efficient handling of large datasets.",
+                    "phrase": "batch data processing optimization"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "value": "build and standardize model dev experiences",
-                    "justification": "Focuses on creating efficient and standardized development tools for ML engineers and Data Scientists, implying a problem-solving approach to improve workflows."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "collaboratively"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "value": "build and operate the dev tool known as Canvas",
-                    "justification": "The responsibility of building and operating a core development tool suggests a need for ownership and initiative."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "business needs"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "value": "extending our modeling support to generative AI and large scale models",
-                    "justification": "The team's expansion into new areas like generative AI indicates a need for continuous learning and adaptation to new technologies."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "build and operate"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "ML Engineers"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Data Scientists"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "generative AI"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "large scale models"
                 }
             ]
         }
