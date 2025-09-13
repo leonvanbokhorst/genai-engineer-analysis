@@ -27,148 +27,88 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on using AI tools to enhance productivity and automate tasks within a support engineering context, rather than building or developing AI models or systems. It lacks the core responsibilities and technical depth expected of an ML Engineer or GenAI Engineer."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on using AI tools to optimize and automate existing processes rather than developing or engineering AI models themselves. While it mentions 'AI System Building', the context suggests implementing and managing AI-driven systems and tools, not core AI model development. The role emphasizes scripting, system configuration, and troubleshooting within a telecommunications context, aligning more with an application support or operations role that leverages AI, rather than a dedicated AI engineering role. There is no mention of core AI/ML tasks like algorithm development, model training, fine-tuning, or building RAG systems."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "In the telecommunications industry, operational inefficiency and customer dissatisfaction are persistent issues, exacerbated by the complexity and volume of tasks that must be managed manually.",
-                            "justification": "This phrase describes the business context and the problems the company aims to solve with AI."
-                        },
-                        {
-                            "phrase": "Totogi is revolutionizing this landscape by leveraging cutting-edge, AI-driven systems to automate these tasks, significantly enhancing operational efficiency and customer satisfaction.",
-                            "justification": "This explains the company's business strategy and how AI is used to achieve business goals."
-                        },
-                        {
-                            "phrase": "This approach is exciting because it sets a new standard in customer service efficiency and technical integration, making us a leader in the industry.",
-                            "justification": "Highlights the business impact and market positioning."
-                        },
-                        {
-                            "phrase": "Your work will directly contribute to our strategic decisions and elevate our customer support to new heights.",
-                            "justification": "Connects the role's contributions to broader business strategy and goals."
-                        },
-                        {
-                            "phrase": "Enhance operational efficiency and customer satisfaction by optimizing and automating tasks using AI-driven systems and advanced technical skills",
-                            "justification": "Directly states the business objectives the role aims to achieve."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The job description begins by outlining industry problems (operational inefficiency, customer dissatisfaction) and how the company's AI-driven approach addresses these, indicating a need to understand the business context and strategic goals.",
+                    "phrase": "In the telecommunications industry, operational inefficiency and customer dissatisfaction are persistent issues, exacerbated by the complexity and volume of tasks that must be managed manually."
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "If you excel at scripting, system configuration, and deep technical troubleshooting, and are excited by the prospect of continuously improving processes through technology, this job is for you.",
-                            "justification": "Mentions scripting and system configuration, which are aspects of software development and system integration."
-                        },
-                        {
-                            "phrase": "AI System Building: Designing and implementing AI-driven systems and monitoring tools to enhance operational efficiency.",
-                            "justification": "While 'AI System Building' is mentioned, the context suggests implementation and integration rather than core AI model development. 'Monitoring tools' also falls under system development."
-                        },
-                        {
-                            "phrase": "Service Configuration and Maintenance: Using AI tools to configure AAA, PCRF, SMSC, and MMSC network functions, ensuring seamless service delivery and customer satisfaction.",
-                            "justification": "Configuring network functions involves system setup and integration, which is a form of software/system development in a specific domain."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The description highlights how the company is 'revolutionizing this landscape by leveraging cutting-edge, AI-driven systems to automate these tasks, significantly enhancing operational efficiency and customer satisfaction,' showing alignment with strategic goals.",
+                    "phrase": "Totogi is revolutionizing this landscape by leveraging cutting-edge, AI-driven systems to automate these tasks, significantly enhancing operational efficiency and customer satisfaction."
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        {
-                            "phrase": "implementing and managing AI-driven systems",
-                            "justification": "Implies deployment and ongoing management of AI systems, which aligns with operations."
-                        },
-                        {
-                            "phrase": "manage incidents to ensure timely resolution",
-                            "justification": "Incident management is a core part of operations engineering."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "technology_category": "TECH2: Cloud Platforms & Services",
-                    "technologies": [
-                        {
-                            "name": "AI-driven systems",
-                            "type": "TECH2"
-                        }
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The role requires 'scripting, system configuration, and deep technical troubleshooting,' which are foundational software development and system administration skills.",
+                    "phrase": "If you excel at scripting, system configuration, and deep technical troubleshooting"
                 },
                 {
-                    "technology_category": "TECH4: LLM Frameworks & Libraries",
-                    "technologies": [
-                        {
-                            "name": "AI tools",
-                            "type": "TECH4"
-                        }
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The role involves 'implementing and managing AI-driven systems' and 'configuring and maintaining network functions,' which falls under operational management and deployment of systems.",
+                    "phrase": "implementing and managing AI-driven systems to enhance operational efficiency and customer satisfaction."
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'analyze data to derive actionable insights' suggests tasks related to data processing and analysis, which are part of data engineering.",
+                    "phrase": "analyze data to derive actionable insights"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of 'manage incidents to ensure timely resolution' is a core responsibility in operations and incident management.",
+                    "phrase": "manage incidents to ensure timely resolution"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The core task of 'AI System Building: Designing and implementing AI-driven systems and monitoring tools' involves building and deploying systems, which aligns with software development, albeit with an AI focus.",
+                    "phrase": "AI System Building: Designing and implementing AI-driven systems and monitoring tools to enhance operational efficiency."
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The task of 'Service Configuration and Maintenance: Using AI tools to configure AAA, PCRF, SMSC, and MMSC network functions' involves configuring and maintaining specific network services, which is a form of system and application configuration.",
+                    "phrase": "Service Configuration and Maintenance: Using AI tools to configure AAA, PCRF, SMSC, and MMSC network functions, ensuring seamless service delivery and customer satisfaction."
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The statement 'Your work will directly contribute to our strategic decisions and elevate our customer support to new heights' indicates alignment with business strategy.",
+                    "phrase": "Your work will directly contribute to our strategic decisions and elevate our customer support to new heights."
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "While the job mentions 'AI-driven systems' and 'AI tools', it does not specify tasks related to developing, training, fine-tuning, or adapting AI models themselves. The focus is on using these systems and tools.",
+                    "phrase": "AI-driven systems"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "skills": [
-                        {
-                            "name": "dynamic team",
-                            "type": "SKILL1"
-                        }
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "deep technical troubleshooting"
                 },
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "skills": [
-                        {
-                            "name": "continuously improving processes through technology",
-                            "type": "SKILL2"
-                        },
-                        {
-                            "name": "forward-thinking team",
-                            "type": "SKILL2"
-                        }
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "continuously improving processes through technology"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "skills": [
-                        {
-                            "name": "deep technical troubleshooting",
-                            "type": "SKILL3"
-                        },
-                        {
-                            "name": "optimize and automate complex support tasks",
-                            "type": "SKILL3"
-                        },
-                        {
-                            "name": "manage incidents to ensure timely resolution",
-                            "type": "SKILL3"
-                        }
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "thrive in high-tech, innovative environments"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "skills": [
-                        {
-                            "name": "innovative environments",
-                            "type": "SKILL5"
-                        },
-                        {
-                            "name": "proactively reshaping the entire support process",
-                            "type": "SKILL5"
-                        },
-                        {
-                            "name": "proactively optimize and automate",
-                            "type": "SKILL5"
-                        },
-                        {
-                            "name": "empower your career with advanced AI technology and make a significant impact",
-                            "type": "SKILL5"
-                        }
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "optimize and automate complex support tasks"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "forward-thinking team"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "scripting"
                 }
             ]
         }

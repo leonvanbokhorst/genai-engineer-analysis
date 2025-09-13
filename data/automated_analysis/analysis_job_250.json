@@ -28,94 +28,98 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description emphasizes deploying, scaling, and maintaining AI-driven solutions, bridging machine learning and production systems. Key responsibilities include designing and optimizing AI pipelines, researching monitoring and automation, and implementing solutions for AI models in production, aligning strongly with ML Engineer core responsibilities and MLOps."
+            "rationale": "The job description heavily emphasizes deploying, scaling, and maintaining AI-driven solutions, bridging the gap between machine learning and production systems. It focuses on designing, developing, and optimizing AI pipelines for scalable deployment, researching best practices for monitoring, versioning, and automating AI workflows, and implementing solutions to enhance efficiency and reliability of AI models in production. While Generative AI (GenAI) is mentioned in the context of a specific project (Oddit), the core responsibilities and overall focus align more closely with the 'ML Engineer' profile, particularly the aspects of MLOps and productionizing models, rather than the primary focus on building applications *on top of* LLMs as described for the 'GenAI Engineer'."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "Design, develop, and optimize AI pipelines for scalable deployment.",
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "This phrase directly relates to building and managing the infrastructure and pipelines for deploying and scaling AI models in production."
-                },
-                {
-                    "task": "Research best practices for monitoring, versioning, and automating AI workflows.",
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "Monitoring, versioning, and automation are core components of MLOps, focusing on the operational aspects of AI systems."
-                },
-                {
-                    "task": "Implement solutions that enhance the efficiency and reliability of AI models in production.",
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "This task focuses on the practical implementation of improvements for AI models already in a production environment, which is a key MLOps concern."
-                },
-                {
-                    "task": "Collaborate with a small team to bring innovative AI solutions to life.",
-                    "category": "SKILL1: Communication & Collaboration",
-                    "justification": "This highlights the need for teamwork and working with others to achieve project goals."
-                },
-                {
-                    "task": "gain hands-on experience in deploying, scaling, and maintaining AI-driven solutions",
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "This directly describes the core activities of MLOps: deploying, scaling, and maintaining AI systems."
-                },
-                {
-                    "task": "bridge the gap between machine learning and production systems",
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "This phrase explicitly states the role's function in connecting ML models to production environments, a central tenet of MLOps."
-                },
-                {
-                    "task": "focusing on automation, deployment, and optimization of machine learning systems",
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "Automation, deployment, and optimization are key aspects of managing and improving ML systems in production."
-                },
-                {
-                    "task": "Your research and implementation will contribute directly to real-world applications",
                     "category": "TASK4: Software Development",
-                    "justification": "While broad, contributing to real-world applications implies building and integrating solutions that have a tangible impact, often involving software development."
+                    "justification": "The phrase 'design, develop, and optimize AI pipelines for scalable deployment' implies building and refining the systems that host and manage AI models, which is a core aspect of software development in an AI context.",
+                    "phrase": "Design, develop, and optimize AI pipelines for scalable deployment"
                 },
                 {
-                    "task": "creating AI roadmaps and strategies based on inputs such as interviews, data quality scans and code reviews.",
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Researching 'best practices for monitoring, versioning, and automating AI workflows' directly relates to the operational aspects of managing AI models in production, which is the domain of MLOps.",
+                    "phrase": "Research best practices for monitoring, versioning, and automating AI workflows"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Implementing solutions that 'enhance the efficiency and reliability of AI models in production' is a key responsibility within MLOps, focusing on the operational performance of deployed models.",
+                    "phrase": "Implement solutions that enhance the efficiency and reliability of AI models in production"
+                },
+                {
                     "category": "TASK1: Business Understanding",
-                    "justification": "This involves understanding business needs (roadmaps, strategies) and technical inputs (data quality, code reviews) to inform AI solutions."
+                    "justification": "The mention of 'automating our own workflow' within the Oddit project and the general aim to 'bridge the gap between machine learning and production systems' indicates an understanding of how AI solutions serve business needs and improve operational efficiency.",
+                    "phrase": "automate our own workflow"
                 },
                 {
-                    "task": "automate our own workflow",
-                    "category": "TASK1: Business Understanding",
-                    "justification": "This indicates a focus on improving business processes through AI, requiring an understanding of the existing workflow and its business context."
-                },
-                {
-                    "task": "optimizing an AI model performance in Energy, improving real-time data pipelines in a geospatial setting, or enhancing the AI system scalability for a large platform",
                     "category": "TASK3: Modeling",
-                    "justification": "Optimizing model performance and enhancing system scalability are directly related to the core ML modeling process and its practical application."
+                    "justification": "The description of Oddit as an 'LLM-based application' and the mention of 'plenty GenAI research angles' points to work involving generative models, which falls under the modeling category.",
+                    "phrase": "LLM-based application"
                 },
                 {
-                    "task": "improving real-time data pipelines",
-                    "category": "TASK2: Data Engineering",
-                    "justification": "This phrase directly refers to the design, building, and maintenance of data pipelines."
-                }
-            ],
-            "technologies": [
+                    "category": "TASK3: Modeling",
+                    "justification": "The project option 'optimizing an AI model performance in Energy' directly relates to the core task of improving the effectiveness of machine learning models.",
+                    "phrase": "optimizing an AI model performance"
+                },
                 {
-                    "technology": "LLM",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The project option 'improving real-time data pipelines in a geospatial setting' clearly falls under the scope of data engineering, focusing on the infrastructure for data flow.",
+                    "phrase": "improving real-time data pipelines"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The project option 'enhancing the AI system scalability for a large platform' involves software development principles to ensure the system can handle increased load and usage.",
+                    "phrase": "enhancing the AI system scalability"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The overall goal to 'bridge the gap between machine learning and production systems' and to 'deploy, scale, and maintain AI-driven solutions' shows an understanding of how technical AI work aligns with business objectives and operational needs.",
+                    "phrase": "bridge the gap between machine learning and production systems"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "Collaborate with a small team",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate with a small team"
                 },
                 {
-                    "skill": "enjoy the ride of a start-up and benefit from the freedom in the role",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "working closely with our AI engineers"
                 },
                 {
-                    "skill": "talented and ambitious ML engineers",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "gain hands-on experience"
                 },
                 {
-                    "skill": "Insights into real-world AI challenges and deployment strategies",
-                    "category": "SKILL2: Learning & Adaptability"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "research angles"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "optimize AI model performance"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "enhancing the AI system scalability"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "innovative AI solutions"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Bring your own AI engineering topic"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLM"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "GenAI"
                 }
             ]
         }

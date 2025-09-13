@@ -28,130 +28,116 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The role heavily emphasizes the development and deployment of predictive models (classification, ranking, regression, clustering) and includes core ML Engineer responsibilities like full project lifecycle, experimentation, and model monitoring. While LLM work is present, it's integrated into a broader ML context rather than being the sole focus."
+            "rationale": "The job description emphasizes the development of classification, ranking, regression, and clustering models, aligning with the core responsibilities of an ML Engineer. While LLM work is mentioned, it's in the context of embeddings, prompt engineering, and fine-tuning, which can be part of an ML Engineer's toolkit when applied to predictive tasks. The role also includes full project development cycles, model deployment, monitoring, and supporting infrastructure, all key aspects of an ML Engineer focused on productionizing models. The technologies listed, such as Python, GCP, Airflow, Docker, and Catboost, further support this classification."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
                     "category": "TASK3: Modeling",
-                    "phrases": [
-                        "Development of classification/ranking/regression/clustering models",
-                        "Working with LLM: Embeddings, prompt engineering, model fine-tuning"
-                    ],
-                    "justification": "These phrases directly describe the creation, adaptation, and training of machine learning models, including both traditional predictive models and generative models (LLMs)."
+                    "justification": "The phrase 'Development of classification/ranking/regression/clustering models' directly refers to the creation and training of predictive models.",
+                    "phrase": "Development of classification/ranking/regression/clustering models"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Working with LLM: Embeddings, prompt engineering, model fine-tuning' indicates tasks related to adapting and utilizing generative models, which falls under modeling.",
+                    "phrase": "Working with LLM: Embeddings, prompt engineering, model fine-tuning"
                 },
                 {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Supporting the infrastructure for conducting experiments, storing results, retraining models, quality monitoring, and alerting",
-                        "Full project development cycle: From problem statement and research to experiments, model deployment, and monitoring"
-                    ],
-                    "justification": "These phrases cover the end-to-end lifecycle of ML models in production, including deployment, monitoring, retraining, and infrastructure management, which are core MLOps responsibilities."
-                },
-                {
-                    "category": "TASK4: Software Development",
-                    "phrases": [
-                        "We create internal services using machine learning",
-                        "FastAPI"
-                    ],
-                    "justification": "The description mentions creating internal services using ML, implying software development to integrate these models. FastAPI is a web framework used for building APIs, which is a common software development task in this context."
+                    "justification": "The phrase 'Supporting the infrastructure for conducting experiments, storing results, retraining models, quality monitoring, and alerting' describes the setup and maintenance of systems for production ML models.",
+                    "phrase": "Supporting the infrastructure for conducting experiments, storing results, retraining models, quality monitoring, and alerting"
                 },
                 {
                     "category": "TASK2: Data Engineering",
-                    "phrases": [
-                        "Working with data providers' APIs",
-                        "Data Storage: ClickHouse, CloudSQL"
-                    ],
-                    "justification": "Interacting with external APIs for data and managing data storage solutions are key aspects of data engineering, ensuring data availability and accessibility for modeling."
+                    "justification": "The phrase 'Working with data providers' APIs' implies tasks related to data ingestion and integration, which are part of data engineering.",
+                    "phrase": "Working with data providers' APIs"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Code review' is a standard software development practice.",
+                    "phrase": "Code review"
                 },
                 {
                     "category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "We are a data science team responsible for supporting teams working in the SEO domain.",
-                        "based on which other teams implement new products."
-                    ],
-                    "justification": "The role operates within a specific domain (SEO) and creates services that enable other teams to build products, indicating a need to understand business context and translate it into technical solutions."
-                }
-            ],
-            "technologies": [
-                {
-                    "category": "TECH2: Cloud Platforms & Services",
-                    "name": "Google Cloud Platform"
+                    "justification": "The phrase 'We are a data science team responsible for supporting teams working in the SEO domain. We create internal services using machine learning, based on which other teams implement new products.' shows an understanding of how ML services support broader product development within a specific domain (SEO).",
+                    "phrase": "We are a data science team responsible for supporting teams working in the SEO domain. We create internal services using machine learning, based on which other teams implement new products."
                 },
                 {
-                    "category": "TECH2: Cloud Platforms & Services",
-                    "name": "OpenAI"
-                },
-                {
-                    "category": "TECH2: Cloud Platforms & Services",
-                    "name": "Google"
-                },
-                {
-                    "category": "TECH2: Cloud Platforms & Services",
-                    "name": "Anthropic"
-                },
-                {
-                    "category": "TECH9: Data Storage",
-                    "name": "ClickHouse"
-                },
-                {
-                    "category": "TECH9: Data Storage",
-                    "name": "CloudSQL"
-                },
-                {
-                    "category": "TECH1: Programming Languages",
-                    "name": "Python"
-                },
-                {
-                    "category": "TECH6: MLOps & Data Pipelines",
-                    "name": "Airflow"
-                },
-                {
-                    "category": "TECH6: MLOps & Data Pipelines",
-                    "name": "k8s"
-                },
-                {
-                    "category": "TECH6: MLOps & Data Pipelines",
-                    "name": "Docker"
-                },
-                {
-                    "category": "TECH6: MLOps & Data Pipelines",
-                    "name": "DVC"
-                },
-                {
-                    "category": "TECH4: LLM Frameworks & Libraries",
-                    "name": "FastAPI"
-                },
-                {
-                    "category": "TECH10: Data Modeling",
-                    "name": "Catboost"
-                },
-                {
-                    "category": "TECH11: Data Analysis",
-                    "name": "Pandas"
-                },
-                {
-                    "category": "TECH3: LLM / Generative Models",
-                    "name": "LLM APIs"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Full project development cycle: From problem statement and research to experiments, model deployment, and monitoring' encompasses the entire lifecycle of an ML model, including deployment and monitoring, which are MLOps responsibilities.",
+                    "phrase": "Full project development cycle: From problem statement and research to experiments, model deployment, and monitoring"
                 }
             ],
             "soft_skills": [
                 {
                     "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "From problem statement and research to experiments, model deployment, and monitoring"
-                },
-                {
-                    "category": "SKILL1: Communication & Collaboration",
-                    "phrase": "Code review"
-                },
-                {
-                    "category": "SKILL5: Innovation & Ownership",
-                    "phrase": "turn ideas into reality using code, algorithms, and maybe a bit of magic."
+                    "phrase": "turn ideas into reality using code, algorithms, and maybe a bit of magic"
                 },
                 {
                     "category": "SKILL2: Learning & Adaptability",
                     "phrase": "Training, courses, conferences"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Code review"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Google Cloud Platform"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "ClickHouse"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "CloudSQL"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Airflow"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "k8s"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Docker"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "DVC"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "FastAPI"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Catboost"
+                },
+                {
+                    "category": "TECH11: Data Analysis",
+                    "phrase": "Pandas"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "OpenAI"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Google"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Anthropic"
                 }
             ]
         }

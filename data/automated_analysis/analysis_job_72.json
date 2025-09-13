@@ -27,117 +27,166 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on customer engagements, understanding requirements, and collaborating with various teams, rather than deep technical development of AI models or platforms. While AI technologies are mentioned, the core responsibilities lean towards solution design and consulting within a broader engineering context."
+            "profile": "ML Engineer",
+            "rationale": "The job description emphasizes building and deploying AI solutions, with a specific mention of MLOps and partnering with data science teams. While it involves software engineering, the focus is on productionizing AI models and solutions rather than building user-facing applications from scratch, aligning more closely with the ML Engineer profile's emphasis on MLOps and model productionization."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        "Understand User Requirements",
-                        "Identify deep insights from customer engagements and partner with the product group on using customer needs and insights to guide future product roadmap",
-                        "customer engagements",
-                        "customers engineering teams",
-                        "customers grow their business",
-                        "solve their challenges",
-                        "help solve our customer challenges"
-                    ],
-                    "justification": "The role emphasizes understanding customer needs, translating them into technical requirements, and aligning solutions with business goals. This includes gathering insights from customer engagements and guiding product roadmaps based on these needs."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Understand User Requirements' and 'Identify deep insights from customer engagements' directly relates to understanding business context and translating customer needs.",
+                    "phrase": "Understand User Requirements"
                 },
                 {
-                    "task_name": "TASK3: Modeling",
-                    "phrases": [
-                        "Microsofts AI offerings such as Azure ML, Azure Cognitive Services, Azure OpenAI",
-                        "open source AI tooling",
-                        "building good AI solutions",
-                        "partner closely with our data science team",
-                        "Data & AI depth expertise"
-                    ],
-                    "justification": "The job mentions working with various Microsoft AI offerings and open-source AI tooling, and partnering with data science teams, indicating involvement in AI solutions and models, though not necessarily building them from scratch."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'partner with the product group on using customer needs and insights to guide future product roadmap' indicates alignment with strategic goals and influencing product direction based on business needs.",
+                    "phrase": "partner with the product group on using customer needs and insights to guide future product roadmap"
                 },
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        "AI Platform Software Engineer",
-                        "team up with other ISE engineers on customer engagements",
-                        "coding sprints",
-                        "Be a hands-on software engineer where needed",
-                        "write quality code",
-                        "building reusable assets and playbooks"
-                    ],
-                    "justification": "The role requires being a hands-on software engineer, writing quality code, participating in coding sprints, and building reusable software assets, which are core software development activities."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The mention of 'Azure Cognitive Search' implies working with search technologies that often involve data indexing and retrieval, a component of data engineering.",
+                    "phrase": "Azure Cognitive Search"
                 },
                 {
-                    "task_name": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Azure ML",
-                        "Azure Cognitive Search",
-                        "ML Ops"
-                    ],
-                    "justification": "The mention of Azure ML and ML Ops suggests an understanding and potential involvement in the operational aspects of deploying and managing AI solutions, although it's not the primary focus."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "Azure ML",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'building good AI solutions, for example ML Ops' and 'partner closely with our data science team on customer engagements' suggests involvement in the modeling process and collaboration with data scientists.",
+                    "phrase": "building good AI solutions"
                 },
                 {
-                    "tech_name": "Azure Cognitive Services",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'partner closely with our data science team on customer engagements' indicates collaboration on modeling tasks.",
+                    "phrase": "partner closely with our data science team on customer engagements"
                 },
                 {
-                    "tech_name": "Azure OpenAI",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK4: Software Development",
+                    "justification": "The role is described as a 'Software Engineer' and requires being 'a hands-on software engineer where needed, so youll need to be able to write quality code.' This directly points to software development responsibilities.",
+                    "phrase": "Be a hands-on software engineer where needed, so youll need to be able to write quality code."
                 },
                 {
-                    "tech_name": "Azure Cognitive Search",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK4: Software Development",
+                    "justification": "The mention of 'building reusable assets and playbooks' suggests developing software components that can be used across multiple projects.",
+                    "phrase": "building reusable assets and playbooks"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'specifically around building good AI solutions, for example ML Ops' directly mentions MLOps as a key area of focus.",
+                    "phrase": "ML Ops"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "broad experience in the AI space and the ability to quickly upskill and unblock others is the key to success",
-                        "evolving very quickly"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "team up with other ISE engineers on customer engagements"
                 },
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "team up with other ISE engineers",
-                        "customer engagements",
-                        "interacting with our customers engineering teams and Microsofts product engineering teams",
-                        "work together",
-                        "working with engineers from your team and our customers teams",
-                        "Collaborate with other members of the team and the broader organization"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "interacting with our customers engineering teams and Microsofts product engineering teams"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "address their toughest challenges",
-                        "solve their challenges",
-                        "help solve our customer challenges"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "working with engineers from your team and our customers teams"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "develop solutions side-by-side with our customers through collaborative innovation",
-                        "development of broadly applicable, high-impact solution patterns and open-source software assets",
-                        "take initiative",
-                        "take full responsibility"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "work alongside ISE engineers and customer engineers"
                 },
                 {
-                    "skill_name": "SKILL4: Ethical & Legal Responsibility",
-                    "phrases": [
-                        "Microsofts mission of empowerment and cutting-edge technology"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate with other members of the team and the broader organization"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "broad experience in the AI space and the ability to quickly upskill and unblock others is the key to success"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "embracing a growth mindset"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "address their toughest challenges"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "solve their challenges"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "help solve our customer challenges"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "develop real-world technical experience that helps customers grow their business"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "inspire excellence"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "encourage everyone to share their unique viewpoints and be their authentic selves"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "create life-changing innovations"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure ML"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure Cognitive Services"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure OpenAI"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Microsofts AI offerings"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Microsoft Industry Solutions"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Microsofts mission"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Microsoft platform"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Microsofts product engineering teams"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Microsofts mission of empowerment"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Microsoft"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "MS technologies"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "MS"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure Cognitive Search"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "ML Ops"
                 }
             ]
         }

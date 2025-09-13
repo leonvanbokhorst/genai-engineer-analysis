@@ -28,104 +28,139 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 5,
-            "rationale": "The job description heavily emphasizes building applications around large language models, including prompt engineering, RAG, and fine-tuning. It also mentions developing user-facing AI solutions and integrating them into products, which are core responsibilities of a GenAI Engineer."
+            "rationale": "The job description heavily emphasizes the development, fine-tuning, and deployment of applications built on large language models, including specific techniques like RAG, PEFT (LoRA, QLoRA), and prompt engineering. It also highlights building user-facing systems and integrating AI solutions, which are core responsibilities of a GenAI Engineer. While ML concepts are present, the focus is clearly on generative AI applications."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK3: Modeling",
-                    "phrases": [
-                        "Lead the development and implementation of our Tech Copilot chatbot, including prompt engineering, Retrieval-Augmented Generation (RAG) optimization, and model fine-tuning.",
-                        "Implement PEFT techniques such as LoRA and QLoRA to fine-tune models for efficient adaptation while minimizing computational resources and memory usage.",
-                        "Design, develop, and deploy brand new AI/ML models and algorithms to enhance product functionality, customer support, and overall user experience.",
-                        "Optimize transformer-based architectures and enhance the accuracy of AI-generated responses through RAG systems.",
-                        "Fine-tune open-source and closed-source models, ensuring they are evaluated for performance and meet real-world application requirements."
-                    ],
-                    "justification": "These phrases directly relate to the creation, adaptation, and optimization of AI models, including generative models and techniques like RAG and PEFT."
+                    "category": "TASK3",
+                    "justification": "The description explicitly mentions 'model fine-tuning', 'PEFT techniques such as LoRA and QLoRA', 'design, develop, and deploy brand new AI/ML models and algorithms', 'Optimize transformer-based architectures', and 'Fine-tune open-source and closed-source models'. These are all core activities related to creating and adapting models.",
+                    "phrase": "model fine-tuning"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrases": [
-                        "Lead the development and implementation of our Tech Copilot chatbot",
-                        "Design, develop, and deploy brand new AI/ML models and algorithms to enhance product functionality, customer support, and overall user experience.",
-                        "integrate AI solutions into existing products and workflows.",
-                        "building production-grade user-facing software systems"
-                    ],
-                    "justification": "These phrases indicate the need to build and integrate AI capabilities into functional products and user-facing applications, requiring software development skills."
-                },
-                {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Develop and refine evaluation metrics and processes for continuous improvement of AI models and systems, including the implementation of MLOps practices.",
-                        "deploy brand new AI/ML models"
-                    ],
-                    "justification": "The mention of 'MLOps practices' and deploying models directly points to the operational aspects of managing AI systems in production."
-                },
-                {
-                    "task": "TASK1: Business Understanding",
-                    "phrases": [
-                        "enhance product functionality, customer support, and overall user experience.",
-                        "Contribute to the development of AI strategies and roadmaps for future initiatives across various business units.",
-                        "Align AI systems with data privacy regulations"
-                    ],
-                    "justification": "These phrases show the need to understand business goals, strategic planning, and regulatory compliance in the context of AI development."
-                },
-                {
-                    "task": "TASK2: Data Engineering",
-                    "phrases": [
-                        "Retrieval-Augmented Generation (RAG) optimization",
-                        "enhance the accuracy of AI-generated responses through RAG systems."
-                    ],
-                    "justification": "While not extensive, RAG systems inherently involve data retrieval and processing, which touches upon data engineering principles for effective knowledge integration."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech": "TECH4: LLM Frameworks & Libraries",
+                    "category": "TASK3",
+                    "justification": "The description explicitly mentions 'model fine-tuning', 'PEFT techniques such as LoRA and QLoRA', 'design, develop, and deploy brand new AI/ML models and algorithms', 'Optimize transformer-based architectures', and 'Fine-tune open-source and closed-source models'. These are all core activities related to creating and adapting models.",
                     "phrase": "PEFT techniques such as LoRA and QLoRA"
                 },
                 {
-                    "tech": "TECH4: LLM Frameworks & Libraries",
-                    "phrase": "transformer-based architectures"
+                    "category": "TASK3",
+                    "justification": "The description explicitly mentions 'model fine-tuning', 'PEFT techniques such as LoRA and QLoRA', 'design, develop, and deploy brand new AI/ML models and algorithms', 'Optimize transformer-based architectures', and 'Fine-tune open-source and closed-source models'. These are all core activities related to creating and adapting models.",
+                    "phrase": "design, develop, and deploy brand new AI/ML models and algorithms"
                 },
                 {
-                    "tech": "TECH3: LLM / Generative Models",
-                    "phrase": "large language models"
+                    "category": "TASK3",
+                    "justification": "The description explicitly mentions 'model fine-tuning', 'PEFT techniques such as LoRA and QLoRA', 'design, develop, and deploy brand new AI/ML models and algorithms', 'Optimize transformer-based architectures', and 'Fine-tune open-source and closed-source models'. These are all core activities related to creating and adapting models.",
+                    "phrase": "Optimize transformer-based architectures"
                 },
                 {
-                    "tech": "TECH4: LLM Frameworks & Libraries",
-                    "phrase": "Retrieval-Augmented Generation (RAG)"
+                    "category": "TASK3",
+                    "justification": "The description explicitly mentions 'model fine-tuning', 'PEFT techniques such as LoRA and QLoRA', 'design, develop, and deploy brand new AI/ML models and algorithms', 'Optimize transformer-based architectures', and 'Fine-tune open-source and closed-source models'. These are all core activities related to creating and adapting models.",
+                    "phrase": "Fine-tune open-source and closed-source models"
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "The role involves leading the development and implementation of a 'Tech Copilot chatbot', integrating AI solutions into 'existing products and workflows', and enhancing 'product functionality', which points to building and deploying software applications that incorporate AI.",
+                    "phrase": "Lead the development and implementation of our Tech Copilot chatbot"
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "The role involves leading the development and implementation of a 'Tech Copilot chatbot', integrating AI solutions into 'existing products and workflows', and enhancing 'product functionality', which points to building and deploying software applications that incorporate AI.",
+                    "phrase": "integrate AI solutions into existing products and workflows"
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "The role involves leading the development and implementation of a 'Tech Copilot chatbot', integrating AI solutions into 'existing products and workflows', and enhancing 'product functionality', which points to building and deploying software applications that incorporate AI.",
+                    "phrase": "enhance product functionality"
+                },
+                {
+                    "category": "TASK5",
+                    "justification": "The description mentions 'implementation of MLOps practices' and 'develop and refine evaluation metrics and processes for continuous improvement of AI models and systems', which are key components of Operations Engineering for AI/ML systems.",
+                    "phrase": "implementation of MLOps practices"
+                },
+                {
+                    "category": "TASK5",
+                    "justification": "The description mentions 'implementation of MLOps practices' and 'develop and refine evaluation metrics and processes for continuous improvement of AI models and systems', which are key components of Operations Engineering for AI/ML systems.",
+                    "phrase": "develop and refine evaluation metrics and processes for continuous improvement of AI models and systems"
+                },
+                {
+                    "category": "TASK1",
+                    "justification": "The phrase 'Contribute to the development of AI strategies and roadmaps for future initiatives across various business units' indicates an understanding of business goals and strategic planning for AI.",
+                    "phrase": "Contribute to the development of AI strategies and roadmaps for future initiatives across various business units"
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "The phrase 'prompt engineering' is a core task in developing generative AI applications, often involving the design of inputs to elicit desired outputs from models, which is part of the software development lifecycle for GenAI.",
+                    "phrase": "prompt engineering"
+                },
+                {
+                    "category": "TASK3",
+                    "justification": "The phrase 'Retrieval-Augmented Generation (RAG) optimization' is a specific modeling technique used in generative AI to improve the relevance and accuracy of model outputs by integrating external knowledge retrieval.",
+                    "phrase": "Retrieval-Augmented Generation (RAG) optimization"
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "The phrase 'enhance the accuracy of AI-generated responses through RAG systems' implies building and refining the systems that deliver these responses, which falls under software development.",
+                    "phrase": "enhance the accuracy of AI-generated responses through RAG systems"
+                },
+                {
+                    "category": "SKILL2",
+                    "justification": "The phrase 'Stay abreast of the latest advancements in AI/ML, particularly in areas such as natural language processing and large language models' highlights the need for continuous learning and adaptation in a rapidly evolving field.",
+                    "phrase": "Stay abreast of the latest advancements in AI/ML, particularly in areas such as natural language processing and large language models"
+                },
+                {
+                    "category": "SKILL1",
+                    "justification": "The phrase 'Collaborate with cross-functional teams, including data scientists, software engineers, and subject matter experts' indicates the need for effective teamwork and communication across different disciplines.",
+                    "phrase": "Collaborate with cross-functional teams, including data scientists, software engineers, and subject matter experts"
+                },
+                {
+                    "category": "SKILL4",
+                    "justification": "The phrase 'Align AI systems with data privacy regulations and implement standard methodologies for responsible AI development' points to an awareness of ethical and legal considerations in AI development.",
+                    "phrase": "Align AI systems with data privacy regulations and implement standard methodologies for responsible AI development"
+                },
+                {
+                    "category": "SKILL1",
+                    "justification": "The phrase 'Present complex AI concepts and project progress to a wide range of collaborators through presentations and reports' demonstrates the need for clear communication of technical information to diverse audiences.",
+                    "phrase": "Present complex AI concepts and project progress to a wide range of collaborators through presentations and reports"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
+                    "category": "SKILL1",
                     "phrase": "Collaborate with cross-functional teams, including data scientists, software engineers, and subject matter experts"
                 },
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrase": "Present complex AI concepts and project progress to a wide range of collaborators through presentations and reports."
+                    "category": "SKILL2",
+                    "phrase": "Stay abreast of the latest advancements in AI/ML, particularly in areas such as natural language processing and large language models"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "phrase": "Stay abreast of the latest advancements in AI/ML, particularly in areas such as natural language processing and large language models."
+                    "category": "SKILL4",
+                    "phrase": "Align AI systems with data privacy regulations and implement standard methodologies for responsible AI development"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "Optimize transformer-based architectures and enhance the accuracy of AI-generated responses"
+                    "category": "SKILL1",
+                    "phrase": "Present complex AI concepts and project progress to a wide range of collaborators through presentations and reports"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "Tech Copilot chatbot"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrase": "Lead the development and implementation of our Tech Copilot chatbot"
+                    "category": "TECH3",
+                    "phrase": "transformer-based architectures"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrase": "Contribute to the development of AI strategies and roadmaps for future initiatives"
+                    "category": "TECH4",
+                    "phrase": "LoRA"
                 },
                 {
-                    "skill": "SKILL4: Ethical & Legal Responsibility",
-                    "phrase": "Align AI systems with data privacy regulations and implement standard methodologies for responsible AI development."
+                    "category": "TECH4",
+                    "phrase": "QLoRA"
+                },
+                {
+                    "category": "TECH4",
+                    "phrase": "Retrieval-Augmented Generation (RAG)"
                 }
             ]
         }

@@ -27,80 +27,54 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on business intelligence, data visualization, and client consultation using tools like Tableau and Alteryx. While it mentions using AI to accelerate delivery, it does not describe core AI development, modeling, or deployment tasks characteristic of an ML or GenAI Engineer."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on Business Intelligence, data visualization using Tableau, and data pipeline development with Alteryx. While it mentions using AI to accelerate delivery, it does not describe core AI engineering tasks like model development, fine-tuning, or building generative AI applications. The primary focus is on BI and data visualization, making it a non-technical AI role or a traditional BI role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "Client Consultation: Engaging with clients to define requirements, provide recommendations, and ensure that our solutions meet their business needs",
-                            "justification": "This phrase directly describes understanding client needs, providing recommendations, and aligning solutions with business objectives, which are core aspects of business understanding."
-                        },
-                        {
-                            "phrase": "Use AI to accelerate the delivery of business intelligence solutions and significantly improve client satisfaction",
-                            "justification": "This indicates a focus on leveraging AI to meet business goals (accelerated delivery, improved satisfaction) rather than developing AI itself."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Engaging with clients to define requirements, provide recommendations, and ensure that our solutions meet their business needs' directly reflects understanding business context and translating needs.",
+                    "phrase": "Engaging with clients to define requirements, provide recommendations, and ensure that our solutions meet their business needs"
                 },
                 {
-                    "task_category": "TASK2: Data Engineering",
-                    "phrases": [
-                        {
-                            "phrase": "Data Pipeline Development: Building and enhancing data workflows using Alteryx",
-                            "justification": "This phrase explicitly mentions building and enhancing data pipelines and workflows, which falls under data engineering."
-                        }
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Building and enhancing data workflows using Alteryx' describes the process of creating and improving data pipelines.",
+                    "phrase": "Building and enhancing data workflows using Alteryx"
                 },
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": []
+                    "category": "TASK4: Software Development",
+                    "justification": "While not traditional software development, 'Producing Tableau dashboards and other data visualization outputs for clients' involves creating and delivering a product (dashboards) to clients, which aligns with a development output.",
+                    "phrase": "Producing Tableau dashboards and other data visualization outputs for clients"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": []
-                },
-                {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": []
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Tableau",
-                    "category": "TECH7: Data Visualization"
-                },
-                {
-                    "technology": "Alteryx",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "technology": "AI",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Use AI to accelerate the delivery of business intelligence solutions and significantly improve client satisfaction' indicates an understanding of how AI can impact business outcomes and client satisfaction.",
+                    "phrase": "Use AI to accelerate the delivery of business intelligence solutions and significantly improve client satisfaction"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        {
-                            "phrase": "Client Consultation: Engaging with clients to define requirements, provide recommendations, and ensure that our solutions meet their business needs"
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Client Consultation"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        {
-                            "phrase": "ensure that our solutions meet their business needs"
-                        },
-                        {
-                            "phrase": "Use AI to accelerate the delivery of business intelligence solutions"
-                        }
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "provide recommendations"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "accelerate the delivery"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Tableau"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Alteryx"
                 }
             ]
         }

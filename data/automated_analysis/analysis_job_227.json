@@ -28,90 +28,96 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description emphasizes building and implementing AI solutions including LLM and RAG, which are core to GenAI. While it mentions traditional ML tasks, the focus on generative models and integrating them into applications aligns strongly with the GenAI Engineer profile."
+            "rationale": "The job description emphasizes building and implementing AI solutions including LLM/RAG, developing model training scripts and data pipelines, and applying various forms of Machine Learning such as image recognition, NLP, speech recognition, and speech generation. It also mentions using frameworks like TensorFlow and PyTorch, and mobile AI frameworks. The core responsibilities align with developing and deploying generative AI applications and integrating them into existing systems, which is characteristic of a GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "Bouwen, implementeren en verbeteren van AI standaard oplossions ML/Deep learning/LLM/RAG oplossingen",
-                        "Het kunnen toepassen van verschillende vormen van Machine Learning in de contexten van beeldherkenning, Natural Language Processing, Spraakherkenning, Spraakgeneratie en Recommending Systems"
-                    ],
-                    "justification": "These phrases directly refer to building, implementing, and applying various types of machine learning models, including deep learning, LLMs, RAG, and specific AI applications like image recognition, NLP, speech, and recommendation systems."
+                    "category": "TASK3",
+                    "justification": "The phrase 'Bouwen, implementeren en verbeteren van AI standaard oplossingen ML/Deep learning/LLM/RAG oplossingen in nieuwe en bestaande applicaties' directly refers to building, implementing, and improving AI solutions, including specific generative AI techniques like LLM and RAG, which falls under model development and adaptation.",
+                    "phrase": "Bouwen, implementeren en verbeteren van AI standaard oplossingen ML/Deep learning/LLM/RAG oplossingen in nieuwe en bestaande applicaties"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "in nieuwe en bestaande applicaties (app, webservices, etc.)",
-                        "het inbouwen hiervan in bestaande applicaties"
-                    ],
-                    "justification": "These phrases indicate the need to integrate AI solutions into user-facing applications and services, which is a key aspect of software development in this context."
+                    "category": "TASK3",
+                    "justification": "The phrase 'Bouwen van model trainings scripts' indicates the creation of scripts for training models, a core activity in the modeling process.",
+                    "phrase": "Bouwen van model trainings scripts"
                 },
                 {
-                    "task_category": "TASK2: Data Engineering",
-                    "phrases": [
-                        "Bouwen van model trainings scripts en data pipelines",
-                        "Verzamelen, opschonen en evalueren van data en verbindingen maken met data bronnen",
-                        "Het kunnen verzamelen, opschonen en evalueren van data en verbindingen maken met data bronnen"
-                    ],
-                    "justification": "These phrases describe the essential steps of data handling, including building pipelines, collecting, cleaning, and evaluating data, which are fundamental to data engineering."
+                    "category": "TASK2",
+                    "justification": "The phrase 'bouwen van... data pipelines' explicitly mentions the construction of data pipelines, which is a key aspect of data engineering.",
+                    "phrase": "bouwen van... data pipelines"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Bouwen van model trainings scripts"
-                    ],
-                    "justification": "Building model training scripts is a component of operationalizing ML models, bridging development and deployment."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology_category": "TECH3: LLM / Generative Models",
-                    "technologies": [
-                        "LLM",
-                        "RAG"
-                    ]
+                    "category": "TASK2",
+                    "justification": "The phrase 'Verzamelen, opschonen en evalueren van data en verbindingen maken met data bronnen' describes the essential steps of data collection, cleaning, evaluation, and establishing data source connections, all fundamental to data engineering.",
+                    "phrase": "Verzamelen, opschonen en evalueren van data en verbindingen maken met data bronnen"
                 },
                 {
-                    "technology_category": "TECH10: Data Modeling",
-                    "technologies": [
-                        "TensorFlow",
-                        "Pytorch"
-                    ]
+                    "category": "TASK3",
+                    "justification": "The phrase 'Het kunnen toepassen van verschillende vormen van Machine Learning in de contexten van beeldherkenning, Natural Language Processing, Spraakherkenning, Spraakgeneratie en Recommending Systems' describes the application of various ML techniques, including generative ones like speech generation, which is central to modeling.",
+                    "phrase": "Het kunnen toepassen van verschillende vormen van Machine Learning in de contexten van beeldherkenning, Natural Language Processing, Spraakherkenning, Spraakgeneratie en Recommending Systems"
                 },
                 {
-                    "technology_category": "TECH1: Programming Languages",
-                    "technologies": [
-                        "Python 3"
-                    ]
+                    "category": "TASK4",
+                    "justification": "The phrase 'en het inbouwen hiervan in bestaande applicaties' refers to integrating ML models into applications, which is a software development task.",
+                    "phrase": "het inbouwen hiervan in bestaande applicaties"
                 },
                 {
-                    "technology_category": "TECH4: LLM Frameworks & Libraries",
-                    "technologies": [
-                        "CreateML"
-                    ]
+                    "category": "TASK4",
+                    "justification": "The mention of 'nieuwe en bestaande applicaties (app, webservices, etc.)' implies the development or modification of software applications to incorporate AI solutions.",
+                    "phrase": "nieuwe en bestaande applicaties (app, webservices, etc.)"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "skills": [
-                        "implementeren en verbeteren van AI standaard oplossingen",
-                        "Het kunnen toepassen van verschillende vormen van Machine Learning",
-                        "Het gebruiken van actuele frameworks",
-                        "Het gebruiken van diverse mobiele AI frameworks"
-                    ],
-                    "justification": "The phrases indicate a need to apply and integrate various ML techniques and frameworks to solve problems within applications."
+                    "category": "SKILL2",
+                    "phrase": "actuele frameworks"
                 },
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "skills": [
-                        "nieuwe en bestaande applicaties",
-                        "nieuwe en andere vormen van ML"
-                    ],
-                    "justification": "The mention of working with 'new and existing applications' and 'new and other forms of ML' suggests a need to adapt to evolving technologies and integrate them."
+                    "category": "SKILL2",
+                    "phrase": "diverse mobiele AI frameworks"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH10",
+                    "phrase": "TensorFlow"
+                },
+                {
+                    "category": "TECH10",
+                    "phrase": "Pytorch"
+                },
+                {
+                    "category": "TECH1",
+                    "phrase": "Python 3"
+                },
+                {
+                    "category": "TECH4",
+                    "phrase": "mobiele AI frameworks"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "LLM"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "RAG"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "beeldherkenning"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "Natural Language Processing"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "Spraakherkenning"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "Spraakgeneratie"
                 }
             ]
         }

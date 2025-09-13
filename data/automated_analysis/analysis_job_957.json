@@ -27,44 +27,42 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on providing feedback and evaluating AI-generated code rather than developing, fine-tuning, or deploying AI models. While it involves interaction with AI models, it lacks the core engineering tasks associated with ML or GenAI roles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on training and evaluating AI models by providing feedback and answering questions related to computer science, rather than designing, developing, fine-tuning, or deploying AI models. It explicitly states 'no prior experience with AI required' and emphasizes the use of AI tools for training, which aligns with the 'Ambiguous' profile's definition of primarily focusing on the use of AI tools to enhance productivity or tasks related to AI training rather than core AI development."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK3: Modeling",
-                    "phrase": "helpen bij het trainen van generatieve AI-modellen",
-                    "justification": "This phrase directly indicates involvement in the training process of generative AI models, which falls under the 'Modeling' category."
+                    "category": "TASK3",
+                    "justification": "The phrase 'trainen van generatieve AI-modellen' and 'helpen AI-modellen te trainen' directly relates to the process of creating or adapting machine learning models.",
+                    "phrase": "trainen van generatieve AI-modellen"
                 },
                 {
-                    "task_name": "TASK3: Modeling",
-                    "phrase": "interactie vereisen met deze modellen terwijl ze leren coderen",
-                    "justification": "Describes interaction with models during their learning process, which is part of the modeling and training lifecycle."
+                    "category": "TASK3",
+                    "justification": "The phrase 'evalueren en rangschikken van code die door AI-modellen wordt gegenereerd' involves assessing and categorizing outputs from AI models, which is part of the model development and refinement process.",
+                    "phrase": "evalueren en rangschikken van code die door AI-modellen wordt gegenereerd"
                 },
                 {
-                    "task_name": "TASK3: Modeling",
-                    "phrase": "Het maken en beantwoorden van vragen met betrekking tot informatica om AI-modellen te helpen trainen",
-                    "justification": "Creating and answering computer science questions to aid AI model training is a form of data generation or feedback for model training, fitting within the broader scope of 'Modeling'."
-                },
-                {
-                    "task_name": "TASK3: Modeling",
-                    "phrase": "Het evalueren en rangschikken van code die door AI-modellen wordt gegenereerd",
-                    "justification": "Evaluating and ranking AI-generated code is a form of model evaluation and feedback, which is a crucial part of the model training and refinement process."
+                    "category": "TASK1",
+                    "justification": "The phrase 'vragen met betrekking tot informatica om AI-modellen te helpen trainen' implies understanding computer science concepts to guide AI model training, which bridges business/domain understanding with technical tasks.",
+                    "phrase": "vragen met betrekking tot informatica om AI-modellen te helpen trainen"
                 }
             ],
-            "technologies": [],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrase": "Er is geen eerdere ervaring met AI vereist."
+                    "category": "SKILL2",
+                    "phrase": "geen eerdere ervaring met AI vereist"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrase": "Deze freelance-opdracht kan volledig op afstand worden uitgevoerd en biedt flexibele werkuren, zodat je kunt werken wanneer het jou het beste uitkomt."
+                    "category": "SKILL5",
+                    "phrase": "freelance-opdracht"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "flexibele werkuren"
                 }
-            ]
+            ],
+            "technologies": []
         }
     }
 }

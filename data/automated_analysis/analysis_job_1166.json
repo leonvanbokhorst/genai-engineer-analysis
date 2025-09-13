@@ -27,101 +27,73 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description heavily emphasizes Unity game development and traditional software engineering principles, with only a tangential mention of AI integration. It lacks the core responsibilities and technologies associated with ML or GenAI engineering roles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on Unity game development and traditional software engineering principles, with no specific mention of AI/ML modeling, generative AI techniques, or MLOps. While it mentions 'integrating AI', it lacks details on how AI is used beyond a general concept, and the core responsibilities and technologies point towards a traditional game development role rather than an AI-focused engineering position."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "implementing interactive games that integrate AI and real-time data processing",
-                        "Writing high-performance, scalable, high-quality code that adheres to best practices in software engineering",
-                        "Implementing robust integrations with third-party APIs and cloud-based services",
-                        "Delivering high-quality, performant game systems that serve as the primary interface for students in our online learning environment",
-                        "Continuously improving and optimizing our codebase to meet evolving educational and technological needs"
-                    ],
-                    "justification": "These phrases describe the core activities of building, integrating, and maintaining software applications, specifically games in this context, which aligns with traditional software development."
+                    "category": "TASK4",
+                    "justification": "The description repeatedly emphasizes 'Unity game developer', 'implementing games', 'writing high-performance, scalable, high-quality code', 'software engineering', 'delivering solutions at the highest level of quality', 'robust, efficient, and maintainable code', and 'game development'.",
+                    "phrase": "Unity game developer"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "translate complex educational concepts into elegant technical solutions",
-                        "creating cutting-edge educational experiences",
-                        "revolutionizing education through cutting-edge game development"
-                    ],
-                    "justification": "These phrases indicate the need to understand the educational domain and translate those needs into technical implementations, demonstrating an understanding of the business context."
+                    "category": "TASK4",
+                    "justification": "The role involves 'implementing interactive games' and 'delivering high-quality, performant game systems'.",
+                    "phrase": "Implementing interactive games"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "real-time data processing",
-                        "scalable, high-quality code",
-                        "robust integrations with third-party APIs and cloud-based services",
-                        "scalability, maintainability, and performance"
-                    ],
-                    "justification": "While not explicitly MLOps, the emphasis on real-time processing, scalability, maintainability, and performance of deployed systems touches upon operational concerns for software systems."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "Unity",
-                    "category": "TECH10"
+                    "category": "TASK4",
+                    "justification": "The description states 'Writing high-performance, scalable, high-quality code that adheres to best practices in software engineering'.",
+                    "phrase": "Writing high-performance, scalable, high-quality code"
                 },
                 {
-                    "tech_name": "AI",
-                    "category": "TECH3"
+                    "category": "TASK1",
+                    "justification": "The role requires 'Collaborating with cross-functional teams to translate complex educational concepts into elegant technical solutions'.",
+                    "phrase": "Collaborating with cross-functional teams to translate complex educational concepts into elegant technical solutions"
                 },
                 {
-                    "tech_name": "APIs",
-                    "category": "TECH4"
+                    "category": "TASK4",
+                    "justification": "The description mentions 'Implementing robust integrations with third-party APIs and cloud-based services'.",
+                    "phrase": "Implementing robust integrations with third-party APIs and cloud-based services"
                 },
                 {
-                    "tech_name": "cloud-based services",
-                    "category": "TECH2"
+                    "category": "TASK4",
+                    "justification": "The role involves 'Continuously improving and optimizing our codebase to meet evolving educational and technological needs'.",
+                    "phrase": "Continuously improving and optimizing our codebase"
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "The phrase 'engineering excellence' is used multiple times to describe the required skill level and focus of the role.",
+                    "phrase": "engineering excellence"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        "Collaborating with cross-functional teams",
-                        "you will collaborate closely with a supportive product and backend team"
-                    ],
-                    "justification": "Explicit mentions of collaboration with teams highlight this skill."
+                    "category": "SKILL1",
+                    "phrase": "Collaborating with cross-functional teams"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "implement games that push the boundaries of educational technology",
-                        "building robust, scalable solutions",
-                        "engineers who can deliver solutions at the highest level of quality",
-                        "Writing high-performance, scalable, high-quality code that adheres to best practices in software engineering",
-                        "translate complex educational concepts into elegant technical solutions",
-                        "Continuously improving and optimizing our codebase"
-                    ],
-                    "justification": "The job description emphasizes delivering high-quality, robust, and scalable solutions, requiring problem-solving and a pragmatic approach to engineering."
+                    "category": "SKILL5",
+                    "phrase": "engineering autonomy"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        "engineering excellence",
-                        "technical innovation is not just encouraged but required",
-                        "engineering prowess",
-                        "engineering autonomy",
-                        "priority is engineering excellence",
-                        "rigorous engineering standards"
-                    ],
-                    "justification": "The repeated emphasis on 'engineering excellence', 'innovation', and 'autonomy' points to a need for individuals who take ownership and drive innovation."
+                    "category": "SKILL3",
+                    "phrase": "engineering prowess"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        "work with cutting-edge technologies in education and game development",
-                        "meet evolving educational and technological needs"
-                    ],
-                    "justification": "The mention of 'cutting-edge technologies' and evolving needs implies a requirement for continuous learning and adaptation."
+                    "category": "SKILL2",
+                    "phrase": "passion for engineering excellence"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "technical innovation is not just encouraged but required"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1",
+                    "phrase": "Unity"
                 }
             ]
         }

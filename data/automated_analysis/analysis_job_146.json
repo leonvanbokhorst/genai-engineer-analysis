@@ -26,100 +26,93 @@
         "full_text": "Apache CloudStack (Java/Python) developer\n\nAs an Apache CloudStack developer at CLouDINfra you help build the infrastructure behind the many hundreds of thousands of websites hosted within Total Webhosting Solutions.\n\n   Apache CloudStack is a cloud orchestrator that we use within CLDIN to deploy and run our tens of thousands of virtual machines.\n\n   You contribute to this Open Source project on a daily basis, where you become part of the community.\n\n   For CLDIN, you improve CloudStack by fixing bugs, adding features, but also supporting the operational engineering team with your knowledge of the code when using CloudStack.\n\n   Terms such as Gitlab, Ubuntu, KVM, Java, Maven, JNA and JSVC are not unknown to you or you are willing to invest in this knowledge.\n\n   Ultimately, you help ensure that the hundreds of thousands of Yourhosting, Versio and Savvii websites are online 24/7!\n\n   We are looking for an enthusiastic and flexible software developer who enjoys building Open Source software that is used within a company.\n\n   You find it a challenge to find out where mistakes are and don't mind having to dive deep until a problem is solved."
     },
     "analysis": {
-        "job_profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on traditional software development for cloud infrastructure orchestration (Apache CloudStack) using Java and Python. It lacks any mention of machine learning, generative AI, or related technologies, making it not relevant to the ML Engineer or GenAI Engineer profiles."
+        "profile_classification": {
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on developing and maintaining the Apache CloudStack orchestrator, which is a cloud infrastructure tool. While it involves software development and operational support, it does not align with the core responsibilities or technologies of an ML Engineer or GenAI Engineer as defined in the coding book. The role is primarily traditional software engineering within an infrastructure context, making it fall under the 'Ambiguous' category due to its lack of focus on AI/ML model development or deployment."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "Apache CloudStack (Java/Python) developer",
-                        "help build the infrastructure",
-                        "fix bugs, adding features",
-                        "supporting the operational engineering team with your knowledge of the code",
-                        "flexible software developer who enjoys building Open Source software"
-                    ],
-                    "justification": "These phrases indicate core software development activities, including building infrastructure, fixing bugs, adding features, and supporting operational teams with code knowledge, all within the context of a specific software project (CloudStack)."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description explicitly mentions 'software developer', 'fixing bugs', and 'adding features' to the Apache CloudStack project, which are core software development activities.",
+                    "phrase": "software developer"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "supporting the operational engineering team with your knowledge of the code when using CloudStack",
-                        "ensure that the hundreds of thousands of Yourhosting, Versio and Savvii websites are online 24/7"
-                    ],
-                    "justification": "While not strictly MLOps, the role involves supporting operational teams and ensuring system uptime (24/7 online), which aligns with the broader concept of operations engineering and maintaining production systems."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves contributing to an open-source project by fixing bugs and adding new functionalities.",
+                    "phrase": "fixing bugs, adding features"
                 },
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "help build the infrastructure behind the many hundreds of thousands of websites hosted within Total Webhosting Solutions",
-                        "ensure that the hundreds of thousands of Yourhosting, Versio and Savvii websites are online 24/7"
-                    ],
-                    "justification": "The role is directly tied to supporting a large number of websites and understanding the business impact of the infrastructure being built and maintained."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Apache CloudStack",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The role requires supporting the operational engineering team with knowledge of the code when using CloudStack, indicating involvement in the operational aspects of the system.",
+                    "phrase": "supporting the operational engineering team with your knowledge of the code"
                 },
                 {
-                    "technology": "Java",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK3: Modeling",
+                    "justification": "While not directly AI/ML modeling, the role involves working with a 'cloud orchestrator' which manages virtual machines, implying a level of system configuration and management that could be broadly interpreted as modeling infrastructure, though it's not the primary focus.",
+                    "phrase": "cloud orchestrator"
                 },
                 {
-                    "technology": "Python",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role's contribution directly impacts the hosting of hundreds of thousands of websites, indicating an understanding of the business's core operations and the importance of system uptime.",
+                    "phrase": "help build the infrastructure behind the many hundreds of thousands of websites hosted within Total Webhosting Solutions"
                 },
                 {
-                    "technology": "Gitlab",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "technology": "Ubuntu",
-                    "category": "TECH2: Cloud Platforms & Services"
-                },
-                {
-                    "technology": "KVM",
-                    "category": "TECH2: Cloud Platforms & Services"
-                },
-                {
-                    "technology": "Maven",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "technology": "JNA",
-                    "category": "TECH10: Data Modeling"
-                },
-                {
-                    "technology": "JSVC",
-                    "category": "TECH10: Data Modeling"
+                    "category": "TASK3: Modeling",
+                    "justification": "The description mentions deploying and running virtual machines, which involves configuring and managing resources, a form of system modeling.",
+                    "phrase": "deploy and run our tens of thousands of virtual machines"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "You find it a challenge to find out where mistakes are and don't mind having to dive deep until a problem is solved."
-                    ],
-                    "justification": "This phrase directly describes a deep-diving, problem-solving approach to debugging and resolving issues."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "find out where mistakes are and don't mind having to dive deep until a problem is solved"
                 },
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "you are willing to invest in this knowledge"
-                    ],
-                    "justification": "This indicates a willingness to learn new technologies and adapt to the required knowledge base."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "willing to invest in this knowledge"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "enjoys building Open Source software that is used within a company"
-                    ],
-                    "justification": "This suggests a proactive and engaged approach to building software that has a tangible impact."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "enjoys building Open Source software"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "become part of the community"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Java"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Gitlab"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Ubuntu"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "KVM"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Maven"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "JNA"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "JSVC"
                 }
             ]
         }

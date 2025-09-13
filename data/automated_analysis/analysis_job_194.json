@@ -27,152 +27,88 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 1,
-            "rationale": "The job description focuses on business analysis, functional testing, and test automation within a payment processing context. It lacks any mention of AI, machine learning, generative models, or related engineering tasks, making it irrelevant to the GenAI Engineer profile."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on business analysis and test automation for payment processing systems. While it mentions improving processes and ensuring application continuity, it does not involve the core responsibilities or technologies associated with ML Engineering or GenAI Engineering, such as algorithm development, predictive modeling, fine-tuning LLMs, or building generative AI applications. The role is primarily centered around functional testing, test automation, and operational support of existing systems, which falls outside the scope of the defined AI engineering profiles."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "improving cross-border payments and processes",
-                            "justification": "This phrase indicates an understanding of the business domain (payments) and the goal of improving existing processes, which aligns with understanding business context."
-                        },
-                        {
-                            "phrase": "The Tribe Account & Payment Factory is responsible for Payment and Current Account processing and related services.",
-                            "justification": "This describes the business unit's function and responsibilities, demonstrating an understanding of the business context."
-                        },
-                        {
-                            "phrase": "renewing the payment factory, simplifying our payment landscape, decommissioning legacy systems, and migrating to the new tech stack.",
-                            "justification": "These are strategic business initiatives related to the payment systems, requiring business understanding to align technical work."
-                        },
-                        {
-                            "phrase": "ensure that our services are always available",
-                            "justification": "This highlights a key business requirement for service continuity and availability."
-                        },
-                        {
-                            "phrase": "aligns with the goals of the bank and the team",
-                            "justification": "Explicitly states the need to connect technical activities (Test Strategy) with business objectives."
-                        },
-                        {
-                            "phrase": "Create Product Backlog Items and deliver input for the Product Owner and Tech Lead.",
-                            "justification": "Involves translating requirements and needs into actionable items for development, requiring business understanding."
-                        },
-                        {
-                            "phrase": "Provide operational requirements, safeguard operability, maintainability, robustness, and performance.",
-                            "justification": "Focuses on non-functional requirements that directly impact the business's ability to use and rely on the system."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires understanding cross-border payments and processes, aligning test strategies with bank goals, and creating Product Backlog Items, indicating a need to understand business context and translate it into technical requirements.",
+                    "phrase": "improving cross-border payments and processes"
                 },
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [],
-                    "justification": "No specific tasks related to designing, building, or maintaining data pipelines or infrastructure were found."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves understanding the business needs for the payment factory and its services.",
+                    "phrase": "Payment and Current Account processing and related services"
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrases": [],
-                    "justification": "The job description does not mention any activities related to creating, training, or adapting machine learning or generative models."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires understanding the business context of transaction processing and its importance for the bank.",
+                    "phrase": "delivering fast, reliable, and efficient transaction processing 24/7"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "test automation",
-                            "justification": "While not traditional application development, setting up and maintaining test automation frameworks involves writing and managing code for testing purposes."
-                        },
-                        {
-                            "phrase": "setting up and maintaining a testing framework",
-                            "justification": "This involves developing and managing the infrastructure and tools for testing, which can include scripting and software components."
-                        },
-                        {
-                            "phrase": "maintain test tooling, testing environments, and test sets",
-                            "justification": "This involves managing and potentially developing aspects of the software used for testing."
-                        },
-                        {
-                            "phrase": "analyzing logging, making queries, etc.",
-                            "justification": "This implies interacting with system logs and databases, which can involve writing queries and potentially scripting for analysis."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires understanding the business goals of the bank and how testing contributes to them.",
+                    "phrase": "aligns with the goals of the bank"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        {
-                            "phrase": "Application Monitoring",
-                            "justification": "Involves overseeing the performance and availability of a critical application in production."
-                        },
-                        {
-                            "phrase": "Continuity of a critical application in the payment landscape.",
-                            "justification": "Focuses on ensuring the operational stability and availability of a production system."
-                        },
-                        {
-                            "phrase": "Monitor the application and analyze & solve production issues",
-                            "justification": "Directly relates to monitoring and troubleshooting live production systems."
-                        },
-                        {
-                            "phrase": "safeguard operability, maintainability, robustness, and performance.",
-                            "justification": "These are operational concerns focused on the health and performance of the system in production."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "rule-based payment engine",
-                    "category": "TECH10: Data Modeling"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves understanding the operational requirements from a business perspective.",
+                    "phrase": "Provide operational requirements"
                 },
                 {
-                    "tech_name": "vendor-bought application",
-                    "category": "TECH10: Data Modeling"
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves setting up and maintaining a testing framework, which includes aspects of software development for testing purposes.",
+                    "phrase": "setting up and maintaining a testing framework"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves maintaining test tooling, which can be considered a form of software development or configuration.",
+                    "phrase": "maintain test tooling"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The role involves ensuring the continuity of a critical application, monitoring it, and analyzing/solving production issues, which aligns with operational support and maintenance.",
+                    "phrase": "Continuity of a critical application in the payment landscape. Monitor the application and analyze & solve production issues"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The role involves analyzing logs and making queries to troubleshoot production issues, which is part of operational monitoring and analysis.",
+                    "phrase": "analyzing logging, making queries"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The role requires safeguarding operability and maintainability of the application in production.",
+                    "phrase": "safeguard operability, maintainability, robustness, and performance"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        {
-                            "phrase": "aligning/executing tests with other parties in the critical product chain."
-                        },
-                        {
-                            "phrase": "deliver input for the Product Owner and Tech Lead."
-                        },
-                        {
-                            "phrase": "ad hoc requests from colleagues, business, and other applications in the chain"
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "aligning/executing tests with other parties in the critical product chain"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        {
-                            "phrase": "migrating to the new tech stack."
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "ad hoc requests from colleagues, business, and other applications in the chain"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        {
-                            "phrase": "analyze & solve production issues"
-                        },
-                        {
-                            "phrase": "making queries, etc."
-                        }
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "analyze & solve production issues"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        {
-                            "phrase": "strive to continuously improve cross-border payments and processes"
-                        },
-                        {
-                            "phrase": "As the Test Expert within our squad, you will ensure that the Test Strategy aligns with the goals of the bank and the team."
-                        }
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "analyzing logging, making queries"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "strive to continuously improve cross-border payments and processes"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "test automation"
                 }
             ]
         }

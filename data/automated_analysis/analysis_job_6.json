@@ -28,182 +28,144 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 5,
-            "rationale": "The job description heavily emphasizes working with Large Language Models (LLMs), fine-tuning them for multi-modal tasks, and building production-ready systems around them. This aligns directly with the core responsibilities and evidence profile of a GenAI Engineer, particularly in areas like RAG, PEFT, and developing user-facing applications powered by generative models."
+            "rationale": "The job description heavily emphasizes working with Large Language Models (LLMs) for text-to-video generation, fine-tuning LLMs with additional modalities, and developing systems like a 'virtual director' that uses LLMs to generate video and avatar performance. It also mentions building production-ready code, production pipelines, and full-stack development for user-facing applications, aligning directly with the core responsibilities and evidence profile of a GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK1: Business Understanding",
-                    "evidence": [
-                        {
-                            "phrase": "Our aim is to make video content creation available for all - not only to studio production!",
-                            "justification": "This phrase indicates an understanding of the market need and the business goal of democratizing video content creation."
-                        },
-                        {
-                            "phrase": "The findings within the NLP team are very important in driving the direction for other teams within the R&D.",
-                            "justification": "This highlights the strategic importance of the NLP team's work and its impact on the broader R&D direction, showing an understanding of how technical work aligns with organizational goals."
-                        }
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The description explicitly mentions 'train LLMs for text or multi-modal tasks', 'fine tuning LLMs', and 'predicting emotion signals from different architecture choices of the adapted LLM', which are core modeling activities.",
+                    "phrase": "train LLMs for text or multi-modal tasks"
                 },
                 {
-                    "task": "TASK2: Data Engineering",
-                    "evidence": [
-                        {
-                            "phrase": "Assist in finding and collecting appropriate data for the tasks.",
-                            "justification": "Directly relates to the collection of data, a fundamental step in data engineering."
-                        },
-                        {
-                            "phrase": "Make sure we have correct pipelines in place to ingest data from existing processed data, text, voice and video and adjust granularity.",
-                            "justification": "Describes the creation and maintenance of data pipelines for ingesting various data types."
-                        },
-                        {
-                            "phrase": "Analyse and pre-process data if necessary.",
-                            "justification": "Covers the analysis and preprocessing of data, which are key data engineering activities."
-                        }
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'fine tuning LLMs with additional modalities' directly refers to adapting generative models, a key aspect of TASK3.",
+                    "phrase": "fine tuning LLMs with additional modalities"
                 },
                 {
-                    "task": "TASK3: Modeling",
-                    "evidence": [
-                        {
-                            "phrase": "creating highly realistic, emotional and life-like synthetic humans through text-to-video.",
-                            "justification": "This describes the core generative modeling task of creating synthetic media."
-                        },
-                        {
-                            "phrase": "If you know and love LLMs, or have experience fine tuning LLMs with additional modalities - then we would love to talk to you.",
-                            "justification": "Explicitly mentions working with LLMs and fine-tuning them, which is a core modeling activity in GenAI."
-                        },
-                        {
-                            "phrase": "help train LLMs for text or multi-modal tasks that will help us create human-like avatars and effective powerful videos.",
-                            "justification": "Details the training of LLMs for specific generative tasks involving text and multiple modalities."
-                        },
-                        {
-                            "phrase": "Help define and run experimentation to facilitate predicting emotion signals from different architecture choices of the adapted LLM.",
-                            "justification": "Involves experimentation with LLM architectures and predicting signals, a modeling-related task."
-                        },
-                        {
-                            "phrase": "Take hypotheses, ideas or papers and create implementations of solutions on the back of these",
-                            "justification": "Relates to translating research into practical model implementations."
-                        },
-                        {
-                            "phrase": "Run experiments on the back of the created implementations that evaluate and verify hypotheses",
-                            "justification": "Describes the experimental validation of model implementations and hypotheses."
-                        }
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The task of 'predicting emotion signals from different architecture choices of the adapted LLM' involves model experimentation and evaluation, fitting within the modeling category.",
+                    "phrase": "predicting emotion signals from different architecture choices of the adapted LLM"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "evidence": [
-                        {
-                            "phrase": "You will be someone who loves to code and build working systems.",
-                            "justification": "General statement indicating a focus on coding and building functional systems."
-                        },
-                        {
-                            "phrase": "You are used to working in a fast-paced start-up environment.",
-                            "justification": "Implies the need for agile software development practices common in startups."
-                        },
-                        {
-                            "phrase": "You will have experience with the software development life cycle, from ideation through implementation, to testing and release.",
-                            "justification": "Directly refers to the full software development lifecycle."
-                        },
-                        {
-                            "phrase": "create high quality, production ready code",
-                            "justification": "Emphasizes the development of code suitable for production environments."
-                        },
-                        {
-                            "phrase": "Contribute to a high-quality codebase, develop tests where necessary, and participate in code reviews.",
-                            "justification": "Highlights standard software engineering practices like code quality, testing, and reviews."
-                        },
-                        {
-                            "phrase": "Help a team of research engineers, scientists and linguists to write clean and efficient code, and define best practices",
-                            "justification": "Involves contributing to code quality, efficiency, and establishing development best practices."
-                        },
-                        {
-                            "phrase": "Developing production quality software, our teams work \"full stack\" with the ability to deliver direct to product and impact the world.",
-                            "justification": "Indicates the development of production-grade software and a full-stack approach to delivery."
-                        }
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The instruction to 'Take hypotheses, ideas or papers and create implementations of solutions on the back of these' and then 'Run experiments on the back of the created implementations that evaluate and verify hypotheses' describes the iterative process of model development and validation.",
+                    "phrase": "Take hypotheses, ideas or papers and create implementations of solutions on the back of these"
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "evidence": [
-                        {
-                            "phrase": "take ownership of production pipelines.",
-                            "justification": "Directly refers to managing and owning production pipelines, a key MLOps responsibility."
-                        },
-                        {
-                            "phrase": "Make sure we have correct pipelines in place to ingest data from existing processed data, text, voice and video and adjust granularity.",
-                            "justification": "While also data engineering, ensuring these pipelines are correct and functional in a production context relates to MLOps."
-                        },
-                        {
-                            "phrase": "Help define and run experimentation to facilitate predicting emotion signals from different architecture choices of the adapted LLM.",
-                            "justification": "Running experiments, especially in the context of adapting LLMs, can involve setting up experimental infrastructure and pipelines."
-                        },
-                        {
-                            "phrase": "Contribute to a high-quality codebase, develop tests where necessary, and participate in code reviews.",
-                            "justification": "While software development, the emphasis on testing and code quality is foundational for robust production systems managed by MLOps."
-                        },
-                        {
-                            "phrase": "Developing production quality software, our teams work \"full stack\" with the ability to deliver direct to product and impact the world.",
-                            "justification": "The ability to deliver direct to product implies a focus on deployment and operational readiness, core to MLOps."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "tech": "TECH3: LLM / Generative Models",
-                    "evidence": [
-                        "LLMs",
-                        "text-to-video",
-                        "adapted LLM"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The role requires building 'working systems', 'high quality, production ready code', 'production quality software', and working 'full stack' with the ability to 'deliver direct to product', all of which are core software development activities.",
+                    "phrase": "build working systems"
                 },
                 {
-                    "tech": "TECH4: LLM Frameworks & Libraries",
-                    "evidence": [
-                        "LLMs"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The mention of 'software development life cycle, from ideation through implementation, to testing and release' directly maps to the definition of TASK4.",
+                    "phrase": "software development life cycle, from ideation through implementation, to testing and release"
                 },
                 {
-                    "tech": "TECH1: Programming Languages",
-                    "evidence": [
-                        "code"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "Contributing to a 'high-quality codebase, develop tests where necessary, and participate in code reviews' are standard software development practices.",
+                    "phrase": "Contribute to a high-quality codebase, develop tests where necessary, and participate in code reviews"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'write clean and efficient code' is a fundamental aspect of software development.",
+                    "phrase": "write clean and efficient code"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The description states 'Developing production quality software, our teams work \"full stack\" with the ability to deliver direct to product', which clearly falls under software development for user-facing applications.",
+                    "phrase": "Developing production quality software, our teams work \"full stack\" with the ability to deliver direct to product"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The responsibility to 'take ownership of production pipelines' and 'Make sure we have correct pipelines in place to ingest data' points to MLOps activities related to managing production workflows.",
+                    "phrase": "take ownership of production pipelines"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Ensuring 'correct pipelines in place to ingest data from existing processed data, text, voice and video and adjust granularity' is a data pipeline management task, fitting within MLOps.",
+                    "phrase": "Make sure we have correct pipelines in place to ingest data from existing processed data, text, voice and video and adjust granularity"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The tasks 'Assist in finding and collecting appropriate data for the tasks' and 'Analyse and pre-process data if necessary' are foundational data engineering activities.",
+                    "phrase": "Assist in finding and collecting appropriate data for the tasks"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "Analyzing and pre-processing data is a key part of preparing data for modeling, aligning with Data Engineering responsibilities.",
+                    "phrase": "Analyse and pre-process data if necessary"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The role involves 'collaborate with multiple research teams' and 'Help a team of research engineers, scientists and linguists', indicating strong collaboration needs.",
+                    "phrase": "collaborate with multiple research teams"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'Help a team of research engineers, scientists and linguists to write clean and efficient code, and define best practices' implies communication and guidance within a multidisciplinary team.",
+                    "phrase": "Help a team of research engineers, scientists and linguists to write clean and efficient code, and define best practices"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "justification": "The job description mentions 'passion for working on cutting edge problems' and the need to 'take hypotheses, ideas or papers and create implementations', suggesting a need for continuous learning and adaptation to new research.",
+                    "phrase": "passion for working on cutting edge problems"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "justification": "The role involves creating 'working systems' and developing 'production quality software', which requires a pragmatic approach to problem-solving to deliver functional solutions.",
+                    "phrase": "create highly realistic, emotional and life-like synthetic humans through text-to-video"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "justification": "The statement 'take ownership of production pipelines' directly reflects the need for initiative and responsibility.",
+                    "phrase": "take ownership of production pipelines"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "justification": "The phrase 'our teams work \"full stack\" with the ability to deliver direct to product and impact the world' suggests a proactive and ownership-driven approach to development.",
+                    "phrase": "deliver direct to product and impact the world"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "evidence": [
-                        "collaborate with multiple research teams",
-                        "Help a team of research engineers, scientists and linguists"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "collaborate with multiple research teams"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "evidence": [
-                        "passion for working on cutting edge problems",
-                        "If you know and love LLMs, or have experience fine tuning LLMs with additional modalities - then we would love to talk to you. We will also want to talk to you - if that's what you dream of doing."
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Help a team of research engineers, scientists and linguists"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "evidence": [
-                        "create highly realistic, emotional and life-like synthetic humans",
-                        "create a virtual director that will automatically generate the best video and best avatar performance based on the context of a user script.",
-                        "Take hypotheses, ideas or papers and create implementations of solutions on the back of these",
-                        "Run experiments on the back of the created implementations that evaluate and verify hypotheses"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "passion for working on cutting edge problems"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "evidence": [
-                        "take ownership of production pipelines.",
-                        "Our aim is to make video content creation available for all",
-                        "You will be someone who loves to code and build working systems."
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "build working systems"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "take ownership of production pipelines"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "deliver direct to product and impact the world"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLMs"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "text-to-video"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "fine tuning LLMs"
                 }
             ]
         }

@@ -28,96 +28,79 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The role heavily emphasizes LLM and NLP algorithm development, fine-tuning, and building applications around them, aligning with the core responsibilities of a GenAI Engineer. The mention of Django backend development and potential React frontend work further supports the profile's focus on productionizing generative models into user-facing systems."
+            "rationale": "The job description heavily emphasizes working with LLM and NLP algorithms, building Retrieval-Augmented Generation (RAG) systems (implied by 'transform how organizations understand and solve their internal challenges' with LLMs/NLP), and developing backend services (Django) to support these models. While it mentions 'algorithm models' and 'data-driven insights', the core focus is on generative AI applications and the software engineering required to deploy them, aligning with the GenAI Engineer profile. The mention of 'large, diverse datasets' and 'platform performance, accuracy, and scalability' supports the need for robust backend and MLOps practices, which are also key for GenAI Engineers."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "LLM and NLP Algorithm Development",
                     "category": "TASK3: Modeling",
-                    "justification": "This phrase directly refers to the development and refinement of algorithms related to Large Language Models (LLMs) and Natural Language Processing (NLP), which falls under the core 'Modeling' category, specifically for generative techniques."
+                    "justification": "The phrase 'design, refine, and scale our LLM and NLP algorithms' directly relates to the development and adaptation of models, specifically generative ones.",
+                    "phrase": "LLM and NLP Algorithm Development"
                 },
                 {
-                    "task": "transform how organizations understand and solve their internal challenges",
-                    "category": "TASK1: Business Understanding",
-                    "justification": "This phrase describes the high-level impact and purpose of the algorithms, indicating an understanding of how technical solutions address business problems and organizational challenges."
-                },
-                {
-                    "task": "Backend Development with Django",
                     "category": "TASK4: Software Development",
-                    "justification": "Building and maintaining the back-end using a specific framework like Django is a core 'Software Development' task, essential for integrating and deploying AI features into applications."
+                    "justification": "The phrase 'Build and maintain the platform's back-end using Django' clearly indicates traditional software engineering tasks for building and maintaining the application infrastructure.",
+                    "phrase": "Backend Development with Django"
                 },
                 {
-                    "task": "ensuring seamless data handling for optimal performance",
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Help shape the architecture of our algorithm models' implies involvement in the structural design of the software systems that house the models, which is a software development task.",
+                    "phrase": "Help shape the architecture of our algorithm models"
+                },
+                {
                     "category": "TASK2: Data Engineering",
-                    "justification": "This phrase relates to managing and processing data efficiently within the backend, which is a key aspect of 'Data Engineering' to ensure model performance."
+                    "justification": "The phrase 'Work with large, diverse datasets from real-world organizations' indicates handling and processing significant amounts of data, a core aspect of data engineering.",
+                    "phrase": "Work with large, diverse datasets from real-world organizations"
                 },
                 {
-                    "task": "Help shape the architecture of our algorithm models",
-                    "category": "TASK3: Modeling",
-                    "justification": "This indicates involvement in the design and structure of the models themselves, which is a fundamental part of the 'Modeling' process."
-                },
-                {
-                    "task": "Platform Performance, Accuracy, and Scalability",
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "Optimizing performance, accuracy, and scalability of a platform, especially when dealing with large datasets and insights, falls under the purview of 'Operations Engineering (MLOps)' to ensure production-readiness."
-                },
-                {
-                    "task": "Work with large, diverse datasets from real-world organizations",
-                    "category": "TASK2: Data Engineering",
-                    "justification": "This phrase highlights the need to handle and process significant amounts of real-world data, which is a core component of 'Data Engineering'."
-                },
-                {
-                    "task": "optimize the platform's overall performance, ensuring precise, scalable, and actionable data-driven insights",
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "This task focuses on the operational aspects of making the platform performant, accurate, and scalable, directly relating to 'Operations Engineering (MLOps)'."
-                },
-                {
-                    "task": "Nice to have - Frontend Engineering with React",
                     "category": "TASK4: Software Development",
-                    "justification": "While listed as 'nice to have', frontend development with React is a 'Software Development' task that contributes to building user-facing applications."
+                    "justification": "The phrase 'Collaborate on our React.js front-end to create an intuitive, user-friendly experience for end-users' describes building user-facing applications, a key software development responsibility.",
+                    "phrase": "Frontend Engineering with React"
                 },
                 {
-                    "task": "Collaborate on our React.js front-end to create an intuitive, user-friendly experience for end-users",
                     "category": "TASK4: Software Development",
-                    "justification": "This describes the development of the user interface, a key aspect of 'Software Development' for user-facing applications."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "LLM",
-                    "category": "TECH3: LLM / Generative Models"
-                },
-                {
-                    "technology": "NLP",
-                    "category": "TASK3: Modeling"
-                },
-                {
-                    "technology": "Django",
-                    "category": "TECH4: LLM Frameworks & Libraries"
-                },
-                {
-                    "technology": "React",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "justification": "The phrase 'optimize the platform's overall performance, ensuring precise, scalable, and actionable data-driven insights' relates to the engineering effort required to make the software system efficient and reliable.",
+                    "phrase": "Platform Performance, Accuracy, and Scalability"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "Work with our team",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Work with our team"
                 },
                 {
-                    "skill": "Collaborate on our React.js front-end",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate on our React.js front-end"
                 },
                 {
-                    "skill": "Help shape the architecture",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "transform how organizations understand and solve their internal challenges"
                 },
                 {
-                    "skill": "optimize the platform's overall performance",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Help shape the architecture"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "optimize the platform's overall performance"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLM"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "NLP"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Django"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "React.js"
                 }
             ]
         }

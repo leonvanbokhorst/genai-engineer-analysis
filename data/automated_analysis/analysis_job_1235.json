@@ -27,75 +27,63 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job title is 'Data Engineer' and the core responsibilities focus on ETL processes and providing information. While GenAI is mentioned as a technology to be aware of and translate into applications, it is not the primary focus. The role lacks the depth in generative modeling, LLM frameworks, or building user-facing GenAI applications required for a GenAI Engineer profile."
+            "profile": "Ambiguous",
+            "rationale": "The job description is for a 'Data Engineer' and focuses heavily on ETL processes and providing 'stuurinformatie' (steering information) to the organization. While it mentions awareness of GenAI and translating technological developments into applications, the core responsibilities and emphasis are on data engineering tasks and business understanding, not on building or fine-tuning generative models or developing user-facing applications powered by them. The role seems to be about leveraging data for business insights and operational efficiency, rather than developing AI-driven products or features. Therefore, it does not fit the 'GenAI Engineer' or 'ML Engineer' profiles."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "Je bent verantwoordelijk voor de ETL-processen waardoor de organisatie elke dag de beschikking heeft over actuele informatie."
-                    ],
-                    "justification": "This phrase directly describes the core responsibilities of designing, building, and maintaining data pipelines (ETL processes) to ensure timely access to information."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The description explicitly states the role is responsible for 'ETL-processen' (ETL processes) to ensure the organization has up-to-date information daily.",
+                    "phrase": "verantwoordelijk voor de ETL-processen"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "hoe gaan we in gesprek met onze collega's om duidelijk te krijgen welke behoefte aan (stuur)informatie er is en hoe kunnen we dit vormgeven met onze data en technieken.",
-                        "Met als perspectief uiteraard hoe deze stuurinformatie bijdraagt aan onze strategische doelen en het verschil gaat maken voor de collega's en onze huurders."
-                    ],
-                    "justification": "These phrases highlight the need to understand business needs ('behoefte aan (stuur)informatie'), align data solutions with strategic goals ('bijdraagt aan onze strategische doelen'), and understand the impact on stakeholders ('verschil gaat maken voor de collega's en onze huurders')."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves understanding the 'behoefte aan (stuur)informatie' (need for (steering) information) from colleagues and aligning data and techniques with strategic goals to make a difference for colleagues and tenants.",
+                    "phrase": "hoe gaan we in gesprek met onze collega's om duidelijk te krijgen welke behoefte aan (stuur)informatie er is en hoe kunnen we dit vormgeven met onze data en technieken. Met als perspectief uiteraard hoe deze stuurinformatie bijdraagt aan onze strategische doelen"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "en bent in staat deze te vertalen naar bruikbare toepassingen voor onze (eind)gebruikers.",
-                        "Naast adviseren ga je ook aan de slag met het daadwerkelijk uitwerken en implementeren van deze nieuwe initiatieven en ontwikkelingen."
-                    ],
-                    "justification": "This indicates the need to develop and implement applications or solutions based on technological advancements, implying software development to deliver these to end-users."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "GenAI",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves advising on new technological applications and developments and translating them into usable applications for end-users.",
+                    "phrase": "in staat deze te vertalen naar bruikbare toepassingen voor onze (eind)gebruikers"
                 },
                 {
-                    "tech_name": "GenAI",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves advising on new technological applications and developments and guiding the team in optimizing existing techniques and processes.",
+                    "phrase": "adviseert over nieuwe technologische toepassingen en ontwikkelingen en neemt het team mee in het optimaliseren van de bestaande technieken en processen"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves not only advising but also actively working on the actual development and implementation of new initiatives and developments.",
+                    "phrase": "aan de slag met het daadwerkelijk uitwerken en implementeren van deze nieuwe initiatieven en ontwikkelingen"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        "hoe gaan we in gesprek met onze collega's om duidelijk te krijgen welke behoefte aan (stuur)informatie er is"
-                    ],
-                    "justification": "This phrase describes the need to communicate with colleagues to understand their information needs, which is a core aspect of communication and collaboration."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "hoe gaan we in gesprek met onze collega's"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        "Je bent op de hoogte van de laatste technologische ontwikkelingen, zoals op het gebied van GenAI"
-                    ],
-                    "justification": "This indicates a requirement to stay updated with the latest technological developments, demonstrating a need for continuous learning and adaptability."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "De uitdagingen voor het team zijn groot"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "De uitdagingen voor het team zijn groot: hoe gaan we in gesprek met onze collega's om duidelijk te krijgen welke behoefte aan (stuur)informatie er is en hoe kunnen we dit vormgeven met onze data en technieken."
-                    ],
-                    "justification": "This describes a complex problem ('De uitdagingen voor het team zijn groot') that requires figuring out how to gather information needs and shape them with data and techniques, indicating problem-solving skills."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Je bent op de hoogte van de laatste technologische ontwikkelingen"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        "Jij als adviseert over nieuwe technologische toepassingen en ontwikkelingen en neemt het team mee in het optimaliseren van de bestaande technieken en processen.",
-                        "Naast adviseren ga je ook aan de slag met het daadwerkelijk uitwerken en implementeren van deze nieuwe initiatieven en ontwikkelingen."
-                    ],
-                    "justification": "These phrases show initiative in advising on new technologies, leading the team in optimization, and taking ownership of implementing new initiatives, aligning with innovation and ownership."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "adviseert over nieuwe technologische toepassingen en ontwikkelingen en neemt het team mee in het optimaliseren van de bestaande technieken en processen"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "aan de slag met het daadwerkelijk uitwerken en implementeren van deze nieuwe initiatieven en ontwikkelingen"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "GenAI"
                 }
             ]
         }

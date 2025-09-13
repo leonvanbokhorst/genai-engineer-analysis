@@ -28,95 +28,102 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description emphasizes the development and implementation of cutting-edge AI solutions, specifically mentioning generative AI models like OpenAI GPT4, and the creation of predictive models for tasks like computer vision, regression, and NLP. The role involves building and integrating AI solutions, aligning with the core responsibilities of a GenAI Engineer."
+            "rationale": "The job description heavily emphasizes the development and implementation of cutting-edge AI solutions, specifically mentioning generative AI models like OpenAI GPT4, and the application of AI in areas such as computer vision, regression, classification, optimization, and natural language processing (NLP). It also highlights building Retrieval-Augmented Generation (RAG) systems implicitly through the mention of 'advanced predictive models and algorithms' and 'natural language processing (NLP)', and the need to integrate AI solutions into business processes. The role involves developing experiments, proof-of-concepts, and sharing findings with both technical and non-technical stakeholders, aligning with the core responsibilities of a GenAI Engineer focused on building and deploying AI-powered applications."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "Modeling",
-                    "phrases": [
-                        "Ontwikkeling van AI-modellen",
-                        "ontwerp, ontwikkel, en implementeer geavanceerde voorspellende modellen en algoritmes",
-                        "Je werkt aan diverse uitdagingen zoals computer vision, regressie- en classificatieproblemen, optimalisatie en natural language processing (NLP)",
-                        "Experimenten en Proof-of-Concepts: Ontwikkel experimenten om de technische haalbaarheid van verschillende modellen aan te tonen en om ze onderling te vergelijken",
-                        "ervaring met generatieve AI-modellen en tools, zoals OpenAI GPT4"
-                    ],
-                    "justification": "These phrases directly relate to the creation, development, and evaluation of AI models, including predictive and generative types, which is the core of the Modeling task."
+                    "category": "TASK3: Modeling",
+                    "justification": "The job description explicitly mentions 'Ontwikkeling van AI-modellen: ontwerp, ontwikkel, en implementeer geavanceerde voorspellende modellen en algoritmes. Je werkt aan diverse uitdagingen zoals computer vision, regressie- en classificatieproblemen, optimalisatie en natural language processing (NLP).'",
+                    "phrase": "Ontwikkeling van AI-modellen: ontwerp, ontwikkel, en implementeer geavanceerde voorspellende modellen en algoritmes. Je werkt aan diverse uitdagingen zoals computer vision, regressie- en classificatieproblemen, optimalisatie en natural language processing (NLP)."
                 },
                 {
-                    "task": "Software Development",
-                    "phrases": [
-                        "implementatie van cutting-edge AI-oplossingen",
-                        "Cross-functionele samenwerking: werk samen met diverse afdelingen om AI-oplossingen naadloos te integreren binnen onze bedrijfsprocessen."
-                    ],
-                    "justification": "This task involves integrating AI solutions into business processes and developing user-facing applications, as indicated by phrases about implementation and seamless integration."
+                    "category": "TASK3: Modeling",
+                    "justification": "The description mentions 'Experimenten en Proof-of-Concepts: Ontwikkel experimenten om de technische haalbaarheid van verschillende modellen aan te tonen en om ze onderling te vergelijken.' This directly relates to the modeling process.",
+                    "phrase": "Experimenten en Proof-of-Concepts: Ontwikkel experimenten om de technische haalbaarheid van verschillende modellen aan te tonen en om ze onderling te vergelijken."
                 },
                 {
-                    "task": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "implementatie van cutting-edge AI-oplossingen",
-                        "Microsoft Azure AI services of de Google Cloud AI oplossingen"
-                    ],
-                    "justification": "The mention of implementing AI solutions and specific cloud AI services suggests involvement in the deployment and operational aspects of AI models."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Cross-functionele samenwerking: werk samen met diverse afdelingen om AI-oplossingen naadloos te integreren binnen onze bedrijfsprocessen.' implies the need to integrate AI solutions into existing business processes, which often involves software development.",
+                    "phrase": "Cross-functionele samenwerking: werk samen met diverse afdelingen om AI-oplossingen naadloos te integreren binnen onze bedrijfsprocessen."
                 },
                 {
-                    "task": "Business Understanding",
-                    "phrases": [
-                        "AI business transformation partner",
-                        "missie is om werkend Nederland koploper te laten worden in de vierde industriële revolutie, met AI als drijvende kracht",
-                        "helpen bedrijven groeien én kosten besparen",
-                        "AI-oplossingen naadloos te integreren binnen onze bedrijfsprocessen",
-                        "AI Engineer werk je aan uiteenlopende projecten die echt business impact maken"
-                    ],
-                    "justification": "These phrases highlight the role's connection to business goals, transformation, cost savings, and making a business impact, indicating a need for business understanding."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Kennisdeling en presentatie: deel je bevindingen en aanbevelingen met zowel technische teams als niet-technische stakeholders.' indicates the need to communicate technical concepts to a broader audience, which is a key aspect of understanding and aligning with business needs.",
+                    "phrase": "Kennisdeling en presentatie: deel je bevindingen en aanbevelingen met zowel technische teams als niet-technische stakeholders."
                 },
                 {
-                    "task": "Data Engineering",
-                    "phrases": [
-                        "ervaring met data-analyse tools/platformen"
-                    ],
-                    "justification": "While not extensively detailed, the mention of data analysis tools/platforms implies some level of data handling and preparation, which is part of Data Engineering."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Python",
-                    "category": "TECH1: Programming Languages"
-                },
-                {
-                    "technology": "OpenAI GPT4",
-                    "category": "TECH3: LLM / Generative Models"
-                },
-                {
-                    "technology": "Microsoft Azure AI services",
-                    "category": "TECH2: Cloud Platforms & Services"
-                },
-                {
-                    "technology": "Google Cloud AI oplossingen",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The mention of 'ervaring met data-analyse tools/platformen' suggests involvement in data handling and preparation, which falls under data engineering.",
+                    "phrase": "ervaring met data-analyse tools/platformen"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "Kennisdeling en presentatie: deel je bevindingen en aanbevelingen met zowel technische teams als niet-technische stakeholders.",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Cross-functionele samenwerking"
                 },
                 {
-                    "skill": "Blijf up-to-date met de laatste trends in data science en AI, en deel deze kennis binnen het bedrijf.",
-                    "category": "SKILL2: Learning & Adaptability"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Kennisdeling en presentatie"
                 },
                 {
-                    "skill": "proactief, analytisch sterk, teamgericht, open voor nieuwe ideeën, en constant strevend naar verbetering.",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Communicatie: sterke communicatieve vaardigheden in zowel Nederlands als Engels."
                 },
                 {
-                    "skill": "passie voor AI en een drive om te innoveren.",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "passie voor AI en een drive om te innoveren"
                 },
                 {
-                    "skill": "Communicatie: sterke communicatieve vaardigheden in zowel Nederlands als Engels.",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "analytisch sterk"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "teamgericht"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "open voor nieuwe ideeën"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "constant strevend naar verbetering"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Blijf up-to-date met de laatste trends in data science en AI"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "machine learning frameworks"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "generatieve AI-modellen"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "OpenAI GPT4"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Microsoft Azure AI services"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Google Cloud AI oplossingen"
+                },
+                {
+                    "category": "TECH11: Data Analysis",
+                    "phrase": "data-analyse tools/platformen"
                 }
             ]
         }

@@ -28,89 +28,82 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 5,
-            "rationale": "The job description explicitly mentions designing and implementing AI solutions based on large language models (LLMs), improving text models, and ensuring responsible AI application. These core responsibilities align directly with the definition and typical projects of a GenAI Engineer."
+            "rationale": "The job description heavily emphasizes designing, implementing, and improving AI solutions based on large language models (LLMs), including text model quality, testing, validation, and responsible AI application. This aligns directly with the core responsibilities and evidence profile of a GenAI Engineer, particularly the focus on generative techniques and building applications around them."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "ontwerpen en implementeren van AI-oplossingen gebaseerd op large language models (LLM's)",
-                        "analyseren en voorbereiden van datasets voor optimale modelprestaties",
-                        "verbeteren van de kwaliteit en nauwkeurigheid van tekst modellen"
-                    ],
-                    "justification": "These phrases directly relate to the core activities of building, training, and fine-tuning generative models, specifically LLMs, and preparing data for them."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'verbeteren van de kwaliteit en nauwkeurigheid van tekst modellen' directly relates to the process of training, fine-tuning, or adapting machine learning models, specifically text models.",
+                    "phrase": "verbeteren van de kwaliteit en nauwkeurigheid van tekst modellen"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "implementeren van AI-oplossingen",
-                        "ontwikkelde oplossingen"
-                    ],
-                    "justification": "The term 'implementeren' (implementing) and 'oplossingen' (solutions) suggests the integration and deployment of AI models into functional systems, which falls under software development."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'analyseren en voorbereiden van datasets voor optimale modelprestaties' describes the crucial step of preparing data for machine learning models, which is a core part of the modeling process.",
+                    "phrase": "analyseren en voorbereiden van datasets voor optimale modelprestaties"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "testen, valideren en continu optimaliseren van ontwikkelde oplossingen",
-                        "zorgen voor een veilige en verantwoorde toepassing van AI-technologieën"
-                    ],
-                    "justification": "Testing, validation, continuous optimization, and ensuring safe/responsible application are key aspects of MLOps, focusing on production-readiness and ethical deployment."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'ontwerpen en implementeren van AI-oplossingen gebaseerd op large language models (LLM\\'s)' clearly indicates the development and deployment of AI solutions using generative models.",
+                    "phrase": "ontwerpen en implementeren van AI-oplossingen gebaseerd op large language models (LLM's)"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "De smart network waar studenten en professionals hun stage of baan vinden.",
-                        "Samen met ons breng jij ondernemers verder. Automatisering speelt hierbij een cruciale rol."
-                    ],
-                    "justification": "These phrases indicate the context of the company's mission (connecting students/professionals, helping entrepreneurs) and the role of automation, suggesting a need to understand business goals."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'testen, valideren en continu optimaliseren van ontwikkelde oplossingen' implies the software development lifecycle, including ensuring the developed solutions are functional and performant in a production-like environment.",
+                    "phrase": "testen, valideren en continu optimaliseren van ontwikkelde oplossingen"
                 },
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "analyseren en voorbereiden van datasets voor optimale modelprestaties"
-                    ],
-                    "justification": "Preparing datasets for optimal model performance is a direct component of data engineering tasks."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "LLM / Generative Models",
-                    "category": "TECH3",
-                    "instances": [
-                        "large language models (LLM's)"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'zorgen voor een veilige en verantwoorde toepassing van AI-technologieën' relates to the development of robust and responsible software systems, ensuring ethical considerations are met.",
+                    "phrase": "zorgen voor een veilige en verantwoorde toepassing van AI-technologieën"
                 },
                 {
-                    "tech_name": "Cloud Platforms & Services",
-                    "category": "TECH2",
-                    "instances": [
-                        "AI-technologieën"
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'analyseren en voorbereiden van datasets voor optimale modelprestaties' also involves data preparation and preprocessing, which falls under data engineering.",
+                    "phrase": "analyseren en voorbereiden van datasets voor optimale modelprestaties"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'testen, valideren en continu optimaliseren van ontwikkelde oplossingen' can also encompass aspects of MLOps, such as continuous integration and deployment, and performance monitoring in production.",
+                    "phrase": "testen, valideren en continu optimaliseren van ontwikkelde oplossingen"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Samen met ons breng jij ondernemers verder. Automatisering speelt hierbij een cruciale rol.' indicates an understanding of how AI and automation contribute to business goals and client success.",
+                    "phrase": "Samen met ons breng jij ondernemers verder. Automatisering speelt hierbij een cruciale rol."
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'analyseren en voorbereiden van datasets voor optimale modelprestaties' directly relates to data preprocessing and feature engineering, which are key components of data engineering.",
+                    "phrase": "analyseren en voorbereiden van datasets voor optimale modelprestaties"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "category": "SKILL2",
-                    "instances": [
-                        "continu wordt bijgeschoold in de nieuwste technologieën"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "continu wordt bijgeschoold in de nieuwste technologieën"
                 },
                 {
-                    "skill_name": "Ethical & Legal Responsibility",
-                    "category": "SKILL4",
-                    "instances": [
-                        "zorgen voor een veilige en verantwoorde toepassing van AI-technologieën"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Co-eigenaarschap: bij indiensttreding krijg je 10 certificaten en deel je mee in de winst. Dit zorgt voor een betrokken sfeer met weinig hiërarchie."
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "category": "SKILL5",
-                    "instances": [
-                        "Co-eigenaarschap: bij indiensttreding krijg je 10 certificaten en deel je mee in de winst. Dit zorgt voor een betrokken sfeer met weinig hiërarchie."
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Flexibiliteit als norm: werk op tijden die voor jou het beste werken, in overleg met je collega's."
+                },
+                {
+                    "category": "SKILL4: Ethical & Legal Responsibility",
+                    "phrase": "zorgen voor een veilige en verantwoorde toepassing van AI-technologieën"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "large language models (LLM's)"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "AI-oplossingen"
                 }
             ]
         }

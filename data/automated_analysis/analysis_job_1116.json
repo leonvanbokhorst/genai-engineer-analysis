@@ -27,75 +27,57 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on using and improving existing AI systems for customer support rather than developing or engineering AI models. While it mentions AI training and fine-tuning, the core responsibilities are application support and integrating human expertise with AI, which aligns more with a user or operator role than a core AI engineering role."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on supporting and improving existing AI systems by analyzing escalated tickets and providing feedback for fine-tuning. While it involves interaction with AI, it does not emphasize the core responsibilities of developing, fine-tuning, or deploying generative models or building production-grade user-facing software systems as a primary function. The role appears to be more about AI-assisted customer support and iterative improvement of AI tools rather than core AI engineering. The salary range also suggests a support role rather than a specialized engineering role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "Analyze complex tickets escalated by AI systems",
-                        "apply human expertise to areas where AI falls short",
-                        "Integrate technical human expertise and AI capabilities to deliver exceptional customer support",
-                        "focusing on complex issues that AI cannot yet fully resolve"
-                    ],
-                    "justification": "These phrases indicate a need to understand the customer support context, the limitations of AI, and how to bridge those gaps with human expertise to meet business objectives."
+                    "category": "TASK3",
+                    "justification": "The phrase 'participate in AI model fine-tuning sessions' directly relates to the process of adapting or improving machine learning models.",
+                    "phrase": "participate in AI model fine-tuning sessions"
                 },
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "improving the AI system",
-                        "Review AI-generated solutions and provide detailed feedback",
-                        "participate in AI model fine-tuning sessions",
-                        "Prototype and test new AI tools and methodologies"
-                    ],
-                    "justification": "While not building models from scratch, the role involves providing feedback for AI improvement and participating in fine-tuning, which relates to adapting and refining existing models. Prototyping new AI tools also touches upon model application."
+                    "category": "TASK3",
+                    "justification": "The phrase 'improving the AI system' implies a direct involvement in the modification or enhancement of AI models or their underlying logic.",
+                    "phrase": "improving the AI system"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "Prototype and test new AI tools and methodologies"
-                    ],
-                    "justification": "Prototyping and testing new tools can involve some level of software development to integrate or evaluate them, though it's not the primary focus."
+                    "category": "TASK3",
+                    "justification": "The phrase 'Review AI-generated solutions and provide detailed feedback' indicates an involvement in the evaluation and refinement of AI outputs, which is part of the model improvement cycle.",
+                    "phrase": "Review AI-generated solutions and provide detailed feedback"
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "The phrase 'Prototype and test new AI tools and methodologies' involves the development and evaluation of new technical solutions, which aligns with software development practices, albeit in an exploratory capacity.",
+                    "phrase": "Prototype and test new AI tools and methodologies"
+                },
+                {
+                    "category": "TASK1",
+                    "justification": "The phrase 'Analyze complex tickets escalated by AI systems, apply human expertise to areas where AI falls short' shows an understanding of how AI is used in a business context (customer support) and identifying its limitations.",
+                    "phrase": "Analyze complex tickets escalated by AI systems, apply human expertise to areas where AI falls short"
+                },
+                {
+                    "category": "TASK1",
+                    "justification": "The phrase 'Integrate technical human expertise and AI capabilities to deliver exceptional customer support' demonstrates an understanding of how to combine different capabilities to achieve a business outcome (customer support).",
+                    "phrase": "Integrate technical human expertise and AI capabilities to deliver exceptional customer support"
                 }
             ],
-            "technologies": [],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Analyze complex tickets escalated by AI systems",
-                        "apply human expertise to areas where AI falls short",
-                        "improving the AI system",
-                        "Review AI-generated solutions and provide detailed feedback",
-                        "participate in AI model fine-tuning sessions",
-                        "Prototype and test new AI tools and methodologies",
-                        "Integrate technical human expertise and AI capabilities to deliver exceptional customer support",
-                        "focusing on complex issues that AI cannot yet fully resolve",
-                        "ramp up one several products within the first month",
-                        "adept at unblocking yourself"
-                    ],
-                    "justification": "The role requires analyzing complex issues, finding solutions where AI fails, improving AI systems, and quickly learning new products, all of which demonstrate strong problem-solving and pragmatic skills. The emphasis on self-sufficiency also points to this."
+                    "category": "SKILL3",
+                    "phrase": "unblocking yourself"
                 },
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "ramp up one several products within the first month (we are aware this is aggressive)"
-                    ],
-                    "justification": "The explicit mention of a rapid ramp-up period on multiple products highlights the need for quick learning and adaptability."
+                    "category": "SKILL2",
+                    "phrase": "ramp up one several products within the first month"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "improving the AI system",
-                        "Prototype and test new AI tools and methodologies",
-                        "adept at unblocking yourself"
-                    ],
-                    "justification": "The role involves actively improving AI systems, prototyping new tools, and taking initiative to solve problems independently, indicating a need for innovation and ownership."
+                    "category": "SKILL1",
+                    "phrase": "apply human expertise to areas where AI falls short"
                 }
-            ]
+            ],
+            "technologies": []
         }
     }
 }

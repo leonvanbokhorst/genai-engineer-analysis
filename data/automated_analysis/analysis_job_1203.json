@@ -27,107 +27,89 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "ML Engineer",
-            "confidence_score": 3,
-            "rationale": "The job description emphasizes a broad range of AI skills including data engineering, MLOps, and traditional ML specializations like Deep Learning and Computer Vision. While Generative AI is mentioned, the core focus appears to be on building and maintaining AI systems broadly, aligning more with an ML Engineer role that encompasses MLOps and productionization."
+            "profile": "GenAI Engineer",
+            "rationale": "The job description emphasizes specialization in Generative AI (LLM) and mentions designing, developing, and maintaining AI systems, aligning with the core responsibilities of a GenAI Engineer. While it includes Data Engineering and MLOps skills, the explicit mention of Generative AI as a specialization points towards this profile over a general ML Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "Data Engineer",
-                        "Data analysis, mining, cleaning, visualization"
-                    ],
-                    "justification": "The job title 'Data Engineer' and the explicit mention of 'Data analysis, mining, cleaning, visualization' directly relate to the processes of preparing and managing data for AI models."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Data Engineer' is explicitly mentioned as a potential background, and 'Data analysis, mining, cleaning' are core data engineering tasks.",
+                    "phrase": "Data Engineer"
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "Deep Learning",
-                        "Computer Vision",
-                        "Generative AI (LLM)"
-                    ],
-                    "justification": "The description lists 'Deep Learning', 'Computer Vision', and 'Generative AI (LLM)' as specializations, which are core activities within the modeling phase of AI development."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "These are fundamental data preparation steps.",
+                    "phrase": "Data analysis, mining, cleaning"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "ontwerpen, ontwikkelen en onderhouden",
-                        "AI-systemen te ontwerpen, ontwikkelen en onderhouden"
-                    ],
-                    "justification": "The phrases 'design, develop and maintain' AI systems indicate the software development aspect of bringing AI solutions to life."
+                    "category": "TASK3: Modeling",
+                    "justification": "The specialization in 'Deep Learning' and 'Generative AI (LLM)' directly relates to model development and adaptation.",
+                    "phrase": "Deep Learning, Computer Vision, Generative AI (LLM)"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Cloud- en platform engineering",
-                        "MLOps",
-                        "DevOps & Version Control (Git)",
-                        "CI/CD (Docker/Kubernetes/Linux)"
-                    ],
-                    "justification": "The explicit mention of 'MLOps', 'DevOps & Version Control (Git)', and 'CI/CD (Docker/Kubernetes/Linux)' directly points to the operational aspects of deploying and managing AI systems."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "Python",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK4: Software Development",
+                    "justification": "The description states the candidate will 'design, develop, and maintain AI systems', which encompasses software development aspects.",
+                    "phrase": "ontwerpen, ontwikkelen en onderhouden van AI-systemen"
                 },
                 {
-                    "tech_name": "Docker",
-                    "category": "TECH6: MLOps & Data Pipelines"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "MLOps and DevOps & Version Control (Git), CI/CD (Docker/Kubernetes/Linux) are explicitly listed as skills to be acquired.",
+                    "phrase": "MLOps"
                 },
                 {
-                    "tech_name": "Kubernetes",
-                    "category": "TECH6: MLOps & Data Pipelines"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "These are core components of CI/CD pipelines essential for MLOps.",
+                    "phrase": "DevOps & Version Control (Git)"
                 },
                 {
-                    "tech_name": "Linux",
-                    "category": "TECH1: Programming Languages"
-                },
-                {
-                    "tech_name": "Git",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "tech_name": "Deep Learning",
-                    "category": "TECH10: Data Modeling"
-                },
-                {
-                    "tech_name": "Computer Vision",
-                    "category": "TECH10: Data Modeling"
-                },
-                {
-                    "tech_name": "Generative AI (LLM)",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "These are core components of CI/CD pipelines essential for MLOps.",
+                    "phrase": "CI/CD (Docker/Kubernetes/Linux)"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        "passie voor Artificial Intelligence (AI)",
-                        "verder ontwikkelen",
-                        "Fast Track van zes weken",
-                        "uitgroeien tot een expert"
-                    ],
-                    "justification": "The emphasis on a 'Fast Track' program to develop expertise, the desire to 'further develop', and the 'passion for AI' all indicate a strong need for continuous learning and adaptability."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Fast Track van zes weken uit te groeien tot een expert"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "AI-systemen te ontwerpen, ontwikkelen en onderhouden",
-                        "direct aan de slag op een project"
-                    ],
-                    "justification": "The goal of designing, developing, and maintaining AI systems, and immediately starting on a project, implies a need for practical problem-solving skills to deliver tangible results."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "wil je je graag verder ontwikkelen"
                 },
                 {
-                    "skill_name": "Ethical & Legal Responsibility",
-                    "phrases": [
-                        "AI Ethics & Security"
-                    ],
-                    "justification": "The explicit mention of 'AI Ethics & Security' directly relates to the ethical and legal considerations in AI development."
+                    "category": "SKILL4: Ethical & Legal Responsibility",
+                    "phrase": "AI Ethics & Security"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Cloud- en platform engineering"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "MLOps"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "DevOps & Version Control (Git)"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "CI/CD (Docker/Kubernetes/Linux)"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Generative AI (LLM)"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Deep Learning"
                 }
             ]
         }

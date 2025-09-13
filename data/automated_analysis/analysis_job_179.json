@@ -26,103 +26,127 @@
         "full_text": "Developer (Halo)\n\nAs a Front-end Developer on the Halo team, you'll help build an easy-to-use interface for our AI platform. Our platform empowers businesses with advanced AI technologies-like agentic AI and a customizable knowledge base. You'll work closely with the rest of the team to turn complex technology into clear, engaging web pages. You will, amongst others:\n     * Develop & Optimize:\n       Build and improve our web interface using Vue 3. Create interactive pages that connect smoothly with our AI services powered by Large Language Models (LLMs) and NLP.\n     * Design & User Experience:\n       Collaborate with your teammates to shape a clean and effective design. Your ideas will help guide the layout and interactions to ensure a smooth experience for all users.\n     * AI Integration:\n       Work with ML engineers and back-end developers to bring AI features to the front-end, making advanced tools easy to use.\n     * Innovation & Experimentation:\n       Explore new technologies and approaches to keep our platform modern and user-friendly. Experiment with different ideas to find what works best.\n     * Performance & Scalability:\n       Ensure the interface is fast and responsive, even when many users are online, so everyone enjoys a smooth experience.\n\n   Join us on the Halo team and use your front-end skills to help shape the future of AI-powered business tools.\n\nYou connect with us, if you\n\n   Feel connected to our Shared Values\n     * Drive & Lead: We encourage the entrepreneurial spirit and are self-managed to be able to quickly grasp opportunities.\n     * Grow & Learn: We keep evolving our innovation capabilities and help you to get the best out of yourself, both professionally and personally.\n     * Together & Care: We love working together. We stimulate collaboration with utmost respect for each other regardless of gender, age, background, or beliefs.\n     * Speed & Change: We are an agile and dynamic organization, that keeps adapting and knows how to respond to opportunities or change.\n\n   You're an ambitious problem-solver, passionate about pushing the boundaries of AI and software development. You thrive in a fast-paced environment and are eager to shape the future of AI-driven automation., As a Club Member, you'll unlock a world of incredible benefits:\n     * Fuel your mind: Daily healthy lunches and snacks to keep you energized.\n     * Effortless commutes: Shuttle mobility cards and company cars get you where you need to be.\n     * Invest in your future: A solid pension plan.\n     * Take your time off: 25 vacation days with the option to buy 10 more to provide peace of mind.\n     * Own your success: Become a shareholder with our Employee Share Purchase Program.\n     * Level up your skills: Udemy, CM Academy, and exclusive Meetups with thought leaders to ensure you're always learning and growing.\n     * Life's a party: Weekly drinks, board game nights, karaoke throwdowns, yearly ski trip, and more! We have something for everyone."
     },
     "analysis": {
-        "job_profile_classification": {
-            "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The role focuses on building user-facing applications powered by LLMs and NLP, emphasizing AI integration into the front-end. While it involves software development and some understanding of AI technologies, the core is on the application layer rather than deep model development or MLOps."
+        "profile_classification": {
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on front-end development (Vue 3, web interface, user experience) and integrating AI features into the front-end. While it mentions AI technologies like LLMs and agentic AI, the core responsibilities and required skills are centered around building user interfaces rather than developing, fine-tuning, or deploying the AI models themselves. The role is more about consuming AI services through an interface than building the AI core. Therefore, it does not fit the 'ML Engineer' or 'GenAI Engineer' profiles, which require deep involvement in model development or advanced generative AI system architecture. It leans towards traditional software development with AI integration, making 'Ambiguous' the most appropriate classification as it's not a core AI engineering role but rather a role that utilizes AI services."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "Software Development",
-                    "phrases": [
-                        "Build and improve our web interface using Vue 3",
-                        "Create interactive pages that connect smoothly with our AI services",
-                        "Work with ML engineers and back-end developers to bring AI features to the front-end",
-                        "Ensure the interface is fast and responsive"
-                    ],
-                    "justification": "These phrases describe the core activities of building and maintaining a user interface, integrating it with backend services, and ensuring its performance and scalability, which are all hallmarks of software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description explicitly mentions 'Build and improve our web interface using Vue 3', 'Create interactive pages', and 'bring AI features to the front-end', which are core software development activities for user-facing applications.",
+                    "phrase": "Build and improve our web interface using Vue 3"
                 },
                 {
-                    "task": "Modeling",
-                    "phrases": [
-                        "AI platform",
-                        "agentic AI",
-                        "customizable knowledge base",
-                        "AI services powered by Large Language Models (LLMs) and NLP",
-                        "bring AI features to the front-end",
-                        "AI-driven automation"
-                    ],
-                    "justification": "The job description explicitly mentions working with AI services powered by LLMs and NLP, and integrating AI features, indicating a direct involvement with generative AI models and their application."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves creating user interfaces and ensuring they are fast, responsive, and scalable, which are key aspects of front-end software development.",
+                    "phrase": "Ensure the interface is fast and responsive"
                 },
                 {
-                    "task": "Business Understanding",
-                    "phrases": [
-                        "empowers businesses with advanced AI technologies",
-                        "making advanced tools easy to use",
-                        "shape the future of AI-powered business tools"
-                    ],
-                    "justification": "These phrases highlight the goal of using AI to provide business value and make complex tools accessible to users, demonstrating an understanding of the business context."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description states 'turn complex technology into clear, engaging web pages', indicating a focus on building user-facing software.",
+                    "phrase": "turn complex technology into clear, engaging web pages"
                 },
                 {
-                    "task": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Ensure the interface is fast and responsive, even when many users are online"
-                    ],
-                    "justification": "While not explicitly MLOps, ensuring performance and responsiveness under load relates to the operational aspects of deploying and maintaining a functional application, which has overlap with MLOps principles for user-facing systems."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'connect smoothly with our AI services powered by Large Language Models (LLMs) and NLP' implies interaction with and integration of AI models, though the development of these models is not the primary focus.",
+                    "phrase": "connect smoothly with our AI services powered by Large Language Models (LLMs) and NLP"
                 },
                 {
-                    "task": "Innovation & Experimentation",
-                    "phrases": [
-                        "Explore new technologies and approaches to keep our platform modern and user-friendly",
-                        "Experiment with different ideas to find what works best"
-                    ],
-                    "justification": "This task directly addresses the need for exploring new technologies and experimenting with different approaches to improve the platform."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Vue 3",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'agentic AI' and 'customizable knowledge base' points to the use of advanced AI technologies, even if the role is focused on the front-end integration.",
+                    "phrase": "agentic AI and a customizable knowledge base"
                 },
                 {
-                    "technology": "Large Language Models (LLMs)",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves collaborating with ML engineers and back-end developers to integrate AI features into the front-end, which is a software development task.",
+                    "phrase": "Work with ML engineers and back-end developers to bring AI features to the front-end"
                 },
                 {
-                    "technology": "NLP",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'making advanced tools easy to use' suggests working with and presenting the output of AI models to the end-user.",
+                    "phrase": "making advanced tools easy to use"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The emphasis on 'shaping a clean and effective design' and ensuring a 'smooth experience for all users' falls under user experience design within software development.",
+                    "phrase": "shape a clean and effective design"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The responsibility to 'Explore new technologies and approaches to keep our platform modern and user-friendly' and 'Experiment with different ideas' is part of the software development lifecycle.",
+                    "phrase": "Explore new technologies and approaches"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The job description mentions 'AI platform' and 'AI technologies', indicating exposure to and integration with AI systems.",
+                    "phrase": "AI platform"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'AI-powered business tools' implies working with systems that leverage AI.",
+                    "phrase": "AI-powered business tools"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'NLP' (Natural Language Processing) is a specific area within AI that the platform utilizes.",
+                    "phrase": "NLP"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "Innovation & Ownership",
-                    "phrases": [
-                        "Drive & Lead: We encourage the entrepreneurial spirit and are self-managed to be able to quickly grasp opportunities.",
-                        "Innovation & Experimentation: Explore new technologies and approaches to keep our platform modern and user-friendly. Experiment with different ideas to find what works best."
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Drive & Lead"
                 },
                 {
-                    "skill": "Learning & Adaptability",
-                    "phrases": [
-                        "Grow & Learn: We keep evolving our innovation capabilities and help you to get the best out of yourself, both professionally and personally.",
-                        "Level up your skills: Udemy, CM Academy, and exclusive Meetups with thought leaders to ensure you're always learning and growing."
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Grow & Learn"
                 },
                 {
-                    "skill": "Communication & Collaboration",
-                    "phrases": [
-                        "Design & User Experience: Collaborate with your teammates to shape a clean and effective design.",
-                        "AI Integration: Work with ML engineers and back-end developers to bring AI features to the front-end",
-                        "Together & Care: We love working together. We stimulate collaboration with utmost respect for each other regardless of gender, age, background, or beliefs."
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Together & Care"
                 },
                 {
-                    "skill": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "You're an ambitious problem-solver, passionate about pushing the boundaries of AI and software development.",
-                        "Speed & Change: We are an agile and dynamic organization, that keeps adapting and knows how to respond to opportunities or change."
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Speed & Change"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "ambitious problem-solver"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "passionate about pushing the boundaries of AI and software development"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "thrive in a fast-paced environment"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "eager to shape the future of AI-driven automation"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate with your teammates"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Experiment with different ideas to find what works best"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Vue 3"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Large Language Models (LLMs)"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "NLP"
                 }
             ]
         }

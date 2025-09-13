@@ -27,131 +27,241 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on general software engineering principles, client transformation, and cultural impact, with only a brief mention of generative AI as a potential area to explore. It lacks specific tasks or technologies related to building, fine-tuning, or deploying AI models, which are central to ML or GenAI Engineer roles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on traditional software engineering, JVM polyglot skills, and client transformation. While it mentions 'generative AI' as an area of exploration, it does not indicate a primary focus on developing, fine-tuning, or deploying generative AI models or systems. The core responsibilities and technologies described align more with a general software engineering role rather than a specialized ML or GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrases": [
-                        "helping companies that serve millions of users by solving their most complex challenges",
-                        "transform environments from \"A to Better\"",
-                        "boost the software engineering culture",
-                        "create lasting impact for the client",
-                        "work on impactful challenges",
-                        "solve the client's toughest challenges",
-                        "improve their software engineering culture",
-                        "make a lasting impact",
-                        "key to your clients' success",
-                        "elevate the client's engineering capabilities",
-                        "transforming their culture and processes",
-                        "ensure clients can deliver faster, better, and more effectively",
-                        "lead clients through transformation",
-                        "create change"
-                    ],
-                    "justification": "These phrases highlight the role's focus on understanding client business needs, solving complex problems, and driving organizational change and improvement within client environments."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The job description emphasizes working on long-term projects for innovative clients, solving complex challenges, transforming environments, boosting software engineering culture, and creating lasting impact. This indicates a need to understand the client's business context and strategic goals.",
+                    "phrase": "helping companies that serve millions of users by solving their most complex challenges"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrases": [
-                        "Mid-Level JVM Polyglot Software Engineer",
-                        "design scalable systems",
-                        "Every project is an opportunity to make a lasting impact.",
-                        "take on complex, long-term projects",
-                        "focusing on every stage of the project lifecycle: from intake and architecture to delivery and knowledge transfer.",
-                        "adopt a polyglot mindset, using tools like Java, Kotlin, Scala, TypeScript, and Go",
-                        "microservices",
-                        "event sourcing"
-                    ],
-                    "justification": "The job title and descriptions of project lifecycle involvement, system design, and the use of multiple programming languages point to core software development responsibilities."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Java",
-                    "type": "TECH1: Programming Languages"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves transforming environments from 'A to Better', which implies understanding the current state and desired future state of the client's business and technical landscape.",
+                    "phrase": "transform environments from \"A to Better\""
                 },
                 {
-                    "technology": "Kotlin",
-                    "type": "TECH1: Programming Languages"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The description states the goal is to 'create lasting impact for the client', which requires understanding client needs and business objectives.",
+                    "phrase": "create lasting impact for the client"
                 },
                 {
-                    "technology": "Scala",
-                    "type": "TECH1: Programming Languages"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves working with clients who are leaders in their industries and handle millions of users, suggesting a need to understand the business context of these large-scale operations.",
+                    "phrase": "partners with top-tier clients, many of whom are leaders in their industries and handle millions of users daily"
                 },
                 {
-                    "technology": "TypeScript",
-                    "type": "TECH1: Programming Languages"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The mission is to 'elevate the client's engineering capabilities, transforming their culture and processes', which directly relates to understanding and improving business operations through technical means.",
+                    "phrase": "elevate the client's engineering capabilities, transforming their culture and processes"
                 },
                 {
-                    "technology": "Go",
-                    "type": "TECH1: Programming Languages"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role aims to ensure clients can 'deliver faster, better, and more effectively', indicating a focus on business outcomes and efficiency.",
+                    "phrase": "ensure clients can deliver faster, better, and more effectively"
                 },
                 {
-                    "technology": "generative AI",
-                    "type": "TECH3: LLM / Generative Models"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The job involves leading clients through transformation, which requires a deep understanding of their business challenges and goals.",
+                    "phrase": "lead clients through transformation"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role is explicitly for a 'JVM Polyglot Software Engineer' and involves taking on complex, long-term projects, focusing on the project lifecycle from intake to delivery.",
+                    "phrase": "Mid-Level JVM Polyglot Software Engineer"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions working on 'greenfield projects' and designing 'scalable systems', which are core software development activities.",
+                    "phrase": "design scalable systems"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves working on 'every stage of the project lifecycle: from intake and architecture to delivery and knowledge transfer', encompassing the full software development process.",
+                    "phrase": "every stage of the project lifecycle: from intake and architecture to delivery and knowledge transfer"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The job requires adopting a 'polyglot mindset' and using specific programming languages to tackle challenges, which is fundamental to software development.",
+                    "phrase": "adopt a polyglot mindset"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions opportunities to explore 'microservices, and event sourcing', which are architectural patterns in software development.",
+                    "phrase": "microservices, and event sourcing"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves improving the client's 'software engineering culture' and processes, indicating a focus on best practices in software development.",
+                    "phrase": "improve their software engineering culture"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The job mentions opportunities to explore 'generative AI', which, while not the primary focus, touches upon areas that often involve MLOps for deployment and maintenance.",
+                    "phrase": "generative AI"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The description mentions 'knowledge transfer' as part of the project lifecycle, which can include aspects of operationalizing and maintaining systems.",
+                    "phrase": "knowledge transfer"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "Communication & Collaboration",
-                    "phrases": [
-                        "work alongside high-performing engineers",
-                        "thrive in multidisciplinary teams",
-                        "work closely with your high-performing team members",
-                        "collaborating with your team",
-                        "learn how to communicate effectively",
-                        "present ideas persuasively",
-                        "getting buy-in from stakeholders",
-                        "present ideas"
-                    ],
-                    "justification": "The description repeatedly emphasizes teamwork, collaboration with diverse stakeholders, and the importance of effective communication and presentation skills."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "work alongside high-performing engineers"
                 },
                 {
-                    "skill": "Learning & Adaptability",
-                    "phrases": [
-                        "culture of growth and excellence",
-                        "invests in you",
-                        "tailored training programs",
-                        "continuous learning",
-                        "refine both technical and soft skills",
-                        "opportunities to explore cutting-edge technologies",
-                        "Growth is at the heart of this company",
-                        "structured mentorship",
-                        "bi-weekly knowledge-sharing sessions",
-                        "€5,000 annual training budget",
-                        "continuously refine your skills",
-                        "remain at the cutting edge of the industry"
-                    ],
-                    "justification": "The job description strongly highlights the company's commitment to employee development through mentorship, training budgets, knowledge sharing, and continuous learning."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "thrive in multidisciplinary teams"
                 },
                 {
-                    "skill": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "solving their most complex challenges",
-                        "transform environments from \"A to Better\"",
-                        "solve the client's toughest challenges",
-                        "design scalable systems",
-                        "take on complex, long-term projects",
-                        "ensure clients can deliver faster, better, and more effectively"
-                    ],
-                    "justification": "The role is framed around tackling complex client challenges, designing solutions, and improving client delivery capabilities, indicating a strong problem-solving orientation."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "work with your team to solve the client's toughest challenges"
                 },
                 {
-                    "skill": "Innovation & Ownership",
-                    "phrases": [
-                        "innovative, high-impact clients",
-                        "transform environments from \"A to Better\"",
-                        "create lasting impact for the client",
-                        "work on impactful challenges",
-                        "make a lasting impact",
-                        "elevate the client's engineering capabilities",
-                        "create change",
-                        "never as \"just extra hands\""
-                    ],
-                    "justification": "The emphasis on transforming environments, creating lasting impact, and not being 'just extra hands' suggests a need for initiative, ownership, and driving significant change."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "collaborating with your team"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "communicate effectively"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "present ideas persuasively"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "getting buy-in from stakeholders"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "present ideas"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "continuous learning"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "tailored training programs"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "refine both technical and soft skills"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "culture of growth and excellence"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "guided by mentorship from senior engineers"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "structured mentorship"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "bi-weekly knowledge-sharing sessions"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "€5,000 annual training budget"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "continuously refine your skills"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "remain at the cutting edge of the industry"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "solving their most complex challenges"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "solve the client's toughest challenges"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "tackle challenges"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "transforming their culture and processes"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "create change"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "innovative, high-impact clients"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "transform environments from \"A to Better\""
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "create lasting impact"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "make a lasting impact"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "invests in you"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "passion for software craftsmanship"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "transforming their culture and processes"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "never as \"just extra hands\""
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "growth is at the heart of this company"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Java"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Kotlin"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Scala"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "TypeScript"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Go"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "generative AI"
                 }
             ]
         }

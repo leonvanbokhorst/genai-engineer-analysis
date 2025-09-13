@@ -26,124 +26,120 @@
         "full_text": "De skillset van een dataplatform ontwikkelaar\n\nIn de huidige digitale wereld zijn dataplatformen essentieel voor organisaties die data willen benutten voor strategische beslissingen. Ontwikkelaars van moderne dataplatformen spelen een cruciale rol in het ontwerpen, bouwen en onderhouden van deze systemen. Hun skillset moet veelzijdig en up-to-date zijn om te voldoen aan de eisen van hedendaagse technologieën en bedrijfsbehoeften. Maar wat zijn die eisen eigenlijk? In dit artikel nemen we je mee in een opsomming van de diverse vaardigheden waarover ontwikkelaars idealiter moeten beschikken.\n\nOntwikkelaars moeten vaardig zijn in programmeertalen zoals Python, Java, en SQL. Deze talen zijn essentieel voor het schrijven van scripts, het ontwikkelen van applicaties en het uitvoeren van data-analyse.\n\nKennis van data-engineeringprincipes is cruciaal. Dit omvat het ontwerpen van data pipelines, het beheren van dataopslag en het waarborgen van de datakwaliteit. Ervaring met tools zoals Apache Kafka, Apache Spark en Hadoop is vaak vereist.\n\nModerne dataplatformen draaien vaak op cloud infrastructuren zoals AWS, Azure of Google Cloud. Ontwikkelaars moeten bekend zijn met cloud services en -tools om schaalbare en kostenefficiënte oplossingen te bouwen.\n\nOntwikkelaars moeten in staat zijn om data te analyseren en inzichten te visualiseren met tools zoals Tableau, Power BI, of Python-libraries zoals Matplotlib en Seaborn.\n\nDe opkomst van generatieve AI vraagt om dataplatformen die grote hoeveelheden gestructureerde en ongestructureerde data kunnen verwerken. Ontwikkelaars moeten in staat zijn om deze technologieën te integreren in bestaande systemen.\n     * Infrastructure as Code (IaC):\n       Het gebruik van IaC-tools zoals Terraform en Ansible is essentieel voor het automatiseren van de infrastructuur en het verbeteren van de efficiëntie en consistentie van dataplatformen.\n\nConclusie\n\n   De rol van een ontwikkelaar van moderne dataplatformen is veelzijdig en uitdagend. Het vereist een combinatie van technische expertise, analytische vaardigheden en soft skills. Door op de hoogte te blijven van de laatste trends en technologieën, kunnen ontwikkelaars bijdragen aan het succes van hun organisaties door robuuste, schaalbare en veilige dataplatformen te bouwen.\n\n   Bovenstaande opsomming suggereert dat je \"een schaap met vijf poten\" moet zijn om als ontwikkelaar optimaal te functioneren. Wees gerust: niemand kan iedere vaardigheid aanvinken. Maar, als je over veel van de vaardigheden beschikt maakt dit wel dat je beter toegerust bent voor de diverse taken van een ontwikkelaar van een modern dataplatform. Door te leren en ervaren kun je telkens vaardigheden toevoegen aan jouw skill set."
     },
     "analysis": {
-        "job_profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional data engineering and platform development, with only a brief mention of integrating generative AI. It lacks the core responsibilities and technologies associated with a GenAI Engineer, such as fine-tuning LLMs or building RAG systems."
+        "profile_classification": {
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on data engineering, data analysis, and traditional software development principles for building data platforms. While it mentions the integration of generative AI, it does not emphasize the core responsibilities of a GenAI Engineer such as fine-tuning LLMs, advanced prompt engineering, or building RAG systems. The primary focus remains on data infrastructure and processing, making it lean towards traditional data roles rather than a specialized GenAI Engineer profile. It also doesn't fit the ML Engineer profile as it lacks a strong emphasis on predictive modeling algorithms and their productionization. Therefore, 'Ambiguous' is the most appropriate classification as it's a data platform developer role that is not strictly an AI/ML specialist role as defined in the Coding Book."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK2: Data Engineering",
-                    "phrases": [
-                        "ontwerpen, bouwen en onderhouden van deze systemen",
-                        "ontwerpen van data pipelines",
-                        "beheren van dataopslag",
-                        "waarborgen van de datakwaliteit",
-                        "Apache Kafka, Apache Spark en Hadoop"
-                    ],
-                    "justification": "These phrases directly relate to the design, construction, and maintenance of data systems, including pipelines, storage, and quality assurance, which are core to data engineering."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The text explicitly mentions 'Kennis van data-engineeringprincipes is cruciaal. Dit omvat het ontwerpen van data pipelines, het beheren van dataopslag en het waarborgen van de datakwaliteit.' and lists relevant tools.",
+                    "phrase": "ontwerpen van data pipelines, het beheren van dataopslag en het waarborgen van de datakwaliteit"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "schrijven van scripts",
-                        "ontwikkelen van applicaties"
-                    ],
-                    "justification": "The description mentions writing scripts and developing applications, which are fundamental software development activities, though not specifically AI-focused."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions developers writing scripts, developing applications, and integrating technologies into existing systems, which are core software development activities.",
+                    "phrase": "schrijven van scripts, het ontwikkelen van applicaties"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Infrastructure as Code (IaC)",
-                        "Terraform en Ansible",
-                        "automatiseren van de infrastructuur",
-                        "verbeteren van de efficiëntie en consistentie van dataplatformen"
-                    ],
-                    "justification": "The mention of Infrastructure as Code (IaC) tools like Terraform and Ansible, and their purpose of automating infrastructure for efficiency and consistency, aligns with operations engineering principles for managing platforms."
+                    "category": "TASK3: Modeling",
+                    "justification": "The text mentions 'De opkomst van generatieve AI vraagt om dataplatformen die grote hoeveelheden gestructureerde en ongestructureerde data kunnen verwerken. Ontwikkelaars moeten in staat zijn om deze technologieën te integreren in bestaande systemen.' This implies working with and integrating AI models, though not necessarily building them from scratch.",
+                    "phrase": "integreren van generatieve AI in bestaande systemen"
                 },
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "integreren van generatieve AI in bestaande systemen"
-                    ],
-                    "justification": "While generative AI is mentioned, the context is about integration into existing systems rather than core model development, fine-tuning, or adaptation, which are central to the Modeling task for GenAI."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Python",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of 'Infrastructure as Code (IaC): Het gebruik van IaC-tools zoals Terraform en Ansible is essentieel voor het automatiseren van de infrastructuur en het verbeteren van de efficiëntie en consistentie van dataplatformen' points to operational aspects of managing infrastructure.",
+                    "phrase": "Infrastructure as Code (IaC): Het gebruik van IaC-tools zoals Terraform en Ansible is essentieel voor het automatiseren van de infrastructuur"
                 },
                 {
-                    "technology": "Java",
-                    "category": "TECH1: Programming Languages"
-                },
-                {
-                    "technology": "SQL",
-                    "category": "TECH1: Programming Languages"
-                },
-                {
-                    "technology": "Apache Kafka",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "technology": "Apache Spark",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "technology": "Hadoop",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "technology": "AWS",
-                    "category": "TECH2: Cloud Platforms & Services"
-                },
-                {
-                    "technology": "Azure",
-                    "category": "TECH2: Cloud Platforms & Services"
-                },
-                {
-                    "technology": "Google Cloud",
-                    "category": "TECH2: Cloud Platforms & Services"
-                },
-                {
-                    "technology": "Tableau",
-                    "category": "TECH7: Data Visualization"
-                },
-                {
-                    "technology": "Power BI",
-                    "category": "TECH7: Data Visualization"
-                },
-                {
-                    "technology": "Matplotlib",
-                    "category": "TECH7: Data Visualization"
-                },
-                {
-                    "technology": "Seaborn",
-                    "category": "TECH7: Data Visualization"
-                },
-                {
-                    "technology": "Terraform",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "technology": "Ansible",
-                    "category": "TECH6: MLOps & Data Pipelines"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The introduction states that 'dataplatformen essentieel voor organisaties die data willen benutten voor strategische beslissingen' and that developers' skills must meet 'de eisen van hedendaagse technologieën en bedrijfsbehoeften', indicating a need to understand business context.",
+                    "phrase": "data willen benutten voor strategische beslissingen"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "analytische vaardigheden",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "veelzijdig en up-to-date zijn om te voldoen aan de eisen van hedendaagse technologieën"
                 },
                 {
-                    "skill": "soft skills",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "analytische vaardigheden"
                 },
                 {
-                    "skill": "leren en ervaren",
-                    "category": "SKILL2: Learning & Adaptability"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "soft skills"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "op de hoogte te blijven van de laatste trends en technologieën"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Java"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "SQL"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Apache Kafka"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Apache Spark"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Hadoop"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "AWS"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Google Cloud"
+                },
+                {
+                    "category": "TECH7: Data Visualization",
+                    "phrase": "Tableau"
+                },
+                {
+                    "category": "TECH7: Data Visualization",
+                    "phrase": "Power BI"
+                },
+                {
+                    "category": "TECH8: Data Processing",
+                    "phrase": "Matplotlib"
+                },
+                {
+                    "category": "TECH8: Data Processing",
+                    "phrase": "Seaborn"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "generatieve AI"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Terraform"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Ansible"
                 }
             ]
         }

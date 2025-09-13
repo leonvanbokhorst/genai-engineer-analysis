@@ -27,64 +27,70 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on building and scaling custom applications based on a platform, with a mention of GenAI solutions. However, it lacks specific details on core AI/ML tasks like model development, data engineering, or MLOps, leaning more towards general software development and platform engineering."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on building and scaling custom solutions based on a platform, and mentions 'GenAI solutions' as a component. However, it lacks specific details about core GenAI engineering tasks like fine-tuning, RAG, or advanced prompt engineering. The primary focus appears to be on software development and platform building, with AI being a tool or component rather than the central focus of the role. The responsibilities are more aligned with a senior software developer role that *uses* AI solutions rather than one that deeply develops or engineers them. Therefore, it falls under the 'Ambiguous' category due to its primary focus not being a specialized AI engineering role and its emphasis on using AI tools for productivity."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrase": "wij helpen organisaties identificeren waar AI van toegevoegde waarde kan zijn (en waar niet)",
-                    "justification": "This phrase indicates understanding business needs and identifying where AI can provide value, which aligns with understanding the broader business context."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description emphasizes 'bouwen en opschalen van deze maatwerkoplossingen' (building and scaling custom solutions) and 'Het opzetten en doorontwikkelen van ons interne, composable platform' (setting up and further developing our internal, composable platform), which are core software development activities.",
+                    "phrase": "bouwen en opschalen van deze maatwerkoplossingen"
                 },
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrase": "Jij zorgt ervoor dat deze precies aansluiten op de behoeften van (de eindgebruikers van) onze klanten.",
-                    "justification": "This highlights the need to align technical solutions with customer needs, a key aspect of business understanding."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Het opzetten en doorontwikkelen van ons interne, composable platform' directly relates to building and maintaining software infrastructure.",
+                    "phrase": "Het opzetten en doorontwikkelen van ons interne, composable platform"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "het bouwen en opschalen van deze maatwerkoplossingen (gebaseerd op ons eigen platform)",
-                    "justification": "This directly refers to building and scaling solutions, which falls under software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The responsibility to 'zorgt ervoor dat deze precies aansluiten op de behoeften van (de eindgebruikers van) onze klanten' (ensures they precisely meet the needs of our customers' end-users) points to developing user-centric applications.",
+                    "phrase": "Het opzetten en opschalen van maatwerkapplicaties"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "Het opzetten en doorontwikkelen van ons interne, composable platform. Deze bouwstenen vormen de basis van onze maatwerkapplicaties.",
-                    "justification": "Developing and evolving a platform that serves as a foundation for applications is a software development task."
-                },
-                {
-                    "task": "TASK4: Software Development",
-                    "phrase": "Het opzetten en opschalen van maatwerkapplicaties, gebaseerd op al bestaande (GenAI-)oplossingen en/of ons platform.",
-                    "justification": "This describes the development and scaling of custom applications, a core software development responsibility."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "GenAI",
-                    "type": "TECH3: LLM / Generative Models"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The initial consultancy aspect 'wij helpen organisaties identificeren waar AI van toegevoegde waarde kan zijn (en waar niet)' (we help organizations identify where AI can add value (and where not)) indicates a need to understand business context and AI's applicability.",
+                    "phrase": "identificeren waar AI van toegevoegde waarde kan zijn"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrase": "Het inwerken en begeleiden van (nieuwe) collega's. Jij zorgt ervoor dat zij zich thuis voelen en ondersteunt hen bij hun werkzaamheden."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "transparantie en betrokkenheid"
                 },
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrase": "Jij vindt transparantie en betrokkenheid belangrijk en denkt graag mee over hoe we samen successen kunnen behalen."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "hoe we samen successen kunnen behalen"
                 },
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrase": "Jij begrijpt hoe belangrijk het is dat je als téam goed opereert. Dit betekent dat je elkaar goed kent, elkaar respecteert, elkaar beter maakt en samen successen viert. Jij geeft hier het goede voorbeeld in."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "dat je als téam goed opereert"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "elkaar goed kent, elkaar respecteert, elkaar beter maakt en samen successen viert"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
                     "phrase": "Jij vindt het gaaf om aan de basis te staan van een impactvolle organisatie."
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrase": "Jij krijgt graag de ruimte om te werken aan zaken die bijdragen aan de groei en ontwikkeling van Algemi."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "krijgt graag de ruimte om te werken aan zaken die bijdragen aan de groei en ontwikkeling van Algemi."
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "denkt graag mee over hoe we samen successen kunnen behalen."
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Het inwerken en begeleiden van (nieuwe) collega's."
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "GenAI-oplossingen"
                 }
             ]
         }

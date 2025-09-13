@@ -26,152 +26,96 @@
         "full_text": "Windows System Engineer\n\nAs Windows System Engineer in Accenture Technology - Cloud First, you will play a pivotal role in driving our customers' cloud initiatives, leveraging Microsoft's Azure platform to design, build, migrate, and optimize scalable cloud solutions. Your expertise will be crucial in advancing our customers' cloud adoption strategies, ensuring security and optimizing their infrastructure through effective use of Azure's toolset and frameworks. Join our team and contribute to shaping the future of our customers' cloud infrastructure, leveraging your expertise in Azure to drive innovation and excellence.\n     * People You will collaborate with cross-functional teams, including developers, system administrators, and project managers, to ensure seamless integration and operation of cloud services for our customers. Your ability to communicate effectively and mentor junior team members will be essential in fostering a collaborative and efficient working environment.\n     * Process You will lead the implementation of the Cloud Adoption Framework for our customers, ensuring their processes align with best practices for cloud governance, security, and compliance. Your role will involve refining and enhancing our customers' DevOps processes, facilitating continuous integration and continuous deployment (CI/CD) pipelines, and automating infrastructure management using Infrastructure as Code (IaC) tools like Bicep or Terraform.\n     * Technology Your in-depth understanding of cloud architecture and Azure's capabilities will be instrumental in designing, building, migrating, and optimizing workloads for robust landing zones and other cloud infrastructure components for our customers. You will utilize Azure DevOps tools and services to streamline project workflows and ensure the reliability and scalability of our customers' cloud environments.\n     * Task Starting in a dedicated Windows team. This team supports our customers on a daily basis. However, it doesn't stop at supporting, we are constantly striving to optimize and improve these environments. To make this easier, we like to automate with, for example, ARM templates, Ansible, PowerShell and Bash. In this team, our defining characteristic is the exceptional level of ownership we demonstrate. We work closely with other client teams and with the consulting team to deliver great results. It will be your job to implement and perfect complex IT environments for a long time. After implementation, you will monitor them, keep them running and continuously improve. You always see opportunities to improve it. If this also applies to you and you like to know everything about new technologies and apply this directly to the projects of our customers, read on.\n\n   With all our roles, there is some in-person time for collaboration, learning and building relationships with clients, peers, leaders, and communities. As an employer, we will be as flexible as possible to support your specific work/life needs."
     },
     "analysis": {
-        "job_profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 1,
-            "rationale": "The job description focuses on traditional Windows system engineering and cloud infrastructure management using Azure, with no mention of AI, machine learning, or generative models. The tasks described are primarily related to infrastructure, automation, and cloud services, not AI development or deployment."
+        "profile_classification": {
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on Windows System Engineering and cloud infrastructure management using Azure. While it mentions automation and CI/CD, it does not involve the core responsibilities or technologies associated with ML Engineering or GenAI Engineering, such as model development, training, or fine-tuning. The role is primarily infrastructure and operations-focused within a traditional IT context, making it fall under the 'Ambiguous' category as it's not an AI-specific technical role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "driving our customers' cloud initiatives",
-                            "justification": "This phrase indicates an understanding of the customer's strategic goals related to cloud adoption."
-                        },
-                        {
-                            "phrase": "advancing our customers' cloud adoption strategies",
-                            "justification": "This highlights the need to align technical work with business objectives for cloud migration."
-                        },
-                        {
-                            "phrase": "ensure seamless integration and operation of cloud services for our customers",
-                            "justification": "This implies understanding how technical solutions support business operations and customer needs."
-                        },
-                        {
-                            "phrase": "ensure their processes align with best practices for cloud governance, security, and compliance",
-                            "justification": "This shows a need to understand business requirements related to governance and compliance in a cloud context."
-                        },
-                        {
-                            "phrase": "deliver great results",
-                            "justification": "This is a general business objective that the role contributes to."
-                        }
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The description mentions 'automating infrastructure management using Infrastructure as Code (IaC) tools like Bicep or Terraform', 'refining and enhancing our customers' DevOps processes, facilitating continuous integration and continuous deployment (CI/CD) pipelines', and 'monitor them, keep them running and continuously improve'. These are all core aspects of Operations Engineering and MLOps, albeit in a cloud infrastructure context.",
+                    "phrase": "automating infrastructure management using Infrastructure as Code (IaC) tools like Bicep or Terraform"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "design, build, migrate, and optimize scalable cloud solutions",
-                            "justification": "While focused on infrastructure, the design and build aspects involve creating and configuring systems, akin to software development in an infrastructure context."
-                        },
-                        {
-                            "phrase": "designing, building, migrating, and optimizing workloads for robust landing zones and other cloud infrastructure components",
-                            "justification": "This involves the creation and configuration of cloud infrastructure, which has elements of software development for infrastructure."
-                        },
-                        {
-                            "phrase": "implement and perfect complex IT environments",
-                            "justification": "This involves the creation and configuration of IT systems, which is a form of development."
-                        }
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The description mentions 'refining and enhancing our customers' DevOps processes, facilitating continuous integration and continuous deployment (CI/CD) pipelines'. CI/CD is a key component of MLOps and DevOps practices.",
+                    "phrase": "facilitating continuous integration and continuous deployment (CI/CD) pipelines"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        {
-                            "phrase": "optimizing their infrastructure through effective use of Azure's toolset and frameworks",
-                            "justification": "This involves maintaining and improving existing infrastructure, a core operations task."
-                        },
-                        {
-                            "phrase": "refining and enhancing our customers' DevOps processes",
-                            "justification": "Directly mentions DevOps processes, which are foundational to MLOps."
-                        },
-                        {
-                            "phrase": "facilitating continuous integration and continuous deployment (CI/CD) pipelines",
-                            "justification": "CI/CD is a key component of MLOps and general DevOps."
-                        },
-                        {
-                            "phrase": "automating infrastructure management using Infrastructure as Code (IaC) tools",
-                            "justification": "IaC is a critical practice in modern operations and MLOps."
-                        },
-                        {
-                            "phrase": "utilize Azure DevOps tools and services to streamline project workflows",
-                            "justification": "Azure DevOps is a platform for managing development and operations lifecycles, including CI/CD and infrastructure management."
-                        },
-                        {
-                            "phrase": "monitor them, keep them running and continuously improve",
-                            "justification": "These are core responsibilities of operations and system maintenance."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_category": "TECH2: Cloud Platforms & Services",
-                    "technologies": [
-                        "Microsoft's Azure platform",
-                        "Azure",
-                        "Azure DevOps tools and services"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves 'designing, building, migrate, and optimize scalable cloud solutions' and 'designing, building, migrating, and optimizing workloads for robust landing zones and other cloud infrastructure components'. This implies software development principles applied to infrastructure.",
+                    "phrase": "design, build, migrate, and optimize scalable cloud solutions"
                 },
                 {
-                    "tech_category": "TECH6: MLOps & Data Pipelines",
-                    "technologies": [
-                        "DevOps processes",
-                        "continuous integration and continuous deployment (CI/CD) pipelines",
-                        "Infrastructure as Code (IaC)",
-                        "Azure DevOps"
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role is described as 'driving our customers' cloud initiatives' and 'advancing our customers' cloud adoption strategies', which requires understanding business goals and translating them into technical solutions.",
+                    "phrase": "driving our customers' cloud initiatives"
                 },
                 {
-                    "tech_category": "TECH1: Programming Languages",
-                    "technologies": [
-                        "Bicep",
-                        "Terraform",
-                        "PowerShell",
-                        "Bash"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'implement and perfect complex IT environments for a long time. After implementation, you will monitor them, keep them running and continuously improve' directly relates to the operational aspects of managing and maintaining systems in production.",
+                    "phrase": "implement and perfect complex IT environments for a long time. After implementation, you will monitor them, keep them running and continuously improve"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "skills": [
-                        "collaborate with cross-functional teams",
-                        "communicate effectively",
-                        "work closely with other client teams and with the consulting team"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "collaborate with cross-functional teams, including developers, system administrators, and project managers"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "skills": [
-                        "optimize scalable cloud solutions",
-                        "optimizing their infrastructure",
-                        "refining and enhancing our customers' DevOps processes",
-                        "automating infrastructure management",
-                        "optimize and improve these environments",
-                        "continuously improve",
-                        "see opportunities to improve it"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "communicate effectively"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "skills": [
-                        "driving our customers' cloud initiatives",
-                        "advancing our customers' cloud adoption strategies",
-                        "drive innovation and excellence",
-                        "exceptional level of ownership we demonstrate",
-                        "implement and perfect complex IT environments for a long time",
-                        "know everything about new technologies and apply this directly to the projects of our customers"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "exceptional level of ownership we demonstrate"
                 },
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "skills": [
-                        "leverage your expertise in Azure",
-                        "Your in-depth understanding of cloud architecture and Azure's capabilities",
-                        "know everything about new technologies and apply this directly to the projects of our customers"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "know everything about new technologies and apply this directly to the projects of our customers"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "constantly striving to optimize and improve these environments"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "always see opportunities to improve it"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Microsoft's Azure platform"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Bicep"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Terraform"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Azure DevOps tools and services"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Ansible"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "PowerShell"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Bash"
                 }
             ]
         }

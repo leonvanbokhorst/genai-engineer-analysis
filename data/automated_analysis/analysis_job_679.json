@@ -27,72 +27,104 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description heavily emphasizes the use of generative AI tools to enhance productivity in a consulting context, rather than the development or engineering of AI systems. It explicitly states 'Coding or programming' is not part of the role, and the focus is on applying existing AI tools to client problems."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on the application and utilization of generative AI tools to enhance consulting services and project delivery, rather than the development, fine-tuning, or deep technical implementation of AI models. It explicitly states 'Coding or programming' is not part of the role, and the emphasis is on advising clients, configuring platforms, and using AI to automate tasks. This aligns with the definition of the 'Ambiguous' profile, which includes roles primarily focused on the use of AI tools to enhance productivity or business processes, rather than core AI engineering."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "aligning technology with client business goals",
-                        "Gathering and analyzing customer business requirements",
-                        "ensuring that the solutions you deliver are flawlessly aligned with client expectations",
-                        "Ensure 100% of clients achieve 100% of their business goals through AI-driven professional services engagements"
-                    ],
-                    "justification": "These phrases indicate a focus on understanding client needs, translating them into technical or service requirements, and ensuring the delivered solutions meet business objectives."
+                    "category": "TASK1",
+                    "justification": "The role involves gathering and analyzing customer business requirements, advising on survey structure, and ensuring solutions align with client expectations and business goals.",
+                    "phrase": "Gathering and analyzing customer business requirements, advising on survey structure, best practices for panel creation, and training clients on the software platform."
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "building systems"
-                    ],
-                    "justification": "While the description explicitly states 'Coding or programming' is not part of the role, the phrase 'building systems' could imply some level of system configuration or integration, though it's not a primary focus."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "generative AI tools",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK1",
+                    "justification": "The role emphasizes aligning technology with client business goals and ensuring clients achieve their business goals through AI-driven services.",
+                    "phrase": "aligning technology with client business goals"
                 },
                 {
-                    "technology": "AI",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK1",
+                    "justification": "The role is about delivering high-impact results for clients and transforming the consulting landscape.",
+                    "phrase": "delivering high-impact results for clients"
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "The role involves configuring surveys, panels, and data gathering processes within the software platform, which can be considered a form of system configuration and integration.",
+                    "phrase": "Configuring surveys, panels, and data gathering processes within the software platform."
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "The role mentions 'building systems' which, while not explicit coding, implies some level of system setup and integration.",
+                    "phrase": "building systems"
+                },
+                {
+                    "category": "TASK3",
+                    "justification": "The core of the role is using generative AI tools to improve project delivery, customer communications, and validation of project deliverables.",
+                    "phrase": "Using generative AI to improve project delivery, customer communications, and validation of project deliverables."
+                },
+                {
+                    "category": "TASK3",
+                    "justification": "The job description repeatedly mentions harnessing the power of AI and using AI to automate mundane tasks and do the heavy lifting.",
+                    "phrase": "harnessing the power of AI to cut through the noise"
+                },
+                {
+                    "category": "TASK3",
+                    "justification": "The role is described as being at the forefront of AI-enhanced project delivery and using AI to push boundaries.",
+                    "phrase": "at the forefront of AI-enhanced project delivery"
+                },
+                {
+                    "category": "TASK3",
+                    "justification": "The role explicitly states that AI does the heavy lifting, freeing up the individual for strategic tasks.",
+                    "phrase": "AI does the heavy lifting"
+                },
+                {
+                    "category": "TASK3",
+                    "justification": "The role involves using AI-driven professional services engagements to achieve client business goals.",
+                    "phrase": "AI-driven professional services engagements"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "harnessing the power of AI",
-                        "driven by innovation",
-                        "want to be at the forefront of AI-enhanced project delivery",
-                        "rethinking how projects are delivered",
-                        "thrives on using AI to push boundaries",
-                        "leave behind the old ways and embrace a role",
-                        "keeping up with the future of consulting but defining it"
-                    ],
-                    "justification": "The job description emphasizes a forward-thinking, innovative approach and the need to adapt to new AI-driven methodologies in consulting."
+                    "category": "SKILL3",
+                    "phrase": "focus on what truly matters: delivering high-impact results for clients"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "cut through the noise and let you focus on what truly matters: delivering high-impact results for clients",
-                        "automate the mundane and elevate the strategic",
-                        "freeing you to focus on building systems and delivering unparalleled client service",
-                        "focus on building systems and delivering unparalleled client service"
-                    ],
-                    "justification": "The role requires identifying and automating tedious tasks to focus on strategic, high-impact client results, indicating a pragmatic and problem-solving approach."
+                    "category": "SKILL3",
+                    "phrase": "focus on building systems and delivering unparalleled client service"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "revolutionizing consulting",
-                        "rethinking how projects are delivered",
-                        "defining it"
-                    ],
-                    "justification": "The description highlights a desire to innovate and lead change within the consulting industry, suggesting a need for ownership and initiative."
+                    "category": "SKILL3",
+                    "phrase": "thrives on using AI to push boundaries"
+                },
+                {
+                    "category": "SKILL3",
+                    "phrase": "relishes the challenge of aligning technology with client business goals"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "driven by innovation"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "transforming the consulting landscape"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "defining it [the future of consulting]"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "generative AI tools"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "generative AI"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "AI"
                 }
             ]
         }

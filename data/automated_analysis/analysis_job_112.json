@@ -28,48 +28,40 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description emphasizes implementing GenAI solutions and fine-tuning high-level solutions for rapid delivery. While 'Big Data Engineer' is in the title, the core tasks described align more with building and deploying generative AI applications rather than traditional data engineering."
+            "rationale": "The job description explicitly mentions 'GenAI solutions' and the need to 'fine-tune' and 'implement' them. While 'Big Data Engineer' is in the title, the core responsibilities described align with developing and deploying generative AI applications, which is the primary focus of a GenAI Engineer. The emphasis is on implementing GenAI solutions rather than traditional predictive modeling or data engineering alone."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrase": "GenAI solutions can implement",
-                    "justification": "This phrase directly indicates the implementation of Generative AI solutions, which falls under the modeling category for GenAI."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'fine-tune' directly relates to adapting and optimizing generative models.",
+                    "phrase": "fine-tune"
                 },
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrase": "fine-tune",
-                    "justification": "Fine-tuning is a core activity in adapting generative models for specific tasks, fitting within the modeling aspect of GenAI."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'implement GenAI solutions' implies building and deploying applications that utilize generative AI.",
+                    "phrase": "implement GenAI solutions"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrase": "deliver and implement",
-                    "justification": "This implies building and deploying solutions, which are software development tasks, especially when integrating GenAI."
-                },
-                {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrase": "high-level solution",
-                    "justification": "Understanding and refining a 'high-level solution' suggests an ability to grasp business needs and translate them into technical implementations."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'snel kan leveren en implementeren' suggests a focus on productionizing and deploying solutions efficiently.",
+                    "phrase": "snel kan leveren en implementeren"
                 }
             ],
-            "technologies": [],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "with the right questions and drive",
-                    "justification": "This implies a proactive and problem-solving approach to implementing solutions."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "met de juiste vragen en drive"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrase": "drive",
-                    "justification": "The mention of 'drive' suggests a proactive and ownership-oriented mindset."
-                },
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "drive"
+                }
+            ],
+            "technologies": [
                 {
-                    "task_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "fast deliver and implement",
-                    "justification": "Focus on rapid delivery and implementation points to a pragmatic and results-oriented approach."
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "GenAI solutions"
                 }
             ]
         }

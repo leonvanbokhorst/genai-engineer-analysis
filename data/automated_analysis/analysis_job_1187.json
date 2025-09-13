@@ -28,100 +28,80 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The role strongly emphasizes building and deploying generative AI applications, including fine-tuning LLMs and working with frameworks like LangChain. While it includes ML modeling, the focus on generative AI and user-facing applications aligns more closely with the GenAI Engineer profile."
+            "rationale": "The job description emphasizes building and deploying generative AI applications, fine-tuning LLMs, and developing solutions using state-of-the-art frameworks and cloud technologies. While it mentions machine learning models, the specific focus on LLMs and generative AI, alongside MLOps and software development for deployment, aligns more closely with the GenAI Engineer profile than a pure ML Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "Business Understanding",
-                    "phrases": [
-                        "solve complex business problems",
-                        "take a business problem and deliver excellent technical solutions that resolve them",
-                        "ensure seamless integration and deployment of AI solutions that create business impact",
-                        "Communicate with clients about complex solutions in an understandable way"
-                    ],
-                    "justification": "These phrases indicate the need to understand business needs, translate them into technical solutions, and communicate the value and progress of AI solutions to clients and stakeholders."
+                    "category": "TASK3",
+                    "justification": "The phrase 'Build machine learning models for marketing attribution, predicting customer propensity, segmenting customer groups based on behavioural data, and recommending products and/or content' directly relates to the creation and training of predictive models.",
+                    "phrase": "Build machine learning models for marketing attribution, predicting customer propensity, segmenting customer groups based on behavioural data, and recommending products and/or content"
                 },
                 {
-                    "task": "Data Engineering",
-                    "phrases": [
-                        "Work closely with data engineers"
-                    ],
-                    "justification": "While not a primary focus, the mention of working closely with data engineers implies an understanding of and interaction with data pipelines and infrastructure."
+                    "category": "TASK3",
+                    "justification": "The phrase 'Fine-tune Large Language Models to business-specific use cases' explicitly describes the adaptation and training of generative models.",
+                    "phrase": "Fine-tune Large Language Models to business-specific use cases"
                 },
                 {
-                    "task": "Modeling",
-                    "phrases": [
-                        "Build machine learning models for marketing attribution, predicting customer propensity, segmenting customer groups based on behavioural data, and recommending products and/or content.",
-                        "Fine-tune Large Language Models to business-specific use cases."
-                    ],
-                    "justification": "This directly covers the creation and adaptation of both traditional ML models and generative AI models (LLMs) for specific business applications."
+                    "category": "TASK4",
+                    "justification": "The phrase 'Design and architect solutions using state-of-the-art frameworks and cloud technologies' implies building and integrating systems, which is a core part of software development.",
+                    "phrase": "Design and architect solutions using state-of-the-art frameworks and cloud technologies"
                 },
                 {
-                    "task": "Software Development",
-                    "phrases": [
-                        "Design and architect solutions using state-of-the-art frameworks and cloud technologies",
-                        "deploy and maintain machine learning models, generative AI applications",
-                        "ensure seamless integration and deployment of AI solutions"
-                    ],
-                    "justification": "These phrases highlight the need to design, build, integrate, and deploy AI solutions into applications and systems, which are core software development activities."
+                    "category": "TASK5",
+                    "justification": "The phrase 'Deploy MLOps pipelines together with our ML engineers' directly refers to the operational aspects of deploying and managing ML models in production.",
+                    "phrase": "Deploy MLOps pipelines together with our ML engineers"
                 },
                 {
-                    "task": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "deploy and maintain machine learning models, generative AI applications and MLOps pipelines",
-                        "Deploy MLOps pipelines together with our ML engineers"
-                    ],
-                    "justification": "The explicit mention of deploying and maintaining MLOps pipelines is a direct indicator of this task category."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "state-of-the-art frameworks",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK4",
+                    "justification": "The phrase 'ensure seamless integration and deployment of AI solutions that create business impact' points to the software engineering aspect of making AI solutions functional and accessible.",
+                    "phrase": "ensure seamless integration and deployment of AI solutions that create business impact"
                 },
                 {
-                    "technology": "cloud technologies",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK1",
+                    "justification": "The phrase 'take a business problem and deliver excellent technical solutions that resolve them' highlights the need to understand business needs and translate them into technical solutions.",
+                    "phrase": "take a business problem and deliver excellent technical solutions that resolve them"
                 },
                 {
-                    "technology": "Large Language Models",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "SKILL1",
+                    "justification": "The phrase 'Communicate with clients about complex solutions in an understandable way, deliver progress reports and demonstrations of AI solutions' describes the need for clear communication with stakeholders.",
+                    "phrase": "Communicate with clients about complex solutions in an understandable way, deliver progress reports and demonstrations of AI solutions"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "take a business problem and deliver excellent technical solutions that resolve them",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL1",
+                    "phrase": "Communicate with clients about complex solutions in an understandable way, deliver progress reports and demonstrations of AI solutions"
                 },
                 {
-                    "skill": "Work closely with data engineers, fellow data scientists/AI engineers and consultants",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL5",
+                    "phrase": "take a business problem and deliver excellent technical solutions that resolve them"
                 },
                 {
-                    "skill": "Communicate with clients about complex solutions in an understandable way, deliver progress reports and demonstrations of AI solutions",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL2",
+                    "phrase": "Opportunities to work in a dynamic and continuously evolving environment."
                 },
                 {
-                    "skill": "passionate data professionals who love working with cutting-edge technologies",
-                    "category": "SKILL2: Learning & Adaptability"
+                    "category": "SKILL3",
+                    "phrase": "creative freedom, trust, and autonomy"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH10",
+                    "phrase": "machine learning models"
                 },
                 {
-                    "skill": "dynamic and continuously evolving environment",
-                    "category": "SKILL2: Learning & Adaptability"
+                    "category": "TECH3",
+                    "phrase": "Large Language Models"
                 },
                 {
-                    "skill": "creative freedom, trust, and autonomy",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "TECH2",
+                    "phrase": "cloud technologies"
                 },
                 {
-                    "skill": "Support for personal and professional growth through coaching, development plans, and budget allocation",
-                    "category": "SKILL2: Learning & Adaptability"
-                },
-                {
-                    "skill": "Diverse projects that cater to your ambitions",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "TECH6",
+                    "phrase": "MLOps pipelines"
                 }
             ]
         }

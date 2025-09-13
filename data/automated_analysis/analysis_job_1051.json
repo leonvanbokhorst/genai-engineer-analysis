@@ -28,126 +28,183 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes core machine learning engineering tasks such as algorithm development, data pipelines, model training, evaluation, and productionization using MLOps principles. While Generative AI is mentioned as an emerging technology, the primary focus remains on traditional ML model development and deployment."
+            "rationale": "The job description heavily emphasizes core machine learning engineering tasks such as algorithm development, data pipelines, modeling, and productionizing models using MLOps principles. While Generative AI is mentioned as an emerging technology to explore, the primary focus and responsibilities described align more closely with traditional ML Engineer roles centered around predictive modeling and operationalizing ML systems."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
                     "category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "understand business requirements and identify opportunities for applying machine learning",
-                        "optimizing the electricity grid for the future",
-                        "collaborated with LUMC on cancer research"
-                    ],
-                    "justification": "These phrases indicate the need to grasp client needs, apply ML to solve specific business or research problems, and understand the context of the applications."
+                    "justification": "The phrase 'understanding business requirements and identify opportunities for applying machine learning' directly relates to understanding the business context and aligning technical solutions.",
+                    "phrase": "understand business requirements and identify opportunities for applying machine learning"
                 },
                 {
                     "category": "TASK2: Data Engineering",
-                    "phrases": [
-                        "building data pipelines",
-                        "feature preparation"
-                    ],
-                    "justification": "These phrases directly refer to the construction and maintenance of data infrastructure and the preparation of data for modeling."
+                    "justification": "The phrase 'building data pipelines' and 'feature preparation' are core components of data engineering.",
+                    "phrase": "building data pipelines"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'feature preparation' is a key step in the data engineering process for machine learning.",
+                    "phrase": "feature preparation"
                 },
                 {
                     "category": "TASK3: Modeling",
-                    "phrases": [
-                        "algorithm development and implementation",
-                        "data exploration and modeling",
-                        "Designing and implementing machine learning models using a variety of techniques",
-                        "model training",
-                        "latest machine learning techniques and technologies"
-                    ],
-                    "justification": "These phrases cover the core activities of creating, training, adapting, and evaluating machine learning models and algorithms."
+                    "justification": "The phrase 'algorithm development and implementation' and 'Designing and implementing machine learning models' are central to the modeling task.",
+                    "phrase": "algorithm development and implementation"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Designing and implementing machine learning models using a variety of techniques' directly describes the modeling process.",
+                    "phrase": "Designing and implementing machine learning models using a variety of techniques"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'data exploration and modeling' covers both understanding data and building models.",
+                    "phrase": "data exploration and modeling"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'model training' is a fundamental part of the modeling lifecycle.",
+                    "phrase": "model training"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "phrases": [
-                        "productionizing your models",
-                        "deploying them in a cloud environment",
-                        "programming",
-                        "model deployment and model serving"
-                    ],
-                    "justification": "These phrases relate to the software engineering aspects of making models available and functional in a production setting, including deployment and serving."
+                    "justification": "The phrase 'programming' is a core software development activity, especially when applied to ML models and pipelines.",
+                    "phrase": "programming"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'deploying them in a cloud environment' and 'model deployment' involve software engineering practices for making models accessible.",
+                    "phrase": "deploying them in a cloud environment"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'model deployment' is a software development task focused on releasing models into production.",
+                    "phrase": "model deployment"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'model serving' refers to the software engineering aspect of making trained models available for predictions.",
+                    "phrase": "model serving"
                 },
                 {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "productionizing your models and deploying them in a cloud environment",
-                        "scalable deployment pipelines using MLOps best-practices",
-                        "implement and adapt best-practises for modeling, programming and engineering using the latest MLOps principles",
-                        "automation, CI/CD and orchestration",
-                        "whole chain of the machine learning lifecycle, from ideation to deployment and monitoring",
-                        "model deployment and model serving using MLOps principles",
-                        "automation, and CI/CD"
-                    ],
-                    "justification": "These phrases explicitly mention MLOps, CI/CD, automation, deployment, monitoring, and best practices for the ML lifecycle, all core components of Operations Engineering."
-                }
-            ],
-            "technologies": [
-                {
-                    "category": "TECH2: Cloud Platforms & Services",
-                    "technologies": [
-                        "cloud environment"
-                    ]
+                    "justification": "The phrase 'productionizing your models' and 'productionize a machine learning model' directly relates to MLOps and getting models into a production environment.",
+                    "phrase": "productionizing your models"
                 },
                 {
-                    "category": "TECH3: LLM / Generative Models",
-                    "technologies": [
-                        "Generative AI"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'scalable deployment pipelines using MLOps best-practices' explicitly mentions MLOps and deployment pipelines.",
+                    "phrase": "scalable deployment pipelines using MLOps best-practices"
                 },
                 {
-                    "category": "TECH6: MLOps & Data Pipelines",
-                    "technologies": [
-                        "MLOps",
-                        "CI/CD",
-                        "automation",
-                        "orchestration"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'implement and adapt best-practises for modeling, programming and engineering using the latest MLOps principles' clearly indicates a focus on MLOps.",
+                    "phrase": "implement and adapt best-practises for modeling, programming and engineering using the latest MLOps principles"
                 },
                 {
-                    "category": "TECH10: Data Modeling",
-                    "technologies": [
-                        "machine learning models"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'automation, CI/CD and orchestration' are key components of MLOps and operations engineering.",
+                    "phrase": "automation, CI/CD and orchestration"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'whole chain of the machine learning lifecycle, from ideation to deployment and monitoring' describes the scope of MLOps.",
+                    "phrase": "whole chain of the machine learning lifecycle, from ideation to deployment and monitoring"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'model serving using MLOps principles' combines model serving with MLOps practices.",
+                    "phrase": "model serving using MLOps principles"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Following and setting best practices in modeling, programming, automation, and CI/CD' highlights adherence to MLOps and engineering best practices.",
+                    "phrase": "Following and setting best practices in modeling, programming, automation, and CI/CD"
                 }
             ],
             "soft_skills": [
                 {
                     "category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Collaborating with a cross-functional team at our client",
-                        "team of experts who are passionate about machine learning and AI",
-                        "team player",
-                        "enjoys sharing knowledge with others"
-                    ]
+                    "phrase": "Collaborating with a cross-functional team at our client"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "team of experts who are passionate about machine learning and AI"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "team player"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "enjoys sharing knowledge with others"
                 },
                 {
                     "category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "staying ahead of the curve in our constantly evolving field",
-                        "opportunities to explore and work with emerging technologies",
-                        "keep learning",
-                        "Staying up-to-date with the latest machine learning techniques and technologies"
-                    ]
+                    "phrase": "staying ahead of the curve in our constantly evolving field"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "opportunities to explore and work with emerging technologies"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "keep learning"
                 },
                 {
                     "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "satisfaction from seeing your models and algorithms being used in real-world applications",
-                        "implement and adapt best-practises",
-                        "apply them to business problems as appropriate",
-                        "Following and setting best practices"
-                    ]
+                    "phrase": "satisfaction from seeing your models and algorithms being used in real-world applications"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "optimizing the electricity grid for the future"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "ensured you have stable internet connection at home"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "collaborated with LUMC on cancer research"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Analyzing and interpreting results to inform decision-making and drive continuous improvement"
                 },
                 {
                     "category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "identify opportunities for applying machine learning",
-                        "setting best practices"
-                    ]
+                    "phrase": "take initiative"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "programming"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "cloud environment"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Generative AI"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "MLOps"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "CI/CD"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "automation"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "orchestration"
                 }
             ]
         }

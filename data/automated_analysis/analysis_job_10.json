@@ -27,71 +27,69 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on traditional full-stack web development, with no mention of AI, machine learning, or generative models. The tasks described align with general software development rather than specialized AI engineering roles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on general full-stack web development tasks such as designing, developing, and implementing web applications, building back-end systems and APIs, creating user interfaces, and ensuring application quality. It does not mention any specific generative AI models, frameworks, or techniques, nor does it involve tasks directly related to ML model development or deployment. The mention of 'staying up-to-date with the latest industry trends and emerging technologies' is too general to classify it as an AI-specific role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "Ontwerpen, ontwikkelen en implementeren van end-to-end webapplicaties met behulp van moderne frameworks en technologieën",
-                        "Bouwen van efficiënte en schaalbare back-endsystemen en API's voor naadloze gegevensintegratie",
-                        "Creëren van intuïtieve gebruikersinterfaces en boeiende gebruikerservaringen met behulp van HTML, CSS en JavaScript",
-                        "Uitvoeren van grondige tests en debugging om de kwaliteit en prestaties van de ontwikkelde applicaties te waarborgen",
-                        "Bieden van technische ondersteuning en probleemoplossing voor bestaande softwaresystemen"
-                    ],
-                    "justification": "These phrases describe the core activities of building, integrating, deploying, and maintaining software applications, including front-end, back-end, and API development, as well as testing and support."
+                    "category": "TASK4",
+                    "justification": "The description explicitly mentions designing, developing, and implementing end-to-end web applications, building back-end systems and APIs, and creating user interfaces, which are core software development activities.",
+                    "phrase": "Ontwerpen, ontwikkelen en implementeren van end-to-end webapplicaties met behulp van moderne frameworks en technologieën"
                 },
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "Samenwerken met interdisciplinaire teams om vereisten te verzamelen en deze te vertalen naar technische oplossingen"
-                    ],
-                    "justification": "This phrase indicates the need to understand business requirements and translate them into technical solutions, which is a key aspect of business understanding in a development context."
+                    "category": "TASK4",
+                    "justification": "This phrase directly relates to building the server-side logic and communication interfaces for applications.",
+                    "phrase": "Bouwen van efficiënte en schaalbare back-endsystemen en API's voor naadloze gegevensintegratie"
                 },
                 {
-                    "task_category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "Op de hoogte blijven van de nieuwste trends in de branche en opkomende technologieën om de ontwikkelingspraktijken voortdurend te verbeteren"
-                    ],
-                    "justification": "This phrase highlights the importance of staying updated with industry trends and emerging technologies, which directly relates to continuous learning and adaptability."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "HTML",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK4",
+                    "justification": "This describes the front-end development aspect of creating user-facing parts of web applications.",
+                    "phrase": "Creëren van intuïtieve gebruikersinterfaces en boeiende gebruikerservaringen met behulp van HTML, CSS en JavaScript"
                 },
                 {
-                    "technology": "CSS",
-                    "category": "TECH1: Programming Languages"
+                    "category": "SKILL1",
+                    "justification": "This phrase indicates the need to collaborate with different teams and translate requirements, which falls under communication and collaboration skills.",
+                    "phrase": "Samenwerken met interdisciplinaire teams om vereisten te verzamelen en deze te vertalen naar technische oplossingen"
                 },
                 {
-                    "technology": "JavaScript",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK4",
+                    "justification": "Ensuring quality and performance through testing and debugging are standard software development practices.",
+                    "phrase": "Uitvoeren van grondige tests en debugging om de kwaliteit en prestaties van de ontwikkelde applicaties te waarborgen"
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "Providing technical support and troubleshooting for existing systems is a common task in software development and maintenance.",
+                    "phrase": "Bieden van technische ondersteuning en probleemoplossing voor bestaande softwaresystemen"
+                },
+                {
+                    "category": "SKILL2",
+                    "justification": "This highlights the importance of staying updated with industry trends and technologies, which is a key aspect of learning and adaptability in a tech role.",
+                    "phrase": "Op de hoogte blijven van de nieuwste trends in de branche en opkomende technologieën om de ontwikkelingspraktijken voortdurend te verbeteren"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Samenwerken met interdisciplinaire teams om vereisten te verzamelen en deze te vertalen naar technische oplossingen"
-                    ]
+                    "category": "SKILL1",
+                    "phrase": "Samenwerken met interdisciplinaire teams om vereisten te verzamelen en deze te vertalen naar technische oplossingen"
                 },
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "Op de hoogte blijven van de nieuwste trends in de branche en opkomende technologieën om de ontwikkelingspraktijken voortdurend te verbeteren"
-                    ]
+                    "category": "SKILL2",
+                    "phrase": "Op de hoogte blijven van de nieuwste trends in de branche en opkomende technologieën om de ontwikkelingspraktijken voortdurend te verbeteren"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1",
+                    "phrase": "HTML"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Bieden van technische ondersteuning en probleemoplossing voor bestaande softwaresystemen",
-                        "Uitvoeren van grondige tests en debugging om de kwaliteit en prestaties van de ontwikkelde applicaties te waarborgen"
-                    ]
+                    "category": "TECH1",
+                    "phrase": "CSS"
+                },
+                {
+                    "category": "TECH1",
+                    "phrase": "JavaScript"
                 }
             ]
         }

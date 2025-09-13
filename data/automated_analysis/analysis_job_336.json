@@ -28,88 +28,100 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 3,
-            "rationale": "The role focuses heavily on data architecture, data pipelines, and ensuring data access for AI applications, aligning with Data Engineering and MLOps. While it mentions LLM engineers and AI assistants, the core responsibilities are centered around data infrastructure and flow rather than generative model development or application building."
+            "rationale": "The job description emphasizes designing, developing, and optimizing data architectures, building robust data pipelines, and ensuring data access for AI applications. While it mentions collaboration with LLM engineers and transforming prototypes, the core responsibilities and listed tasks (data architecture, data streams, vector databases, access control, monitoring data processes) align most closely with Data Engineering and Operations Engineering aspects of an ML Engineer role, rather than the core generative model development or application building typical of a GenAI Engineer. The focus is on the data infrastructure supporting AI, not the AI models or applications themselves."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK2: Data Engineering",
-                    "phrases": [
-                        "ontwerpen, ontwikkelen en optimaliseren van data-architecturen",
-                        "zorgt voor veilige en efficiënte toegang tot data voor AI-toepassingen",
-                        "ontwikkeling van betrouwbare datastromen",
-                        "Ontwerpen en beheren van schaalbare data-architecturen voor LLM-toepassingen",
-                        "Ontwikkelen en onderhouden van robuuste datastromen vanuit diverse bronnen naar een vector database in AWS",
-                        "Implementeren van role-based access control en data masking",
-                        "Monitoren en optimaliseren van dataprocessen via dashboards, logging en incidentmanagement"
-                    ],
-                    "justification": "These phrases directly describe the design, development, maintenance, and optimization of data infrastructure, pipelines, and access controls, which are core to data engineering."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Ontwerpen, ontwikkelen en optimaliseren van data-architecturen' directly relates to building and maintaining data infrastructure.",
+                    "phrase": "Ontwerpen, ontwikkelen en optimaliseren van data-architecturen"
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Monitoren en optimaliseren van dataprocessen via dashboards, logging en incidentmanagement"
-                    ],
-                    "justification": "Monitoring, optimization, logging, and incident management of data processes are key components of MLOps, ensuring the reliability and performance of data pipelines in production."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'zorgt voor veilige en efficiënte toegang tot data voor AI-toepassingen' highlights the role in preparing and managing data for AI consumption.",
+                    "phrase": "zorgt voor veilige en efficiënte toegang tot data voor AI-toepassingen"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrases": [
-                        "helpt innovatieve prototypes om te zetten in werkende oplossingen"
-                    ],
-                    "justification": "This phrase implies taking existing prototypes and making them functional in a production or operational context, which involves software development principles."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'ontwikkeling van betrouwbare datastromen' is a core data engineering activity.",
+                    "phrase": "ontwikkeling van betrouwbare datastromen"
                 },
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrases": [
-                        "Presenteren van bevindingen aan stakeholders en bijdragen aan de ontwikkeling van de AI-assistent",
-                        "Werken in een Agile omgeving om projectdoelen te behalen"
-                    ],
-                    "justification": "Presenting findings to stakeholders and working in an Agile environment to achieve project goals indicate an understanding of business context and project management."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "AWS",
-                    "type": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Ontwerpen en beheren van schaalbare data-architecturen voor LLM-toepassingen' specifically details the design and management of data systems for AI.",
+                    "phrase": "Ontwerpen en beheren van schaalbare data-architecturen voor LLM-toepassingen"
                 },
                 {
-                    "technology": "vector database",
-                    "type": "TECH5: Vector Stores & Search"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Ontwikkelen en onderhouden van robuuste datastromen vanuit diverse bronnen naar een vector database' describes the creation and maintenance of data pipelines.",
+                    "phrase": "Ontwikkelen en onderhouden van robuuste datastromen vanuit diverse bronnen naar een vector database"
                 },
                 {
-                    "technology": "LLM",
-                    "type": "TECH3: LLM / Generative Models"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Implementeren van role-based access control en data masking' relates to data governance and security, which are part of data engineering.",
+                    "phrase": "Implementeren van role-based access control en data masking"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Monitoren en optimaliseren van dataprocessen via dashboards, logging en incidentmanagement' describes operational aspects of managing data pipelines and systems.",
+                    "phrase": "Monitoren en optimaliseren van dataprocessen via dashboards, logging en incidentmanagement"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Presenteren van bevindingen aan stakeholders' involves communicating technical information to non-technical audiences and understanding business context.",
+                    "phrase": "Presenteren van bevindingen aan stakeholders"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'helpt innovatieve prototypes om te zetten in werkende oplossingen' implies taking developed models or systems and making them functional, which can involve software development aspects.",
+                    "phrase": "helpt innovatieve prototypes om te zetten in werkende oplossingen"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'bijdragen aan de ontwikkeling van de AI-assistent' shows involvement in a broader product development context.",
+                    "phrase": "bijdragen aan de ontwikkeling van de AI-assistent"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'Werken in een Agile omgeving' indicates a collaborative and iterative work style.",
+                    "phrase": "Werken in een Agile omgeving"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Werkt nauw samen met LLM-engineers",
-                        "Presenteren van bevindingen aan stakeholders"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Werken in een Agile omgeving"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "ontwerpen, ontwikkelen en optimaliseren van data-architecturen",
-                        "helpt innovatieve prototypes om te zetten in werkende oplossingen",
-                        "Monitoren en optimaliseren van dataprocessen"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Presenteren van bevindingen aan stakeholders"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "Werken in een Agile omgeving"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "optimaliseren van data-architecturen"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "bijdragen aan de ontwikkeling van de AI-assistent"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "optimaliseren van dataprocessen"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "helpt innovatieve prototypes om te zetten in werkende oplossingen"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "AWS"
+                },
+                {
+                    "category": "TECH5: Vector Stores & Search",
+                    "phrase": "vector database"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLM-toepassingen"
                 }
             ]
         }

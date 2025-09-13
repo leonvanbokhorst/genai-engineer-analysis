@@ -27,132 +27,132 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional data engineering tasks like building data pipelines, data warehousing, and data lakes. While it mentions an 'AI team', the core responsibilities and technologies listed do not align with the specialized skills of an ML Engineer or GenAI Engineer."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on traditional data engineering tasks such as data pipelines, data warehousing, and infrastructure as code. While it mentions working within a 'Data & AI team' and 'dataproducten', it lacks specific details about generative AI models, LLMs, fine-tuning, or advanced AI modeling techniques that would align it with a GenAI Engineer or ML Engineer profile. The role appears to be primarily focused on building the data foundation rather than developing or deploying AI models themselves, making it fall under the 'Ambiguous' category as it's not a core AI development role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "Data Engineering",
-                    "phrases": [
-                        "data-infrastructuren",
-                        "data pipelines",
-                        "data warehouses",
-                        "data lakes",
-                        "data migraties",
-                        "dataplatforms"
-                    ],
-                    "justification": "These phrases directly relate to the design, building, and maintenance of data pipelines and infrastructure, including data collection, preprocessing, and storage."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'ontwikkeling van moderne, schaalbare en onderhoudsvriendelijke data-infrastructuren' directly relates to building and maintaining data infrastructure.",
+                    "phrase": "ontwikkeling van moderne, schaalbare en onderhoudsvriendelijke data-infrastructuren"
                 },
                 {
-                    "task": "Software Development",
-                    "phrases": [
-                        "programmeervaardigheden in Python (PySpark), SQL",
-                        "ontwikkelen van schaalbare en onderhoudsvriendelijke data pipelines",
-                        "REST API's",
-                        "SQL-databases"
-                    ],
-                    "justification": "The role requires strong programming skills in Python (PySpark) and SQL to develop data pipelines, and mentions interacting with REST APIs and SQL databases, which are software development related activities in the context of data integration."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'data pipelines die data uit onder andere REST API's en SQL-databases beschikbaar maken in data warehouses' describes the core function of data pipelines and making data available in data warehouses.",
+                    "phrase": "data pipelines die data uit onder andere REST API's en SQL-databases beschikbaar maken in data warehouses"
                 },
                 {
-                    "task": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "inrichten van cloud infrastructuur op basis van IaC (infrastructure as code, bijvoorbeeld in Bicep of Terraform)"
-                    ],
-                    "justification": "The mention of Infrastructure as Code (IaC) tools like Bicep or Terraform for setting up cloud infrastructure aligns with the principles of Operations Engineering, specifically in managing and automating infrastructure for data platforms."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Implementeren van data warehousing en data lakes, waaronder het verzorgen van geautomatiseerde data migraties' clearly falls under data warehousing and data lake implementation and data migration.",
+                    "phrase": "Implementeren van data warehousing en data lakes, waaronder het verzorgen van geautomatiseerde data migraties"
                 },
                 {
-                    "task": "Business Understanding",
-                    "phrases": [
-                        "klanten helpen bij het realiseren van hun datagedreven doelstellingen",
-                        "dataproducten mogelijk maken",
-                        "analyseren van de bestaande dataplatforms en op basis daarvan voorstellen doen voor structurele verbeteringen"
-                    ],
-                    "justification": "The role is focused on enabling clients' data-driven goals and improving existing data platforms, indicating an understanding of business needs and how data infrastructure supports them."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Inrichten van cloud infrastructuur op basis van IaC (infrastructure as code, bijvoorbeeld in Bicep of Terraform)' describes setting up cloud infrastructure using Infrastructure as Code, a key data engineering task.",
+                    "phrase": "Inrichten van cloud infrastructuur op basis van IaC (infrastructure as code, bijvoorbeeld in Bicep of Terraform)"
                 },
                 {
-                    "task": "Modeling",
-                    "phrases": [
-                        "Het modelleren en structureren van data"
-                    ],
-                    "justification": "This phrase directly refers to data modeling, which is a component of data engineering, but not the core ML/GenAI model building or fine-tuning expected in ML or GenAI Engineer roles."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Python",
-                    "type": "TECH1: Programming Languages"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Analyseren van de bestaande dataplatforms en op basis daarvan voorstellen doen voor structurele verbeteringen' involves analyzing and improving existing data platforms.",
+                    "phrase": "Analyseren van de bestaande dataplatforms en op basis daarvan voorstellen doen voor structurele verbeteringen"
                 },
                 {
-                    "technology": "PySpark",
-                    "type": "TECH11: Data Analysis"
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Het modelleren en structureren van data' directly refers to data modeling, a fundamental aspect of data engineering and preparing data for analysis or ML.",
+                    "phrase": "Het modelleren en structureren van data"
                 },
                 {
-                    "technology": "SQL",
-                    "type": "TECH11: Data Analysis"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'sterke programmeervaardigheden in Python (PySpark), SQL' indicates strong programming skills necessary for software development tasks within data engineering.",
+                    "phrase": "sterke programmeervaardigheden in Python (PySpark), SQL"
                 },
                 {
-                    "technology": "Azure Databricks",
-                    "type": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'zorg je voor een solide, betrouwbare basis voor het leveren van dataproducten' implies ensuring the reliability and production readiness of data products, which aligns with operational aspects.",
+                    "phrase": "zorg je voor een solide, betrouwbare basis voor het leveren van dataproducten"
                 },
                 {
-                    "technology": "REST API's",
-                    "type": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'onze klanten helpen bij het realiseren van hun datagedreven doelstellingen' shows an understanding of business goals and how data contributes to them.",
+                    "phrase": "onze klanten helpen bij het realiseren van hun datagedreven doelstellingen"
                 },
                 {
-                    "technology": "SQL-databases",
-                    "type": "TECH9: Data Storage"
-                },
-                {
-                    "technology": "data warehouses",
-                    "type": "TECH9: Data Storage"
-                },
-                {
-                    "technology": "data lakes",
-                    "type": "TECH9: Data Storage"
-                },
-                {
-                    "technology": "Bicep",
-                    "type": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "technology": "Terraform",
-                    "type": "TECH6: MLOps & Data Pipelines"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "justification": "The phrase 'Up-to-date blijven en delen van kennis omtrent de nieuwste trends en technologieën op het gebied van data en AI' indicates a need for continuous learning and staying updated with new technologies.",
+                    "phrase": "Up-to-date blijven en delen van kennis omtrent de nieuwste trends en technologieën op het gebied van data en AI"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "Learning & Adaptability",
-                    "phrases": [
-                        "Up-to-date blijven en delen van kennis omtrent de nieuwste trends en technologieën op het gebied van data en AI."
-                    ],
-                    "justification": "This phrase explicitly states the need to stay updated with the latest trends and technologies in data and AI, demonstrating a requirement for continuous learning and adaptability."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "veelzijdig team met Data Scientists, Data Analisten, Software Engineers en DevOps consultants"
                 },
                 {
-                    "skill": "Communication & Collaboration",
-                    "phrases": [
-                        "wij zijn op zoek naar een Data Engineer die ons Data & AI team komt versterken",
-                        "veelzijdig team met Data Scientists, Data Analisten, Software Engineers en DevOps consultants",
-                        "cruciale verbindende rol binnen ons team"
-                    ],
-                    "justification": "The role is positioned as a connecting role within a multidisciplinary team, implying the need for effective communication and collaboration with various technical professionals."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "cruciale verbindende rol"
                 },
                 {
-                    "skill": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "analyseren van de bestaande dataplatforms en op basis daarvan voorstellen doen voor structurele verbeteringen"
-                    ],
-                    "justification": "Analyzing existing platforms and proposing structural improvements indicates a problem-solving approach focused on practical, long-term solutions."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Up-to-date blijven en delen van kennis omtrent de nieuwste trends en technologieën op het gebied van data en AI"
                 },
                 {
-                    "skill": "Innovation & Ownership",
-                    "phrases": [
-                        "ontwikkeling van moderne, schaalbare en onderhoudsvriendelijke data-infrastructuren",
-                        "inrichten van toekomstgerichte dataplatforms",
-                        "zorg je voor een solide, betrouwbare basis"
-                    ],
-                    "justification": "The emphasis on developing modern, scalable, future-oriented data infrastructures and ensuring a solid, reliable basis suggests a proactive and ownership-driven approach to building robust data solutions."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "voorstellen doen voor structurele verbeteringen"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "ontwikkeling van moderne, schaalbare en onderhoudsvriendelijke data-infrastructuren"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "SQL"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "PySpark"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure Databricks"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "data pipelines"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "SQL-databases"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "data warehousing"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "data lakes"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "IaC (infrastructure as code)"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Bicep"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Terraform"
+                },
+                {
+                    "category": "TECH11: Data Analysis",
+                    "phrase": "REST API's"
                 }
             ]
         }

@@ -28,99 +28,80 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes the development and implementation of generative AI solutions, specifically mentioning LLMs and RAG. It also highlights building and managing production-grade systems using cloud platforms and relevant frameworks, aligning with the core responsibilities of a GenAI Engineer."
+            "rationale": "The job description heavily emphasizes the development and implementation of generative AI solutions, specifically mentioning Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG). It also highlights the use of frameworks and tools common in GenAI development like Python, Azure, and Terraform, and the need to build and manage these solutions, aligning with the core responsibilities of a GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "generative AI",
-                        "Large Language Models (LLMs)",
-                        "Retrieval-Augmented Generation (RAG)",
-                        "innovatieve generatieve-ai-oplossingen te ontwikkelen",
-                        "AI-oplossingen te ontwerpen, te bouwen en implementeren",
-                        "op maat gemaakte oplossingen met behulp van tools zoals ... LLMs",
-                        "beheren en verbeteren van bestaande oplossingen",
-                        "ontwerpen, bouwen en beheren van jouw oplossingen"
-                    ],
-                    "justification": "These phrases directly relate to the creation, adaptation, and management of generative AI models and systems, including LLMs and RAG, which are central to the 'Modeling' category for GenAI."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves developing and implementing innovative cloud and AI solutions, which includes building and managing these solutions using tools like Terraform and Python, and integrating LLMs.",
+                    "phrase": "ontwikkelen en implementeren van innovatieve cloud- en AI-oplossingen"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "innovatieve cloud- en AI-oplossingen te ontwikkelen en implementeren",
-                        "bouwen en implementeren",
-                        "bouwen en beheren van innovatieve cloud- en AI-oplossingen",
-                        "ontwerpen, bouwen en implementeren",
-                        "ontwerpen, bouwen en beheren van jouw oplossingen"
-                    ],
-                    "justification": "These phrases describe the practical application and integration of AI solutions into functional systems, which falls under building and deploying software."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description explicitly states the responsibility for building and managing solutions, indicating a software development focus.",
+                    "phrase": "bouwen en beheren van innovatieve cloud- en AI-oplossingen"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "implementeren",
-                        "bouwen en beheren",
-                        "beheren en verbeteren van bestaande oplossingen",
-                        "ontwerpen, bouwen en beheren van jouw oplossingen"
-                    ],
-                    "justification": "The recurring emphasis on 'bouwen en beheren' (building and managing) and 'implementeren' (implementing) suggests a focus on productionizing and maintaining AI solutions, aligning with MLOps principles."
+                    "category": "TASK3: Modeling",
+                    "justification": "The job involves applying generative AI and Large Language Models (LLMs) to develop solutions, which falls under the modeling category.",
+                    "phrase": "generative AI, Large Language Models (LLMs)"
                 },
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "versnellen van de energietransitie",
-                        "efficiëntie en effectiviteit van onze netbeheeroperaties verbeteren",
-                        "verminderen van de druk op schaarste personeelscapaciteit",
-                        "bevorderen van de energietransitie"
-                    ],
-                    "justification": "These phrases indicate an understanding of the business goals and how AI solutions contribute to strategic objectives like energy transition and operational efficiency."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_category": "TECH2: Cloud Platforms & Services",
-                    "phrase": "Azure"
-                },
-                {
-                    "tech_category": "TECH3: LLM / Generative Models",
-                    "phrase": "Large Language Models (LLMs)"
-                },
-                {
-                    "tech_category": "TECH4: LLM Frameworks & Libraries",
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of Retrieval-Augmented Generation (RAG) is a specific technique within generative AI modeling.",
                     "phrase": "Retrieval-Augmented Generation (RAG)"
                 },
                 {
-                    "tech_category": "TECH1: Programming Languages",
-                    "phrase": "Python"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The role requires managing and improving existing solutions, which implies operational aspects of deployed AI systems.",
+                    "phrase": "beheren en verbeteren van bestaande oplossingen"
                 },
                 {
-                    "tech_category": "TECH6: MLOps & Data Pipelines",
-                    "phrase": "Terraform"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role is framed within the context of accelerating the energy transition and improving network management operations, indicating a need to understand business goals.",
+                    "phrase": "versnellen van de energietransitie door innovatieve cloud- en AI-oplossingen te ontwikkelen en implementeren"
                 },
                 {
-                    "tech_category": "TECH3: LLM / Generative Models",
-                    "phrase": "generative AI"
-                },
-                {
-                    "tech_category": "TECH3: LLM / Generative Models",
-                    "phrase": "AI producten (DSpy)"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The goal of improving efficiency and effectiveness of network management operations and reducing pressure on scarce personnel capacity shows a clear link to business objectives.",
+                    "phrase": "verbeteren, met een focus op het verminderen van de druk op schaarste personeelscapaciteit en het bevorderen van de energietransitie"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
+                    "category": "SKILL1: Communication & Collaboration",
                     "phrase": "boeiende samenwerkingen, zowel binnen als buiten je team"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
+                    "category": "SKILL5: Innovation & Ownership",
                     "phrase": "Je neemt je verantwoordelijkheid in het ontwerpen, bouwen en beheren van jouw oplossingen."
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
+                    "category": "SKILL3: Problem Solving & Pragmatism",
                     "phrase": "Je denkt mee met het team hoe we het beste onze technieken en tools kunnen inzetten."
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Large Language Models (LLMs)"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "Retrieval-Augmented Generation (RAG)"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Terraform"
                 }
             ]
         }

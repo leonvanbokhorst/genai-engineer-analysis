@@ -27,95 +27,96 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description heavily emphasizes traditional backend software engineering using Go, focusing on API development and data ingestion. While it mentions 'advanced AI tech' and an 'interest in GenAI', these are not core responsibilities or required skills, making it primarily a software engineering role rather than a specialized AI/GenAI engineering position."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on backend software development using Go and PostgreSQL, with a mention of cloud platforms and API development. While there is a bonus point for interest in GenAI and the company uses 'advanced AI tech', the core responsibilities and required experience do not align with the specific tasks and technologies of a GenAI Engineer or ML Engineer. The role is primarily traditional backend software engineering, making it fall under the 'Ambiguous' category as it's not a dedicated AI/ML role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "phrase": "delivering product features",
                     "category": "TASK4: Software Development",
-                    "justification": "This phrase directly relates to building and implementing features within a software product, which is a core aspect of software development."
+                    "justification": "The description explicitly states 'backend development', 'delivering product features', 'developing backend APIs', and 'API and SaaS backend web app development', which are core software development tasks.",
+                    "phrase": "backend development"
                 },
                 {
-                    "phrase": "developing backend APIs",
                     "category": "TASK4: Software Development",
-                    "justification": "Developing APIs is a fundamental task in backend software engineering, focusing on creating interfaces for software components to communicate."
+                    "justification": "The role requires building and maintaining APIs, a fundamental aspect of backend software development.",
+                    "phrase": "developing backend APIs"
                 },
                 {
-                    "phrase": "data collection and ingestion services",
                     "category": "TASK2: Data Engineering",
-                    "justification": "This involves building services responsible for gathering and processing incoming data, which falls under data engineering responsibilities."
+                    "justification": "The role involves 'data collection and ingestion services', 'Data scraping, aggregation, processing, and ingestion', and potentially 'data pipelines and large-scale data aggregation', which are data engineering tasks.",
+                    "phrase": "data collection and ingestion services"
                 },
                 {
-                    "phrase": "Data scraping, aggregation, processing, and ingestion",
                     "category": "TASK2: Data Engineering",
-                    "justification": "These are all core activities within data engineering, focused on acquiring, cleaning, and preparing data for use."
+                    "justification": "This phrase directly relates to the handling and preparation of data for use.",
+                    "phrase": "Data scraping, aggregation, processing, and ingestion"
                 },
                 {
-                    "phrase": "deploying Go applications on cloud platforms",
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "Deploying applications to cloud environments is a key part of operations engineering, ensuring software is live and accessible."
+                    "justification": "The requirement to deploy Go applications on cloud platforms and the bonus mention of 'Infrastructure as Code tooling' suggest involvement in operational aspects of software deployment.",
+                    "phrase": "deploying Go applications on cloud platforms"
                 },
                 {
-                    "phrase": "API and SaaS backend web app development",
-                    "category": "TASK4: Software Development",
-                    "justification": "This encompasses the full lifecycle of building backend web applications, including API design and implementation, which is central to software development."
-                },
-                {
-                    "phrase": "data pipelines and large-scale data aggregation",
-                    "category": "TASK2: Data Engineering",
-                    "justification": "Experience with data pipelines and aggregation directly relates to the infrastructure and processes for managing large datasets, a key data engineering function."
-                },
-                {
-                    "phrase": "An interest in GenAI (we have shipped multiple features and have many more in the pipeline)",
-                    "category": "TASK3: Modeling",
-                    "justification": "While framed as an interest, the mention of shipping GenAI features implies some level of involvement in or understanding of generative AI models, which falls under the modeling category."
-                }
-            ],
-            "technologies": [
-                {
-                    "phrase": "Go",
-                    "category": "TECH1: Programming Languages"
-                },
-                {
-                    "phrase": "PostgreSQL",
-                    "category": "TECH9: Data Storage"
-                },
-                {
-                    "phrase": "cloud platforms",
-                    "category": "TECH2: Cloud Platforms & Services"
-                },
-                {
-                    "phrase": "Google Cloud Platform",
-                    "category": "TECH2: Cloud Platforms & Services"
-                },
-                {
-                    "phrase": "Terraform",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "phrase": "Pulumi",
-                    "category": "TECH6: MLOps & Data Pipelines"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The company's mission to 'provide global private market visibility' and serving specific industries like private equity and M&A indicates a need for understanding the business context.",
+                    "phrase": "provide global private market visibility"
                 }
             ],
             "soft_skills": [
                 {
-                    "phrase": "operate efficiently and pragmatically, where everyone's voice is heard",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "operate efficiently and pragmatically"
                 },
                 {
-                    "phrase": "rapidly scaling so there's plenty of room to have a big impact and set directions",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "everyone's voice is heard"
                 },
                 {
-                    "phrase": "Flexibility and freedom",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "plenty of room to have a big impact and set directions"
                 },
                 {
-                    "phrase": "An interest in GenAI",
-                    "category": "SKILL2: Learning & Adaptability"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "An interest in GenAI"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Go"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "PostgreSQL"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "SQL databases"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "cloud platforms"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Google Cloud Platform"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Infrastructure as Code tooling"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Terraform"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Pulumi"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "data pipelines"
                 }
             ]
         }

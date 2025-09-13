@@ -28,139 +28,120 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 5,
-            "rationale": "The job description heavily emphasizes the development and deployment of applications built on generative models, including LLMs, voice APIs, and image recognition. It specifically mentions core GenAI responsibilities like fine-tuning language models, using frameworks like LangChain and LangGraph, and building agentic systems, aligning perfectly with the GenAI Engineer profile."
+            "rationale": "The job description heavily emphasizes the development, fine-tuning, and deployment of applications built on generative AI models, including LLMs, agentic systems, voice APIs, and image recognition. It explicitly mentions core GenAI responsibilities like fine-tuning language models, using frameworks like LangChain and LangGraph, and building RAG-like systems (implied by agentic systems). The focus is on creating user-facing applications and integrating GenAI into business processes, aligning perfectly with the definition of a GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "ontwikkelen van GenAI-toepassingen",
-                        "cutting-edge agentic system",
-                        "ontwikkelen van een voice-API met OpenAI",
-                        "werken aan image recognition",
-                        "fine-tunen van taalmodellen",
-                        "structured output om dynamische API-calls mogelijk te maken",
-                        "integreren van nieuwe technieken"
-                    ],
-                    "justification": "These phrases directly relate to building, adapting, and fine-tuning generative AI models and systems, which is the core of the Modeling task for GenAI."
+                    "category": "TASK3: Modeling",
+                    "justification": "The job description mentions 'fine-tunen van taalmodellen' and working with 'agentic system' and 'bots die bots valideren', which are core activities in generative AI model adaptation and application.",
+                    "phrase": "fine-tunen van taalmodellen"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "ontwikkelen van GenAI-toepassingen",
-                        "ontwikkelen van een voice-API",
-                        "bouwen van agentic systems en bots",
-                        "dynamische API-calls mogelijk te maken",
-                        "AI-first development-workflow",
-                        "vertaalt businessvragen naar haalbare technische oplossingen"
-                    ],
-                    "justification": "These phrases describe the development of user-facing applications and systems that integrate AI capabilities, including API development and translating business needs into technical solutions."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'agentic system' refers to complex AI systems that can act autonomously, which is a form of advanced modeling and system design.",
+                    "phrase": "agentic system"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "onbeperkte cloudresources",
-                        "AI-first development-workflow",
-                        "zorg ervoor dat de roadmap realistisch is",
-                        "neemt de verantwoordelijkheid voor het hele scrumproces",
-                        "zelf tools en methoden te kiezen"
-                    ],
-                    "justification": "While not explicitly using 'MLOps', phrases like 'unlimited cloud resources', 'AI-first development-workflow', and taking responsibility for the process and roadmap imply the operational aspects of deploying and maintaining AI systems."
+                    "category": "TASK3: Modeling",
+                    "justification": "Developing a 'voice-API' involves creating or integrating models that handle speech generation and understanding, a key aspect of generative AI modeling.",
+                    "phrase": "ontwikkelen van een voice-API"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "GenAI toepassen in alle werkzaamheden van Zonneplan",
-                        "ambitie Zonneplan een 'AI-first organisatie' te maken",
-                        "direct impact maken op de energietransitie",
-                        "innovatieve AI-oplossingen voor je collega's en de klanten",
-                        "vertaalt businessvragen naar haalbare technische oplossingen"
-                    ],
-                    "justification": "These phrases highlight the alignment of AI initiatives with business goals, the ambition to become an 'AI-first organization', and translating business needs into technical solutions."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "mentions": [
-                        "ChatGPT-3.5",
-                        "GenAI-toepassingen",
-                        "voice-API met OpenAI",
-                        "taalmodellen"
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "Image recognition is a form of AI modeling, often involving deep learning techniques.",
+                    "phrase": "image recognition"
                 },
                 {
-                    "tech_name": "TECH4: LLM Frameworks & Libraries",
-                    "mentions": [
-                        "LangChain",
-                        "LangSmith",
-                        "LangGraph"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves building 'GenAI-applicaties' and 'user-facing software systems' which requires traditional software development practices.",
+                    "phrase": "ontwikkelen van GenAI-toepassingen"
                 },
                 {
-                    "tech_name": "TECH1: Programming Languages",
-                    "mentions": [
-                        "TypeScript",
-                        "Python"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The mention of 'structured output om dynamische API-calls mogelijk te maken' points to the development of APIs and the software that interacts with them.",
+                    "phrase": "structured output om dynamische API-calls mogelijk te maken"
                 },
                 {
-                    "tech_name": "TECH2: Cloud Platforms & Services",
-                    "mentions": [
-                        "OpenAI",
-                        "onbeperkte cloudresources"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The job involves creating 'prototypes' and ensuring products 'snel live gaan', indicating a software development lifecycle.",
+                    "phrase": "prototype klaar heeft staan"
                 },
                 {
-                    "tech_name": "TECH6: MLOps & Data Pipelines",
-                    "mentions": [
-                        "agentic system",
-                        "agentic systems en bots"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The statement 'we met onbeperkte cloudresources werken' implies managing and utilizing cloud infrastructure for AI development and deployment, which is part of MLOps.",
+                    "phrase": "onbeperkte cloudresources werken"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires translating 'businessvragen naar haalbare technische oplossingen', which is a core aspect of understanding business needs and aligning technical solutions.",
+                    "phrase": "vertaalt businessvragen naar haalbare technische oplossingen"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The ambition to make Zonneplan an 'AI-first organisatie' indicates a strategic business goal that the AI development should support.",
+                    "phrase": "Zonneplan een 'AI-first organisatie' te maken"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of 'AI-first development-workflow' suggests a focus on optimizing the entire development and deployment process for AI, which aligns with MLOps principles.",
+                    "phrase": "AI-first development-workflow"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "mentions": [
-                        "innovatieve AI-oplossingen",
-                        "cutting-edge technologieën",
-                        "creativiteit",
-                        "Nieuwe technologieën omarmen en implementeren",
-                        "prototype klaar te staan",
-                        "grenzen van wat mogelijk is verder oprekt",
-                        "Leiderschap en innovatie binnen AI-projecten",
-                        "AI-first development-workflow",
-                        "neemt de verantwoordelijkheid voor het hele scrumproces",
-                        "vrijheid om zelf tools en methoden te kiezen"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Jij bent degene die de dag na een nieuwe productlancering al een prototype klaar heeft staan"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "mentions": [
-                        "vertaalt businessvragen naar haalbare technische oplossingen",
-                        "roadmap realistisch is",
-                        "zelf tools en methoden te kiezen"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "neemt de verantwoordelijkheid voor het hele scrumproces"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "mentions": [
-                        "Nieuwe technologieën omarmen en implementeren",
-                        "in cutting-edge technologieën te duiken",
-                        "elke keer als we een nieuwe uitdaging tegenkomen",
-                        "wacht elke nieuwe AI-productlancering met spanning af"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Nieuwe technologieën omarmen en implementeren"
                 },
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "mentions": [
-                        "AI-oplossingen voor je collega's en de klanten",
-                        "vertaalt businessvragen naar haalbare technische oplossingen",
-                        "vervult ook de rol van scrum master"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "vertaalt businessvragen naar haalbare technische oplossingen"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "vervangt de rol van scrum master"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "TypeScript"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "ChatGPT-3.5"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "OpenAI"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "LangChain"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "LangSmith"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "LangGraph"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "cloudresources"
                 }
             ]
         }

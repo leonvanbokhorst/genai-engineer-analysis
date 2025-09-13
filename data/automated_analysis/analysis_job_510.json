@@ -28,57 +28,49 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes working with generative models, specifically mentioning ComfyUI, AI Controllers, and the training/management of customized models and LoRAs. This aligns directly with the core responsibilities of a GenAI Engineer focused on fine-tuning and deploying generative AI applications."
+            "rationale": "The job description heavily emphasizes the use and configuration of generative AI tools like ComfyUI, the manipulation of AI-generated elements (models, LoRas), and the training of customized models. This aligns directly with the core responsibilities of a GenAI Engineer, focusing on developing and fine-tuning generative models and integrating them into usable outputs. While there's an element of model training, the primary focus is on leveraging and controlling generative AI for visual outputs, rather than building predictive models from scratch, which would lean more towards an ML Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "Configuring reusable template elements, called AI Controllers in several tools, most notably in ComfyUI",
-                        "Using various image manipulation tools (both AI and traditional) to create the elements needed for controlling the AI (depth-maps, retouched elements, segmenters, refiners, various models and LoRas)",
-                        "Support on and managing the training of customized models and LoRas",
-                        "Ensure AI is used in a controlled way to generate high visual quality final usable outputs for our clients"
-                    ],
-                    "justification": "These phrases directly relate to the creation, control, training, and fine-tuning of AI models, particularly generative models like those used in image manipulation and generation (LoRAs, ComfyUI)."
+                    "category": "TASK3",
+                    "justification": "The description mentions 'training of customized models and LoRas' and 'controlling the AI to generate high visual quality final usable outputs', which directly relates to the core process of creating, training, or adapting machine learning models, specifically generative ones.",
+                    "phrase": "training of customized models and LoRas"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "Configuring reusable template elements, called AI Controllers in several tools, most notably in CompyUI"
-                    ],
-                    "justification": "While primarily focused on modeling, the configuration of 'AI Controllers' within tools like ComfyUI implies some level of software integration and development to make these elements functional within a larger system."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_category": "TECH4: LLM Frameworks & Libraries",
-                    "technologies": [
-                        "ComfyUI"
-                    ]
+                    "category": "TASK3",
+                    "justification": "Configuring 'AI Controllers' in tools like ComfyUI and using 'various image manipulation tools (both AI and traditional) to create the elements needed for controlling the AI' points to the practical application and fine-tuning of generative models for specific outputs.",
+                    "phrase": "Configuring reusable template elements, called AI Controllers in several tools, most notably in ComfyUI"
                 },
                 {
-                    "tech_category": "TECH3: LLM / Generative Models",
-                    "technologies": [
-                        "LoRas"
-                    ]
+                    "category": "TASK4",
+                    "justification": "The phrase 'generate high visual quality final usable outputs for our clients' implies building or contributing to systems that deliver final products to end-users, which falls under software development for user-facing applications.",
+                    "phrase": "generate high visual quality final usable outputs for our clients"
+                },
+                {
+                    "category": "TASK3",
+                    "justification": "Using 'various image manipulation tools (both AI and traditional) to create the elements needed for controlling the AI (depth-maps, retouched elements, segmenters, refiners, various models and LoRas)' involves preparing and manipulating data and model components for generative AI tasks.",
+                    "phrase": "Using various image manipulation tools (both AI and traditional) to create the elements needed for controlling the AI (depth-maps, retouched elements, segmenters, refiners, various models and LoRas)"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Ensure AI is used in a controlled way to generate high visual quality final usable outputs for our clients"
-                    ],
-                    "justification": "This phrase indicates a need to solve the practical problem of generating high-quality, usable outputs for clients, requiring a pragmatic approach to AI application."
+                    "category": "SKILL3",
+                    "phrase": "Ensure AI is used in a controlled way"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "Support on and managing the training of customized models and LoRas"
-                    ],
-                    "justification": "The responsibility for managing the training of customized models suggests a need for initiative and ownership over the development process."
+                    "category": "SKILL5",
+                    "phrase": "Support on and managing the training of customized models and LoRas"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH4",
+                    "phrase": "ComfyUI"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "models and LoRas"
                 }
             ]
         }

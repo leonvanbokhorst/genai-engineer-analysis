@@ -26,129 +26,114 @@
         "full_text": "Full stack engineer - Lead ecommerce (Shopify Plus / React)\n\n* Leiden en innoveren: Neem het voortouw in de technische ontwikkeling van ons Shopify Plus e-commerceplatform over zes domeinen. Bepaal samen met de oprichters de technologische koers van ons Shopify-platform, implementeer best practices, en blijf continu op de hoogte van de nieuwste ontwikkelingen binnen het Shopify-ecosysteem.\n     * Integratie van AI en LLM's: Verken en integreer LLM's en AI om je eigen werk of onze interne workflows om bedrijfsprocessen en klantervaringen te verbeteren. Hoewel dit niet het hoofdbestanddeel van je rol is, waarderen we enthousiasme en initiatief op dit gebied.\n     * Hands-on development: Je werkt aan front- en backend, integreert met externe systemen en zet CI/CD, testing en codekwaliteit hoog in het vaandel. Je bouwt en verbetert features die direct waarde toevoegen.\n     * Samenwerken en beslissen: Werk nauw samen met een klein multidisciplinair team om prioriteiten te stellen die aansluiten bij onze ambitieuze doelen. Je neemt verantwoordelijkheid, krijgt alle ruimte om beslissingen te nemen, en helpt ons team effectiever te werken. Of je nu jong of ervaren bent, jouw praktische skills en drive zijn leidend.\n     * Moderne tools en methoden: Maak gebruik van CI/CD-pipelines, E2E-testing en zorg voor betrouwbare code door middel van geautomatiseerde tests en code reviews. Gebruik tools zoals Algolia, React, GTM/GA4 server side tracking, Google Cloud (bigquery/dataform), Python en Dify (LLM flows)"
     },
     "analysis": {
-        "job_profile": "Ambiguous / Not Relevant",
-        "confidence_score": 2,
-        "rationale": "The job description primarily focuses on e-commerce platform development using Shopify Plus and React, with AI/LLM integration being a secondary, exploratory aspect. The core responsibilities and technologies listed align more with a traditional full-stack or e-commerce developer role rather than a specialized ML or GenAI Engineer.",
+        "profile_classification": {
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on full-stack e-commerce development using Shopify Plus and React, with a secondary mention of integrating AI and LLMs. The core responsibilities and technologies listed are not primarily related to AI/ML engineering but rather traditional software development within an e-commerce context. While AI/LLM integration is mentioned, it's explicitly stated as not being the main part of the role, and the emphasis is on using AI to improve workflows or personal work, which aligns with the 'Ambiguous' profile's definition of primarily focusing on the use of AI tools to enhance productivity."
+        },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "Neem het voortouw in de technische ontwikkeling van ons Shopify Plus e-commerceplatform over zes domeinen.",
-                        "Bepaal samen met de oprichters de technologische koers van ons Shopify-platform",
-                        "prioriteiten te stellen die aansluiten bij onze ambitieuze doelen."
-                    ],
-                    "justification": "These phrases indicate an understanding of the business context, strategic decision-making with founders, and aligning technical priorities with business goals."
-                },
-                {
-                    "category": "TASK3: Modeling",
-                    "phrases": [
-                        "Verken en integreer LLM's en AI om je eigen werk of onze interne workflows om bedrijfsprocessen en klantervaringen te verbeteren.",
-                        "Dify (LLM flows)"
-                    ],
-                    "justification": "Mentions integration of LLMs and AI for process improvement, and a specific tool 'Dify' which is related to LLM flows, indicating some modeling aspect, though not core."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description emphasizes 'Hands-on development' on front- and backend, integrating with external systems, and building/improving features that add direct value. It also mentions CI/CD, testing, and code quality.",
+                    "phrase": "Hands-on development"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "phrases": [
-                        "Full stack engineer - Lead ecommerce (Shopify Plus / React)",
-                        "Je werkt aan front- en backend",
-                        "integreert met externe systemen",
-                        "Je bouwt en verbetert features die direct waarde toevoegen.",
-                        "React"
-                    ],
-                    "justification": "This is a core aspect, involving front-end and back-end development, integration with external systems, and building user-facing features using technologies like React."
+                    "justification": "The role involves building and improving features that directly add value to the e-commerce platform.",
+                    "phrase": "Je bouwt en verbetert features die direct waarde toevoegen."
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions setting up and using CI/CD pipelines, E2E testing, and ensuring code reliability through automated tests and code reviews.",
+                    "phrase": "Maak gebruik van CI/CD-pipelines, E2E-testing en zorg voor betrouwbare code door middel van geautomatiseerde tests en code reviews."
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves determining the technological direction of the Shopify platform with founders and aligning priorities with ambitious goals.",
+                    "phrase": "Bepaal samen met de oprichters de technologische koers van ons Shopify-platform, implementeer best practices, en blijf continu op de hoogte van de nieuwste ontwikkelingen binnen het Shopify-ecosysteem."
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The job requires working closely with a multidisciplinary team to set priorities that align with company goals.",
+                    "phrase": "Werk nauw samen met een klein multidisciplinair team om prioriteiten te stellen die aansluiten bij onze ambitieuze doelen."
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The description mentions exploring and integrating LLMs and AI to improve workflows or customer experiences, and specifically mentions 'Dify (LLM flows)'.",
+                    "phrase": "Verken en integreer LLM's en AI om je eigen werk of onze interne workflows om bedrijfsprocessen en klantervaringen te verbeteren."
                 },
                 {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "zet CI/CD, testing en codekwaliteit hoog in het vaandel.",
-                        "Maak gebruik van CI/CD-pipelines, E2E-testing",
-                        "zorg voor betrouwbare code door middel van geautomatiseerde tests en code reviews."
-                    ],
-                    "justification": "The description emphasizes CI/CD, testing (E2E, automated), and code quality, which are key components of operations engineering."
+                    "justification": "The mention of CI/CD pipelines and E2E testing, while also related to software development, touches upon the operational aspects of deploying and maintaining code.",
+                    "phrase": "Maak gebruik van CI/CD-pipelines, E2E-testing"
+                }
+            ],
+            "soft_skills": [
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Neem het voortouw in de technische ontwikkeling"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Je neemt verantwoordelijkheid, krijgt alle ruimte om beslissingen te nemen"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Of je nu jong of ervaren bent, jouw praktische skills en drive zijn leidend."
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Werk nauw samen met een klein multidisciplinair team"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "blijf continu op de hoogte van de nieuwste ontwikkelingen binnen het Shopify-ecosysteem."
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "waarderen we enthousiasme en initiatief op dit gebied."
                 }
             ],
             "technologies": [
                 {
                     "category": "TECH1: Programming Languages",
-                    "items": [
-                        "Python",
-                        "React"
-                    ]
+                    "phrase": "React"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
                 },
                 {
                     "category": "TECH2: Cloud Platforms & Services",
-                    "items": [
-                        "Google Cloud",
-                        "bigquery",
-                        "dataform"
-                    ]
+                    "phrase": "Google Cloud"
                 },
                 {
-                    "category": "TECH3: LLM / Generative Models",
-                    "items": [
-                        "LLM's",
-                        "AI"
-                    ]
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "bigquery"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "dataform"
                 },
                 {
                     "category": "TECH4: LLM Frameworks & Libraries",
-                    "items": [
-                        "Dify"
-                    ]
+                    "phrase": "Dify"
                 },
                 {
-                    "category": "TECH6: MLOps & Data Pipelines",
-                    "items": [
-                        "CI/CD",
-                        "E2E-testing"
-                    ]
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLM's"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Shopify Plus"
                 },
                 {
                     "category": "TECH11: Data Analysis",
-                    "items": [
-                        "GTM/GA4 server side tracking",
-                        "Algolia"
-                    ]
-                }
-            ],
-            "soft_skills": [
-                {
-                    "category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Samenwerken en beslissen: Werk nauw samen met een klein multidisciplinair team",
-                        "Bepaal samen met de oprichters de technologische koers"
-                    ],
-                    "justification": "Highlights working closely with a multidisciplinary team and making decisions together with founders."
+                    "phrase": "Algolia"
                 },
                 {
-                    "category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "blijf continu op de hoogte van de nieuwste ontwikkelingen binnen het Shopify-ecosysteem.",
-                        "Hoewel dit niet het hoofdbestanddeel van je rol is, waarderen we enthousiasme en initiatief op dit gebied."
-                    ],
-                    "justification": "Emphasizes staying updated with new developments and valuing enthusiasm for new areas like AI/LLMs."
-                },
-                {
-                    "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Leiden en innoveren",
-                        "Hands-on development",
-                        "Je bouwt en verbetert features die direct waarde toevoegen.",
-                        "praktische skills en drive zijn leidend."
-                    ],
-                    "justification": "Focuses on leading, innovating, hands-on development, delivering value, and practical skills."
-                },
-                {
-                    "category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "Leiden en innoveren",
-                        "Neem het voortouw in de technische ontwikkeling",
-                        "Verken en integreer LLM's en AI",
-                        "Je neemt verantwoordelijkheid, krijgt alle ruimte om beslissingen te nemen"
-                    ],
-                    "justification": "Indicates taking initiative, leading development, exploring new technologies, and taking responsibility and decision-making power."
+                    "category": "TECH11: Data Analysis",
+                    "phrase": "GTM/GA4 server side tracking"
                 }
             ]
         }

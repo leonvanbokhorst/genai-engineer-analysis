@@ -27,41 +27,42 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description is very high-level and lacks specific technical details about the tasks, models, or technologies involved. It mentions 'AI strategy' and 'AI R&D' but does not provide enough information to classify it as a specific AI engineering role like ML Engineer or GenAI Engineer."
+            "profile": "Ambiguous",
+            "rationale": "The job description is very brief and lacks specific details about the tasks, technologies, or models involved. It mentions 'AI strategy' and 'AI R&D initiatives' but does not provide enough information to classify it as an ML Engineer or GenAI Engineer. It could potentially be a role focused on the use of AI tools or a more general AI strategy role, which aligns with the 'Ambiguous' profile."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrase": "supporting the development of assets (e.g., plugins) to further drive our overall AI strategy across the firm",
-                    "justification": "This phrase indicates a need to understand and contribute to the firm's broader AI strategy, aligning technical development with business goals."
+                    "category": "TASK1",
+                    "justification": "The phrase 'drive our overall AI strategy across the firm' indicates a need to understand and align technical efforts with business goals.",
+                    "phrase": "drive our overall AI strategy across the firm"
                 },
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrase": "ongoing AI R&D initiatives",
-                    "justification": "This suggests involvement in research and development, which often requires understanding business needs and future directions."
+                    "category": "TASK3",
+                    "justification": "The mention of 'AI R&D initiatives' suggests involvement in research and development of AI, which falls under modeling.",
+                    "phrase": "AI R&D initiatives"
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "The phrase 'supporting the development of assets (e.g., plugins)' implies building software components that integrate AI capabilities.",
+                    "phrase": "supporting the development of assets (e.g., plugins)"
                 }
             ],
-            "technologies": [],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrase": "further drive our overall AI strategy",
-                    "justification": "The phrase 'drive our overall AI strategy' implies a proactive and leading role in advancing the company's AI initiatives."
+                    "category": "SKILL5",
+                    "phrase": "Senior / Lead AI Engineer"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrase": "continue driving the initiatives",
-                    "justification": "This reinforces the idea of taking ownership and proactively pushing forward AI R&D efforts."
+                    "category": "SKILL5",
+                    "phrase": "drive our overall AI strategy"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrase": "AI R&D initiatives",
-                    "justification": "Research and Development inherently requires continuous learning and adaptation to new findings and technologies."
+                    "category": "SKILL5",
+                    "phrase": "AI R&D initiatives"
                 }
-            ]
+            ],
+            "technologies": []
         }
     }
 }

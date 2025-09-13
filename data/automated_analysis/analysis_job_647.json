@@ -27,171 +27,138 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The role focuses on applying generative AI tools for content creation and assessment design, rather than developing or engineering AI models. While AI is central, the core tasks are educational and psychometric, not software development or MLOps in the AI engineering sense."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on the application of AI tools (specifically generative AI for test content creation) within an educational context, rather than the development or deep technical implementation of AI models or systems. The role emphasizes psychometrics, educational theory, and content creation, with a clear statement that 'developing code to automate systems' is not part of the role. While AI tools are used extensively, the core function is not that of an ML Engineer or GenAI Engineer as defined by the coding book, which focus on building, training, fine-tuning, or productionizing AI models and systems. Instead, it aligns with the 'Ambiguous' profile's definition of primarily focusing on the USE of AI tools to enhance productivity and workflows."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "translating educational theories into actionable assessments",
-                            "justification": "This phrase indicates understanding of educational principles and how to apply them to create practical assessment tools, aligning with understanding the business context of education."
-                        },
-                        {
-                            "phrase": "dissecting and designing with a level of precision that only the keenest eye can achieve",
-                            "justification": "Highlights the need for detailed understanding and application of principles within the educational assessment domain."
-                        },
-                        {
-                            "phrase": "distilling complex educational measurements into clear, effective tests",
-                            "justification": "Demonstrates the ability to translate complex concepts (educational measurements) into a functional product (tests), which is a business understanding task."
-                        },
-                        {
-                            "phrase": "align tightly with educational standards",
-                            "justification": "Shows understanding of external requirements and standards that guide the product development (assessments)."
-                        },
-                        {
-                            "phrase": "improve our entire educational ecosystem",
-                            "justification": "Indicates a focus on the broader impact and strategic goals within the educational domain."
-                        },
-                        {
-                            "phrase": "enhance our overall educational offerings",
-                            "justification": "Relates to understanding and improving the core business product (educational offerings)."
-                        },
-                        {
-                            "phrase": "contribute to and learn from our collective expertise",
-                            "justification": "Implies understanding the value of shared knowledge within the business context for continuous improvement."
-                        },
-                        {
-                            "phrase": "contributing to the overall improvement of our learning ecosystem through cross-functional collaboration and data-driven insights.",
-                            "justification": "Connects understanding business goals (improving learning ecosystem) with actionable insights."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires understanding educational theories and translating them into actionable assessments, aligning technical solutions (AI prompts) with strategic goals (revolutionary educational experiences) and translating business needs (creating effective tests) into technical requirements (AI prompts).",
+                    "phrase": "translating educational theories into actionable assessments"
                 },
                 {
-                    "task_name": "TASK3: Modeling",
-                    "phrases": [
-                        {
-                            "phrase": "wield the power of generative AI to design prompts",
-                            "justification": "This involves creating inputs for generative models to produce desired outputs (test content)."
-                        },
-                        {
-                            "phrase": "commanding it to produce test content that's personalized, engaging, and rigorous",
-                            "justification": "Directly relates to using generative AI models to create specific types of content."
-                        },
-                        {
-                            "phrase": "synthesize complex frameworks into AI prompts",
-                            "justification": "This is a form of prompt engineering, which is a key aspect of interacting with and guiding generative models."
-                        },
-                        {
-                            "phrase": "yielding razor-sharp test questions",
-                            "justification": "The output of the prompt engineering and generative AI process."
-                        },
-                        {
-                            "phrase": "crafting AI-first rubrics",
-                            "justification": "Developing evaluation criteria using AI, which can be seen as a form of model output or guidance for AI."
-                        },
-                        {
-                            "phrase": "using a blend of psychometrics and generative AI tools",
-                            "justification": "Indicates the application of generative AI in the creation process."
-                        },
-                        {
-                            "phrase": "Developing assessment rubrics with the help of AI",
-                            "justification": "Utilizing AI to generate or refine assessment criteria."
-                        },
-                        {
-                            "phrase": "using generative AI tools (such as ChatGPT, Gemini, Claude etc.) for every task",
-                            "justification": "Explicitly states the use of generative AI tools for content creation."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires understanding the broader business context of creating educational experiences and aligning technical solutions with strategic goals.",
+                    "phrase": "sculpt revolutionary educational experiences"
                 },
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "Developing code to automate systems - you will focus on test design using AI, while our engineers handle the tech specifics",
-                            "justification": "This explicitly states that software development is NOT part of this role, but handled by others."
-                        }
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The role involves using generative AI to produce test content, which is a form of adapting or creating content using AI models, even if not traditional predictive modeling.",
+                    "phrase": "wield the power of generative AI to design prompts that delve deep into the subject matter, commanding it to produce test content"
                 },
                 {
-                    "task_name": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        {
-                            "phrase": "while our engineers handle the tech specifics",
-                            "justification": "Implies that the operational aspects of deploying and maintaining AI systems are handled by a separate engineering team."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "items": [
-                        "generative AI",
-                        "ChatGPT",
-                        "Gemini",
-                        "Claude"
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The role requires synthesizing complex frameworks into AI prompts to yield test questions, which is a form of model adaptation or content generation.",
+                    "phrase": "synthesize complex frameworks into AI prompts, yielding razor-sharp test questions"
                 },
                 {
-                    "tech_name": "TECH4: LLM Frameworks & Libraries",
-                    "items": [
-                        "AI prompts"
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The role involves crafting AI-first rubrics to evaluate test content, which is a form of using AI to define and assess outputs.",
+                    "phrase": "crafting AI-first rubrics"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The job description explicitly states 'You will NOT be doing: Developing code to automate systems - you will focus on test design using AI, while our engineers handle the tech specifics.' This indicates that traditional software development is not a core responsibility.",
+                    "phrase": "Developing code to automate systems"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves identifying knowledge gaps and working with subject matter experts to enhance educational offerings, demonstrating an understanding of the business's educational ecosystem.",
+                    "phrase": "identify knowledge gaps during testing, you'll dive into our learning content and student data, partnering with subject matter experts to enhance our overall educational offerings"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires understanding the business's goals for knowledge sharing and continuous learning.",
+                    "phrase": "practice knowledge sharing through our \"second brain\" approach, fostering an environment of continuous learning and collaboration"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "Creating and refining test content using generative AI tools is a core task involving the application of AI for content generation.",
+                    "phrase": "Creating and refining test content to meet rigorous educational standards, using a blend of psychometrics and generative AI tools"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "Developing assessment rubrics with AI assistance is a task that involves using AI to define evaluation criteria for content.",
+                    "phrase": "Developing assessment rubrics with the help of AI that evaluate the depth, alignment, and educational impact of the test content"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "Enhancing test content quality through an iterative process using AI tools falls under adapting or refining AI-generated content.",
+                    "phrase": "Enhancing the quality of test content through a streamlined, iterative process for consistently superior and challenging assessments"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Analyzing test results and student data to identify knowledge gaps and areas for improvement directly relates to understanding the business's educational outcomes and needs.",
+                    "phrase": "Analyzing test results and student data to identify knowledge gaps and areas for improvement in our learning content"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Collaborating with subject matter experts to address identified gaps and enhance educational offerings is a business-oriented task focused on improving the product.",
+                    "phrase": "Collaborating with subject matter experts to address identified gaps and enhance our educational offerings"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Participating in knowledge-sharing practices to contribute to and learn from collective expertise is a business-focused activity aimed at organizational improvement.",
+                    "phrase": "Participating in our \"second brain\" knowledge-sharing practices to contribute to and learn from our collective expertise"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "Applying psychometric expertise to develop test content with AI ensures the AI-generated content meets specific educational standards and requirements.",
+                    "phrase": "Applying your psychometric expertise to develop and refine test content with the help of AI, ensuring the assessments are personalized, rigorous, and aligned with educational standards"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Contributing to the overall improvement of the learning ecosystem through cross-functional collaboration and data-driven insights is a business-focused objective.",
+                    "phrase": "contributing to the overall improvement of our learning ecosystem through cross-functional collaboration and data-driven insights"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "items": [
-                        "collaborative environment",
-                        "working across teams",
-                        "partnering with subject matter experts",
-                        "knowledge sharing",
-                        "collaborate across disciplines",
-                        "cross-functional collaboration"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "key player in a collaborative environment, working across teams"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "items": [
-                        "continuous learning",
-                        "learn from our collective expertise"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "collaborate across disciplines"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "items": [
-                        "translating educational theories into actionable assessments",
-                        "dissecting and designing with a level of precision",
-                        "distilling complex educational measurements into clear, effective tests",
-                        "synthesize complex frameworks",
-                        "yielding razor-sharp test questions",
-                        "quality control your outputs",
-                        "ensuring each question and answer hits the mark",
-                        "relentless pursuit of excellence",
-                        "continuous cycle of refinement",
-                        "dedication to content that not only meets but exceeds the bar",
-                        "Analyzing test results and student data to identify knowledge gaps and areas for improvement",
-                        "address identified gaps and enhance our educational offerings",
-                        "data-driven insights"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "continuous learning"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "items": [
-                        "superpower",
-                        "revolutionary educational experiences",
-                        "orchestrating a full-blown transformation",
-                        "Scrap the old playbook",
-                        "AI-first rubrics",
-                        "key player",
-                        "Take the leap and apply now!",
-                        "contributions have a lasting impact"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "dissecting and designing with a level of precision that only the keenest eye can achieve"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "relentless pursuit of excellence"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "dedication to content that not only meets but exceeds the bar"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "contributions have a lasting impact"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "generative AI"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "ChatGPT"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Gemini"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Claude"
                 }
             ]
         }

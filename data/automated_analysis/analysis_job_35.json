@@ -27,95 +27,106 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on Go programming and traditional software engineering for user-facing applications and infrastructure. While it mentions interacting with an AI-powered platform and a Generative AI tool, the core responsibilities and projects do not align with the specialized tasks of an ML Engineer or GenAI Engineer."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on Go development and building software products, with mentions of AI-powered platforms and Generative AI tools. However, the core responsibilities and technologies described are centered around traditional software engineering (Go, mobile apps, community tools, platform code) rather than the specialized development, fine-tuning, or deployment of generative models themselves. The role appears to be a senior software engineer position that *interacts* with AI systems, rather than a role focused on building or engineering the AI models or GenAI applications directly. Therefore, it does not fit the 'ML Engineer' or 'GenAI Engineer' profiles."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "development and delivery of our software products and apps",
-                        "contribute to the development of innovative solutions",
-                        "designing and implementing systems",
-                        "Write production-grade product and platform code",
-                        "Take responsibility for component technical designs and deliver quality code",
-                        "Launch our Mobile Apps for both iOS and Android platforms",
-                        "Develop our Community Tools"
-                    ],
-                    "justification": "These phrases indicate a focus on building and delivering software applications, including mobile apps and backend systems, which are core to software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The job description explicitly mentions 'development and delivery of our software products and apps', 'write production-grade product and platform code', 'designing and implementing systems', 'launch our Mobile Apps for both iOS and Android platforms', and 'develop our Community Tools'. This aligns with traditional software engineering tasks.",
+                    "phrase": "development and delivery of our software products and apps"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "serving over 4m+ users across the globe",
-                        "cater to the requirements of our expanding user community",
-                        "empowers users to maximize the benefits derived from our products and services"
-                    ],
-                    "justification": "These phrases highlight the understanding of user needs, market reach, and the business goal of maximizing user benefit from products and services."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role requires writing code that is ready for production environments.",
+                    "phrase": "Write production-grade product and platform code"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "ensuring that what you deliver is scalable, reliable, and secure"
-                    ],
-                    "justification": "This phrase points to the operational aspects of deploying and maintaining systems, focusing on non-functional requirements like scalability, reliability, and security, which are part of MLOps."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "Go Engineer",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK4: Software Development",
+                    "justification": "The description emphasizes taking ownership of the technical design and implementation of components.",
+                    "phrase": "Take responsibility for component technical designs and deliver quality code"
                 },
                 {
-                    "tech_name": "AI-powered platform",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves understanding user needs and contributing to solutions that cater to them, as well as empowering users to maximize benefits.",
+                    "phrase": "cater to the requirements of our expanding user community. This empowers users to maximize the benefits derived from our products and services."
                 },
                 {
-                    "tech_name": "Generative AI tool",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves designing and implementing systems that interact with an AI platform, focusing on scalability, reliability, and security.",
+                    "phrase": "designing and implementing systems that interact with our continuously evolving AI-powered platform, ensuring that what you deliver is scalable, reliable, and secure"
                 },
                 {
-                    "tech_name": "AI Chatbot",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK3: Modeling",
+                    "justification": "The job mentions working with 'Generative AI tool' (CF Spark) and an 'AI Chatbot', indicating interaction with or development around generative AI technologies, though the primary focus is on the engineering of the surrounding systems.",
+                    "phrase": "CF Spark. Our very own Generative AI tool"
                 },
                 {
-                    "tech_name": "Generative AI",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK3: Modeling",
+                    "justification": "The job mentions developing an 'AI Chatbot', which involves working with or building upon AI models.",
+                    "phrase": "AI Chatbot"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The role involves working with a team and promoting a culture of feedback and knowledge sharing.",
+                    "phrase": "together with fellow developers, engineers, designers, and product managers"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The description explicitly mentions promoting a culture of feedback and knowledge sharing.",
+                    "phrase": "Promote feedback and knowledge sharing culture"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "justification": "The role requires working with an agile mindset and iterating fast, implying adaptability and continuous learning.",
+                    "phrase": "Work with a strong agile mindset. Iterate fast"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "justification": "The description mentions making data-driven decisions, which is a pragmatic approach to problem-solving.",
+                    "phrase": "make data-driven decisions"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "justification": "The role requires taking responsibility for component technical designs and delivering quality code, indicating ownership.",
+                    "phrase": "Take responsibility for component technical designs"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        "ambitious and skilled"
-                    ],
-                    "justification": "The term 'ambitious' suggests a drive for growth and learning, aligning with the need to adapt in a fast-paced tech environment."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "together with fellow developers, engineers, designers, and product managers"
                 },
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        "together with fellow developers, engineers, designers, and product managers",
-                        "Promote feedback and knowledge sharing culture"
-                    ],
-                    "justification": "These phrases indicate a collaborative work environment and the importance of sharing knowledge and feedback among team members."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Promote feedback and knowledge sharing culture"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "innovative solutions that cater to the requirements",
-                        "Work with a strong agile mindset. Iterate fast and make data-driven decisions."
-                    ],
-                    "justification": "The emphasis on 'innovative solutions', 'iterate fast', and 'data-driven decisions' points to a pragmatic and problem-solving approach."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Work with a strong agile mindset. Iterate fast"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        "play a key role in the development and delivery",
-                        "Take responsibility for component technical designs and deliver quality code"
-                    ],
-                    "justification": "Phrases like 'play a key role' and 'Take responsibility' highlight the expectation of ownership and initiative in the role."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "make data-driven decisions"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Take responsibility for component technical designs"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Go"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Generative AI tool"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "AI Chatbot"
                 }
             ]
         }

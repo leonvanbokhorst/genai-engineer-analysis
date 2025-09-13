@@ -27,120 +27,137 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional software engineering, product development, and team collaboration without mentioning any specific AI, ML, or generative models. It lacks the core technical elements required for ML Engineer or GenAI Engineer profiles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on traditional software development, collaboration, and business understanding, with no mention of AI, machine learning, generative models, or related technologies. The role is primarily about building and improving software products, not about developing or deploying AI systems."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "phrase": "build delightful features and products for our community, as well as the thousands of companies who trust HackerOne with their cybersecurity posture.",
-                    "category": "TASK4: Software Development",
-                    "justification": "This phrase describes the core activity of building user-facing products and features, which falls under traditional software development."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'understand the business value of our products and features, and the needs of our customers' directly relates to comprehending the business context and customer needs.",
+                    "phrase": "understand the business value of our products and features, and the needs of our customers"
                 },
                 {
-                    "phrase": "You are a collaborative and effective software engineer and team member.",
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'combine your technological expertise, domain knowledge, and an unquestionable dedication to business objectives' indicates a strong alignment with business goals.",
+                    "phrase": "dedication to business objectives"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'translate feature requests into simple, but robust engineering (or non-engineering) solutions' shows the ability to convert business needs into actionable plans.",
+                    "phrase": "translate feature requests into simple, but robust engineering (or non-engineering) solutions"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The core of the job description revolves around building 'delightful features and products' and being a 'fast and effective software engineer on our codebase'.",
+                    "phrase": "build delightful features and products"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The mention of committing 'a bunch of code to our repositories' and being a 'fully-fledged software engineer' points to traditional software development activities.",
+                    "phrase": "committed a bunch of code to our repositories"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'identify and make systematic improvements to technical weaknesses you'll find in your squad's codebases' indicates a focus on code quality and maintenance within software development.",
+                    "phrase": "make systematic improvements to technical weaknesses"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "While not explicitly MLOps, the phrase 'identify and make systematic improvements to technical weaknesses you'll find in your squad's codebases, and in shared codebases across the company' implies a focus on maintaining and improving the quality and robustness of existing systems, which is a component of operations.",
+                    "phrase": "identify and make systematic improvements to technical weaknesses"
+                },
+                {
                     "category": "SKILL1: Communication & Collaboration",
-                    "justification": "This explicitly states the need for collaboration and effectiveness as a team member, aligning with communication and collaboration skills."
+                    "justification": "The description states 'You are a collaborative and effective software engineer and team member' and 'developed a good sense of cross-functional collaboration and communication'.",
+                    "phrase": "collaborative and effective software engineer and team member"
                 },
                 {
-                    "phrase": "You will interact with CSM's, who are the voice of our customers.",
-                    "category": "TASK1: Business Understanding",
-                    "justification": "Interacting with customer-facing roles (CSMs) to understand customer needs is a key aspect of business understanding and translating those needs into technical solutions."
-                },
-                {
-                    "phrase": "You will guide and coach the more junior IC's.",
-                    "category": "SKILL5: Innovation & Ownership",
-                    "justification": "Guiding and coaching junior engineers implies taking ownership and leadership within the team, which aligns with innovation and ownership."
-                },
-                {
-                    "phrase": "You'll combine your technological expertise, domain knowledge, and an unquestionable dedication to business objectives as you intersect with the engineering organization.",
-                    "category": "TASK1: Business Understanding",
-                    "justification": "This highlights the integration of technical skills with business objectives and domain knowledge, a core component of business understanding."
-                },
-                {
-                    "phrase": "You identify and make systematic improvements to technical weaknesses you'll find in your squad's codebases, and in shared codebases across the company.",
-                    "category": "TASK4: Software Development",
-                    "justification": "Identifying and improving technical weaknesses in codebases is a fundamental software development task focused on code quality and maintainability."
-                },
-                {
-                    "phrase": "get to learn the technology stack (Ruby on Rails + GraphQL + ReactJS + many more)",
-                    "category": "TECH1: Programming Languages",
-                    "justification": "This lists specific programming languages and frameworks used in the technology stack."
-                },
-                {
-                    "phrase": "committed a bunch of code to our repositories",
-                    "category": "TASK4: Software Development",
-                    "justification": "Committing code to repositories is a direct activity within software development."
-                },
-                {
-                    "phrase": "developing a knack for being a fast and effective software engineer on our codebase",
-                    "category": "TASK4: Software Development",
-                    "justification": "This emphasizes the development of skills related to being an effective software engineer, focusing on speed and efficiency in coding."
-                },
-                {
-                    "phrase": "lead your first project as Software Engineer",
-                    "category": "SKILL5: Innovation & Ownership",
-                    "justification": "Leading a project indicates taking initiative and ownership, aligning with this soft skill."
-                },
-                {
-                    "phrase": "talked to Sales, Marketing and various other functions, and developed a good sense of cross-functional collaboration and communication",
                     "category": "SKILL1: Communication & Collaboration",
-                    "justification": "This explicitly mentions cross-functional collaboration and communication with various departments."
+                    "justification": "The role involves interacting with 'Product Managers and Designers', 'CSM's', 'Sales, Marketing and various other functions', indicating a need for broad communication.",
+                    "phrase": "interact with CSM's"
                 },
                 {
-                    "phrase": "understand the business value of our products and features, and the needs of our customers",
-                    "category": "TASK1: Business Understanding",
-                    "justification": "Understanding business value and customer needs is central to business understanding."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'talked to Sales, Marketing and various other functions' highlights the need for cross-functional communication.",
+                    "phrase": "talked to Sales, Marketing and various other functions"
                 },
                 {
-                    "phrase": "translate feature requests into simple, but robust engineering (or non-engineering) solutions",
-                    "category": "TASK1: Business Understanding",
-                    "justification": "Translating feature requests into solutions, considering both engineering and non-engineering aspects, requires a strong understanding of business needs and problem-solving."
-                }
-            ],
-            "technologies": [
-                {
-                    "phrase": "Ruby on Rails",
-                    "category": "TECH1: Programming Languages"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "justification": "The onboarding process described ('first 30 days will be focusing on getting to know our HackerOnies', 'being onboarded - get to learn the technology stack') and the progression milestones ('Within 60 days, you will have committed a bunch of code', 'Within 90 days, you will start getting ready to lead your first project') imply a need for learning and adapting to new environments and technologies.",
+                    "phrase": "get to learn the technology stack"
                 },
                 {
-                    "phrase": "GraphQL",
-                    "category": "TECH1: Programming Languages"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "justification": "The phrase 'translate feature requests into simple, but robust engineering (or non-engineering) solutions' suggests a problem-solving approach focused on creating effective and practical solutions.",
+                    "phrase": "translate feature requests into simple, but robust engineering (or non-engineering) solutions"
                 },
                 {
-                    "phrase": "ReactJS",
-                    "category": "TECH1: Programming Languages"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "justification": "The phrase 'identify and make systematic improvements to technical weaknesses' implies a proactive approach to problem identification and resolution.",
+                    "phrase": "identify and make systematic improvements to technical weaknesses"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "justification": "The description mentions 'guide and coach the more junior IC's' and 'lead your first project as Software Engineer', indicating a responsibility and initiative-taking aspect of the role.",
+                    "phrase": "guide and coach the more junior IC's"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "justification": "The phrase 'lead your first project as Software Engineer' implies taking ownership and driving initiatives.",
+                    "phrase": "lead your first project as Software Engineer"
                 }
             ],
             "soft_skills": [
                 {
-                    "phrase": "collaborative and effective software engineer and team member",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "collaborative and effective software engineer and team member"
                 },
                 {
-                    "phrase": "guide and coach the more junior IC's",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "interact with CSM's"
                 },
                 {
-                    "phrase": "dedication to business objectives",
-                    "category": "TASK1: Business Understanding"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "talked to Sales, Marketing and various other functions"
                 },
                 {
-                    "phrase": "lead your first project",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "cross-functional collaboration and communication"
                 },
                 {
-                    "phrase": "cross-functional collaboration and communication",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "get to learn the technology stack"
                 },
                 {
-                    "phrase": "understand the business value of our products and features, and the needs of our customers",
-                    "category": "TASK1: Business Understanding"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "translate feature requests into simple, but robust engineering (or non-engineering) solutions"
                 },
                 {
-                    "phrase": "translate feature requests into simple, but robust engineering (or non-engineering) solutions",
-                    "category": "TASK1: Business Understanding"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "identify and make systematic improvements to technical weaknesses"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "guide and coach the more junior IC's"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "lead your first project as Software Engineer"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Ruby on Rails"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "GraphQL"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "ReactJS"
                 }
             ]
         }

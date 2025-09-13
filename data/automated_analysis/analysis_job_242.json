@@ -28,50 +28,74 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes building systems that generate content (captions, visuals, videos) using AI, directly aligning with the core responsibilities of a GenAI Engineer. The use of social media APIs for data collection and analysis to feed into AI models further supports this classification."
+            "rationale": "The job description heavily emphasizes building systems that generate content (captions, visuals, videos) using AI models, directly aligning with the definition of a GenAI Engineer. It also mentions connecting social media APIs for data collection and analysis to feed into these AI models, and developing AI-driven content generation systems. This focus on generative techniques and building applications around them, rather than purely predictive modeling or data engineering, points to the GenAI Engineer profile."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK3: Modeling",
-                    "phrase": "slim te gebruiken in AI-modellen",
-                    "justification": "This phrase indicates the application of data and insights into AI models, which is a core aspect of model development and adaptation."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Je gebruikt social API's (Meta, TikTok, Twitter/X, YouTube, Reddit, LinkedIn) om data te verzamelen, analyseren en slim te gebruiken in AI-modellen' implies the development of software to interact with external APIs for data collection and integration into AI systems.",
+                    "phrase": "Je gebruikt social API's (Meta, TikTok, Twitter/X, YouTube, Reddit, LinkedIn) om data te verzamelen, analyseren en slim te gebruiken in AI-modellen"
                 },
                 {
-                    "task": "TASK3: Modeling",
-                    "phrase": "AI-gestuurde content & insights genereren",
-                    "justification": "This directly refers to the creation and generation of content using AI, a primary function of generative AI models."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'slim te gebruiken in AI-modellen' indicates the application and utilization of AI models.",
+                    "phrase": "slim te gebruiken in AI-modellen"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "Je ontwikkelt systemen die automatisch captions, visuals en video's creëren",
-                    "justification": "This describes the development of systems and applications to deliver AI-generated content, which falls under software development."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'AI-gestuurde content & insights genereren' directly points to the use and development of generative AI models for content creation.",
+                    "phrase": "AI-gestuurde content & insights genereren"
                 },
                 {
-                    "task": "TASK2: Data Engineering",
-                    "phrase": "Je gebruikt social API's (Meta, TikTok, Twitter/X, YouTube, Reddit, LinkedIn) om data te verzamelen, analyseren",
-                    "justification": "This involves collecting and analyzing data from external sources using APIs, which is a data engineering task."
-                }
-            ],
-            "technologies": [
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Je ontwikkelt systemen die automatisch captions, visuals en video's creëren' describes the development of software systems to automate content generation.",
+                    "phrase": "Je ontwikkelt systemen die automatisch captions, visuals en video's creëren"
+                },
                 {
-                    "technology": "TECH2: Cloud Platforms & Services",
-                    "phrase": "social API's (Meta, TikTok, Twitter/X, YouTube, Reddit, LinkedIn)"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'op basis van trending topics en merkdata' suggests an understanding of business context and market trends to inform AI-driven content generation.",
+                    "phrase": "op basis van trending topics en merkdata"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrase": "slim te gebruiken in AI-modellen"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "slim te gebruiken"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Meta"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrase": "AI-gestuurde content & insights genereren"
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "TikTok"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrase": "Je ontwikkelt systemen die automatisch captions, visuals en video's creëren"
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Twitter/X"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "YouTube"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Reddit"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "LinkedIn"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "AI-modellen"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "AI-gestuurde content"
                 }
             ]
         }

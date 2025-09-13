@@ -1,6 +1,7 @@
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+from pathlib import Path
 
 
 def perform_descriptive_analysis(tidy_input_csv, profiles_csv, output_dir):
@@ -101,112 +102,51 @@ def perform_descriptive_analysis(tidy_input_csv, profiles_csv, output_dir):
     )
 
 
-def compute_top_tools(tidy_input_csv, profiles_csv, output_dir, top_n: int = 20):
-    """
-    Compute top-N tools per technology family overall and per profile.
-    Saves CSVs: top_tools_overall.csv and top_tools_by_profile.csv
-    """
-    tidy_df = pd.read_csv(tidy_input_csv)
-    profiles_df = pd.read_csv(profiles_csv)
+def compute_top_tools(tidy_df_path, profiles_df_path, output_dir):
+    """Computes the top tools overall and per profile."""
+    df_tidy = pd.read_csv(tidy_df_path)
+    df_profiles = pd.read_csv(profiles_df_path)
 
-    tech_df = tidy_df[tidy_df["category_type"] == "technology"].copy()
-    tech_df = tech_df[
-        pd.notna(tech_df["tool_name"]) & (tech_df["tool_name"].str.strip() != "")
-    ]
-    tech_df["family"] = tech_df["category_name"]
+    tech_df = df_tidy[df_tidy["category_type"] == "technology"].copy()
 
-    # Normalize tool names to reduce duplicates caused by casing/aliases
-    def normalize_tool_name(name: str) -> str:
-        key = name.strip().lower()
-        synonyms = {
-            "open ai": "OpenAI",
-            "openai": "OpenAI",
-            "azure openai": "Azure OpenAI",
-            "ms azure": "Azure",
-            "microsoft azure": "Azure",
-            "amazon web services": "AWS",
-            "aws": "AWS",
-            "gcp": "GCP",
-            "google cloud": "GCP",
-            "k8s": "Kubernetes",
-            "kubernetes": "Kubernetes",
-            "docker": "Docker",
-            "git": "Git",
-            "langchain": "LangChain",
-            "huggingface": "Hugging Face",
-            "hugging face": "Hugging Face",
-            "mlflow": "MLflow",
-            "faiss": "FAISS",
-            "pinecone": "Pinecone",
-            "chromadb": "ChromaDB",
-            "postgres": "PostgreSQL",
-            "postgresql": "PostgreSQL",
-            "sql": "SQL",
-            "tensorflow": "TensorFlow",
-            "pytorch": "PyTorch",
-            "scikit-learn": "scikit-learn",
-            "sklearn": "scikit-learn",
-            "apache airflow": "Airflow",
-            "airflow": "Airflow",
-            "vertex ai": "Vertex AI",
-            "anthropic": "Anthropic",
-            "claude": "Claude",
-            "gpt-4": "GPT-4",
-            "gpt4": "GPT-4",
-            "llama": "Llama",
-            "llama 3": "Llama 3",
-            "mistral": "Mistral",
-        }
-        return synonyms.get(key, name.strip())
-
-    tech_df["tool_canonical"] = tech_df["tool_name"].apply(normalize_tool_name)
-
-    # Overall top tools per family
-    overall = (
-        tech_df.groupby(["family", "tool_canonical"], dropna=False)
-        .size()
-        .reset_index(name="count")
-        .sort_values(["family", "count"], ascending=[True, False])
-    )
-    # Keep top N per family
-    overall["rank"] = overall.groupby("family")["count"].rank(
-        method="first", ascending=False
-    )
-    overall_top = (
-        overall[overall["rank"] <= top_n].drop(columns=["rank"]).reset_index(drop=True)
-    )
-    # Rename column to 'tool_name' for output clarity
-    overall_top = overall_top.rename(columns={"tool_canonical": "tool_name"})
-    overall_top.to_csv(
-        f"{output_dir}/top_tools_overall.csv", index=False, encoding="utf-8"
-    )
-    print(f"Saved overall top tools to {output_dir}/top_tools_overall.csv")
-
-    # Per-profile top tools per family
-    tech_with_profiles = tech_df.merge(
-        profiles_df[["job_id", "profile"]], on="job_id", how="left"
-    )
-    by_profile = (
-        tech_with_profiles.groupby(
-            ["profile", "family", "tool_canonical"], dropna=False
+    # --- Top Tools Overall ---
+    # Ensure tool_name column has string values before using .str accessor
+    if pd.api.types.is_string_dtype(tech_df["tool_name"]):
+        valid_tools = tech_df[
+            pd.notna(tech_df["tool_name"]) & (tech_df["tool_name"].str.strip() != "")
+        ]
+        top_tools_overall = valid_tools["tool_name"].value_counts().reset_index()
+        top_tools_overall.columns = ["Tool", "Frequency"]
+        top_tools_overall.to_csv(output_dir / "top_tools_overall.csv", index=False)
+    else:
+        # Create an empty file if there are no tools to analyze
+        pd.DataFrame(columns=["Tool", "Frequency"]).to_csv(
+            output_dir / "top_tools_overall.csv", index=False
         )
-        .size()
-        .reset_index(name="count")
-        .sort_values(["profile", "family", "count"], ascending=[True, True, False])
-    )
-    by_profile["rank"] = by_profile.groupby(["profile", "family"])["count"].rank(
-        method="first", ascending=False
-    )
-    by_profile_top = (
-        by_profile[by_profile["rank"] <= top_n]
-        .drop(columns=["rank"])
-        .reset_index(drop=True)
-    )
-    by_profile_top = by_profile_top.rename(columns={"tool_canonical": "tool_name"})
-    by_profile_top.to_csv(
-        f"{output_dir}/top_tools_by_profile.csv", index=False, encoding="utf-8"
-    )
-    print(f"Saved per-profile top tools to {output_dir}/top_tools_by_profile.csv")
+
+    # --- Top Tools by Profile ---
+    merged_df = pd.merge(tech_df, df_profiles, on="job_id")
+    if pd.api.types.is_string_dtype(merged_df["tool_name"]):
+        valid_tools_by_profile = merged_df[
+            pd.notna(merged_df["tool_name"])
+            & (merged_df["tool_name"].str.strip() != "")
+        ]
+
+        top_tools_by_profile = (
+            valid_tools_by_profile.groupby("profile")["tool_name"]
+            .value_counts()
+            .groupby(level=0)
+            .head(10)
+            .reset_index(name="Frequency")
+        )
+        top_tools_by_profile.to_csv(
+            output_dir / "top_tools_by_profile.csv", index=False
+        )
+    else:
+        # Create an empty file
+        pd.DataFrame(columns=["profile", "tool_name", "Frequency"]).to_csv(
+            output_dir / "top_tools_by_profile.csv", index=False
+        )
 
 
 def derive_focus_rq1b(tidy_input_csv, output_dir):
@@ -337,13 +277,12 @@ def perform_profile_analysis(tidy_input_csv, profiles_csv):
 
 
 if __name__ == "__main__":
-    INPUT_TIDY_CSV = "data/automated_analysis_consolidated.csv"
-    INPUT_PROFILES_CSV = "data/automated_analysis_profiles.csv"
-    OUTPUT_DIR = "data/analysis_results"
-    import os
+    # --- File Paths ---
+    INPUT_TIDY_CSV = Path("data/automated_analysis_consolidated.csv")
+    INPUT_PROFILES_CSV = Path("data/automated_analysis_profiles.csv")
+    OUTPUT_DIR = Path("data/analysis_results")
 
-    if not os.path.exists(OUTPUT_DIR):
-        os.makedirs(OUTPUT_DIR)
+    OUTPUT_DIR.mkdir(exist_ok=True)
     perform_descriptive_analysis(INPUT_TIDY_CSV, INPUT_PROFILES_CSV, OUTPUT_DIR)
     compute_top_tools(INPUT_TIDY_CSV, INPUT_PROFILES_CSV, OUTPUT_DIR)
     derive_focus_rq1b(INPUT_TIDY_CSV, OUTPUT_DIR)

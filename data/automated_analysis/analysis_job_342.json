@@ -28,115 +28,79 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The job title and description strongly emphasize building and deploying predictive models, data preprocessing, and MLOps. While generative AI is mentioned, the core focus remains on traditional machine learning engineering tasks like algorithm development and productionizing models."
+            "rationale": "The job title explicitly states 'Machine Learning Engineer' and the responsibilities focus on research, building, and designing self-running software for predictive models, aligning with the definition of an ML Engineer. While Generative AI is mentioned, the core emphasis is on the broader ML lifecycle including MLOps and productionizing models, rather than solely on LLM-based applications."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK2: Data Engineering",
-                    "phrases": [
-                        "data preprocessing",
-                        "feature engineering"
-                    ],
-                    "justification": "These phrases directly relate to preparing and transforming data for model training, which is a core component of data engineering in an ML context."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Senior Machine Learning Engineer' and the mention of 'Qualcomm AI Research' imply a focus on developing and refining machine learning models.",
+                    "phrase": "Senior Machine Learning Engineer"
                 },
                 {
-                    "task": "TASK3: Modeling",
-                    "phrases": [
-                        "Machine Learning",
-                        "predictive models",
-                        "deep learning",
-                        "generative AI",
-                        "model development",
-                        "model training",
-                        "model evaluation",
-                        "model optimization",
-                        "model deployment"
-                    ],
-                    "justification": "The job description explicitly mentions various aspects of machine learning and generative AI, including model development, training, evaluation, optimization, and deployment, indicating a strong focus on the modeling aspect."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of 'productionizing' models is a key aspect of MLOps, ensuring models are deployed and maintained effectively.",
+                    "phrase": "productionizing"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrases": [
-                        "software development",
-                        "productionizing",
-                        "API development",
-                        "backend services",
-                        "scalable and robust applications"
-                    ],
-                    "justification": "The description highlights the need for software development skills to integrate ML models into applications, build services, and ensure scalability, which falls under software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves building and designing software, which falls under software development, particularly in the context of creating self-running predictive models.",
+                    "phrase": "building and designing self-running software"
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "MLOps",
-                        "model deployment",
-                        "monitoring",
-                        "maintaining production systems"
-                    ],
-                    "justification": "The mention of MLOps, model deployment, monitoring, and maintaining production systems directly aligns with the responsibilities of Operations Engineering in an ML context."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech": "TECH1: Programming Languages",
-                    "items": [
-                        "Python"
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The core function of an ML Engineer is to automate predictive models, which is a direct description of modeling tasks.",
+                    "phrase": "automate predictive models"
                 },
                 {
-                    "tech": "TECH2: Cloud Platforms & Services",
-                    "items": [
-                        "cloud platforms"
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "Concentrating on algorithms that perform tasks like prediction, classification, time series analysis, anomaly detection, and recommendation inherently requires significant data preprocessing and feature engineering.",
+                    "phrase": "algorithms that perform tasks like prediction, classification, time series analysis, anomaly detection and recommendation"
                 },
                 {
-                    "tech": "TECH3: LLM / Generative Models",
-                    "items": [
-                        "generative AI"
-                    ]
-                },
-                {
-                    "tech": "TECH10: Data Modeling",
-                    "items": [
-                        "deep learning frameworks"
-                    ]
-                },
-                {
-                    "tech": "TECH6: MLOps & Data Pipelines",
-                    "items": [
-                        "MLOps"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "MLOps is explicitly mentioned as a key part of the work for ML Engineers, focusing on building and maintaining production-grade systems.",
+                    "phrase": "MLOps, building and maintaining production-grade systems"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "collaborate with researchers and engineers",
-                        "communicate complex ideas"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "designing self-running software"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "staying abreast of the latest advancements"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Senior Machine Learning Engineer"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "predictive models"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "solve challenging problems",
-                        "model optimization"
-                    ]
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "classification"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "drive innovation",
-                        "take ownership"
-                    ]
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "time series analysis"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "anomaly detection"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "recommendation"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "MLOps"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "production-grade systems"
                 }
             ]
         }

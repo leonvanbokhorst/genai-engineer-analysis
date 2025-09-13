@@ -27,309 +27,209 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The role emphasizes building and deploying predictive models for tasks like anomaly detection and classification, alongside MLOps practices. While generative AI is mentioned, the core focus and breadth of responsibilities lean more towards traditional ML engineering and productionizing models."
+            "profile": "GenAI Engineer",
+            "rationale": "The job description emphasizes designing and implementing generative AI solutions, building RAG systems (implied by OpenAI APIs and customer-facing applications), and developing applications around LLMs. While it also mentions traditional ML tasks like time-series anomaly detection and tabular data classification, the explicit mention of 'generative AI solutions' and the focus on building 'customer-facing products' and 'full-stack solutions' aligns more closely with the GenAI Engineer profile, which includes developing and deploying applications built on generative models."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "Design and implement full-stack solutions for time-series anomaly detection, generative AI solutions, tabular data classification, and alert prioritization.",
-                    "category": "TASK3: Modeling",
-                    "justification": "This phrase directly mentions designing and implementing solutions for specific modeling tasks like anomaly detection, generative AI, and classification."
+                    "category": "TASK3",
+                    "justification": "The job description explicitly mentions 'time-series anomaly detection, generative AI solutions, tabular data classification' as key areas of implementation.",
+                    "phrase": "time-series anomaly detection, generative AI solutions, tabular data classification"
                 },
                 {
-                    "task": "Lead the charge in exploring and defining the future of data quality tooling at Soda, focusing on automating mundane tasks to allow for more significant problem-solving opportunities.",
-                    "category": "TASK1: Business Understanding",
-                    "justification": "This involves understanding the product vision and strategic direction for data quality tooling, aligning technical efforts with business goals."
+                    "category": "TASK4",
+                    "justification": "The role involves designing and implementing 'full-stack solutions' and contributing to the 'product development lifecycle from conception to deployment', indicating traditional software engineering practices for building applications.",
+                    "phrase": "Design and implement full-stack solutions"
                 },
                 {
-                    "task": "Collaborate closely with software engineers and other team members to create seamless, efficient processes and solutions.",
-                    "category": "SKILL1: Communication & Collaboration",
-                    "justification": "This highlights the importance of working effectively with other engineers and team members."
+                    "category": "TASK4",
+                    "justification": "The description states 'working closely with our main engineering team to make these innovations come to life' and 'collaborate closely with software engineers', highlighting integration with engineering practices.",
+                    "phrase": "working closely with our main engineering team"
                 },
                 {
-                    "task": "Contribute to the product development lifecycle from conception to deployment, ensuring that solutions are scalable, efficient, and meet user needs.",
-                    "category": "TASK4: Software Development",
-                    "justification": "This describes involvement in the full product lifecycle, including ensuring solutions are scalable and efficient, which are software development concerns."
+                    "category": "TASK4",
+                    "justification": "The requirement for 'customer-facing products' and building 'data products or software intended for external users' points to software development for end-users.",
+                    "phrase": "customer-facing products"
                 },
                 {
-                    "task": "You should bring at least 3 years of hands-on experience as a Data Scientist or Machine Learning Engineer, focusing on customer-facing products. This means you've built data products or software intended for external users.",
-                    "category": "TASK4: Software Development",
-                    "justification": "Focusing on customer-facing products and building data products/software implies a software development aspect beyond just model building."
+                    "category": "TASK4",
+                    "justification": "The need to 'create seamless, efficient processes and solutions' in collaboration with engineers emphasizes the software development aspect.",
+                    "phrase": "create seamless, efficient processes and solutions"
                 },
                 {
-                    "task": "time-series modeling and anomaly detection",
-                    "category": "TASK3: Modeling",
-                    "justification": "This is a direct mention of a core machine learning modeling task."
+                    "category": "TASK4",
+                    "justification": "The phrase 'Contribute to the product development lifecycle from conception to deployment' covers the end-to-end software development process.",
+                    "phrase": "Contribute to the product development lifecycle from conception to deployment"
                 },
                 {
-                    "task": "classification of tabular data",
-                    "category": "TASK3: Modeling",
-                    "justification": "This is a direct mention of a core machine learning modeling task."
+                    "category": "TASK5",
+                    "justification": "The mention of 'continuous integration, and continuous deployment tools, like Git, Github Actions, and Pytest' and 'code reviews' directly relates to MLOps practices.",
+                    "phrase": "continuous integration, and continuous deployment tools, like Git, Github Actions, and Pytest"
                 },
                 {
-                    "task": "creating Generative AI applications",
-                    "category": "TASK3: Modeling",
-                    "justification": "This refers to the development and adaptation of generative models."
+                    "category": "TASK5",
+                    "justification": "The 'plus' for 'deployment and DevOps tools like Terraform and Kubernetes' further reinforces the MLOps aspect.",
+                    "phrase": "deployment and DevOps tools like Terraform and Kubernetes"
                 },
                 {
-                    "task": "Familiarity with our tech stack is important. We use: Snowflake Database, Python, FastAPI, OpenAI APIs, Sklearn, Streamlit, Facebook Prophet, Decision Trees (including Random Forests), Pytest.",
-                    "category": "TECH",
-                    "justification": "This lists specific technologies used in the role."
+                    "category": "TASK1",
+                    "justification": "The role involves 'product research', 'exploring and defining the future of data quality tooling', and understanding 'user needs', indicating a strong business and product understanding.",
+                    "phrase": "exploring and defining the future of data quality tooling"
                 },
                 {
-                    "task": "At your core, you're a problem solver. You excel at understanding user needs and technical challenges, brainstorming solutions, and learning new methods as necessary. You're comfortable admitting when you don't have all the answers but are confident in your ability to find them.",
-                    "category": "SKILL3: Problem Solving & Pragmatism",
-                    "justification": "This describes a core attribute of analytical and solution-oriented thinking."
+                    "category": "TASK1",
+                    "justification": "The emphasis on 'product thinking' and understanding 'user needs' aligns with business understanding.",
+                    "phrase": "product thinking"
                 },
                 {
-                    "task": "You love remote work: If you've worked remotely and loved it, you'll fit right in. Our team operates fully remotely with regular meetings in person (offsites every 6 months, and occasional local hangouts), so being effective and engaged in this environment is crucial.",
-                    "category": "SKILL1: Communication & Collaboration",
-                    "justification": "This relates to adapting to and succeeding in a specific work environment, which impacts collaboration."
+                    "category": "TASK3",
+                    "justification": "The phrase 'creating Generative AI applications' is a direct mention of generative modeling tasks.",
+                    "phrase": "creating Generative AI applications"
                 },
                 {
-                    "task": "Close Collaboration with Software Engineers: Whether you've been an integral part of a full-stack engineering team or have a solid understanding of cross-disciplinary collaboration, your ability to work alongside front-end, back-end, and platform engineers is vital.",
-                    "category": "SKILL1: Communication & Collaboration",
-                    "justification": "This explicitly states the need for close collaboration with software engineers."
+                    "category": "TASK3",
+                    "justification": "The mention of 'time-series modeling' is a specific type of predictive modeling task.",
+                    "phrase": "time-series modeling"
                 },
                 {
-                    "task": "Open to Learning: You're not just focused on data science. You're eager to dive into general software engineering projects and expand your skill set beyond AI and modeling.",
-                    "category": "SKILL2: Learning & Adaptability",
-                    "justification": "This highlights a willingness and eagerness to learn new skills and expand beyond the core domain."
+                    "category": "TASK3",
+                    "justification": "The mention of 'classification of tabular data' is a specific type of predictive modeling task.",
+                    "phrase": "classification of tabular data"
                 },
                 {
-                    "task": "Solid experience with code versioning, continuous integration, and continuous deployment tools, like Git, Github Actions, and Pytest, is expected. You know your way around code reviews and value maintaining high-quality codebases.",
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "This describes essential practices for productionizing and maintaining code, aligning with MLOps principles."
+                    "category": "TASK4",
+                    "justification": "The requirement for 'solid experience with code versioning, continuous integration, and continuous deployment tools' and 'code reviews' points to software development best practices.",
+                    "phrase": "Solid experience with code versioning, continuous integration, and continuous deployment tools"
                 },
                 {
-                    "task": "Community and Open-Source Minded: One of our products being Open-Source, you'll be interested to engage with and care for the community around the products we offer as part of that channel.",
-                    "category": "SKILL1: Communication & Collaboration",
-                    "justification": "This involves engaging with an external community, which requires communication and collaboration skills."
-                },
-                {
-                    "task": "Customer Obsessed: You are not afraid to and show an interest in communicating directly with customers to understand their needs on new and current products (with the help of a product manager). You're also more than willing to provide direct support to customers on products which fall under your scope of expertise.",
-                    "category": "SKILL1: Communication & Collaboration",
-                    "justification": "This emphasizes direct communication with customers and stakeholders."
-                },
-                {
-                    "task": "Knowledge of deployment and DevOps tools like Terraform and Kubernetes is a plus.",
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "This directly mentions deployment and DevOps tools, which are core to MLOps."
-                },
-                {
-                    "task": "A proactive approach to product development, contributing ideas and engaging with the product lifecycle.",
-                    "category": "SKILL5: Innovation & Ownership",
-                    "justification": "This describes taking initiative and ownership in product development."
-                },
-                {
-                    "task": "Openness to taking on leadership roles, mentoring junior data scientists, and contributing to a culture of learning and growth.",
-                    "category": "SKILL5: Innovation & Ownership",
-                    "justification": "This indicates a proactive approach and willingness to lead and contribute to team growth."
-                },
-                {
-                    "task": "A strong team player with a positive attitude, willingness to learn, and a commitment to contributing to a collaborative environment.",
-                    "category": "SKILL1: Communication & Collaboration",
-                    "justification": "This describes essential interpersonal and teamwork skills."
-                },
-                {
-                    "task": "High emotional intelligence, with strong interpersonal skills and the ability to work effectively in a remote-first, asynchronous environment.",
-                    "category": "SKILL1: Communication & Collaboration",
-                    "justification": "This highlights interpersonal skills and effective collaboration in a remote setting."
-                },
-                {
-                    "task": "A deep commitment to diversity and inclusion, ensuring respectful and effective communication across diverse backgrounds and identities.",
-                    "category": "SKILL1: Communication & Collaboration",
-                    "justification": "This emphasizes respectful and effective communication within a diverse team."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Snowflake Database",
-                    "category": "TECH9: Data Storage"
-                },
-                {
-                    "technology": "Python",
-                    "category": "TECH1: Programming Languages"
-                },
-                {
-                    "technology": "FastAPI",
-                    "category": "TECH4: LLM Frameworks & Libraries"
-                },
-                {
-                    "technology": "OpenAI APIs",
-                    "category": "TECH2: Cloud Platforms & Services"
-                },
-                {
-                    "technology": "Sklearn",
-                    "category": "TECH10: Data Modeling"
-                },
-                {
-                    "technology": "Streamlit",
-                    "category": "TECH4: LLM Frameworks & Libraries"
-                },
-                {
-                    "technology": "Facebook Prophet",
-                    "category": "TECH10: Data Modeling"
-                },
-                {
-                    "technology": "Decision Trees",
-                    "category": "TECH10: Data Modeling"
-                },
-                {
-                    "technology": "Random Forests",
-                    "category": "TECH10: Data Modeling"
-                },
-                {
-                    "technology": "Pytest",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "technology": "Git",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "technology": "Github Actions",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "technology": "Terraform",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "technology": "Kubernetes",
-                    "category": "TECH6: MLOps & Data Pipelines"
+                    "category": "TASK3",
+                    "justification": "The mention of 'Decision Trees (including Random Forests)' refers to specific modeling algorithms.",
+                    "phrase": "Decision Trees (including Random Forests)"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "product thinking",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL3",
+                    "phrase": "creative problem-solving"
                 },
                 {
-                    "skill": "creative problem-solving",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL3",
+                    "phrase": "problem solver"
                 },
                 {
-                    "skill": "passion for developing cutting-edge solutions",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "SKILL3",
+                    "phrase": "understanding user needs and technical challenges, brainstorming solutions"
                 },
                 {
-                    "task": "Collaborate closely with software engineers and other team members to create seamless, efficient processes and solutions.",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL2",
+                    "phrase": "learning new methods as necessary"
                 },
                 {
-                    "skill": "understanding user needs and technical challenges",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL2",
+                    "phrase": "Open to Learning"
                 },
                 {
-                    "skill": "brainstorming solutions",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL1",
+                    "phrase": "Collaborate closely with software engineers and other team members"
                 },
                 {
-                    "skill": "learning new methods as necessary",
-                    "category": "SKILL2: Learning & Adaptability"
+                    "category": "SKILL1",
+                    "phrase": "Close Collaboration with Software Engineers"
                 },
                 {
-                    "skill": "comfortable admitting when you don't have all the answers but are confident in your ability to find them",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL1",
+                    "phrase": "cross-disciplinary collaboration"
                 },
                 {
-                    "skill": "effective and engaged in this environment",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL5",
+                    "phrase": "proactive approach to product development, contributing ideas"
                 },
                 {
-                    "skill": "Close Collaboration with Software Engineers",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL5",
+                    "phrase": "Openness to taking on leadership roles, mentoring junior data scientists"
                 },
                 {
-                    "skill": "solid understanding of cross-disciplinary collaboration",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL1",
+                    "phrase": "strong interpersonal skills"
                 },
                 {
-                    "skill": "eager to dive into general software engineering projects and expand your skill set beyond AI and modeling",
-                    "category": "SKILL2: Learning & Adaptability"
+                    "category": "SKILL1",
+                    "phrase": "effective communication"
                 },
                 {
-                    "skill": "value maintaining high-quality codebases",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "SKILL4",
+                    "phrase": "diversity and inclusion"
                 },
                 {
-                    "skill": "Community and Open-Source Minded",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL5",
+                    "phrase": "Ownership"
                 },
                 {
-                    "skill": "Customer Obsessed",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL3",
+                    "phrase": "complex problems"
                 },
                 {
-                    "skill": "communicating directly with customers",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL1",
+                    "phrase": "team player"
                 },
                 {
-                    "skill": "provide direct support to customers",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL2",
+                    "phrase": "willingness to learn"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH9",
+                    "phrase": "Snowflake Database"
                 },
                 {
-                    "skill": "proactive approach to product development",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "TECH1",
+                    "phrase": "Python"
                 },
                 {
-                    "skill": "contributing ideas",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "TECH4",
+                    "phrase": "FastAPI"
                 },
                 {
-                    "skill": "engaging with the product lifecycle",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "TECH2",
+                    "phrase": "OpenAI APIs"
                 },
                 {
-                    "skill": "Openness to taking on leadership roles",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "TECH10",
+                    "phrase": "Sklearn"
                 },
                 {
-                    "skill": "mentoring junior data scientists",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "TECH4",
+                    "phrase": "Streamlit"
                 },
                 {
-                    "skill": "contributing to a culture of learning and growth",
-                    "category": "SKILL2: Learning & Adaptability"
+                    "category": "TECH10",
+                    "phrase": "Facebook Prophet"
                 },
                 {
-                    "skill": "strong team player",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "TECH10",
+                    "phrase": "Decision Trees (including Random Forests)"
                 },
                 {
-                    "skill": "positive attitude",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "TECH5",
+                    "phrase": "Pytest"
                 },
                 {
-                    "skill": "willingness to learn",
-                    "category": "SKILL2: Learning & Adaptability"
+                    "category": "TECH1",
+                    "phrase": "Git"
                 },
                 {
-                    "skill": "commitment to contributing to a collaborative environment",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "TECH6",
+                    "phrase": "Github Actions"
                 },
                 {
-                    "skill": "High emotional intelligence",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "TECH6",
+                    "phrase": "Terraform"
                 },
                 {
-                    "skill": "strong interpersonal skills",
-                    "category": "SKILL1: Communication & Collaboration"
-                },
-                {
-                    "skill": "work effectively in a remote-first, asynchronous environment",
-                    "category": "SKILL1: Communication & Collaboration"
-                },
-                {
-                    "skill": "deep commitment to diversity and inclusion",
-                    "category": "SKILL1: Communication & Collaboration"
-                },
-                {
-                    "skill": "respectful and effective communication",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "TECH6",
+                    "phrase": "Kubernetes"
                 }
             ]
         }

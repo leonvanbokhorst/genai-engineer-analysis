@@ -28,115 +28,89 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes building and maintaining an MLOps platform used for production-grade data science solutions, including LLM services. It also mentions applying new AWS features and setting up data pipelines, aligning with the core responsibilities of a GenAI Engineer focused on productionizing and operationalizing generative AI models."
+            "rationale": "The job description emphasizes adding LLM services, maintaining an MLOps platform used for production-ready data science solutions, and converting PoCs into production-grade solutions. This aligns strongly with the core responsibilities of a GenAI Engineer, particularly in building and maintaining production systems around generative models and supporting data scientists in productionizing their work. While MLOps and AWS are mentioned, the primary focus on LLM services and the application of MLOps for generative models points towards GenAI Engineer over ML Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Inrichten monitoring",
-                        "Onderhouden van het MLOps platform",
-                        "Resource & cost monitoring",
-                        "Beheren van de AWS accounts, incl. privacy & security",
-                        "Meedenken met de data scientisten om een PoC om te zetten naar een productiewaardige oplossing gebruikmakend van het MLOps platform"
-                    ],
-                    "justification": "These phrases directly relate to the operational aspects of managing and maintaining production systems, including monitoring, platform maintenance, resource management, security, and deploying solutions into production, which are core to MLOps."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Onderhouden van het MLOps platform' directly refers to the maintenance and management of an MLOps platform, which is a core aspect of Operations Engineering.",
+                    "phrase": "Onderhouden van het MLOps platform"
                 },
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "LLM Services toevoegen",
-                        "Meedenken met de data scientisten om een PoC om te zetten naar een productiewaardige oplossing"
-                    ],
-                    "justification": "The mention of 'LLM Services' indicates work with generative models, and the process of converting a Proof of Concept (PoC) into a production-ready solution implies adapting or fine-tuning models."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Meedenken met de data scientisten om een PoC om te zetten naar een productiewaardige oplossing gebruikmakend van het MLOps platform' describes the process of taking a Proof of Concept (PoC) and making it production-ready using an MLOps platform, which is a key responsibility in Operations Engineering.",
+                    "phrase": "Meedenken met de data scientisten om een PoC om te zetten naar een productiewaardige oplossing gebruikmakend van het MLOps platform"
                 },
                 {
-                    "task_category": "TASK2: Data Engineering",
-                    "phrases": [
-                        "Opzetten van data pipelines voor specifieke use cases"
-                    ],
-                    "justification": "This phrase explicitly refers to the creation and setup of data pipelines, a key component of data engineering."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Opzetten van data pipelines voor specifieke use cases' directly relates to the design and implementation of data pipelines, a fundamental task in Data Engineering.",
+                    "phrase": "Opzetten van data pipelines voor specifieke use cases"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "Usability op basis van gebruikersfeedback",
-                        "Codebase & bugs"
-                    ],
-                    "justification": "Focusing on usability based on feedback and managing codebase issues and bugs are typical software development activities, especially when building user-facing aspects or integrating AI features."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Codebase & bugs' implies involvement in the maintenance and development of the software codebase, including bug fixing, which falls under Software Development.",
+                    "phrase": "Codebase & bugs"
                 },
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "ACE team, het Analytics Center of Excellence, gebruiken om de werkzaamheden binnen de ANWB te optimaliseren en te innoveren",
-                        "Jouw focus ligt op de doorontwikkeling en het onderhoud van het MLOps platform.",
-                        "Hiervoor werk je natuurlijk nauw samen met de data scientisten - het platform waar jij aan werkt wordt namelijk voor alle productiewaardige data science oplossingen gebruikt.",
-                        "Naast de samenwerking met de data scientisten zal je veel contact hebben met het ITOps team - zij zorgen voor een centrale ondersteuning en implementatie van AWS - en de DataHub - een club engineers die bouwt aan het centrale data loket binnen de ANWB."
-                    ],
-                    "justification": "These phrases highlight the role's integration within a larger analytics center, its purpose in optimizing and innovating ANWB's operations, collaboration with other teams (Data Scientists, ITOps, DataHub), and the platform's use across various product solutions, indicating an understanding of business context and stakeholder collaboration."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_category": "TECH2: Cloud Platforms & Services",
-                    "technologies": [
-                        "AWS"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Inrichten monitoring' refers to setting up monitoring systems, which is crucial for maintaining and operating production systems, a key part of MLOps.",
+                    "phrase": "Inrichten monitoring"
                 },
                 {
-                    "tech_category": "TECH3: LLM / Generative Models",
-                    "technologies": [
-                        "LLM Services"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Resource & cost monitoring' involves overseeing and managing the resources and costs associated with deployed systems, a responsibility within Operations Engineering.",
+                    "phrase": "Resource & cost monitoring"
                 },
                 {
-                    "tech_category": "TECH6: MLOps & Data Pipelines",
-                    "technologies": [
-                        "MLOps platform",
-                        "data pipelines"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Usability op basis van gebruikersfeedback' indicates a focus on improving the user experience of a system based on feedback, which is a software development concern related to product improvement.",
+                    "phrase": "Usability op basis van gebruikersfeedback"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Beheren van de AWS accounts, incl. privacy & security' involves managing cloud infrastructure accounts with a focus on security and privacy, which is an operational aspect of managing cloud-based systems.",
+                    "phrase": "Beheren van de AWS accounts, incl. privacy & security"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "nauw samenwerken met de data scientisten",
-                        "veel contact hebben met het ITOps team",
-                        "en de DataHub"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Hiervoor werk je natuurlijk nauw samen met de data scientisten"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Usability op basis van gebruikersfeedback",
-                        "Codebase & bugs",
-                        "Meedenken met de data scientisten om een PoC om te zetten naar een productiewaardige oplossing"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Naast de samenwerking met de data scientisten zal je veel contact hebben met het ITOps team"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "Nieuwe AWS features toepassen",
-                        "LLM Services toevoegen",
-                        "doorontwikkeling en het onderhoud van het MLOps platform",
-                        "Opzetten van data pipelines voor specifieke use cases",
-                        "Meedenken met de data scientisten om een PoC om te zetten naar een productiewaardige oplossing"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "en de DataHub - een club engineers die bouwt aan het centrale data loket binnen de ANWB."
                 },
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "Nieuwe AWS features toepassen"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Meedenken met de data scientisten om een PoC om te zetten naar een productiewaardige oplossing"
                 },
                 {
-                    "skill_category": "SKILL4: Ethical & Legal Responsibility",
-                    "phrases": [
-                        "Beheren van de AWS accounts, incl. privacy & security"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "innoveren"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "AWS"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLM Services"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "MLOps platform"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "AWS accounts"
                 }
             ]
         }

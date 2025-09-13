@@ -28,92 +28,82 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 5,
-            "rationale": "The job description heavily emphasizes working with large language models (LLMs), including fine-tuning, prompt engineering, and developing applications around them. It also mentions building production-ready implementations, APIs, and service integrations, aligning strongly with the core responsibilities of a GenAI Engineer."
+            "rationale": "The job description heavily emphasizes the development, fine-tuning, and deployment of applications built on large language models (LLMs), including specific mentions of prompt engineering, RAG (implied by prompt optimization for product functionality), and working with various LLM models (GPT, Llama, Gemini, Claude, Mistral). While it mentions 'machine learning models' broadly, the focus on LLMs and prompt engineering aligns directly with the definition and core responsibilities of a GenAI Engineer. The inclusion of API development and service integrations also points towards building user-facing systems, a key aspect of this role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "Model Development Lifecycle",
-                        "develop machine learning models",
-                        "rapid prototyping",
-                        "full production-ready implementations",
-                        "Model Training and Benchmarking",
-                        "Train, fine-tune, and evaluate machine learning models",
-                        "large language models (LLMs)",
-                        "Drive rigorous benchmarking to assess accuracy, efficiency, and error rates",
-                        "Algorithm Development and Maintenance",
-                        "Maintain and refine existing algorithms"
-                    ],
-                    "justification": "These phrases directly relate to the creation, training, evaluation, and refinement of machine learning and generative models, including LLMs."
+                    "category": "TASK3",
+                    "justification": "The description explicitly mentions 'Train, fine-tune, and evaluate machine learning models, including large language models (LLMs)' and 'Algorithm Development and Maintenance'.",
+                    "phrase": "Train, fine-tune, and evaluate machine learning models, including large language models (LLMs)"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "deploy machine learning models",
-                        "considering endpoints, APIs, and service integrations",
-                        "production-ready implementations"
-                    ],
-                    "justification": "This category covers the development of software systems, including the deployment of models, creation of endpoints and APIs, and building production-ready applications."
+                    "category": "TASK3",
+                    "justification": "This phrase directly relates to the core process of creating and adapting models, specifically generative ones in this context.",
+                    "phrase": "Develop, test, and optimize prompts for LLMs"
                 },
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "Prompt Engineering",
-                        "Develop, test, and optimize prompts for LLMs",
-                        "Assess quality and feasibility for various use cases"
-                    ],
-                    "justification": "Prompt engineering is a core modeling task specific to generative AI and LLMs."
+                    "category": "TASK4",
+                    "justification": "The mention of 'production-ready implementations, considering endpoints, APIs, and service integrations' points to building and integrating AI features into applications.",
+                    "phrase": "full production-ready implementations, considering endpoints, APIs, and service integrations"
                 },
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "Innovation and Roadmap Development",
-                        "Partner closely with the CTO and Product Owner to envision future AI-driven products and enhancements that align with Deepdesk's growth and competitive edge."
-                    ],
-                    "justification": "This involves understanding business goals and translating them into AI product strategies and roadmaps."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_category": "TECH1: Programming Languages",
-                    "name": "Python"
+                    "category": "TASK1",
+                    "justification": "The phrase 'Partner closely with the CTO and Product Owner to envision future AI-driven products and enhancements that align with Deepdesk's growth and competitive edge' indicates understanding business context and strategic alignment.",
+                    "phrase": "Partner closely with the CTO and Product Owner to envision future AI-driven products and enhancements that align with Deepdesk's growth and competitive edge"
                 },
                 {
-                    "tech_category": "TECH3: LLM / Generative Models",
-                    "name": "GPT"
-                },
-                {
-                    "tech_category": "TECH3: LLM / Generative Models",
-                    "name": "Llama"
-                },
-                {
-                    "tech_category": "TECH3: LLM / Generative Models",
-                    "name": "Gemini"
-                },
-                {
-                    "tech_category": "TECH3: LLM / Generative Models",
-                    "name": "Claude"
-                },
-                {
-                    "tech_category": "TECH3: LLM / Generative Models",
-                    "name": "Mistral"
+                    "category": "TASK3",
+                    "justification": "The phrase 'Algorithm Development and Maintenance' directly falls under the modeling category, focusing on refining existing models.",
+                    "phrase": "Algorithm Development and Maintenance"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
+                    "category": "SKILL5",
                     "phrase": "Innovation and Roadmap Development"
                 },
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "phrase": "Partner closely with the CTO and Product Owner"
+                    "category": "SKILL3",
+                    "phrase": "rigorous benchmarking to assess accuracy, efficiency, and error rates"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
+                    "category": "SKILL3",
                     "phrase": "Assess quality and feasibility for various use cases"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "GPT"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "Llama"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "Gemini"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "Claude"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "Mistral"
+                },
+                {
+                    "category": "TECH10",
+                    "phrase": "machine learning models"
+                },
+                {
+                    "category": "TECH4",
+                    "phrase": "LLMs"
                 }
             ]
         }

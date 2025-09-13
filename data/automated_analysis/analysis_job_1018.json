@@ -27,84 +27,86 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional C++ software engineering and NX CAM software development. While 'AI' is mentioned in the title, the core responsibilities do not involve building, fine-tuning, or deploying AI models, nor do they align with the typical tasks of an ML or GenAI Engineer."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on traditional C++ software development, including design, development, testing, and maintenance of existing software (NX CAM). While 'AI' is mentioned in the title, the responsibilities and technologies listed do not indicate a focus on building, fine-tuning, or deploying generative AI models, nor do they involve core ML engineering tasks like predictive modeling or MLOps. The role appears to be a traditional software engineering position that may *use* AI tools or integrate with AI systems, rather than developing or engineering AI itself, aligning with the 'Ambiguous' profile for non-AI technical roles or roles primarily focused on the use of AI tools."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "Software Development",
-                    "phrase": "Designing, developing, modifying, and maintaining NX CAM software.",
-                    "justification": "This phrase directly describes the creation and upkeep of software, which falls under the umbrella of Software Development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description details core software engineering activities such as designing, developing, modifying, and maintaining software (NX CAM), creating and testing feature components, and applying best practices in coding, design, and implementation.",
+                    "phrase": "Designing, developing, modifying, and maintaining NX CAM software."
                 },
                 {
-                    "task": "Software Development",
-                    "phrase": "Creating and testing feature components as well as ensuring software quality through unit and system-level testing.",
-                    "justification": "This involves the practical implementation and quality assurance of software components, a core aspect of Software Development."
+                    "category": "TASK4: Software Development",
+                    "justification": "Activities like research, design, and prototyping are fundamental to the software development lifecycle.",
+                    "phrase": "Conducting research, design, prototyping, and other exploratory activities."
                 },
                 {
-                    "task": "Software Development",
-                    "phrase": "Applying best practices in coding, design, and implementation to build high-quality components and solutions.",
-                    "justification": "This highlights the engineering principles and practices used in building software, fitting the Software Development category."
+                    "category": "TASK4: Software Development",
+                    "justification": "Creating and testing software components, including unit and system-level testing, are standard software development practices.",
+                    "phrase": "Creating and testing feature components as well as ensuring software quality through unit and system-level testing."
                 },
                 {
-                    "task": "Business Understanding",
-                    "phrase": "Collaborating with and supporting the Product Owner in building and refining user stories and acceptance tests.",
-                    "justification": "This indicates interaction with product management to define requirements and scope, aligning with understanding business needs and translating them."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Collaborating with a Product Owner to build and refine user stories and acceptance tests involves understanding business requirements and translating them into technical specifications.",
+                    "phrase": "Collaborating with and supporting the Product Owner in building and refining user stories and acceptance tests."
                 },
                 {
-                    "task": "Communication & Collaboration",
-                    "phrase": "Collaborating with and supporting the Product Owner in building and refining user stories and acceptance tests.",
-                    "justification": "This involves working with another role (Product Owner) to define project scope and requirements, demonstrating collaboration."
+                    "category": "TASK4: Software Development",
+                    "justification": "Paired programming and frequent code review are practices aimed at improving code quality and design in software development.",
+                    "phrase": "Utilising paired programming and other practices for frequent code review."
                 },
                 {
-                    "task": "Communication & Collaboration",
-                    "phrase": "Utilising paired programming and other practices for frequent code review.",
-                    "justification": "Paired programming and code reviews are direct examples of collaborative development practices."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "Maintaining continuous communication to set shared expectations and fostering a transparent and safe environment are key aspects of team collaboration.",
+                    "phrase": "Maintaining continuous communication to set shared expectations and fostering a transparent and safe environment."
                 },
                 {
-                    "task": "Communication & Collaboration",
-                    "phrase": "Maintaining continuous communication to set shared expectations and fostering a transparent and safe environment.",
-                    "justification": "This explicitly mentions communication and fostering a positive team environment, key aspects of collaboration."
+                    "category": "TASK4: Software Development",
+                    "justification": "Applying best practices in coding, design, and implementation is a core tenet of building high-quality software.",
+                    "phrase": "Applying best practices in coding, design, and implementation to build high-quality components and solutions."
                 },
                 {
-                    "task": "Learning & Adaptability",
-                    "phrase": "Leveraging team expertise while sharing knowledge for the team's future benefit.",
-                    "justification": "This describes the process of acquiring and disseminating knowledge within a team, indicating a focus on learning and knowledge sharing."
-                },
-                {
-                    "task": "Software Development",
-                    "phrase": "Conducting research, design, prototyping, and other exploratory activities.",
-                    "justification": "While research and design can precede development, in this context, it's tied to creating software components and prototypes, fitting within the broader software development lifecycle."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "C++",
-                    "category": "TECH1: Programming Languages"
-                },
-                {
-                    "technology": "NX CAM",
-                    "category": "TECH11: Data Analysis"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "Leveraging team expertise while sharing knowledge demonstrates collaborative teamwork and knowledge transfer.",
+                    "phrase": "Leveraging team expertise while sharing knowledge for the team's future benefit."
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "Communication & Collaboration",
-                    "phrase": "Collaborating with and supporting the Product Owner in building and refining user stories and acceptance tests."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborating with and supporting the Product Owner"
                 },
                 {
-                    "skill": "Communication & Collaboration",
+                    "category": "SKILL1: Communication & Collaboration",
                     "phrase": "Utilising paired programming and other practices for frequent code review."
                 },
                 {
-                    "skill": "Communication & Collaboration",
+                    "category": "SKILL1: Communication & Collaboration",
                     "phrase": "Maintaining continuous communication to set shared expectations and fostering a transparent and safe environment."
                 },
                 {
-                    "skill": "Learning & Adaptability",
+                    "category": "SKILL1: Communication & Collaboration",
                     "phrase": "Leveraging team expertise while sharing knowledge for the team's future benefit."
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Conducting research, design, prototyping, and other exploratory activities."
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Creating and testing feature components"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Applying best practices in coding, design, and implementation to build high-quality components and solutions."
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "C++"
                 }
             ]
         }

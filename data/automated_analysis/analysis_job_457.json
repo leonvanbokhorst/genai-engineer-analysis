@@ -27,97 +27,116 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The role focuses on applying existing legal tech and AI tools to improve legal processes rather than developing new AI models or systems. While AI is mentioned, the emphasis is on understanding and deploying tools, not core AI engineering."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on applying existing legal tech and AI tools to improve legal processes rather than developing new AI models or core AI systems. While it mentions AI and data science, the emphasis is on 'deploying the right tools', 'managing and further developing these tools', and 'investigating opportunities of new technological developments' within the legal domain, aligning more with the use of AI for productivity enhancement rather than core AI engineering. There is no mention of core AI development tasks like algorithm design, model training, or fine-tuning generative models."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        "transform a lawyer's work",
-                        "improve our service delivery",
-                        "optimise the processes in their matter by deploying the right tools",
-                        "map legal processes, identify bottlenecks or areas for improvement, and propose concrete solutions",
-                        "Investigate the opportunities of new technological developments for our practice"
-                    ],
-                    "justification": "These phrases indicate a need to understand the business context of a law firm, identify areas for improvement in legal processes, and align technology solutions with business goals."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires understanding legal processes and how technology can improve service delivery, aligning technical solutions with the needs of lawyers and clients.",
+                    "phrase": "transform a lawyer's work"
                 },
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        "deploying the right tools",
-                        "Manage and further develop these tools and processes",
-                        "client portals"
-                    ],
-                    "justification": "This task involves managing and developing existing tools and processes, which can include aspects of software development, especially in the context of client portals and deploying specific tools."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves understanding the business context of a law firm and how to improve its service delivery through technology.",
+                    "phrase": "improve our service delivery"
                 },
                 {
-                    "task_name": "TASK3: Modeling",
-                    "phrases": [
-                        "data science",
-                        "generative AI",
-                        "AI"
-                    ],
-                    "justification": "The job description mentions data science and generative AI, suggesting some level of engagement with modeling concepts, though not necessarily deep development."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires understanding the business needs of lawyers and clients to optimize their processes.",
+                    "phrase": "optimise the processes in their matter"
                 },
                 {
-                    "task_name": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Manage and further develop these tools and processes"
-                    ],
-                    "justification": "Managing and developing tools and processes implies operational aspects, ensuring they function correctly and are maintained."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "AI",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves collaborating with various stakeholders to understand legal processes and identify areas for improvement.",
+                    "phrase": "map legal processes, identify bottlenecks or areas for improvement"
                 },
                 {
-                    "tech_name": "generative AI",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK3: Modeling",
+                    "justification": "The job mentions data science, which often involves modeling, but the context is about applying it to legal processes rather than developing new models.",
+                    "phrase": "data science"
                 },
                 {
-                    "tech_name": "legal tech",
-                    "category": "Ambiguous / Not Relevant"
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves managing and developing tools and processes, which can include aspects of software development, especially in integrating and maintaining legal tech solutions.",
+                    "phrase": "Manage and further develop these tools and processes"
                 },
                 {
-                    "tech_name": "data science",
-                    "category": "Ambiguous / Not Relevant"
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves proposing concrete solutions, which can encompass the development or integration of software.",
+                    "phrase": "propose concrete solutions"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves building and maintaining user-facing systems like client portals.",
+                    "phrase": "client portals"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The role involves managing and further developing tools and processes, which includes ensuring they provide the best possible solution, implying maintenance and operational aspects.",
+                    "phrase": "ensure that we always provide the best possible solution"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The role involves stimulating the use of tools and providing training, which are operational aspects of deploying and maintaining technology within an organization.",
+                    "phrase": "Stimulate the use of tools and new ways of working in our organisation, including giving presentations on the possibilities and providing training for users"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "working together with the practice",
-                        "in close cooperation with our lawyers and clients",
-                        "Collaborate with lawyers, clients and colleagues from other areas of expertise and departments",
-                        "Stimulate the use of tools and new ways of working in our organisation, including giving presentations on the possibilities and providing training for users"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "working together with the practice"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "closely follow legal tech developments",
-                        "Investigate the opportunities of new technological developments"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "form a bridge between legal and technology"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "find solutions to improve and/or automate our legal processes",
-                        "propose concrete solutions"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "in close cooperation with our lawyers and clients"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "curious about the innovation that generative AI can bring",
-                        "Stimulate the use of tools and new ways of working"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate with lawyers, clients and colleagues from other areas of expertise and departments"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "closely follow legal tech developments"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Investigate the opportunities of new technological developments"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "find solutions to improve and/or automate our legal processes"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "identify bottlenecks or areas for improvement, and propose concrete solutions"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Are you convinced that using legal tech and data science can transform a lawyer's work?"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Are you curious about the innovation that generative AI can bring to the legal profession?"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "generative AI"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "AI"
+                },
+                {
+                    "category": "TECH11: Data Analysis",
+                    "phrase": "data science"
                 }
             ]
         }

@@ -28,101 +28,87 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The role emphasizes developing and operating security services and frameworks, architecting scalable systems, and implementing industry-leading security solutions. While ML/GenAI is mentioned as a backing technology, the core focus is on security solutions, threat detection, and traditional software engineering principles rather than building and fine-tuning generative models."
+            "rationale": "The job description emphasizes the development and operations of security services and frameworks, focusing on architecting, implementing, and scaling security solutions. It highlights expertise in ML/GenAI for threat detection, data-driven approaches, and building scalable systems. While it mentions user-facing products, the core focus is on security services and ML-based threat detection, aligning more with the 'ML Engineer' profile's emphasis on data-driven predictive models and productionizing systems, rather than the 'GenAI Engineer's focus on language, vision, and interaction models for user-facing applications."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "drive the development and operations of security services and frameworks to support user-facing products and platforms across Uber",
-                        "align technical solutions with strategic goals",
-                        "translate business needs into technical requirements"
-                    ],
-                    "justification": "The role requires understanding how security services support user-facing products and platforms, implying a need to align technical solutions with business objectives and translate security needs into technical requirements."
-                },
-                {
-                    "category": "TASK2: Data Engineering",
-                    "phrases": [
-                        "backed by extensive heterogeneous data"
-                    ],
-                    "justification": "The mention of 'extensive heterogeneous data' suggests a need for data engineering to handle and process this data for security purposes."
-                },
-                {
-                    "category": "TASK3: Modeling",
-                    "phrases": [
-                        "adoption of ML/GenAI",
-                        "Analyzing security threats and vulnerabilities to develop strategies for detection and mitigation"
-                    ],
-                    "justification": "The role involves the adoption of ML/GenAI and the analysis of threats for detection and mitigation, which are core aspects of applying models to solve problems."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'drive the development and operations of security services and frameworks to support user-facing products and platforms' indicates building and maintaining software systems.",
+                    "phrase": "drive the development and operations of security services and frameworks to support user-facing products and platforms"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "phrases": [
-                        "drive the development and operations of security services and frameworks",
-                        "design scalable systems",
-                        "delivering high-quality code",
-                        "architect, implement and scale industry-leading security solutions",
-                        "designing, developing, and implementing software solutions to enhance the security posture of the organization",
-                        "Code Review and Testing"
-                    ],
-                    "justification": "The job description heavily emphasizes designing, developing, implementing, and scaling software solutions and security services, along with delivering high-quality code and performing code reviews and testing."
+                    "justification": "The phrase 'design scalable systems while delivering high-quality code' directly relates to software engineering principles.",
+                    "phrase": "design scalable systems while delivering high-quality code"
                 },
                 {
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "drive the development and operations of security services",
-                        "scale industry-leading security solutions"
-                    ],
-                    "justification": "The role involves driving the 'operations' of security services and scaling solutions, which aligns with the principles of operations engineering and maintaining systems in production."
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'ML/GenAI backed by extensive heterogeneous data' for security threats implies the use and development of machine learning models for detection.",
+                    "phrase": "ML/GenAI backed by extensive heterogeneous data"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'architect, implement and scale industry-leading security solutions' suggests the application of models within a broader system.",
+                    "phrase": "architect, implement and scale industry-leading security solutions"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'collaborate with security leaders and with the broader engineering organization to ensure that the technologies and systems that Uber depends on are built with security-by-design in mind' shows alignment with business and organizational goals.",
+                    "phrase": "collaborate with security leaders and with the broader engineering organization to ensure that the technologies and systems that Uber depends on are built with security-by-design in mind"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The bullet point 'designing, developing, and implementing software solutions to enhance the security posture of the organization' is a direct description of software development tasks.",
+                    "phrase": "designing, developing, and implementing software solutions to enhance the security posture of the organization"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The bullet point 'Analyzing security threats and vulnerabilities to develop strategies for detection and mitigation' implies the use of analytical and potentially predictive modeling techniques.",
+                    "phrase": "Analyzing security threats and vulnerabilities to develop strategies for detection and mitigation"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The bullet point 'Code Review and Testing' are standard software development practices.",
+                    "phrase": "Code Review and Testing"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The bullet point 'Researching new techniques and tools to enhance the organization's cyber defense capabilities' implies research into new modeling approaches.",
+                    "phrase": "Researching new techniques and tools to enhance the organization's cyber defense capabilities"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The bullet point 'Working closely with cross-functional teams such as network operations, incident response, and compliance to ensure a cohesive approach to cybersecurity' describes collaboration.",
+                    "phrase": "Working closely with cross-functional teams such as network operations, incident response, and compliance to ensure a cohesive approach to cybersecurity"
+                }
+            ],
+            "soft_skills": [
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "passionate and pragmatic technologists"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "drive the development and operations"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "The security landscape is constantly evolving"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate with security leaders and with the broader engineering organization"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Working closely with cross-functional teams"
                 }
             ],
             "technologies": [
                 {
                     "category": "TECH3: LLM / Generative Models",
-                    "technologies": [
-                        "ML/GenAI"
-                    ]
-                },
-                {
-                    "category": "TECH10: Data Modeling",
-                    "technologies": [
-                        "ML"
-                    ]
-                }
-            ],
-            "soft_skills": [
-                {
-                    "category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Collaborate with security leaders and with the broader engineering organization",
-                        "Working closely with cross-functional teams such as network operations, incident response, and compliance"
-                    ]
-                },
-                {
-                    "category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "The security landscape is constantly evolving",
-                        "Researching new techniques and tools to enhance the organization's cyber defense capabilities"
-                    ]
-                },
-                {
-                    "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "passionate and pragmatic technologists",
-                        "design scalable systems",
-                        "Analyzing security threats and vulnerabilities to develop strategies for detection and mitigation",
-                        "develop strategies for detection and mitigation"
-                    ]
-                },
-                {
-                    "category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "drive the development and operations",
-                        "architect, implement and scale industry-leading security solutions",
-                        "designing, developing, and implementing software solutions"
-                    ]
+                    "phrase": "ML/GenAI"
                 }
             ]
         }

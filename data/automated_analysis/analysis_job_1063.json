@@ -27,78 +27,59 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional backend development, application maintenance, and integration with existing systems like a Data Warehouse. While it mentions 'Speech Analytics', it lacks any specific details about AI/ML model development, generative AI, or advanced data science techniques, making it not a fit for ML Engineer or GenAI Engineer."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on backend development, application maintenance, bug fixing, and interface development for data warehousing and consuming systems. While it mentions 'Speech Analytics' and 'LTB-processes' (likely related to data or machine learning pipelines), it lacks specific details about model development, generative AI techniques, or advanced ML concepts that would align it with an ML Engineer or GenAI Engineer profile. The emphasis is on software engineering and data integration rather than AI model creation or deployment."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "Software Development",
-                    "phrase": "je onderhoudt de applicatie",
-                    "justification": "This phrase indicates maintaining an existing application, which falls under the broader scope of software development and its lifecycle."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'je onderhoudt de applicatie' (you maintain the application) and 'de applicatie onderhoud je door bugs te fixen en het verbeteren van de code' (you maintain the application by fixing bugs and improving the code) directly relates to software maintenance and improvement.",
+                    "phrase": "je onderhoudt de applicatie en richt de LTB-processen in"
                 },
                 {
-                    "task": "Operations Engineering (MLOps)",
-                    "phrase": "richt de LTB-processen in",
-                    "justification": "LTB processes (likely related to deployment, testing, or operations) are part of managing and maintaining software systems in production, aligning with MLOps principles."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'je zorgt ervoor dat nieuwe gebruikers binnen a.s.r. worden aangesloten' (you ensure that new users within a.s.r. are connected) and 'bouwt interfaces voor nieuwe bronnen en consumerende systemen' (build interfaces for new sources and consuming systems) describes the development of connections and interfaces for system integration.",
+                    "phrase": "je zorgt ervoor dat nieuwe gebruikers binnen a.s.r. worden aangesloten en bouwt interfaces voor nieuwe bronnen en consumerende systemen"
                 },
                 {
-                    "task": "Operations Engineering (MLOps)",
-                    "phrase": "richt de onboarding volgens de Cloud standaarden van a.s.r. in",
-                    "justification": "Onboarding applications according to cloud standards is a key aspect of setting up and managing infrastructure for software, which is part of operations engineering."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'je ontwikkelt interfaces voor het aansluiten op het DataWareHouse en nieuwe features' (you develop interfaces for connecting to the DataWareHouse and new features) clearly indicates the development of software interfaces for data integration and feature implementation.",
+                    "phrase": "je ontwikkelt interfaces voor het aansluiten op het DataWareHouse en nieuwe features"
                 },
                 {
-                    "task": "Software Development",
-                    "phrase": "de applicatie onderhoud je door bugs te fixen en het verbeteren van de code",
-                    "justification": "Fixing bugs and improving code are fundamental activities in software development and maintenance."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'alerting en monitoring in Application Insights' (alerting and monitoring in Application Insights) refers to operational aspects of maintaining an application's health and performance, which is a component of MLOps or general operations engineering.",
+                    "phrase": "alerting en monitoring in Application Insights"
                 },
                 {
-                    "task": "Operations Engineering (MLOps)",
-                    "phrase": "alerting en monitoring in Application Insights",
-                    "justification": "Setting up alerting and monitoring using tools like Application Insights is a core responsibility in operations engineering for ensuring application health and performance."
-                },
-                {
-                    "task": "Software Development",
-                    "phrase": "je zorgt ervoor dat nieuwe gebruikers binnen a.s.r. worden aangesloten",
-                    "justification": "Connecting new users to a system involves aspects of application integration and user management, which are part of software development."
-                },
-                {
-                    "task": "Software Development",
-                    "phrase": "bouwt interfaces voor nieuwe bronnen en consumerende systemen",
-                    "justification": "Building interfaces for new sources and consuming systems is a direct software development task related to system integration."
-                },
-                {
-                    "task": "Software Development",
-                    "phrase": "ontwikkelt interfaces voor het aansluiten op het DataWareHouse en nieuwe features",
-                    "justification": "Developing interfaces for connecting to a Data Warehouse and for new features falls under software development, specifically integration and feature implementation."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "DataWareHouse",
-                    "category": "TECH9: Data Storage"
-                },
-                {
-                    "technology": "Application Insights",
-                    "category": "TECH6: MLOps & Data Pipelines"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'je richt de onboarding volgens de Cloud standaarden van a.s.r. in' (you set up the onboarding according to the Cloud standards of a.s.r.) suggests involvement in setting up data or system onboarding processes, which can be part of data engineering or infrastructure setup.",
+                    "phrase": "je richt de onboarding volgens de Cloud standaarden van a.s.r. in"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "Learning & Adaptability",
-                    "phrase": "richt de onboarding volgens de Cloud standaarden van a.s.r. in",
-                    "justification": "Adhering to specific cloud standards implies a need to learn and adapt to organizational best practices."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Cloud standaarden van a.s.r."
                 },
                 {
-                    "skill": "Problem Solving & Pragmatism",
-                    "phrase": "bugs te fixen en het verbeteren van de code",
-                    "justification": "Fixing bugs and improving code are direct manifestations of problem-solving and a pragmatic approach to software maintenance."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "bugs te fixen"
                 },
                 {
-                    "skill": "Innovation & Ownership",
-                    "phrase": "bouwt interfaces voor nieuwe bronnen en consumerende systemen",
-                    "justification": "Building new interfaces suggests taking initiative and ownership in extending system capabilities."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "verbeteren van de code"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Cloud standaarden van a.s.r."
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Application Insights"
                 }
             ]
         }

@@ -28,165 +28,130 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes developing applications powered by Generative AI, specifically mentioning AI-powered tools, chatbots, and integrating with LLMs like Anthropic Claude via AWS Bedrock. It also highlights building backend microservices and productionizing these AI features, aligning with the core responsibilities of a GenAI Engineer."
+            "rationale": "The job description heavily emphasizes the development and application of Generative AI, specifically mentioning \"Generative AI-powered tools\", \"intelligent AI powered chat bot\", \"AWS Bedrock with Anthropic Claude models\", and \"AI chat bots\". It also highlights building backend microservices, working with LLM frameworks (implied by Claude models and AWS Bedrock), and deploying applications in the cloud, aligning with the core responsibilities and evidence profile of a GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "mission-critical SaaS platform used by international customers for inventory, reservation, and ticketing",
-                        "uncover new possibilities for S3 Passenger",
-                        "improving our intelligent AI powered chat bot so users are able to find answers quickly based on our internal documentation",
-                        "using AI chat bots instead of complex wizards in our S3 Passenger product for configuration"
-                    ],
-                    "justification": "These phrases indicate an understanding of the business context, the product (S3 Passenger), and how AI can solve business problems or improve user experience within that context."
+                    "category": "TASK3",
+                    "justification": "The role involves developing Generative AI-powered tools and improving AI-powered chatbots, which directly relates to creating and adapting generative models.",
+                    "phrase": "Developing Generative AI-powered tools"
                 },
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "Developing Generative AI-powered tools",
-                        "intelligent AI powered chat bot",
-                        "AWS Bedrock with Anthropic Claude models",
-                        "using AI chat bots",
-                        "Experiment with Generative AI"
-                    ],
-                    "justification": "These phrases directly relate to the development, implementation, and experimentation with generative AI models and applications, including specific mentions of LLMs and platforms for their use."
+                    "category": "TASK3",
+                    "justification": "The description explicitly mentions improving an AI chatbot to answer questions based on internal documentation, a common application of generative AI and RAG systems.",
+                    "phrase": "improving our intelligent AI powered chat bot so users are able to find answers quickly based on our internal documentation"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "Apply your Python experience on the job",
-                        "building exciting AI-powered tools",
-                        "Designing and implementing backend microservices in the AWS Cloud",
-                        "support high-performance and scalable systems",
-                        "Learning Python while applying it to meaningful, real-world projects",
-                        "Collaborating to design secure, high-quality, and maintainable software",
-                        "expand your skill set to include other programming languages like Golang",
-                        "AWS services like Lambda and DynamoDB"
-                    ],
-                    "justification": "This category covers the core software engineering aspects, including programming languages (Python, Golang), building backend services, ensuring scalability and security, and integrating AI into applications."
+                    "category": "TASK4",
+                    "justification": "The role requires designing and implementing backend microservices in AWS Cloud, which is a core software development activity for building applications.",
+                    "phrase": "Designing and implementing backend microservices in the AWS Cloud"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Agile DevOps team",
-                        "Debugging and optimising systems using tools like New Relic, Sentry, and other monitoring platforms",
-                        "AWS Cloud Development Kit to build Infrastructure-as-Code (IaC) solutions",
-                        "Kubernetes"
-                    ],
-                    "justification": "These phrases relate to the operational aspects of software development and AI deployment, including DevOps practices, monitoring, and infrastructure management (IaC, Kubernetes)."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_category": "TECH1: Programming Languages",
-                    "technologies": [
-                        "Python",
-                        "Golang"
-                    ]
+                    "category": "TASK4",
+                    "justification": "The job involves learning and applying Python to real-world projects, including using AI chatbots within a product, indicating software development for user-facing features.",
+                    "phrase": "Learning Python while applying it to meaningful, real-world projects. For example: using AI chat bots instead of complex wizards in our S3 Passenger product for configuration."
                 },
                 {
-                    "tech_category": "TECH2: Cloud Platforms & Services",
-                    "technologies": [
-                        "AWS",
-                        "AWS Bedrock",
-                        "AWS Cloud Development Kit",
-                        "Lambda",
-                        "DynamoDB"
-                    ]
+                    "category": "TASK4",
+                    "justification": "Collaborating to design secure, high-quality, and maintainable software is a fundamental aspect of software development.",
+                    "phrase": "Collaborating to design secure, high-quality, and maintainable software"
                 },
                 {
-                    "tech_category": "TECH3: LLM / Generative Models",
-                    "technologies": [
-                        "Anthropic Claude models"
-                    ]
+                    "category": "TASK5",
+                    "justification": "The role is part of an Agile DevOps team and involves debugging and optimizing systems using monitoring platforms, which falls under operations and maintenance of production systems.",
+                    "phrase": "As part of an Agile DevOps team, you'll take ownership of your work"
                 },
                 {
-                    "tech_category": "TECH4: LLM Frameworks & Libraries",
-                    "technologies": []
+                    "category": "TASK5",
+                    "justification": "Debugging and optimizing systems using tools like New Relic and Sentry is a key part of monitoring and maintaining software in production.",
+                    "phrase": "Debugging and optimising systems using tools like New Relic, Sentry, and other monitoring platforms."
                 },
                 {
-                    "tech_category": "TECH5: Vector Stores & Search",
-                    "technologies": []
+                    "category": "TASK4",
+                    "justification": "Building Infrastructure-as-Code (IaC) solutions using tools like OpenTofu and AWS CDK is a software development practice for managing infrastructure.",
+                    "phrase": "Work with OpenTofu, Kubernetes, and AWS Cloud Development Kit to build Infrastructure-as-Code (IaC) solutions."
                 },
                 {
-                    "tech_category": "TECH6: MLOps & Data Pipelines",
-                    "technologies": [
-                        "Kubernetes",
-                        "New Relic",
-                        "Sentry",
-                        "OpenTofu"
-                    ]
-                },
-                {
-                    "tech_category": "TECH7: Data Visualization",
-                    "technologies": []
-                },
-                {
-                    "tech_category": "TECH8: Data Processing",
-                    "technologies": []
-                },
-                {
-                    "tech_category": "TECH9: Data Storage",
-                    "technologies": []
-                },
-                {
-                    "tech_category": "TECH10: Data Modeling",
-                    "technologies": []
-                },
-                {
-                    "tech_category": "TECH11: Data Analysis",
-                    "technologies": []
+                    "category": "TASK1",
+                    "justification": "The description mentions contributing to a mission-critical SaaS platform used by international customers for inventory, reservation, and ticketing, indicating an understanding of the business context.",
+                    "phrase": "Work on a mission-critical SaaS platform used by international customers for inventory, reservation, and ticketing."
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Collaborate with a team of passionate developers who are happy to share their knowledge and help you grow",
-                        "Collaborating to design secure, high-quality, and maintainable software",
-                        "Supportive culture: A company that values growth, creativity, and knowledge sharing"
-                    ]
+                    "category": "SKILL1",
+                    "phrase": "Collaborate with a team of passionate developers who are happy to share their knowledge and help you grow."
                 },
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "grow as a developer",
-                        "Experiment with innovative technologies and shape the future of Generative AI",
-                        "grow alongside talented peers",
-                        "Learning Python while applying it to meaningful, real-world projects",
-                        "Learn as you go: No prior AI experience? No problem. We'll provide the tools and mentorship you need to succeed.",
-                        "expand your skill set"
-                    ]
+                    "category": "SKILL2",
+                    "phrase": "Experiment with innovative technologies and shape the future of Generative AI in real-world applications."
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Apply your Python experience on the job",
-                        "building exciting AI-powered tools",
-                        "Developing Generative AI-powered tools that enhance internal processes and uncover new possibilities",
-                        "improving our intelligent AI powered chat bot so users are able to find answers quickly based on our internal documentation",
-                        "Designing and implementing backend microservices",
-                        "support high-performance and scalable systems",
-                        "using AI chat bots instead of complex wizards in our S3 Passenger product for configuration",
-                        "Debugging and optimising systems"
-                    ]
+                    "category": "SKILL5",
+                    "phrase": "you'll take ownership of your work"
                 },
                 {
-                    "skill_category": "SKILL4: Ethical & Legal Responsibility",
-                    "phrases": [
-                        "design secure, high-quality, and maintainable software"
-                    ]
+                    "category": "SKILL2",
+                    "phrase": "Learn as you go: No prior AI experience? No problem. We'll provide the tools and mentorship you need to succeed."
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "take ownership of your work",
-                        "Experiment with innovative technologies and shape the future of Generative AI in real-world applications",
-                        "Experiment with Generative AI and apply it to real-world challenges"
-                    ]
+                    "category": "SKILL1",
+                    "phrase": "Supportive culture: A company that values growth, creativity, and knowledge sharing."
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH2",
+                    "phrase": "AWS Cloud"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "AWS Bedrock"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "Anthropic Claude models"
+                },
+                {
+                    "category": "TECH1",
+                    "phrase": "Golang"
+                },
+                {
+                    "category": "TECH2",
+                    "phrase": "AWS services"
+                },
+                {
+                    "category": "TECH2",
+                    "phrase": "Lambda"
+                },
+                {
+                    "category": "TECH9",
+                    "phrase": "DynamoDB"
+                },
+                {
+                    "category": "TECH6",
+                    "phrase": "OpenTofu"
+                },
+                {
+                    "category": "TECH6",
+                    "phrase": "Kubernetes"
+                },
+                {
+                    "category": "TECH2",
+                    "phrase": "AWS Cloud Development Kit"
+                },
+                {
+                    "category": "TECH5",
+                    "phrase": "New Relic"
+                },
+                {
+                    "category": "TECH5",
+                    "phrase": "Sentry"
                 }
             ]
         }

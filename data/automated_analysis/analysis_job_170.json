@@ -28,124 +28,111 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 5,
-            "rationale": "The job description heavily emphasizes working with Generative AI models, integrating them into enterprise applications, and leveraging specific GenAI technologies like OpenAI APIs and Azure AI. The core responsibilities align with building and deploying AI-powered solutions, fitting the definition of a GenAI Engineer."
+            "rationale": "The job description heavily emphasizes the use and integration of Generative AI models, including specific mentions of OpenAI APIs, Azure ML, and various LLM providers (Microsoft, OpenAI, Mistral, Meta). Core responsibilities include leveraging these models for tasks like conversational AI and document summarization, building RAG-like systems implicitly through API integration, and deploying/monitoring these models in Azure ML. This aligns directly with the definition and evidence profile of a GenAI Engineer, focusing on developing and deploying applications built on generative models."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "Evaluate and select appropriate Generative AI models based on business needs, ensuring alignment with use case requirements.",
-                        "Leverage Azure ML,OpenAI APIs, and other Generative AI technologies based on a given design.",
-                        "Implement best practices for model development, training, and deployment pipelines.",
-                        "Create and deploy pipelines for model training, evaluation, and monitoring inAzure ML.",
-                        "Optimize model performance for latency, scalability, and accuracy, ensuring compliance with regulatory and organizational standards.",
-                        "Leverage Azure AI model catalog (Microsoft, OpenAI, Mistral, Meta, etc) APIs to implement conversational AI, document summarization, image generation, or other innovative use cases.",
-                        "Explore advancements in AI/ML technologies, recommending tools, frameworks, and practices to enhance the organization's AI capabilities."
-                    ],
-                    "justification": "These phrases directly relate to selecting, developing, training, fine-tuning, and optimizing generative AI models, which is the core of the Modeling task for GenAI."
+                    "category": "TASK3: Modeling",
+                    "justification": "The description mentions 'Evaluate and select appropriate Generative AI models', 'model development, training, and deployment pipelines', and 'Optimize model performance', which are core modeling activities.",
+                    "phrase": "Evaluate and select appropriate Generative AI models"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "Integrate Generative AI solutions with enterprise applications, APIs, and data sources.",
-                        "Leverage Azure AI model catalog (Microsoft, OpenAI, Mistral, Meta, etc) APIs to implement conversational AI, document summarization, image generation, or other innovative use cases."
-                    ],
-                    "justification": "This task involves building and integrating AI capabilities into existing software systems and applications, including API development and creating user-facing AI features."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Leverage Azure ML, OpenAI APIs, and other Generative AI technologies based on a given design' implies working with and potentially fine-tuning or adapting generative models.",
+                    "phrase": "Leverage Azure ML, OpenAI APIs, and other Generative AI technologies"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Implement best practices for model development, training, and deployment pipelines.",
-                        "Create and deploy pipelines for model training, evaluation, and monitoring inAzure ML.",
-                        "Optimize model performance for latency, scalability, and accuracy, ensuring compliance with regulatory and organizational standards."
-                    ],
-                    "justification": "These phrases describe the process of building and managing pipelines for deploying, monitoring, and maintaining AI models in a production environment, which is the essence of MLOps."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The description explicitly states 'Implement best practices for model development, training, and deployment pipelines' and 'Create and deploy pipelines for model training, evaluation, and monitoring in Azure ML', which are key MLOps activities.",
+                    "phrase": "Implement best practices for model development, training, and deployment pipelines"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "Evaluate and select appropriate Generative AI models based on business needs, ensuring alignment with use case requirements.",
-                        "Partner with cross-functional teams, including data engineers, cloud architects, and business analysts, to align AI/ML solutions with business objectives."
-                    ],
-                    "justification": "These phrases indicate the need to understand business requirements and align technical AI solutions with strategic business goals."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Create and deploy pipelines for model training, evaluation, and monitoring in Azure ML' directly refers to setting up and managing production pipelines for AI models.",
+                    "phrase": "Create and deploy pipelines for model training, evaluation, and monitoring in Azure ML"
                 },
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [],
-                    "justification": "No specific phrases in the job description directly relate to designing, building, or maintaining data pipelines and infrastructure for data collection, cleaning, preprocessing, or feature engineering."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "Azure ML",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK4: Software Development",
+                    "justification": "The task 'Integrate Generative AI solutions with enterprise applications, APIs, and data sources' involves building and connecting AI capabilities into larger software systems.",
+                    "phrase": "Integrate Generative AI solutions with enterprise applications, APIs, and data sources"
                 },
                 {
-                    "tech_name": "OpenAI APIs",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of using APIs to 'implement conversational AI, document summarization, image generation' indicates the application and adaptation of generative models for specific use cases.",
+                    "phrase": "implement conversational AI, document summarization, image generation"
                 },
                 {
-                    "tech_name": "Generative AI technologies",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Partner with cross-functional teams, including data engineers' suggests collaboration on data-related aspects necessary for AI solutions, though not directly performing data engineering tasks themselves.",
+                    "phrase": "Partner with cross-functional teams, including data engineers"
                 },
                 {
-                    "tech_name": "Azure AI model catalog",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The description states 'Partner with cross-functional teams... to align AI/ML solutions with business objectives', highlighting collaboration with diverse teams.",
+                    "phrase": "Partner with cross-functional teams"
                 },
                 {
-                    "tech_name": "Microsoft",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'Communicate complex (Gen) AI concepts to non-technical stakeholders' directly addresses the need for clear communication across different audiences.",
+                    "phrase": "Communicate complex (Gen) AI concepts to non-technical stakeholders"
                 },
                 {
-                    "tech_name": "OpenAI",
-                    "category": "TECH2: Cloud Platforms & Services"
-                },
-                {
-                    "tech_name": "Mistral",
-                    "category": "TECH3: LLM / Generative Models"
-                },
-                {
-                    "tech_name": "Meta",
-                    "category": "TECH2: Cloud Platforms & Services"
-                },
-                {
-                    "tech_name": "APIs",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "justification": "The task 'Explore advancements in AI/ML technologies, recommending tools, frameworks, and practices to enhance the organization's AI capabilities' shows a proactive and innovative approach.",
+                    "phrase": "Explore advancements in AI/ML technologies, recommending tools, frameworks, and practices"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        "Partner with cross-functional teams, including data engineers, cloud architects, and business analysts, to align AI/ML solutions with business objectives.",
-                        "Communicate complex (Gen) AI concepts to non-technical stakeholders, fostering a culture of innovation and understanding"
-                    ],
-                    "justification": "These phrases highlight the need to work with diverse teams and explain technical concepts to non-technical audiences."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Partner with cross-functional teams"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        "Explore advancements in AI/ML technologies, recommending tools, frameworks, and practices to enhance the organization's AI capabilities.",
-                        "fostering a culture of innovation and understanding"
-                    ],
-                    "justification": "The emphasis on exploring advancements and fostering innovation points to a need for proactive and forward-thinking individuals."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Communicate complex (Gen) AI concepts to non-technical stakeholders"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        "Explore advancements in AI/ML technologies, recommending tools, frameworks, and practices to enhance the organization's AI capabilities."
-                    ],
-                    "justification": "The requirement to explore advancements and recommend new tools implies a need for continuous learning and adaptability in a fast-evolving field."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Explore advancements in AI/ML technologies, recommending tools, frameworks, and practices"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure ML"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Evaluate and select appropriate Generative AI models based on business needs, ensuring alignment with use case requirements.",
-                        "Optimize model performance for latency, scalability, and accuracy, ensuring compliance with regulatory and organizational standards."
-                    ],
-                    "justification": "The tasks involve evaluating options, optimizing performance, and ensuring compliance, which requires analytical and problem-solving skills."
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "OpenAI APIs"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Generative AI models"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure AI model catalog"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Microsoft"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "OpenAI"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Mistral"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Meta"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "APIs"
                 }
             ]
         }

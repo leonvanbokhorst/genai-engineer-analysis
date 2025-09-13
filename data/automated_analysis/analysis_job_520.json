@@ -27,153 +27,88 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The role focuses on monitoring and fixing existing automation robots using tools like UiPath, with mentions of AI/ML and GenAI for issue resolution. However, it lacks the core development, fine-tuning, or deployment of advanced AI models and systems characteristic of an ML or GenAI Engineer. The emphasis is more on operational maintenance and business process automation."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on 'Intelligent Automation' and 'Robotic Engineering' using tools like UiPath, AI, and Machine Learning, but it lacks the specific depth and focus on generative models, LLMs, or core ML model development required for an ML Engineer or GenAI Engineer. The primary tasks involve monitoring, fixing issues, and collaborating with business leaders on automation processes, which aligns more with business process automation than specialized AI engineering roles. The role is more about the application and maintenance of existing automation tools rather than the research, development, or fine-tuning of advanced AI models."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "gain insider knowledge about how automation/robotic engineering influences JDE Peet's landscape and business structure",
-                            "justification": "This phrase indicates an understanding of how automation impacts the business's overall structure and operations."
-                        },
-                        {
-                            "phrase": "collaborating with multiple important stakeholders within our international headquarters",
-                            "justification": "This highlights the need to interact with various business units and individuals to understand their needs and align automation efforts."
-                        },
-                        {
-                            "phrase": "Collaborate with business leaders and obtain clear requirements",
-                            "justification": "Directly states the need to understand business needs and translate them into technical requirements for automation."
-                        },
-                        {
-                            "phrase": "gain valuable insights into the process of creating and maintaining robots/automations and how this plays an important role in global and international business structures",
-                            "justification": "Emphasizes understanding the business impact and strategic role of automation within the company."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Collaborate with business leaders and obtain clear requirements' directly indicates the need to understand business needs and translate them into technical actions.",
+                    "phrase": "Collaborate with business leaders and obtain clear requirements"
                 },
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": []
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'gain insider knowledge about how automation/robotic engineering influences JDE Peet's landscape and business structure' shows a focus on understanding the business context.",
+                    "phrase": "gain insider knowledge about how automation/robotic engineering influences JDE Peet's landscape and business structure"
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        {
-                            "phrase": "Fix issues in robots (using UiPath codeing, AI and Machine learning, GenAI and Natural language processing)",
-                            "justification": "Mentions using AI, ML, GenAI, and NLP in the context of fixing issues, implying some level of model interaction or understanding, though not core development."
-                        }
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Fix issues in robots (using UiPath codeing, AI and Machine learning, GenAI and Natural language processing)' explicitly mentions using AI and Machine Learning, and GenAI, which falls under modeling.",
+                    "phrase": "Fix issues in robots (using UiPath codeing, AI and Machine learning, GenAI and Natural language processing)"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "Fix issues in robots (using UiPath codeing, AI and Machine learning, GenAI and Natural language processing)",
-                            "justification": "While focused on fixing, it involves working with code (UiPath) and potentially integrating AI/ML/GenAI components to resolve issues, which touches upon software development aspects."
-                        },
-                        {
-                            "phrase": "Work with AMS team to develop and deploy automations",
-                            "justification": "Indicates involvement in the development and deployment of automation solutions, which is a form of software development in this context."
-                        }
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Work with AMS team to develop and deploy automations' implies software development activities related to creating and implementing automation solutions.",
+                    "phrase": "Work with AMS team to develop and deploy automations"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        {
-                            "phrase": "Monitor robots on daily basis",
-                            "justification": "This is a core operational task, involving the ongoing oversight and maintenance of deployed automation systems."
-                        },
-                        {
-                            "phrase": "Fix issues in robots",
-                            "justification": "Troubleshooting and resolving problems in existing systems is a key aspect of operations and maintenance."
-                        },
-                        {
-                            "phrase": "Work with AMS team to develop and deploy automations",
-                            "justification": "Deployment is a critical part of MLOps, and working with an AMS (likely Application Management Services or similar) team suggests involvement in production systems."
-                        },
-                        {
-                            "phrase": "creating and maintaining robots/automations",
-                            "justification": "Directly refers to the ongoing maintenance and upkeep of automation systems, which falls under operations."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "UiPath",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Monitor robots on daily basis' and 'creating and maintaining robots/automations' points to operational tasks related to keeping automated systems running.",
+                    "phrase": "Monitor robots on daily basis"
                 },
                 {
-                    "tech_name": "AI",
-                    "category": "TECH3: LLM / Generative Models"
-                },
-                {
-                    "tech_name": "Machine learning",
-                    "category": "TECH3: LLM / Generative Models"
-                },
-                {
-                    "tech_name": "GenAI",
-                    "category": "TECH3: LLM / Generative Models"
-                },
-                {
-                    "tech_name": "Natural language processing",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'creating and maintaining robots/automations' indicates ongoing operational responsibilities for the automated systems.",
+                    "phrase": "creating and maintaining robots/automations"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        {
-                            "phrase": "collaborating with multiple important stakeholders within our international headquarters"
-                        },
-                        {
-                            "phrase": "Collaborate with business leaders and obtain clear requirements"
-                        },
-                        {
-                            "phrase": "Work with AMS team"
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "collaborating with multiple important stakeholders"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        {
-                            "phrase": "gain insider knowledge about how automation/robotic engineering influences JDE Peet's landscape and business structure"
-                        },
-                        {
-                            "phrase": "unique learning journey"
-                        },
-                        {
-                            "phrase": "gain valuable insights into the process of creating and maintaining robots/automations"
-                        },
-                        {
-                            "phrase": "The chance to learn from the best Automation professionals out there!"
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate with business leaders"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        {
-                            "phrase": "Fix issues in robots"
-                        }
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "gain insider knowledge"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        {
-                            "phrase": "Intelligent Automation Engineer Intern"
-                        },
-                        {
-                            "phrase": "develop and deploy automations"
-                        }
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "gain valuable insights"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "learn from the best Automation professionals out there!"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Fix issues in robots"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Intelligent Automation Engineer Intern"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "UiPath codeing"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "GenAI"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Natural language processing"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Machine learning"
                 }
             ]
         }

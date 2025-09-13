@@ -27,56 +27,56 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on data engineering and supporting data scientists, rather than the core development or fine-tuning of generative AI models. While it mentions AI use cases, the primary emphasis is on platform development and infrastructure within AzureML, aligning more with traditional data engineering and MLOps."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on data engineering tasks and supporting data scientists, with a mention of AzureML. However, it lacks specific details about developing or deploying generative AI models, fine-tuning LLMs, or building RAG systems, which are core to the GenAI Engineer profile. While it involves AI use cases, the primary emphasis is on the data infrastructure and support for data science experiments, making it lean towards a data engineering role rather than a specialized GenAI Engineer. It doesn't fit the core responsibilities of an ML Engineer either, as it doesn't emphasize algorithm development or predictive modeling as the primary focus. Therefore, 'Ambiguous' is the most appropriate classification due to the lack of specific GenAI or ML engineering focus."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "Development of a data science platform",
-                        "Supporting our data scientists in the development of AI use cases & Experiments"
-                    ],
-                    "justification": "The role involves building and maintaining a data science platform and supporting data scientists, which directly relates to data infrastructure and pipeline development."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The role explicitly mentions 'Cloud/Data Engineer' and 'Development of a data science platform', which directly relates to building and maintaining data infrastructure.",
+                    "phrase": "Cloud/Data Engineer"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "based on AzureML"
-                    ],
-                    "justification": "AzureML is a platform that encompasses MLOps capabilities for managing the lifecycle of machine learning models, indicating a focus on operational aspects."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "Developing a platform for other teams to use implies building and managing data infrastructure and tools.",
+                    "phrase": "Development of a data science platform"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "work on two of our most important tracks",
-                        "Development of a data science platform that other teams can use",
-                        "Supporting our data scientists in the development of AI use cases & Experiments"
-                    ],
-                    "justification": "The description highlights the strategic importance of the tracks and the goal of enabling other teams, indicating an understanding of business needs and how data science contributes to them."
-                }
-            ],
-            "technologies": [
+                    "category": "TASK3: Modeling",
+                    "justification": "The role involves supporting data scientists in the development of AI use cases and experiments, which can include model development.",
+                    "phrase": "Supporting our data scientists in the development of AI use cases & Experiments"
+                },
                 {
-                    "tech_name": "AzureML",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK4: Software Development",
+                    "justification": "Building a platform for other teams to use implies software development to create a usable service.",
+                    "phrase": "Development of a data science platform"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The description mentions 'daily contact with the rest of the team' and working in an 'interdisciplinary environment', highlighting collaboration.",
+                    "phrase": "daily contact with the rest of the team"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'bring the worlds of Engineering and Data Science together' emphasizes interdisciplinary collaboration.",
+                    "phrase": "interdisciplinary environment"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        "You have daily contact with the rest of the team and you like to work in an interdisciplinary environment.",
-                        "We really bring the worlds of Engineering and Data Science together."
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "daily contact with the rest of the team"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        "Supporting our data scientists in the development of AI use cases & Experiments"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "interdisciplinary environment"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "AzureML"
                 }
             ]
         }

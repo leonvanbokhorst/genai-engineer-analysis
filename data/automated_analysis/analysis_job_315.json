@@ -27,52 +27,42 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on providing feedback and evaluating AI-generated code, rather than developing, fine-tuning, or deploying AI models. It lacks the core responsibilities and technical depth expected of an ML or GenAI Engineer."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on the use of AI tools for training and evaluating AI models, rather than the development, fine-tuning, or deployment of AI models themselves. It emphasizes tasks like answering questions to help train models and evaluating generated code, which aligns more with using AI tools for productivity enhancement rather than being a core AI engineering role. There is no mention of core AI engineering tasks like algorithm development, model training, MLOps, or building AI-powered applications."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "AI-modellen te trainen",
-                        "grote taalkundige AI-modellen te trainen",
-                        "geavanceerde generatieve AI-modellen betere code te schrijven",
-                        "interactie vereisen met deze modellen terwijl ze leren coderen",
-                        "helpen bij het trainen van generatieve AI-modellen",
-                        "Het maken en beantwoorden van vragen met betrekking tot informatica om AI-modellen te helpen trainen",
-                        "Het evalueren en rangschikken van code die door AI-modellen wordt gegenereerd"
-                    ],
-                    "justification": "These phrases directly relate to the process of training and interacting with AI models, specifically generative and linguistic models, and evaluating their output, which falls under the 'Modeling' category."
+                    "category": "TASK3",
+                    "justification": "The phrase 'helpen bij het trainen van generatieve AI-modellen' and 'AI-modellen te helpen trainen' directly relates to the process of creating or adapting machine learning models, even if the role is focused on providing feedback for training.",
+                    "phrase": "helpen bij het trainen van generatieve AI-modellen"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "ervaren software-engineer",
-                        "expertise in codering"
-                    ],
-                    "justification": "The job description mentions 'software-engineer' and 'expertise in codering', indicating a need for programming skills, which is a component of Software Development."
+                    "category": "TASK3",
+                    "justification": "The phrase 'evalueren en rangschikken van code die door AI-modellen wordt gegenereerd' involves assessing the output of AI models, which is a form of model evaluation and adaptation.",
+                    "phrase": "evalueren en rangschikken van code die door AI-modellen wordt gegenereerd"
+                },
+                {
+                    "category": "TASK1",
+                    "justification": "The phrase 'vragen met betrekking tot informatica om AI-modellen te helpen trainen' implies understanding computer science concepts to guide AI model training, which touches upon business understanding in the context of AI development.",
+                    "phrase": "vragen met betrekking tot informatica om AI-modellen te helpen trainen"
                 }
             ],
-            "technologies": [],
             "soft_skills": [
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        "Er is geen eerdere ervaring met AI vereist."
-                    ],
-                    "justification": "The statement 'No prior AI experience required' implies a need for individuals who can learn and adapt to new AI concepts and tools."
+                    "category": "SKILL2",
+                    "phrase": "Er is geen eerdere ervaring met AI vereist."
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        "freelance-opdracht",
-                        "flexibele werkuren"
-                    ],
-                    "justification": "The mention of a freelance assignment with flexible hours suggests a need for self-direction and ownership of one's work."
+                    "category": "SKILL5",
+                    "phrase": "freelance-opdracht"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "flexibele werkuren"
                 }
-            ]
+            ],
+            "technologies": []
         }
     }
 }

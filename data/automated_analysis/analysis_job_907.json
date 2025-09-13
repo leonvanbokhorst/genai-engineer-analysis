@@ -28,74 +28,62 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The role emphasizes developing and enhancing generative AI projects like the 'GenAI Suite' and 'Klus Coach', which are core responsibilities for a GenAI Engineer. It also involves building and maintaining data pipelines and supporting data science initiatives, aligning with the need for robust infrastructure around generative models."
+            "rationale": "The job description heavily emphasizes the development and deployment of generative AI projects, including a 'GenAI Suite' and a 'generative AI assistant for customers'. It also mentions supporting data science initiatives and managing data pipelines, aligning with the core responsibilities of a GenAI Engineer who builds and maintains production-grade user-facing software systems based on generative models."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "Data pipelines: Ontwerpen, bouwen en onderhouden van data pipelines op ons Snowflake platform, die onze Tableau-rapportages voeden via een semantische laag."
-                    ],
-                    "justification": "This phrase directly describes the design, construction, and maintenance of data pipelines, which is the core of data engineering."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The description explicitly mentions 'Data pipelines: Ontwerpen, bouwen en onderhouden van data pipelines op ons Snowflake platform, die onze Tableau-rapportages voeden via een semantische laag.'",
+                    "phrase": "Data pipelines: Ontwerpen, bouwen en onderhouden van data pipelines op ons Snowflake platform, die onze Tableau-rapportages voeden via een semantische laag."
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "Generatieve AI: Overdracht en doorontwikkeling van projecten zoals de GenAI Suite en de Klus Coach (een generatieve AI-assistent voor klanten).",
-                        "Data Science ondersteuning: Beheer van Dataiku-projecten en ondersteuning van data science-initiatieven."
-                    ],
-                    "justification": "The mention of 'Generatieve AI' projects and 'GenAI Suite'/'Klus Coach' points to working with generative models. 'Data Science ondersteuning' implies involvement with model development or management."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Generatieve AI: Overdracht en doorontwikkeling van projecten zoals de GenAI Suite en de Klus Coach (een generatieve AI-assistent voor klanten)' directly points to working with generative AI models and applications.",
+                    "phrase": "Generatieve AI: Overdracht en doorontwikkeling van projecten zoals de GenAI Suite en de Klus Coach (een generatieve AI-assistent voor klanten)."
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "Je werkt nauw samen met ons data science team, de IT-afdeling en verschillende business units om schaalbare oplossingen te leveren."
-                    ],
-                    "justification": "The phrase 'schaalbare oplossingen te leveren' implies building and deploying software solutions, which falls under software development."
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'Data Science ondersteuning: Beheer van Dataiku-projecten en ondersteuning van data science-initiatieven' implies involvement in the modeling aspects of data science.",
+                    "phrase": "Data Science ondersteuning: Beheer van Dataiku-projecten en ondersteuning van data science-initiatieven."
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Linux serverbeheer: Verantwoordelijkheid voor het onderhouden van een Linux-omgeving die cruciaal is voor onze AI-infrastructuur."
-                    ],
-                    "justification": "Managing and maintaining the underlying infrastructure (Linux servers) for AI is a key aspect of operations engineering."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "Snowflake",
-                    "category": "TECH9: Data Storage"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The responsibility for 'Linux serverbeheer: Verantwoordelijkheid voor het onderhouden van een Linux-omgeving die cruciaal is voor onze AI-infrastructuur' falls under the operational aspects of maintaining the AI infrastructure.",
+                    "phrase": "Linux serverbeheer: Verantwoordelijkheid voor het onderhouden van een Linux-omgeving die cruciaal is voor onze AI-infrastructuur."
                 },
                 {
-                    "tech_name": "Tableau",
-                    "category": "TECH7: Data Visualization"
-                },
-                {
-                    "tech_name": "Dataiku",
-                    "category": "TECH10: Data Modeling"
-                },
-                {
-                    "tech_name": "Linux",
-                    "category": "TECH1: Programming Languages"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The sentence 'Je werkt nauw samen met ons data science team, de IT-afdeling en verschillende business units om schaalbare oplossingen te leveren.' highlights the need for collaboration with various teams.",
+                    "phrase": "Je werkt nauw samen met ons data science team, de IT-afdeling en verschillende business units om schaalbare oplossingen te leveren."
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        "Je werkt nauw samen met ons data science team, de IT-afdeling en verschillende business units om schaalbare oplossingen te leveren."
-                    ],
-                    "justification": "This phrase highlights close collaboration with multiple teams (data science, IT, business units) to deliver solutions."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Je werkt nauw samen met ons data science team, de IT-afdeling en verschillende business units om schaalbare oplossingen te leveren."
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "Snowflake"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "beheren en verbeteren van onze data- en AI-infrastructuur",
-                        "schaalbare oplossingen te leveren"
-                    ],
-                    "justification": "The tasks involve managing, improving, and delivering scalable solutions, which requires problem-solving and a pragmatic approach."
+                    "category": "TECH7: Data Visualization",
+                    "phrase": "Tableau"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "GenAI Suite"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Klus Coach"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "Dataiku"
                 }
             ]
         }

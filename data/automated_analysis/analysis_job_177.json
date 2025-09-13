@@ -28,137 +28,134 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description emphasizes building production-grade ML systems with a focus on generative AI, including model development, feature engineering, and MLOps. The mention of 'GENAI Studio' and the responsibilities align strongly with developing and deploying AI-powered applications, particularly those involving LLMs and related technologies."
+            "rationale": "The job description emphasizes developing production-grade ML systems with a focus on reliability, scalability, and real-time requirements, which aligns with both ML Engineer and GenAI Engineer profiles. However, the mention of 'GENAI Studio' in the title, coupled with responsibilities like 'business related data governance processes', 'technical implementation and maintenance of data processing services and storage systems', and 'implementation and maintenance of ML governance processes', suggests a broader scope that includes building and maintaining systems around AI models. While not explicitly mentioning LLMs or RAG, the context of a 'GENAI Studio' and the focus on end-to-end ownership of ML systems points towards the GenAI Engineer profile, which encompasses building and deploying AI-powered applications."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "Develop production-grade ML systems, from models to features and pipelines",
-                        "Build readable and reusable code, applying code quality best practices and using standard libraries",
-                        "Choose the right technology or coding methodology as well as refactor and simplify code when necessary",
-                        "Take full ownership of your services end to end by actively monitoring the systems health, performance and business impact",
-                        "Be responsible for business related data governance processes, the technical implementation and maintenance of data processing services and storage systems, and the implementation and maintenance of ML governance processes",
-                        "Evaluate possible architecture solutions taking into account the business and technology requirements",
-                        "Set the relevant service level objectives SLOs and act accordingly when they are not met",
-                        "Build readable and reusable code, using the right technologies and coding methodologies applying knowledge of business area tools and product needs"
-                    ],
-                    "justification": "These phrases describe the development of robust, production-ready systems, including code quality, ownership, monitoring, and architectural considerations, which are core to software development in an AI context."
+                    "category": "TASK4: Software Development",
+                    "justification": "Phrases like 'Develop production-grade ML systems, from models to features and pipelines', 'Build readable and reusable code, applying code quality best practices and using standard libraries', 'Choose the right technology or coding methodology as well as refactor and simplify code when necessary', and 'Be responsible for business related data governance processes, the technical implementation and maintenance of data processing services and storage systems' indicate core software development activities necessary for building and deploying ML systems.",
+                    "phrase": "Develop production-grade ML systems, from models to features and pipelines, accounting for reliability, scalability, real-time requirements, monitoring and retraining."
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Develop production-grade ML systems, from models to features and pipelines, accounting for reliability, scalability, real-time requirements, monitoring and retraining",
-                        "Take full ownership of your services end to end by actively monitoring the systems health, performance and business impact",
-                        "Be responsible for business related data governance processes, the technical implementation and maintenance of data processing services and storage systems, and the implementation and maintenance of ML governance processes",
-                        "Set the relevant service level objectives SLOs and act accordingly when they are not met"
-                    ],
-                    "justification": "This category covers the operational aspects of deploying and maintaining ML systems, including reliability, scalability, monitoring, retraining, data governance, and SLOs, which are all explicitly mentioned."
+                    "category": "TASK4: Software Development",
+                    "justification": "The emphasis on 'readable and reusable code, applying code quality best practices and using standard libraries' and 'Choose the right technology or coding methodology as well as refactor and simplify code when necessary' directly relates to software engineering principles.",
+                    "phrase": "Build readable and reusable code, applying code quality best practices and using standard libraries."
                 },
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "Develop production-grade ML systems, from models to features and pipelines",
-                        "Be responsible for business related data governance processes, the technical implementation and maintenance of data processing services and storage systems, and the implementation and maintenance of ML governance processes"
-                    ],
-                    "justification": "While not explicitly detailing generative model types, the core task of developing 'ML systems' and 'models' falls under this category, especially in the context of a 'GENAI Studio'."
+                    "category": "TASK4: Software Development",
+                    "justification": "This phrase highlights the engineering aspect of selecting appropriate technologies and methodologies, and the practice of code refactoring, which are fundamental to software development.",
+                    "phrase": "Choose the right technology or coding methodology as well as refactor and simplify code when necessary."
                 },
                 {
-                    "task_category": "TASK2: Data Engineering",
-                    "phrases": [
-                        "Develop production-grade ML systems, from models to features and pipelines",
-                        "Be responsible for business related data governance processes, the technical implementation and maintenance of data processing services and storage systems, and the implementation and maintenance of ML governance processes"
-                    ],
-                    "justification": "The description includes responsibilities for 'features and pipelines', 'data processing services and storage systems', and 'data governance', which are key aspects of data engineering."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Take full ownership of your services end to end by actively monitoring the systems health, performance and business impact' points to the operational aspects of managing deployed systems, including monitoring and performance tracking, which is a key part of MLOps.",
+                    "phrase": "Take full ownership of your services end to end by actively monitoring the systems health, performance and business impact."
                 },
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "accounting for reliability, scalability, real-time requirements",
-                        "Take full ownership of your services end to end by actively monitoring the systems health, performance and business impact",
-                        "Be responsible for business related data governance processes",
-                        "Evaluate possible architecture solutions taking into account the business and technology requirements",
-                        "Build readable and reusable code, using the right technologies and coding methodologies applying knowledge of business area tools and product needs"
-                    ],
-                    "justification": "Phrases related to understanding business impact, requirements, and aligning technical solutions with business needs are present, indicating a need for business understanding."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_category": "TECH1: Programming Languages",
-                    "technologies": [
-                        "Python"
-                    ],
-                    "justification": "Implied by 'readable and reusable code' and 'standard libraries' in the context of ML/AI development, where Python is the dominant language."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "This sentence covers responsibilities related to data governance, the implementation and maintenance of data processing services and storage systems, and ML governance processes, all of which fall under data engineering and management.",
+                    "phrase": "Be responsible for business related data governance processes, the technical implementation and maintenance of data processing services and storage systems, and the implementation and maintenance of ML governance processes."
                 },
                 {
-                    "tech_category": "TECH10: Data Modeling",
-                    "technologies": [
-                        "ML"
-                    ],
-                    "justification": "The job explicitly mentions 'ML systems' and 'models', indicating the use of data modeling techniques and libraries."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Evaluating architecture solutions based on 'business and technology requirements' demonstrates an understanding of how technical solutions align with business needs.",
+                    "phrase": "Evaluate possible architecture solutions taking into account the business and technology requirements."
                 },
                 {
-                    "tech_category": "TECH6: MLOps & Data Pipelines",
-                    "technologies": [
-                        "pipelines",
-                        "monitoring",
-                        "retraining",
-                        "data processing services",
-                        "storage systems",
-                        "ML governance processes",
-                        "SLOs"
-                    ],
-                    "justification": "The description details 'pipelines', 'monitoring', 'retraining', 'data processing', 'storage systems', 'ML governance', and 'SLOs', all of which fall under MLOps and data pipeline management."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Setting and acting upon Service Level Objectives (SLOs) is a critical aspect of operations engineering and ensuring system reliability.",
+                    "phrase": "Set the relevant service level objectives SLOs and act accordingly when they are not met."
                 },
                 {
-                    "tech_category": "TECH2: Cloud Platforms & Services",
-                    "technologies": [
-                        "GENAI Studio"
-                    ],
-                    "justification": "'GENAI Studio' suggests a platform or environment for developing generative AI applications, likely cloud-based."
+                    "category": "TASK4: Software Development",
+                    "justification": "This phrase combines software development practices ('readable and reusable code', 'right technologies and coding methodologies') with an understanding of the 'business area tools and product needs', indicating a blend of technical implementation and business context.",
+                    "phrase": "Build readable and reusable code, using the right technologies and coding methodologies applying knowledge of business area tools and product needs."
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'implementation and maintenance of ML governance processes' implies managing the lifecycle and standards of ML models, which can involve data aspects and pipeline management.",
+                    "phrase": "implementation and maintenance of ML governance processes"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'technical implementation and maintenance of data processing services and storage systems' directly relates to building and maintaining the infrastructure for data.",
+                    "phrase": "technical implementation and maintenance of data processing services and storage systems"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'latest developments in ML/AI' implies staying current with and potentially applying new modeling techniques.",
+                    "phrase": "keeping up to date with the latest developments in ML/AI"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "Sharing knowledge and participating in internal programs indicates a collaborative and communicative approach within the team.",
+                    "phrase": "sharing your knowledge and participating in our internal ML programs"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "Coaching others and explaining advanced technical concepts in simpler terms is a direct indicator of strong communication skills.",
+                    "phrase": "Coach others through evidence and clear communication, explaining advanced technical concepts in simpler terms."
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "justification": "Maintaining a 'highly cross-disciplinary perspective, solving issues by applying approaches and methods from across a variety of disciplines and related fields' highlights a broad problem-solving approach.",
+                    "phrase": "Maintain a highly cross-disciplinary perspective, solving issues by applying approaches and methods from across a variety of disciplines and related fields."
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "Achieving mutually agreeable solutions through adaptability, clear communication, and active listening are core soft skills for collaboration.",
+                    "phrase": "Achieve mutually agreeable solutions by staying adaptable, communicating ideas in clear coherent language and practising active listening"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "justification": "The phrase 'Continuously evolve your craft by keeping up to date with the latest developments in ML/AI and related technologies and upskilling on these, as needed' directly speaks to continuous learning and adaptability.",
+                    "phrase": "Continuously evolve your craft by keeping up to date with the latest developments in ML/AI and related technologies and upskilling on these, as needed."
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "skills": [
-                        "Take full ownership of your services end to end",
-                        "Achieve mutually agreeable solutions by staying adaptable"
-                    ],
-                    "justification": "The emphasis on 'full ownership' and taking responsibility for services aligns with innovation and ownership."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Take full ownership of your services end to end"
                 },
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "skills": [
-                        "Continuously evolve your craft by keeping up to date with the latest developments in ML/AI and related technologies and upskilling on these, as needed",
-                        "Achieve mutually agreeable solutions by staying adaptable"
-                    ],
-                    "justification": "The requirement to 'keep up to date with the latest developments' and 'upskilling' directly points to learning and adaptability."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "sharing your knowledge"
                 },
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "skills": [
-                        "Contribute to the internal ML/AI community by sharing your knowledge and participating in our internal ML programs",
-                        "Coach others through evidence and clear communication, explaining advanced technical concepts in simpler terms",
-                        "Achieve mutually agreeable solutions by staying adaptable, communicating ideas in clear coherent language and practising active listening",
-                        "Maintain a highly cross-disciplinary perspective"
-                    ],
-                    "justification": "Phrases like 'sharing your knowledge', 'coach others', 'clear communication', 'active listening', and 'cross-disciplinary perspective' highlight communication and collaboration."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Coach others through evidence and clear communication"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "skills": [
-                        "Choose the right technology or coding methodology as well as refactor and simplify code when necessary",
-                        "Evaluate possible architecture solutions",
-                        "Set the relevant service level objectives SLOs and act accordingly when they are not met",
-                        "Maintain a highly cross-disciplinary perspective, solving issues by applying approaches and methods from across a variety of disciplines and related fields"
-                    ],
-                    "justification": "The ability to 'choose the right technology', 'evaluate architecture solutions', 'solve issues', and 'act accordingly when SLOs are not met' demonstrates problem-solving and pragmatism."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "explaining advanced technical concepts in simpler terms"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "solving issues by applying approaches and methods from across a variety of disciplines and related fields"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "communicating ideas in clear coherent language"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "practising active listening"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "keeping up to date with the latest developments in ML/AI and related technologies"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "upskilling on these, as needed"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "staying adaptable"
                 }
-            ]
+            ],
+            "technologies": []
         }
     }
 }

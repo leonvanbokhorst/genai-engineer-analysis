@@ -28,102 +28,87 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description emphasizes building RAG solutions and keeping up with semantic search developments, which are core to Generative AI. While it mentions software engineering and operational excellence, the primary focus on RAG and information retrieval points towards a GenAI Engineer role rather than a general ML Engineer."
+            "rationale": "The job description emphasizes building RAG solutions, keeping up with developments in semantic search, and mentions vector databases as a 'nice to have'. While it includes software development and operations tasks, the core focus on generative AI applications (RAG) and related technologies like semantic search and vector databases strongly aligns with the GenAI Engineer profile."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "Software Engineer",
-                    "justification": "The job title itself indicates a role focused on software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Maintain and extend our search back-end' and 'Design, develop, run and evaluate online AB-tests' directly relate to building and improving software systems.",
+                    "phrase": "Maintain and extend our search back-end"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "enabling the success of and synergies between the application teams",
-                    "justification": "This implies building or maintaining systems that support other application teams, a software development function."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Design, develop, run and evaluate online AB-tests to improve the quality of the search results' describes the process of creating and testing features within a software system.",
+                    "phrase": "Design, develop, run and evaluate online AB-tests to improve the quality of the search results"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "Maintain and extend our search back-end",
-                    "justification": "Maintaining and extending a backend system is a core software development responsibility."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrases 'Support operational excellence through practices like code review and pair programming' and 'The entire team is responsible for the operations of our services. This includes actively monitoring different applications and their infrastructure as well as intervening to solve operational problems whenever they arise' clearly indicate responsibilities related to maintaining and operating services in production.",
+                    "phrase": "Support operational excellence through practices like code review and pair programming"
                 },
                 {
-                    "task": "TASK3: Modeling",
-                    "phrase": "Design, develop, run and evaluate online AB-tests to improve the quality of the search results",
-                    "justification": "While AB testing can be broad, in the context of search results and improving quality, it often involves evaluating different model or algorithm performance, which falls under modeling."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The statement 'The entire team is responsible for the operations of our services. This includes actively monitoring different applications and their infrastructure as well as intervening to solve operational problems whenever they arise' directly describes the operational responsibilities of the team.",
+                    "phrase": "The entire team is responsible for the operations of our services. This includes actively monitoring different applications and their infrastructure as well as intervening to solve operational problems whenever they arise"
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrase": "Support operational excellence through practices like code review and pair programming",
-                    "justification": "Code review and pair programming are standard software development and operational excellence practices."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Keep up with developments in the field of Information Retrieval (e.g. semantic search)' suggests an interest in and application of advanced modeling techniques related to search, which can include generative approaches.",
+                    "phrase": "Keep up with developments in the field of Information Retrieval (e.g. semantic search)"
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrase": "The entire team is responsible for the operations of our services. This includes actively monitoring different applications and their infrastructure as well as intervening to solve operational problems whenever they arise.",
-                    "justification": "Directly describes operational responsibilities, including monitoring and incident response, which are key to MLOps."
-                },
-                {
-                    "task": "TASK3: Modeling",
-                    "phrase": "Keep up with developments in the field of Information Retrieval (e.g. semantic search)",
-                    "justification": "Staying updated with advancements in areas like semantic search is crucial for developing and improving models, especially in retrieval-based systems."
-                },
-                {
-                    "task": "TASK3: Modeling",
-                    "phrase": "Build RAG solutions for editorial domain",
-                    "justification": "RAG (Retrieval-Augmented Generation) is a specific technique within generative AI modeling."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "AWS",
-                    "category": "TECH2: Cloud Platforms & Services"
-                },
-                {
-                    "technology": "Kafka",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "technology": "Elasticsearch",
-                    "category": "TECH5: Vector Stores & Search"
-                },
-                {
-                    "technology": "Python",
-                    "category": "TECH1: Programming Languages"
-                },
-                {
-                    "technology": "FastAPI",
-                    "category": "TECH4: LLM Frameworks & Libraries"
-                },
-                {
-                    "technology": "SQL",
-                    "category": "TECH11: Data Analysis"
-                },
-                {
-                    "technology": "Docker",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "technology": "vector databases",
-                    "category": "TECH5: Vector Stores & Search"
-                },
-                {
-                    "technology": "semantic search",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Build RAG solutions for editorial domain' directly refers to the development and implementation of Retrieval-Augmented Generation, a core generative AI modeling technique.",
+                    "phrase": "Build RAG solutions for editorial domain"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "Support operational excellence through practices like code review and pair programming",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Keep up with developments in the field of Information Retrieval"
                 },
                 {
-                    "skill": "The entire team is responsible for the operations of our services. This includes actively monitoring different applications and their infrastructure as well as intervening to solve operational problems whenever they arise.",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "code review and pair programming"
                 },
                 {
-                    "skill": "Keep up with developments in the field of Information Retrieval (e.g. semantic search).",
-                    "category": "SKILL2: Learning & Adaptability"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "The entire team is responsible for the operations of our services"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "AWS"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Kafka"
+                },
+                {
+                    "category": "TECH11: Data Analysis",
+                    "phrase": "Elasticsearch"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python (FastAPI)"
+                },
+                {
+                    "category": "TECH11: Data Analysis",
+                    "phrase": "SQL"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Docker"
+                },
+                {
+                    "category": "TECH5: Vector Stores & Search",
+                    "phrase": "vector databases"
+                },
+                {
+                    "category": "TECH11: Data Analysis",
+                    "phrase": "semantic search"
                 }
             ]
         }

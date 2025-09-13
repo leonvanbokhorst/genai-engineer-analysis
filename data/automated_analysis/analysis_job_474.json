@@ -28,112 +28,86 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes working with Large Language Models (LLMs), Natural Language Processing (NLP), and developing applications around these technologies, including fine-tuning and integrating them into products. While it mentions 'Machine Learning' and 'deep learning models', the specific focus on LLMs and generative AI applications aligns more closely with the GenAI Engineer profile."
+            "rationale": "The job description heavily emphasizes work with Large Language Models (LLMs), Natural Language Processing (NLP), and multimodal LLMs, including developing, refining, and integrating these models into products. The core responsibilities align with building and deploying generative AI applications, which is the primary focus of a GenAI Engineer. While 'Machine Learning Engineer' is mentioned in the title, the detailed responsibilities point more towards generative AI applications than traditional predictive modeling."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK3: Modeling",
-                    "phrases": [
-                        "developing and implementing sophisticated deep learning models",
-                        "Conduct research on the latest technologies and methodologies in NLP, LLMs, and multimodal LLMs",
-                        "Lead and significantly contribute to one or more technical areas of research in NLP",
-                        "Design, develop, and refine NLP applications and large language models",
-                        "Continuously monitor advancements in AI, LLM, NLP, and related fields"
-                    ],
-                    "justification": "These phrases directly relate to the creation, adaptation, and refinement of machine learning models, with a specific emphasis on deep learning, NLP, and LLMs, which are core to generative AI."
+                    "category": "TASK3",
+                    "justification": "The description explicitly mentions 'developing and implementing sophisticated deep learning models', 'research on the latest technologies and methodologies in NLP, LLMs, and multimodal LLMs', 'design, develop, and refine NLP applications and large language models', and 'continuously monitor advancements in AI, LLM, NLP'. These all directly relate to the creation, adaptation, and refinement of models.",
+                    "phrase": "developing and implementing sophisticated deep learning models"
                 },
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        "create new capabilities from initial algorithms and out to features in our products and services",
-                        "integrate research outcomes into practical applications"
-                    ],
-                    "justification": "These phrases indicate the need to translate research and model development into tangible features within products and services, requiring software development skills for integration."
+                    "category": "TASK3",
+                    "justification": "The phrase 'research on the latest technologies and methodologies in NLP, LLMs, and multimodal LLMs' directly aligns with the modeling aspect of exploring and applying advanced AI techniques.",
+                    "phrase": "research on the latest technologies and methodologies in NLP, LLMs, and multimodal LLMs"
                 },
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        "empowering our buyers and sellers",
-                        "deliver high quality solutions for our customers",
-                        "enhance overall product experiences"
-                    ],
-                    "justification": "These phrases highlight the need to understand how the technical work contributes to business objectives, customer satisfaction, and product enhancement."
+                    "category": "TASK3",
+                    "justification": "The responsibility to 'design, develop, and refine NLP applications and large language models' is a core modeling task, focusing on the creation and improvement of generative models.",
+                    "phrase": "Design, develop, and refine NLP applications and large language models"
                 },
                 {
-                    "task_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "work closely with engineering and multi-functional NLP and platform engineers",
-                        "Collaborate closely with multi-functional teams, including Engineering, Product Management, Quality Assurance, and Operations",
-                        "Maintain a high profile both internally and externally, sharing knowledge and findings through conferences, workshops, publications, and open-source contributions",
-                        "Cultivate partnerships with other research teams"
-                    ],
-                    "justification": "These phrases emphasize the importance of working with various teams, sharing knowledge, and building partnerships, which are key aspects of communication and collaboration."
+                    "category": "TASK4",
+                    "justification": "The phrase 'integrate research outcomes into practical applications' and 'features in our products and services' indicates the need to build software that incorporates the developed models.",
+                    "phrase": "integrate research outcomes into practical applications"
                 },
                 {
-                    "task_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "Conduct research on the latest technologies and methodologies",
-                        "Continuously monitor advancements in AI, LLM, NLP, and related fields"
-                    ],
-                    "justification": "These phrases indicate a requirement to stay updated with the rapidly evolving field of AI and NLP, demonstrating a need for continuous learning and adaptability."
+                    "category": "TASK4",
+                    "justification": "The mention of working with 'engineering and multi-functional NLP and platform engineers to create new capabilities from initial algorithms and out to features in our products and services' implies software development to bring models to life as product features.",
+                    "phrase": "create new capabilities from initial algorithms and out to features in our products and services"
                 },
                 {
-                    "task_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "drive innovation within the team",
-                        "push the boundaries of what is possible",
-                        "Lead and significantly contribute to one or more technical areas of research"
-                    ],
-                    "justification": "These phrases suggest a proactive approach, a drive for innovation, and taking leadership in research areas, aligning with innovation and ownership."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "technologies": [
-                        "Large Language Models (LLMs)",
-                        "multimodal LLMs"
-                    ]
+                    "category": "TASK1",
+                    "justification": "The phrase 'empowering our buyers and sellers' indicates an understanding of the business context and how AI solutions can serve business needs.",
+                    "phrase": "empowering our buyers and sellers"
                 },
                 {
-                    "tech_name": "TECH1: Programming Languages",
-                    "technologies": [
-                        "NLP"
-                    ]
+                    "category": "SKILL1",
+                    "justification": "The description mentions working 'closely with engineering and multi-functional NLP and platform engineers' and collaborating with 'Engineering, Product Management, Quality Assurance, and Operations', which highlights the need for strong collaboration.",
+                    "phrase": "Collaborate closely with multi-functional teams"
                 },
                 {
-                    "tech_name": "TECH10: Data Modeling",
-                    "technologies": [
-                        "deep learning models"
-                    ]
+                    "category": "SKILL2",
+                    "justification": "The continuous monitoring of advancements and research into new technologies demonstrates a commitment to learning and adapting in a fast-evolving field.",
+                    "phrase": "Continuously monitor advancements in AI, LLM, NLP, and related fields"
+                },
+                {
+                    "category": "SKILL5",
+                    "justification": "The responsibility to 'Lead and significantly contribute to one or more technical areas of research' and 'Maintain a high profile... sharing knowledge and findings' suggests initiative and ownership.",
+                    "phrase": "Lead and significantly contribute to one or more technical areas of research"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "skills": [
-                        "work closely with engineering and multi-functional NLP and platform engineers",
-                        "Collaborate closely with multi-functional teams, including Engineering, Product Management, Quality Assurance, and Operations",
-                        "Maintain a high profile both internally and externally, sharing knowledge and findings through conferences, workshops, publications, and open-source contributions",
-                        "Cultivate partnerships with other research teams"
-                    ]
+                    "category": "SKILL1",
+                    "phrase": "Collaborate closely with multi-functional teams"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "skills": [
-                        "Conduct research on the latest technologies and methodologies",
-                        "Continuously monitor advancements in AI, LLM, NLP, and related fields"
-                    ]
+                    "category": "SKILL2",
+                    "phrase": "Continuously monitor advancements in AI, LLM, NLP, and related fields"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "skills": [
-                        "drive innovation within the team",
-                        "push the boundaries of what is possible",
-                        "Lead and significantly contribute to one or more technical areas of research"
-                    ]
+                    "category": "SKILL5",
+                    "phrase": "Lead and significantly contribute to one or more technical areas of research"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "Maintain a high profile both internally and externally, sharing knowledge and findings"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "Large Language Models (LLMs)"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "multimodal LLMs"
+                },
+                {
+                    "category": "TECH1",
+                    "phrase": "Natural Language Processing (NLP)"
                 }
             ]
         }

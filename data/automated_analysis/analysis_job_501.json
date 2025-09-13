@@ -28,92 +28,80 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes working with language models, specifically mentioning Azure OpenAI and testing other language models for feasibility. The core responsibilities involve translating business problems into solutions using these models, developing proofs of concept (PoCs), and considering their integration into the IT landscape, aligning with the definition of a GenAI Engineer."
+            "rationale": "The job description heavily emphasizes the use of language models (taalmodellen) for business process improvement, including working with Azure OpenAI, evaluating different language models for Proof of Concepts (PoCs), and discussing the integration and security of these solutions within an IT landscape. This aligns directly with the core responsibilities and technologies associated with a GenAI Engineer, particularly in building and deploying applications based on generative models."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "hoe een probleem uit het bedrijf opgelost kan worden met taalmodellen",
-                        "iets waar de eindklant direct een bedrijfsproces mee kan verbeteren en echt resultaat oplevert voor in onze operatie",
-                        "Wat zijn de wensen, en kan er direct nog meer waarde gecreëerd worden?",
-                        "toetst of de oplossing financieel, technisch en functioneel haalbaar is",
-                        "heb je het over de toepasbaarheid van de gemaakte oplossing"
-                    ],
-                    "justification": "These phrases indicate understanding business needs, translating them into technical requirements, assessing feasibility, and considering the applicability of solutions within the business context."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'hoe een probleem uit het bedrijf opgelost kan worden met taalmodellen; iets waar de eindklant direct een bedrijfsproces mee kan verbeteren en echt resultaat oplevert voor in onze operatie. Wat zijn de wensen, en kan er direct nog meer waarde gecreëerd worden?' indicates understanding business problems and translating them into solutions with language models to create value.",
+                    "phrase": "hoe een probleem uit het bedrijf opgelost kan worden met taalmodellen; iets waar de eindklant direct een bedrijfsproces mee kan verbeteren en echt resultaat oplevert voor in onze operatie. Wat zijn de wensen, en kan er direct nog meer waarde gecreëerd worden?"
                 },
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "opgelost kan worden met taalmodellen",
-                        "technisch uitwerken van pilots of opschalingen met Azure OpenAI",
-                        "maakt een PoC van een ander taalmodel"
-                    ],
-                    "justification": "The core of the role involves working with and developing solutions using language models, including pilots, scaling, and creating proofs of concept with specific generative AI technologies."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrases 'taalmodellen', 'opschalingen met Azure OpenAI', and 'ander taalmodel' directly refer to working with and implementing generative models.",
+                    "phrase": "taalmodellen"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "technisch uitwerken van pilots of opschalingen",
-                        "maakt een PoC",
-                        "hoe die terecht moet komen in het Stedin IT landschap",
-                        "is de gemaakte MVP veilig"
-                    ],
-                    "justification": "This involves the technical implementation of pilots and PoCs, considering how solutions integrate into the existing IT landscape, and developing a Minimum Viable Product (MVP)."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'PoC van een ander taalmodel waarmee je in korte tijd toetst of de oplossing financieel, technisch en functioneel haalbaar is' describes the process of testing and evaluating generative models for feasibility.",
+                    "phrase": "PoC van een ander taalmodel waarmee je in korte tijd toetst of de oplossing financieel, technisch en functioneel haalbaar is"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "opschalingen met Azure OpenAI",
-                        "hoe die terecht moet komen in het Stedin IT landschap",
-                        "is de gemaakte MVP veilig en kunnen we dit in de toekomst beter standaardiseren?"
-                    ],
-                    "justification": "The description touches upon scaling solutions, integrating them into an IT landscape, ensuring security of the MVP, and standardization for future deployments, which are aspects of MLOps."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_category": "TECH2: Cloud Platforms & Services",
-                    "technologies": [
-                        "Azure OpenAI"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'technisch uitwerken van pilots of opschalingen' implies developing and implementing solutions, which is a software development task.",
+                    "phrase": "technisch uitwerken van pilots of opschalingen"
                 },
                 {
-                    "tech_category": "TECH3: LLM / Generative Models",
-                    "technologies": [
-                        "taalmodellen",
-                        "Azure OpenAI"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'hoe die terecht moet komen in het Stedin IT landschap; wat zijn de kaders, is de gemaakte MVP veilig en kunnen we dit in de toekomst beter standaardiseren?' involves integrating solutions into an existing IT landscape and considering standardization, which are software development and architecture concerns.",
+                    "phrase": "hoe die terecht moet komen in het Stedin IT landschap; wat zijn de kaders, is de gemaakte MVP veilig en kunnen we dit in de toekomst beter standaardiseren?"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of 'opschalingen met Azure OpenAI' and discussing the 'toepasbaarheid van de gemaakte oplossing' and 'MVP veilig' suggests considerations for deploying and maintaining solutions in a production-like environment.",
+                    "phrase": "opschalingen met Azure OpenAI"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The discussion with the 'architect en afdeling security' about 'hoe die terecht moet komen in het Stedin IT landschap' and 'is de gemaakte MVP veilig' touches upon deployment, security, and integration aspects relevant to MLOps.",
+                    "phrase": "architect en afdeling security"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "meeting met onze Delivery Lead en Lead Developer",
-                        "meeting met een architect en afdeling security"
-                    ],
-                    "justification": "The role involves regular meetings with various stakeholders like Delivery Leads, Lead Developers, architects, and security departments, requiring clear communication and collaboration."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "meeting met onze Delivery Lead en Lead Developer"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "hoe een probleem uit het bedrijf opgelost kan worden met taalmodellen",
-                        "Wat zijn de wensen, en kan er direct nog meer waarde gecreëerd worden?",
-                        "toetst of de oplossing financieel, technisch en functioneel haalbaar is",
-                        "heb je het over de toepasbaarheid van de gemaakte oplossing"
-                    ],
-                    "justification": "The job requires identifying business problems, exploring how language models can solve them, assessing feasibility (financial, technical, functional), and determining the applicability of solutions."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "meeting met een architect en afdeling security"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "technisch uitwerken van pilots of opschalingen",
-                        "maakt een PoC"
-                    ],
-                    "justification": "The role involves taking initiative to develop pilots and proofs of concept, indicating a proactive and ownership-driven approach to innovation."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "hoe een probleem uit het bedrijf opgelost kan worden met taalmodellen"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "PoC van een ander taalmodel waarmee je in korte tijd toetst of de oplossing financieel, technisch en functioneel haalbaar is"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "kan er direct nog meer waarde gecreëerd worden?"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "taalmodellen"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure OpenAI"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "ander taalmodel"
                 }
             ]
         }

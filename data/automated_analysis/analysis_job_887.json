@@ -27,52 +27,62 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on full-stack development with some AI tool experimentation, rather than core AI/ML model development or generative AI application building. It lacks the depth in modeling, data engineering, or MLOps required for an ML or GenAI Engineer role."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on full-stack development with a part-time, student/starter level. While it mentions AI tools like Tensorflow and Huggingface Transformers, the core responsibilities are centered around developing new functionalities for an AI-feedback tool, optimizing backend and frontend, rather than deep AI model development, MLOps, or advanced generative AI applications. The role appears to be more about integrating existing AI tools into a product rather than building or fine-tuning AI models themselves, fitting the 'use of AI tools to enhance productivity' aspect of the Ambiguous profile."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "Ontwikkelen van nieuwe functionaliteiten voor onze AI-feedbacktool.",
-                        "Optimaliseren van de backend met Node.js en Python.",
-                        "Werken aan de frontend met Vue.js."
-                    ],
-                    "justification": "These phrases directly describe the development of new features, backend optimization using specific languages, and frontend work, which are core software development activities."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH1: Programming Languages",
-                    "value": "Node.js"
+                    "category": "TASK4: Software Development",
+                    "justification": "The description explicitly mentions 'Ontwikkelen van nieuwe functionaliteiten', 'Optimaliseren van de backend met Node.js en Python', and 'Werken aan de frontend met Vue.js', which are core software development activities.",
+                    "phrase": "Ontwikkelen van nieuwe functionaliteiten voor onze AI-feedbacktool"
                 },
                 {
-                    "tech_name": "TECH1: Programming Languages",
-                    "value": "Python"
+                    "category": "TASK4: Software Development",
+                    "justification": "Optimizing backend services using specific technologies like Node.js and Python falls under software development.",
+                    "phrase": "Optimaliseren van de backend met Node.js en Python"
                 },
                 {
-                    "tech_name": "TECH1: Programming Languages",
-                    "value": "Vue.js"
+                    "category": "TASK4: Software Development",
+                    "justification": "Working on the frontend with Vue.js is a direct software development task.",
+                    "phrase": "Werken aan de frontend met Vue.js"
                 },
                 {
-                    "tech_name": "TECH10: Data Modeling",
-                    "value": "Tensorflow"
-                },
-                {
-                    "tech_name": "TECH4: LLM Frameworks & Libraries",
-                    "value": "Huggingface Transformers"
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Experimenteren met AI en werken met tools zoals Tensorflow en Huggingface Transformers' suggests involvement with AI models, even if at an experimental or integration level.",
+                    "phrase": "Experimenteren met AI"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "value": "Experimenteren met AI"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Student/starter"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "value": "direct bijdragen aan een product dat impact heeft"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "krijgt de kans om direct bij te dragen aan een product dat impact heeft"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Node.js"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Vue.js"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Tensorflow"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "Huggingface Transformers"
                 }
             ]
         }

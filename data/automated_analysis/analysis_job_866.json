@@ -28,117 +28,153 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 5,
-            "rationale": "The job description heavily emphasizes the use and development of Generative AI, specifically mentioning fine-tuned LLMs, advanced chatbots, and AI-driven predictive analytics for personalization. The core responsibilities focus on architecting and deploying AI products using these technologies, aligning directly with the definition of a GenAI Engineer."
+            "rationale": "The job description heavily emphasizes the application of Generative AI, specifically focusing on fine-tuning LLMs, integrating them into applications (like chatbots), and using AI for predictive analytics and personalization. The core responsibilities involve architecting and deploying AI products, transforming internal operations with AI, and leading AI integration initiatives. This aligns directly with the definition and core responsibilities of a GenAI Engineer, particularly the focus on LLMs, RAG (implied by chatbots), and building production-grade user-facing systems, rather than traditional ML model building for prediction alone."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "Integrated state-of-the-art LLMs into applications",
-                        "creating intelligent systems like advanced chatbots",
-                        "Revolutionized legacy systems with AI-driven predictive analytics",
-                        "Leveraged AI to swiftly resolve recurring issues",
-                        "enhance features, such as real-time translation or dynamic content personalization",
-                        "implementing game-changing Generative AI",
-                        "Harness the power of fine-tuned LLMs to create revolutionary AI-driven products and modules",
-                        "Apply your AI expertise to overhaul and optimize our internal processes",
-                        "Spearhead the implementation of AI technologies across our product suite",
-                        "ensuring that every solution we offer is enhanced by the latest in machine learning and artificial intelligence",
-                        "Drive the AI-powered transformation of our software development process"
-                    ],
-                    "justification": "These phrases directly relate to the creation, adaptation, and application of machine learning models, particularly generative models like LLMs, for specific tasks such as generating content, predictions, and enhancing features."
+                    "category": "TASK3",
+                    "justification": "The description mentions 'fine-tuned LLMs', 'AI-driven predictive analytics', and 'machine learning and artificial intelligence', all of which fall under the scope of creating or adapting models.",
+                    "phrase": "fine-tuned LLMs"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "revolutionize software development with AI",
-                        "redefining software creation through cutting-edge Generative AI",
-                        "developing solutions that seamlessly integrate into existing platforms or form the cornerstone of groundbreaking new offerings",
-                        "ensuring that every solution we offer is enhanced by the latest in machine learning and artificial intelligence",
-                        "Drive the AI-powered transformation of our software development process"
-                    ],
-                    "justification": "These phrases highlight the development and integration of AI capabilities into software applications and platforms, focusing on building user-facing systems and enhancing existing ones."
+                    "category": "TASK3",
+                    "justification": "The description mentions 'AI-driven predictive analytics' which is a core aspect of modeling.",
+                    "phrase": "AI-driven predictive analytics"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Architect and Deploy Cutting-Edge AI Products",
-                        "developing solutions that seamlessly integrate into existing platforms or form the cornerstone of groundbreaking new offerings"
-                    ],
-                    "justification": "The mention of 'Architect and Deploy' directly implies the operational aspects of getting AI models into production environments and ensuring they function as intended within broader systems."
+                    "category": "TASK3",
+                    "justification": "The description mentions 'machine learning and artificial intelligence' which are the core domains of modeling.",
+                    "phrase": "machine learning and artificial intelligence"
                 },
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "revolutionize software development with AI",
-                        "redefining software creation through cutting-edge Generative AI",
-                        "slashing development times, eliminate errors, and deliver unparalleled scalability",
-                        "creating intelligent systems",
-                        "Revolutionized legacy systems",
-                        "swiftly resolve recurring issues",
-                        "enhance features",
-                        "Drive the AI-powered transformation of our software development process, resulting in dramatically faster product releases and unprecedented levels of customer satisfaction."
-                    ],
-                    "justification": "These phrases demonstrate an understanding of business goals such as improving efficiency, reducing development time, enhancing customer satisfaction, and transforming processes through AI."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology_category": "TECH3: LLM / Generative Models",
-                    "technologies": [
-                        "Generative AI",
-                        "LLMs"
-                    ]
+                    "category": "TASK4",
+                    "justification": "The role involves 'Architect and Deploy Cutting-Edge AI Products' and integrating AI into 'existing platforms or form the cornerstone of groundbreaking new offerings', which are software development tasks.",
+                    "phrase": "Architect and Deploy Cutting-Edge AI Products"
                 },
                 {
-                    "technology_category": "TECH4: LLM Frameworks & Libraries",
-                    "technologies": [
-                        "fine-tuned LLMs"
-                    ]
+                    "category": "TASK4",
+                    "justification": "The description states 'Lead AI Integration Initiatives: Spearhead the implementation of AI technologies across our product suite', which involves integrating AI into software products.",
+                    "phrase": "Lead AI Integration Initiatives"
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "The phrase 'revolutionize software development with AI' and 'redefining software creation through cutting-edge Generative AI' implies building new software solutions powered by AI.",
+                    "phrase": "revolutionize software development with AI"
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "The phrase 'transformative AI solutions that slash development times, eliminate errors, and deliver unparalleled scalability' points to building robust software systems.",
+                    "phrase": "transformative AI solutions"
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "The description mentions 'creating intelligent systems like advanced chatbots', which are user-facing software applications.",
+                    "phrase": "creating intelligent systems like advanced chatbots"
+                },
+                {
+                    "category": "TASK5",
+                    "justification": "The phrase 'Architect and Deploy Cutting-Edge AI Products' implies the deployment and maintenance of AI models in production environments, which is part of MLOps.",
+                    "phrase": "Deploy Cutting-Edge AI Products"
+                },
+                {
+                    "category": "TASK5",
+                    "justification": "The phrase 'Apply your AI expertise to overhaul and optimize our internal processes, driving efficiency and productivity' suggests implementing and managing AI solutions in a production context.",
+                    "phrase": "overhaul and optimize our internal processes"
+                },
+                {
+                    "category": "TASK1",
+                    "justification": "The description mentions 'revolutionize software development with AI' and 'redefining software creation', indicating a focus on business impact and strategic goals.",
+                    "phrase": "revolutionize software development with AI"
+                },
+                {
+                    "category": "TASK1",
+                    "justification": "The phrase 'transformative AI solutions that slash development times, eliminate errors, and deliver unparalleled scalability' highlights the alignment of AI solutions with business objectives like efficiency and scalability.",
+                    "phrase": "transformative AI solutions"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "skills": [
-                        "visionary Lead AI Engineer",
-                        "spearhead our mission",
-                        "pioneering transformative AI solutions",
-                        "AI trailblazers",
-                        "proven innovators",
-                        "push the boundaries of what's possible",
-                        "Architect and Deploy Cutting-Edge AI Products",
-                        "forefront of innovation",
-                        "Lead AI Integration Initiatives",
-                        "Drive the AI-powered transformation"
-                    ]
+                    "category": "SKILL5",
+                    "phrase": "Lead AI Engineer"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "skills": [
-                        "revolutionize software development with AI",
-                        "breaking the mold",
-                        "transformative AI solutions that slash development times, eliminate errors, and deliver unparalleled scalability",
-                        "swiftly resolve recurring issues",
-                        "overhaul and optimize our internal processes, driving efficiency and productivity"
-                    ]
+                    "category": "SKILL5",
+                    "phrase": "visionary"
                 },
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "skills": [
-                        "cutting-edge Generative AI",
-                        "state-of-the-art LLMs",
-                        "latest in machine learning and artificial intelligence",
-                        "You won't be implementing yesterday's AI solutions. You'll be defining the future of AI in software development."
-                    ]
+                    "category": "SKILL5",
+                    "phrase": "pioneering"
                 },
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "skills": [
-                        "Lead AI Engineer"
-                    ]
+                    "category": "SKILL5",
+                    "phrase": "trailblazers"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "innovators"
+                },
+                {
+                    "category": "SKILL3",
+                    "phrase": "AI trailblazers who have: Integrated state-of-the-art LLMs into applications, creating intelligent systems like advanced chatbots"
+                },
+                {
+                    "category": "SKILL3",
+                    "phrase": "Revolutionized legacy systems with AI-driven predictive analytics and personalization"
+                },
+                {
+                    "category": "SKILL3",
+                    "phrase": "Leveraged AI to swiftly resolve recurring issues and enhance features"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "Architect and Deploy Cutting-Edge AI Products"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "Transform Internal Operations"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "Lead AI Integration Initiatives"
+                },
+                {
+                    "category": "SKILL2",
+                    "phrase": "not be implementing yesterday's AI solutions. You'll be defining the future of AI in software development."
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "Generative AI"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "LLMs"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "Generative AI"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "LLMs"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "AI-driven predictive analytics"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "AI"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "machine learning"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "artificial intelligence"
                 }
             ]
         }

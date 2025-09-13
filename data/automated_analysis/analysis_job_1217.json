@@ -28,99 +28,122 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description emphasizes building and deploying production-ready ML models and pipelines, aligning strongly with the core responsibilities of an ML Engineer. While it mentions consulting and client interaction, the primary technical focus is on model deployment and research exploration, fitting the 'MLOps' and 'Modeling' aspects of the ML Engineer profile."
+            "rationale": "The job description emphasizes deploying production-ready pipelines and ML models on the cloud using Python, exploring ML research, and technically guiding junior engineers. While it mentions consulting and client interaction, the core focus remains on building and deploying ML solutions, aligning with the 'ML Engineer' profile's emphasis on algorithm development, data preprocessing, model training, evaluation, and productionizing prototypes."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "understand customer business needs and translate them into end-to-end technical solutions",
-                        "Leverage your expertise to help sales qualify and land exciting projects"
-                    ],
-                    "justification": "These phrases indicate the need to comprehend business requirements and translate them into technical strategies, as well as supporting sales by leveraging technical knowledge."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'born consultant that understand customer business needs and translate them into end-to-end technical solutions' directly reflects the ability to grasp business context and map it to technical solutions.",
+                    "phrase": "understand customer business needs and translate them into end-to-end technical solutions"
                 },
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "deploy production ready pipelines"
-                    ],
-                    "justification": "The mention of 'production ready pipelines' directly relates to the creation and maintenance of data infrastructure for model deployment."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'deploy production ready pipelines' indicates the responsibility for building and maintaining data pipelines.",
+                    "phrase": "deploy production ready pipelines"
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "deploy production ready ML models",
-                        "Explore state-of-the art ML research and drive internal evaluation and adoption of cutting edge tools and frameworks"
-                    ],
-                    "justification": "This covers the core aspect of working with ML models, including their deployment and the exploration of new research and frameworks."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'deploy production ready ... ML models' directly relates to the core task of creating and deploying machine learning models.",
+                    "phrase": "deploy production ready ... ML models"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "deploy production ready pipelines and ML models on the Cloud"
-                    ],
-                    "justification": "Deploying models and pipelines on the cloud involves software development practices to ensure they are functional and integrated."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Explore state-of-the art ML research and drive internal evaluation and adoption of cutting edge tools and frameworks' implies research, evaluation, and adoption of new modeling techniques and tools.",
+                    "phrase": "Explore state-of-the art ML research and drive internal evaluation and adoption of cutting edge tools and frameworks"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "deploy production ready pipelines and ML models on the Cloud",
-                        "Are responsible for the high-quality delivery of your team's projects",
-                        "Technically guide junior ML engineers"
-                    ],
-                    "justification": "Deploying models in production, ensuring project delivery quality, and guiding junior engineers are all key aspects of MLOps and team leadership in an engineering context."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "Python",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'deploy production ready pipelines and ML models on the Cloud' suggests the software development aspect of making models and pipelines operational in a cloud environment.",
+                    "phrase": "deploy production ready pipelines and ML models on the Cloud"
                 },
                 {
-                    "tech_name": "Cloud",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'deploy production ready pipelines and ML models on the Cloud' implies the operational aspects of deploying and maintaining models in a production environment.",
+                    "phrase": "deploy production ready pipelines and ML models on the Cloud"
                 },
                 {
-                    "tech_name": "ML",
-                    "category": "TECH10: Data Modeling"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'born consultant' and 'Deliver technical workshops for clients' indicates strong communication and client-facing skills.",
+                    "phrase": "born consultant"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'Deliver technical workshops for clients' directly points to communication and teaching skills.",
+                    "phrase": "Deliver technical workshops for clients"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'help sales qualify and land exciting projects' implies collaboration with sales teams and communication of technical value.",
+                    "phrase": "help sales qualify and land exciting projects"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "justification": "The phrase 'translate them into end-to-end technical solutions' suggests problem-solving by creating comprehensive technical answers to business needs.",
+                    "phrase": "translate them into end-to-end technical solutions"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "justification": "The phrase 'Are responsible for the high-quality delivery of your team's projects' implies a focus on delivering results and ensuring quality.",
+                    "phrase": "Are responsible for the high-quality delivery of your team's projects"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "justification": "The phrase 'drive internal evaluation and adoption of cutting edge tools and frameworks' shows initiative and a proactive approach to adopting new technologies.",
+                    "phrase": "drive internal evaluation and adoption of cutting edge tools and frameworks"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "justification": "The phrase 'Technically guide junior ML engineers' indicates leadership and ownership of team development.",
+                    "phrase": "Technically guide junior ML engineers"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        "born consultant",
-                        "understand customer business needs",
-                        "translate them into end-to-end technical solutions",
-                        "Deliver technical workshops for clients",
-                        "Leverage your expertise to help sales qualify and land exciting projects",
-                        "Technically guide junior ML engineers"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "born consultant"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        "Explore state-of-the art ML research",
-                        "drive internal evaluation and adoption of cutting edge tools and frameworks"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Deliver technical workshops for clients"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "translate them into end-to-end technical solutions",
-                        "deploy production ready pipelines and ML models on the Cloud",
-                        "Are responsible for the high-quality delivery of your team's projects"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "help sales qualify and land exciting projects"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        "Explore state-of-the art ML research",
-                        "drive internal evaluation and adoption of cutting edge tools and frameworks",
-                        "Are responsible for the high-quality delivery of your team's projects"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "translate them into end-to-end technical solutions"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Are responsible for the high-quality delivery of your team's projects"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "drive internal evaluation and adoption of cutting edge tools and frameworks"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Technically guide junior ML engineers"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Cloud"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "ML models"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "pipelines"
                 }
             ]
         }

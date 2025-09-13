@@ -28,70 +28,68 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description emphasizes implementing and applying LLMs and AI-based technologies to create 'Digital Hosts', specifically mentioning fine-tuning performance and working with streaming data. This aligns strongly with the core responsibilities of a GenAI Engineer focused on building user-facing applications powered by generative models."
+            "rationale": "The job description heavily emphasizes the implementation and application of LLMs and other AI-based technologies to create 'Digital Hosts', which aligns directly with the definition of a GenAI Engineer. The core responsibilities mentioned, such as fine-tuning performance, working with streaming and real-time data for voice-based channels, and developing AI-powered solutions, are all key indicators of this profile. While software development is involved, the primary focus is on leveraging generative AI models."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK3: Modeling",
-                    "phrases": [
-                        "implement and apply LLM's & other AI-based technologies",
-                        "Investigating, evaluating & fine-tuning the performance of our Digital Hosts"
-                    ],
-                    "justification": "These phrases directly relate to working with and adapting generative models (LLMs) and evaluating their performance, which is central to the Modeling task in GenAI."
+                    "category": "TASK3",
+                    "justification": "The phrase 'implement and apply LLM's & other AI-based technologies' directly relates to the core process of using and adapting AI models.",
+                    "phrase": "implement and apply LLM's & other AI-based technologies"
                 },
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        "Designing and Coding outstanding Digital Hosts for our Enterprise companies",
-                        "implement connectivity between our platform and their systems",
-                        "implement improvements to our platform"
-                    ],
-                    "justification": "The role involves designing, coding, and implementing features for 'Digital Hosts' and the platform, indicating traditional software development to integrate AI capabilities into user-facing applications."
+                    "category": "TASK3",
+                    "justification": "The phrase 'Investigating, evaluating & fine-tuning the performance of our Digital Hosts' indicates direct work on optimizing and adapting AI models.",
+                    "phrase": "Investigating, evaluating & fine-tuning the performance of our Digital Hosts"
                 },
                 {
-                    "task_name": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "working with streaming data, real-time processing"
-                    ],
-                    "justification": "Working with streaming data and real-time processing suggests the need for robust deployment and monitoring infrastructure, which falls under Operations Engineering for AI systems."
+                    "category": "TASK4",
+                    "justification": "The phrase 'Designing and Coding outstanding Digital Hosts' points to the software development aspect of building applications around AI.",
+                    "phrase": "Designing and Coding outstanding Digital Hosts"
                 },
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        "achieve a customer's goal using our technology",
-                        "consult on technical matters"
-                    ],
-                    "justification": "The role involves understanding customer goals and consulting on technical solutions, requiring an understanding of business needs and how technology can address them."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "phrase": "LLM's & other AI-based technologies"
+                    "category": "TASK4",
+                    "justification": "The phrase 'implement connectivity between our platform and their systems' involves integrating AI solutions with existing infrastructure, a software development task.",
+                    "phrase": "implement connectivity between our platform and their systems"
                 },
                 {
-                    "tech_name": "TECH2: Cloud Platforms & Services",
-                    "phrase": "Cloud Computing"
+                    "category": "TASK4",
+                    "justification": "The phrase 'implement improvements to our platform' suggests ongoing software development and enhancement of the AI-driven system.",
+                    "phrase": "implement improvements to our platform"
+                },
+                {
+                    "category": "TASK1",
+                    "justification": "The phrase 'Joining sales meetings to consult on technical matters and come-up with the smartest way to achieve a customer's goal using our technology' shows an understanding of business needs and aligning technical solutions.",
+                    "phrase": "Joining sales meetings to consult on technical matters and come-up with the smartest way to achieve a customer's goal using our technology"
+                },
+                {
+                    "category": "TASK5",
+                    "justification": "The mention of 'AI & Cloud Computing' implies the need for operational aspects related to deploying and managing AI systems in the cloud.",
+                    "phrase": "AI & Cloud Computing"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrase": "great opportunity to develop your technical skills"
+                    "category": "SKILL2",
+                    "phrase": "learning how to implement and apply LLM's & other AI-based technologies"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "come up with the smartest way to achieve a customer's goal"
+                    "category": "SKILL3",
+                    "phrase": "come-up with the smartest way to achieve a customer's goal"
                 },
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrase": "Joining sales meetings to consult on technical matters"
-                },
-                {
-                    "skill_name": "SKILL5: Innovation & Ownership",
+                    "category": "SKILL5",
                     "phrase": "Helping come-up with and implement improvements to our platform"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "LLM's"
+                },
+                {
+                    "category": "TECH2",
+                    "phrase": "Cloud Computing"
                 }
             ]
         }

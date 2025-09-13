@@ -28,75 +28,81 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 3,
-            "rationale": "The role focuses on designing and developing ML/AI-based algorithms for patient monitoring, emphasizing predictive modeling for risk prediction and vital signs analysis. While generative AI is mentioned, the core seems to be traditional ML for prediction and classification in a medical context, aligning with the ML Engineer profile."
+            "rationale": "The job description emphasizes the design and development of algorithms, including ML/AI-based solutions for patient monitoring and risk prediction. While generative AI is mentioned, the core focus is on predictive modeling and algorithm development for vital signs analysis and biomarkers, aligning with the definition of an ML Engineer. The mention of project management is secondary to the core technical responsibilities."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "design and development of acute patient measurement/management algorithms including ML/AI-based solutions",
-                        "Design and develop (AI/ML-based) algorithms",
-                        "vital signs analysis and biomarkers for risk prediction",
-                        "develop of (AI-based) patient measurement and monitoring solutions"
-                    ],
-                    "justification": "These phrases directly relate to the creation, development, and adaptation of machine learning and AI models for specific tasks like prediction and analysis."
+                    "category": "TASK3: Modeling",
+                    "justification": "The job description explicitly mentions 'design and development of acute patient measurement/management algorithms including ML/AI-based solutions' and 'Design and develop (AI/ML-based) algorithms'. It also refers to 'vital signs analysis and biomarkers for risk prediction', which are core modeling tasks.",
+                    "phrase": "design and development of acute patient measurement/management algorithms including ML/AI-based solutions"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "deployed in intensive care, general ward, or other care settings",
-                        "develop reliable and safe medical-grade solutions"
-                    ],
-                    "justification": "These phrases imply the need to integrate and deploy AI/ML solutions into functional, reliable systems within specific healthcare environments, requiring software development practices."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'vital signs analysis and biomarkers for risk prediction' directly relates to the application of ML/AI models for predictive tasks.",
+                    "phrase": "vital signs analysis and biomarkers for risk prediction"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "improve outcomes and reduce costs",
-                        "clinical and marketing teams"
-                    ],
-                    "justification": "These phrases indicate an understanding of the business goals (improving outcomes, reducing costs) and the need to collaborate with business-related teams (clinical, marketing)."
-                },
-                {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "deployed in intensive care, general ward, or other care settings"
-                    ],
-                    "justification": "The mention of deployment in specific care settings suggests a need for operational considerations to ensure the models function reliably in production environments."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH3: LLM / Generative Models",
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'generative AI' in the context of developing patient measurement and monitoring solutions indicates the use of advanced modeling techniques.",
                     "phrase": "generative AI"
                 },
                 {
-                    "tech_name": "TECH10: Data Modeling",
-                    "phrase": "ML/AI-based solutions"
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves leading projects and managing programs to develop 'patient measurement and monitoring solutions', implying the need to integrate algorithms into functional systems.",
+                    "phrase": "develop of (AI-based) patient measurement and monitoring solutions"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves understanding the impact on patients ('touch more than 600 000 patients annually') and the healthcare context ('intensive care, general ward, or other care settings', 'medical-grade solutions', 'improve outcomes and reduce costs').",
+                    "phrase": "deployed in intensive care, general ward, or other care settings"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The mention of 'medical-grade solutions which make a real difference in healthcare - improve outcomes and reduce costs' shows an understanding of the business and clinical impact.",
+                    "phrase": "medical-grade solutions which make a real difference in healthcare - improve outcomes and reduce costs"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'deployed in intensive care, general ward, or other care settings' implies that the developed algorithms will be put into production environments, requiring operational considerations.",
+                    "phrase": "deployed in intensive care, general ward, or other care settings"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role includes 'Project management responsibility preferably thought the scale agile methodologies for 20-40% of time', indicating a need to understand project lifecycles and business objectives.",
+                    "phrase": "Project management responsibility preferably thought the scale agile methodologies"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "design and development of acute patient measurement/management algorithms"
-                },
-                {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrase": "Abreast with latest developments in Data and AI Innovation"
-                },
-                {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrase": "works together with other R&D teams, program management, clinical and marketing teams"
-                },
-                {
-                    "skill_name": "SKILL5: Innovation & Ownership",
+                    "category": "SKILL5: Innovation and Ownership",
                     "phrase": "Lead projects and manage programs"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Abreast with latest developments in Data and AI Innovation"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "works together with other R&D teams, program management, clinical and marketing teams"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "develop reliable and safe medical-grade solutions"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
                     "phrase": "Grow as an engineer, scientist, project / program manager or a leader"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "generative AI"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "ML/AI-based solutions"
                 }
             ]
         }

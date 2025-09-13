@@ -28,105 +28,80 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes building complex LLM solutions and supporting customer interactions, aligning with the core responsibilities of a GenAI Engineer. While some analytical and problem-solving skills are mentioned, the primary focus is on generative AI applications rather than traditional predictive modeling."
+            "rationale": "The job description heavily emphasizes building and deploying complex LLM solutions that add value to the organization and support customer interactions. This aligns directly with the definition and core responsibilities of a GenAI Engineer, particularly in areas like developing applications on top of LLMs and building user-facing systems. While analytical skills are mentioned, the core focus is on generative AI applications rather than predictive modeling or traditional ML engineering."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "duidelijke visie op de rol van Large Language Models (LLMs) in het ondersteunen van een data-gedreven organisatie",
-                            "justification": "This phrase indicates understanding how LLMs can support the broader business strategy of a data-driven organization."
-                        },
-                        {
-                            "phrase": "complexe LLM-oplossingen bouwen die direct waarde toevoegen aan de organisatie en klanten ondersteunen in hun dagelijkse interactie",
-                            "justification": "This highlights the need to connect technical solutions (LLM solutions) with business value and customer support."
-                        },
-                        {
-                            "phrase": "zelfstandig mee te denken met stakeholders en oplossingen voor te stellen die aansluiten bij de behoeften van de organisatie",
-                            "justification": "This directly relates to understanding business needs and proposing relevant technical solutions."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'data-gedreven organisatie' and 'direct waarde toevoegen aan de organisatie' indicates a need to understand the business context and align technical solutions with organizational goals.",
+                    "phrase": "data-gedreven organisatie"
                 },
                 {
-                    "task_name": "TASK3: Modeling",
-                    "phrases": [
-                        {
-                            "phrase": "Large Language Models (LLMs)",
-                            "justification": "Directly refers to the core models used in generative AI."
-                        },
-                        {
-                            "phrase": "complexe LLM-oplossingen bouwen",
-                            "justification": "Implies the development, adaptation, or fine-tuning of LLMs to create solutions."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'ondersteunen in hun dagelijkse interactie' suggests understanding how the technology serves end-users and business needs.",
+                    "phrase": "ondersteunen in hun dagelijkse interactie"
                 },
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "complexe LLM-oplossingen bouwen",
-                            "justification": "Building solutions often involves software development to integrate and deploy models."
-                        },
-                        {
-                            "phrase": "klanten ondersteunen in hun dagelijkse interactie",
-                            "justification": "Suggests building user-facing applications or features that interact with customers."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'aansluiten bij de behoeften van de organisatie' directly points to aligning technical solutions with business requirements.",
+                    "phrase": "aansluiten bij de behoeften van de organisatie"
                 },
                 {
-                    "task_name": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        {
-                            "phrase": "bouwen die direct waarde toevoegen aan de organisatie",
-                            "justification": "Building solutions that add value implies deployment and maintenance in a production environment."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
+                    "category": "TASK3: Modeling",
+                    "justification": "The core of the role is centered around 'Large Language Models (LLMs)' and 'complexe LLM-oplossingen bouwen', which falls under generative modeling.",
+                    "phrase": "complexe LLM-oplossingen bouwen"
+                },
                 {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "items": [
-                        "Large Language Models (LLMs)"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The description implies building and deploying these LLM solutions, which requires software development skills to integrate them into functional systems.",
+                    "phrase": "bouwen die direct waarde toevoegen aan de organisatie"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The mention of supporting 'klanten ondersteunen in hun dagelijkse interactie' suggests building user-facing applications.",
+                    "phrase": "klanten ondersteunen in hun dagelijkse interactie"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'bouwen' in the context of 'LLM-oplossingen' implies deployment and maintenance, which are part of MLOps.",
+                    "phrase": "bouwen"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        {
-                            "phrase": "communicatief sterk en kunt complexe onderwerpen helder overbrengen"
-                        },
-                        {
-                            "phrase": "zelfstandig mee te denken met stakeholders"
-                        }
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "proactieve"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        {
-                            "phrase": "analytische vaardigheden en vermogen om complexe vraagstukken te doorgronden"
-                        },
-                        {
-                            "phrase": "oplossingen voor te stellen die aansluiten bij de behoeften van de organisatie"
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "klantgerichte professional"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        {
-                            "phrase": "proactieve en klantgerichte professional"
-                        },
-                        {
-                            "phrase": "zelfstandig mee te denken"
-                        }
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "zelfstandig mee te denken met stakeholders"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "analytische vaardigheden"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "complexe vraagstukken te doorgronden"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "communicatief sterk"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "complexe onderwerpen helder overbrengen"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Large Language Models (LLMs)"
                 }
             ]
         }

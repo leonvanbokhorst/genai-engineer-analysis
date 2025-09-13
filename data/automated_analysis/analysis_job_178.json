@@ -26,70 +26,140 @@
         "full_text": "Test Engineer II - Intent Discovery\n\n* Software Testability is responsible to ensure that all features are designed and implemented in a testable way by guiding product teams during the entire lifecycle is responsible to enable product teams to deliver quality products at pace by advocating for teams to verify and test work in isolated independent units and embed testing early in the lifecycle\n     * Non-functional Testing has sufficient knowledge to advocate for the users experience by raising the team's ability to build applications with clear non-functional requirements (eg performance, security, accessibility, usability)Has sufficient knowledge to ensure teams keep within non-functional requirements by performing tests such as load-testing, accessibility testing, or security testing\n     * Test Planning & Execution is responsible to plan, execute, and supervise testing of products and features by using techniques such as risk-based testing, exploratory testing, mobbing, pairing, or responsible to identify and investigate issues and ensure they are handled in a sustainable and repeatable way by using continuous improvement techniques\n     * Test Advocacy is responsible to ensure that testing is embedded in the lifecycle of the product by being involved in the planning and design stages of applications and services Is responsible to advocate for testing best practices by explaining why testing is required, and enables others to own testing and quality checks of the product\n     * Test Automation has sufficient knowledge to drive and coordinate collaborative improvements of the test automation infrastructure and processes in teams by outlining the pros and cons of automation, where it can be effective, and where it cannot be used. Has sufficient knowledge to increase the overall quality of tests for a product by building automated tests that are isolated, deterministic, valuable and provide fast, reliable feedback.\n     * Critical Thinking: responsible to systematically identify patterns and underlying issues in complex situations, and to find solutions by applying logical and analytical thinking is responsible to constructively evaluate and develop ideas, plans and solutions by reviewing them, objectively taking into account external knowledge, initiating 'SMART' improvements and articulating their rationale\n     * Continuous Quality and Process Improvement: responsible to identify opportunities for process, system and structural improvements (i.e performance gains) by examining and evaluating current process flows, methods and standards\n     * Responsible to design and implement relevant improvements by defining adapted/new process flows, standards, and practices that enable business performance\n     * Effective Communication is responsible to deliver clear, well-structured, and meaningful information to a target audience by using suitable communication mediums and language tailored to the audience\n     * Responsible to achieve mutually agreeable solutions by staying adaptable, communicating ideas in clear coherent language and practising active listening\n     * Responsible to ask relevant (follow-up) questions to properly engage with the speaker and really understand what they are saying, by applying listening and reflection techniques\n     * This role may require to be on an on-call rotation"
     },
     "analysis": {
-        "job_profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 1,
-            "rationale": "The job description focuses heavily on traditional software testing methodologies, test planning, execution, and automation. There is no mention of AI, machine learning, generative models, or related technologies, making it irrelevant to the GenAI Engineer profile."
+        "profile_classification": {
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on traditional software testing methodologies, test planning, execution, and automation. While it mentions quality and process improvement, it lacks any specific mention of AI, machine learning, generative models, or related technologies. The core responsibilities are centered around ensuring software quality through testing, which falls outside the scope of ML Engineer or GenAI Engineer profiles. Therefore, it is classified as Ambiguous."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "guiding product teams during the entire lifecycle",
-                        "enable product teams to deliver quality products at pace",
-                        "advocating for teams to verify and test work in isolated independent units and embed testing early in the lifecycle",
-                        "advocate for testing best practices by explaining why testing is required, and enables others to own testing and quality checks of the product",
-                        "identify opportunities for process, system and structural improvements (i.e performance gains) by examining and evaluating current process flows, methods and standards",
-                        "design and implement relevant improvements by defining adapted/new process flows, standards, and practices that enable business performance"
-                    ],
-                    "justification": "These phrases indicate an understanding of product lifecycles, team enablement, and aligning testing strategies with business goals for quality and performance."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description emphasizes ensuring features are designed and implemented in a testable way, guiding product teams on verification and testing early in the lifecycle, and building automated tests. This aligns with the software development lifecycle where testing is a critical component.",
+                    "phrase": "ensure that all features are designed and implemented in a testable way"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "phrases": [
-                        "ensure that all features are designed and implemented in a testable way",
-                        "build applications with clear non-functional requirements",
-                        "build automated tests that are isolated, deterministic, valuable and provide fast, reliable feedback"
-                    ],
-                    "justification": "This category covers the development aspects related to making software testable and building automated testing solutions."
+                    "justification": "The role involves advocating for teams to verify and test work in isolated independent units and embedding testing early in the lifecycle, which are software development practices.",
+                    "phrase": "advocating for teams to verify and test work in isolated independent units and embed testing early in the lifecycle"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions building applications with clear non-functional requirements and performing tests like load-testing, accessibility testing, or security testing, which are part of ensuring the quality and robustness of software applications.",
+                    "phrase": "build applications with clear non-functional requirements (eg performance, security, accessibility, usability)"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves planning, executing, and supervising testing of products and features, which is a core software development activity.",
+                    "phrase": "plan, execute, and supervise testing of products and features"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Identifying and investigating issues and ensuring they are handled in a sustainable and repeatable way is a crucial part of the software development lifecycle.",
+                    "phrase": "identify and investigate issues and ensure they are handled in a sustainable and repeatable way"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Being involved in the planning and design stages of applications and services to ensure testing is embedded is a software development responsibility.",
+                    "phrase": "ensure that testing is embedded in the lifecycle of the product by being involved in the planning and design stages of applications and services"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Advocating for testing best practices and enabling others to own testing and quality checks are part of fostering a quality-focused software development culture.",
+                    "phrase": "advocate for testing best practices"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Driving and coordinating improvements of the test automation infrastructure and processes in teams is a key aspect of modern software development.",
+                    "phrase": "drive and coordinate collaborative improvements of the test automation infrastructure and processes in teams"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Building automated tests that are isolated, deterministic, valuable and provide fast, reliable feedback is a direct software development task.",
+                    "phrase": "building automated tests that are isolated, deterministic, valuable and provide fast, reliable feedback"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "While not traditional ML modeling, the phrase 'increase the overall quality of tests for a product' implies a form of modeling or structuring tests to achieve a desired outcome (quality). However, this is a weak fit and could also be seen as part of TASK4. Given the lack of ML context, it's placed here with low confidence.",
+                    "phrase": "increase the overall quality of tests for a product"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'systematically identify patterns and underlying issues in complex situations' can be interpreted as a form of pattern recognition, which is a component of modeling, though in this context it's applied to problem-solving within testing.",
+                    "phrase": "systematically identify patterns and underlying issues in complex situations"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "Applying logical and analytical thinking to find solutions is a fundamental aspect of modeling and problem-solving.",
+                    "phrase": "find solutions by applying logical and analytical thinking"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "Constructively evaluating and developing ideas, plans and solutions by reviewing them objectively is akin to model evaluation and refinement.",
+                    "phrase": "constructively evaluate and develop ideas, plans and solutions by reviewing them, objectively"
                 },
                 {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "drive and coordinate collaborative improvements of the test automation infrastructure and processes in teams",
-                        "increase the overall quality of tests for a product by building automated tests",
-                        "continuous improvement techniques"
-                    ],
-                    "justification": "While not MLOps specifically, these phrases relate to the operational aspects of managing and improving testing infrastructure and processes for reliability and feedback."
+                    "justification": "The mention of 'on-call rotation' suggests involvement in maintaining systems in production, which is a characteristic of operations engineering.",
+                    "phrase": "on-call rotation"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'enable business performance' indicates an understanding of how the role's activities contribute to broader business objectives.",
+                    "phrase": "enable business performance"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Continuous Quality and Process Improvement' implies a focus on understanding and optimizing processes to achieve better business outcomes.",
+                    "phrase": "Continuous Quality and Process Improvement"
                 }
             ],
-            "technologies": [],
             "soft_skills": [
                 {
-                    "category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Effective Communication is responsible to deliver clear, well-structured, and meaningful information to a target audience by using suitable communication mediums and language tailored to the audience",
-                        "Responsible to achieve mutually agreeable solutions by staying adaptable, communicating ideas in clear coherent language and practising active listening",
-                        "Responsible to ask relevant (follow-up) questions to properly engage with the speaker and really understand what they are saying, by applying listening and reflection techniques"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Critical Thinking"
                 },
                 {
                     "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Critical Thinking: responsible to systematically identify patterns and underlying issues in complex situations, and to find solutions by applying logical and analytical thinking",
-                        "responsible to constructively evaluate and develop ideas, plans and solutions by reviewing them, objectively taking into account external knowledge, initiating 'SMART' improvements and articulating their rationale",
-                        "Continuous Quality and Process Improvement: responsible to identify opportunities for process, system and structural improvements (i.e performance gains) by examining and evaluating current process flows, methods and standards",
-                        "Responsible to design and implement relevant improvements by defining adapted/new process flows, standards, and practices that enable business performance"
-                    ]
+                    "phrase": "apply logical and analytical thinking"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "constructively evaluate and develop ideas, plans and solutions"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "SMART' improvements"
                 },
                 {
                     "category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "staying adaptable"
-                    ]
+                    "phrase": "Continuous Quality and Process Improvement"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "adapted/new process flows, standards, and practices"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Effective Communication"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "communicating ideas in clear coherent language"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "practising active listening"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "ask relevant (follow-up) questions"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "listening and reflection techniques"
                 }
-            ]
+            ],
+            "technologies": []
         }
     }
 }

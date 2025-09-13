@@ -28,69 +28,77 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description emphasizes working with Machine Learning, Deep Learning, OCR, Computer Vision, and LLMs, aligning with core ML engineering tasks. The mention of Docker, Kubernetes, and AI deployment pipelines strongly indicates a focus on MLOps and productionizing models, a key characteristic of an ML Engineer."
+            "rationale": "The job description emphasizes working with Machine Learning, Deep Learning, OCR, Computer Vision, and LLMs, with a strong focus on deployment pipelines, Docker, and Kubernetes. While LLMs are mentioned, the core responsibilities lean towards building and deploying ML models in production, aligning more closely with the 'ML Engineer' profile's emphasis on MLOps and productionizing models, rather than the GenAI Engineer's focus on advanced prompt engineering and fine-tuning of LLMs for user-facing applications."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "Machine Learning",
-                        "Deep Learning",
-                        "OCR",
-                        "Computer Vision",
-                        "LLM's",
-                        "Generative AI"
-                    ],
-                    "justification": "These phrases directly refer to the creation, training, or adaptation of machine learning and generative models, which is the core of the Modeling task category."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Machine Learning, Deep Learning, OCR, Computer Vision, LLM's' directly refers to the creation and application of models.",
+                    "phrase": "Machine Learning, Deep Learning, OCR, Computer Vision, LLM's"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Docker",
-                        "Kubernetes",
-                        "AI deployment pipelines"
-                    ],
-                    "justification": "Docker, Kubernetes, and AI deployment pipelines are all key technologies and practices associated with building and managing the infrastructure for deploying and maintaining AI models in production, fitting the Operations Engineering (MLOps) category."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of 'Docker, Kubernetes, AI deployment pipelines' are core components of MLOps and productionizing AI systems.",
+                    "phrase": "Docker, Kubernetes, AI deployment pipelines"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "product implementatie",
-                        "realisatie van producten"
-                    ],
-                    "justification": "Phrases like 'product implementation' and 'realization of products' suggest the need to integrate AI models into functional products, which involves software development aspects."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Docker",
-                    "category": "TECH6: MLOps & Data Pipelines"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'product implementatie' suggests the integration and deployment of AI models into products, which involves software development aspects.",
+                    "phrase": "product implementatie"
                 },
                 {
-                    "technology": "Kubernetes",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "technology": "LLM's",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Generative AI' refers to a type of modeling.",
+                    "phrase": "Generative AI"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "Met interesse voor data, innovatie en AI product implementatie"
-                    ],
-                    "justification": "Expressing interest in data, innovation, and AI product implementation suggests a proactive and adaptable mindset towards new technologies and their application."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "innovatie"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "innovatie"
-                    ],
-                    "justification": "The mention of 'innovation' points towards a desire for proactive contribution and potentially taking ownership of new ideas or solutions."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Met interesse voor"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Machine Learning"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Deep Learning"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "OCR"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Computer Vision"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLM's"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Docker"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Kubernetes"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "AI deployment pipelines"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Generative AI"
                 }
             ]
         }

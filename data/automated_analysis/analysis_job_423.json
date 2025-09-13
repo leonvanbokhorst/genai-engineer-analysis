@@ -27,55 +27,54 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on leveraging AI tools for productivity and enhancing existing products rather than core AI model development or deployment. It lacks specific details on building, fine-tuning, or deploying generative models or predictive systems, which are hallmarks of ML or GenAI Engineer roles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on leveraging AI tools for efficiency and enhancing existing products rather than developing core AI models or generative AI applications. It emphasizes traditional software engineering tasks like back-end development, code reviews, and integrating AI-driven solutions, but lacks specific details on building, fine-tuning, or deploying generative models or advanced AI systems. The role appears to be more about using AI as a productivity enhancer within a software engineering context, aligning with the definition of the 'Ambiguous' profile."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "Develop and deploy efficient back-end solutions using serverless technologies, focusing on creating robust, cloud-native applications.",
-                    "justification": "This phrase directly describes the development and deployment of software, specifically back-end solutions and cloud-native applications, which falls under traditional software engineering."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions 'Develop and deploy efficient back-end solutions using serverless technologies, focusing on creating robust, cloud-native applications' and 'Enhance product functionality and effectively integrate AI-driven solutions into our cloud services', which are core software development activities.",
+                    "phrase": "Develop and deploy efficient back-end solutions using serverless technologies, focusing on creating robust, cloud-native applications"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "Enhance product functionality and effectively integrate AI-driven solutions into our cloud services.",
-                    "justification": "This involves integrating AI solutions into existing products, which requires software development skills to ensure seamless functionality and integration."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Conduct comprehensive code reviews and collaborate with a global team to ensure best practices and high standards' directly relates to software development quality assurance and team collaboration.",
+                    "phrase": "Conduct comprehensive code reviews and collaborate with a global team to ensure best practices and high standards"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "Modernize our strategic product lines through AI-driven innovations, enhancing performance, scalability, and user engagement.",
-                    "justification": "Modernizing product lines and enhancing their performance and scalability through AI-driven innovations implies significant software development and architectural work."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Modernize our strategic product lines through AI-driven innovations, enhancing performance, scalability, and user engagement' indicates a need to understand business goals and translate them into technical strategies.",
+                    "phrase": "Modernize our strategic product lines through AI-driven innovations, enhancing performance, scalability, and user engagement"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "Conduct comprehensive code reviews and collaborate with a global team to ensure best practices and high standards.",
-                    "justification": "Code reviews and ensuring best practices are core activities within software development to maintain code quality and team standards."
-                },
-                {
-                    "task": "TASK1: Business Understanding",
-                    "phrase": "Leverage cutting-edge AI tools to improve efficiency in coding, error detection, feature development, bug fixing etc.",
-                    "justification": "This phrase indicates an understanding of how AI tools can be applied to business processes (coding, development, bug fixing) to improve efficiency, aligning with business goals."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Leverage cutting-edge AI tools to improve efficiency in coding, error detection, feature development, bug fixing etc.' describes the application of tools within a software development lifecycle.",
+                    "phrase": "Leverage cutting-edge AI tools to improve efficiency in coding, error detection, feature development, bug fixing etc."
                 }
             ],
-            "technologies": [],
             "soft_skills": [
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
+                    "category": "SKILL1: Communication & Collaboration",
                     "phrase": "collaborate with a global team"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "improve efficiency in coding, error detection, feature development, bug fixing etc."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "creating innovative solutions"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrase": "AI-driven innovations"
-                },
-                {
-                    "skill": "SKILL2: Learning & Adaptability",
+                    "category": "SKILL2: Learning & Adaptability",
                     "phrase": "Leverage cutting-edge AI tools"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "cloud-native applications"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "serverless technologies"
                 }
             ]
         }

@@ -28,147 +28,160 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description emphasizes developing and maintaining AI systems, with a specific mention of Generative AI (LLM) as a specialization. It also highlights building user-facing applications and integrating AI features, aligning with the core responsibilities of a GenAI Engineer."
+            "rationale": "The job description emphasizes developing and maintaining AI systems, with a specific mention of Generative AI (LLM) as a specialization. It highlights skills in designing, developing, and maintaining AI systems, aligning with the core responsibilities of a GenAI Engineer. While ML Engineer skills are present (Data Engineering, Modeling), the focus on Generative AI and building AI systems points more towards the GenAI Engineer profile."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "Business Understanding",
-                    "evidence": [
-                        {
-                            "phrase": "Kennis van het businessvakgebied en commerciële aspecten",
-                            "justification": "This phrase directly indicates the need to understand the business domain and commercial aspects, which is a core component of Business Understanding."
-                        },
-                        {
-                            "phrase": " Consultancy skills",
-                            "justification": "Consultancy skills often involve understanding client business needs and translating them into technical solutions, aligning with Business Understanding."
-                        },
-                        {
-                            "phrase": "Onze missie is om de performance van mensen, afdelingen en organisaties onderscheidend te verbeteren.",
-                            "justification": "This mission statement reflects a focus on improving organizational performance through data and AI, demonstrating a business-oriented goal."
-                        }
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The job description mentions 'Data Engineer' as a background and 'data analysis, mining, cleaning' as skills to be acquired, which are core to data engineering.",
+                    "phrase": "Data Engineer"
                 },
                 {
-                    "task": "Data Engineering",
-                    "evidence": [
-                        {
-                            "phrase": "Data analysis, mining, cleaning, visualization",
-                            "justification": "These are fundamental data engineering tasks involved in preparing data for modeling and analysis."
-                        },
-                        {
-                            "phrase": "Ervaring met big data technologieën",
-                            "justification": "This implies working with large datasets and the associated infrastructure, which falls under data engineering."
-                        }
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'data analysis, mining, cleaning' directly relates to the preprocessing and preparation of data, a key aspect of data engineering.",
+                    "phrase": "Data analysis, mining, cleaning"
                 },
                 {
-                    "task": "Modeling",
-                    "evidence": [
-                        {
-                            "phrase": "Specialisatie in: Deep Learning, Computer Vision, Generative AI (LLM)",
-                            "justification": "This explicitly mentions core areas of AI modeling, including generative models (LLM)."
-                        },
-                        {
-                            "phrase": "Na dit opleidingsprogramma beschik je over de volgende vaardigheden en kennis: ... AI Ethics & Security",
-                            "justification": "While AI Ethics & Security is a broader topic, it's often integrated into the modeling process to ensure responsible AI development."
-                        },
-                        {
-                            "phrase": "Je gaat direct aan de slag op een project en zal in samenwerking met Senior collega's jouw opgedane kennis in de praktijk brengen.",
-                            "justification": "This suggests applying learned modeling knowledge to real-world projects."
-                        }
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The job explicitly lists 'Deep Learning, Computer Vision, Generative AI (LLM)' as specializations to be acquired, which are all forms of model development and adaptation.",
+                    "phrase": "Deep Learning, Computer Vision, Generative AI (LLM)"
                 },
                 {
-                    "task": "Software Development",
-                    "evidence": [
-                        {
-                            "phrase": "AI-systemen te ontwerpen, ontwikkelen en onderhouden.",
-                            "justification": "Designing, developing, and maintaining AI systems involves significant software development effort."
-                        },
-                        {
-                            "phrase": "Programmeer skills (Python)",
-                            "justification": "Python is a primary language for software development in AI and ML."
-                        },
-                        {
-                            "phrase": "CI/CD (Docker/Kubernetes/Linux)",
-                            "justification": "CI/CD practices are integral to modern software development for building and deploying applications."
-                        }
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The description states the goal is to 'design, develop and maintain AI systems', which encompasses the modeling aspect of AI.",
+                    "phrase": "AI systems to design, develop and maintain"
                 },
                 {
-                    "task": "Operations Engineering (MLOps)",
-                    "evidence": [
-                        {
-                            "phrase": "MLOps",
-                            "justification": "This is a direct mention of MLOps, which is the operational aspect of machine learning systems."
-                        },
-                        {
-                            "phrase": "DevOps & Version Control (Git)",
-                            "justification": "DevOps principles and version control are foundational for managing and deploying software, including AI systems."
-                        },
-                        {
-                            "phrase": "Cloud- en platform engineering",
-                            "justification": "This relates to managing the infrastructure and platforms where AI systems are deployed and run, a key part of MLOps."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "tech": "Python",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves developing and maintaining AI systems and working on projects, implying the need for software development skills to integrate and deploy these systems.",
+                    "phrase": "develop and maintain AI systems"
                 },
                 {
-                    "tech": "Git",
-                    "category": "TECH6: MLOps & Data Pipelines"
+                    "category": "TASK4: Software Development",
+                    "justification": "The mention of 'DevOps & Version Control (Git)' and 'CI/CD (Docker/Kubernetes/Linux)' are integral parts of modern software development and deployment pipelines.",
+                    "phrase": "DevOps & Version Control (Git)"
                 },
                 {
-                    "tech": "Docker",
-                    "category": "TECH6: MLOps & Data Pipelines"
+                    "category": "TASK4: Software Development",
+                    "justification": "The mention of 'CI/CD (Docker/Kubernetes/Linux)' are integral parts of modern software development and deployment pipelines.",
+                    "phrase": "CI/CD (Docker/Kubernetes/Linux)"
                 },
                 {
-                    "tech": "Kubernetes",
-                    "category": "TECH6: MLOps & Data Pipelines"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The job description explicitly lists 'MLOps' as a skill to be acquired, which is the core of operations engineering for AI/ML systems.",
+                    "phrase": "MLOps"
                 },
                 {
-                    "tech": "Linux",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of 'Cloud- en platform engineering' is directly related to the infrastructure and operational aspects of deploying and managing AI systems.",
+                    "phrase": "Cloud- en platform engineering"
                 },
                 {
-                    "tech": "Deep Learning",
-                    "category": "TECH10: Data Modeling"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The requirement for 'Kennis van het businessvakgebied en commerciële aspecten' indicates the need to understand the business context for AI solutions.",
+                    "phrase": "Kennis van het businessvakgebied en commerciële aspecten"
                 },
                 {
-                    "tech": "Computer Vision",
-                    "category": "TECH10: Data Modeling"
-                },
-                {
-                    "tech": "Generative AI (LLM)",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The mention of 'Consultancy skills' implies the ability to understand client needs and translate them into technical solutions.",
+                    "phrase": "Consultancy skills"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "Ambitieus, aanpassingsvermogen, scherp en oplossingsgericht",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Fast Track van zes weken uit te groeien tot een expert"
                 },
                 {
-                    "skill": "Ambitieus, aanpassingsvermogen, scherp en oplossingsgericht",
-                    "category": "SKILL2: Learning & Adaptability"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "jezelf blijft ontwikkelen"
                 },
                 {
-                    "skill": "Consultancy skills",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "persoonlijk ontwikkelingsplan en veel mogelijkheden om kennis uit te bouwen via cursussen, trainingen en opleidingen"
                 },
                 {
-                    "skill": "Uitstekende beheersing van de Nederlandse en Engelse taal",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "oplossingsgericht"
                 },
                 {
-                    "skill": "Aandacht voor een persoonlijk ontwikkelingsplan en veel mogelijkheden om kennis uit te bouwen via cursussen, trainingen en opleidingen",
-                    "category": "SKILL2: Learning & Adaptability"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "in samenwerking met Senior collega's"
+                },
+                {
+                    "category": "SKILL4: Ethical & Legal Responsibility",
+                    "phrase": "AI Ethics & Security"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Ambitieus"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Deep Learning"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Computer Vision"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Generative AI (LLM)"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Cloud"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "MLOps"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "DevOps"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Version Control (Git)"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "CI/CD"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Docker"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Kubernetes"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Linux"
+                },
+                {
+                    "category": "TECH11: Data Analysis",
+                    "phrase": "Data analysis"
+                },
+                {
+                    "category": "TECH11: Data Analysis",
+                    "phrase": "mining"
+                },
+                {
+                    "category": "TECH2: Data Engineering",
+                    "phrase": "cleaning"
+                },
+                {
+                    "category": "TECH7: Data Visualization",
+                    "phrase": "visualization"
                 }
             ]
         }

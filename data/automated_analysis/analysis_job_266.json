@@ -27,103 +27,80 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description mentions AI technologies and LLMs but heavily emphasizes traditional software engineering for embedded systems and machine building. It lacks the core focus on building, fine-tuning, or deploying generative models or predictive ML systems required for ML Engineer or GenAI Engineer profiles."
+            "profile": "Ambiguous",
+            "rationale": "The job description mentions working with LLM, AI technologies, and data science, but the core responsibilities and project examples lean heavily towards traditional embedded software engineering for machine and device manufacturing, and system integration. There is no clear emphasis on building generative AI applications, fine-tuning models, or developing RAG systems, which are hallmarks of a GenAI Engineer. Similarly, it lacks the deep focus on predictive modeling and MLOps characteristic of an ML Engineer. The role appears to be more about applying AI tools within an embedded systems context rather than developing AI-centric solutions."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "Software Development",
-                    "phrase": "junior software engineer",
-                    "justification": "This phrase directly indicates a role focused on software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'realtime applicaties met embedded besturingssystemen zoals Linux, VxWorks, RTOS of Windows' and 'Applicatiesoftware en/of embedded software implementeren in een project' directly relates to building and implementing software applications, which falls under traditional software development.",
+                    "phrase": "realtime applicaties met embedded besturingssystemen zoals Linux, VxWorks, RTOS of Windows"
                 },
                 {
-                    "task": "Software Development",
-                    "phrase": "realtime applicaties met embedded besturingssystemen",
-                    "justification": "This describes the development of specific types of software applications."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Werken aan diverse softwareoplossingen samen met een team van professionals' indicates collaboration on software solutions, a core aspect of software development.",
+                    "phrase": "Werken aan diverse softwareoplossingen samen met een team van professionals"
                 },
                 {
-                    "task": "Software Development",
-                    "phrase": "Applicatiesoftware en/of embedded software implementeren in een project",
-                    "justification": "This phrase explicitly mentions implementing software, a core software development activity."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Codes optimaliseren met moderne compilers' is a specific software development task focused on improving code performance.",
+                    "phrase": "Codes optimaliseren met moderne compilers"
                 },
                 {
-                    "task": "Software Development",
-                    "phrase": "Codes optimaliseren met moderne compilers",
-                    "justification": "Code optimization using compilers is a fundamental software development practice."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Actief bezig zijn in de innovatieve machine- en apparatenbouw en systeemintegratie' describes the domain where software development is applied, specifically in system integration and manufacturing.",
+                    "phrase": "Actief bezig zijn in de innovatieve machine- en apparatenbouw en systeemintegratie"
                 },
                 {
-                    "task": "Business Understanding",
-                    "phrase": "werk je in multidisciplinaire teams",
-                    "justification": "Working in multidisciplinary teams implies understanding and integrating with different functional areas."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Werken met LLM, kunstmatige intelligentie en AI technologieën' suggests involvement with AI models, though the depth and specific application are not detailed.",
+                    "phrase": "Werken met LLM, kunstmatige intelligentie en AI technologieën"
                 },
                 {
-                    "task": "Business Understanding",
-                    "phrase": "projecten voor geavanceerde besturingssystemen voor machine- en apparatenbouw en systeemintegratie",
-                    "justification": "This describes the business domain and the type of projects, requiring an understanding of the industry's needs."
-                },
-                {
-                    "task": "Business Understanding",
-                    "phrase": "Actief bezig zijn in de innovatieve machine- en apparatenbouw en systeemintegratie",
-                    "justification": "This indicates involvement in a specific industry sector, requiring business context."
-                },
-                {
-                    "task": "Modeling",
-                    "phrase": "Werken met LLM, kunstmatige intelligentie en AI technologieën",
-                    "justification": "While vague, this phrase indicates some level of interaction with AI and LLM technologies, which can involve modeling aspects."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "TECH1: Programming Languages",
-                    "phrase": "Linux"
-                },
-                {
-                    "technology": "TECH1: Programming Languages",
-                    "phrase": "VxWorks"
-                },
-                {
-                    "technology": "TECH1: Programming Languages",
-                    "phrase": "RTOS"
-                },
-                {
-                    "technology": "TECH1: Programming Languages",
-                    "phrase": "Windows"
-                },
-                {
-                    "technology": "TECH3: LLM / Generative Models",
-                    "phrase": "LLM"
-                },
-                {
-                    "technology": "TECH3: LLM / Generative Models",
-                    "phrase": "kunstmatige intelligentie"
-                },
-                {
-                    "technology": "TECH3: LLM / Generative Models",
-                    "phrase": "AI technologieën"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Het vak engineering verder te ontplooien in het werkveld' indicates a focus on professional development within the engineering field, which implies understanding the broader context of engineering work.",
+                    "phrase": "Het vak engineering verder te ontplooien in het werkveld"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
+                    "category": "SKILL1: Communication & Collaboration",
                     "phrase": "werk je in multidisciplinaire teams"
                 },
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
+                    "category": "SKILL1: Communication & Collaboration",
                     "phrase": "samen met een team van professionals"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "phrase": "Het vak engineering verder te ontplooien"
-                },
-                {
-                    "skill": "SKILL5: Innovation & Ownership",
+                    "category": "SKILL5: Innovation & Ownership",
                     "phrase": "Actief bezig zijn in de innovatieve machine- en apparatenbouw"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrase": "innovatieve machine- en apparatenbouw"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Het vak engineering verder te ontplooien in het werkveld"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLM"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Linux"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "VxWorks"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "RTOS"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Windows"
                 }
             ]
         }

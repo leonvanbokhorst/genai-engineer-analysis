@@ -26,91 +26,110 @@
         "full_text": "IT Operations Engineer\n\nWe are looking for an IT Operations Engineer to join our IT Support Experience team, helping them bridge the gap between IT Support and DevOps. Technical challenges, major changes and related projects will be part of your daily business. You will be a DevOps Engineer with a focus on our employees and their IT service needs., * As an IT Operations Engineer, you will be working closely together with the DevOps Engineers to solve more complex support issues reported by other Engineers and Developers at DeepL\n\n     * You will also help to improve and automate the processes for the IT support team\n\n     * You will assist the more junior members of the team with classical IT support issues\n\n     * Maintain and administer various tools served by the IT Support team, Diverse and internationally distributed team: joining our team means becoming part of a large, global community with people of more than 90 nationalities. We're more than just colleagues; we're a group of professionals with a shared mission to connect diverse cultures. Our global presence is growing-we've doubled in size nearly every year, with our employees based in the UK, Germany, the Netherlands, Poland, the US, and Japan, and we continue to expand our network.\n\n     * Open communication, regular feedback: as a language-focused company, we value the importance of clear, honest communication. We value smooth collaboration, direct and actionable feedback, and believe that leading with empathy makes us better together.\n\n     * Remote work, flexible hours: whether you're near or in our hubs in cities like Cologne, Berlin, Amsterdam, London, Austin, or Tokyo, or prefer the comfort of your own home, you decide where your office is. We offer remote opportunities, flexible working hours and trust in your productivity, all in sync with your team's general locations and time zones to foster effective and seamless collaboration. Our aim is to integrate your work with your lifestyle, ensuring a balance that respects both your needs and our operational requirements.\n\n     * Regular in-person team events: we bond over vibrant events that are as unique as our team, from local team and business unit gatherings, to new-joiner onboardings, to company-wide events that bring us all together-literally.\n\n     * Monthly full-day hacking sessions: every month, we have Hack Fridays, where you can spend your time diving into a project you're passionate about and get the opportunity to work with other teams-we value your initiatives, impact, and creativity.\n\n     * Comprehensive health insurance: your health comes first. With our comprehensive insurance, we'll make sure you're covered from head to toe.\n\n     * 30 days of annual leave: we value your peace of mind. With 30 days off (excluding public holidays) and access to mental health resources, we make sure you're as strong mentally as you are professionally.\n     * Annual learning budget: because we never stop learning, we've set up an annual budget for your professional development-pick a learning path which contributes to your career development and we'll back you up."
     },
     "analysis": {
-        "job_profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on IT operations, support, and bridging the gap between IT support and DevOps. There is no mention of AI, machine learning, generative models, or related technologies, making it irrelevant to the GenAI Engineer or ML Engineer profiles."
+        "profile_classification": {
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on IT Operations and IT Support, with a strong emphasis on bridging the gap between IT Support and DevOps. While it mentions working with DevOps engineers and improving/automating processes, it does not describe core AI/ML engineering tasks such as developing, training, fine-tuning, or deploying AI models. The role appears to be a traditional IT Operations Engineer role, which falls outside the scope of ML Engineer or GenAI Engineer profiles. Therefore, the 'Ambiguous' classification is most appropriate as it is not a technical AI role as defined in the coding book."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "helping them bridge the gap between IT Support and DevOps",
-                        "focus on our employees and their IT service needs"
-                    ],
-                    "justification": "These phrases indicate an understanding of the business context (IT support for employees) and the strategic alignment of IT operations with broader team functions (DevOps)."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The job title is 'IT Operations Engineer' and the description mentions 'bridging the gap between IT Support and DevOps', 'working closely together with the DevOps Engineers', and 'improve and automate the processes for the IT support team'. This aligns with the operational and automation aspects of MLOps, though in an IT support context rather than AI model deployment.",
+                    "phrase": "IT Operations Engineer"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "working closely together with the DevOps Engineers to solve more complex support issues reported by other Engineers and Developers",
-                        "improve and automate the processes for the IT support team",
-                        "assist the more junior members of the team with classical IT support issues",
-                        "Maintain and administer various tools served by the IT Support team"
-                    ],
-                    "justification": "While not directly building user-facing applications, the role involves maintaining and administering tools, automating processes, and supporting other engineers, which touches upon the operational aspects of software and systems."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'bridge the gap between IT Support and DevOps' directly relates to operational engineering and the integration of support functions with development/operations practices.",
+                    "phrase": "bridge the gap between IT Support and DevOps"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "IT Operations Engineer",
-                        "bridge the gap between IT Support and DevOps",
-                        "working closely together with the DevOps Engineers",
-                        "improve and automate the processes for the IT support team",
-                        "Maintain and administer various tools served by the IT Support team"
-                    ],
-                    "justification": "The core of the role is IT Operations, with a specific mention of bridging with DevOps and automating processes, which aligns with the principles of operations engineering, though not specifically MLOps."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The responsibility to 'improve and automate the processes for the IT support team' is a core function within operations engineering, focusing on efficiency and streamlining workflows.",
+                    "phrase": "improve and automate the processes for the IT support team"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Assisting junior members with 'classical IT support issues' and maintaining/administering tools served by the IT Support team falls under the operational management of IT infrastructure and services.",
+                    "phrase": "Maintain and administer various tools served by the IT Support team"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role is described as having a 'focus on our employees and their IT service needs', indicating an understanding of the business context and how IT services support the workforce.",
+                    "phrase": "focus on our employees and their IT service needs"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The description emphasizes 'working closely together with the DevOps Engineers' and mentions a 'Diverse and internationally distributed team' with 'more than 90 nationalities', highlighting the need for collaboration across different roles and backgrounds.",
+                    "phrase": "working closely together with the DevOps Engineers"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The company values 'Open communication, regular feedback', 'smooth collaboration', and 'direct and actionable feedback', all of which are key aspects of communication and collaboration skills.",
+                    "phrase": "Open communication, regular feedback"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The mention of 'foster effective and seamless collaboration' and 'integrate your work with your lifestyle' points to the importance of collaborative work environments and communication.",
+                    "phrase": "foster effective and seamless collaboration"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "justification": "The provision of an 'Annual learning budget' for 'professional development' and the encouragement to 'pick a learning path' indicates a strong emphasis on continuous learning and adaptability.",
+                    "phrase": "Annual learning budget"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "justification": "The 'Monthly full-day hacking sessions' where employees can 'spend your time diving into a project you're passionate about' and 'work with other teams' suggests an environment that values initiative, passion, and cross-team collaboration, aligning with innovation and ownership.",
+                    "phrase": "Monthly full-day hacking sessions"
                 }
             ],
-            "technologies": [],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "working closely together with the DevOps Engineers",
-                        "Diverse and internationally distributed team",
-                        "becoming part of a large, global community with people of more than 90 nationalities",
-                        "we're more than just colleagues; we're a group of professionals with a shared mission",
-                        "Open communication, regular feedback",
-                        "value smooth collaboration, direct and actionable feedback",
-                        "leading with empathy makes us better together",
-                        "foster effective and seamless collaboration",
-                        "integrate your work with your lifestyle",
-                        "Regular in-person team events",
-                        "work with other teams"
-                    ],
-                    "justification": "Numerous phrases highlight teamwork, global collaboration, open communication, empathy, and working with diverse teams and other departments."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "working closely together with the DevOps Engineers"
                 },
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "Technical challenges, major changes and related projects will be part of your daily business",
-                        "Annual learning budget",
-                        "pick a learning path which contributes to your career development"
-                    ],
-                    "justification": "The mention of technical challenges, major changes, and a dedicated learning budget directly points to the need for continuous learning and adaptability."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Open communication, regular feedback"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "solve more complex support issues",
-                        "improve and automate the processes",
-                        "assist the more junior members of the team with classical IT support issues",
-                        "Hack Fridays, where you can spend your time diving into a project you're passionate about"
-                    ],
-                    "justification": "The role involves solving complex issues, improving processes, assisting others, and dedicating time to passion projects, all of which require problem-solving and a pragmatic approach."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "smooth collaboration"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "improve and automate the processes",
-                        "Hack Fridays, where you can spend your time diving into a project you're passionate about",
-                        "we value your initiatives, impact, and creativity"
-                    ],
-                    "justification": "Phrases like 'improve and automate processes', 'diving into a project you're passionate about', and valuing 'initiatives, impact, and creativity' suggest a need for ownership and proactive contribution."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "direct and actionable feedback"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "leading with empathy"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "foster effective and seamless collaboration"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Annual learning budget"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "professional development"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Monthly full-day hacking sessions"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "work with other teams"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "value your initiatives, impact, and creativity"
                 }
-            ]
+            ],
+            "technologies": []
         }
     }
 }

@@ -27,39 +27,38 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 1,
-            "rationale": "The job description focuses on traditional full-stack development for a web and mobile application, emphasizing user authentication and profiles. There is no mention of AI, machine learning, or generative models, making it irrelevant to the GenAI Engineer or ML Engineer profiles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on full-stack development for a user-centric application, specifically mentioning user authentication and profiles with two-factor authentication. It does not mention any specific AI technologies, models, or methodologies, nor does it involve tasks related to machine learning model development, training, or deployment. The role appears to be a traditional software engineering position, not directly related to AI or Generative AI."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "Full Stack Developer",
-                        "creation of a dual Web and Mobile application",
-                        "Develop a mobile-first, user-friendly interface"
-                    ],
-                    "justification": "These phrases describe core software development activities related to building user-facing applications across different platforms."
-                }
-            ],
-            "technologies": [],
-            "soft_skills": [
-                {
-                    "skill_name": "Ethical & Legal Responsibility",
-                    "phrases": [
-                        "two-factor authentication system for enhanced security"
-                    ],
-                    "justification": "The mention of a two-factor authentication system indicates a focus on security, which aligns with responsible development practices."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description explicitly states 'seasoned full-stack software developer' and mentions developing a 'dual Web and Mobile application', 'user-friendly interface', and 'user authentication'. These are core software development activities.",
+                    "phrase": "seasoned full-stack software developer"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "user-friendly interface"
-                    ],
-                    "justification": "Designing a 'user-friendly interface' implies a focus on solving user experience problems and adopting a pragmatic approach to development."
+                    "category": "TASK4: Software Development",
+                    "justification": "Focuses on building the user interface for the application, a key aspect of software development.",
+                    "phrase": "Develop a mobile-first, user-friendly interface"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Describes a specific feature of the application that requires software implementation.",
+                    "phrase": "employing a two-factor authentication system"
                 }
-            ]
+            ],
+            "soft_skills": [
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "user-friendly interface"
+                },
+                {
+                    "category": "SKILL4: Ethical & Legal Responsibility",
+                    "phrase": "enhanced security"
+                }
+            ],
+            "technologies": []
         }
     }
 }

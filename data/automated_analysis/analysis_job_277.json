@@ -28,85 +28,58 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The role emphasizes the development and improvement of AI infrastructure, with a specific focus on Generative AI projects like the 'GenAI Suite' and a 'Klus Coach' assistant. This aligns with the core responsibilities of a GenAI Engineer in building and deploying applications based on generative models."
+            "rationale": "The job description emphasizes the development and deployment of generative AI applications like the 'GenAI Suite' and 'Klus Coach', along with building RAG systems (implied by 'generatieve AI-assistent voor klanten'). It also involves software development tasks to integrate these AI solutions and MLOps for managing the AI infrastructure. While data engineering is mentioned, the core focus leans towards building and maintaining generative AI solutions and the surrounding software systems."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK2: Data Engineering",
-                    "phrases": [
-                        "Data pipelines: Ontwerpen, bouwen en onderhouden van data pipelines op ons Snowflake platform, die onze Tableau-rapportages voeden via een semantische laag."
-                    ],
-                    "justification": "This phrase directly describes the design, building, and maintenance of data pipelines, which is the core of data engineering."
+                    "category": "TASK2",
+                    "justification": "The description explicitly mentions 'Data pipelines: Ontwerpen, bouwen en onderhouden van data pipelines op ons Snowflake platform'.",
+                    "phrase": "Data pipelines: Ontwerpen, bouwen en onderhouden van data pipelines op ons Snowflake platform"
                 },
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "Generatieve AI: Overdracht en doorontwikkeling van projecten zoals de GenAI Suite en de Klus Coach (een generatieve AI-assistent voor klanten)."
-                    ],
-                    "justification": "This explicitly mentions 'Generative AI' and the development of projects like a 'GenAI Suite' and a 'generative AI assistant', indicating work with generative models."
+                    "category": "TASK3",
+                    "justification": "The role involves 'Generatieve AI' and specifically mentions 'doorontwikkeling van projecten zoals de GenAI Suite en de Klus Coach (een generatieve AI-assistent voor klanten)', indicating work with generative models and AI assistants.",
+                    "phrase": "Generatieve AI: Overdracht en doorontwikkeling van projecten zoals de GenAI Suite en de Klus Coach (een generatieve AI-assistent voor klanten)"
                 },
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "Data Science ondersteuning: Beheer van Dataiku-projecten en ondersteuning van data science-initiatieven."
-                    ],
-                    "justification": "Managing Dataiku projects and supporting data science initiatives implies involvement in model development, training, or adaptation."
+                    "category": "TASK2",
+                    "justification": "The phrase 'Data Science ondersteuning: Beheer van Dataiku-projecten en ondersteuning van data science-initiatieven' implies tasks related to data preparation and management for data science projects.",
+                    "phrase": "Data Science ondersteuning: Beheer van Dataiku-projecten en ondersteuning van data science-initiatieven"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Linux serverbeheer: Verantwoordelijkheid voor het onderhouden van een Linux-omgeving die cruciaal is voor onze AI-infrastructuur."
-                    ],
-                    "justification": "Maintaining a Linux environment crucial for AI infrastructure points to operational aspects of managing the underlying systems for AI models."
+                    "category": "TASK5",
+                    "justification": "The responsibility for 'Linux serverbeheer: Verantwoordelijkheid voor het onderhouden van een Linux-omgeving die cruciaal is voor onze AI-infrastructuur' falls under operations and infrastructure management for AI systems.",
+                    "phrase": "Linux serverbeheer: Verantwoordelijkheid voor het onderhouden van een Linux-omgeving die cruciaal is voor onze AI-infrastructuur"
                 },
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "Je werkt nauw samen met ons data science team, de IT-afdeling en verschillende business units om schaalbare oplossingen te leveren."
-                    ],
-                    "justification": "This highlights collaboration with various departments (data science, IT, business units) to deliver solutions, indicating an understanding of business needs and alignment."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Snowflake",
-                    "category": "TECH9: Data Storage"
-                },
-                {
-                    "technology": "Tableau",
-                    "category": "TECH7: Data Visualization"
-                },
-                {
-                    "technology": "GenAI Suite",
-                    "category": "TECH3: LLM / Generative Models"
-                },
-                {
-                    "technology": "Klus Coach",
-                    "category": "TECH3: LLM / Generative Models"
-                },
-                {
-                    "technology": "Dataiku",
-                    "category": "TECH10: Data Modeling"
-                },
-                {
-                    "technology": "Linux",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK4",
+                    "justification": "The overall responsibility for developing, managing, and improving the data and AI infrastructure, and working with business units to deliver scalable solutions, implies software development to integrate and deploy AI capabilities.",
+                    "phrase": "ontwikkelen, beheren en verbeteren van onze data- en AI-infrastructuur"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Je werkt nauw samen met ons data science team, de IT-afdeling en verschillende business units om schaalbare oplossingen te leveren."
-                    ]
+                    "category": "SKILL1",
+                    "phrase": "Je werkt nauw samen met ons data science team, de IT-afdeling en verschillende business units"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "Als Data Engineer / AI Engineer ben je verantwoordelijk voor het ontwikkelen, beheren en verbeteren van onze data- en AI-infrastructuur."
-                    ]
+                    "category": "SKILL5",
+                    "phrase": "ontwikkelen, beheren en verbeteren van onze data- en AI-infrastructuur"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2",
+                    "phrase": "Snowflake"
+                },
+                {
+                    "category": "TECH7",
+                    "phrase": "Tableau"
+                },
+                {
+                    "category": "TECH4",
+                    "phrase": "Dataiku"
                 }
             ]
         }

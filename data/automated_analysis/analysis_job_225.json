@@ -28,89 +28,93 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes the development of GenAI-powered agents using specific tools like Vertex AI and frameworks for interacting with data. The core responsibilities align with building and deploying AI-driven solutions, which is characteristic of a GenAI Engineer."
+            "rationale": "The job description heavily emphasizes the design and development of GenAI-powered agents using specific generative AI tools like Vertex AI. It also mentions building solutions that interact with data sources, contributing to data pipelines for AI models, and writing code (Python/Java), aligning strongly with the core responsibilities and evidence profile of a GenAI Engineer. While there's mention of data pipelines and cloud engineering, the primary focus is on the application and development of generative AI agents."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "Design and develop GenAI-powered agents"
-                    ],
-                    "justification": "This phrase directly refers to the creation and development of AI models, specifically agents powered by Generative AI."
+                    "category": "TASK3",
+                    "justification": "The phrase 'Design and develop GenAI-powered agents using Vertex AI and other GCP tools' directly relates to creating and implementing models, which is the core of TASK3. Vertex AI is a platform for building and deploying ML models, including generative ones.",
+                    "phrase": "Design and develop GenAI-powered agents using Vertex AI and other GCP tools"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "build solutions that interact with structured internal data sources",
-                        "Write clean, efficient, and maintainable code (primarily in Python and/or Java)",
-                        "Participate in code reviews, debugging",
-                        "Document your work"
-                    ],
-                    "justification": "These phrases describe the process of building applications, writing code, ensuring code quality, and maintaining documentation, which are core software development activities."
+                    "category": "TASK4",
+                    "justification": "The phrase 'Collaborate with software engineers to build solutions that interact with structured internal data sources' points to the development of software applications that integrate AI capabilities with data, fitting TASK4.",
+                    "phrase": "Collaborate with software engineers to build solutions that interact with structured internal data sources"
                 },
                 {
-                    "task_category": "TASK2: Data Engineering",
-                    "phrases": [
-                        "Contribute to the development of data pipelines that prepare and process data for AI models"
-                    ],
-                    "justification": "This phrase explicitly mentions the development of data pipelines for preparing and processing data, which is a key aspect of data engineering."
+                    "category": "TASK2",
+                    "justification": "The phrase 'Contribute to the development of data pipelines that prepare and process data for AI models' directly describes the activities involved in data engineering, such as building and maintaining data flows for AI.",
+                    "phrase": "Contribute to the development of data pipelines that prepare and process data for AI models"
                 },
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "help create innovative, data-driven solutions",
-                        "work on real-world challenges"
-                    ],
-                    "justification": "These phrases indicate an understanding of the need to create solutions that address business needs and real-world problems."
+                    "category": "TASK4",
+                    "justification": "The phrase 'Write clean, efficient, and maintainable code (primarily in Python and/or Java)' refers to standard software development practices essential for building robust applications.",
+                    "phrase": "Write clean, efficient, and maintainable code (primarily in Python and/or Java)"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "using Vertex AI and other GCP tools"
-                    ],
-                    "justification": "Vertex AI and GCP tools are often used for deploying and managing AI models in production environments, aligning with MLOps practices."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Vertex AI",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK4",
+                    "justification": "The phrase 'Participate in code reviews, debugging, and knowledge-sharing sessions' are all standard practices within software development teams to ensure code quality and team alignment.",
+                    "phrase": "Participate in code reviews, debugging, and knowledge-sharing sessions"
                 },
                 {
-                    "technology": "GCP",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK4",
+                    "justification": "The phrase 'Document your work to ensure clarity and reproducibility across the team' is a crucial part of the software development lifecycle, ensuring maintainability and collaboration.",
+                    "phrase": "Document your work to ensure clarity and reproducibility across the team"
                 },
                 {
-                    "technology": "Python",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK1",
+                    "justification": "The phrase 'help create innovative, data-driven solutions' and the mention of clients across multiple industries indicate an understanding of business needs and how technology can address them.",
+                    "phrase": "help create innovative, data-driven solutions"
                 },
                 {
-                    "technology": "Java",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK5",
+                    "justification": "While not explicitly MLOps, the mention of 'cloud engineering' and 'Vertex AI and other GCP tools' implies working with cloud-based deployment and operational aspects of AI models.",
+                    "phrase": "cloud engineering"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "Collaborate with experienced engineers",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL1",
+                    "phrase": "Collaborate with experienced engineers"
                 },
                 {
-                    "skill": "knowledge-sharing sessions",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL1",
+                    "phrase": "knowledge-sharing sessions"
                 },
                 {
-                    "skill": "grow your skills",
-                    "category": "SKILL2: Learning & Adaptability"
+                    "category": "SKILL2",
+                    "phrase": "grow your skills"
                 },
                 {
-                    "skill": "innovative, data-driven solutions",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "SKILL3",
+                    "phrase": "work on real-world challenges"
                 },
                 {
-                    "skill": "work on real-world challenges",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL5",
+                    "phrase": "innovative"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "GenAI"
+                },
+                {
+                    "category": "TECH2",
+                    "phrase": "Vertex AI"
+                },
+                {
+                    "category": "TECH2",
+                    "phrase": "GCP"
+                },
+                {
+                    "category": "TECH1",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH1",
+                    "phrase": "Java"
                 }
             ]
         }

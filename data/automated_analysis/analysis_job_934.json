@@ -27,98 +27,113 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job title is 'Senior Data Engineer' and the description heavily emphasizes data engineering, architecture, and traditional software development practices. While 'cutting-edge AI (including Generative AI)' is mentioned, it appears as a tool or area of application rather than the core focus of building and deploying GenAI models themselves."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on data engineering, architecture, and business translation, with a mention of 'cutting-edge AI (including Generative AI)' but without specific tasks or technologies related to developing or fine-tuning generative models. The core responsibilities align more with traditional data engineering and solution architecture rather than specialized GenAI engineering."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        "Translate business needs and architectural concepts into detailed, actionable technical specifications",
-                        "translate high-level business challenges into detailed blueprints that deliver measurable outcomes",
-                        "transform business opportunities into state-of-the-art architectures and solutions",
-                        "ensuring every solution is tailored to the unique needs of each client"
-                    ],
-                    "justification": "These phrases indicate a need to understand business requirements and translate them into technical solutions and architectures."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Translate business needs and architectural concepts into detailed, actionable technical specifications' directly addresses understanding business requirements and translating them into technical plans.",
+                    "phrase": "Translate business needs and architectural concepts into detailed, actionable technical specifications"
                 },
                 {
-                    "task_name": "TASK2: Data Engineering",
-                    "phrases": [
-                        "Senior Data Engineer",
-                        "shaping data-driven solutions",
-                        "advanced analytics",
-                        "hybrid data engineers",
-                        "future-proof Data and AI solutions"
-                    ],
-                    "justification": "The job title and explicit mention of 'data-driven solutions', 'advanced analytics', and 'data engineers' directly point to data engineering responsibilities."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'By working closely with Solution Architects, you'll translate high-level business challenges into detailed blueprints that deliver measurable outcomes' indicates a need to understand business problems and map them to technical solutions.",
+                    "phrase": "translate high-level business challenges into detailed blueprints that deliver measurable outcomes"
                 },
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        "Lead the integration of diverse system components, guaranteeing seamless functionality",
-                        "Drive technical teams toward successful execution of architectural designs and project goals",
-                        "Elevate the quality, security, and scalability of architectural implementations through expert insights and meticulous planning",
-                        "Provide cutting-edge technical advice and input for complex requests",
-                        "cutting-edge AI (including Generative AI)"
-                    ],
-                    "justification": "These phrases relate to integrating systems, ensuring scalability and security, providing technical advice, and working with AI technologies, which fall under broader software development and architectural concerns."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH2: Cloud Platforms & Services",
-                    "phrases": [
-                        "cloud-native technologies"
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'transform business opportunities into state-of-the-art architectures and solutions' shows a focus on leveraging business opportunities through technical solutions.",
+                    "phrase": "transform business opportunities into state-of-the-art architectures and solutions"
                 },
                 {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "phrases": [
-                        "Generative AI"
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The job title 'Senior Data Engineer' and phrases like 'shaping data-driven solutions' and 'future-proof Data and AI solutions' indicate a strong focus on data engineering principles and implementation.",
+                    "phrase": "Senior Data Engineer"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Your work will span industries such as retail, banking, and healthcare, ensuring every solution is tailored to the unique needs of each client' implies data handling and solution design specific to client needs, which is part of data engineering.",
+                    "phrase": "tailored to the unique needs of each client"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'lead the design, development, and implementation of future-proof Data and AI solutions' directly points to the core activities of data engineering and solution building.",
+                    "phrase": "lead the design, development, and implementation of future-proof Data and AI solutions"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Lead the integration of diverse system components, guaranteeing seamless functionality' involves connecting different software parts, a key aspect of software development and integration.",
+                    "phrase": "Lead the integration of diverse system components, guaranteeing seamless functionality"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Elevate the quality, security, and scalability of architectural implementations' involves ensuring the robustness and performance of implemented solutions, which is a software development concern.",
+                    "phrase": "Elevate the quality, security, and scalability of architectural implementations"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Provide cutting-edge technical advice and input for complex requests' suggests involvement in the technical design and problem-solving aspects of software solutions.",
+                    "phrase": "Provide cutting-edge technical advice and input for complex requests"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'driving innovation and helping businesses become resilient, data-driven powerhouses' implies a need for robust, operational systems that can support business functions reliably.",
+                    "phrase": "helping businesses become resilient, data-driven powerhouses"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'driving innovation' in the context of data and AI solutions suggests a need for operationalizing these innovations effectively.",
+                    "phrase": "driving innovation"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Manage relationships with key stakeholders, ensuring alignment and clear communication throughout project lifecycles",
-                        "working closely with Solution Architects",
-                        "In collaboration with the Advanced Analytics and Big Data team"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Manage relationships with key stakeholders, ensuring alignment and clear communication"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "fostering their growth and building a culture of continuous learning",
-                        "open-source tools",
-                        "cutting-edge AI"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "working closely with Solution Architects"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Translate business needs and architectural concepts into detailed, actionable technical specifications",
-                        "Conduct rigorous technical reviews to ensure compliance with architectural standards and best practices",
-                        "Drive technical teams toward successful execution of architectural designs and project goals",
-                        "Elevate the quality, security, and scalability of architectural implementations through expert insights and meticulous planning",
-                        "Provide cutting-edge technical advice and input for complex requests",
-                        "transform business opportunities into state-of-the-art architectures and solutions",
-                        "tackle complex analytical challenges",
-                        "lead the design, development, and implementation of future-proof Data and AI solutions"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "In collaboration with the Advanced Analytics and Big Data team"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "Drive technical teams toward successful execution of architectural designs and project goals",
-                        "Elevate the quality, security, and scalability of architectural implementations through expert insights and meticulous planning",
-                        "Provide cutting-edge technical advice and input for complex requests",
-                        "driving innovation",
-                        "lead the design, development, and implementation of future-proof Data and AI solutions"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "fostering their growth and building a culture of continuous learning"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "translate high-level business challenges into detailed blueprints that deliver measurable outcomes"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "tackle complex analytical challenges"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "driving innovation"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "lead the design, development, and implementation"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "cloud-native technologies"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "Generative AI"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "open-source tools"
                 }
             ]
         }

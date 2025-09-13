@@ -27,76 +27,62 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job title is 'Data Engineer' and the core responsibilities heavily emphasize ETL processes and data pipelines within a Microsoft Azure environment. While GenAI is mentioned as a technology to be aware of, it is not a primary focus of the role's core tasks or required skills."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on ETL processes, data pipelines, and data engineering within a Microsoft Azure environment, with mentions of Python and SQL. While it briefly touches upon GenAI and translating technological developments into applications, the core responsibilities and emphasis are on traditional data engineering tasks rather than the development, fine-tuning, or deployment of generative AI models. The role appears to be more about data infrastructure and information provision for the organization, aligning with a data engineering profile that is not primarily focused on AI model development."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "Data engineer",
-                        "verantwoordelijk voor de ETL-processen",
-                        "beschikking heeft over actuele informatie",
-                        "focus jij je op onze Lakehouse constructie in de Microsoft Azure omgeving en zorgt voor de doorontwikkeling ervan"
-                    ],
-                    "justification": "These phrases directly relate to the design, building, and maintenance of data pipelines and infrastructure, including ETL processes and data lakehouse development."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The description explicitly states the role is responsible for ETL processes and mentions working with a Lakehouse construction in Azure, which are core data engineering activities.",
+                    "phrase": "verantwoordelijk voor de ETL-processen"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "Python en SQL zijn bekende termen voor jou",
-                        "toepassen van CI/CD methodologieën"
-                    ],
-                    "justification": "While Python and SQL are programming languages, their mention in the context of CI/CD and data engineering suggests their use in building and deploying data pipelines and infrastructure, aligning with software development practices for data systems."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The role involves managing and developing the Lakehouse architecture in Azure, a key data engineering responsibility.",
+                    "phrase": "focus jij je op onze Lakehouse constructie in de Microsoft Azure omgeving en zorgt voor de doorontwikkeling ervan"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "toepassen van CI/CD methodologieën"
-                    ],
-                    "justification": "CI/CD (Continuous Integration/Continuous Deployment) is a core practice within MLOps for automating the deployment and management of systems, including data pipelines."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH2: Cloud Platforms & Services",
-                    "value": "Microsoft Azure"
+                    "category": "TASK4: Software Development",
+                    "justification": "The mention of translating technological developments into usable applications for end-users suggests a software development component, though not the primary focus.",
+                    "phrase": "vertalen naar bruikbare toepassingen voor onze (eind)gebruikers"
                 },
                 {
-                    "tech_name": "TECH1: Programming Languages",
-                    "value": "Python"
-                },
-                {
-                    "tech_name": "TECH11: Data Analysis",
-                    "value": "SQL"
-                },
-                {
-                    "tech_name": "TECH6: MLOps & Data Pipelines",
-                    "value": "ETL"
-                },
-                {
-                    "tech_name": "TECH6: MLOps & Data Pipelines",
-                    "value": "CI/CD"
-                },
-                {
-                    "tech_name": "TECH9: Data Storage",
-                    "value": "Lakehouse"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of CI/CD methodologies indicates a focus on operational aspects of software and data pipelines.",
+                    "phrase": "toepassen van CI/CD methodologieën"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "op de hoogte van de laatste technologische ontwikkelingen, zoals op het gebied van GenAI en bent in staat deze te vertalen naar bruikbare toepassingen"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Je bent op de hoogte van de laatste technologische ontwikkelingen, zoals op het gebied van GenAI"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "vertalen naar bruikbare toepassingen voor onze (eind)gebruikers"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "vertalen naar bruikbare toepassingen voor onze (eind)gebruikers"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Microsoft Azure"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH11: Data Analysis",
+                    "phrase": "SQL"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "CI/CD"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "GenAI"
                 }
             ]
         }

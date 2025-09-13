@@ -28,171 +28,89 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The role heavily emphasizes building and maintaining data infrastructure, data pipelines, and processing multimodal data for AI models. While it involves collaboration with ML engineers, the core focus is on the data engineering aspects supporting ML, rather than the development or fine-tuning of generative models themselves."
+            "rationale": "The job description heavily emphasizes data engineering tasks such as designing, building, and maintaining data pipelines and infrastructure, data ingestion, transformation, and processing using tools like Apache Spark and Python. It also mentions supporting machine learning pipelines, data lake architecture, and working with data scientists and ML engineers. While it mentions cloud platforms and Kubernetes, the core focus remains on data infrastructure and supporting ML models, aligning more closely with the 'ML Engineer' profile's emphasis on data engineering and productionizing models, rather than the 'GenAI Engineer' profile's focus on generative models and user-facing applications."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        {
-                            "phrase": "design, develop, and maintain a robust data infrastructure for their oncology-focused AI platform",
-                            "justification": "Directly describes the creation and upkeep of data systems."
-                        },
-                        {
-                            "phrase": "architecting and scaling a high-performance data platform that supports multimodal data processing, data lake architecture, and machine learning pipelines",
-                            "justification": "Details the design and scaling of data infrastructure for AI model support."
-                        },
-                        {
-                            "phrase": "Architect, build, and maintain scalable data pipelines and infrastructure that support multimodal data for oncology AI models.",
-                            "justification": "Explicitly mentions building and maintaining data pipelines and infrastructure."
-                        },
-                        {
-                            "phrase": "Develop and optimize data workflows for ingesting, transforming, and processing diverse oncology-related data (e.g., medical imaging, genomics, clinical data) using Apache Spark and Python.",
-                            "justification": "Describes the creation and optimization of processes for handling data."
-                        },
-                        {
-                            "phrase": "Design and manage data storage, processing, and orchestration on Azure, ensuring reliability, security, and scalability.",
-                            "justification": "Covers the design and management of data infrastructure components."
-                        },
-                        {
-                            "phrase": "Monitor and fine-tune the data pipelines to improve efficiency, reduce latency, and optimize resource usage.",
-                            "justification": "Focuses on optimizing and maintaining the performance of data pipelines."
-                        },
-                        {
-                            "phrase": "Document data pipeline architecture, transformations, and ensure adherence to industry standards and compliance requirements in healthcare data handling (e.g., HIPAA, GDPR).",
-                            "justification": "Involves documenting data infrastructure and ensuring compliance."
-                        }
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The job description explicitly states 'design, develop, and maintain a robust data infrastructure', 'architecting and scaling a high-performance data platform that supports multimodal data processing, data lake architecture, and machine learning pipelines', 'Architect, build, and maintain scalable data pipelines and infrastructure', and 'Develop and optimize data workflows for ingesting, transforming, and processing diverse oncology-related data'.",
+                    "phrase": "design, develop, and maintain a robust data infrastructure"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "Utilize Terraform to automate infrastructure provisioning and deployment, ensuring repeatability and reducing manual configurations.",
-                            "justification": "Involves using infrastructure as code tools for deployment, a software development practice applied to infrastructure."
-                        },
-                        {
-                            "phrase": "Implement and manage Kubernetes clusters for deploying and managing data workflows and model training pipelines.",
-                            "justification": "Relates to the deployment and management of systems, often considered part of software engineering practices in an operational context."
-                        }
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The description details the need to 'ingest, transform, and process diverse oncology-related data (e.g., medical imaging, genomics, clinical data) using Apache Spark and Python'.",
+                    "phrase": "ingesting, transforming, and processing diverse oncology-related data"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        {
-                            "phrase": "Implement and manage Kubernetes clusters for deploying and managing data workflows and model training pipelines.",
-                            "justification": "Directly relates to deploying and managing pipelines in a production environment."
-                        },
-                        {
-                            "phrase": "Monitor and fine-tune the data pipelines to improve efficiency, reduce latency, and optimize resource usage.",
-                            "justification": "Involves operational aspects of maintaining and optimizing deployed systems."
-                        }
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The role involves 'Design and manage data storage, processing, and orchestration on Azure, ensuring reliability, security, and scalability.'",
+                    "phrase": "Design and manage data storage, processing, and orchestration"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "Work closely with data scientists, ML engineers, and product teams to understand data requirements and provide end-to-end support on data ingestion, transformation, and accessibility.",
-                            "justification": "Highlights the need to understand requirements from other teams and align data solutions with their needs."
-                        },
-                        {
-                            "phrase": "ensure adherence to industry standards and compliance requirements in healthcare data handling (e.g., HIPAA, GDPR).",
-                            "justification": "Indicates an understanding of regulatory and business constraints in the healthcare domain."
-                        }
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The use of 'Terraform to automate infrastructure provisioning and deployment' and 'Kubernetes clusters for deploying and managing data workflows and model training pipelines' falls under operations and infrastructure management for ML/data pipelines.",
+                    "phrase": "Utilize Terraform to automate infrastructure provisioning and deployment"
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        {
-                            "phrase": "machine learning pipelines",
-                            "justification": "Mentions the context for which the data infrastructure is being built, implying support for ML model development."
-                        },
-                        {
-                            "phrase": "model training pipelines",
-                            "justification": "Indicates the data infrastructure will support the training phase of ML models."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH1: Programming Languages",
-                    "values": [
-                        "Python"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of 'Implement and manage Kubernetes clusters for deploying and managing data workflows and model training pipelines' is a clear indicator of MLOps practices.",
+                    "phrase": "Implement and manage Kubernetes clusters for deploying and managing data workflows and model training pipelines"
                 },
                 {
-                    "tech_name": "TECH2: Cloud Platforms & Services",
-                    "values": [
-                        "Azure"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "While the primary focus is data infrastructure, the role involves working with 'data scientists, ML engineers, and product teams to understand data requirements and provide end-to-end support on data ingestion, transformation, and accessibility', which implies building and integrating data solutions within a larger software ecosystem.",
+                    "phrase": "Work closely with data scientists, ML engineers, and product teams to understand data requirements and provide end-to-end support on data ingestion, transformation, and accessibility"
                 },
                 {
-                    "tech_name": "TECH6: MLOps & Data Pipelines",
-                    "values": [
-                        "Apache Spark",
-                        "Terraform",
-                        "Kubernetes"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The task 'Monitor and fine-tune the data pipelines to improve efficiency, reduce latency, and optimize resource usage' is a core aspect of MLOps and pipeline optimization.",
+                    "phrase": "Monitor and fine-tune the data pipelines to improve efficiency, reduce latency, and optimize resource usage"
                 },
                 {
-                    "tech_name": "TECH10: Data Modeling",
-                    "values": []
-                },
-                {
-                    "tech_name": "TECH11: Data Analysis",
-                    "values": []
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The requirement to 'Document data pipeline architecture, transformations, and ensure adherence to industry standards and compliance requirements in healthcare data handling (e.g., HIPAA, GDPR)' relates to the design and maintenance of data systems.",
+                    "phrase": "Document data pipeline architecture, transformations, and ensure adherence to industry standards and compliance requirements in healthcare data handling"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        {
-                            "phrase": "Work closely with data scientists, ML engineers, and product teams to understand data requirements and provide end-to-end support on data ingestion, transformation, and accessibility.",
-                            "justification": "Highlights collaboration with various technical and product teams."
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Work closely with data scientists, ML engineers, and product teams"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        {
-                            "phrase": "optimize resource usage",
-                            "justification": "Implies a focus on efficiency and practical solutions."
-                        },
-                        {
-                            "phrase": "ensure reliability, security, and scalability",
-                            "justification": "Demonstrates a pragmatic approach to building robust systems."
-                        }
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Monitor and fine-tune the data pipelines to improve efficiency, reduce latency, and optimize resource usage"
                 },
                 {
-                    "skill_name": "SKILL4: Ethical & Legal Responsibility",
-                    "phrases": [
-                        {
-                            "phrase": "ensure adherence to industry standards and compliance requirements in healthcare data handling (e.g., HIPAA, GDPR).",
-                            "justification": "Directly addresses responsibility for compliance and standards in sensitive data handling."
-                        }
-                    ]
+                    "category": "SKILL4: Ethical & Legal Responsibility",
+                    "phrase": "ensure adherence to industry standards and compliance requirements in healthcare data handling (e.g., HIPAA, GDPR)"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        {
-                            "phrase": "design, develop, and maintain a robust data infrastructure",
-                            "justification": "Suggests taking ownership of the data infrastructure lifecycle."
-                        },
-                        {
-                            "phrase": "architecting and scaling a high-performance data platform",
-                            "justification": "Indicates a proactive and forward-thinking approach to system design."
-                        }
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "design, develop, and maintain a robust data infrastructure"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Apache Spark"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Terraform"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Kubernetes"
                 }
             ]
         }

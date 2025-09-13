@@ -26,125 +26,176 @@
         "full_text": "Senior Machine Learning Engineer\n\nBefore diving into your IDE or notebook to start hacking, you will fully immerse yourself in the context of the business in order to come up with the best solution to the challenge. Important aspects of your job on a day-to-day basis will be to:\n     * Work on prediction models, which are used in KLM live customer interactions 24/7. These models help our customers getting the right product and service for them.\n     * Meet with stakeholders and subject matter experts to gain a better understanding of the underlying business problem and the requirements;\n     * Perform exploratory data analysis to assess data quality and gain important insights;\n     * Research and choose an appropriate set of potential models and loss functions that align with the problem and discuss validation strategies with your fellow data scientists;\n     * Perform feature engineering, be creative and combine new sources with the traditional data warehouses or our vast data lakes to increase model performance;\n     * Execute experiments while logging your model's metrics, parameters and metadata to a model registry for easy sharing and reproducibility;\n     * Put your model into production, and work together with engineers inside and outside of the team to ensure company-wide production standards are met;\n     * Maintain and/or improve your model through monitoring, re-training, adding new features etc.;\n     * Guide our upcoming transition to the cloud: Identify requirements and improvements, communicate them to relevant parties;\n     * Determine how Data Science requirements translate to architectural components and way of working;\n     * Share your greatest lessons at one of the community events\n     * Have fun and enjoy while you are doing it!\n\n   You are also encouraged and expected to spend 15-20% of your time with us learning new things, doing research and developing yourself. You can do this by follouowing crses, reading papers or doing cool hack projects with your colleagues. The projects you do in your 15-20% developing time must be related to your role, but do not have to be related to the projects you normally work on.\n\n   Do you have what it takes to take KLM's data-driven decision-making to a higher level?\n\n   Waar land je?\n\n   You will be working in a hybrid way, partially from home and partially from the office at the headquarters of KLM in Amstelveen. We have flexible working hours and office days; hence we will find something that suits you. You will be working in a hybrid way, partially from home and partially from the office at the headquarters of KLM in Amstelveen. We have flexible working hours and office days; hence we will find something that suits you. You will be hired by the Data, OR & AI department, which will place you into one of the Data Science product teams in KLM (i.e. a matrix organization). The OR department currently comprises about 40 Data Science professionals in product teams across KLM, sharing knowledge, training and (social) events. Across all expertise, we are growing and in search of new talent so we can scale the AI capabilities at KLM.\n\n   The Finance Data Analytics (FDA) team currently consists of multiple Data Scientists, who work closely with our contacts in the business. The FDA team is part of a larger value chain embedded in their part of the organization, meaning you will also work closely together with other data teams that are specialized in areas like Data Engineering and Data Governance. The core focus of the FDA team is improving decision making in financial processes around KLM. They answer questions like, We are looking to fill a Sr. ML Engineer role in the Finance domain.\n     * How can we best manage the risk of having cash in foreign currencies?\n     * How can we help the contracting team to extract rates from contracts?\n     * How can we find invoices with incorrectly registered VAT?\n     * Can we use GenAI models to prevent revenue leakage during our invoicing process?\n\n   The answers to these questions directly influence the operations of KLM, which means plenty of opportunities to work on projects that truly save costs, increase customer satisfaction and revenue., For the FDA team specifically, it's critical as a Senior ML Engineer to:\n     * Put ML use cases into production, adopting a practical and pragmatic mindset.\n     * Be a reliable partner for the business: ensuring robust, tested code, quality control, as well as maintaining existing solutions.\n     * Coach junior/medior data scientists & ML Engineers: set the right example and help them grow into the best version of themselves.\n     * Provide technical leadership."
     },
     "analysis": {
-        "job_profile_classification": {
+        "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes building and deploying predictive models for customer interactions and financial processes. While GenAI is mentioned as a potential tool, the core focus remains on traditional ML tasks like feature engineering, model training, evaluation, and productionization, aligning with the 'ML Engineer' profile."
+            "rationale": "The job description heavily emphasizes the development, productionization, and maintenance of predictive models. While Generative AI is mentioned in the context of specific financial use cases (e.g., preventing revenue leakage), the core responsibilities and required skills align more closely with traditional ML Engineering, focusing on data engineering, feature engineering, model training, evaluation, and MLOps for predictive systems. The role involves building and maintaining production-grade systems for predictive modeling, which is a hallmark of an ML Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
                     "category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "fully immerse yourself in the context of the business in order to come up with the best solution to the challenge",
-                        "Meet with stakeholders and subject matter experts to gain a better understanding of the underlying business problem and the requirements",
-                        "Determine how Data Science requirements translate to architectural components and way of working",
-                        "The core focus of the FDA team is improving decision making in financial processes around KLM",
-                        "We are looking to fill a Sr. ML Engineer role in the Finance domain",
-                        "How can we best manage the risk of having cash in foreign currencies?",
-                        "How can we help the contracting team to extract rates from contracts?",
-                        "How can we find invoices with incorrectly registered VAT?",
-                        "Can we use GenAI models to prevent revenue leakage during our invoicing process?",
-                        "The answers to these questions directly influence the operations of KLM, which means plenty of opportunities to work on projects that truly save costs, increase customer satisfaction and revenue.",
-                        "Be a reliable partner for the business: ensuring robust, tested code, quality control, as well as maintaining existing solutions."
-                    ],
-                    "justification": "These phrases highlight the need to understand business needs, interact with stakeholders, and align technical solutions with business goals and financial processes."
+                    "justification": "The description states 'fully immerse yourself in the context of the business in order to come up with the best solution to the challenge' and 'Meet with stakeholders and subject matter experts to gain a better understanding of the underlying business problem and the requirements'. It also mentions translating 'Data Science requirements translate to architectural components and way of working' and focusing on 'improving decision making in financial processes'.",
+                    "phrase": "fully immerse yourself in the context of the business"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The description states 'Meet with stakeholders and subject matter experts to gain a better understanding of the underlying business problem and the requirements'.",
+                    "phrase": "Meet with stakeholders and subject matter experts to gain a better understanding of the underlying business problem and the requirements"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The description mentions 'Determine how Data Science requirements translate to architectural components and way of working'.",
+                    "phrase": "Determine how Data Science requirements translate to architectural components and way of working"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The description mentions the team's core focus is 'improving decision making in financial processes around KLM'.",
+                    "phrase": "improving decision making in financial processes"
                 },
                 {
                     "category": "TASK2: Data Engineering",
-                    "phrases": [
-                        "Perform exploratory data analysis to assess data quality and gain important insights",
-                        "Perform feature engineering, be creative and combine new sources with the traditional data warehouses or our vast data lakes to increase model performance"
-                    ],
-                    "justification": "These phrases describe activities related to data exploration, cleaning, and transformation (feature engineering) to prepare data for modeling."
+                    "justification": "The description mentions 'Perform feature engineering, be creative and combine new sources with the traditional data warehouses or our vast data lakes to increase model performance'.",
+                    "phrase": "Perform feature engineering, be creative and combine new sources with the traditional data warehouses or our vast data lakes"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The description states 'Perform exploratory data analysis to assess data quality and gain important insights'.",
+                    "phrase": "Perform exploratory data analysis to assess data quality and gain important insights"
                 },
                 {
                     "category": "TASK3: Modeling",
-                    "phrases": [
-                        "Work on prediction models, which are used in KLM live customer interactions 24/7.",
-                        "Research and choose an appropriate set of potential models and loss functions that align with the problem and discuss validation strategies with your fellow data scientists",
-                        "Put ML use cases into production",
-                        "Can we use GenAI models to prevent revenue leakage during our invoicing process?"
-                    ],
-                    "justification": "This category covers the core activities of developing, selecting, and implementing predictive and generative models for specific business problems."
+                    "justification": "The description states 'Work on prediction models, which are used in KLM live customer interactions 24/7.'",
+                    "phrase": "Work on prediction models"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The description mentions 'Research and choose an appropriate set of potential models and loss functions that align with the problem and discuss validation strategies with your fellow data scientists'.",
+                    "phrase": "Research and choose an appropriate set of potential models and loss functions"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The description mentions 'Can we use GenAI models to prevent revenue leakage during our invoicing process?' indicating the use of generative models for specific tasks.",
+                    "phrase": "Can we use GenAI models to prevent revenue leakage"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The description states 'Execute experiments while logging your model's metrics, parameters and metadata to a model registry for easy sharing and reproducibility'.",
+                    "phrase": "logging your model's metrics, parameters and metadata to a model registry"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The description mentions 'Maintain and/or improve your model through monitoring, re-training, adding new features etc.'.",
+                    "phrase": "re-training, adding new features"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "phrases": [
-                        "Put your model into production, and work together with engineers inside and outside of the team to ensure company-wide production standards are met",
-                        "Be a reliable partner for the business: ensuring robust, tested code, quality control, as well as maintaining existing solutions."
-                    ],
-                    "justification": "These phrases indicate the need to integrate models into production systems and ensure the code quality and robustness of deployed solutions."
+                    "justification": "The description states 'Put your model into production, and work together with engineers inside and outside of the team to ensure company-wide production standards are met'.",
+                    "phrase": "Put your model into production"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions 'Be a reliable partner for the business: ensuring robust, tested code, quality control, as well as maintaining existing solutions.'",
+                    "phrase": "ensuring robust, tested code, quality control, as well as maintaining existing solutions"
                 },
                 {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Execute experiments while logging your model's metrics, parameters and metadata to a model registry for easy sharing and reproducibility",
-                        "Put your model into production, and work together with engineers inside and outside of the team to ensure company-wide production standards are met",
-                        "Maintain and/or improve your model through monitoring, re-training, adding new features etc.",
-                        "Guide our upcoming transition to the cloud: Identify requirements and improvements, communicate them to relevant parties",
-                        "Put ML use cases into production, adopting a practical and pragmatic mindset.",
-                        "ensuring robust, tested code, quality control, as well as maintaining existing solutions."
-                    ],
-                    "justification": "These phrases cover the lifecycle management of models in production, including logging, deployment, monitoring, re-training, and cloud transition."
-                }
-            ],
-            "technologies": [
-                {
-                    "category": "TECH3: LLM / Generative Models",
-                    "technologies": [
-                        "GenAI models"
-                    ]
+                    "justification": "The description states 'Put your model into production, and work together with engineers inside and outside of the team to ensure company-wide production standards are met'.",
+                    "phrase": "ensure company-wide production standards are met"
                 },
                 {
-                    "category": "TECH10: Data Modeling",
-                    "technologies": [
-                        "prediction models"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The description mentions 'Maintain and/or improve your model through monitoring, re-training, adding new features etc.'.",
+                    "phrase": "monitoring, re-training"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The description mentions 'Guide our upcoming transition to the cloud: Identify requirements and improvements, communicate them to relevant parties'.",
+                    "phrase": "Guide our upcoming transition to the cloud"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The description states 'Put ML use cases into production, adopting a practical and pragmatic mindset.'",
+                    "phrase": "Put ML use cases into production"
                 }
             ],
             "soft_skills": [
                 {
                     "category": "SKILL1: Communication & Collaboration",
-                    "skills": [
-                        "Meet with stakeholders and subject matter experts",
-                        "discuss validation strategies with your fellow data scientists",
-                        "work together with engineers inside and outside of the team",
-                        "communicate them to relevant parties",
-                        "work closely with our contacts in the business",
-                        "work closely together with other data teams",
-                        "Coach junior/medior data scientists & ML Engineers",
-                        "Provide technical leadership"
-                    ]
+                    "phrase": "Meet with stakeholders and subject matter experts"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "discuss validation strategies with your fellow data scientists"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "work together with engineers inside and outside of the team"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "work closely with our contacts in the business"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "work closely together with other data teams"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Coach junior/medior data scientists & ML Engineers"
                 },
                 {
                     "category": "SKILL2: Learning & Adaptability",
-                    "skills": [
-                        "spending 15-20% of your time with us learning new things, doing research and developing yourself",
-                        "follouwing crses, reading papers or doing cool hack projects with your colleagues",
-                        "transition to the cloud"
-                    ]
+                    "phrase": "spend 15-20% of your time with us learning new things, doing research and developing yourself"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "follouwing crses, reading papers or doing cool hack projects"
                 },
                 {
                     "category": "SKILL3: Problem Solving & Pragmatism",
-                    "skills": [
-                        "come up with the best solution to the challenge",
-                        "gain important insights",
-                        "increase model performance",
-                        "Put your model into production, and work together with engineers inside and outside of the team to ensure company-wide production standards are met",
-                        "Maintain and/or improve your model through monitoring, re-training, adding new features etc.",
-                        "Put ML use cases into production, adopting a practical and pragmatic mindset.",
-                        "ensuring robust, tested code, quality control, as well as maintaining existing solutions."
-                    ]
+                    "phrase": "come up with the best solution to the challenge"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "gain a better understanding of the underlying business problem"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "gain important insights"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "be creative and combine new sources"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Put ML use cases into production, adopting a practical and pragmatic mindset"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Be a reliable partner for the business"
                 },
                 {
                     "category": "SKILL5: Innovation & Ownership",
-                    "skills": [
-                        "be creative and combine new sources with the traditional data warehouses or our vast data lakes to increase model performance",
-                        "Share your greatest lessons at one of the community events",
-                        "doing cool hack projects with your colleagues",
-                        "take KLM's data-driven decision-making to a higher level"
-                    ]
+                    "phrase": "Provide technical leadership"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "GenAI models"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "prediction models"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "model registry"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "transition to the cloud"
                 }
             ]
         }

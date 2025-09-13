@@ -27,114 +27,141 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional mobile application development (iOS, Swift) and integrating with APIs. While it mentions 'generative AI' and 'AI' in the context of revolutionizing education and freeing engineers from routine tasks, it lacks specific details about building, fine-tuning, or deploying AI models. The core responsibilities are centered around UI implementation, API integration, and general software development, not AI-specific engineering."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on mobile application development (iOS, Swift) and integrating AI features into an existing app. While it mentions 'generative AI' and 'harnessing its power to free our engineers from routine tasks,' it does not detail core Generative AI engineering tasks such as fine-tuning LLMs, building RAG systems, or advanced prompt engineering. The primary focus remains on traditional mobile development and using AI as a feature, rather than building AI systems themselves. Therefore, it does not align with the core responsibilities of an ML Engineer or a GenAI Engineer as defined in the coding book."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "transforming UI designs into functional app features",
-                        "fixing bugs",
-                        "collaborating closely with our product and backend teams to deliver a seamless, engaging user experience",
-                        "Taking high-fidelity UI designs and transforming them into interactive and efficient mobile app features",
-                        "Integrating screens with our modern APIs, ensuring data consistency and responsiveness",
-                        "Collaborating with cross-functional teams to translate complex educational concepts into elegant technical solutions",
-                        "Delivering high-quality apps that serve as the primary interface for students in our online learning environment",
-                        "Continuously improving and optimizing our codebase to meet evolving educational and technological needs"
-                    ],
-                    "justification": "These phrases describe the core activities of building, integrating, and maintaining software applications, which falls under traditional software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description repeatedly emphasizes transforming UI designs into functional app features, integrating screens with APIs, writing robust, efficient, and maintainable code, and delivering high-quality apps that serve as the primary interface for students. This aligns with traditional software development responsibilities.",
+                    "phrase": "transforming UI designs into functional app features"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "revolutionizing education by integrating AI, gamification, and adaptive learning into our products",
-                        "creating a TikTok-like learning experience that's both fun and educational",
-                        "shape the future of education",
-                        "translate complex educational concepts into elegant technical solutions"
-                    ],
-                    "justification": "These phrases indicate an understanding of the educational domain and the business goals of creating engaging learning products."
+                    "category": "TASK4: Software Development",
+                    "justification": "Integrating screens with APIs is a core task in mobile application development, ensuring data flow and responsiveness.",
+                    "phrase": "Integrating screens with our modern APIs"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "harnessing its power to free our engineers from routine tasks, enabling you to focus on impactful, strategic work"
-                    ],
-                    "justification": "While not explicitly MLOps, this phrase hints at automating or optimizing tasks, which can be related to operational efficiency, though it's very vague."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves collaborating with cross-functional teams to translate complex educational concepts into technical solutions, indicating an understanding of the business domain and its translation into technology.",
+                    "phrase": "Collaborating with cross-functional teams to translate complex educational concepts into elegant technical solutions"
                 },
                 {
-                    "task_name": "Innovation & Ownership",
-                    "phrases": [
-                        "significant ownership over the product, directly influencing its architecture, design, and functionality",
-                        "technical innovation is not just encouraged but required",
-                        "Continuously improving and optimizing our codebase to meet evolving educational and technological needs"
-                    ],
-                    "justification": "These phrases highlight a proactive approach, taking responsibility for the product's direction and driving improvements."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description highlights the importance of writing code that considers scalability, maintainability, and performance, which are key aspects of software development.",
+                    "phrase": "writing code that meets the most rigorous engineering standards"
                 },
                 {
-                    "task_name": "Learning & Adaptability",
-                    "phrases": [
-                        "growing your skills in a fast-paced environment",
-                        "continuously improving and optimizing our codebase to meet evolving educational and technological needs"
-                    ],
-                    "justification": "These phrases indicate a need to adapt to new technologies and continuously learn in a dynamic field."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH1: Programming Languages",
-                    "values": [
-                        "Swift"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "Continuously improving and optimizing the codebase is a standard software development practice.",
+                    "phrase": "Continuously improving and optimizing our codebase"
                 },
                 {
-                    "tech_name": "TECH2: Cloud Platforms & Services",
-                    "values": [
-                        "AI"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of 'harnessing its power to free our engineers from routine tasks' suggests an indirect involvement in leveraging AI for efficiency, which can touch upon operational aspects, though not explicitly MLOps.",
+                    "phrase": "harnessing its power to free our engineers from routine tasks"
                 },
                 {
-                    "tech_name": "TECH4: LLM Frameworks & Libraries",
-                    "values": [
-                        "generative AI"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'explore the potential of generative AI' and 'play a key role in harnessing its power' suggests involvement in the operationalization or integration of AI, even if not deeply technical.",
+                    "phrase": "play a key role in harnessing its power"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "significant ownership over the product, directly influencing its architecture, design, and functionality",
-                        "technical innovation is not just encouraged but required",
-                        "Continuously improving and optimizing our codebase to meet evolving educational and technological needs"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "significant ownership over the product"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "growing your skills in a fast-paced environment",
-                        "continuously improving and optimizing our codebase to meet evolving educational and technological needs"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "directly influencing its architecture, design, and functionality"
                 },
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "collaborating closely with our product and backend teams",
-                        "Collaborating with cross-functional teams"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "growing your skills in a fast-paced environment"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "transforming UI designs into functional app features",
-                        "fixing bugs",
-                        "delivering a seamless, engaging user experience",
-                        "Writing code that merely 'works' without considering scalability, maintainability, and performance",
-                        "Delivering high-quality apps that serve as the primary interface for students in our online learning environment",
-                        "Continuously improving and optimizing our codebase to meet evolving educational and technological needs"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "collaborating closely with our product and backend teams"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "transforming UI designs into functional app features"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "fixing bugs"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "technical innovation is not just encouraged but required"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "delivering solutions at the highest level of quality"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "creating robust, efficient, and maintainable code"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborating with cross-functional teams"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "significant ownership over the product"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "directly influencing its architecture, design, and functionality"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "growing your skills in a fast-paced environment"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "collaborating closely with our product and backend teams"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "transforming UI designs into functional app features"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "fixing bugs"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "technical innovation is not just encouraged but required"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "delivering solutions at the highest level of quality"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "creating robust, efficient, and maintainable code"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborating with cross-functional teams"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Swift"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "iOS"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "generative AI"
                 }
             ]
         }

@@ -28,134 +28,114 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The role emphasizes building software for automating biological experiments, data analysis, and integrating with lab equipment and ML Ops. While generative AI is mentioned, the core focus is on data engineering, modeling for biological data, and software development for lab automation, aligning more closely with an ML Engineer's responsibilities in a specialized domain."
+            "rationale": "The job description emphasizes building software for automating lab processes, data structuring, and accessibility, with a strong focus on data models, experimental protocols, and analysis of biological data. While generative AI is mentioned, the core responsibilities revolve around data engineering, software development for lab automation, and integrating with ML Ops, aligning more closely with the 'ML Engineer' profile's emphasis on data-driven systems and productionizing models within a scientific context."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        "from business idea",
-                        "applications in the areas of food & beverages, home & personal care, animal feed, paper & textile processing, and more",
-                        "large impact on the value of our products"
-                    ],
-                    "justification": "These phrases indicate an understanding of the business context, the application domains, and the impact of the work on product value."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'ensures that generated data is structured and accessible' and 'Design data models to support experimental protocols' directly relates to managing and structuring data.",
+                    "phrase": "ensures that generated data is structured and accessible"
                 },
                 {
-                    "task_name": "TASK2: Data Engineering",
-                    "phrases": [
-                        "ensures that generated data is structured and accessible",
-                        "Design data models to support experimental protocols",
-                        "write software that automates the generation of robot instructions as well as analysis and visualization of biological sequence-, and screening-data",
-                        "seamlessly integrate our Laboratory Information Management System (Benchling)"
-                    ],
-                    "justification": "The description focuses on structuring, accessing, and processing data from experiments, including designing data models and automating data generation and analysis."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Design data models to support experimental protocols' indicates the creation of structures for data related to experiments.",
+                    "phrase": "Design data models to support experimental protocols"
                 },
                 {
-                    "task_name": "TASK3: Modeling",
-                    "phrases": [
-                        "use of generative AI",
-                        "machine learning staff",
-                        "ML Ops"
-                    ],
-                    "justification": "Mentions the use of generative AI and the presence of machine learning staff, suggesting involvement in or interaction with modeling activities."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'create software that automates everything that can be automated' and 'create software that allows us to seamlessly integrate our Laboratory Information Management System (Benchling) and ML Ops' points to building software applications and integrations.",
+                    "phrase": "create software that automates everything that can be automated"
                 },
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        "software development",
-                        "create software that automates everything that can be automated",
-                        "create the stack that implements our domain logic",
-                        "how it communicates with storage backends as well as instruments, liquid handlers and fermenters",
-                        "freedom to find preferred 3rd party technologies as well as deciding on the components that you prefer us to develop internally",
-                        "write software that automates the generation of robot instructions",
-                        "Create software that allows us to seamlessly integrate our Laboratory Information Management System (Benchling) and ML Ops"
-                    ],
-                    "justification": "The role explicitly requires creating software to automate processes, implement domain logic, integrate with hardware and systems, and develop internal components."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'create software that allows us to seamlessly integrate our Laboratory Information Management System (Benchling) and ML Ops' describes the development of software for system integration.",
+                    "phrase": "create software that allows us to seamlessly integrate our Laboratory Information Management System (Benchling) and ML Ops"
                 },
                 {
-                    "task_name": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "ML Ops",
-                        "Improvements are deployed with minimal delay"
-                    ],
-                    "justification": "Direct mention of 'ML Ops' and the emphasis on rapid deployment of improvements indicate a focus on operational aspects of ML systems."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH1: Programming Languages",
-                    "items": [
-                        "software"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'write software that automates the generation of robot instructions' clearly falls under software development for automation.",
+                    "phrase": "write software that automates the generation of robot instructions"
                 },
                 {
-                    "tech_name": "TECH2: Cloud Platforms & Services",
-                    "items": [
-                        "Benchling"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'write software that automates... analysis and visualization of biological sequence-, and screening-data' describes software development for data processing and presentation.",
+                    "phrase": "write software that automates... analysis and visualization of biological sequence-, and screening-data"
                 },
                 {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "items": [
-                        "generative AI"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Integrate... ML Ops' directly mentions MLOps, indicating a need for operational aspects of machine learning systems.",
+                    "phrase": "integrate... ML Ops"
                 },
                 {
-                    "tech_name": "TECH6: MLOps & Data Pipelines",
-                    "items": [
-                        "ML Ops"
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The mention of 'business idea' and 'applications in the areas of food & beverages, home & personal care, animal feed, paper & textile processing, and more' shows an understanding of the business context and applications.",
+                    "phrase": "business idea"
                 },
                 {
-                    "tech_name": "TECH10: Data Modeling",
-                    "items": [
-                        "Design data models"
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'use of generative AI' indicates involvement with generative modeling techniques.",
+                    "phrase": "use of generative AI"
                 },
                 {
-                    "tech_name": "TECH11: Data Analysis",
-                    "items": [
-                        "analysis and visualization of biological sequence-, and screening-data"
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'machine learning staff' implies the use and development of machine learning models.",
+                    "phrase": "machine learning staff"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Maintain workflows and be pro-active in adjusting and improving them' relates to the ongoing management and optimization of operational processes.",
+                    "phrase": "Maintain workflows and be pro-active in adjusting and improving them"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Identify and onboard 3rd party services and tools to offload responsibilities and let us focus on differentiating activities' shows an understanding of strategic alignment and business focus.",
+                    "phrase": "Identify and onboard 3rd party services and tools to offload responsibilities and let us focus on differentiating activities"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'Document, communicate and teach colleagues best-practices' directly relates to communication and knowledge sharing.",
+                    "phrase": "Document, communicate and teach colleagues best-practices"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "work side-by-side",
-                        "Document, communicate and teach colleagues best-practices"
-                    ],
-                    "justification": "Highlights collaboration with diverse scientific roles and the need to communicate and teach best practices."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Document, communicate and teach colleagues best-practices"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "continuous improvement",
-                        "experimental techniques evolve",
-                        "start-up mentality"
-                    ],
-                    "justification": "Emphasizes continuous improvement, adapting to evolving techniques, and a start-up mentality, all indicative of a need for learning and adaptability."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "sharp focus on continuous improvement"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "automates everything that can be automated",
-                        "offload responsibilities and let us focus on differentiating activities",
-                        "freedom to find preferred 3rd party technologies as well as deciding on the components that you prefer us to develop internally"
-                    ],
-                    "justification": "The role involves automating processes, identifying efficient solutions (3rd party vs. internal development), and making pragmatic technology choices."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "automates everything that can be automated"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "freedom to find preferred 3rd party technologies as well as deciding on the components that you prefer us to develop internally",
-                        "pro-active in adjusting and improving them",
-                        "start-up mentality"
-                    ],
-                    "justification": "Grants freedom in technology selection, encourages proactivity in improvements, and mentions a start-up mentality, all pointing towards innovation and ownership."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "start-up mentality"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "generative AI"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Design data models"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "ML Ops"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "storage backends"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Benchling"
                 }
             ]
         }

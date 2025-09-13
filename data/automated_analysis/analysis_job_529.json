@@ -26,125 +26,109 @@
         "full_text": "Senior Software Engineer Backend\n\nAs a developer, you will find some great things at LessonUp. Apart from a mission-driven team that is ready to make a change, you will work on something that is being used on a daily basis by thousands (200K+ users!) of people. Not just in the Netherlands, but on a global level. 50% of our team is focused on product & tech. We also highly value your personal development. Apart from the learning curve you will get from working in our team and amongst other high-quality professionals, we will set up a personal development plan and will offer you time and education, based on your personal learning goals.\n\n   But most of all, our team will make you feel welcome and at home. LessonUp style. :)\n\n   What you'll be doing:\n     * Write clean, high-performance code used by thousands of teachers and students, ensuring it works well for everyone.\n     * Work closely with different cross-functional teams to smoothly add new features and improvements to our software.\n     * Look for ways to make our solutions work well as more people use them and as technology changes.\n     * Take responsibility for making sure our team's solutions are really good, from start to finish.\n     * Try out new tools and technologies to make our software better, and help add new things to what we already use.\n     * Help newer developers learn and grow by showing them the ropes and sharing what you know.\n\n   Technologies and concepts we use:\n\n   We're not expecting you to be an expert in all the technologies we use, but we'd love it if you're familiar and comfortable with most of them.\n     * Typescript\n     * NodeJS\n     * GraphQL\n     * MongoDB\n     * Redis\n     * RabbitMQ\n     * ElasticSearch\n     * Kubernetes (GKE)\n     * OpenAI & LLM\n     * GitOps with ArgoCD and Terraform\n     * Google Cloud Platform"
     },
     "analysis": {
-        "job_profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on traditional backend software engineering with a mention of OpenAI & LLM, but lacks depth in specific AI/ML tasks. It does not align with the core responsibilities of an ML Engineer or a GenAI Engineer, making it ambiguous in the context of AI-specific roles."
+        "profile_classification": {
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on traditional backend software engineering tasks, emphasizing code quality, feature development, scalability, and team collaboration. While it mentions 'OpenAI & LLM' and 'Google Cloud Platform', these are listed as technologies the candidate might be familiar with, rather than core responsibilities. The primary focus is on building and improving software, not on developing, fine-tuning, or deploying generative AI models or predictive ML systems. Therefore, it does not align with the core responsibilities of an ML Engineer or a GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "Write clean, high-performance code used by thousands of teachers and students, ensuring it works well for everyone.",
-                        "Work closely with different cross-functional teams to smoothly add new features and improvements to our software.",
-                        "Take responsibility for making sure our team's solutions are really good, from start to finish."
-                    ],
-                    "justification": "These phrases describe the core activities of building, maintaining, and ensuring the quality of software applications, which falls under traditional software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Write clean, high-performance code used by thousands of teachers and students, ensuring it works well for everyone' directly relates to building and maintaining software applications.",
+                    "phrase": "Write clean, high-performance code used by thousands of teachers and students, ensuring it works well for everyone"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Look for ways to make our solutions work well as more people use them and as technology changes.",
-                        "GitOps with ArgoCD and Terraform",
-                        "Kubernetes (GKE)"
-                    ],
-                    "justification": "These phrases relate to ensuring scalability, adaptability to technological changes, and the use of tools and concepts (GitOps, Kubernetes) associated with managing and deploying software systems, which are foundational to MLOps principles."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Work closely with different cross-functional teams to smoothly add new features and improvements to our software' describes collaboration for software enhancement.",
+                    "phrase": "Work closely with different cross-functional teams to smoothly add new features and improvements to our software"
                 },
                 {
-                    "task_category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "Try out new tools and technologies to make our software better, and help add new things to what we already use.",
-                        "Help newer developers learn and grow by showing them the ropes and sharing what you know."
-                    ],
-                    "justification": "These phrases indicate a focus on continuous learning, adopting new technologies, and mentoring, which are key aspects of learning and adaptability in a technical role."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Look for ways to make our solutions work well as more people use them and as technology changes' points to ensuring scalability and adaptability of software.",
+                    "phrase": "Look for ways to make our solutions work well as more people use them and as technology changes"
                 },
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "Apart from a mission-driven team that is ready to make a change, you will work on something that is being used on a daily basis by thousands (200K+ users!) of people. Not just in the Netherlands, but on a global level."
-                    ],
-                    "justification": "This phrase highlights understanding the impact and scale of the product, connecting the technical work to a broader mission and user base, which is characteristic of business understanding."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology_name": "Typescript",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Take responsibility for making sure our team's solutions are really good, from start to finish' implies ownership over the software development lifecycle.",
+                    "phrase": "Take responsibility for making sure our team's solutions are really good, from start to finish"
                 },
                 {
-                    "technology_name": "NodeJS",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Try out new tools and technologies to make our software better, and help add new things to what we already use' relates to the continuous improvement of software through new technologies.",
+                    "phrase": "Try out new tools and technologies to make our software better, and help add new things to what we already use"
                 },
                 {
-                    "technology_name": "GraphQL",
-                    "category": "TECH4: LLM Frameworks & Libraries"
-                },
-                {
-                    "technology_name": "MongoDB",
-                    "category": "TECH9: Data Storage"
-                },
-                {
-                    "technology_name": "Redis",
-                    "category": "TECH9: Data Storage"
-                },
-                {
-                    "technology_name": "RabbitMQ",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "technology_name": "ElasticSearch",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "technology_name": "Kubernetes",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "technology_name": "GKE",
-                    "category": "TECH2: Cloud Platforms & Services"
-                },
-                {
-                    "technology_name": "OpenAI",
-                    "category": "TECH2: Cloud Platforms & Services"
-                },
-                {
-                    "technology_name": "LLM",
-                    "category": "TECH3: LLM / Generative Models"
-                },
-                {
-                    "technology_name": "ArgoCD",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "technology_name": "Terraform",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "technology_name": "Google Cloud Platform",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'Help newer developers learn and grow by showing them the ropes and sharing what you know' indicates a role in mentoring and knowledge sharing within the team.",
+                    "phrase": "Help newer developers learn and grow by showing them the ropes and sharing what you know"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Work closely with different cross-functional teams to smoothly add new features and improvements to our software."
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Work closely with different cross-functional teams"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "Take responsibility for making sure our team's solutions are really good, from start to finish.",
-                        "Try out new tools and technologies to make our software better, and help add new things to what we already use."
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Take responsibility for making sure our team's solutions are really good, from start to finish"
                 },
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "Help newer developers learn and grow by showing them the ropes and sharing what you know.",
-                        "Apart from the learning curve you will get from working in our team and amongst other high-quality professionals, we will set up a personal development plan and will offer you time and education, based on your personal learning goals."
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Try out new tools and technologies to make our software better"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Help newer developers learn and grow by showing them the ropes and sharing what you know"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Apart from the learning curve you will get from working in our team and amongst other high-quality professionals, we will set up a personal development plan and will offer you time and education, based on your personal learning goals."
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Typescript"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "NodeJS"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "GraphQL"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "MongoDB"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "Redis"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "RabbitMQ"
+                },
+                {
+                    "category": "TECH5: Vector Stores & Search",
+                    "phrase": "ElasticSearch"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Kubernetes (GKE)"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "OpenAI & LLM"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "GitOps with ArgoCD and Terraform"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Google Cloud Platform"
                 }
             ]
         }

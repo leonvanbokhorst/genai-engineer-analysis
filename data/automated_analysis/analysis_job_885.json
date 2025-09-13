@@ -27,113 +27,89 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional backend software development using C# .NET and agile methodologies. While AI (LLM) and Azure Cloud are mentioned as technologies to work with, they are not the primary focus, and the core responsibilities do not align with specialized ML or GenAI engineering roles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on traditional backend software engineering with C# .NET and agile methodologies. While AI (LLM) and Azure Cloud Stack are mentioned as new technologies to explore, they are not the primary focus or core responsibility. The role emphasizes building backend software, architecture design, and infrastructure automation, which aligns more with a general backend software engineer than a specialized ML or GenAI Engineer. The mention of AI is secondary to the core backend development tasks."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "Vertalen van user stories en requirements naar concrete oplossingen.",
-                            "justification": "This phrase directly relates to understanding user needs and business requirements and translating them into technical solutions, which is a core aspect of business understanding."
-                        }
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The role explicitly mentions 'Ontwikkelen van backend software met C# .NET', 'Vertalen van user stories en requirements naar concrete oplossingen', and 'neerzetten van een goede architectuur', which are core software development activities.",
+                    "phrase": "Ontwikkelen van backend software met C# .NET"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "Ontwikkelen van backend software met C# .NET.",
-                            "justification": "This is a direct statement about developing backend software, which falls under traditional software development."
-                        },
-                        {
-                            "phrase": "Het neerzetten van een goede architectuur waarbij interface en gebruikservaring super belangrijk zijn.",
-                            "justification": "Designing architecture and considering user experience are key components of software development, especially for backend systems that support user-facing applications."
-                        },
-                        {
-                            "phrase": "Jouw taken en verantwoordelijkheden omvatten:",
-                            "justification": "This introductory phrase signals that the following points will detail software development responsibilities."
-                        },
-                        {
-                            "phrase": "speel je een grotere rol in het automatiseren van de infrastructuur en het designen van stories.",
-                            "justification": "Automating infrastructure and designing stories are tasks that support the software development lifecycle and application delivery."
-                        }
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "Designing stories and translating user stories into solutions are fundamental software development tasks.",
+                    "phrase": "designen van stories"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        {
-                            "phrase": "Onze teams streven CI/CD na: zodra een item is ontwikkeld, getest en goedgekeurd, gaat het direct naar productie.",
-                            "justification": "CI/CD (Continuous Integration/Continuous Deployment) is a fundamental practice in Operations Engineering and MLOps for automating software delivery."
-                        },
-                        {
-                            "phrase": "automatiseren van de infrastructuur",
-                            "justification": "Automating infrastructure is a key aspect of operations engineering, enabling efficient deployment and management of systems."
-                        },
-                        {
-                            "phrase": "Azure Infrastructure Automation (Bicep/ARM templates)",
-                            "justification": "This explicitly mentions infrastructure automation tools, which are part of operations engineering."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "technology_category": "TECH1: Programming Languages",
-                    "technologies": [
-                        "C#",
-                        ".NET"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "Translating user stories and requirements into concrete solutions is a direct software development responsibility.",
+                    "phrase": "Vertalen van user stories en requirements naar concrete oplossingen"
                 },
                 {
-                    "technology_category": "TECH2: Cloud Platforms & Services",
-                    "technologies": [
-                        "Azure Cloud Stack"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of CI/CD and automating infrastructure aligns with operations engineering principles.",
+                    "phrase": "automatiseren van de infrastructuur"
                 },
                 {
-                    "technology_category": "TECH3: LLM / Generative Models",
-                    "technologies": [
-                        "AI (LLM)"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The description mentions CI/CD, indicating a focus on automated deployment and integration.",
+                    "phrase": "streven CI/CD na"
                 },
                 {
-                    "technology_category": "TECH6: MLOps & Data Pipelines",
-                    "technologies": [
-                        "CI/CD",
-                        "Bicep",
-                        "ARM templates"
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves translating functional stories and user stories into code, requiring an understanding of business needs.",
+                    "phrase": "omzetten van functionele stories"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The emphasis on 'architectuur waarbij interface en gebruikservaring super belangrijk zijn' points to software design and development principles.",
+                    "phrase": "Het neerzetten van een goede architectuur waarbij interface en gebruikservaring super belangrijk zijn"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "skills": [
-                        "Samenwerken in een Agile omgeving (Scrum/Kanban) waarin we snel schakelen."
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Samenwerken in een Agile omgeving"
                 },
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "skills": [
-                        "Je krijgt de kans om je verder te verdiepen in technieken zoals Domain Driven Design en Azure Infrastructure Automation (Bicep/ARM templates) en je expertise uit te breiden."
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "krijgt de kans om je verder te verdiepen in technieken"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "skills": [
-                        "Vertalen van user stories en requirements naar concrete oplossingen."
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Vertalen van user stories en requirements naar concrete oplossingen"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "skills": [
-                        "speel je een grotere rol in het automatiseren van de infrastructuur en het designen van stories."
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "speel je een grotere rol in het automatiseren van de infrastructuur en het designen van stories"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "C#"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure Cloud Stack"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "AI (LLM)"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "CI/CD"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Azure Infrastructure Automation"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": ".NET"
                 }
             ]
         }

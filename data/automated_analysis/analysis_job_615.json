@@ -27,84 +27,59 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on data curation, annotation, cleaning, and quality assessment for LLM training, with a strong emphasis on data engineering tasks. While it mentions LLMs and multimodal data, it lacks core responsibilities related to model development, fine-tuning, or building user-facing applications, which are central to the GenAI Engineer profile."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on data curation, annotation, cleaning, and quality assessment for training LLMs, with a specific emphasis on multimodal data within the entertainment industry. While it mentions LLMs and synthetic data generation techniques like GANs, it does not describe the core responsibilities of an ML Engineer (building predictive models, MLOps) or a GenAI Engineer (developing applications on top of LLMs, RAG, fine-tuning, agent development). The role appears to be primarily focused on the data preparation aspect rather than the model development or application building, making it lean towards a specialized data role that doesn't fit the defined ML or GenAI profiles. It could be considered a specialized data engineering role or a data annotation/curation role within an AI context, but it lacks the depth in modeling or software development to be classified as ML Engineer or GenAI Engineer. Therefore, 'Ambiguous' is the most appropriate classification as it doesn't fit the technical profiles defined."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        {
-                            "phrase": "het verzamelen, verfijnen en optimaliseren van datasets die worden gebruikt voor het trainen van Large Language Models (LLM)",
-                            "justification": "This phrase directly describes the process of preparing and optimizing data for model training, which falls under data engineering."
-                        },
-                        {
-                            "phrase": "Datasetcuratie: Verzamelen en beheren van grootschalige, hoogwaardige datasets uit verschillende bronnen binnen de entertainmentindustrie",
-                            "justification": "Dataset curation and management are core components of data engineering, focusing on acquiring and organizing data."
-                        },
-                        {
-                            "phrase": "Data Annotatie & Labeling: Ontwikkelen van strategieën voor nauwkeurige labeling, inclusief geautomatiseerde methoden voor het aligneren van tekst en afbeeldingen voor trainingsdoeleinden.",
-                            "justification": "Data annotation and labeling are crucial preprocessing steps in data engineering for supervised learning tasks."
-                        },
-                        {
-                            "phrase": "Data Cleaning & Voorverwerking: Implementeren van pijplijnen voor het opschonen en voorbewerken van multimodale datasets (bijv. tokenization, beeldvoorverwerking, augmentatie) om consistentie en relevantie te waarborgen.",
-                            "justification": "Cleaning and preprocessing data, including specific techniques like tokenization and image preprocessing, are fundamental data engineering activities."
-                        },
-                        {
-                            "phrase": "Datakwaliteitsmetingen: Definiëren en bijhouden van metrics om de kwaliteit en relevantie van datasets te beoordelen, zodat continue verfijning en iteratie mogelijk is.",
-                            "justification": "Defining and tracking data quality metrics is an essential part of ensuring the integrity and usability of datasets, a data engineering responsibility."
-                        },
-                        {
-                            "phrase": "Synthetische Datageneratie: Onderzoeken van technieken voor het creëren van synthetische data (bijv. GANs, augmentatie) om leemtes in specifieke entertainmentsubdomeinen of randgevallen op te vullen.",
-                            "justification": "Generating synthetic data to fill gaps is an advanced data engineering technique used to augment existing datasets for better model training."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "LLM / Generative Models",
-                    "classification": "TECH3",
-                    "phrase": "Large Language Models (LLM)"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The description details 'Datasetcuratie: Verzamelen en beheren van grootschalige, hoogwaardige datasets', 'Data Annotatie & Labeling: Ontwikkelen van strategieën voor nauwkeurige labeling', 'Data Cleaning & Voorverwerking: Implementeren van pijplijnen voor het opschonen en voorbewerken van multimodale datasets', and 'Datakwaliteitsmetingen: Definiëren en bijhouden van metrics om de kwaliteit en relevantie van datasets te beoordelen', all of which are core data engineering activities.",
+                    "phrase": "Datasetcuratie: Verzamelen en beheren van grootschalige, hoogwaardige datasets uit verschillende bronnen binnen de entertainmentindustrie"
                 },
                 {
-                    "tech_name": "LLM / Generative Models",
-                    "classification": "TECH3",
-                    "phrase": "GANs"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "This phrase directly relates to the process of preparing and structuring data for machine learning, which falls under data engineering.",
+                    "phrase": "Data Annotatie & Labeling: Ontwikkelen van strategieën voor nauwkeurige labeling, inclusief geautomatiseerde methoden voor het aligneren van tekst en afbeeldingen voor trainingsdoeleinden."
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The description explicitly mentions 'Data Cleaning & Voorverwerking' and lists specific preprocessing steps like 'tokenization, beeldvoorverwerking, augmentatie', which are key data engineering tasks.",
+                    "phrase": "Data Cleaning & Voorverwerking: Implementeren van pijplijnen voor het opschonen en voorbewerken van multimodale datasets (bijv. tokenization, beeldvoorverwerking, augmentatie) om consistentie en relevantie te waarborgen."
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "Defining and tracking metrics for dataset quality is a crucial part of ensuring data integrity and suitability for training, which is a data engineering responsibility.",
+                    "phrase": "Datakwaliteitsmetingen: Definiëren en bijhouden van metrics om de kwaliteit en relevantie van datasets te beoordelen, zodat continue verfijning en iteratie mogelijk is."
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Synthetische Datageneratie: Onderzoeken van technieken voor het creëren van synthetische data (bijv. GANs, augmentatie)' indicates involvement in generative modeling techniques, even if the focus is on data generation rather than model deployment.",
+                    "phrase": "Synthetische Datageneratie: Onderzoeken van technieken voor het creëren van synthetische data (bijv. GANs, augmentatie) om leemtes in specifieke entertainmentsubdomeinen of randgevallen op te vullen."
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "classification": "SKILL3",
-                    "phrase": "optimaliseren van datasets",
-                    "justification": "Optimizing datasets implies a problem-solving approach to improve their effectiveness for training."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Onderzoeken van technieken"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "classification": "SKILL3",
-                    "phrase": "aligneren van tekst en afbeeldingen voor trainingsdoeleinden",
-                    "justification": "Aligning multimodal data for training requires problem-solving to ensure compatibility and effectiveness."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "om leemtes in specifieke entertainmentsubdomeinen of randgevallen op te vullen"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "classification": "SKILL3",
-                    "phrase": "tokenization, beeldvoorverwerking, augmentatie",
-                    "justification": "Implementing specific preprocessing techniques demonstrates a pragmatic approach to solving data preparation challenges."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Definiëren en bijhouden van metrics"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Large Language Models (LLM)"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "classification": "SKILL3",
-                    "phrase": "creëren van synthetische data",
-                    "justification": "Creating synthetic data to fill gaps is a creative problem-solving technique."
-                },
-                {
-                    "skill_name": "Learning & Adaptability",
-                    "classification": "SKILL2",
-                    "phrase": "Onderzoeken van technieken voor het creëren van synthetische data",
-                    "justification": "The act of researching new techniques indicates a need for continuous learning and adaptability."
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "GANs"
                 }
             ]
         }

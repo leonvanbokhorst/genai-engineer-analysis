@@ -26,109 +26,138 @@
         "full_text": "AI Engineer Academy\n\nAre you interested in pursuing a career in the world of AI and digital transformation? How about learning and developing your skills in the latest AI technology?, After completion of the Academy, you will join your Region's Team as an AI Engineer. You will develop AI solutions and services that help our clients achieve their business outcomes using AI & Analytics. This role requires data science skills such as exploration data analysis, feature engineering, and ML models training and testing. You will work with a range of technologies, including advanced analytics, computer vision, natural language processing (NLP), large language models (LLM), unsupervised learning, and optimization, all primarily powered by Microsoft Azure. You will also be involved in applying MLOps technology for deployments.\n       Day-to-day you will: \n\n     * Develop AI projects and solutions. \n     * Assist in the preparation of client presentations and proposals. \n     * Conduct research and analysis on AI and ML technologies and trends to stay up to date with the latest advancements. \n     * Contribute to the creation of custom training materials and code examples for a wide variety of AI solutions. \n     * Work with senior team members to analyze current business practices and identify future opportunities for leveraging advanced analytics and AI solutions., * You will become part of an active and growing AI community.\n     * Your future colleagues will help you with questions and challenges. Moreover, there is a pleasant, informal working atmosphere.\n     * Knowledge development is our focus, and we ensure this both by offering formal training opportunities as well as informal evenings where peers share their knowledge.\n     * With your passion, you can use the latest Microsoft technology to make a daily difference for our customers in the Enterprise market.\n     * We have a strong focus on the career and development opportunities of all our people. Everyone has a career advisor who will work with you to create guide you in choosing from the many training opportunities we offer.\n     * A diverse environment where respect for our clients, our teams, and the world around us is at the heart of everything we do. Together we do what matters."
     },
     "analysis": {
-        "job_profile_classification": {
-            "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description emphasizes developing AI solutions using LLMs, NLP, and computer vision, aligning with the core responsibilities of a GenAI Engineer. While it mentions data science skills and MLOps, the primary focus is on building and deploying generative AI applications for clients."
+        "profile_classification": {
+            "profile": "ML Engineer",
+            "rationale": "The job description emphasizes data science skills like exploration data analysis, feature engineering, and ML model training and testing. It mentions a range of AI technologies including computer vision, NLP, LLMs, unsupervised learning, and optimization, with a strong focus on applying MLOps for deployments. While LLMs are mentioned, the core responsibilities and required skills lean more towards traditional ML model development and deployment within a broader AI/Analytics context, aligning with the 'ML Engineer' profile which includes MLOps and productionizing models."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "help our clients achieve their business outcomes using AI & Analytics",
-                        "analyze current business practices and identify future opportunities for leveraging advanced analytics and AI solutions"
-                    ],
-                    "justification": "These phrases indicate a need to understand client business needs and translate them into AI solutions."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'feature engineering' directly relates to preparing data for ML models, which is a core part of data engineering.",
+                    "phrase": "feature engineering"
                 },
                 {
-                    "task_category": "TASK2: Data Engineering",
-                    "phrases": [
-                        "exploration data analysis",
-                        "feature engineering"
-                    ],
-                    "justification": "These are standard data preparation steps crucial for any ML/AI model development."
+                    "category": "TASK3: Modeling",
+                    "justification": "The description explicitly mentions 'ML models training and testing' and 'unsupervised learning', which are fundamental aspects of model development.",
+                    "phrase": "ML models training and testing"
                 },
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "ML models training and testing",
-                        "advanced analytics",
-                        "computer vision",
-                        "natural language processing (NLP)",
-                        "large language models (LLM)",
-                        "unsupervised learning",
-                        "optimization"
-                    ],
-                    "justification": "This category covers the core AI/ML model development, including specific generative AI techniques like LLM and NLP."
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'large language models (LLM)' indicates work with generative models, a key aspect of modern modeling.",
+                    "phrase": "large language models (LLM)"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "Develop AI projects and solutions",
-                        "develop your skills in the latest AI technology",
-                        "develop AI solutions and services"
-                    ],
-                    "justification": "The role involves actively building and developing AI-powered projects and services, which falls under software development in the context of AI applications."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'computer vision' refers to a domain where ML models are developed and applied.",
+                    "phrase": "computer vision"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "applying MLOps technology for deployments"
-                    ],
-                    "justification": "Directly mentions the application of MLOps for deploying AI solutions."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Microsoft Azure",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'natural language processing (NLP)' indicates the application and development of models for text-based tasks.",
+                    "phrase": "natural language processing (NLP)"
                 },
                 {
-                    "technology": "computer vision",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'optimization' suggests the use of algorithms and models to find optimal solutions.",
+                    "phrase": "optimization"
                 },
                 {
-                    "technology": "natural language processing (NLP)",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'unsupervised learning' is a specific type of machine learning modeling.",
+                    "phrase": "unsupervised learning"
                 },
                 {
-                    "technology": "large language models (LLM)",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Develop AI solutions and services' implies building and integrating AI capabilities into functional offerings.",
+                    "phrase": "Develop AI solutions and services"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The description explicitly states involvement in 'applying MLOps technology for deployments', which is a direct match for this category.",
+                    "phrase": "applying MLOps technology for deployments"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'help our clients achieve their business outcomes' indicates a need to understand client business goals and align AI solutions with them.",
+                    "phrase": "help our clients achieve their business outcomes"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'analyze current business practices and identify future opportunities' directly relates to understanding business context and identifying areas for AI application.",
+                    "phrase": "analyze current business practices and identify future opportunities"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "learning and developing your skills in the latest AI technology",
-                        "Conduct research and analysis on AI and ML technologies and trends to stay up to date with the latest advancements",
-                        "Knowledge development is our focus",
-                        "formal training opportunities",
-                        "career and development opportunities"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "learning and developing your skills in the latest AI technology"
                 },
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Assist in the preparation of client presentations and proposals",
-                        "Work with senior team members",
-                        "Your future colleagues will help you with questions and challenges",
-                        "peers share their knowledge"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "stay up to date with the latest advancements"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "Develop AI projects and solutions",
-                        "use the latest Microsoft technology to make a daily difference for our customers"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Knowledge development is our focus"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "develop AI solutions and services that help our clients achieve their business outcomes"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "assist in the preparation of client presentations and proposals"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Work with senior team members"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Your future colleagues will help you with questions and challenges."
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "With your passion, you can use the latest Microsoft technology to make a daily difference for our customers"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "career and development opportunities"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "develop AI solutions and services"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "AI"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Analytics"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "ML models"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "large language models (LLM)"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Microsoft Azure"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "MLOps technology"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "computer vision"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "natural language processing (NLP)"
                 }
             ]
         }

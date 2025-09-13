@@ -26,146 +26,159 @@
         "full_text": "Python software engineer - ERP and business processes\n\nWe are looking for a Python software engineer who is not only technically skilled but also hands-on and pragmatic. In this role, you will be responsible for both guiding our technical direction and being actively involved in development tasks. You'll work closely with our small team to ensure that our technology supports our business goals, and you'll play a key role in building and growing the team as we scale., * ERP development and Automation: Drive the automation of key ODOO ERP processes. Develop Python and JavaScript apps for data processing and system integration.\n     * Lead Development & Team: Write code while managing a small team. Balance hands-on coding with leadership to keep projects on track.\n     * Product ownership: Work with team members to prioritize development tasks that align with business goals and deliver real value.\n     * Process & Tools: Improve code reliability, CI/CD pipelines, ensure robust QA, and manage code reviews using GitLab/GitHub.\n\nIT Landscape\n\n     * ERP: Currently using ODOO V16, self-hosted. Plan to reduce customizations and migrate to Odoo.sh or potentially to ODOO Online.\n     * E-commerce: Shopify Plus powers our online store on 6 domains.\n     * Data & Cloud: Utilize Google Cloud for data lake and cloud functions, with BigQuery and Dataform for data management.\n     * Automation & AI: Employ N8N for automation and explore integrations with Dify for LLM (Large Language Model) capabilities., * Flexible Working: While we prefer candidates in our Eindhoven office, we accept remote candidates, provided you are within a 3-hour time zone of the Netherlands. You'll need to be available during Dutch office hours.\n     * High Responsibility & Growth: Enjoy a high level of responsibility and impact, with continuous learning and professional growth opportunities.\n     * Team Collaboration: We value collaboration and regularly hold team gatherings, both virtual and in-person, to ensure everyone feels connected and aligned.\n\n   If you're someone who enjoys both the strategic and the practical aspects of development and wants to be part of a small but ambitious team building the future of automated e-commerce, we'd love to hear from you!\n\nImportant\n\n   The job requires to be available minimally 32 hours per week, with work scheduled during Dutch office hours. If you apply for a remote position and you're located outside of the Netherlands, you can join us full-time as an independent contractor. To some extent, we ignore geography in order to find the best person for each role. Due to the substantial differences between labor and business laws in each country, the easiest way to hire talent outside of our registered countries is through freelance contracts."
     },
     "analysis": {
-        "job_profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional software engineering, ERP development, and automation using Python and JavaScript. While it mentions exploring LLM capabilities with Dify, this is a minor aspect and not the core focus of the role. The primary responsibilities and technologies listed do not align with the core definitions of an ML Engineer or GenAI Engineer."
+        "profile_classification": {
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on traditional software engineering, ERP development, and automation using Python and JavaScript. While it mentions exploring integrations with Dify for LLM capabilities, this is a minor aspect and not the core focus. The role emphasizes business process automation and traditional software development over advanced generative AI model development, fine-tuning, or building complex GenAI applications. Therefore, it does not align with the core responsibilities of a GenAI Engineer or ML Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "ensure that our technology supports our business goals",
-                        "prioritize development tasks that align with business goals and deliver real value",
-                        "building the future of automated e-commerce"
-                    ],
-                    "justification": "These phrases indicate a need to understand how technology serves business objectives and to align development efforts with strategic goals."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role explicitly mentions 'Python software engineer', 'develop Python and JavaScript apps', 'Write code', and 'hands-on coding', indicating traditional software development is a core responsibility.",
+                    "phrase": "Python software engineer"
                 },
                 {
-                    "task_category": "TASK2: Data Engineering",
-                    "phrases": [
-                        "Develop Python and JavaScript apps for data processing",
-                        "Google Cloud for data lake",
-                        "BigQuery and Dataform for data management"
-                    ],
-                    "justification": "The mention of data processing, data lakes, and specific data management tools like BigQuery and Dataform points to data engineering responsibilities."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description states 'Develop Python and JavaScript apps for data processing and system integration', which are typical software development activities.",
+                    "phrase": "Develop Python and JavaScript apps for data processing and system integration"
                 },
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "explore integrations with Dify for LLM (Large Language Model) capabilities"
-                    ],
-                    "justification": "This phrase indicates an exploration or potential use of LLMs, which falls under generative modeling, though it's not a primary focus."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Write code' directly refers to software development.",
+                    "phrase": "Write code"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "Python software engineer",
-                        "actively involved in development tasks",
-                        "Write code",
-                        "Develop Python and JavaScript apps",
-                        "building and growing the team",
-                        "Develop Python and JavaScript apps for data processing and system integration",
-                        "Improve code reliability",
-                        "manage code reviews"
-                    ],
-                    "justification": "The core of the role involves writing code, developing applications, and managing software development processes, which are fundamental software development tasks."
+                    "category": "TASK4: Software Development",
+                    "justification": "The mention of 'hands-on coding' emphasizes the practical software development aspect of the role.",
+                    "phrase": "hands-on coding"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "CI/CD pipelines",
-                        "ensure robust QA"
-                    ],
-                    "justification": "The mention of CI/CD pipelines and QA indicates responsibilities related to the operational aspects of software deployment and maintenance."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Python",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires aligning technology with 'business goals' and prioritizing tasks that 'align with business goals and deliver real value', indicating a need to understand the business context.",
+                    "phrase": "align our technology supports our business goals"
                 },
                 {
-                    "technology": "JavaScript",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'prioritize development tasks that align with business goals and deliver real value' shows a focus on business alignment.",
+                    "phrase": "prioritize development tasks that align with business goals and deliver real value"
                 },
                 {
-                    "technology": "ODOO V16",
-                    "category": "TECH10: Data Modeling"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Improving 'CI/CD pipelines' and ensuring 'robust QA' are key aspects of operations engineering and MLOps.",
+                    "phrase": "Improve code reliability, CI/CD pipelines, ensure robust QA"
                 },
                 {
-                    "technology": "Shopify Plus",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The use of 'Google Cloud for data lake and cloud functions, with BigQuery and Dataform for data management' points to data engineering activities.",
+                    "phrase": "Google Cloud for data lake and cloud functions, with BigQuery and Dataform for data management"
                 },
                 {
-                    "technology": "Google Cloud",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves 'automation of key ODOO ERP processes' and developing apps for 'system integration', which falls under software development for business processes.",
+                    "phrase": "automation of key ODOO ERP processes"
                 },
                 {
-                    "technology": "BigQuery",
-                    "category": "TECH11: Data Analysis"
+                    "category": "TASK4: Software Development",
+                    "justification": "The mention of 'exploring integrations with Dify for LLM (Large Language Model) capabilities' indicates an interest in integrating AI, which is part of software development in this context.",
+                    "phrase": "explore integrations with Dify for LLM (Large Language Model) capabilities"
                 },
                 {
-                    "technology": "Dataform",
-                    "category": "TECH6: MLOps & Data Pipelines"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of 'manage code reviews using GitLab/GitHub' is a practice within software development and MLOps for ensuring code quality and collaboration.",
+                    "phrase": "manage code reviews using GitLab/GitHub"
                 },
                 {
-                    "technology": "N8N",
-                    "category": "TECH6: MLOps & Data Pipelines"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "justification": "The description explicitly seeks a candidate who is 'hands-on and pragmatic' and emphasizes 'practical aspects of development'.",
+                    "phrase": "hands-on and pragmatic"
                 },
                 {
-                    "technology": "Dify",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The role involves working 'closely with our small team' and 'Work with team members', highlighting collaboration.",
+                    "phrase": "Work with team members"
                 },
                 {
-                    "technology": "LLM",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "justification": "The description mentions 'guiding our technical direction' and 'high level of responsibility and impact', suggesting ownership and initiative.",
+                    "phrase": "guiding our technical direction"
                 },
                 {
-                    "technology": "GitLab",
-                    "category": "TECH6: MLOps & Data Pipelines"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "justification": "The job offers 'continuous learning and professional growth opportunities', indicating a need for adaptability and a learning mindset.",
+                    "phrase": "continuous learning and professional growth opportunities"
                 },
                 {
-                    "technology": "GitHub",
-                    "category": "TECH6: MLOps & Data Pipelines"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The emphasis on 'Team Collaboration' and holding 'team gatherings' points to strong communication and collaboration skills.",
+                    "phrase": "Team Collaboration"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "hands-on and pragmatic",
-                        "Balance hands-on coding with leadership",
-                        "practical aspects of development"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "hands-on and pragmatic"
                 },
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "work closely with our small team",
-                        "Work with team members",
-                        "Team Collaboration",
-                        "ensure everyone feels connected and aligned"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Work with team members"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "guiding our technical direction",
-                        "play a key role in building and growing the team",
-                        "Product ownership",
-                        "High Responsibility & Growth",
-                        "take initiative",
-                        "take full responsibility"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "guiding our technical direction"
                 },
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "continuous learning and professional growth opportunities",
-                        "adapt to new technologies"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "continuous learning and professional growth opportunities"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Team Collaboration"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "JavaScript"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Google Cloud"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "BigQuery"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Dataform"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "N8N"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLM (Large Language Model)"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "Dify"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "CI/CD pipelines"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "GitLab"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "GitHub"
                 }
             ]
         }

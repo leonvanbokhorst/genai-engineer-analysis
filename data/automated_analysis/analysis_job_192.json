@@ -27,88 +27,77 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on Microsoft 365, DevOps, and traditional software lifecycle management. While it mentions exploring generative AI, this is a minor aspect and not the core focus of the role. The primary responsibilities align with traditional DevOps and software engineering rather than specialized AI engineering."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on Microsoft 365 administration, DevOps practices within that ecosystem, and general software lifecycle management. While it mentions 'generative AI' as an area to explore, this is not the primary focus or a core responsibility. The role does not align with the core responsibilities or evidence profiles of an ML Engineer or GenAI Engineer, making 'Ambiguous' the most appropriate classification."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        "Lay the foundation for a codebase that scales to 100 solutions whilst remaining maintainable and productive for the team",
-                        "Oversee the entire application lifecycle of all building blocks (eg SPFX solutions and Azure Functions)"
-                    ],
-                    "justification": "These phrases describe managing the lifecycle of software components and ensuring code maintainability and scalability, which are core software development activities."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The role mentions 'DevOps engineers', 'oversee the entire application lifecycle', and 'lay the foundation for a codebase that scales', which are all indicative of operations and lifecycle management in a software development context.",
+                    "phrase": "DevOps engineers"
                 },
                 {
-                    "task_name": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Senior DevOps Engineer",
-                        "Help the DevOps engineering team grow through your experience and insights",
-                        "Initiate quality-related improvements, propose and convince the team and business to invest in these areas"
-                    ],
-                    "justification": "The title explicitly states 'DevOps Engineer', and the responsibilities involve team growth, quality improvements, and overseeing the application lifecycle, all of which fall under operations engineering."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Overseeing the application lifecycle is a core responsibility within operations engineering.",
+                    "phrase": "Oversee the entire application lifecycle"
                 },
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        "You will work closely with business analysts, implementation specialists, a product owner, solution architect"
-                    ],
-                    "justification": "This phrase indicates collaboration with business-focused roles to understand requirements and align technical work with business needs."
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'generative AI' suggests an exploration or potential application of generative models, which falls under the modeling category.",
+                    "phrase": "generative AI"
                 },
                 {
-                    "task_name": "TASK3: Modeling",
-                    "phrases": [
-                        "Explore new possibilities such as adaptive cards and generative AI"
-                    ],
-                    "justification": "This phrase mentions exploring generative AI, which is a form of modeling, although it's presented as an exploration rather than a core responsibility."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH2: Cloud Platforms & Services",
-                    "technologies": [
-                        "Microsoft 365",
-                        "Azure Functions"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'Collaborate closely with the team rather than working in isolation' directly points to collaboration skills.",
+                    "phrase": "Collaborate closely with the team rather than working in isolation"
                 },
                 {
-                    "tech_name": "TECH4: LLM Frameworks & Libraries",
-                    "technologies": [
-                        "generative AI"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "justification": "The phrase 'Help the DevOps engineering team grow through your experience and insights' implies taking initiative and contributing to team growth, aligning with ownership and innovation.",
+                    "phrase": "Help the DevOps engineering team grow through your experience and insights"
                 },
                 {
-                    "tech_name": "TECH10: Data Modeling",
-                    "technologies": [
-                        "SPFX solutions"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "justification": "Initiating quality improvements and convincing stakeholders to invest in them requires problem-solving and a pragmatic approach to drive change.",
+                    "phrase": "Initiate quality-related improvements, propose and convince the team and business to invest in these areas"
+                },
+                {
+                    "category": "SKILL4: Ethical & Legal Responsibility",
+                    "justification": "Fostering a 'responsible mindset' within the development team touches upon ethical considerations in development practices.",
+                    "phrase": "Foster a constructive and responsible mindset within the development team"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "skills": [
-                        "You will work closely with business analysts, implementation specialists, a product owner, solution architect, and -of course- other DevOps engineers",
-                        "Collaborate closely with the team rather than working in isolation",
-                        "Foster a constructive and responsible mindset within the development team"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate closely with the team rather than working in isolation"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "skills": [
-                        "Help the DevOps engineering team grow through your experience and insights",
-                        "Initiate quality-related improvements, propose and convince the team and business to invest in these areas",
-                        "Explore new possibilities such as adaptive cards and generative AI"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Help the DevOps engineering team grow through your experience and insights"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "skills": [
-                        "Lay the foundation for a codebase that scales to 100 solutions whilst remaining maintainable and productive for the team",
-                        "Oversee the entire application lifecycle of all building blocks"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Initiate quality-related improvements, propose and convince the team and business to invest in these areas"
+                },
+                {
+                    "category": "SKILL4: Ethical & Legal Responsibility",
+                    "phrase": "Foster a constructive and responsible mindset within the development team"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Microsoft 365"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "generative AI"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure Functions"
                 }
             ]
         }

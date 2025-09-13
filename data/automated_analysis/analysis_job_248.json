@@ -27,228 +27,114 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional backend engineering tasks like building APIs, scaling infrastructure, and database management. While it mentions AI capabilities and LLM providers, it lacks specific details on developing, fine-tuning, or deploying generative models, which are core to a GenAI Engineer role. The emphasis is on serving AI capabilities rather than building them."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on backend engineering and DevOps with a mention of AI capabilities and LLM providers, but it does not detail specific tasks related to building, fine-tuning, or deploying generative models. The core responsibilities are centered around traditional backend development, scaling infrastructure, and DevOps, rather than specialized GenAI engineering tasks. Therefore, it falls under the 'Ambiguous' category as it's not a clear-cut AI/ML role, but rather a backend role that *uses* AI capabilities."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "drive the advancement of our tech stack and infrastructure",
-                            "justification": "This phrase indicates a need to understand how technical advancements align with the company's overall goals and infrastructure needs."
-                        },
-                        {
-                            "phrase": "enables businesses to build, maintain and grow individually-tailored relationships with their customers efficiently at scale",
-                            "justification": "This describes the core business value proposition of the platform, requiring the engineer to understand the business context."
-                        },
-                        {
-                            "phrase": "centralizes all company specific information, ranging from general information and real-time customer data to company policies, while providing full visibility and control over AI decision-making.",
-                            "justification": "Understanding the business's data and AI decision-making processes is crucial for building the backend infrastructure."
-                        },
-                        {
-                            "phrase": "deploy highly capable AI agents reliably, creating a new standard in customer experience.",
-                            "justification": "This highlights the business outcome and strategic goal of the AI capabilities, which the backend engineer must support."
-                        },
-                        {
-                            "phrase": "Collaborate on technical roadmaps: Participate in designing the technical roadmap, working closely with the CTO and other engineers to shape the future of our product and backend ecosystem.",
-                            "justification": "Designing a technical roadmap requires understanding business objectives and translating them into technical strategies."
-                        }
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The description explicitly mentions 'building, scaling and maintaining our backend infrastructure', 'contributing to product development, including launching new features and services from scratch', 'designing and implementing backend services', and 'Architect & optimize: Help scale our architecture, including cloud-based services, REST APIs'.",
+                    "phrase": "building, scaling and maintaining our backend infrastructure"
                 },
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "Medior Backend Engineer",
-                            "justification": "The title itself indicates a focus on backend software development."
-                        },
-                        {
-                            "phrase": "building, scaling and maintaining our backend infrastructure",
-                            "justification": "This directly describes core software development activities for backend systems."
-                        },
-                        {
-                            "phrase": "contributing to product development, including launching new features and services from scratch.",
-                            "justification": "This involves the full software development lifecycle for new product components."
-                        },
-                        {
-                            "phrase": "Build from scratch: Contribute to the development of new features and products. Bring your ideas and those of your team to life by designing and implementing backend services that drive our platform forward.",
-                            "justification": "This explicitly states the need to design and implement backend services, a fundamental software development task."
-                        },
-                        {
-                            "phrase": "Architect & optimize: Help scale our architecture, including cloud-based services, REST APIs, and logging frameworks, ensuring high performance and reliability as we grow across multiple regions and workloads.",
-                            "justification": "Architecting and optimizing backend services, including REST APIs, is a key software development responsibility."
-                        },
-                        {
-                            "phrase": "REST APIs, Webhooks",
-                            "justification": "These are specific technologies and patterns used in backend software development."
-                        },
-                        {
-                            "phrase": "FastAPI",
-                            "justification": "FastAPI is a Python web framework for building APIs, a core software development tool."
-                        },
-                        {
-                            "phrase": "React",
-                            "justification": "While often associated with frontend, React can be part of a full-stack development effort, and its mention suggests integration with backend services."
-                        }
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The description states 'contributing to product development, including launching new features and services from scratch'.",
+                    "phrase": "contributing to product development, including launching new features and services from scratch"
                 },
                 {
-                    "task_name": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        {
-                            "phrase": "knowledge of DevOps (or a willingness to learn)",
-                            "justification": "Directly mentions DevOps, a key component of Operations Engineering."
-                        },
-                        {
-                            "phrase": "DevOps integration: Be hands-on with our DevOps setup, streamlining deployments, monitoring systems, and optimizing infrastructure for reliability and efficiency using cloud-based tools and CI/CD workflows.",
-                            "justification": "This describes core DevOps activities like deployment, monitoring, and infrastructure optimization."
-                        },
-                        {
-                            "phrase": "Security and monitoring: Ensure our systems are secure and robust by integrating monitoring and security tools, maintaining CI/CD pipelines, and implementing best practices for system reliability.",
-                            "justification": "Monitoring, CI/CD pipeline maintenance, and ensuring system reliability are all aspects of Operations Engineering."
-                        },
-                        {
-                            "phrase": "Cloud platforms and deployment tools",
-                            "justification": "These are essential components for deploying and managing systems in production."
-                        },
-                        {
-                            "phrase": "Monitoring and CI/CD tools (e.g., GitHub Actions, CodeCov)",
-                            "justification": "Specific tools used for continuous integration, continuous delivery, and monitoring."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH1: Programming Languages",
-                    "items": [
-                        "Python"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions 'designing and implementing backend services that drive our platform forward'.",
+                    "phrase": "designing and implementing backend services"
                 },
                 {
-                    "tech_name": "TECH2: Cloud Platforms & Services",
-                    "items": [
-                        "Cloud platforms and deployment tools"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The description states 'Help scale our architecture, including cloud-based services, REST APIs, and logging frameworks, ensuring high performance and reliability'.",
+                    "phrase": "scale our architecture, including cloud-based services, REST APIs, and logging frameworks"
                 },
                 {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "items": [
-                        "LLM providers"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The description explicitly mentions 'Be hands-on with our DevOps setup, streamlining deployments, monitoring systems, and optimizing infrastructure for reliability and efficiency using cloud-based tools and CI/CD workflows.' and 'Ensure our systems are secure and robust by integrating monitoring and security tools, maintaining CI/CD pipelines, and implementing best practices for system reliability.'",
+                    "phrase": "Be hands-on with our DevOps setup, streamlining deployments, monitoring systems, and optimizing infrastructure for reliability and efficiency"
                 },
                 {
-                    "tech_name": "TECH4: LLM Frameworks & Libraries",
-                    "items": []
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The description mentions 'maintaining CI/CD pipelines'.",
+                    "phrase": "maintaining CI/CD pipelines"
                 },
                 {
-                    "tech_name": "TECH5: Vector Stores & Search",
-                    "items": []
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The description states 'Collaborate on technical roadmaps: Participate in designing the technical roadmap, working closely with the CTO and other engineers to shape the future of our product and backend ecosystem.'",
+                    "phrase": "Collaborate on technical roadmaps"
                 },
                 {
-                    "tech_name": "TECH6: MLOps & Data Pipelines",
-                    "items": [
-                        "GitHub Actions",
-                        "CodeCov",
-                        "CI/CD workflows"
-                    ]
-                },
-                {
-                    "tech_name": "TECH7: Data Visualization",
-                    "items": []
-                },
-                {
-                    "tech_name": "TECH8: Data Processing",
-                    "items": []
-                },
-                {
-                    "tech_name": "TECH9: Data Storage",
-                    "items": [
-                        "PostgreSQL",
-                        "Redis"
-                    ]
-                },
-                {
-                    "tech_name": "TECH10: Data Modeling",
-                    "items": []
-                },
-                {
-                    "tech_name": "TECH11: Data Analysis",
-                    "items": []
-                },
-                {
-                    "tech_name": "Other",
-                    "items": [
-                        "FastAPI",
-                        "React",
-                        "REST APIs",
-                        "Webhooks"
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The job description mentions 'our backend infrastructure that is used to serve our AI capabilities' and 'LLM providers' in the tech stack, implying interaction with or serving of AI models, but not the core development or fine-tuning of them.",
+                    "phrase": "serve our AI capabilities"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        {
-                            "phrase": "join our engineering team",
-                            "justification": "Implies working collaboratively within a team."
-                        },
-                        {
-                            "phrase": "working closely with the CTO and other engineers",
-                            "justification": "Highlights the need for collaboration with technical leadership and peers."
-                        }
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "willingness to learn"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        {
-                            "phrase": "willingness to learn",
-                            "justification": "Explicitly states a need for continuous learning, particularly in DevOps."
-                        },
-                        {
-                            "phrase": "fast-growing startup with big ambitions",
-                            "justification": "Suggests a dynamic environment where adaptability is key."
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "working closely with the CTO and other engineers"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        {
-                            "phrase": "drive the advancement of our tech stack and infrastructure",
-                            "justification": "Requires problem-solving to identify and implement improvements."
-                        },
-                        {
-                            "phrase": "scaling our architecture",
-                            "justification": "Scaling infrastructure involves complex problem-solving."
-                        },
-                        {
-                            "phrase": "optimizing infrastructure for reliability and efficiency",
-                            "justification": "Optimization is a problem-solving activity focused on practical outcomes."
-                        },
-                        {
-                            "phrase": "You are sure to be challenged with exciting challenges on a daily basis.",
-                            "justification": "Indicates a role that will present frequent problems to solve."
-                        }
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Bring your ideas and those of your team to life"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        {
-                            "phrase": "Build from scratch: Contribute to the development of new features and products. Bring your ideas and those of your team to life",
-                            "justification": "Encourages initiative and bringing personal ideas to fruition."
-                        },
-                        {
-                            "phrase": "shape the future of our product and backend ecosystem",
-                            "justification": "Suggests taking ownership and influencing the direction of the technology."
-                        }
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "sure to be challenged with exciting challenges on a daily basis"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Cloud platforms and deployment tools"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "FastAPI"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "React"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "PostgreSQL"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "Redis"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLM providers"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Monitoring and CI/CD tools"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "GitHub Actions"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "CodeCov"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "REST APIs"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "Webhooks"
                 }
             ]
         }

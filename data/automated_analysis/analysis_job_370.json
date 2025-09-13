@@ -26,135 +26,121 @@
         "full_text": "Data Engineer\n\nWith a central Data & Analytics team based in Rotterdam, we are looking for a Data Engineer to continue the growth and establishment of Data & Analytics within our business. At the heart of our strategy, we have defined our Data & Analytics journey. Unlocking and exploring data from multiple sources while delivering the right quality of information to our key stakeholders is our key success factor.\n       Responsibilities:\n       Management and Strategy:\n          + Provide contributions to design, deploy, and maintain the business's data platforms while integrating Generative AI solutions.\n          + Implement strategies for acquiring data and promoting new insights across the organization.\n          + Extend the data pipeline through collection, storage, processing, and transformation of large datasets.\n          + Monitor existing metrics, analyze data, and collaborate with other Data and Analytics teams to identify and implement system and process improvements.\n          + Team Management: Guide and upskill yourself and junior engineers, fostering Generative AI adoption across teams\n       Collaboration and Support:\n          + Work closely with the business teams, gathering technical requirements for exceptional data governance.\n          + Define the business's data requirements to ensure high-quality data for use across the department and the entire organization.\n       Technical Responsibilities:\n          + Data Processing Frameworks: Build and maintain optimized high intensity data pipelines that facilitate deeper analysis and reporting.\n          + Data Science Collaboration: Collaborate with senior data science leadership and other teams to leverage data using our tools like Denodo, Power BI and Azure Open AI Services.\n          + ETL Development: Design and develop ETL (extract-transform-load) processes using technologies such as SQL, Python and Java in listed order of importance.\n          + Database Security: Understanding of security tools to protect data."
     },
     "analysis": {
-        "job_profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description heavily emphasizes traditional data engineering tasks like ETL, data pipelines, and data governance. While it mentions integrating Generative AI solutions and Azure OpenAI Services, these appear to be secondary to the core data engineering responsibilities, not the primary focus of building and deploying GenAI applications."
+        "profile_classification": {
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on traditional data engineering tasks such as data pipeline development, ETL processes, data processing, and data governance. While it mentions integrating Generative AI solutions and collaborating with Azure OpenAI Services, these appear to be secondary to the core data engineering responsibilities. The role does not demonstrate a primary focus on building, fine-tuning, or deploying generative models themselves, nor does it emphasize core ML engineering tasks like algorithm development or predictive modeling. Therefore, it does not fit the 'ML Engineer' or 'GenAI Engineer' profiles and is classified as 'Ambiguous' due to its primary focus on data engineering with AI integration rather than AI development itself."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "central Data & Analytics team",
-                        "continue the growth and establishment of Data & Analytics within our business",
-                        "At the heart of our strategy, we have defined our Data & Analytics journey",
-                        "Unlocking and exploring data from multiple sources while delivering the right quality of information to our key stakeholders is our key success factor",
-                        "Implement strategies for acquiring data and promoting new insights across the organization",
-                        "Monitor existing metrics, analyze data, and collaborate with other Data and Analytics teams to identify and implement system and process improvements",
-                        "Work closely with the business teams, gathering technical requirements for exceptional data governance",
-                        "Define the business's data requirements to ensure high-quality data for use across the department and the entire organization"
-                    ],
-                    "justification": "These phrases highlight the role's focus on understanding business needs, aligning data initiatives with strategy, and delivering data-driven insights to stakeholders."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Extend the data pipeline through collection, storage, processing, and transformation of large datasets' directly describes core data engineering activities.",
+                    "phrase": "Extend the data pipeline through collection, storage, processing, and transformation of large datasets"
                 },
                 {
                     "category": "TASK2: Data Engineering",
-                    "phrases": [
-                        "Extend the data pipeline through collection, storage, processing, and transformation of large datasets",
-                        "Data Processing Frameworks: Build and maintain optimized high intensity data pipelines that facilitate deeper analysis and reporting",
-                        "ETL Development: Design and develop ETL (extract-transform-load) processes",
-                        "collecting, storage, processing, and transformation of large datasets"
-                    ],
-                    "justification": "This category directly addresses the core responsibilities of building and maintaining data pipelines, including collection, storage, processing, transformation, and ETL development."
+                    "justification": "The phrase 'Build and maintain optimized high intensity data pipelines that facilitate deeper analysis and reporting' is a clear description of data pipeline construction and maintenance.",
+                    "phrase": "Build and maintain optimized high intensity data pipelines that facilitate deeper analysis and reporting"
                 },
                 {
-                    "category": "TASK3: Modeling",
-                    "phrases": [
-                        "integrating Generative AI solutions",
-                        "leveraging data using our tools like Denodo, Power BI and Azure Open AI Services",
-                        "fostering Generative AI adoption across teams"
-                    ],
-                    "justification": "While not the primary focus, the mention of integrating Generative AI solutions and leveraging Azure OpenAI Services indicates some involvement in applying AI models, albeit in a supporting role to data engineering."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Design and develop ETL (extract-transform-load) processes' explicitly refers to a fundamental data engineering task.",
+                    "phrase": "Design and develop ETL (extract-transform-load) processes"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "phrases": [
-                        "design, deploy, and maintain the business's data platforms",
-                        "ETL Development: Design and develop ETL (extract-transform-load) processes using technologies such as SQL, Python and Java"
-                    ],
-                    "justification": "This task involves the development and maintenance of data platforms and ETL processes, which are software development activities within the data engineering domain."
+                    "justification": "The phrase 'integrating Generative AI solutions' implies developing or integrating software components that utilize GenAI, which falls under software development.",
+                    "phrase": "integrating Generative AI solutions"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'implement system and process improvements' suggests involvement in developing and deploying enhancements to existing systems, a software development aspect.",
+                    "phrase": "implement system and process improvements"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Work closely with the business teams, gathering technical requirements for exceptional data governance' indicates understanding business needs and translating them into technical requirements.",
+                    "phrase": "Work closely with the business teams, gathering technical requirements for exceptional data governance"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Define the business's data requirements to ensure high-quality data for use across the department and the entire organization' shows an understanding of business needs related to data.",
+                    "phrase": "Define the business's data requirements to ensure high-quality data for use across the department and the entire organization"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'leveraging data using our tools like Denodo, Power BI and Azure Open AI Services' implies using data for analysis and potentially model-based insights, though the focus is on leveraging existing services.",
+                    "phrase": "leverage data using our tools like Denodo, Power BI and Azure Open AI Services"
                 },
                 {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "deploy, and maintain the business's data platforms",
-                        "Monitor existing metrics",
-                        "Database Security: Understanding of security tools to protect data"
-                    ],
-                    "justification": "The responsibilities include deploying and maintaining data platforms, monitoring metrics, and understanding security tools, which are operational aspects related to data infrastructure."
-                }
-            ],
-            "technologies": [
-                {
-                    "category": "TECH1: Programming Languages",
-                    "items": [
-                        "SQL",
-                        "Python",
-                        "Java"
-                    ]
+                    "justification": "The phrase 'Provide contributions to design, deploy, and maintain the business's data platforms' includes deployment and maintenance of data platforms, which can overlap with MLOps principles for data infrastructure.",
+                    "phrase": "Provide contributions to design, deploy, and maintain the business's data platforms"
                 },
                 {
-                    "category": "TECH2: Cloud Platforms & Services",
-                    "items": [
-                        "Azure Open AI Services"
-                    ]
-                },
-                {
-                    "category": "TECH3: LLM / Generative Models",
-                    "items": [
-                        "Generative AI"
-                    ]
-                },
-                {
-                    "category": "TECH6: MLOps & Data Pipelines",
-                    "items": [
-                        "ETL"
-                    ]
-                },
-                {
-                    "category": "TECH9: Data Storage",
-                    "items": [
-                        "database"
-                    ]
-                },
-                {
-                    "category": "TECH11: Data Analysis",
-                    "items": [
-                        "Denodo",
-                        "Power BI"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "justification": "The phrase 'fostering Generative AI adoption across teams' implies a need to learn and adapt to new AI technologies and promote their use.",
+                    "phrase": "fostering Generative AI adoption across teams"
                 }
             ],
             "soft_skills": [
                 {
                     "category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "collaborate with other Data and Analytics teams",
-                        "Work closely with the business teams",
-                        "Data Science Collaboration: Collaborate with senior data science leadership and other teams"
-                    ]
+                    "phrase": "collaborate with other Data and Analytics teams"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate with senior data science leadership and other teams"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Work closely with the business teams"
                 },
                 {
                     "category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "Guide and upskill yourself and junior engineers",
-                        "fostering Generative AI adoption across teams"
-                    ]
+                    "phrase": "upskill yourself and junior engineers"
                 },
                 {
                     "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "identify and implement system and process improvements",
-                        "Build and maintain optimized high intensity data pipelines that facilitate deeper analysis and reporting"
-                    ]
+                    "phrase": "identify and implement system and process improvements"
                 },
                 {
                     "category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "continue the growth and establishment of Data & Analytics within our business",
-                        "Implement strategies for acquiring data and promoting new insights across the organization",
-                        "fostering Generative AI adoption across teams"
-                    ]
+                    "phrase": "Guide and upskill yourself and junior engineers"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Generative AI solutions"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure Open AI Services"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Java"
+                },
+                {
+                    "category": "TECH11: Data Analysis",
+                    "phrase": "SQL"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "ETL (extract-transform-load)"
+                },
+                {
+                    "category": "TECH11: Data Analysis",
+                    "phrase": "Power BI"
+                },
+                {
+                    "category": "TECH11: Data Analysis",
+                    "phrase": "Denodo"
                 }
             ]
         }

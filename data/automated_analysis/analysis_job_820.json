@@ -27,97 +27,96 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional frontend development tasks and integration with backend services. While it mentions 'Generative AI outputs', it does not indicate the developer will be building, fine-tuning, or deploying generative models themselves, nor does it involve core ML engineering tasks."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on frontend development tasks using React, Next.js, and Node.js, with integration to a Python backend. While it mentions 'Generative AI outputs' in the context of an image editing canvas, the core responsibilities and required skills are centered around traditional frontend development and user interface enhancement, rather than the design, development, fine-tuning, or deployment of generative models themselves. There is no mention of LLMs, RAG, PEFT, or specific generative AI frameworks. Therefore, it does not align with the 'GenAI Engineer' or 'ML Engineer' profiles and falls under 'Ambiguous' as it's primarily a traditional software engineering role with a tangential mention of AI outputs."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "Build Interactive Front-End Features",
-                        "Develop engaging and dynamic features",
-                        "Integrate with Backend",
-                        "refine the registration and login process",
-                        "Implement tracking features",
-                        "Revamp the user onboarding process"
-                    ],
-                    "justification": "These phrases describe the core activities of building user interfaces, integrating with backend systems, and improving user experience, which are all characteristic of software development, particularly frontend development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The responsibilities involve building interactive front-end features, integrating with a backend, improving user flows, and enhancing onboarding, which are core software development activities for user-facing applications.",
+                    "phrase": "Build Interactive Front-End Features"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "startup client in the entertainment industry",
-                        "gather actionable insights and optimize user experience",
-                        "ensure users can quickly understand and navigate the platform"
-                    ],
-                    "justification": "These phrases indicate an understanding of the business context (startup, entertainment industry) and the need to align technical work with business goals like user experience optimization and platform navigation."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "React.JS",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK4: Software Development",
+                    "justification": "Collaborating with the backend team to integrate front-end with a Python FastAPI backend is a standard software development task.",
+                    "phrase": "Integrate with Backend"
                 },
                 {
-                    "tech_name": "Next.JS",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK4: Software Development",
+                    "justification": "Refining user flows and enhancing onboarding are typical software development tasks focused on user experience.",
+                    "phrase": "Improve User Flows"
                 },
                 {
-                    "tech_name": "Node.JS",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK4: Software Development",
+                    "justification": "Implementing tracking features using analytics tools is part of developing and optimizing user-facing applications.",
+                    "phrase": "User Activity Tracking"
                 },
                 {
-                    "tech_name": "Python",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK4: Software Development",
+                    "justification": "Revamping the user onboarding process, including integrating customer service tools and demo videos, falls under software development for user experience.",
+                    "phrase": "Enhance Onboarding"
                 },
                 {
-                    "tech_name": "FastAPI",
-                    "category": "TECH4: LLM Frameworks & Libraries"
-                },
-                {
-                    "tech_name": "June",
-                    "category": "TECH2: Cloud Platforms & Services"
-                },
-                {
-                    "tech_name": "Google Analytics",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Generative AI outputs' suggests interaction with or manipulation of AI-generated content, which could imply a modeling component, though the primary focus remains on the frontend features.",
+                    "phrase": "Generative AI outputs"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        "Collaborate closely with our backend team"
-                    ],
-                    "justification": "This phrase directly indicates the need for collaboration with other teams."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate closely with our backend team"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        "freelance Frontend developer for a period of 3 months initially with a likely extension",
-                        "someone to start immediately"
-                    ],
-                    "justification": "The freelance nature and immediate start suggest a need for quick adaptation and learning of the project's specifics."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "freelance Frontend developer for a period of 3 months initially with a likely extension following this. This is a fully-remote role for someone to start immediately."
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Build Interactive Front-End Features",
-                        "Improve User Flows",
-                        "Enhance Onboarding"
-                    ],
-                    "justification": "These responsibilities imply solving user-facing problems and refining processes to achieve better outcomes."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "making it smoother and more user-friendly"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        "Develop engaging and dynamic features",
-                        "Refine the registration and login process",
-                        "Revamp the user onboarding process"
-                    ],
-                    "justification": "The tasks involve improving and enhancing existing processes and features, suggesting a need for initiative and taking ownership of these improvements."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "gather actionable insights and optimize user experience"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Freelance"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "React.JS"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Next.JS"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Node.JS"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "Generative AI"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "FastAPI"
+                },
+                {
+                    "category": "TECH11: Data Analysis",
+                    "phrase": "June"
+                },
+                {
+                    "category": "TECH11: Data Analysis",
+                    "phrase": "Google Analytics"
                 }
             ]
         }

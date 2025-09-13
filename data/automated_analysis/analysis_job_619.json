@@ -28,94 +28,97 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes generative AI development, including working with GPT variants and contributing to creative content generation and Q&A applications. It also highlights the integration of these models into production systems and the development of end-to-end services, aligning strongly with the responsibilities of a GenAI Engineer."
+            "rationale": "The job description heavily emphasizes the development and deployment of generative AI applications, including specific mentions of GPT variants and creative content generation. It also highlights building RAG systems (implied by Q&A applications), fine-tuning (implied by developing generative models), and integrating these models into production-grade user-facing software systems, which are core responsibilities of a GenAI Engineer. While ML Engineer tasks are present, the focus on generative models and their application in user-facing systems points more strongly to the GenAI Engineer profile."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK3: Modeling",
-                    "phrase": "Deploying machine learning models: Design, develop and deploy in collaboration with scientists, scalable machine learning models and algorithms that provide content related insights and generative AI applications, ensuring scalability, efficiency, and accuracy.",
-                    "justification": "This phrase directly mentions designing, developing, and deploying machine learning models and algorithms, including generative AI applications, which is core to the modeling task."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'deploying machine learning models: Design, develop and deploy... scalable machine learning models and algorithms' and 'Generative AI Development: Contribute to the development of generative models such directly relate to the creation and adaptation of models.",
+                    "phrase": "Deploying machine learning models: Design, develop and deploy... scalable machine learning models and algorithms"
                 },
                 {
-                    "task": "TASK3: Modeling",
-                    "phrase": "Generative AI Development: Contribute to the development of generative models such as GPT (Generative Pre-trained Transformer) variants or similar architectures for creative content generation, Q&A, translation or other innovative applications.",
-                    "justification": "This explicitly states contribution to the development of generative models like GPT variants for various applications, fitting the modeling category."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Generative AI Development: Contribute to the development of generative models such as GPT (Generative Pre-trained Transformer) variants or similar architectures for creative content generation, Q&A, translation or other innovative applications' explicitly mentions the development of generative models.",
+                    "phrase": "Generative AI Development: Contribute to the development of generative models such as GPT (Generative Pre-trained Transformer) variants or similar architectures for creative content generation, Q&A, translation or other innovative applications"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "Deployment and integration: Work closely with software engineers to integrate machine learning models into production systems. Ensure seamless deployment and efficient model inference in real-time environments.",
-                    "justification": "This describes the integration of ML models into production systems and ensuring efficient inference, which are key software development tasks for deploying AI."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Deployment and integration: Work closely with software engineers to integrate machine learning models into production systems. Ensure seamless deployment and efficient model inference in real-time environments.' describes the process of embedding ML models into software applications.",
+                    "phrase": "Deployment and integration: Work closely with software engineers to integrate machine learning models into production systems. Ensure seamless deployment and efficient model inference in real-time environments."
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrase": "Collaborate with DevOps to implement effective monitoring and maintenance strategies.",
-                    "justification": "This mentions collaboration with DevOps for implementing monitoring and maintenance strategies, which is a core aspect of MLOps."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Collaborate with DevOps to implement effective monitoring and maintenance strategies.' directly refers to operational aspects of deployed models.",
+                    "phrase": "Collaborate with DevOps to implement effective monitoring and maintenance strategies."
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrase": "Owning a service end to end by actively monitoring application health and performance, setting and monitoring relevant metrics and acting accordingly when violated.",
-                    "justification": "This describes end-to-end service ownership including monitoring health, performance, and metrics, which falls under operations engineering."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Owning a service end to end by actively monitoring application health and performance, setting and monitoring relevant metrics and acting accordingly when violated.' describes end-to-end service ownership including monitoring and performance management, which is an MLOps responsibility.",
+                    "phrase": "Owning a service end to end by actively monitoring application health and performance, setting and monitoring relevant metrics and acting accordingly when violated."
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "Maintain clean, scalable code, ensuring reproducibility and easy integration of models into production environments, including CI/CD.",
-                    "justification": "This focuses on writing clean, scalable code for production environments and mentions CI/CD, which are software development practices."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Maintain clean, scalable code, ensuring reproducibility and easy integration of models into production environments, including CI/CD.' points to software engineering best practices for production readiness and continuous integration/delivery.",
+                    "phrase": "Maintain clean, scalable code, ensuring reproducibility and easy integration of models into production environments, including CI/CD."
                 },
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrase": "Collaborate with multidisciplinary teams: Collaborate with product managers, data scientists, and analysts to understand business requirements and translate them into machine learning solutions.",
-                    "justification": "This highlights collaboration to understand business requirements and translate them into technical solutions, indicating business understanding."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Collaborate with product managers, data scientists, and analysts to understand business requirements and translate them into machine learning solutions.' highlights the need to comprehend and translate business needs into technical solutions.",
+                    "phrase": "Collaborate with product managers, data scientists, and analysts to understand business requirements and translate them into machine learning solutions."
                 },
                 {
-                    "task": "TASK3: Modeling",
-                    "phrase": "Evaluating possible architecture solutions by taking into account cost, business requirements, emerging technologies, and technology requirements, like latency, throughput, and scale.",
-                    "justification": "This involves evaluating architectural solutions for models, considering technical requirements and business constraints, which is part of the modeling process."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech": "TECH3: LLM / Generative Models",
-                    "name": "GPT (Generative Pre-trained Transformer)"
-                },
-                {
-                    "tech": "TECH4: LLM Frameworks & Libraries",
-                    "name": "Generative AI"
-                },
-                {
-                    "tech": "TECH6: MLOps & Data Pipelines",
-                    "name": "CI/CD"
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Evaluating possible architecture solutions by taking into account cost, business requirements, emerging technologies, and technology requirements, like latency, throughput, and scale.' involves assessing and selecting appropriate model architectures based on various constraints.",
+                    "phrase": "Evaluating possible architecture solutions by taking into account cost, business requirements, emerging technologies, and technology requirements, like latency, throughput, and scale."
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrase": "Deploying machine learning models: Design, develop and deploy in collaboration with scientists..."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate with software engineers"
                 },
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrase": "Deployment and integration: Work closely with software engineers..."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate with DevOps"
                 },
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrase": "Collaborate with DevOps..."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate with multidisciplinary teams"
                 },
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrase": "Collaborate with multidisciplinary teams: Collaborate with product managers, data scientists, and analysts..."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Owning a service end to end"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Ensuring scalability, efficiency, and accuracy"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
                     "phrase": "Evaluating possible architecture solutions by taking into account cost, business requirements, emerging technologies, and technology requirements, like latency, throughput, and scale."
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "generative AI applications"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrase": "Owning a service end to end by actively monitoring application health and performance..."
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "GPT (Generative Pre-trained Transformer) variants"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "phrase": "emerging technologies"
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "generative AI applications"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "machine learning models and algorithms"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "CI/CD"
                 }
             ]
         }

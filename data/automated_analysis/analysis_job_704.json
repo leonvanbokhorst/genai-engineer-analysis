@@ -27,51 +27,63 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on Salesforce development and CPQ configuration, with a mention of 'AI-driven solutions' that are not elaborated upon. The core responsibilities and technologies described do not align with the specialized tasks of an ML Engineer or GenAI Engineer."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on Salesforce development and CPQ configuration, with a mention of 'AI-driven solutions' for automation. However, it lacks specific details about AI model development, training, or generative AI techniques. The core responsibilities and technologies mentioned (Salesforce, CPQ, CI/CD) are not directly related to the core definitions of ML Engineer or GenAI Engineer. Therefore, it falls under the 'Ambiguous' category as it's primarily a business-focused technical role not directly centered on AI/ML engineering."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrase": "Automating Salesforce and CPQ Configurations",
-                    "justification": "This phrase describes the development of solutions within the Salesforce platform, which is a software development activity."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions 'Salesforce Developer' and 'automating Salesforce and CPQ configurations', which involves building and maintaining software solutions within the Salesforce ecosystem.",
+                    "phrase": "Salesforce Developer"
                 },
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrase": "CPQ Optimization: Configure and automate CPQ workflows",
-                    "justification": "Configuring and automating workflows within a system like CPQ falls under software development and system configuration."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Develop AI-driven solutions to streamline customizations and minimize manual tasks' indicates the development of software to automate processes.",
+                    "phrase": "Develop AI-driven solutions to streamline customizations and minimize manual tasks"
                 },
                 {
-                    "task_name": "TASK5: Operations Engineering (MLOps)",
-                    "phrase": "CI/CD Pipeline Management: Implement and maintain automated deployment processes for Salesforce updates",
-                    "justification": "Implementing and maintaining CI/CD pipelines is a core aspect of operations engineering for software deployment."
+                    "category": "TASK4: Software Development",
+                    "justification": "Configuring and automating workflows within CPQ is a software development task focused on business process automation.",
+                    "phrase": "Configure and automate CPQ workflows to improve quoting accuracy and speed"
                 },
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrase": "By leading the delivery of end-to-end business solutions, you will ensure all systems are aligned with performance, security, and scalability requirements",
-                    "justification": "This phrase indicates a need to understand business needs and align technical solutions with strategic requirements like performance, security, and scalability."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "Salesforce",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Implementing and maintaining automated deployment processes for software updates falls under operations engineering.",
+                    "phrase": "CI/CD Pipeline Management"
                 },
                 {
-                    "tech_name": "CPQ",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Ensuring systems align with performance, security, and scalability requirements, and leading the delivery of end-to-end business solutions, requires understanding business needs and aligning technical delivery.",
+                    "phrase": "ensure all systems are aligned with performance, security, and scalability requirements"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
+                    "category": "SKILL5: Innovation and Ownership",
                     "phrase": "leading the delivery of end-to-end business solutions"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "ensure all systems are aligned with performance, security, and scalability requirements"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "minimize manual tasks"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Salesforce"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "AI-driven solutions"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "CPQ"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "CI/CD Pipeline Management"
                 }
             ]
         }

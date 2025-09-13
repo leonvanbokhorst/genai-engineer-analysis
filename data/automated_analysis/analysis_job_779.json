@@ -26,113 +26,129 @@
         "full_text": "Senior Data Engineer met passie voor data architectuur\n\nAls senior Data Engineer lever je een essentiële bijdrage aan de transformatie naar een digitale en data gedreven schadeverzekeraar en intermediair. Als senior Data Engineer werk je nauw samen met de Data Engineers die in onze Data Squads nieuwe en complexe data preparaties ontwerpen en realiseren. Hierdoor kunnen de BI Experts and ML Engineers in deze Data Squads dataproducten leveren die direct waarde toevoegen voor onze klanten en collega's. Meer specifiek ga je doen:\n     * Ontwikkelen, uitbreiden en verbeteren van (virtuele) ETL jobs en data modellen. Dit voor complexe data extracten, transformaties en preparatie processen in het AAV Data Analytisch Platform. Dit platform is gebaseerd op de tools Denodo, Azure SQL&ADF en Databricks en is gehost op Azure\n     * Coachen van Data Engineers in de Data Squads en in het Data Beheer team\n     * Samenwerken met Data Engineers op het gebied van data modellering, data oplossingen bedenken en root-cause analyses uitvoeren\n\n   Aangezien je veel affiniteit hebt met data architectuur, adviseer je in de rol van data architect organisatie breed over hoe we data en AI technologie zo optimaal mogelijk kunnen integreren in ons landschap. Denk hierbij aan:\n     * Samen met de AAV Enterprise Architect richting geven aan de verdere implementatie van onze strategie op basis van o.a. de data productvisie, de kaders en principes van data architectuur als ook de brede Enterprise architectuur\n     * Afstemmen met stakeholders en zo zeker stellen dat onze data producten ook aansluiten binnen de architectuur van ons moederbedrijf, Nationale Nederlanden\n\nAls AAV stimuleren wij onze medewerkers om iedere dag het beste uit zichzelf te halen. En om het initiatief en de verantwoordelijkheid te nemen in het continu verbeteren van onze dienstverlening. Onze cultuur is professioneel en we werken in een informele sfeer met elkaar samen.\n\n   Bij NN werken we hybride. Deels vanuit huis en deels op kantoor. Teams ontmoeten elkaar digitaal, fysiek of hybride. Je spreekt samen met je team af wat het beste past. We hebben onze kantoren zo ingericht dat er voor elk type werk een passende plek is. De officiële standplaats voor deze functie is Zwolle.\n\n   Als senior Data Engineer werk je in de IJsseltoren, het hoogste punt van Zwolle met uitzicht over de IJssel en de mooie oude binnenstad van Zwolle. Een unieke locatie met een unieke samenstelling van bedrijven: de joint venture tussen ABN AMRO en Nationale-Nederlanden. Je rijdt zo vanaf de A28 naar dit moderne kantorencomplex. Restaurant De Lobby biedt elke dag heerlijke, pure gerechten, dus verruil je werkplek gerust voor een verrassende lunch."
     },
     "analysis": {
-        "job_profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description heavily emphasizes traditional data engineering tasks, data architecture, and ETL processes. While ML Engineers and GenAI Engineers might interact with data, the core responsibilities and technologies listed do not align with the primary focus of building predictive models or generative AI applications. The mention of 'ML Engineers' in the context of Data Squads seems to refer to their use of data products rather than the core tasks of an ML Engineer."
+        "profile_classification": {
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on data engineering tasks, data architecture, and ETL processes. While it mentions ML Engineers as collaborators, the core responsibilities and technologies described (ETL, data modeling, data architecture, Azure SQL, ADF, Databricks) align with a Senior Data Engineer role rather than a GenAI Engineer or ML Engineer. There is no mention of generative models, LLMs, fine-tuning, RAG, or agent development, which are core to the GenAI Engineer profile. The role is primarily about data infrastructure and preparation to enable others (like ML Engineers) to build models, not about building and deploying AI models or applications themselves. Therefore, it falls under the 'Ambiguous' category as it's a technical role but not directly an AI/ML engineering role as defined in the coding book."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "Ontwikkelen, uitbreiden en verbeteren van (virtuele) ETL jobs en data modellen",
-                        "complexe data extracten, transformaties en preparatie processen",
-                        "Samenwerken met Data Engineers op het gebied van data modellering",
-                        "data oplossingen bedenken"
-                    ],
-                    "justification": "These phrases directly relate to the design, building, and maintenance of data pipelines and infrastructure, including data transformation and preparation."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The description explicitly mentions 'Ontwikkelen, uitbreiden en verbeteren van (virtuele) ETL jobs en data modellen' and 'complexe data extracten, transformaties en preparatie processen', which are core data engineering activities.",
+                    "phrase": "Ontwikkelen, uitbreiden en verbeteren van (virtuele) ETL jobs en data modellen"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "transformatie naar een digitale en data gedreven schadeverzekeraar en intermediair",
-                        "dataproducten leveren die direct waarde toevoegen voor onze klanten en collega's",
-                        "organisatie breed over hoe we data en AI technologie zo optimaal mogelijk kunnen integreren in ons landschap",
-                        "richting geven aan de verdere implementatie van onze strategie op basis van o.a. de data productvisie, de kaders en principes van data architectuur als ook de brede Enterprise architectuur",
-                        "Afstemmen met stakeholders en zo zeker stellen dat onze data producten ook aansluiten binnen de architectuur van ons moederbedrijf"
-                    ],
-                    "justification": "These phrases demonstrate an understanding of the business context, strategic goals, and the need to align technical solutions with business needs and enterprise architecture."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'data preparaties ontwerpen en realiseren' directly relates to the design and creation of data pipelines and structures.",
+                    "phrase": "nieuwe en complexe data preparaties ontwerpen en realiseren"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "AAV Data Analytisch Platform",
-                        "gehost op Azure"
-                    ],
-                    "justification": "While not explicitly MLOps, the mention of a 'Data Analytisch Platform' and hosting on 'Azure' implies managing and operating a data infrastructure, which has overlap with operational aspects."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The mention of 'data modellering' is a key aspect of preparing and structuring data for analysis and modeling.",
+                    "phrase": "data modellering"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "ontwerpen en realiseren"
-                    ],
-                    "justification": "This phrase implies the design and creation of data solutions, which can be considered a form of software development within the data engineering context."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "Denodo",
-                    "category": "TECH2"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "Performing 'root-cause analyses' in the context of data solutions is part of ensuring data quality and pipeline integrity.",
+                    "phrase": "root-cause analyses uitvoeren"
                 },
                 {
-                    "tech_name": "Azure SQL",
-                    "category": "TECH9"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role aims to contribute to the 'transformatie naar een digitale en data gedreven schadeverzekeraar en intermediair', indicating a focus on aligning technical work with business strategy.",
+                    "phrase": "transformatie naar een digitale en data gedreven schadeverzekeraar en intermediair"
                 },
                 {
-                    "tech_name": "ADF",
-                    "category": "TECH6"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Advising 'organisatie breed over hoe we data en AI technologie zo optimaal mogelijk kunnen integreren in ons landschap' shows a strategic, business-oriented approach to technology integration.",
+                    "phrase": "hoe we data en AI technologie zo optimaal mogelijk kunnen integreren in ons landschap"
                 },
                 {
-                    "tech_name": "Databricks",
-                    "category": "TECH6"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Aligning with 'de data productvisie, de kaders en principes van data architectuur als ook de brede Enterprise architectuur' demonstrates understanding and application of business and enterprise-level strategies.",
+                    "phrase": "data productvisie, de kaders en principes van data architectuur als ook de brede Enterprise architectuur"
                 },
                 {
-                    "tech_name": "Azure",
-                    "category": "TECH2"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Ensuring 'onze data producten ook aansluiten binnen de architectuur van ons moederbedrijf' requires understanding business and stakeholder alignment at a corporate level.",
+                    "phrase": "onze data producten ook aansluiten binnen de architectuur van ons moederbedrijf"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "While not explicitly MLOps, the mention of 'Azure SQL&ADF' (Azure Data Factory) and 'Databricks' within the context of an 'AAV Data Analytisch Platform' suggests involvement in data pipeline operations and management in a cloud environment.",
+                    "phrase": "Azure SQL&ADF"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves advising on integrating 'AI technologie' and ensuring data products align with enterprise architecture, which indirectly relates to the broader software ecosystem, though not direct application development.",
+                    "phrase": "AI technologie zo optimaal mogelijk kunnen integreren"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        "werk je nauw samen met de Data Engineers",
-                        "Coachen van Data Engineers",
-                        "Samenwerken met Data Engineers",
-                        "organisatie breed over hoe we data en AI technologie zo optimaal mogelijk kunnen integreren",
-                        "Afstemmen met stakeholders",
-                        "informele sfeer met elkaar samen",
-                        "Teams ontmoeten elkaar digitaal, fysiek of hybride"
-                    ],
-                    "justification": "The job description repeatedly emphasizes collaboration, coaching, and alignment with various teams and stakeholders."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "initiatief en de verantwoordelijkheid te nemen in het continu verbeteren van onze dienstverlening"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        "transformatie naar een digitale en data gedreven schadeverzekeraar",
-                        "continu verbeteren van onze dienstverlening"
-                    ],
-                    "justification": "The role is positioned within a transformation and emphasizes continuous improvement, suggesting a need for adaptability."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "nauw samenwerken met de Data Engineers"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "complexe data preparaties ontwerpen en realiseren",
-                        "root-cause analyses uitvoeren",
-                        "data oplossingen bedenken"
-                    ],
-                    "justification": "The role involves designing complex data preparations, performing root-cause analysis, and devising data solutions, all of which require problem-solving skills."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Coachen van Data Engineers"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        "passie voor data architectuur",
-                        "adviseer je in de rol van data architect",
-                        "richting geven aan de verdere implementatie van onze strategie",
-                        "stimuleren wij onze medewerkers om iedere dag het beste uit zichzelf te halen",
-                        "initiatief en de verantwoordelijkheid te nemen"
-                    ],
-                    "justification": "The description highlights passion for architecture, advising on strategy, taking initiative, and responsibility, indicating a need for innovation and ownership."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Samenwerken met Data Engineers"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Samen met de AAV Enterprise Architect"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Afstemmen met stakeholders"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "passie voor data architectuur"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "data oplossingen bedenken"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "root-cause analyses uitvoeren"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "ETL"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "Azure SQL"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "ADF"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Databricks"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Denodo"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "AI technologie"
                 }
             ]
         }

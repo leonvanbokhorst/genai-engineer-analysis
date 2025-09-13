@@ -26,114 +26,99 @@
         "full_text": "Senior Backend Engineer | C++\n\nWe're looking for Senior Backend Engineers to join two closely collaborating platform teams responsible for our core text backend services. The teams build these services by integrating advanced neural networks from our research department. Team one is focused on providing APIs to other teams and our customers, with a particular focus on implementing API requests using neural network inference jobs. Team two focuses on efficiently scheduling these inference jobs on our neural network infrastructure using a custom load balancer that dynamically optimises for latency and throughput. Both teams work closely with the research department to provide state-of-the-art AI technologies to other teams within the company and to our end users., * Design, implement, test and maintain reliable, scalable and efficient back-end services for DeepL's products in C++.\n     * Ensure stable operation in our production environment, e.g. by investigating issues\n     * Take responsibility for interfaces, functionality or entire services, e.g. by evolving shared interfaces\n     * Identify and anticipate requirements for our services; work with your team to meet them, e.g. by solving interesting algorithmic challenges or improving the architecture., * Diverse and internationally distributed team: joining our team means becoming part of a large, global community with people of more than 90 nationalities. We're more than just colleagues; we're a group of professionals with a shared mission to connect diverse cultures. Our global presence is growing-we've doubled in size nearly every year, with our employees based in the UK, Germany, the Netherlands, Poland, the US, and Japan, and we continue to expand our network.\n     * Open communication, regular feedback: as a language-focused company, we value the importance of clear, honest communication. We value smooth collaboration, direct and actionable feedback, and believe that leading with empathy makes us better together.\n     * Remote work, flexible hours: whether you're near or in our hubs in cities like Cologne, Berlin, Amsterdam, London, or prefer the comfort of your own home, you decide where your office is. We offer remote opportunities, flexible working hours and trust in your productivity, all in sync with your team's general locations and time zones to foster effective and seamless collaboration. Our aim is to integrate your work with your lifestyle, ensuring a balance that respects both your needs and our operational requirements.\n     * Regular in-person team events: we bond over vibrant events that are as unique as our team, from local team and business unit gatherings, to new-joiner onboardings, to company-wide events that bring us all together-literally.\n     * Monthly full-day hacking sessions: every month, we have Hack Fridays, where you can spend your time diving into a project you're passionate about and get the opportunity to work with other teams-we value your initiatives, impact, and creativity.\n     * Comprehensive health insurance: your health comes first. With our comprehensive insurance, we'll make sure you're covered from head to toe.\n     * 30 days of annual leave: we value your peace of mind. With 30 days off (excluding public holidays) and access to mental health resources, we make sure you're as strong mentally as you are professionally.\n     * Annual learning budget: because we never stop learning, we've set up an annual budget for your professional development-pick a learning path which contributes to your career development and we'll back you up."
     },
     "analysis": {
-        "job_profile": "ML Engineer",
-        "confidence_score": 4,
-        "rationale": "The role focuses on integrating advanced neural networks into backend services, emphasizing API implementation for neural network inference and efficient scheduling on neural network infrastructure. While it involves software development and operations, the core is the application and optimization of existing neural networks, aligning more with an ML Engineer's role in productionizing research outputs.",
+        "profile_classification": {
+            "profile": "ML Engineer",
+            "rationale": "The job description emphasizes integrating advanced neural networks into backend services, focusing on API implementation with neural network inference jobs and efficient scheduling of these jobs on neural network infrastructure. This aligns with the core responsibilities of an ML Engineer, particularly in productionizing models and managing their operational aspects, rather than building user-facing generative AI applications which is the focus of a GenAI Engineer."
+        },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "phrase": "integrating advanced neural networks from our research department",
-                    "category": "TASK3: Modeling",
-                    "justification": "This phrase directly indicates the use and integration of pre-existing neural network models, which is a core aspect of applying ML models in a production environment."
-                },
-                {
-                    "phrase": "implementing API requests using neural network inference jobs",
                     "category": "TASK4: Software Development",
-                    "justification": "This describes the task of building software (APIs) that utilizes the output of neural networks, a common software development activity in ML-focused roles."
+                    "justification": "The phrase 'Design, implement, test and maintain reliable, scalable and efficient back-end services for DeepL's products in C++' directly relates to traditional software engineering tasks for building and maintaining backend services.",
+                    "phrase": "Design, implement, test and maintain reliable, scalable and efficient back-end services for DeepL's products in C++"
                 },
                 {
-                    "phrase": "efficiently scheduling these inference jobs on our neural network infrastructure using a custom load balancer that dynamically optimises for latency and throughput",
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "This points to the operational aspects of managing and optimizing the execution of ML inference jobs, including load balancing and performance optimization, which falls under MLOps."
+                    "justification": "The phrase 'Ensure stable operation in our production environment, e.g. by investigating issues' points to the operational aspects of maintaining services in production, which is a key part of MLOps.",
+                    "phrase": "Ensure stable operation in our production environment, e.g. by investigating issues"
                 },
                 {
-                    "phrase": "Design, implement, test and maintain reliable, scalable and efficient back-end services for DeepL's products in C++",
                     "category": "TASK4: Software Development",
-                    "justification": "This is a general software development task focused on building and maintaining backend services, which is necessary for deploying ML models."
+                    "justification": "The phrase 'Take responsibility for interfaces, functionality or entire services, e.g. by evolving shared interfaces' describes the ownership and development of software components and their interfaces.",
+                    "phrase": "Take responsibility for interfaces, functionality or entire services, e.g. by evolving shared interfaces"
                 },
                 {
-                    "phrase": "Ensure stable operation in our production environment, e.g. by investigating issues",
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "Ensuring production stability and investigating issues are key responsibilities within MLOps."
-                },
-                {
-                    "phrase": "Take responsibility for interfaces, functionality or entire services, e.g. by evolving shared interfaces",
-                    "category": "TASK4: Software Development",
-                    "justification": "Taking ownership of services and evolving interfaces is a software development responsibility, often related to integrating new functionalities like ML models."
-                },
-                {
-                    "phrase": "Identify and anticipate requirements for our services; work with your team to meet them, e.g. by solving interesting algorithmic challenges or improving the architecture.",
                     "category": "TASK1: Business Understanding",
-                    "justification": "Identifying and anticipating requirements and solving algorithmic challenges implies understanding the business needs and translating them into technical solutions."
+                    "justification": "The phrase 'Identify and anticipate requirements for our services; work with your team to meet them' indicates understanding business needs and translating them into technical requirements.",
+                    "phrase": "Identify and anticipate requirements for our services; work with your team to meet them"
                 },
                 {
-                    "phrase": "solving interesting algorithmic challenges",
                     "category": "TASK3: Modeling",
-                    "justification": "While broad, 'algorithmic challenges' in the context of integrating neural networks can refer to optimizing model performance or adapting algorithms, fitting within the modeling scope."
-                }
-            ],
-            "technologies": [
-                {
-                    "phrase": "C++",
-                    "category": "TECH1: Programming Languages"
+                    "justification": "The phrase 'implementing API requests using neural network inference jobs' implies working with and deploying trained neural networks for specific tasks.",
+                    "phrase": "implementing API requests using neural network inference jobs"
                 },
                 {
-                    "phrase": "neural networks",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'efficiently scheduling these inference jobs on our neural network infrastructure using a custom load balancer that dynamically optimises for latency and throughput' describes the operational management and optimization of AI model execution.",
+                    "phrase": "efficiently scheduling these inference jobs on our neural network infrastructure using a custom load balancer that dynamically optimises for latency and throughput"
                 },
                 {
-                    "phrase": "neural network inference jobs",
-                    "category": "TECH10: Data Modeling"
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'provide state-of-the-art AI technologies to other teams within the company and to our end users' suggests working with and deploying advanced AI models.",
+                    "phrase": "provide state-of-the-art AI technologies to other teams within the company and to our end users"
                 },
                 {
-                    "phrase": "neural network infrastructure",
-                    "category": "TECH6: MLOps & Data Pipelines"
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'solving interesting algorithmic challenges' can relate to the development or optimization of models and algorithms.",
+                    "phrase": "solving interesting algorithmic challenges"
                 }
             ],
             "soft_skills": [
                 {
-                    "phrase": "closely collaborating platform teams",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Diverse and internationally distributed team"
                 },
                 {
-                    "phrase": "work with your team",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Open communication, regular feedback"
                 },
                 {
-                    "phrase": "Diverse and internationally distributed team",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "smooth collaboration"
                 },
                 {
-                    "phrase": "Open communication, regular feedback",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "leading with empathy"
                 },
                 {
-                    "phrase": "smooth collaboration, direct and actionable feedback",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Annual learning budget"
                 },
                 {
-                    "phrase": "leading with empathy",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Take responsibility for interfaces, functionality or entire services"
                 },
                 {
-                    "phrase": "trust in your productivity",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Hack Fridays, where you can spend your time diving into a project you're passionate about"
                 },
                 {
-                    "phrase": "foster effective and seamless collaboration",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "we value your initiatives, impact, and creativity"
                 },
                 {
-                    "phrase": "Hack Fridays, where you can spend your time diving into a project you're passionate about and get the opportunity to work with other teams",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "solving interesting algorithmic challenges"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "C++"
                 },
                 {
-                    "phrase": "we value your initiatives, impact, and creativity",
-                    "category": "SKILL5: Innovation & Ownership"
-                },
-                {
-                    "phrase": "Annual learning budget",
-                    "category": "SKILL2: Learning & Adaptability"
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "neural networks"
                 }
             ]
         }

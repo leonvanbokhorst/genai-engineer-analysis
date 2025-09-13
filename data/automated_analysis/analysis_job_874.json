@@ -27,63 +27,54 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on Salesforce development and CPQ configurations, with a mention of 'AI-driven solutions' for automation. However, it lacks specific details on AI model development, generative techniques, or core ML engineering tasks, making it primarily a software development role within a specific platform."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on Salesforce development and CPQ configuration, with a mention of 'AI-driven solutions' for automation. However, it lacks specific details about generative AI models, LLM frameworks, or core AI/ML modeling tasks that would align it with a GenAI Engineer or ML Engineer profile. The primary focus remains on Salesforce platform customization and CI/CD, making it a non-technical or traditional software engineering role in the context of AI."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        "Automating Salesforce and CPQ Configurations",
-                        "Develop AI-driven solutions to streamline customizations and minimize manual tasks",
-                        "CPQ Optimization: Configure and automate CPQ workflows to improve quoting accuracy and speed",
-                        "CI/CD Pipeline Management: Implement and maintain automated deployment processes for Salesforce updates",
-                        "By leading the delivery of end-to-end business solutions, you will ensure all systems are aligned with performance, security and scalability requirements"
-                    ],
-                    "justification": "These phrases describe the core activities of building, configuring, automating, and deploying software solutions within the Salesforce ecosystem, including CI/CD practices and ensuring system requirements are met."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves developing solutions to streamline customizations and minimize manual tasks within Salesforce, which is a form of software development focused on a specific platform.",
+                    "phrase": "Develop AI-driven solutions to streamline customizations and minimize manual tasks"
                 },
                 {
-                    "task_name": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "CI/CD Pipeline Management: Implement and maintain automated deployment processes for Salesforce updates"
-                    ],
-                    "justification": "This phrase directly refers to the implementation and maintenance of automated deployment processes, which is a key aspect of MLOps, albeit in a Salesforce context."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH1: Programming Languages",
-                    "items": [
-                        "Salesforce"
-                    ],
-                    "justification": "Salesforce is a platform that involves its own development languages and frameworks, often including Apex (a proprietary Java-like language) and Visualforce/Lightning Web Components."
+                    "category": "TASK4: Software Development",
+                    "justification": "Configuring and automating workflows within CPQ (Configure, Price, Quote) is a software development task aimed at improving business processes.",
+                    "phrase": "Configure and automate CPQ workflows to improve quoting accuracy and speed"
                 },
                 {
-                    "tech_name": "TECH6: MLOps & Data Pipelines",
-                    "items": [
-                        "CI/CD Pipeline"
-                    ],
-                    "justification": "CI/CD pipelines are fundamental tools for automated deployment and integration, aligning with MLOps practices."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Implementing and maintaining automated deployment processes for software updates falls under operations engineering, similar to MLOps principles.",
+                    "phrase": "Implement and maintain automated deployment processes for Salesforce updates"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Ensuring systems align with performance, security, and scalability requirements requires understanding business needs and translating them into technical specifications.",
+                    "phrase": "ensure all systems are aligned with performance, security, and scalability requirements"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "streamline customizations and minimize manual tasks",
-                        "improve quoting accuracy and speed"
-                    ],
-                    "justification": "These phrases indicate a focus on identifying inefficiencies and implementing solutions to improve processes and outcomes."
+                    "category": "SKILL5: Innovation and Ownership",
+                    "phrase": "leading the delivery of end-to-end business solutions"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "leading the delivery of end-to-end business solutions",
-                        "ensure all systems are aligned with performance, security and scalability requirements"
-                    ],
-                    "justification": "The emphasis on leading solutions and ensuring system alignment points to a proactive and responsible approach to project delivery."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "minimize manual tasks"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "improve quoting accuracy and speed"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Salesforce"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "AI-driven solutions"
                 }
             ]
         }

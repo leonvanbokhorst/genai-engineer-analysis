@@ -27,58 +27,36 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 1,
-            "rationale": "The job description focuses on traditional Java full-stack development and does not mention any specific AI, ML, or generative AI technologies, tasks, or responsibilities. Therefore, it does not fit any of the specialized AI engineering profiles."
+            "profile": "Ambiguous",
+            "rationale": "The job description is for a 'Java Full Stack Ontwikkelaar' (Java Full Stack Developer) and focuses on general software development tasks without any specific mention of AI, machine learning, or generative models. The responsibilities described, such as creating solutions that meet client needs and improving work processes, are typical of traditional software engineering roles. There is no evidence to classify it as an ML Engineer or GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "zorgt voor oplossingen die perfect aansluiten op de wensen van de klant",
-                            "justification": "This phrase indicates understanding client needs and translating them into technical solutions, which aligns with understanding business context and requirements."
-                        },
-                        {
-                            "phrase": "draagt bij aan de verbetering van onze werkwijze en expertise",
-                            "justification": "This suggests involvement in improving processes and expertise, which is related to understanding and enhancing business operations."
-                        }
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions working on challenging projects, creating solutions that meet client needs, and contributing to the improvement of work processes, which are core aspects of general software development.",
+                    "phrase": "Java Full Stack Ontwikkelaar"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "Java Full Stack Ontwikkelaar",
-                            "justification": "This explicitly states the role is a full-stack developer using Java, which falls under traditional software development."
-                        },
-                        {
-                            "phrase": "werk je aan uitdagende projecten",
-                            "justification": "This implies building and developing software solutions, a core aspect of software development."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'oplossingen die perfect aansluiten op de wensen van de klant' indicates a need to understand and translate client requirements into technical solutions.",
+                    "phrase": "oplossingen die perfect aansluiten op de wensen van de klant"
                 }
             ],
-            "technologies": [],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        {
-                            "phrase": "zorgt voor oplossingen die perfect aansluiten op de wensen van de klant",
-                            "justification": "This implies understanding and meeting client needs, which requires communication and collaboration with clients or stakeholders."
-                        }
-                    ]
+                    "category": "SKILL5: Innovation and Ownership",
+                    "phrase": "draagt bij aan de verbetering van onze werkwijze en expertise"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        {
-                            "phrase": "draagt bij aan de verbetering van onze werkwijze en expertise",
-                            "justification": "This indicates a proactive approach to improving processes and contributing to the team's knowledge, suggesting ownership and initiative."
-                        }
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "uitdagende projecten"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Java"
                 }
             ]
         }

@@ -28,43 +28,41 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description emphasizes 'Azure platform & AI ontwikkelaar' with a focus on implementing platforms related to (generative) AI. This aligns with the GenAI Engineer profile's focus on developing and deploying applications built on generative models, particularly within a cloud environment like Azure."
+            "rationale": "The job description emphasizes 'Azure platform & AI developer' with a focus on 'implementing the platform related to (generative) AI'. This aligns with the GenAI Engineer profile's core responsibilities of developing and deploying AI applications, particularly those involving generative models, and managing the underlying platform infrastructure. While MLOps and Software Development are implied, the explicit mention of 'generative AI' points towards the GenAI Engineer role over a general ML Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrase": "Azure platform & AI ontwikkelaar",
-                    "justification": "The title implies developing and implementing a platform, which involves software development, specifically for AI applications."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Azure platform engineer' and 'inrichten en implementeren van het platform' suggests a focus on building and managing the infrastructure for AI, which falls under Operations Engineering.",
+                    "phrase": "Azure platform engineer"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrase": "inrichten en implementeren van het platform",
-                    "justification": "Setting up and implementing a platform, especially for AI, directly relates to the operational aspects of deploying and managing AI systems."
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'ruime kennis van AI' and 'gerelateerd aan (generatieve) AI' directly points to the core task of working with AI models, including generative ones.",
+                    "phrase": "ruime kennis van AI"
                 },
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrase": "gerelateerd aan (generatieve) AI",
-                    "justification": "The mention of 'generative AI' indicates a focus on the modeling aspect, specifically generative techniques."
-                }
-            ],
-            "technologies": [
+                    "category": "TASK3: Modeling",
+                    "justification": "The specific mention of '(generatieve) AI' indicates a focus on generative modeling techniques.",
+                    "phrase": "(generatieve) AI"
+                },
                 {
-                    "tech_category": "TECH2: Cloud Platforms & Services",
-                    "tech_name": "Azure"
+                    "category": "TASK4: Software Development",
+                    "justification": "The role of an 'ontwikkelaar' (developer) implies building and implementing software solutions, which is a key aspect of Software Development, especially when integrating AI.",
+                    "phrase": "ontwikkelaar"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "phrase": "HBO / WO Niveau",
-                    "justification": "The educational level requirement suggests a need for foundational knowledge and the ability to learn and adapt within the field."
-                },
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "HBO / WO"
+                }
+            ],
+            "technologies": [
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "ruime kennis van AI",
-                    "justification": "Requiring 'extensive knowledge of AI' implies the ability to solve complex problems using AI technologies."
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure"
                 }
             ]
         }

@@ -27,31 +27,29 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description is extremely brief and lacks specific technical details. While it mentions 'AI systems' and 'autonomous operation', it does not provide enough information to categorize it as an ML Engineer or GenAI Engineer, leaning towards ambiguity."
+            "profile": "Ambiguous",
+            "rationale": "The job description is too brief and lacks specific technical details, keywords, or responsibilities that would allow for a definitive classification into ML Engineer or GenAI Engineer. It mentions 'sophisticated AI systems' and 'operate autonomously' but does not specify the type of AI, models, or technologies involved, nor does it detail the core tasks or required skills beyond a very high-level, general statement."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Modeling",
-                    "phrase": "design and implement sophisticated AI systems that operate autonomously",
-                    "justification": "The phrase 'design and implement sophisticated AI systems that operate autonomously' directly implies the creation and deployment of AI models, which falls under the 'Modeling' category."
+                    "category": "TASK3",
+                    "justification": "The phrase 'design and implement sophisticated AI systems that operate autonomously' directly relates to the creation and deployment of AI models and systems.",
+                    "phrase": "design and implement sophisticated AI systems that operate autonomously"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrase": "creating scalable solutions that revolutionize business operations",
-                    "justification": "The mention of 'creating scalable solutions' suggests the development of software or systems that can handle growth and impact business operations, aligning with 'Software Development'."
+                    "category": "TASK4",
+                    "justification": "The phrase 'creating scalable solutions that revolutionize business operations' implies the development of software or systems that can be deployed and impact business processes.",
+                    "phrase": "creating scalable solutions that revolutionize business operations"
                 }
             ],
-            "technologies": [],
             "soft_skills": [
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrase": "design and implement sophisticated AI systems that operate autonomously, creating scalable solutions that revolutionize business operations without requiring human oversight",
-                    "justification": "The description emphasizes creating advanced, autonomous, and revolutionary systems, indicating a need for innovation and taking ownership of complex, self-sufficient solutions."
+                    "category": "SKILL5",
+                    "phrase": "operate autonomously"
                 }
-            ]
+            ],
+            "technologies": []
         }
     }
 }

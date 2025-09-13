@@ -27,76 +27,63 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on full-stack software engineering for a SaaS offering, with no mention of AI, machine learning, or generative models. While it involves software development and operations, it lacks the core elements required for ML Engineer or GenAI Engineer profiles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on full-stack software engineering for a SaaS portal and cloud infrastructure management, with no mention of AI/ML specific tasks, models, or technologies. It falls under traditional software engineering rather than an AI-focused role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "Fullstack Software Engineer",
-                        "cross-functional and tackle diverse challenges across back-end and front-end development",
-                        "build and operate Dataiku Cloud",
-                        "design and implementation of a SaaS portal",
-                        "Develop new features",
-                        "provide the smoothest experience for users",
-                        "benefit the power of DSS in a few clicks on the online environment",
-                        "Ease installation and lifecycle management of the DSS instances running on our infrastructure",
-                        "Improve the quality of the code to ensure high availability and low latency for the platform",
-                        "Work with other Dataiku services to provide a more customized experience for Dataiku Cloud users"
-                    ],
-                    "justification": "The description heavily emphasizes building and operating a SaaS product, developing features, improving code quality, and integrating services, all of which fall under traditional software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description emphasizes developing new features, improving code quality for high availability and low latency, and working with other services to provide a customized experience, all of which are core software development activities for user-facing applications.",
+                    "phrase": "Develop new features to provide the smoothest experience for users"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "operate Dataiku Cloud",
-                        "manage their DSS instance(s)",
-                        "set up some data sources",
-                        "manage the Dataiku subscription",
-                        "Ease installation and lifecycle management of the DSS instances running on our infrastructure",
-                        "ensure high availability and low latency for the platform"
-                    ],
-                    "justification": "The role involves operating and managing the cloud offering, including instance management, setup, and ensuring platform performance, which aligns with operational responsibilities."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "Python (Flask)",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'ease installation and lifecycle management' relates to building and maintaining software components for managing instances, which is part of software development.",
+                    "phrase": "Ease installation and lifecycle management of the DSS instances running on our infrastructure"
                 },
                 {
-                    "tech_name": "VueJS",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK4: Software Development",
+                    "justification": "Improving code quality for high availability and low latency directly relates to the robustness and performance aspects of software development.",
+                    "phrase": "Improve the quality of the code to ensure high availability and low latency for the platform"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Working with other Dataiku services to provide a customized experience involves integrating different software components and developing new functionalities, which falls under software development.",
+                    "phrase": "Work with other Dataiku services to provide a more customized experience for Dataiku Cloud users"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The description mentions building and operating Dataiku Cloud, which is the SaaS offering, and the team's role in managing user instances, inviting users, setting up data sources, and managing subscriptions. This indicates an understanding of the business context and user needs for the SaaS product.",
+                    "phrase": "Your work will help build and operate Dataiku Cloud, the Dataiku SaaS offering based on Dataiku's core product."
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "tackle diverse challenges",
-                        "Develop new features to provide the smoothest experience for users",
-                        "Ease installation and lifecycle management",
-                        "Improve the quality of the code"
-                    ],
-                    "justification": "The role requires addressing various challenges, developing user-centric features, and improving system performance, indicating a problem-solving and pragmatic approach."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "tackle diverse challenges"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        "cross-functional and tackle diverse challenges across back-end and front-end development"
-                    ],
-                    "justification": "Working across both back-end and front-end development implies a need to adapt to different technologies and challenges."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "cross-functional"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        "actively participating in the design and implementation of a SaaS portal",
-                        "build and operate Dataiku Cloud"
-                    ],
-                    "justification": "The description suggests active participation in design and implementation, and responsibility for building and operating the cloud offering, indicating a need for ownership and initiative."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "actively participating in the design and implementation"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "VueJS"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Flask"
                 }
             ]
         }

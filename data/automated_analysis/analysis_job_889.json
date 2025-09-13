@@ -28,124 +28,101 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The role heavily emphasizes designing and building tools for foundation models, including fine-tuning techniques and LLM systems. It also involves developing data pipelines and evaluation tools specifically for generative models, aligning with the core responsibilities of a GenAI Engineer."
+            "rationale": "The job description emphasizes designing and building tools for foundation models, including developing and implementing model architectures, fine-tuning techniques, and innovative LLM systems. It also mentions building data processing pipelines, evaluation tools, and contributing to the development of AI systems with real-world applications. The focus on LLMs, fine-tuning, and building systems around generative models aligns strongly with the GenAI Engineer profile, particularly the emphasis on Modeling (TASK3) using generative techniques and Software Development (TASK4) for applications."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "design and build cutting-edge tools and software that will shape the future of foundation models",
-                        "Develop and implement scalable, efficient model architectures and fine-tuning techniques",
-                        "Optimize training processes and contribute to the development of innovative LLM systems with real-world applications",
-                        "create and tools for continuous evaluation, monitoring, and visualization of training progress",
-                        "develop cutting-edge models",
-                        "create more efficient fine-tuning techniques"
-                    ],
-                    "justification": "These phrases directly relate to the creation, adaptation, and improvement of machine learning models, particularly focusing on foundation and LLM systems, including architecture, fine-tuning, and training optimization."
+                    "category": "TASK3",
+                    "justification": "The phrase 'Develop and implement scalable, efficient model architectures and fine-tuning techniques' directly relates to creating and adapting machine learning models, specifically generative ones given the context of foundation models.",
+                    "phrase": "Develop and implement scalable, efficient model architectures and fine-tuning techniques"
                 },
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "Build robust data processing pipelines to enhance learning and generalization"
-                    ],
-                    "justification": "This phrase explicitly mentions the construction of data processing pipelines, a core component of data engineering, aimed at improving model performance."
+                    "category": "TASK2",
+                    "justification": "The phrase 'Build robust data processing pipelines to enhance learning and generalization' describes the process of creating and maintaining data infrastructure for model training.",
+                    "phrase": "Build robust data processing pipelines to enhance learning and generalization"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "design and build cutting-edge tools and software",
-                        "Build robust data processing pipelines",
-                        "Design and implement benchmarks and evaluation tools",
-                        "Create and tools for continuous evaluation, monitoring, and visualization"
-                    ],
-                    "justification": "The job involves building tools, software, pipelines, and evaluation systems, which are integral to software development, especially when creating applications and infrastructure around AI models."
+                    "category": "TASK3",
+                    "justification": "The phrase 'Design and implement benchmarks and evaluation tools to ensure transparency and safety' involves creating methods to assess and validate model performance and safety, which is part of the modeling process.",
+                    "phrase": "Design and implement benchmarks and evaluation tools to ensure transparency and safety"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Design and implement benchmarks and evaluation tools to ensure transparency and safety",
-                        "Create and tools for continuous evaluation, monitoring, and visualization of training progress"
-                    ],
-                    "justification": "These phrases point to the development of systems for ongoing evaluation, monitoring, and ensuring safety and transparency, which are key aspects of MLOps for production systems."
+                    "category": "TASK3",
+                    "justification": "The phrase 'Optimize training processes and contribute to the development of innovative LLM systems with real-world applications' directly relates to improving model training and building generative AI systems.",
+                    "phrase": "Optimize training processes and contribute to the development of innovative LLM systems with real-world applications"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "used by millions of people worldwide",
-                        "This is your chance to make a real-world impact",
-                        "help democratize AI",
-                        "drive scientific progress"
-                    ],
-                    "justification": "These phrases indicate an awareness of the broad impact and goals of the technology, connecting the technical work to wider applications and societal benefits."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "LLM / Generative Models",
-                    "category": "TECH3",
-                    "evidence": [
-                        "foundation models",
-                        "LLM systems"
-                    ]
+                    "category": "TASK5",
+                    "justification": "The phrase 'Create and tools for continuous evaluation, monitoring, and visualization of training progress' describes aspects of MLOps, focusing on maintaining and observing models in production or during development.",
+                    "phrase": "Create and tools for continuous evaluation, monitoring, and visualization of training progress"
                 },
                 {
-                    "tech_name": "LLM Frameworks & Libraries",
-                    "category": "TECH4",
-                    "evidence": [
-                        "fine-tuning techniques"
-                    ]
+                    "category": "SKILL1",
+                    "justification": "The phrase 'Collaborate with a team of researchers to tackle challenging technical problems' indicates the need for teamwork and communication.",
+                    "phrase": "Collaborate with a team of researchers to tackle challenging technical problems"
                 },
                 {
-                    "tech_name": "Data Modeling",
-                    "category": "TECH10",
-                    "evidence": [
-                        "model architectures"
-                    ]
+                    "category": "SKILL1",
+                    "justification": "The phrase 'publish in top venues' implies communicating research findings effectively.",
+                    "phrase": "publish in top venues"
+                },
+                {
+                    "category": "SKILL5",
+                    "justification": "The phrase 'make a real-world impact by advancing open-source foundation models' suggests taking initiative and ownership of project outcomes.",
+                    "phrase": "make a real-world impact by advancing open-source foundation models"
+                },
+                {
+                    "category": "SKILL2",
+                    "justification": "The phrase 'Gain invaluable new skills as you help democratize AI' implies a focus on learning and adapting to new knowledge and technologies.",
+                    "phrase": "Gain invaluable new skills as you help democratize AI"
+                },
+                {
+                    "category": "TASK3",
+                    "justification": "The phrase 'develop cutting-edge models' directly relates to the core task of creating machine learning models.",
+                    "phrase": "develop cutting-edge models"
+                },
+                {
+                    "category": "TASK3",
+                    "justification": "The phrase 'create more efficient fine-tuning techniques' is specific to adapting and improving generative models.",
+                    "phrase": "create more efficient fine-tuning techniques"
+                },
+                {
+                    "category": "SKILL4",
+                    "justification": "The phrase 'empower responsible innovation' suggests an awareness of ethical considerations in AI development.",
+                    "phrase": "empower responsible innovation"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
                     "category": "SKILL1",
-                    "evidence": [
-                        "Collaborate with a team of researchers",
-                        "collaborating with leading AI researchers and innovative AI companies"
-                    ]
+                    "phrase": "Collaborate with a team of researchers"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "category": "SKILL2",
-                    "evidence": [
-                        "Gain invaluable new skills",
-                        "strong empirical and theoretical understanding of deep learning"
-                    ]
+                    "category": "SKILL1",
+                    "phrase": "publish in top venues"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "category": "SKILL3",
-                    "evidence": [
-                        "tackle challenging technical problems"
-                    ]
-                },
-                {
-                    "skill_name": "Innovation & Ownership",
                     "category": "SKILL5",
-                    "evidence": [
-                        "design and build cutting-edge tools and software",
-                        "contribute to the development of innovative LLM systems",
-                        "advancing open-source foundation models",
-                        "develop cutting-edge models"
-                    ]
+                    "phrase": "make a real-world impact"
                 },
                 {
-                    "skill_name": "Ethical & Legal Responsibility",
+                    "category": "SKILL2",
+                    "phrase": "Gain invaluable new skills"
+                },
+                {
                     "category": "SKILL4",
-                    "evidence": [
-                        "ensure transparency and safety",
-                        "empower responsible innovation"
-                    ]
+                    "phrase": "responsible innovation"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "foundation models"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "LLM systems"
                 }
             ]
         }

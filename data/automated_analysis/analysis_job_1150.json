@@ -28,276 +28,212 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes building applications using generative AI, LLMs, and RAG systems, aligning with the core responsibilities of a GenAI Engineer. It details projects involving AI-powered bots, generative AI features, and integrating AI/ML algorithms for predictive insights, all supported by software development and MLOps tasks."
+            "rationale": "The job description heavily emphasizes the development and integration of AI-driven solutions, specifically mentioning Retrieval-Augmented Generation (RAG) with GPT-4, generative AI, and the creation of AI features within existing products. It also highlights building applications around these models, abstracting AI providers, and developing AI architecture, which are core responsibilities of a GenAI Engineer. While there's mention of machine learning algorithms and data analytics, the primary focus is on leveraging and building with generative AI models and frameworks."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "strategic product line reshaping industries and how people work and learn",
-                            "justification": "This phrase indicates an understanding of the broader business impact and strategic goals of the company's products."
-                        },
-                        {
-                            "phrase": "integrate AI-driven solutions into these exciting product lines, offering unique opportunities to innovate",
-                            "justification": "Highlights the need to align AI solutions with existing product lines and business objectives for innovation."
-                        },
-                        {
-                            "phrase": "modernize our strategic product lines through AI-driven innovations, enhancing performance, scalability, and user engagement",
-                            "justification": "Connects AI initiatives directly to business goals of modernization, performance, and user engagement."
-                        },
-                        {
-                            "phrase": "Enhance product functionality and effectively integrate AI-driven solutions into our cloud services.",
-                            "justification": "Focuses on improving existing products and services through AI integration, a business-oriented goal."
-                        }
-                    ]
+                    "category": "TASK3",
+                    "justification": "The job description explicitly mentions 'implementing machine learning algorithms for predictive insights' and 'AI-driven innovations', which falls under the core process of creating or adapting models.",
+                    "phrase": "implementing machine learning algorithms for predictive insights"
                 },
                 {
-                    "task": "TASK2: Data Engineering",
-                    "phrases": [
-                        {
-                            "phrase": "build a robust logging mechanism to capture KPIs",
-                            "justification": "Involves setting up systems to collect and process data (KPIs) for monitoring and analysis."
-                        },
-                        {
-                            "phrase": "implementing machine learning algorithms for predictive insights",
-                            "justification": "While focused on ML, the 'predictive insights' aspect often requires data preparation and feature engineering."
-                        },
-                        {
-                            "phrase": "data-driven development",
-                            "justification": "Implies a need to work with and leverage data effectively in the development process."
-                        },
-                        {
-                            "phrase": "data engineering",
-                            "justification": "Explicitly mentioned as a skill to expand in the ACRM project."
-                        }
-                    ]
+                    "category": "TASK3",
+                    "justification": "The role involves integrating AI-powered bots using RAG with GPT-4, which is a specific type of generative modeling task.",
+                    "phrase": "Integrate an AI-powered bot using a Retrieval-Augmented Generation (RAG) approach with OpenAI's GPT-4"
                 },
                 {
-                    "task": "TASK3: Modeling",
-                    "phrases": [
-                        {
-                            "phrase": "AI-powered bot using a Retrieval-Augmented Generation (RAG) approach",
-                            "justification": "Directly refers to a generative AI modeling technique (RAG)."
-                        },
-                        {
-                            "phrase": "using generative AI",
-                            "justification": "Explicitly mentions the use of generative AI models."
-                        },
-                        {
-                            "phrase": "implementing machine learning algorithms for predictive insights",
-                            "justification": "Refers to the core task of creating and applying ML models for prediction."
-                        },
-                        {
-                            "phrase": "Crafting AI 2nd Brains -AI-driven summaries of product, domain, or company knowledge",
-                            "justification": "Describes a task that involves using generative AI models to process and summarize information."
-                        }
-                    ]
+                    "category": "TASK3",
+                    "justification": "The description mentions building a game-changing AI feature using generative AI, which is a direct application of generative modeling.",
+                    "phrase": "Build a game-changing AI feature using generative AI"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "Back End Developer",
-                            "justification": "The job title itself indicates a focus on backend software development."
-                        },
-                        {
-                            "phrase": "develop a seamless sidebar widget",
-                            "justification": "Involves building user-facing components, which is part of software development."
-                        },
-                        {
-                            "phrase": "build a robust logging mechanism",
-                            "justification": "Requires software development to create and implement logging systems."
-                        },
-                        {
-                            "phrase": "abstract the AI provider for flexibility",
-                            "justification": "Implies designing and implementing software architecture for modularity and flexibility."
-                        },
-                        {
-                            "phrase": "optimize search functionality",
-                            "justification": "A software development task focused on improving performance of a feature."
-                        },
-                        {
-                            "phrase": "Develop and deploy efficient back-end solutions using serverless technologies",
-                            "justification": "Directly relates to building and deploying backend software."
-                        },
-                        {
-                            "phrase": "Conduct comprehensive code reviews",
-                            "justification": "A standard software development practice."
-                        },
-                        {
-                            "phrase": "writing, testing, and refactoring code",
-                            "justification": "Core activities of software development."
-                        },
-                        {
-                            "phrase": "developing new features with AI",
-                            "justification": "Combines software development with AI integration."
-                        }
-                    ]
+                    "category": "TASK3",
+                    "justification": "The phrase 'abstract the AI provider for flexibility' implies working with and potentially fine-tuning or adapting different generative models.",
+                    "phrase": "abstract the AI provider for flexibility"
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        {
-                            "phrase": "implement feature flags",
-                            "justification": "A deployment and operational strategy for managing features in production."
-                        },
-                        {
-                            "phrase": "build a robust logging mechanism to capture KPIs",
-                            "justification": "Logging and monitoring are key aspects of MLOps for tracking performance and issues."
-                        },
-                        {
-                            "phrase": "optimize search functionality",
-                            "justification": "Performance optimization is crucial for production systems and falls under operations."
-                        },
-                        {
-                            "phrase": "Develop and deploy efficient back-end solutions using serverless technologies",
-                            "justification": "Deployment is a core MLOps activity, especially with serverless architectures."
-                        },
-                        {
-                            "phrase": "leveraging the full potential of cloud-native technologies",
-                            "justification": "Implies managing and operating applications within cloud environments, a key MLOps concern."
-                        },
-                        {
-                            "phrase": "collaborate with a global team to ensure best practices and high standards",
-                            "justification": "Ensuring quality and standards in production environments is an operational concern."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "tech": "TECH3: LLM / Generative Models",
-                    "items": [
-                        "GPT-4",
-                        "generative AI"
-                    ]
+                    "category": "TASK4",
+                    "justification": "The role involves developing a seamless sidebar widget and building a robust logging mechanism, which are traditional software development tasks for user-facing applications.",
+                    "phrase": "develop a seamless sidebar widget"
                 },
                 {
-                    "tech": "TECH4: LLM Frameworks & Libraries",
-                    "items": [
-                        "Retrieval-Augmented Generation (RAG)"
-                    ]
+                    "category": "TASK4",
+                    "justification": "Building a CRM solution with a user-friendly interface and integrating sales, marketing, and support functionalities are core software development responsibilities.",
+                    "phrase": "Develop a cutting-edge CRM solution that seamlessly integrates sales, marketing, and support into a sophisticated, user-friendly interface"
                 },
                 {
-                    "tech": "TECH2: Cloud Platforms & Services",
-                    "items": [
-                        "OpenAI",
-                        "cloud-native technologies",
-                        "serverless technologies"
-                    ]
+                    "category": "TASK4",
+                    "justification": "The description mentions developing and deploying efficient back-end solutions using serverless technologies, which is a key aspect of modern software development.",
+                    "phrase": "Develop and deploy efficient back-end solutions using serverless technologies"
                 },
                 {
-                    "tech": "TECH1: Programming Languages",
-                    "items": [
-                        "AI tools"
-                    ]
+                    "category": "TASK4",
+                    "justification": "The role requires conducting comprehensive code reviews and collaborating with a global team to ensure best practices, which are standard software development practices.",
+                    "phrase": "Conduct comprehensive code reviews and collaborate with a global team"
                 },
                 {
-                    "tech": "TECH10: Data Modeling",
-                    "items": [
-                        "machine learning algorithms"
-                    ]
+                    "category": "TASK4",
+                    "justification": "The job involves creating AI-driven summaries of product, domain, or company knowledge, which requires building software to process and present information.",
+                    "phrase": "Crafting AI 2nd Brains -AI-driven summaries of product, domain, or company knowledge"
                 },
                 {
-                    "tech": "TECH11: Data Analysis",
-                    "items": [
-                        "data analytics modules"
-                    ]
+                    "category": "TASK5",
+                    "justification": "The mention of 'scalable, serverless applications' and 'cloud-native technologies' points towards the operational aspects of deploying and maintaining applications in production environments.",
+                    "phrase": "leveraging the full potential of cloud-native technologies"
                 },
                 {
-                    "tech": "TECH7: Data Visualization",
-                    "items": [
-                        "data visualization tools"
-                    ]
+                    "category": "TASK5",
+                    "justification": "The role involves enhancing performance, scalability, and user engagement through AI-driven innovations, which requires operational considerations for production systems.",
+                    "phrase": "enhancing performance, scalability, and user engagement"
+                },
+                {
+                    "category": "TASK5",
+                    "justification": "The job description mentions integrating AI-driven solutions into cloud services, which implies deployment and maintenance in a cloud environment.",
+                    "phrase": "effectively integrate AI-driven solutions into our cloud services"
+                },
+                {
+                    "category": "TASK1",
+                    "justification": "The job description talks about reshaping industries and how people work and learn, indicating a need to understand the business context and strategic goals.",
+                    "phrase": "reshaping industries and how people work and learn"
+                },
+                {
+                    "category": "TASK1",
+                    "justification": "The role aims to bring '100+ product portfolio into the modern world' using AI, which requires understanding business objectives and translating them into technical solutions.",
+                    "phrase": "bring our 100+ product portfolio into the modern world"
+                },
+                {
+                    "category": "TASK1",
+                    "justification": "The description mentions 'strategic product line' and 'strategic goals' implicitly by discussing reshaping industries and modernizing products.",
+                    "phrase": "strategic product line"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        {
-                            "phrase": "eager to use AI to craft intelligent, forward-thinking solutions",
-                            "justification": "Indicates a proactive and solution-oriented mindset."
-                        },
-                        {
-                            "phrase": "navigate the complexities of integrating AI-driven solutions",
-                            "justification": "Highlights the ability to tackle complex technical challenges."
-                        },
-                        {
-                            "phrase": "collaborating with AI to diagnose and solve problems",
-                            "justification": "Directly points to problem-solving using AI assistance."
-                        },
-                        {
-                            "phrase": "AI as our compass",
-                            "justification": "Suggests a strategic and guiding approach to problem-solving with AI."
-                        }
-                    ]
+                    "category": "SKILL2",
+                    "phrase": "eager to use AI"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        {
-                            "phrase": "talented software engineer who regularly uses AI tools to reach superhero status",
-                            "justification": "Implies a willingness to adopt and master new tools (AI) for enhanced performance."
-                        },
-                        {
-                            "phrase": "eager to use AI",
-                            "justification": "Shows enthusiasm for learning and applying new AI technologies."
-                        },
-                        {
-                            "phrase": "Grow your expertise in AI architecture, API design, and performance optimization.",
-                            "justification": "Explicitly states a desire for continuous learning and skill development in AI-related areas."
-                        },
-                        {
-                            "phrase": "Sharpen your skills in AI integration, UI/UX design, and data-driven development.",
-                            "justification": "Indicates a focus on continuous skill improvement."
-                        },
-                        {
-                            "phrase": "scientifically proven to be the best predictor of success in roles that require rapidly gaining and applying new knowledge.",
-                            "justification": "The emphasis on cognitive assessment highlights the importance of rapid learning and knowledge application."
-                        }
-                    ]
+                    "category": "SKILL2",
+                    "phrase": "Grow your expertise in AI architecture, API design, and performance optimization"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        {
-                            "phrase": "craft intelligent, forward-thinking solutions",
-                            "justification": "Suggests a drive for innovation and creating novel solutions."
-                        },
-                        {
-                            "phrase": "innovate",
-                            "justification": "Explicitly mentions the drive to innovate."
-                        },
-                        {
-                            "phrase": "AI pioneer leading the charge in integrating AI into software engineering",
-                            "justification": "Implies taking initiative and leading in a new technological domain."
-                        },
-                        {
-                            "phrase": "proving it's a force multiplier, not a replacement.",
-                            "justification": "Shows ownership and a proactive stance in demonstrating the value of AI."
-                        },
-                        {
-                            "phrase": "Trilogy is for the brave, the curious, and the forward-thinking.",
-                            "justification": "Describes the company culture, which values proactive and innovative individuals."
-                        }
-                    ]
+                    "category": "SKILL2",
+                    "phrase": "Expand your skill set in data engineering, AI/ML, and UI/UX design"
                 },
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        {
-                            "phrase": "collaborate with a global team",
-                            "justification": "Directly states the need for collaboration."
-                        },
-                        {
-                            "phrase": "collaborating with AI to diagnose and solve problems",
-                            "justification": "Implies a form of interaction and collaboration, albeit with AI."
-                        }
-                    ]
+                    "category": "SKILL2",
+                    "phrase": "navigate the complexities of integrating AI-driven solutions"
+                },
+                {
+                    "category": "SKILL2",
+                    "phrase": "leveraging the full potential of cloud-native technologies"
+                },
+                {
+                    "category": "SKILL2",
+                    "phrase": "rapidly gaining and applying new knowledge"
+                },
+                {
+                    "category": "SKILL2",
+                    "phrase": "demonstrate your coding prowess"
+                },
+                {
+                    "category": "SKILL2",
+                    "phrase": "collaborating with AI to diagnose and solve problems"
+                },
+                {
+                    "category": "SKILL2",
+                    "phrase": "Are you up for the challenge?"
+                },
+                {
+                    "category": "SKILL2",
+                    "phrase": "Trilogy is for the brave, the curious, and the forward-thinking."
+                },
+                {
+                    "category": "SKILL2",
+                    "phrase": "remapping the world of work with AI as our compass"
+                },
+                {
+                    "category": "SKILL1",
+                    "phrase": "collaborate with a global team"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "innovate"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "innovative features"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "innovative solutions"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "Becoming an AI pioneer leading the charge"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "proving it's a force multiplier, not a replacement"
+                },
+                {
+                    "category": "SKILL3",
+                    "phrase": "optimize search functionality"
+                },
+                {
+                    "category": "SKILL3",
+                    "phrase": "performance optimization"
+                },
+                {
+                    "category": "SKILL3",
+                    "phrase": "Develop and deploy efficient back-end solutions"
+                },
+                {
+                    "category": "SKILL3",
+                    "phrase": "robust logging mechanism"
+                },
+                {
+                    "category": "SKILL3",
+                    "phrase": "robust, cloud-native applications"
+                },
+                {
+                    "category": "SKILL3",
+                    "phrase": "high standards"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "GPT-4"
+                },
+                {
+                    "category": "TECH4",
+                    "phrase": "Retrieval-Augmented Generation (RAG)"
+                },
+                {
+                    "category": "TECH2",
+                    "phrase": "OpenAI"
+                },
+                {
+                    "category": "TECH1",
+                    "phrase": "REST API"
+                },
+                {
+                    "category": "TECH10",
+                    "phrase": "machine learning algorithms"
+                },
+                {
+                    "category": "TECH7",
+                    "phrase": "data visualization tools"
+                },
+                {
+                    "category": "TECH2",
+                    "phrase": "cloud-native technologies"
+                },
+                {
+                    "category": "TECH2",
+                    "phrase": "serverless technologies"
                 }
             ]
         }

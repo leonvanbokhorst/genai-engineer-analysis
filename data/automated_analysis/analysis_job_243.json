@@ -28,21 +28,28 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 5,
-            "rationale": "The job title explicitly states 'Generative AI Engineer'. The responsibilities, though not detailed in this brief description, would inherently align with the definition of a GenAI Engineer focusing on generative models and applications."
+            "rationale": "The job title explicitly states 'Generative AI Engineer', and the core responsibilities and technologies align with the definition of a GenAI Engineer, focusing on generative models and building applications around them."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "Generative AI Engineer"
-                    ],
-                    "justification": "The job title directly implies a focus on generative AI, which falls under the 'Modeling' category, specifically concerning generative techniques."
+                    "category": "TASK3",
+                    "justification": "The job title 'Generative AI Engineer' directly implies work with generative models, which falls under the Modeling category.",
+                    "phrase": "Generative AI"
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "As a Generative AI Engineer, building applications around generative models is a core responsibility, fitting the Software Development category.",
+                    "phrase": "Engineer"
                 }
             ],
-            "technologies": [],
-            "soft_skills": []
+            "soft_skills": [],
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "Generative AI"
+                }
+            ]
         }
     }
 }

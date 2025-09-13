@@ -27,89 +27,74 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on software development and data engineering with a general mention of AI. However, it lacks specific details about building, fine-tuning, or deploying generative models, which are core to a GenAI Engineer role. The emphasis on research and audit processes suggests a broader, less specialized AI focus."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on software development and data engineering with a general mention of AI and research affinity. It lacks specific details about generative AI models, LLM frameworks, or advanced modeling techniques that would align it with a GenAI Engineer profile. The emphasis on 'improving the financial audit process' and 'multidisciplinary research team' suggests a broader application of technology rather than a specialized AI role. The mention of AI is in the context of 'deploying artificial intelligence' as a current development, not as a core requirement for building AI systems."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "Software Development",
-                    "phrase": "software en infrastructuur",
-                    "justification": "This phrase directly refers to the creation and maintenance of software and infrastructure, which aligns with the definition of Software Development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'bouw van software' directly indicates software development responsibilities.",
+                    "phrase": "bouw van software"
                 },
                 {
-                    "task": "Operations Engineering (MLOps)",
-                    "phrase": "plan, monitor en onderhoud je de werking ervan",
-                    "justification": "This describes the operational aspects of managing and maintaining systems, which is a key component of Operations Engineering (MLOps)."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'data engineering' is explicitly mentioned as part of the role.",
+                    "phrase": "data engineering"
                 },
                 {
-                    "task": "Business Understanding",
-                    "phrase": "verbetering van het (financial) auditproces",
-                    "justification": "This indicates an understanding of business processes (financial audit) and the goal of improving them, aligning with Business Understanding."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'plan, monitor en onderhoud je de werking ervan' describes operational aspects of software and infrastructure.",
+                    "phrase": "plan, monitor en onderhoud je de werking ervan"
                 },
                 {
-                    "task": "Business Understanding",
-                    "phrase": "multidisciplinair onderzoeksteam",
-                    "justification": "Involvement in research teams suggests an understanding of broader research goals and the ability to contribute to them, fitting Business Understanding."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The mention of 'verbetering van het (financial) auditproces' and working in a 'multidisciplinair onderzoeksteam' implies understanding business context and research goals.",
+                    "phrase": "verbetering van het (financial) auditproces"
                 },
                 {
-                    "task": "Software Development",
-                    "phrase": "ontwikkelteam",
-                    "justification": "Working within a development team implies participation in software development activities."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Working in a 'multidisciplinair onderzoeksteam' requires understanding broader research and business objectives.",
+                    "phrase": "multidisciplinair onderzoeksteam"
                 },
                 {
-                    "task": "Business Understanding",
-                    "phrase": "presentaties, discussies en workshops",
-                    "justification": "Contributing to presentations, discussions, and workshops indicates engagement with stakeholders and communication of technical concepts in a business context."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'lever je bijdragen aan presentaties, discussies en workshops' indicates communication and collaboration activities.",
+                    "phrase": "lever je bijdragen aan presentaties, discussies en workshops"
                 },
                 {
-                    "task": "Software Development",
-                    "phrase": "vernieuwende ideeën",
-                    "justification": "Applying innovative ideas in the context of software development aligns with the creative aspect of Software Development."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "justification": "The phrase 'zet je kennis en kunde op vakbekwame wijze in aan de hand van vernieuwende ideeën' suggests applying knowledge creatively to solve problems.",
+                    "phrase": "zet je kennis en kunde op vakbekwame wijze in aan de hand van vernieuwende ideeën"
                 },
                 {
-                    "task": "Business Understanding",
-                    "phrase": "betrokkenheid bij het werk van de Algemene Rekenkamer",
-                    "justification": "Demonstrates an understanding of and commitment to the specific domain and mission of the organization, which is part of Business Understanding."
-                },
-                {
-                    "task": "Software Development",
-                    "phrase": "antenne voor innovatie en actuele ontwikkelingen zoals de inzet van artificiële intelligentie",
-                    "justification": "This phrase indicates an awareness and interest in applying new technologies, including AI, within a software development context."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "artificiële intelligentie",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "justification": "The phrase 'antenne voor innovatie en actuele ontwikkelingen' shows a proactive interest in new developments.",
+                    "phrase": "antenne voor innovatie en actuele ontwikkelingen"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "Innovation & Ownership",
-                    "phrase": "vernieuwende ideeën",
-                    "justification": "The phrase 'vernieuwende ideeën' (innovative ideas) directly points to a proactive and innovative mindset."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "lever je bijdragen aan presentaties, discussies en workshops"
                 },
                 {
-                    "skill": "Learning & Adaptability",
-                    "phrase": "antenne voor innovatie en actuele ontwikkelingen",
-                    "justification": "Having an 'antenna for innovation and current developments' implies a continuous learning and adaptability to new trends."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "zet je kennis en kunde op vakbekwame wijze in aan de hand van vernieuwende ideeën"
                 },
                 {
-                    "skill": "Communication & Collaboration",
-                    "phrase": "presentaties, discussies en workshops",
-                    "justification": "Participation in presentations, discussions, and workshops requires strong communication and collaboration skills."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "antenne voor innovatie en actuele ontwikkelingen"
                 },
                 {
-                    "skill": "Business Understanding",
-                    "phrase": "betrokkenheid bij het werk van de Algemene Rekenkamer",
-                    "justification": "Demonstrating 'involvement with the work of the General Audit Chamber' shows an understanding of the business context."
-                },
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "affiniteit met onderzoek"
+                }
+            ],
+            "technologies": [
                 {
-                    "skill": "Problem Solving & Pragmatism",
-                    "phrase": "verbetering van het (financial) auditproces",
-                    "justification": "Working on the 'improvement of the (financial) audit process' implies problem-solving and a pragmatic approach to enhance existing systems."
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "artificiële intelligentie"
                 }
             ]
         }

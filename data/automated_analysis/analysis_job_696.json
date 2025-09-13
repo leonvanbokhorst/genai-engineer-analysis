@@ -28,128 +28,101 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The role heavily emphasizes integrating generative AI tools into products and engineering processes, focusing on leveraging and fine-tuning existing models rather than building new ones. It involves developing features, creating content, and building AI-powered copilots and learning experiences, aligning with the core responsibilities of a GenAI Engineer."
+            "rationale": "The job description heavily emphasizes integrating generative AI tools into products and development processes, focusing on leveraging and fine-tuning existing models rather than building new ones from scratch. It highlights core responsibilities like prompt engineering (implied through 'using AI tools to expedite delivery'), building RAG-like systems (implied by 'Coachbot: A learning copilot that integrates with existing apps, guiding learning paths, recommending next steps'), and developing applications around generative AI. The role involves building user-facing features and systems ('TeachTap', 'TeachTower', 'Coachbot') and enhancing engineering efficiency through AI, aligning perfectly with the definition and evidence profile of a GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrases": [
-                        "deeply understand our environment and needs",
-                        "align technical solutions with strategic goals",
-                        "translate business needs into technical requirements"
-                    ],
-                    "justification": "Phrases like 'deeply understand our environment and needs' and the implicit need to align AI adoption with product goals indicate an understanding of the business context."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves 'developing fully functional features' and building 'user-facing software systems' like 'TeachTap', 'TeachTower', and 'Coachbot', which are core to software development.",
+                    "phrase": "Developing fully functional features"
                 },
                 {
-                    "task": "TASK3: Modeling",
-                    "phrases": [
-                        "adopting generative AI tools",
-                        "Bringing historical figures to life using AI",
-                        "Utilizing the latest in generative AI",
-                        "learning copilot that integrates with existing apps",
-                        "leveraging and fine-tuning existing models",
-                        "Performing experiments with AI to enhance engineering processes, including decomposition, solution design, code generation, and troubleshooting",
-                        "integrates generative AI"
-                    ],
-                    "justification": "The job description explicitly mentions 'generative AI tools', 'leveraging and fine-tuning existing models', and building AI-powered features like a 'learning copilot', which falls under the modeling category, specifically generative techniques."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions 'building and maintaining production-grade security-aware user-facing software systems' in the context of products like 'Coachbot' which integrates with existing apps.",
+                    "phrase": "Coachbot: A learning copilot that integrates with existing apps, guiding learning paths, recommending next steps, and rewarding daily progress."
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrases": [
-                        "Lead Software Engineer",
-                        "seasoned software engineer",
-                        "integrating AI into engineering practices",
-                        "into our products",
-                        "TeachTap: Bringing historical figures to life using AI, offering an engaging, TikTok-like learning experience",
-                        "TeachTower: A game-based motivation system inspired by popular games like Roblox and Minecraft, designed to make learning irresistibly fun.",
-                        "Coachbot: A learning copilot that integrates with existing apps, guiding learning paths, recommending next steps, and rewarding daily progress.",
-                        "Developing fully functional features, using AI tools to expedite delivery and enhance quality.",
-                        "advocate for new tool adoption, or even spearhead the creation of small tools, bots, and frameworks to enhance our technical setup.",
-                        "primary tech stack is AWS Serverless with TypeScript",
-                        "versatile engineers who can excel in a variety of technical environments and challenges"
-                    ],
-                    "justification": "The role is for a 'Lead Software Engineer' focused on integrating AI into 'products' and 'developing fully functional features'. The mention of 'AWS Serverless with TypeScript' and building 'tools, bots, and frameworks' strongly indicates software development responsibilities."
+                    "category": "TASK3: Modeling",
+                    "justification": "The job explicitly states 'leveraging and fine-tuning existing models to maximize efficiency' and 'Performing experiments with AI to enhance engineering processes, including decomposition, solution design, code generation, and troubleshooting', indicating work with generative models.",
+                    "phrase": "leveraging and fine-tuning existing models"
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "using AI tools to increase efficiency and solve engineering tasks like coding and testing",
-                        "Maintaining high-quality standards in our codebases while ensuring high leverage of AI tools across our engineering teams",
-                        "derive recipes and playbooks to be adopted by the broader engineering team",
-                        "Documenting best practices and techniques in guides that enable others to harness the power of generative AI effectively",
-                        "Drive transformative change by establishing a framework that seamlessly integrates generative AI, significantly amplifying engineering productivity."
-                    ],
-                    "justification": "The emphasis on creating 'playbooks', 'guides', and 'frameworks' for broader adoption, along with ensuring 'high leverage of AI tools' and 'high-quality standards', points towards operationalizing and standardizing AI usage within the engineering team."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "AWS Serverless",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK3: Modeling",
+                    "justification": "The role involves using AI for 'code generation' and 'troubleshooting', which are applications of generative models in engineering tasks.",
+                    "phrase": "Performing experiments with AI to enhance engineering processes, including decomposition, solution design, code generation, and troubleshooting."
                 },
                 {
-                    "technology": "TypeScript",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The role requires establishing 'a framework that seamlessly integrates generative AI, significantly amplifying engineering productivity' and deriving 'recipes and playbooks to be adopted by the broader engineering team', which involves operationalizing AI for wider use.",
+                    "phrase": "Drive transformative change by establishing a framework that seamlessly integrates generative AI, significantly amplifying engineering productivity."
                 },
                 {
-                    "technology": "generative AI tools",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The description mentions 'Maintaining high-quality standards in our codebases while ensuring high leverage of AI tools across our engineering teams', which implies operational aspects of deploying and managing AI tools.",
+                    "phrase": "Maintaining high-quality standards in our codebases while ensuring high leverage of AI tools across our engineering teams"
                 },
                 {
-                    "technology": "AI",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves understanding 'our environment and needs' and aligning AI integration with 'strategic goals' by proposing and experimenting with new tools to 'evolve our processes'.",
+                    "phrase": "deeply understand our environment and needs"
                 },
                 {
-                    "technology": "Roblox",
-                    "category": "TECH4: LLM Frameworks & Libraries"
-                },
-                {
-                    "technology": "Minecraft",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The goal is to 'advocate for new tool adoption, or even spearhead the creation of small tools, bots, and frameworks to enhance our technical setup', which requires understanding business needs and translating them into technical solutions.",
+                    "phrase": "advocate for new tool adoption, or even spearhead the creation of small tools, bots, and frameworks to enhance our technical setup"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "lead the charge in adopting generative AI tools",
-                        "freedom to propose and experiment with new tools",
-                        "advocate for new tool adoption",
-                        "spearhead the creation of small tools, bots, and frameworks",
-                        "drive for innovation are crucial"
-                    ],
-                    "justification": "Phrases like 'lead the charge', 'freedom to propose and experiment', 'spearhead the creation', and 'drive for innovation' highlight a proactive, ownership-driven, and innovative mindset."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "capacity for adapting to new technologies"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "deep interest in AI",
-                        "capacity for adapting to new technologies",
-                        "interest in the latest generative AI developments",
-                        "versatile engineers who can excel in a variety of technical environments and challenges",
-                        "not confined to outdated technologies; we encourage an environment that thrives on dynamic tech stacks, fostering continuous innovation."
-                    ],
-                    "justification": "The job description emphasizes 'deep interest in AI', 'capacity for adapting to new technologies', and working with 'dynamic tech stacks', indicating a strong need for continuous learning and adaptability."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "an environment that thrives on dynamic tech stacks, fostering continuous innovation."
                 },
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "integral part of our existing engineering team, working collaboratively",
-                        "derive recipes and playbooks to be adopted by the broader engineering team",
-                        "Documenting best practices and techniques in guides that enable others to harness the power of generative AI effectively"
-                    ],
-                    "justification": "The role requires working 'collaboratively' within the team and creating 'playbooks' and 'guides' for the 'broader engineering team', indicating a need for effective communication and knowledge sharing."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "working collaboratively on our suite of products"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "using AI tools to increase efficiency and solve engineering tasks",
-                        "Performing experiments with AI to enhance engineering processes, including decomposition, solution design, code generation, and troubleshooting",
-                        "Drive transformative change by establishing a framework that seamlessly integrates generative AI, significantly amplifying engineering productivity."
-                    ],
-                    "justification": "The focus on using AI to 'solve engineering tasks', 'enhance engineering processes', and 'amplify engineering productivity' demonstrates a pragmatic approach to problem-solving."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "drive for innovation"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "freedom to propose and experiment with new tools"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "solve engineering tasks like coding and testing"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "AWS Serverless"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "TypeScript"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "generative AI tools"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "generative AI"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "LangChain"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "LangGraph"
                 }
             ]
         }

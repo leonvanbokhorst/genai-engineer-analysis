@@ -27,66 +27,83 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 1,
-            "rationale": "The job description focuses on compiler engineering for DPUs, specifically optimizing Clang/LLVM for custom processors. While it mentions AI and HPC contexts, the core tasks and technologies are not directly related to building or deploying AI models or GenAI applications, making it fall outside the scope of ML Engineer or GenAI Engineer profiles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on compiler engineering for DPUs, involving optimization of compiler passes and hardware/software co-design. While it mentions AI, HPC, and data center technologies as contexts, the core tasks and technologies described (Clang/LLVM, compiler optimizations, register allocation, scheduling) do not align with the core responsibilities or technologies of an ML Engineer or GenAI Engineer as defined in the Coding Book. The role is primarily traditional software engineering with a specialization in compilers, not directly involving the development, training, or deployment of AI models themselves."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "define, design and optimize DPU Compiler SW",
-                        "Invent and improve middle-end and back-end compiler optimizations in Clang/LLVM",
-                        "Implement complex back-end passes (register allocation, scheduling and others)",
-                        "Drive new compiler features that improve programmability of NVIDIA DPUs",
-                        "contribute to definition of DPU programming model",
-                        "Participate in complete HW / SW co-design cycle from pre-silicon to launch to customer support"
-                    ],
-                    "justification": "These phrases describe the development, implementation, and optimization of software components (compiler optimizations, back-end passes, new features) for specific hardware (DPUs), which aligns with the core principles of software development, particularly in a systems programming context."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves inventing, improving, and implementing compiler optimizations, back-end passes, and driving new compiler features, which are core software development activities within the context of compiler engineering.",
+                    "phrase": "Invent and improve middle-end and back-end compiler optimizations in Clang/LLVM targeting NVIDIA DPU"
                 },
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "Partner with a geographically distributed organization spanning Networking SW, HW, Customers",
-                        "Be part of a team that is at the centre of AI, HPC and data centre technologies."
-                    ],
-                    "justification": "These phrases indicate the need to collaborate with various stakeholders (SW, HW, Customers) and understand the broader technological landscape (AI, HPC, data centre) in which the DPU compiler operates, reflecting business and domain understanding."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Clang/LLVM",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK4: Software Development",
+                    "justification": "Implementing complex back-end passes like register allocation and scheduling are detailed software engineering tasks for high-performance processors.",
+                    "phrase": "Implement complex back-end passes (register allocation, scheduling and others) for high performance custom processors that meet hard real time performance requirements"
                 },
                 {
-                    "technology": "NVIDIA DPU",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK4: Software Development",
+                    "justification": "Driving new compiler features and contributing to the definition of a programming model are software development tasks focused on improving the usability and capabilities of the DPU.",
+                    "phrase": "Drive new compiler features that improve programmability of NVIDIA DPUs and contribute to definition of DPU programming model"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Participating in the complete HW/SW co-design cycle from pre-silicon to launch and customer support involves deep software engineering involvement in the product lifecycle.",
+                    "phrase": "Participate in complete HW / SW co-design cycle from pre-silicon to launch to customer support"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Partnering with a distributed organization across Networking SW, HW, and Customers to define, design, and optimize DPU Compiler SW indicates a need to understand business needs and align technical solutions.",
+                    "phrase": "Partner with a geographically distributed organization spanning Networking SW, HW, Customers to define, design and optimize DPU Compiler SW at NVIDIA."
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Partner with a geographically distributed organization spanning Networking SW, HW, Customers"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Partner with a geographically distributed organization spanning Networking SW, HW, Customers"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "optimize DPU Compiler SW",
-                        "Invent and improve middle-end and back-end compiler optimizations",
-                        "Implement complex back-end passes",
-                        "high performance custom processors that meet hard real time performance requirements"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "optimize DPU Compiler SW"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "Invent and improve middle-end and back-end compiler optimizations",
-                        "Drive new compiler features",
-                        "Participate in complete HW / SW co-design cycle"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Invent and improve middle-end and back-end compiler optimizations"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Implement complex back-end passes"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "meet hard real time performance requirements"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Drive new compiler features"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "contribute to definition of DPU programming model"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Participate in complete HW / SW co-design cycle"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Clang/LLVM"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "SW"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "HW"
                 }
             ]
         }

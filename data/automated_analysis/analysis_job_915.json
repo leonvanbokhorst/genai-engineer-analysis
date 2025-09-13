@@ -27,100 +27,87 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional PHP and front-end development (TypeScript, Next.js) with mentions of cloud migration and testing. While generative AI is mentioned as an area of innovation, it is not a core responsibility or a primary focus of the role."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on traditional PHP and front-end (TypeScript, Next.js) development, with mentions of cloud migration (GCP) and automated testing. While generative AI is mentioned as an area of innovation and a new writing product is being developed, the core responsibilities and technologies described do not align with the specialized skills of an ML Engineer or GenAI Engineer. The role appears to be primarily a software development position with some exposure to AI concepts rather than a dedicated AI engineering role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "PHP developer",
-                        "Het platform is gebouwd in PHP met het framework Yii",
-                        "voornamelijk werken aan nieuwe projecten, onderhoud en het bouwen van nieuwe features",
-                        "De voorkant is gebouwd met TypeScript en JavaScript, waarbij Next.js als framework wordt gebruikt"
-                    ],
-                    "justification": "These phrases describe the core activities of building and maintaining software applications using specific programming languages and frameworks, which falls under traditional software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description explicitly mentions working on new projects, maintenance, and building new features using PHP and the Yii framework, which are core software development activities.",
+                    "phrase": "nieuwe projecten, onderhoud en het bouwen van nieuwe features"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Momenteel wordt de overstap naar Google Cloud gemaakt, voorheen draaide de infrastructuur op DigitalOcean",
-                        "testing worden grote stappen gezet",
-                        "Waar er eerder helemaal geen geautomatiseerde tests waren, is de nieuwe codebase nu grotendeels voorzien van automatiche tests",
-                        "Het doel is om dit in 2025 volledig te automatiseren"
-                    ],
-                    "justification": "These phrases relate to infrastructure management (cloud migration), and the implementation and automation of testing, which are aspects of operations and deployment."
+                    "category": "TASK4: Software Development",
+                    "justification": "The mention of front-end development using TypeScript, JavaScript, and Next.js indicates a need for building user-facing applications.",
+                    "phrase": "De voorkant is gebouwd met TypeScript en JavaScript, waarbij Next.js als framework wordt gebruikt"
                 },
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "stappen in de implementatie van generatieve AI",
-                        "een nieuw schrijfproduct, waarvoor grondig onderzoek is gedaan en dat ze in-house willen ontwikkelen"
-                    ],
-                    "justification": "The mention of 'generative AI' and developing a 'writing product' implies some level of model implementation or adaptation, though the depth is not specified."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The text highlights significant progress in automated testing, moving from no tests to a largely automated codebase, with a goal of full automation, which falls under operations and deployment practices.",
+                    "phrase": "Waar er eerder helemaal geen geautomatiseerde tests waren, is de nieuwe codebase nu grotendeels voorzien van automatische tests. Het doel is om dit in 2025 volledig te automatiseren."
                 },
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "MVO Productorganisatie",
-                        "Om verder te groeien blijft het bedrijf innoveren",
-                        "bijdragen aan de groei van het platform"
-                    ],
-                    "justification": "These phrases indicate an understanding of the company's mission (MVO), strategic goals (growth, innovation), and how the role contributes to business objectives."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "PHP",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK3: Modeling",
+                    "justification": "The job description mentions 'generatieve AI' as an area of innovation and a new 'schrijfproduct' being developed in-house, implying work with generative models, though the specifics are not detailed.",
+                    "phrase": "de implementatie van generatieve AI"
                 },
                 {
-                    "technology": "Yii",
-                    "category": "TECH1: Programming Languages"
-                },
-                {
-                    "technology": "TypeScript",
-                    "category": "TECH1: Programming Languages"
-                },
-                {
-                    "technology": "JavaScript",
-                    "category": "TECH1: Programming Languages"
-                },
-                {
-                    "technology": "Next.js",
-                    "category": "TECH1: Programming Languages"
-                },
-                {
-                    "technology": "Google Cloud",
-                    "category": "TECH2: Cloud Platforms & Services"
-                },
-                {
-                    "technology": "DigitalOcean",
-                    "category": "TECH2: Cloud Platforms & Services"
-                },
-                {
-                    "technology": "generatieve AI",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The description mentions a 'schrijfproduct' that requires thorough research and in-house development, indicating a need to understand business goals and translate them into product development.",
+                    "phrase": "een nieuw schrijfproduct, waarvoor grondig onderzoek is gedaan en dat ze in-house willen ontwikkelen."
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "innoveren",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Het bedrijf innoveren"
                 },
                 {
-                    "skill": "grote stappen gezet",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "innoveren"
                 },
                 {
-                    "skill": "grondig onderzoek is gedaan",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "grote stappen gezet"
                 },
                 {
-                    "skill": "bijdragen aan de groei van het platform",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "grondig onderzoek is gedaan"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "PHP"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "TypeScript"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "JavaScript"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "Next.js"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Google Cloud"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "DigitalOcean"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "automatische tests"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "generatieve AI"
                 }
             ]
         }

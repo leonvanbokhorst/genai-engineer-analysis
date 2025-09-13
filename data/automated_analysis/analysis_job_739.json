@@ -27,70 +27,38 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description is very high-level and focuses on using AI for marketing optimization rather than core AI/ML development. It lacks specific technical details about modeling, software development, or MLOps required for ML Engineer or GenAI Engineer roles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on applying AI solutions and data analysis for marketing optimization. While it mentions AI and data, it lacks specific details about core AI engineering tasks like model development, fine-tuning, RAG systems, or MLOps, which are crucial for classifying it as an ML Engineer or GenAI Engineer. The emphasis on 'applying AI solutions' and 'data analysis for marketing' suggests a more general or business-oriented role, potentially using AI tools rather than building them, aligning with the 'Ambiguous' profile."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "optimalisatie van marketingactiviteiten",
-                            "justification": "This phrase directly relates to understanding business goals (marketing optimization) and how technical solutions can contribute to them."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'draag je bij aan het succes en de optimalisatie van marketingactiviteiten' indicates an understanding of business goals and aligning technical contributions to marketing success.",
+                    "phrase": "draag je bij aan het succes en de optimalisatie van marketingactiviteiten"
                 },
                 {
-                    "task_category": "TASK2: Data Engineering",
-                    "phrases": [
-                        {
-                            "phrase": "expertise in data-analyse",
-                            "justification": "While not explicitly 'engineering', data analysis is a foundational component that often overlaps with data engineering tasks, especially in preparing data for use."
-                        }
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The title 'AI & Data Engineer' and the mention of 'data-analyse' imply tasks related to handling and analyzing data, which falls under data engineering.",
+                    "phrase": "data-analyse"
                 },
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        {
-                            "phrase": "experimenteren met AI-oplossingen",
-                            "justification": "This suggests involvement in the creation or adaptation of AI models, though the specifics are not detailed."
-                        }
-                    ]
-                },
-                {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": []
-                },
-                {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": []
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'experimenteren met AI-oplossingen' suggests involvement in exploring and potentially developing AI models, though the specifics are not detailed.",
+                    "phrase": "experimenteren met AI-oplossingen"
                 }
             ],
-            "technologies": [],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        {
-                            "phrase": "jouw ideeën en initiatieven écht gewaardeerd worden"
-                        },
-                        {
-                            "phrase": "innovatieve werkomgeving"
-                        }
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "jouw ideeën en initiatieven écht gewaardeerd worden"
                 },
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        {
-                            "phrase": "nieuwste technologieën toe te passen"
-                        }
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "de nieuwste technologieën toe te passen"
                 }
-            ]
+            ],
+            "technologies": []
         }
     }
 }

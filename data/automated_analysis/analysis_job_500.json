@@ -28,111 +28,101 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The role heavily emphasizes developing and integrating generative AI capabilities into a digital assistant, including working with LLMs and conversational engines. While it involves full-stack development, the core focus is on building AI-powered conversational experiences, aligning with the GenAI Engineer profile."
+            "rationale": "The job description emphasizes the development of a 'Digital Assistant' that provides 'conversational experiences' using 'natural language-based experience' and specifically mentions the 'integration of exciting generative AI capabilities'. The core responsibilities involve building a 'conversational engine' with a Python backend, a React/Redux front-end UI, and a FastAPI-based BFF for enriching conversations. This aligns with the GenAI Engineer profile's focus on developing and deploying applications built on generative models, including building user-facing software systems and integrating AI capabilities. While there's software development, the primary focus is on AI-driven conversational applications rather than general predictive modeling."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "phrase": "innovation and development of our cutting-edge Digital Assistant",
-                    "category": "TASK4",
-                    "justification": "This phrase indicates the development of a user-facing application, which falls under software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves developing and maintaining a React/Redux based front-end chat UI, a Python (Asyncio) backend for the conversational engine, and a FastAPI based BFF. These are core software development activities for building and integrating application components.",
+                    "phrase": "develop and maintain: The conversational engine, a Python (Asyncio) backend that handles the connection with the digital assistant platform and for routing live chats and callbacks. You will also be responsible for developing a React/Redux based front-end chat UI that communicates with the conversational engine, which lives on our website (kpn.com) and the mijnkpn apps. Additionally, you will work on a FastAPI based BFF that provides endpoints for the conversational platform to enrich the conversation with customer, product information and integration for specific use cases."
                 },
                 {
-                    "phrase": "creating conversational experiences through web/app and voice channels based on the latest conversational technology",
-                    "category": "TASK3",
-                    "justification": "This describes the core function of building and deploying conversational AI, which is a key aspect of generative AI modeling."
+                    "category": "TASK3: Modeling",
+                    "justification": "The job explicitly mentions 'integration of exciting generative AI capabilities into our digital assistant' and developing 'conversational experiences' using 'natural language-based experience', which directly relates to working with generative models.",
+                    "phrase": "integration of exciting generative AI capabilities into our digital assistant"
                 },
                 {
-                    "phrase": "provides an intuitive natural language-based experience",
-                    "category": "TASK3",
-                    "justification": "This directly relates to the application of natural language processing and generative models to create user experiences."
+                    "category": "TASK3: Modeling",
+                    "justification": "The role involves creating 'conversational experiences' and a 'natural language-based experience' for customers, which implies working with and potentially fine-tuning language models.",
+                    "phrase": "creating conversational experiences through web/app and voice channels based on the latest conversational technology"
                 },
                 {
-                    "phrase": "innovating new use cases and services that impact the lives of our customers",
-                    "category": "TASK1",
-                    "justification": "This highlights understanding customer needs and translating them into technical solutions, a key aspect of business understanding."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions assisting sister teams with generating technical components within the conversational platform, which is a software development task.",
+                    "phrase": "assist our sister teams with generating technical components within the conversational platform"
                 },
                 {
-                    "phrase": "develop and maintain: The conversational engine, a Python (Asyncio) backend that handles the connection with the digital assistant platform and for routing live chats and callbacks.",
-                    "category": "TASK4",
-                    "justification": "This describes the development and maintenance of a backend service, which is a core software development task."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The focus on 'continuously optimizing quality and speed through automation' and building 'production-grade' systems for millions of users implies operational aspects of deployment and maintenance.",
+                    "phrase": "continuously optimizing quality and speed through automation"
                 },
                 {
-                    "phrase": "developing a React/Redux based front-end chat UI that communicates with the conversational engine",
-                    "category": "TASK4",
-                    "justification": "This explicitly mentions front-end UI development using specific frameworks, a clear software development task."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role is part of KPN, a 'leading internet provider', and the digital assistant serves 'millions of KPN's customers and users in the consumer and business domains', indicating a need to understand the business context and customer needs.",
+                    "phrase": "KPN, a leading internet provider"
                 },
                 {
-                    "phrase": "work on a FastAPI based BFF that provides endpoints for the conversational platform to enrich the conversation with customer, product information and integration for specific use cases.",
-                    "category": "TASK4",
-                    "justification": "This involves building backend services (BFF) with specific technologies (FastAPI) to support the conversational platform, a software development task."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The job involves innovating 'new use cases and services that impact the lives of our customers', which requires understanding business goals and customer impact.",
+                    "phrase": "innovating new use cases and services that impact the lives of our customers"
                 },
                 {
-                    "phrase": "assist our sister teams with generating technical components within the conversational platform that they can use within their conversational content.",
-                    "category": "TASK4",
-                    "justification": "This involves creating reusable technical components for a platform, which is a software development activity."
-                },
-                {
-                    "phrase": "adding integrations with KPN systems to improve the digital self-service capabilities",
-                    "category": "TASK2",
-                    "justification": "This involves integrating with existing systems to enhance functionality, which can involve data engineering aspects for data flow and access."
-                },
-                {
-                    "phrase": "making the digital assistant voice-enabled",
-                    "category": "TASK3",
-                    "justification": "This points to the development of speech-to-text or text-to-speech capabilities, which are generative AI tasks."
-                },
-                {
-                    "phrase": "integration of exciting generative AI capabilities into our digital assistant",
-                    "category": "TASK3",
-                    "justification": "This is a direct mention of integrating generative AI, a core task for a GenAI Engineer."
-                },
-                {
-                    "phrase": "play a leading role in shaping the direction of our technical development. You will be encouraged to make architectural decisions and convince others of your views.",
-                    "category": "SKILL5",
-                    "justification": "This indicates ownership, leadership, and influencing technical direction, aligning with innovation and ownership."
-                },
-                {
-                    "phrase": "continuously optimizing quality and speed through automation.",
-                    "category": "TASK5",
-                    "justification": "This refers to automation for optimization, which is a key aspect of MLOps and operations engineering."
-                }
-            ],
-            "technologies": [
-                {
-                    "phrase": "Python",
-                    "category": "TECH1"
-                },
-                {
-                    "phrase": "Asyncio",
-                    "category": "TECH1"
-                },
-                {
-                    "phrase": "React",
-                    "category": "TECH4"
-                },
-                {
-                    "phrase": "Redux",
-                    "category": "TECH4"
-                },
-                {
-                    "phrase": "FastAPI",
-                    "category": "TECH4"
-                },
-                {
-                    "phrase": "generative AI capabilities",
-                    "category": "TECH3"
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves making 'architectural decisions' and convincing others, which is a key aspect of software development leadership and design.",
+                    "phrase": "make architectural decisions and convince others of your views"
                 }
             ],
             "soft_skills": [
                 {
-                    "phrase": "play a leading role in shaping the direction of our technical development. You will be encouraged to make architectural decisions and convince others of your views.",
-                    "category": "SKILL5"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "play a leading role in shaping the direction of our technical development"
                 },
                 {
-                    "phrase": "Our passionate team focuses on continuously optimizing quality and speed through automation.",
-                    "category": "SKILL3"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "make architectural decisions and convince others of your views"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "latest conversational technology"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "work with a team of experts"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "continuously optimizing quality and speed"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python (Asyncio)"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "React"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Redux"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "FastAPI"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "generative AI capabilities"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "conversational engine"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "digital assistant platform"
                 }
             ]
         }

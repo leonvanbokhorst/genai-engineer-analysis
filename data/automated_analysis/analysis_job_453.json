@@ -27,73 +27,79 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The role focuses on implementing and productionizing cloud solutions using Generative AI and LLMs, specifically mentioning conversational systems, DialogFlow, and Vertex AI Search and Conversation API. This aligns with the core responsibilities of a GenAI Engineer in building and deploying applications on top of generative models."
+            "profile": "ML Engineer",
+            "rationale": "The job description emphasizes the implementation and productionalization of cloud solutions using Generative AI and LLM technologies, with a specific focus on building conversational systems. Key responsibilities include creating data pipelines, implementing GCP native ML architectures, working with Vertex AI Search and Conversation API, and writing code to interact with GCP APIs. While Generative AI and LLMs are mentioned, the core tasks lean towards data engineering, ML architecture implementation, and integrating these into cloud solutions, aligning more closely with the 'ML Engineer' profile's emphasis on data-driven models, MLOps, and productionizing systems, rather than the 'GenAI Engineer's' focus on fine-tuning and advanced prompt engineering for user-facing applications."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrase": "Making cloud designs and technical decisions for conversational systems projects",
-                    "justification": "This involves designing and making technical decisions for software systems, specifically conversational ones, which falls under software development."
+                    "category": "TASK2",
+                    "justification": "The phrase 'Creating data pipelines for that interact with DialogFlow' directly relates to the process of building and maintaining data pipelines.",
+                    "phrase": "Creating data pipelines for that interact with DialogFlow"
                 },
                 {
-                    "task_category": "TASK2: Data Engineering",
-                    "phrase": "Creating data pipelines for that interact with DialogFlow",
-                    "justification": "The creation of data pipelines is a core component of data engineering, especially when they are designed to interact with specific AI services like DialogFlow."
+                    "category": "TASK3",
+                    "justification": "The phrase 'Implementing GCP native ML architectures' and 'working with Vertex AI Search and Conversation API' indicates the core process of creating and adapting machine learning models and architectures.",
+                    "phrase": "Implementing GCP native ML architectures"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrase": "Implementing GCP native ML architectures",
-                    "justification": "Implementing ML architectures on a cloud platform like GCP is a key aspect of MLOps, focusing on the operationalization of ML systems."
+                    "category": "TASK3",
+                    "justification": "The phrase 'working with Vertex AI Search and Conversation API' indicates the core process of creating and adapting machine learning models and architectures.",
+                    "phrase": "working with Vertex AI Search and Conversation API"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrase": "Implementing Looker Dashboards, BigQuery datasets/views",
-                    "justification": "While Looker and BigQuery can be used for data analysis, their implementation in this context, alongside other AI-related tasks, suggests building components of a larger system, fitting under software development."
+                    "category": "TASK4",
+                    "justification": "The phrase 'Writing code to interact with GCP API's' refers to traditional software engineering tasks to build and integrate AI features.",
+                    "phrase": "Writing code to interact with GCP API's"
                 },
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrase": "working with Vertex AI Search and Conversation API",
-                    "justification": "Vertex AI Search and Conversation API are tools directly used for building and interacting with generative AI models, indicating a focus on modeling tasks."
-                },
-                {
-                    "task_category": "TASK4: Software Development",
-                    "phrase": "Writing code to interact with GCP API's",
-                    "justification": "Writing code to interact with cloud APIs is a fundamental software development task, especially when integrating various services for an application."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_category": "TECH2: Cloud Platforms & Services",
-                    "tech_name": "GCP"
-                },
-                {
-                    "tech_category": "TECH2: Cloud Platforms & Services",
-                    "tech_name": "DialogFlow"
-                },
-                {
-                    "tech_category": "TECH2: Cloud Platforms & Services",
-                    "tech_name": "Looker"
-                },
-                {
-                    "tech_category": "TECH9: Data Storage",
-                    "tech_name": "BigQuery"
-                },
-                {
-                    "tech_category": "TECH2: Cloud Platforms & Services",
-                    "tech_name": "Vertex AI Search and Conversation API"
+                    "category": "TASK5",
+                    "justification": "The phrase 'Implementation and productionalization of cloud solutions using Generative AI and LLM technologies' implies the operational aspects of deploying and maintaining AI models in production environments.",
+                    "phrase": "Implementation and productionalization of cloud solutions using Generative AI and LLM technologies"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
+                    "category": "SKILL3",
                     "phrase": "Making cloud designs and technical decisions"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "Generative AI"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrase": "Implementation and productionalization of cloud solutions"
+                    "category": "TECH3",
+                    "phrase": "LLM"
+                },
+                {
+                    "category": "TECH4",
+                    "phrase": "DialogFlow"
+                },
+                {
+                    "category": "TECH2",
+                    "phrase": "GCP"
+                },
+                {
+                    "category": "TECH10",
+                    "phrase": "ML architectures"
+                },
+                {
+                    "category": "TECH7",
+                    "phrase": "Looker Dashboards"
+                },
+                {
+                    "category": "TECH9",
+                    "phrase": "BigQuery"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "Vertex AI Search"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "Conversation API"
                 }
             ]
         }

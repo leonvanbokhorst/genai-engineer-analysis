@@ -27,33 +27,31 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 1,
-            "rationale": "The job description focuses on Java CMS development and does not mention any AI, machine learning, or generative AI specific tasks, tools, or responsibilities. Therefore, it does not fit any of the AI-related profiles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on Java CMS development and integration, which are traditional software engineering tasks. It does not mention any specific generative AI technologies, models, frameworks, or tasks related to machine learning, predictive modeling, or generative AI. Therefore, it does not fit the criteria for ML Engineer or GenAI Engineer and is classified as Ambiguous."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrase": "maatwerkportlets en integraties te bouwen",
-                    "justification": "This phrase directly refers to building custom software components (portlets) and integrations, which falls under general software development."
-                },
-                {
-                    "task_category": "TASK4: Software Development",
-                    "phrase": "Je werkt in een omgeving die niet te groot en niet te klein is",
-                    "justification": "This describes the work environment and team size, which is a characteristic of the software development context."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology_category": "TECH1: Programming Languages",
-                    "technology_name": "Java"
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions building custom portlets and integrations, which are core software development activities.",
+                    "phrase": "maatwerkportlets en integraties te bouwen"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "phrase": "ruimte krijgt om jezelf te ontwikkelen en te leren van je collega's"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "volop ruimte krijgt om jezelf te ontwikkelen en te leren van je collega's"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "leren van je collega's"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Java"
                 }
             ]
         }

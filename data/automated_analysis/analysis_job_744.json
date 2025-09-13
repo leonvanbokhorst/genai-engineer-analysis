@@ -27,60 +27,41 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 1,
-            "rationale": "The job description focuses on traditional full-stack Java development and does not mention any AI, machine learning, or generative AI specific tasks, tools, or responsibilities. It lacks the technical depth required for ML Engineer or GenAI Engineer profiles."
+            "profile": "Ambiguous",
+            "rationale": "The job description is for a 'Java full stack ontwikkelaar' (Java full stack developer) and focuses on traditional software development tasks. It does not mention any specific AI technologies, generative models, or machine learning concepts, which are central to the GenAI Engineer or ML Engineer profiles. Therefore, it falls under the 'Ambiguous' category as it is a traditional software engineering role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "Java full stack ontwikkelaar",
-                        "Als Full Stack Java Ontwikkelaar werk je aan uitdagende projecten",
-                        "Je zorgt voor oplossingen die perfect aansluiten op de wensen van de klant"
-                    ],
-                    "justification": "The phrases directly describe the development of software applications using Java and a full-stack approach, which falls under traditional software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The job title 'Full Stack Java Ontwikkelaar' and the description 'werk je aan uitdagende projecten' and 'zorgt voor oplossingen die perfect aansluiten op de wensen van de klant' indicate traditional software development responsibilities.",
+                    "phrase": "Full Stack Java Ontwikkelaar"
                 },
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "projecten die een blijvende impact maken voor onze klanten",
-                        "oplossingen die perfect aansluiten op de wensen van de klant",
-                        "draagt bij aan de verbetering van onze werkwijze en expertise"
-                    ],
-                    "justification": "These phrases indicate an understanding of client needs, project impact, and contributing to process improvements, which are aspects of business understanding within a development context."
-                }
-            ],
-            "technologies": [
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'oplossingen die perfect aansluiten op de wensen van de klant' implies a need to understand and translate customer requirements into technical solutions.",
+                    "phrase": "oplossingen die perfect aansluiten op de wensen van de klant"
+                },
                 {
-                    "technology_category": "TECH1: Programming Languages",
-                    "technologies": [
-                        "Java"
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'draagt bij aan de verbetering van onze werkwijze en expertise' suggests involvement in improving processes and knowledge, which aligns with understanding the business context and contributing to its growth.",
+                    "phrase": "verbetering van onze werkwijze en expertise"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "skills": [
-                        "draagt bij aan de verbetering van onze werkwijze en expertise"
-                    ],
-                    "justification": "This phrase suggests taking initiative and ownership in improving processes and expertise, aligning with an innovative and ownership-driven mindset."
+                    "category": "SKILL5: Innovation and Ownership",
+                    "phrase": "draagt bij aan de verbetering van onze werkwijze en expertise"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "skills": [
-                        "Je zorgt voor oplossingen die perfect aansluiten op de wensen van de klant"
-                    ],
-                    "justification": "Ensuring solutions perfectly meet client needs implies a pragmatic approach to problem-solving and delivering functional outcomes."
-                },
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "zorgt voor oplossingen die perfect aansluiten op de wensen van de klant"
+                }
+            ],
+            "technologies": [
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "skills": [
-                        "voor onze klanten"
-                    ],
-                    "justification": "Working for clients implies a need to understand and communicate with them to deliver solutions."
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Java"
                 }
             ]
         }

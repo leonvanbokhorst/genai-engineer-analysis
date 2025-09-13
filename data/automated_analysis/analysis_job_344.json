@@ -26,84 +26,92 @@
         "full_text": "SDET/QA Engineer\n\nAs an SDET/QA Engineer, you will play a key role in ensuring our software solutions meet the highest standards of reliability and performance that are tied to our mission. Join our engineering team, where you will play a key role in ensuring our software solutions meet the highest standards of reliability and performance that are tied to our mission.\n   As an SDET/QA Engineer, you will:\n     * Design, develop, and maintain automated testing frameworks and systems.\n     * Collaborate with development teams to write comprehensive unit tests.\n     * Participate in the continuous integration and continuous deployment (CI/CD) processes.\n     * Analyze test results, troubleshoot issues, and improve the areas of weakness in our applications.\n     * Work closely with other engineers and product managers to ensure that all aspects of quality are being addressed throughout the software development lifecycle., * Develop and execute automated tests to ensure product quality.\n     * Design and implement testing tools and frameworks to automate test processes.\n     * Enhance and maintain excellent test coverage throughout the software development lifecycle.\n     * Collaborate with development teams to understand new features and create appropriate testing strategies.\n     * Report, track, and manage any discovered defects.\n     * Build fully automated regression suite\n     * Develop CI/CD pipeline to ensure services are thoroughly-tested prior to production deployments."
     },
     "analysis": {
-        "job_profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional software testing and quality assurance, with no mention of AI, machine learning, or generative models. While it involves software development and CI/CD, these are in the context of testing, not building AI-powered applications."
+        "profile_classification": {
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on Software Development (TASK4) and Operations Engineering (MLOps) (TASK5) specifically for testing and quality assurance. It does not involve core AI/ML tasks like modeling, data engineering for AI, or generative AI specific development, which are central to the ML Engineer and GenAI Engineer profiles. Therefore, it falls under the 'Ambiguous' category as it's a traditional software engineering role focused on QA."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "Design, develop, and maintain automated testing frameworks and systems",
-                        "Collaborate with development teams to write comprehensive unit tests",
-                        "Develop and execute automated tests to ensure product quality",
-                        "Design and implement testing tools and frameworks to automate test processes",
-                        "Enhance and maintain excellent test coverage throughout the software development lifecycle",
-                        "Collaborate with development teams to understand new features and create appropriate testing strategies",
-                        "Report, track, and manage any discovered defects",
-                        "Build fully automated regression suite"
-                    ],
-                    "justification": "These phrases describe the creation and maintenance of testing infrastructure, tools, and strategies, which are integral parts of the software development lifecycle, albeit focused on quality assurance."
+                    "category": "TASK4",
+                    "justification": "The role involves designing, developing, and maintaining automated testing frameworks and systems, writing unit tests, and collaborating with development teams to ensure software quality throughout the lifecycle. This directly aligns with traditional software engineering practices focused on building and testing software.",
+                    "phrase": "Design, develop, and maintain automated testing frameworks and systems"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Participate in the continuous integration and continuous deployment (CI/CD) processes",
-                        "Develop CI/CD pipeline to ensure services are thoroughly-tested prior to production deployments"
-                    ],
-                    "justification": "The mention of CI/CD processes and pipelines directly relates to the operational aspects of software delivery and deployment, which is a core component of MLOps, though here applied to general software."
+                    "category": "TASK4",
+                    "justification": "Collaborating with development teams to write comprehensive unit tests is a core software development activity focused on ensuring code quality at the unit level.",
+                    "phrase": "Collaborate with development teams to write comprehensive unit tests"
                 },
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "ensuring our software solutions meet the highest standards of reliability and performance that are tied to our mission",
-                        "ensure that all aspects of quality are being addressed throughout the software development lifecycle"
-                    ],
-                    "justification": "These phrases indicate an understanding of how quality assurance contributes to business goals and the overall software development lifecycle."
+                    "category": "TASK5",
+                    "justification": "Participating in CI/CD processes and developing CI/CD pipelines to ensure services are thoroughly tested prior to production deployments are key aspects of operations engineering for software delivery.",
+                    "phrase": "Participate in the continuous integration and continuous deployment (CI/CD) processes"
                 },
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "Analyze test results, troubleshoot issues"
-                    ],
-                    "justification": "While not traditional ML modeling, analyzing test results and troubleshooting involves a form of data analysis and problem-solving to identify and understand application weaknesses."
+                    "category": "TASK4",
+                    "justification": "Analyzing test results, troubleshooting issues, and improving areas of weakness in applications are part of the software development lifecycle, specifically related to quality assurance and bug fixing.",
+                    "phrase": "Analyze test results, troubleshoot issues, and improve the areas of weakness in our applications"
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "Working closely with other engineers and product managers to ensure quality throughout the software development lifecycle is a collaborative software development task.",
+                    "phrase": "Work closely with other engineers and product managers to ensure that all aspects of quality are being addressed throughout the software development lifecycle."
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "Developing and executing automated tests is a fundamental part of ensuring product quality within software development.",
+                    "phrase": "Develop and execute automated tests to ensure product quality"
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "Designing and implementing testing tools and frameworks to automate test processes falls under software development, specifically for testing infrastructure.",
+                    "phrase": "Design and implement testing tools and frameworks to automate test processes"
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "Enhancing and maintaining excellent test coverage throughout the software development lifecycle is a key responsibility in ensuring software quality.",
+                    "phrase": "Enhance and maintain excellent test coverage throughout the software development lifecycle"
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "Collaborating with development teams to understand new features and create appropriate testing strategies is a crucial part of the software development process.",
+                    "phrase": "Collaborate with development teams to understand new features and create appropriate testing strategies"
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "Reporting, tracking, and managing discovered defects is a standard part of the software development lifecycle for quality assurance.",
+                    "phrase": "Report, track, and manage any discovered defects"
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "Building a fully automated regression suite is a software development task focused on ensuring stability of the application through repeated testing.",
+                    "phrase": "Build fully automated regression suite"
+                },
+                {
+                    "category": "TASK5",
+                    "justification": "Developing a CI/CD pipeline to ensure services are thoroughly tested prior to production deployments is a core MLOps/DevOps responsibility for automated software delivery.",
+                    "phrase": "Develop CI/CD pipeline to ensure services are thoroughly-tested prior to production deployments"
                 }
             ],
-            "technologies": [],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Collaborate with development teams",
-                        "Work closely with other engineers and product managers"
-                    ]
+                    "category": "SKILL1",
+                    "phrase": "Collaborate with development teams"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Analyze test results, troubleshoot issues",
-                        "improve the areas of weakness in our applications",
-                        "create appropriate testing strategies"
-                    ]
+                    "category": "SKILL1",
+                    "phrase": "Work closely with other engineers and product managers"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "Design, develop, and maintain automated testing frameworks and systems",
-                        "Design and implement testing tools and frameworks",
-                        "Build fully automated regression suite",
-                        "Develop CI/CD pipeline"
-                    ]
+                    "category": "SKILL3",
+                    "phrase": "troubleshoot issues"
                 },
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "understand new features"
-                    ]
+                    "category": "SKILL5",
+                    "phrase": "play a key role"
                 }
-            ]
+            ],
+            "technologies": []
         }
     }
 }

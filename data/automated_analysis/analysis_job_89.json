@@ -27,69 +27,72 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on research, open science, and foundational AI model development rather than building and deploying specific AI-powered applications or systems. While it mentions LLMs and AI experiences, it lacks the core responsibilities and technologies typically associated with an ML Engineer or GenAI Engineer."
+            "profile": "GenAI Engineer",
+            "rationale": "The job description emphasizes the development of large language models (LLMs) from scratch, conducting cutting-edge research on them, and establishing responsible data governance practices. This aligns with the core responsibilities of a GenAI Engineer, particularly in advancing generative AI models and their responsible development. The mention of 'LLM lab' and 'general-purpose AI models' strongly points towards this profile over an ML Engineer, which focuses more on predictive modeling and traditional ML pipelines."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK3: Modeling",
-                    "phrase": "develops large language models from scratch",
-                    "justification": "This phrase directly relates to the creation and training of models, which falls under the 'Modeling' category."
+                    "category": "TASK3",
+                    "justification": "The description mentions 'develops large language models from scratch' and 'conducts cutting-edge research on them', which directly relates to the creation and adaptation of generative models.",
+                    "phrase": "develops large language models from scratch"
                 },
                 {
-                    "task": "TASK3: Modeling",
-                    "phrase": "conducts cutting-edge research on them",
-                    "justification": "Research on models, especially LLMs, is a core aspect of the 'Modeling' task, focusing on advancing their capabilities."
+                    "category": "TASK3",
+                    "justification": "The phrase 'research, experiment, and de-risk AI technologies' indicates a focus on exploring and advancing AI models, which falls under the modeling category.",
+                    "phrase": "research, experiment, and de-risk AI technologies"
                 },
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrase": "futureproof AI-powered experiences",
-                    "justification": "This indicates an understanding of how AI technologies align with future business needs and user experiences."
+                    "category": "TASK4",
+                    "justification": "The role involves 'developers who lay the foundations' and 'futureproof AI-powered experiences', suggesting the integration of AI research into practical applications and systems.",
+                    "phrase": "developers who lay the foundations"
                 },
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrase": "unlock new work experiences in the future",
-                    "justification": "This phrase highlights the translation of technical capabilities into future business value and user experiences."
+                    "category": "TASK4",
+                    "justification": "The goal to 'unlock new work experiences in the future' implies building and deploying AI-powered features into user-facing systems.",
+                    "phrase": "unlock new work experiences in the future"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "developers who lay the foundations, research, experiment, and de-risk AI technologies",
-                    "justification": "While focused on research, the involvement of 'developers' in laying foundations and experimenting with technologies implies some level of software development, though not necessarily application-focused."
+                    "category": "TASK5",
+                    "justification": "The mention of 'responsible data governance practices' and 'open-governance initiatives' suggests a focus on the ethical and operational aspects of deploying and managing AI models.",
+                    "phrase": "responsible data governance practices"
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrase": "establishes responsible data governance practices",
-                    "justification": "Data governance is a component of responsible AI development and deployment, which can overlap with MLOps principles, particularly in ensuring data quality and compliance."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Large Language Model (LLM)",
-                    "category": "TECH3: LLM / Generative Models"
-                },
-                {
-                    "technology": "BigCode",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK1",
+                    "justification": "The team's goal is to 'futureproof AI-powered experiences', indicating an alignment of technical research with future business needs and user experiences.",
+                    "phrase": "futureproof AI-powered experiences"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "researchers, applied scientists, and developers",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL2",
+                    "phrase": "research"
                 },
                 {
-                    "skill": "responsible development of general-purpose AI models",
-                    "category": "SKILL4: Ethical & Legal Responsibility"
+                    "category": "SKILL5",
+                    "phrase": "researchers, applied scientists, and developers"
                 },
                 {
-                    "skill": "open-science and open-governance initiatives",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "SKILL4",
+                    "phrase": "responsible development"
                 },
                 {
-                    "skill": "responsible data governance practices",
-                    "category": "SKILL4: Ethical & Legal Responsibility"
+                    "category": "SKILL4",
+                    "phrase": "responsible data governance practices"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "Large Language Model (LLM)"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "general-purpose AI models"
+                },
+                {
+                    "category": "TECH2",
+                    "phrase": "BigCode"
                 }
             ]
         }

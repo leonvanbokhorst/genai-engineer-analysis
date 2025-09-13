@@ -26,85 +26,83 @@
         "full_text": "AI Software Engineer, IgniteTech (Remote) - $60,000/year USD\n\nAre you a forward-thinking developer eager to harness the power of GenAI to redefine business standards and enhance productivity? Are you bored of solving the same customer support tickets or resolving the same bugs over and over again?, * Create and improve autonomous support platforms using LLMs. This includes not only development but also troubleshooting, maintaining, and updating tools based on user feedback and support tickets. One example would be creating an assistant able to guide customers through an upgrade process.\n     * Test and integrate state-of-the-art AI technologies, like GPT-4 Vision and Amazon CodeWhisperer, while providing support and guidance for internal teams on how to best utilize these technologies within their workflows.\n     * Evaluate and enhance the performance and integration of AI solutions across different infrastructures, notably AWS, and ensures support is available for end-users experiencing issues, focusing on maintaining high service quality and satisfaction., * Improve support for both internal and external clients, significantly boosting the company's innovation capacity and service quality"
     },
     "analysis": {
-        "profile_classification": "GenAI Engineer",
-        "confidence_score": 4,
-        "rationale": "The job description heavily emphasizes the development and deployment of applications built on generative AI models, specifically mentioning LLMs and GPT-4 Vision. The core responsibilities involve creating autonomous support platforms, integrating AI technologies, and enhancing AI solutions, aligning directly with the definition of a GenAI Engineer.",
+        "profile_classification": {
+            "profile": "GenAI Engineer",
+            "rationale": "The job description heavily emphasizes the development, fine-tuning, and deployment of applications built on large language models (LLMs) and generative AI technologies. Specific mentions of creating autonomous support platforms using LLMs, integrating state-of-the-art AI like GPT-4 Vision, and building RAG-like systems (implied by guiding customers through processes) align directly with the core responsibilities of a GenAI Engineer. The role also includes building and maintaining production-grade software systems and ensuring their integration across cloud platforms like AWS, further solidifying this classification."
+        },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "Create and improve autonomous support platforms using LLMs",
-                        "Test and integrate state-of-the-art AI technologies, like GPT-4 Vision"
-                    ],
-                    "justification": "These phrases directly relate to the development, fine-tuning, and integration of generative AI models (LLMs, GPT-4 Vision) for specific applications."
+                    "category": "TASK3",
+                    "justification": "The phrase 'Create and improve autonomous support platforms using LLMs' directly relates to building and adapting generative models for specific applications.",
+                    "phrase": "Create and improve autonomous support platforms using LLMs"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "Create and improve autonomous support platforms",
-                        "creating an assistant able to guide customers through an upgrade process",
-                        "providing support and guidance for internal teams on how to best utilize these technologies within their workflows",
-                        "enhance the performance and integration of AI solutions across different infrastructures",
-                        "ensures support is available for end-users experiencing issues"
-                    ],
-                    "justification": "These phrases describe the building of user-facing applications (support platforms, assistants), integrating AI into existing workflows, and ensuring the solutions are functional and supported for end-users."
+                    "category": "TASK4",
+                    "justification": "The phrase 'troubleshooting, maintaining, and updating tools based on user feedback and support tickets' and 'creating an assistant able to guide customers through an upgrade process' involves building and maintaining user-facing software applications.",
+                    "phrase": "troubleshooting, maintaining, and updating tools based on user feedback and support tickets"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "troubleshooting, maintaining, and updating tools based on user feedback and support tickets",
-                        "maintaining high service quality and satisfaction"
-                    ],
-                    "justification": "These phrases indicate responsibilities related to the ongoing maintenance, monitoring, and support of deployed AI systems in a production environment."
+                    "category": "TASK4",
+                    "justification": "The phrase 'creating an assistant able to guide customers through an upgrade process' describes the development of a user-facing application.",
+                    "phrase": "creating an assistant able to guide customers through an upgrade process"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "harness the power of GenAI to redefine business standards and enhance productivity",
-                        "Improve support for both internal and external clients, significantly boosting the company's innovation capacity and service quality"
-                    ],
-                    "justification": "These phrases highlight the alignment of AI initiatives with business goals such as enhancing productivity, redefining standards, improving client support, and boosting innovation."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "value": "LLMs"
+                    "category": "TASK3",
+                    "justification": "The phrase 'Test and integrate state-of-the-art AI technologies, like GPT-4 Vision' involves working with and evaluating advanced AI models.",
+                    "phrase": "Test and integrate state-of-the-art AI technologies, like GPT-4 Vision"
                 },
                 {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "value": "GPT-4 Vision"
+                    "category": "TASK1",
+                    "justification": "The phrase 'providing support and guidance for internal teams on how to best utilize these technologies within their workflows' indicates understanding business needs and translating technical capabilities into practical use.",
+                    "phrase": "providing support and guidance for internal teams on how to best utilize these technologies within their workflows"
                 },
                 {
-                    "tech_name": "TECH2: Cloud Platforms & Services",
-                    "value": "Amazon CodeWhisperer"
+                    "category": "TASK5",
+                    "justification": "The phrase 'Evaluate and enhance the performance and integration of AI solutions across different infrastructures' and 'ensures support is available for end-users experiencing issues, focusing on maintaining high service quality and satisfaction' points to operational aspects of deployed AI solutions.",
+                    "phrase": "Evaluate and enhance the performance and integration of AI solutions across different infrastructures"
                 },
                 {
-                    "tech_name": "TECH2: Cloud Platforms & Services",
-                    "value": "AWS"
+                    "category": "TASK5",
+                    "justification": "The phrase 'ensures support is available for end-users experiencing issues, focusing on maintaining high service quality and satisfaction' relates to the operational maintenance and support of AI systems in production.",
+                    "phrase": "ensures support is available for end-users experiencing issues, focusing on maintaining high service quality and satisfaction"
+                },
+                {
+                    "category": "TASK1",
+                    "justification": "The phrase 'Improve support for both internal and external clients, significantly boosting the company's innovation capacity and service quality' highlights understanding business goals and aligning AI solutions to achieve them.",
+                    "phrase": "Improve support for both internal and external clients, significantly boosting the company's innovation capacity and service quality"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "value": "troubleshooting"
+                    "category": "SKILL1",
+                    "phrase": "providing support and guidance for internal teams"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "value": "Test and integrate state-of-the-art AI technologies"
+                    "category": "SKILL3",
+                    "phrase": "troubleshooting"
                 },
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "value": "providing support and guidance for internal teams"
+                    "category": "SKILL2",
+                    "phrase": "eager to harness the power of GenAI"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "value": "redefine business standards"
+                    "category": "SKILL5",
+                    "phrase": "redefine business standards"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "GPT-4 Vision"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "value": "significantly boosting the company's innovation capacity"
+                    "category": "TECH2",
+                    "phrase": "AWS"
+                },
+                {
+                    "category": "TECH2",
+                    "phrase": "Amazon CodeWhisperer"
                 }
             ]
         }

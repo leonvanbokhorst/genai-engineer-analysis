@@ -27,89 +27,55 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on leadership, team building, and product vision rather than specific technical AI development tasks. While it mentions an 'AI-powered recruitment platform', it lacks details on the specific AI technologies or methodologies to be used, making it difficult to classify as a dedicated ML or GenAI Engineer role."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on leadership, product vision, and team building rather than specific technical AI/ML tasks. While it mentions an 'AI-powered recruitment platform', it lacks details on model development, data engineering, or specific generative AI techniques, making it difficult to classify as an ML Engineer or GenAI Engineer. The emphasis on 'leading development', 'guiding a tech team', and 'strategic leadership' suggests a CTO role that is not solely focused on AI/ML implementation."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrase": "shaping our product vision, architecture, and roadmap",
-                    "justification": "This phrase directly relates to understanding the business context and translating it into technical strategy and product direction."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves 'shaping our product vision, architecture, and roadmap' and 'collaborating closely with cross-functional teams to ensure our product aligns with market needs and our company vision', which directly relates to understanding the business context and aligning technical solutions with strategic goals.",
+                    "phrase": "shaping our product vision, architecture, and roadmap"
                 },
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrase": "aligns with market needs and our company vision",
-                    "justification": "This indicates a need to understand market demands and connect them with the company's strategic goals."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Collaborating closely with cross-functional teams to ensure our product aligns with market needs and our company vision' indicates a strong need to understand market demands and translate them into product strategy.",
+                    "phrase": "Collaborating closely with cross-functional teams to ensure our product aligns with market needs and our company vision"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "Leading the development of our AI-powered recruitment platform, from ideation to execution.",
-                    "justification": "This implies hands-on software development and overseeing the entire lifecycle of a product, which includes building software."
+                    "category": "TASK4: Software Development",
+                    "justification": "The responsibility to 'Lead the development of our AI-powered recruitment platform, from ideation to execution' implies hands-on software development, even if the specifics of the AI are not detailed.",
+                    "phrase": "Leading the development of our AI-powered recruitment platform, from ideation to execution"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "hands-on development",
-                    "justification": "This explicitly states the need for direct involvement in building software."
-                },
-                {
-                    "task": "SKILL5: Innovation & Ownership",
-                    "phrase": "technical co-founder (CTO & Developer)",
-                    "justification": "The title itself implies a high degree of ownership, leadership, and responsibility for the technical direction and execution."
-                },
-                {
-                    "task": "SKILL5: Innovation & Ownership",
-                    "phrase": "You're not just a leader; you're a doer, a builder, and a visionary.",
-                    "justification": "This emphasizes a proactive, initiative-taking, and responsible approach to the role."
-                },
-                {
-                    "task": "SKILL1: Communication & Collaboration",
-                    "phrase": "Collaborating closely with cross-functional teams",
-                    "justification": "This highlights the need for effective interaction and teamwork with different departments."
-                },
-                {
-                    "task": "SKILL2: Learning & Adaptability",
-                    "phrase": "continuous learning",
-                    "justification": "This directly points to the importance of staying updated with new knowledge and skills."
-                },
-                {
-                    "task": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "balancing hands-on development with strategic leadership",
-                    "justification": "This suggests the need to solve complex problems by applying both practical development skills and strategic thinking."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'balancing hands-on development with strategic leadership' explicitly mentions direct involvement in development activities.",
+                    "phrase": "balancing hands-on development with strategic leadership"
                 }
             ],
-            "technologies": [],
             "soft_skills": [
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrase": "technical co-founder (CTO & Developer)"
-                },
-                {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrase": "You're not just a leader; you're a doer, a builder, and a visionary."
-                },
-                {
-                    "skill": "SKILL1: Communication & Collaboration",
+                    "category": "SKILL1: Communication & Collaboration",
                     "phrase": "Collaborating closely with cross-functional teams"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "phrase": "continuous learning"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Leading the development of our AI-powered recruitment platform, from ideation to execution"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "balancing hands-on development with strategic leadership"
-                },
-                {
-                    "skill": "SKILL1: Communication & Collaboration",
+                    "category": "SKILL5: Innovation & Ownership",
                     "phrase": "Building and guiding a high-performing tech team"
                 },
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrase": "Contributing to a culture of innovation, excellence, and continuous learning within our tech team and the broader company."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Contributing to a culture of innovation, excellence, and continuous learning"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "continuous learning"
                 }
-            ]
+            ],
+            "technologies": []
         }
     }
 }

@@ -27,139 +27,128 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description primarily focuses on traditional data engineering tasks like ETL, data infrastructure, and data quality within a Microsoft Azure environment. While it mentions awareness of GenAI and translating it into applications, this is not the core focus, and there's no deep dive into generative models or LLM frameworks."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on traditional data engineering tasks such as ETL processes, data infrastructure, and data architecture within a Microsoft Azure environment. While it mentions an awareness of GenAI and the ability to translate it into usable applications, this is not the primary focus. The core responsibilities and technologies listed align more with a Data Engineer role than a specialized GenAI Engineer or ML Engineer. The mention of GenAI appears to be a forward-looking statement rather than a core requirement for the role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "Data Engineering",
-                    "phrases": [
-                        "verantwoordelijk voor de ETL-processen",
-                        "organisatie elke dag de beschikking heeft over actuele informatie",
-                        "focus jij je op onze Lakehouse constructie in de Microsoft Azure omgeving en zorgt voor de doorontwikkeling ervan",
-                        "neerzetten, onderhouden en verder optimaliseren van ons data-infrastructuur",
-                        "data-architectuur en -structuur op orde te brengen en houden",
-                        "bewaken de datakwaliteit"
-                    ],
-                    "justification": "These phrases directly relate to building, maintaining, and optimizing data pipelines, data infrastructure, and ensuring data quality, which are core components of data engineering."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The job description explicitly states the candidate is responsible for ETL processes, managing a Lakehouse construction, and developing data infrastructure.",
+                    "phrase": "verantwoordelijk voor de ETL-processen"
                 },
                 {
-                    "task": "Business Understanding",
-                    "phrases": [
-                        "Rochdale zet zich in voor sterke buurten, waar inwoners meer kansen hebben. We bouwen, verduurzamen en maken kwetsbare buurten sterker.",
-                        "hoe deze stuurinformatie bijdraagt aan onze strategische doelen en het verschil gaat maken voor de collega's en onze huurders.",
-                        "de (veranderende) behoefte vanuit de business ophaalt en ordent"
-                    ],
-                    "justification": "These phrases indicate an understanding of the organization's mission, strategic goals, and the need to align data initiatives with business requirements."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The role involves developing and maintaining the data infrastructure.",
+                    "phrase": "neerzetten, onderhouden en verder optimaliseren van ons data-infrastructuur"
                 },
                 {
-                    "task": "Software Development",
-                    "phrases": [
-                        "Python en SQL zijn bekende termen voor jou",
-                        "toepassen van CI/CD methodologieën zijn jou niet onbekend",
-                        "ontwikkelt met behulp van DevOps"
-                    ],
-                    "justification": "Mention of specific programming languages (Python, SQL) and development methodologies (CI/CD, DevOps) points to software development practices, though not necessarily application-level development."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The candidate will be responsible for the data architecture and structure.",
+                    "phrase": "data-architectuur en -structuur op orde te brengen en houden"
                 },
                 {
-                    "task": "Modeling",
-                    "phrases": [
-                        "op het gebied van GenAI en bent in staat deze te vertalen naar bruikbare toepassingen voor onze (eind)gebruikers",
-                        "adviseert over nieuwe technologische toepassingen en ontwikkelingen",
-                        "daadwerkelijk uitwerken en implementeren van deze nieuwe initiatieven en ontwikkelingen"
-                    ],
-                    "justification": "While not deeply detailed, the mention of GenAI and translating it into applications, along with developing and implementing new initiatives, touches upon the modeling aspect, albeit from a higher-level application perspective."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires understanding business needs and translating them into technical requirements and usable applications for end-users.",
+                    "phrase": "vertalen naar bruikbare toepassingen voor onze (eind)gebruikers"
                 },
                 {
-                    "task": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "toepassen van CI/CD methodologieën",
-                        "ontwikkelt met behulp van DevOps",
-                        "Azure DevOps"
-                    ],
-                    "justification": "The mention of CI/CD and DevOps tools like Azure DevOps indicates involvement in operational aspects of development and deployment."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Microsoft Azure",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The candidate needs to understand how data contributes to strategic goals.",
+                    "phrase": "hoe deze stuurinformatie bijdraagt aan onze strategische doelen"
                 },
                 {
-                    "technology": "GenAI",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves gathering and organizing changing needs from the business.",
+                    "phrase": "de (veranderende) behoefte vanuit de business ophaalt en ordent"
                 },
                 {
-                    "technology": "Python",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK3: Modeling",
+                    "justification": "The job mentions being aware of GenAI developments and translating them into applications, indicating some involvement with generative models.",
+                    "phrase": "op het gebied van GenAI en bent in staat deze te vertalen naar bruikbare toepassingen"
                 },
                 {
-                    "technology": "SQL",
-                    "category": "TECH11: Data Analysis"
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves implementing new initiatives and developments, which can include software development aspects.",
+                    "phrase": "daadwerkelijk uitwerken en implementeren van deze nieuwe initiatieven en ontwikkelingen"
                 },
                 {
-                    "technology": "CI/CD",
-                    "category": "TECH6: MLOps & Data Pipelines"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The job mentions applying CI/CD methodologies and working with DevOps, which are core to MLOps.",
+                    "phrase": "toepassen van CI/CD methodologieën"
                 },
                 {
-                    "technology": "DevOps",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "technology": "PowerBI",
-                    "category": "TECH7: Data Visualization"
-                },
-                {
-                    "technology": "Azure DevOps",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "technology": "Data Lake",
-                    "category": "TECH9: Data Storage"
-                },
-                {
-                    "technology": "Synapse Analytics",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The team works with DevOps and Azure DevOps, indicating operational practices.",
+                    "phrase": "ontwikkelt met behulp van DevOps"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "Communication & Collaboration",
-                    "phrases": [
-                        "gesprekspartner voor het team DCC en de D&I afdeling",
-                        "Samenwerken met collega's en meedoen in projecten is vanzelfsprekend",
-                        "hoe we in gesprek met onze collega's om duidelijk te krijgen welke behoefte aan (stuur)informatie er is"
-                    ],
-                    "justification": "The job requires interaction with various teams, understanding business needs, and collaborating on projects."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "gesprekspartner voor het team DCC en de D&I afdeling"
                 },
                 {
-                    "skill": "Learning & Adaptability",
-                    "phrases": [
-                        "Je bent op de hoogte van de laatste technologische ontwikkelingen, zoals op het gebied van GenAI",
-                        "adviseert over nieuwe technologische toepassingen en ontwikkelingen",
-                        "neemt het team mee in het optimaliseren van de bestaande technieken en processen"
-                    ],
-                    "justification": "The role involves staying updated with new technologies and guiding the team in adopting and optimizing them."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Samenwerken met collega's en meedoen in projecten is vanzelfsprekend"
                 },
                 {
-                    "skill": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "De uitdagingen voor het team zijn groot: hoe gaan we in gesprek met onze collega's om duidelijk te krijgen welke behoefte aan (stuur)informatie er is en hoe kunnen we dit vormgeven met onze data en technieken.",
-                        "daadwerkelijk uitwerken en implementeren van deze nieuwe initiatieven en ontwikkelingen",
-                        "komt met voorstellen"
-                    ],
-                    "justification": "The role involves tackling significant challenges, developing solutions, and making proposals based on data and techniques."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "op de hoogte van de laatste technologische ontwikkelingen"
                 },
                 {
-                    "skill": "Innovation & Ownership",
-                    "phrases": [
-                        "neerzetten, onderhouden en verder optimaliseren van ons data-infrastructuur",
-                        "doorontwikkeling ervan",
-                        "uitwerken en implementeren van deze nieuwe initiatieven en ontwikkelingen"
-                    ],
-                    "justification": "The job requires taking responsibility for infrastructure, developing new initiatives, and implementing them."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "adviseert over nieuwe technologische toepassingen en ontwikkelingen"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "komt met voorstellen"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "neemt het team mee in het optimaliseren van de bestaande technieken en processen"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "GenAI"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Microsoft Azure"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH11: Data Analysis",
+                    "phrase": "SQL"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "CI/CD"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "DevOps"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure DevOps"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Data Lake"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Synapse Analytics"
+                },
+                {
+                    "category": "TECH7: Data Visualization",
+                    "phrase": "PowerBI"
                 }
             ]
         }

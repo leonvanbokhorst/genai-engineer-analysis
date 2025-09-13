@@ -27,79 +27,52 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional backend development, application maintenance, and integration with existing systems like a Data Warehouse. While it mentions speech analytics, there's no indication of building, fine-tuning, or deploying generative AI models, which is the core of a GenAI Engineer role."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on backend development, application maintenance, bug fixing, and building interfaces for data warehousing and consuming systems. While it mentions 'Speech Analytics', it lacks specific details about generative AI models, LLMs, RAG, fine-tuning, or advanced prompt engineering, which are core to the GenAI Engineer profile. It also doesn't emphasize predictive modeling or MLOps in the context of ML Engineer. The role appears to be more of a traditional backend or data integration role, making it fall under the 'Ambiguous' category as it's not clearly an AI-focused engineering role as defined in the Coding Book."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "je onderhoudt de applicatie",
-                        "de applicatie onderhoud je door bugs te fixen en het verbeteren van de code",
-                        "je zorgt ervoor dat nieuwe gebruikers binnen a.s.r. worden aangesloten",
-                        "bouwt interfaces voor nieuwe bronnen en consumerende systemen",
-                        "je ontwikkelt interfaces voor het aansluiten op het DataWareHouse en nieuwe features"
-                    ],
-                    "justification": "These phrases describe core software development activities such as maintaining applications, fixing bugs, improving code, connecting systems, and developing interfaces, which are typical of backend development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'onderhoudt de applicatie', 'bugs te fixen', 'verbeteren van de code', 'bouwt interfaces voor nieuwe bronnen en consumerende systemen', and 'ontwikkelt interfaces voor het aansluiten op het DataWareHouse en nieuwe features' directly relates to building, maintaining, and integrating software systems.",
+                    "phrase": "onderhoudt de applicatie"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "richt de LTB-processen in",
-                        "richt de onboarding volgens de Cloud standaarden van a.s.r. in",
-                        "alerting en monitoring in Application Insights"
-                    ],
-                    "justification": "Setting up LTB processes, cloud onboarding, and configuring alerting/monitoring in Application Insights are related to operational aspects of software systems, though not specifically MLOps in the context of AI models."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "Cloud Platforms & Services",
-                    "type": "TECH2",
-                    "instances": [
-                        "Cloud standaarden van a.s.r."
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'onderhoud je door bugs te fixen en het verbeteren van de code' describes typical software maintenance and improvement activities.",
+                    "phrase": "bugs te fixen en het verbeteren van de code"
                 },
                 {
-                    "tech_name": "MLOps & Data Pipelines",
-                    "type": "TECH6",
-                    "instances": [
-                        "LTB-processen",
-                        "Application Insights"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'bouwt interfaces voor nieuwe bronnen en consumerende systemen' indicates the development of connections and integrations for external data sources and systems.",
+                    "phrase": "bouwt interfaces voor nieuwe bronnen en consumerende systemen"
                 },
                 {
-                    "tech_name": "Data Storage",
-                    "type": "TECH9",
-                    "instances": [
-                        "DataWareHouse"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'ontwikkelt interfaces voor het aansluiten op het DataWareHouse en nieuwe features' points to the development of interfaces for data integration and adding new functionalities.",
+                    "phrase": "ontwikkelt interfaces voor het aansluiten op het DataWareHouse en nieuwe features"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'alerting en monitoring in Application Insights' refers to setting up systems for monitoring application health and performance, which is a component of operations engineering.",
+                    "phrase": "alerting en monitoring in Application Insights"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'richt de onboarding volgens de Cloud standaarden van a.s.r. in' implies setting up data ingestion or integration processes according to specific standards, which can be part of data engineering.",
+                    "phrase": "richt de onboarding volgens de Cloud standaarden van a.s.r. in"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        "richt de onboarding volgens de Cloud standaarden van a.s.r. in"
-                    ],
-                    "justification": "This implies adapting to and implementing existing cloud standards, suggesting a need for learning and applying new procedures."
-                },
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Cloud standaarden"
+                }
+            ],
+            "technologies": [
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "bugs te fixen en het verbeteren van de code"
-                    ],
-                    "justification": "Fixing bugs and improving code are direct examples of problem-solving within a software development context."
-                },
-                {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        "bouwt interfaces voor nieuwe bronnen en consumerende systemen",
-                        "ontwikkelt interfaces voor het aansluiten op het DataWareHouse en nieuwe features"
-                    ],
-                    "justification": "Developing new interfaces and features suggests taking initiative and ownership in building out system capabilities."
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Application Insights"
                 }
             ]
         }

@@ -28,78 +28,54 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description emphasizes writing and deploying production-grade Python code, integrating ML models into applications, and participating in design and code reviews. This aligns strongly with the core responsibilities of an ML Engineer focused on building and maintaining predictive models in production."
+            "rationale": "The job description emphasizes writing, deploying, and testing production-grade Python code, integrating ML models into applications, and participating in design and code reviews. This aligns strongly with the core responsibilities of an ML Engineer, particularly in productionizing models and ensuring code quality, rather than focusing on generative AI specific tasks."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "Write, deploy and test production-grade Python code.",
-                        "Integrate ML models into deployable Python applications.",
-                        "Review code developed by other developers and provide feedback to ensure the consistent application of team best practices."
-                    ],
-                    "justification": "These phrases directly relate to building, deploying, and maintaining software applications, specifically those that incorporate ML models, and adhering to software development best practices."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Write, deploy and test production-grade Python code' and 'Integrate ML models into deployable Python applications' directly relates to building and deploying software applications.",
+                    "phrase": "Write, deploy and test production-grade Python code"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "deploy and test production-grade Python code."
-                    ],
-                    "justification": "The mention of 'deploy and test production-grade' code points to the operational aspects of getting models and applications into a live environment and ensuring they function correctly."
+                    "category": "TASK4: Software Development",
+                    "justification": "This phrase describes the process of embedding machine learning models into functional software applications.",
+                    "phrase": "Integrate ML models into deployable Python applications"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "Participate in and lead design reviews with peers and stakeholders.",
-                        "Contribute to system documentation and team knowledge sharing."
-                    ],
-                    "justification": "Engaging in design reviews with stakeholders and contributing to documentation implies understanding the broader context and communicating technical aspects to a wider audience."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "Programming Languages",
-                    "phrase": "Python",
-                    "category": "TECH1"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrases 'Participate in and lead design reviews with peers and stakeholders' and 'Review code developed by other developers and provide feedback' indicate strong collaboration and communication skills.",
+                    "phrase": "Participate in and lead design reviews with peers and stakeholders"
                 },
                 {
-                    "tech_name": "Data Modeling",
-                    "phrase": "ML models",
-                    "category": "TECH10"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "This phrase highlights the importance of teamwork and providing constructive feedback within a development team.",
+                    "phrase": "Review code developed by other developers and provide feedback"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'Contribute to system documentation and team knowledge sharing' points to the need for clear communication and collaborative knowledge dissemination.",
+                    "phrase": "Contribute to system documentation and team knowledge sharing"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrase": "Participate in and lead design reviews with peers and stakeholders.",
-                    "category": "SKILL1"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Participate in and lead design reviews with peers and stakeholders"
                 },
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrase": "Review code developed by other developers and provide feedback to ensure the consistent application of team best practices.",
-                    "category": "SKILL1"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Review code developed by other developers and provide feedback"
                 },
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrase": "Contribute to system documentation and team knowledge sharing.",
-                    "category": "SKILL1"
-                },
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Contribute to system documentation and team knowledge sharing"
+                }
+            ],
+            "technologies": [
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrase": "ensure the consistent application of team best practices.",
-                    "category": "SKILL2"
-                },
-                {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrase": "Write, deploy and test production-grade Python code.",
-                    "category": "SKILL3"
-                },
-                {
-                    "skill_name": "Innovation & Ownership",
-                    "phrase": "lead design reviews",
-                    "category": "SKILL5"
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
                 }
             ]
         }

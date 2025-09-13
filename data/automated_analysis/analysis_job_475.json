@@ -28,149 +28,91 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The role heavily emphasizes optimizing machine learning models and systems for performance and efficiency, focusing on algorithms, data preprocessing, and productionizing models. While Generative AI is mentioned, the core responsibilities lean towards traditional ML performance tuning and optimization across the computing stack, aligning with the ML Engineer profile."
+            "rationale": "The job description emphasizes optimizing machine learning models for performance and efficiency across the entire computing stack, from algorithms to hardware. It highlights core ML Engineer responsibilities like algorithm development, data preprocessing (implied through optimization), model training/evaluation (implied through performance analysis), and productionizing prototypes. While large language models are mentioned, the primary focus is on performance engineering and optimization of ML systems rather than building generative AI applications. The role requires a blend of software and hardware expertise to enhance ML system performance, aligning with the 'ML Engineer' profile's focus on building and maintaining production-grade systems, particularly through MLOps and optimization."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "optimizing machine learning models",
-                        "optimize machine learning models through a comprehensive understanding of the entire computing stack",
-                        "enhance the performance and efficiency of machine learning systems",
-                        "optimize machine learning workloads",
-                        "develop scalable, efficient, and high-performance machine learning solutions",
-                        "improve the efficiency of machine learning models",
-                        "minimize latency and improve throughput in machine learning applications",
-                        "Conduct in-depth performance analysis, identify bottlenecks, and implement solutions",
-                        "Stay abreast of the latest advancements in machine learning technologies"
-                    ],
-                    "justification": "These phrases directly relate to the creation, training, adaptation, and optimization of machine learning models and their performance characteristics."
+                    "category": "TASK3: Modeling",
+                    "justification": "The role involves optimizing machine learning models, which is a core aspect of the modeling process. Phrases like 'optimizing machine learning models', 'enhance the performance and efficiency of machine learning systems', and 'in-depth performance analysis' directly relate to refining and improving existing models.",
+                    "phrase": "optimizing machine learning models"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "enhance the performance and efficiency of machine learning systems",
-                        "develop scalable, efficient, and high-performance machine learning solutions",
-                        "optimize toolchains that improve the efficiency of machine learning models",
-                        "minimize latency and improve throughput in machine learning applications",
-                        "Conduct in-depth performance analysis, identify bottlenecks, and implement solutions at both the software and hardware layers"
-                    ],
-                    "justification": "The focus on performance, efficiency, bottlenecks, and implementing solutions across software and hardware layers, including toolchains, points to operational aspects of making ML systems performant in production."
+                    "category": "TASK3: Modeling",
+                    "justification": "The description mentions 'ML model quantization', which is a technique used to reduce the size and computational cost of machine learning models, directly falling under model optimization and adaptation.",
+                    "phrase": "ML model quantization"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "Design and optimize software and hardware systems",
-                        "optimize software and hardware systems to enhance the performance of machine learning workloads",
-                        "implement solutions at both the software and hardware layers"
-                    ],
-                    "justification": "The role involves designing and optimizing software systems, which is a core component of software development, particularly when integrating with hardware for performance."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'enhance the performance and efficiency of machine learning systems' points to the core task of improving how ML models operate, which is a key responsibility within modeling.",
+                    "phrase": "enhance the performance and efficiency of machine learning systems"
                 },
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "large-scale optimization"
-                    ],
-                    "justification": "While not a primary focus, 'large-scale optimization' can imply aspects of data handling and pipeline efficiency required for large datasets in ML."
+                    "category": "TASK3: Modeling",
+                    "justification": "The job requires understanding the 'entire computing stack, from high-level algorithms down to the hardware level' for optimization, indicating a deep involvement in the mechanics of how models run and can be improved.",
+                    "phrase": "optimizing machine learning models through a comprehensive understanding of the entire computing stack, from high-level algorithms down to the hardware level"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "make a huge impact on a large e-commerce website",
-                        "impacting all eBay e-commerce channels"
-                    ],
-                    "justification": "These phrases indicate an understanding of the business context and the impact of the work on the e-commerce platform."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH1: Programming Languages",
-                    "values": []
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves designing and optimizing 'software and hardware systems' for ML workloads, indicating software engineering practices are applied to improve system performance.",
+                    "phrase": "Design and optimize software and hardware systems"
                 },
                 {
-                    "tech_name": "TECH2: Cloud Platforms & Services",
-                    "values": [
-                        "cloud computing"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "Developing and optimizing 'toolchains' that improve ML model efficiency on specialized hardware involves software development to create or enhance the tools used in the ML lifecycle.",
+                    "phrase": "Develop and optimize toolchains"
                 },
                 {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "values": [
-                        "large language models"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "Analyzing and optimizing 'interconnects between different hardware components' to minimize latency and improve throughput in ML applications requires software and system-level engineering.",
+                    "phrase": "Analyze and optimize the interconnects between different hardware components to minimize latency and improve throughput in machine learning applications"
                 },
                 {
-                    "tech_name": "TECH4: LLM Frameworks & Libraries",
-                    "values": []
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The emphasis on 'performance and efficiency of machine learning systems' and 'high-performance machine learning solutions' in a production context (large e-commerce website) implies a focus on operational aspects of ML deployment and maintenance.",
+                    "phrase": "enhance the performance and efficiency of machine learning systems"
                 },
                 {
-                    "tech_name": "TECH5: Vector Stores & Search",
-                    "values": []
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The need to 'stay abreast of the latest advancements in machine learning technologies, toolchains, computer architecture, and hardware accelerators to drive innovation' suggests a continuous improvement and operational excellence mindset for production systems.",
+                    "phrase": "Stay abreast of the latest advancements in machine learning technologies, toolchains, computer architecture, and hardware accelerators to drive innovation within the company"
                 },
                 {
-                    "tech_name": "TECH6: MLOps & Data Pipelines",
-                    "values": [
-                        "ML Toolchains"
-                    ]
-                },
-                {
-                    "tech_name": "TECH7: Data Visualization",
-                    "values": []
-                },
-                {
-                    "tech_name": "TECH8: Data Processing",
-                    "values": []
-                },
-                {
-                    "tech_name": "TECH9: Data Storage",
-                    "values": []
-                },
-                {
-                    "tech_name": "TECH10: Data Modeling",
-                    "values": [
-                        "machine learning accelerators",
-                        "ML model quantization",
-                        "computer architecture"
-                    ]
-                },
-                {
-                    "tech_name": "TECH11: Data Analysis",
-                    "values": []
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The opening sentence 'Do you want to make a huge impact on a large e-commerce website?' and 'impacting all eBay e-commerce channels' clearly indicates the need to understand the business context and align technical work with business goals.",
+                    "phrase": "make a huge impact on a large e-commerce website"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Collaborate with multi-functional teams"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate with multi-functional teams"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "Stay abreast of the latest advancements in machine learning technologies, toolchains, computer architecture, and hardware accelerators to drive innovation within the company."
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Stay abreast of the latest advancements in machine learning technologies, toolchains, computer architecture, and hardware accelerators"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "optimize software and hardware systems to enhance the performance of machine learning workloads",
-                        "Develop and optimize toolchains that improve the efficiency of machine learning models",
-                        "Analyze and optimize the interconnects between different hardware components to minimize latency and improve throughput in machine learning applications",
-                        "Conduct in-depth performance analysis, identify bottlenecks, and implement solutions at both the software and hardware layers"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Conduct in-depth performance analysis, identify bottlenecks, and implement solutions"
                 },
                 {
-                    "skill_name": "SKILL4: Ethical & Legal Responsibility",
-                    "phrases": []
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "drive innovation within the company"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "large language models"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "drive innovation within the company"
-                    ]
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "machine learning accelerators"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "ML Toolchains"
                 }
             ]
         }

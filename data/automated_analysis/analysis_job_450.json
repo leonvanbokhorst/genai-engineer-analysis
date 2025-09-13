@@ -28,126 +28,110 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The role heavily emphasizes building and maintaining predictive models for digital advertising, including classification and regression tasks. It also involves significant data engineering, MLOps, and productionizing models within a big data environment, aligning directly with the core responsibilities of an ML Engineer."
+            "rationale": "The job description heavily emphasizes the implementation of predictive ML models for digital advertising, including tasks like predicting ad suitability, converters, clickers, age, and gender. It also highlights building and maintaining data pipelines, productionizing models ('you build it, you run it'), MLOps platform development, and integrating services. While generative AI is not explicitly mentioned, the core focus on predictive modeling, data engineering, software development for ML applications, and MLOps aligns strongly with the 'ML Engineer' profile."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK3: Modeling",
-                    "evidence": [
-                        "Modellen die voorspellen welke advertentie banner/creative het meest geschikt is voor een online bezoeker",
-                        "Predictieve modellen voor most likely converters/clickers van advertentie campagnes",
-                        "Predictieve modellen voor het voorspellen van leeftijd en gender van DPG Media online bezoekers obv geconsumeerde content",
-                        "experimenteert met verschillende modellen"
-                    ],
-                    "justification": "These phrases directly relate to the creation, training, and adaptation of machine learning models for predictive tasks such as classification and regression."
+                    "category": "TASK3: Modeling",
+                    "justification": "The job description explicitly mentions building and implementing models that predict ad banner suitability, likely converters/clickers, and predicting age/gender based on content. This directly relates to creating and training predictive models.",
+                    "phrase": "Modellen die voorspellen welke advertentie banner/creative het meest geschikt is voor een online bezoeker"
                 },
                 {
-                    "task_name": "TASK2: Data Engineering",
-                    "evidence": [
-                        "Je bouwt en onderhoudt ook data pipelines",
-                        "Toevoegen van profile enrichments in batch & real-time flows in een big data environment",
-                        "Data pipelines & dashboards voor quality monitoring & alerting",
-                        "je bouwt mee aan onze onderliggende data stack & data pipelines"
-                    ],
-                    "justification": "These points highlight the design, building, and maintenance of data pipelines and infrastructure, including data enrichment and quality monitoring."
+                    "category": "TASK3: Modeling",
+                    "justification": "The description lists 'Predictieve modellen voor most likely converters/clickers van advertentie campagnes' which is a clear indication of building predictive models.",
+                    "phrase": "Predictieve modellen voor most likely converters/clickers van advertentie campagnes"
                 },
                 {
-                    "task_name": "TASK4: Software Development",
-                    "evidence": [
-                        "werkt mee aan onze web applicaties",
-                        "je bouwt mee aan onze onderliggende data stack & data pipelines (python, PySpark, ElasticSearch, Terraform, Airflow,..)",
-                        "je integreert onze services met andere DPG teams die van onze data services gebruik maken",
-                        "80% is bouwen aan de data stack, web applicaties & incrementele verbeteringen"
-                    ],
-                    "justification": "The role involves contributing to web applications, building data stacks and pipelines, and integrating services, which are core software development activities."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Predictieve modellen voor het voorspellen van leeftijd en gender van DPG Media online bezoekers obv geconsumeerde content' directly refers to the development of predictive models.",
+                    "phrase": "Predictieve modellen voor het voorspellen van leeftijd en gender van DPG Media online bezoekers obv geconsumeerde content"
                 },
                 {
-                    "task_name": "TASK5: Operations Engineering (MLOps)",
-                    "evidence": [
-                        "you build it, you run it mentaliteit (development & devops, infra-as-code, CICD, …)",
-                        "je bouwt samen met de Data & ML engineers ons ML Ops platform uit",
-                        "je neemt ownership & accountability voor bepaalde modellen, jobs & applicaties"
-                    ],
-                    "justification": "Phrases like 'build it, you run it', 'devops', 'CICD', and building an 'ML Ops platform' clearly indicate responsibilities in operations engineering and MLOps."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The job involves adding profile enrichments in batch and real-time flows within a big data environment, which is a core data engineering task.",
+                    "phrase": "Toevoegen van profile enrichments in batch & real-time flows in een big data environment"
                 },
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "evidence": [
-                        "binnen het domein van digital advertising",
-                        "self service applicatie voor adverteerders om audiences samen te stellen voor targeted advertising",
-                        "presenteert resultaten naar het dev & business team"
-                    ],
-                    "justification": "The role operates within the 'digital advertising' domain and involves presenting results to the 'business team', indicating an understanding of business context and needs."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH1: Programming Languages",
-                    "evidence": [
-                        "python",
-                        "PySpark"
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The description mentions building and maintaining data pipelines, which is a fundamental aspect of data engineering.",
+                    "phrase": "Data pipelines & dashboards voor quality monitoring & alerting"
                 },
                 {
-                    "tech_name": "TECH6: MLOps & Data Pipelines",
-                    "evidence": [
-                        "Terraform",
-                        "Airflow"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves working on web applications and integrating services with other teams, indicating traditional software development responsibilities.",
+                    "phrase": "je bouwt mee aan onze web applicaties"
                 },
                 {
-                    "tech_name": "TECH9: Data Storage",
-                    "evidence": [
-                        "ElasticSearch"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The 'you build it, you run it' mentality, along with mentions of devops, infra-as-code, and CICD, points directly to MLOps responsibilities.",
+                    "phrase": "you build it, you run it mentaliteit (development & devops, infra-as-code, CICD, …)"
                 },
                 {
-                    "tech_name": "TECH10: Data Modeling",
-                    "evidence": [
-                        "ML modellen"
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The task of analyzing requirements, experimenting with different models, and presenting results is central to the modeling process.",
+                    "phrase": "je analyseert requirements, experimenteert met verschillende modellen, onderbouwt je keuzes adhv quality parameters, implementeert & presenteert resultaten naar het dev & business team"
                 },
                 {
-                    "tech_name": "TECH11: Data Analysis",
-                    "evidence": [
-                        "PySpark"
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "Building the underlying data stack and data pipelines is a direct data engineering responsibility.",
+                    "phrase": "je bouwt mee aan onze onderliggende data stack & data pipelines"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The explicit mention of building out the ML Ops platform aligns directly with Operations Engineering.",
+                    "phrase": "je bouwt samen met de Data & ML engineers ons ML Ops platform uit"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Integrating services with other teams implies building and maintaining software interfaces and backend services.",
+                    "phrase": "je integreert onze services met andere DPG teams die van onze data services gebruik maken"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Taking ownership and accountability for models, jobs, and applications falls under the operational responsibility of ensuring production systems run smoothly.",
+                    "phrase": "je neemt ownership & accountability voor bepaalde modellen, jobs & applicaties"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The statement '80% is bouwen aan de data stack, web applicaties & incrementele verbeteringen' indicates a significant focus on building and improving software systems and data infrastructure.",
+                    "phrase": "80% is bouwen aan de data stack, web applicaties & incrementele verbeteringen"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "evidence": [
-                        "you build it, you run it mentaliteit",
-                        "je neemt ownership & accountability voor bepaalde modellen, jobs & applicaties"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "je neemt ownership & accountability voor bepaalde modellen, jobs & applicaties"
                 },
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "evidence": [
-                        "je analyseert requirements",
-                        "onderbouwt je keuzes",
-                        "implementeert & presenteert resultaten naar het dev & business team",
-                        "je versterkt ons scrum team"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "je analyseert requirements, experimenteert met verschillende modellen, onderbouwt je keuzes adhv quality parameters, implementeert & presenteert resultaten naar het dev & business team"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "evidence": [
-                        "experimenteert met verschillende modellen"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "you build it, you run it mentaliteit"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "python"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "evidence": [
-                        "analyseert requirements",
-                        "experimenteert met verschillende modellen",
-                        "onderbouwt je keuzes adhv quality parameters",
-                        "implementeert & presenteert resultaten",
-                        "80% is bouwen aan de data stack, web applicaties & incrementele verbeteringen"
-                    ]
+                    "category": "TECH11: Data Analysis",
+                    "phrase": "PySpark"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "ElasticSearch"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Terraform"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Airflow"
                 }
             ]
         }

@@ -27,48 +27,43 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description is very high-level and lacks specific technical details about AI or ML tasks. It focuses on general platform improvement and product availability, which could apply to many engineering roles beyond specialized AI/ML profiles."
+            "profile": "Ambiguous",
+            "rationale": "The job description is too vague and lacks specific details about the technologies, tasks, and responsibilities required for an AI-focused role. It mentions 'NLP Engineer' but does not provide enough information to classify it as an ML Engineer or GenAI Engineer. The responsibilities are generic and could apply to a wide range of software engineering or consulting roles."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Software Development",
-                    "phrase": "design, build and continuously improve the clients online platform",
-                    "justification": "This phrase directly relates to the creation and enhancement of software applications, which falls under the umbrella of software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'design, build and continuously improve the clients online platform' directly relates to software development activities.",
+                    "phrase": "design, build and continuously improve the clients online platform"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrase": "implement new technology solutions",
-                    "justification": "Implementing technology solutions is a core aspect of software development, involving the integration and deployment of new tools and systems."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'implement new technology solutions' implies the practical application and integration of technologies within a software context.",
+                    "phrase": "implement new technology solutions"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrase": "Take responsibility for the resiliency and availability of different products",
-                    "justification": "Ensuring the resiliency and availability of products is a key concern in operations engineering, focusing on system uptime and reliability."
-                },
-                {
-                    "task_name": "Business Understanding",
-                    "phrase": "following best practices/standards",
-                    "justification": "Adhering to best practices and standards implies an understanding of established methodologies and quality requirements within a business or technical context."
-                }
-            ],
-            "technologies": [],
-            "soft_skills": [
-                {
-                    "skill_name": "Learning & Adaptability",
-                    "phrase": "Research, suggest and implement new technology solutions"
-                },
-                {
-                    "skill_name": "Innovation & Ownership",
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Take responsibility for the resiliency and availability of different products' aligns with operational concerns of maintaining production systems.",
                     "phrase": "Take responsibility for the resiliency and availability of different products"
                 },
                 {
-                    "skill_name": "Communication & Collaboration",
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'Be a productive member of the team' implies the need for collaboration and effective teamwork.",
                     "phrase": "Be a productive member of the team"
                 }
-            ]
+            ],
+            "soft_skills": [
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Research, suggest and implement new technology solutions following best practices/standards"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Be a productive member of the team"
+                }
+            ],
+            "technologies": []
         }
     }
 }

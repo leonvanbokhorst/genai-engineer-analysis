@@ -28,171 +28,128 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The role heavily emphasizes developing foundational models for video generation using generative AI techniques, specifically text-to-video. It involves adapting off-the-shelf solutions, optimizing prototypes for deployment, and working with large datasets and compute, aligning with the core responsibilities of a GenAI Engineer."
+            "rationale": "The job description heavily emphasizes working with generative AI models, specifically text-to-video synthesis, and mentions several key generative models and frameworks (DALL.E, MUSE, IMAGEN, MAKE-A-VIDEO, STABLE DIFFUSION). The core responsibilities include developing foundational models for video generation, conducting cutting-edge research in this domain, building libraries to accelerate iteration, and developing production-quality software. This aligns directly with the definition and evidence profile of a GenAI Engineer, who focuses on designing, developing, fine-tuning, and deploying applications built on generative models."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "Business Understanding",
-                    "phrases": [
-                        {
-                            "text": "Our aim is to make video content creation available for all - not only to studio production!",
-                            "justification": "This phrase describes the overarching goal and market impact of the technology being developed, indicating an understanding of the business objective."
-                        },
-                        {
-                            "text": "Designing the requirements, project scoping and owning the roadmap in your area.",
-                            "justification": "This involves defining project scope, requirements, and future direction, which are key aspects of understanding business needs and translating them into technical plans."
-                        },
-                        {
-                            "text": "Managing the progress of the Large Video Model project and making sure that it is in line with our vision.",
-                            "justification": "This task requires aligning technical project progress with the company's strategic vision and goals."
-                        }
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The role involves developing foundational models for video generation, conducting cutting-edge research, pushing boundaries beyond SOTA solutions, adapting off-the-shelf solutions, and optimizing prototypes into working solutions, all of which are core to model development and adaptation.",
+                    "phrase": "develop our foundational model for video generation"
                 },
                 {
-                    "task": "Data Engineering",
-                    "phrases": [
-                        {
-                            "text": "develop our foundational model for video generation based on large video data-sets.",
-                            "justification": "This implies working with and processing large datasets, which is a fundamental aspect of data engineering for model training."
-                        },
-                        {
-                            "text": "large data and large compute",
-                            "justification": "This phrase directly refers to the scale of data that needs to be handled and processed for model development."
-                        }
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'turning prototypes into working solutions' directly implies the process of refining and preparing models for production.",
+                    "phrase": "turning prototypes into working solutions"
                 },
                 {
-                    "task": "Modeling",
-                    "phrases": [
-                        {
-                            "text": "create highly realistic, emotional and life-like synthetic humans through text-to-video.",
-                            "justification": "This describes the core generative modeling task of creating synthetic media from text prompts."
-                        },
-                        {
-                            "text": "text-to-video",
-                            "justification": "This is a specific generative modeling task focused on creating video content from textual descriptions."
-                        },
-                        {
-                            "text": "Computer Vision and Generative AI domain.",
-                            "justification": "This explicitly mentions the domain of expertise required, which is central to generative modeling."
-                        },
-                        {
-                            "text": "If you know and love DALL.E, MUSE, IMAGEN, MAKE-A-VIDEO, STABLE DIFFUSION and more",
-                            "justification": "These are all well-known generative AI models, indicating a focus on working with and developing similar models."
-                        },
-                        {
-                            "text": "develop our foundational model for video generation",
-                            "justification": "This directly refers to the creation and development of a core generative model."
-                        },
-                        {
-                            "text": "Reviewing specialised literature on text to video / video synthesis.",
-                            "justification": "This involves understanding the state-of-the-art in generative modeling for video."
-                        },
-                        {
-                            "text": "pushing the boundaries and going beyond existing SOTA solutions.",
-                            "justification": "This implies research and development in advanced modeling techniques."
-                        },
-                        {
-                            "text": "Adapting off-the-shelf solutions for the purposes of our product.",
-                            "justification": "This involves fine-tuning or adapting existing generative models for specific use cases."
-                        }
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'text-to-video' and 'video synthesis' points to the core generative modeling tasks.",
+                    "phrase": "text to video / video synthesis"
                 },
                 {
-                    "task": "Software Development",
-                    "phrases": [
-                        {
-                            "text": "love to code and build working systems.",
-                            "justification": "This indicates a strong focus on practical software development and building functional systems."
-                        },
-                        {
-                            "text": "experience with the software development life cycle, from ideation through implementation, to testing and release.",
-                            "justification": "This explicitly mentions the full software development lifecycle."
-                        },
-                        {
-                            "text": "Building libraries to accelerate our iteration speed during development (abstracting common functionality, automating tests sweeps, visualising results etc.).",
-                            "justification": "This involves creating software components and tools to support the development process."
-                        },
-                        {
-                            "text": "Developing production quality software",
-                            "justification": "This highlights the need to build robust, high-quality software."
-                        },
-                        {
-                            "text": "our teams work \"full stack\" with the ability to deliver direct to product and impact the world.",
-                            "justification": "This implies building end-to-end software solutions that reach users."
-                        },
-                        {
-                            "text": "turning prototypes into working solutions.",
-                            "justification": "This is a core software development task of taking research outputs and making them functional products."
-                        }
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The description explicitly states 'Developing production quality software' and 'our teams work \"full stack\" with the ability to deliver direct to product', indicating a focus on building user-facing applications.",
+                    "phrase": "Developing production quality software"
                 },
                 {
-                    "task": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        {
-                            "text": "Taking ownership of the full ML lifecycle from concept, development, testing, validation to deployment.",
-                            "justification": "This covers the entire lifecycle of an ML model, including deployment and maintenance, which is central to MLOps."
-                        },
-                        {
-                            "text": "Optimising for deployment - turning prototypes into working solutions.",
-                            "justification": "This involves preparing models and software for production environments and ensuring they function correctly in deployment."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "tech": "TECH3: LLM / Generative Models",
-                    "items": [
-                        "DALL.E",
-                        "MUSE",
-                        "IMAGEN",
-                        "MAKE-A-VIDEO",
-                        "STABLE DIFFUSION"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'full stack' implies a broad range of software development activities necessary to deliver a complete product.",
+                    "phrase": "our teams work \"full stack\""
                 },
                 {
-                    "tech": "TECH1: Programming Languages",
-                    "items": [
-                        "code"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The requirement to 'deliver direct to product' signifies the development of software that directly impacts users or the final product.",
+                    "phrase": "deliver direct to product"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The responsibility to 'Taking ownership of the full ML lifecycle from concept, development, testing, validation to deployment' covers the end-to-end management of models in production.",
+                    "phrase": "Taking ownership of the full ML lifecycle from concept, development, testing, validation to deployment"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'optimising for deployment' directly relates to the operational aspects of making models ready for production environments.",
+                    "phrase": "Optimising for deployment"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The tasks 'Designing the requirements, project scoping and owning the roadmap in your area' and 'Managing the progress of the Large Video Model project and making sure that it is in line with our vision' indicate a need to understand project goals and align technical work with business objectives.",
+                    "phrase": "Designing the requirements, project scoping and owning the roadmap in your area"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The task 'Managing the progress of the Large Video Model project and making sure that it is in line with our vision' shows an alignment of technical work with the overall strategic direction.",
+                    "phrase": "Managing the progress of the Large Video Model project and making sure that it is in line with our vision"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Building libraries to accelerate our iteration speed during development' implies creating tools that facilitate the model development and experimentation process.",
+                    "phrase": "Building libraries to accelerate our iteration speed during development"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "passion for working on cutting edge problems",
-                        "love to code and build working systems",
-                        "owning the roadmap in your area",
-                        "Taking ownership of the full ML lifecycle"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "passion for working on cutting edge problems"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "cutting edge research",
-                        "pushing the boundaries and going beyond existing SOTA solutions",
-                        "Adapting off-the-shelf solutions"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "loves to code and build working systems"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "build working systems",
-                        "turning prototypes into working solutions",
-                        "accelerate our iteration speed during development"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "used to working in a fast-paced start-up environment"
                 },
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "collaborate with multiple research teams",
-                        "academic contributions in this area"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "experience with the software development life cycle, from ideation through implementation, to testing and release"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Taking ownership of the full ML lifecycle"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "collaborate with multiple research teams"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "pushing the boundaries"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "DALL.E"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "MUSE"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "IMAGEN"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "MAKE-A-VIDEO"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "STABLE DIFFUSION"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "code"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Computer Vision"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Generative AI"
                 }
             ]
         }

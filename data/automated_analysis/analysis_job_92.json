@@ -28,91 +28,67 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description emphasizes a focus on generative AI, working with NLP specialists, and transitioning models from development to production. While MLOps is mentioned, the core application area is generative AI, aligning with the GenAI Engineer profile's focus on LLMs and generative models."
+            "rationale": "The job description emphasizes working with generative AI, implementing and maintaining machine learning infrastructure and workflows, and collaborating with NLP specialists. It highlights a focus on cutting-edge products and building effective, scalable machine learning systems, aligning with the core responsibilities of a GenAI Engineer who develops and deploys applications built on generative models."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "generative AI",
-                        "machine learning infrastructuur en workflows",
-                        "Natural Language Processing (NLP) specialisten"
-                    ],
-                    "justification": "The mention of 'generative AI' and 'Natural Language Processing (NLP) specialists' directly points to the core of generative modeling. 'Machine learning infrastructuur en workflows' also implies the underlying processes for training and managing these models."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'machine learning infrastructuur en workflows' and the mention of 'Natural Language Processing (NLP) specialisten' imply the development, training, or adaptation of models, particularly in the generative AI context.",
+                    "phrase": "machine learning infrastructuur en workflows"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "software engineers",
-                        "naadloze overgang van ontwikkeling naar productie te waarborgen",
-                        "meest effectieve en schaalbare machine learning systemen te bouwen"
-                    ],
-                    "justification": "The role involves collaboration with 'software engineers' and ensuring a 'seamless transition from development to production', indicating the need to integrate ML models into larger software systems. Building 'effective and scalable machine learning systems' also falls under this category."
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'generative AI' directly points to the core of generative modeling tasks.",
+                    "phrase": "generative AI"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "MLOps Engineer",
-                        "implementeren en onderhouden van onze machine learning infrastructuur en workflows",
-                        "overgang van ontwikkeling naar productie te waarborgen"
-                    ],
-                    "justification": "The job title itself is 'MLOps Engineer'. The description explicitly mentions 'implementing and maintaining our machine learning infrastructure and workflows' and ensuring the 'transition from development to production', which are core MLOps responsibilities."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves ensuring a 'naadloze overgang van ontwikkeling naar productie', which is a key aspect of software development in an AI context, integrating models into functional systems.",
+                    "phrase": "naadloze overgang van ontwikkeling naar productie"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "zorgsector te ondersteunen",
-                        "innovatieve, op AI-gerichte omgeving",
-                        "cutting-edge product"
-                    ],
-                    "justification": "The role is situated within an 'innovative, AI-focused environment' and aims to 'support the healthcare sector' with a 'cutting-edge product', indicating a need to understand business goals and context."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "phrases": [
-                        "generative AI",
-                        "Natural Language Processing (NLP)"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The job title itself is 'MLOps Engineer' and the description mentions 'implementeren en onderhouden van onze machine learning infrastructuur en workflows', which are core MLOps responsibilities.",
+                    "phrase": "MLOps Engineer"
                 },
                 {
-                    "tech_name": "TECH6: MLOps & Data Pipelines",
-                    "phrases": [
-                        "MLOps",
-                        "machine learning infrastructuur en workflows"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'implementeren en onderhouden van onze machine learning infrastructuur en workflows' directly relates to the operational aspects of managing ML systems.",
+                    "phrase": "implementeren en onderhouden van onze machine learning infrastructuur en workflows"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The mention of 'nieuwe producten ontwikkelt om de zorgsector te ondersteunen' indicates an understanding of the business domain and its application.",
+                    "phrase": "nieuwe producten ontwikkelt om de zorgsector te ondersteunen"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "open voor nieuwe technologieën en aanpakken",
-                        "snel veranderende, innovatieve omgeving"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "stelt je open voor nieuwe technologieën en aanpakken"
                 },
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "nauw samenwerken met onze data scientists, Natural Language Processing (NLP) specialisten en software engineers"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "innovatieve omgeving"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "innovatieve omgeving",
-                        "cutting-edge product",
-                        "meest effectieve en schaalbare machine learning systemen te bouwen"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "werkt nauw samen met onze data scientists, Natural Language Processing (NLP) specialisten en software engineers"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "meest effectieve en schaalbare machine learning systemen te bouwen"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "meest effectieve en schaalbare machine learning systemen te bouwen"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "generative AI"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Natural Language Processing (NLP)"
                 }
             ]
         }
