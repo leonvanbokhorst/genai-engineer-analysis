@@ -28,121 +28,100 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The role emphasizes building RAG solutions and keeping up with semantic search developments, indicating a focus on generative AI applications. While it involves software engineering and operations, the core tasks lean towards leveraging and developing AI-driven search functionalities rather than traditional ML model building."
+            "rationale": "The job description emphasizes building RAG solutions, keeping up with developments in semantic search, and mentions vector databases as a 'nice to have'. While it involves software development and operations, the core focus on generative AI applications (RAG) and advanced search techniques like semantic search aligns best with the GenAI Engineer profile. The mention of 'Machine Learning workflows' managed by a platform team also supports this, as GenAI engineers often leverage these for their models."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "Software Engineer",
-                        "Maintain and extend our search back-end",
-                        "Design, develop, run and evaluate online AB-tests to improve the quality of the search results",
-                        "Support operational excellence through practices like code review and pair programming",
-                        "The entire team is responsible for the operations of our services",
-                        "actively monitoring different applications and their infrastructure as well as intervening to solve operational problems whenever they arise"
-                    ],
-                    "justification": "The job description explicitly states 'Software Engineer' and details responsibilities like maintaining back-ends, developing tests, and operational support, which are core to software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves maintaining and extending a search back-end, designing, developing, running, and evaluating online A/B tests, and building RAG solutions. These are all core software development activities focused on building and improving user-facing applications or services.",
+                    "phrase": "Maintain and extend our search back-end"
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "Build RAG solutions for editorial domain",
-                        "Keep up with developments in the field of Information Retrieval (e.g. semantic search)"
-                    ],
-                    "justification": "The mention of 'RAG solutions' and 'semantic search' directly relates to building and adapting models, particularly in the generative AI and information retrieval space."
+                    "category": "TASK4: Software Development",
+                    "justification": "Designing, developing, running, and evaluating online A/B tests is a direct software development task aimed at improving product quality.",
+                    "phrase": "Design, develop, run and evaluate online AB-tests to improve the quality of the search results"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Support operational excellence through practices like code review and pair programming",
-                        "The entire team is responsible for the operations of our services",
-                        "actively monitoring different applications and their infrastructure as well as intervening to solve operational problems whenever they arise",
-                        "You will be supported by a platform engineering team that manages the CICD pipelines, Machine Learning workflows and most of the infrastructure."
-                    ],
-                    "justification": "The role involves direct responsibility for operations, monitoring, and problem-solving for services, alongside mentions of CICD pipelines and ML workflows managed by a supporting team, indicating an operational focus."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Supporting operational excellence through code review and pair programming, and being responsible for the operations of services including monitoring and intervening to solve operational problems, are key aspects of operations engineering.",
+                    "phrase": "Support operational excellence through practices like code review and pair programming"
                 },
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "search engine that serves both journalists and customers of DPG Media, across all media offerings"
-                    ],
-                    "justification": "While not explicitly detailed, the context of building a search engine implies underlying data handling and processing, which falls under data engineering."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "AWS",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The entire team's responsibility for operations, including monitoring applications and infrastructure and solving operational problems, falls under operations engineering.",
+                    "phrase": "The entire team is responsible for the operations of our services. This includes actively monitoring different applications and their infrastructure as well as intervening to solve operational problems whenever they arise."
                 },
                 {
-                    "tech_name": "Kafka",
-                    "category": "TECH6: MLOps & Data Pipelines"
+                    "category": "TASK3: Modeling",
+                    "justification": "Keeping up with developments in Information Retrieval, specifically semantic search, and building RAG solutions directly relates to the modeling aspect of generative AI and advanced search techniques.",
+                    "phrase": "Keep up with developments in the field of Information Retrieval (e.g. semantic search)"
                 },
                 {
-                    "tech_name": "Elasticsearch",
-                    "category": "TECH11: Data Analysis"
+                    "category": "TASK3: Modeling",
+                    "justification": "Building RAG (Retrieval-Augmented Generation) solutions is a core task within generative AI modeling.",
+                    "phrase": "Build RAG solutions for editorial domain"
                 },
                 {
-                    "tech_name": "Python",
-                    "category": "TECH1: Programming Languages"
-                },
-                {
-                    "tech_name": "FastAPI",
-                    "category": "TECH4: LLM Frameworks & Libraries"
-                },
-                {
-                    "tech_name": "SQL",
-                    "category": "TECH11: Data Analysis"
-                },
-                {
-                    "tech_name": "Docker",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "tech_name": "vector databases",
-                    "category": "TECH5: Vector Stores & Search"
-                },
-                {
-                    "tech_name": "semantic search",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Working on a search engine that serves journalists and customers across all media offerings implies understanding the business context and user needs.",
+                    "phrase": "You'll be working on a search engine that serves both journalists and customers of DPG Media, across all media offerings."
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        "The company and your team members will actively support you to grow your skills and expertise",
-                        "Keep up with developments in the field of Information Retrieval (e.g. semantic search)"
-                    ],
-                    "justification": "The job description explicitly mentions support for skill growth and the need to stay updated with advancements in the field, highlighting a need for continuous learning and adaptability."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "The company and your team members will actively support you to grow your skills and expertise."
                 },
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        "You'll be working on a search engine that serves both journalists and customers of DPG Media, across all media offerings.",
-                        "The search team consists of three developers, two based in Amsterdam and another in Antwerp. This is who you will be working with on a daily basis.",
-                        "Furthermore, the search team is part of a larger Recommendation & Search area consisting of approximately 20 engineers, a single manager and two product owners, in the Netherlands and Belgium.",
-                        "We work with an agile philosophy and on a flexible working regime."
-                    ],
-                    "justification": "The description details the team structure, cross-functional collaboration with product owners and other engineers, and the agile methodology, all of which require strong communication and collaboration skills."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "The search team consists of three developers, two based in Amsterdam and another in Antwerp. This is who you will be working with on a daily basis."
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Maintain and extend our search back-end",
-                        "Design, develop, run and evaluate online AB-tests to improve the quality of the search results",
-                        "The entire team is responsible for the operations of our services. This includes actively monitoring different applications and their infrastructure as well as intervening to solve operational problems whenever they arise."
-                    ],
-                    "justification": "Responsibilities include maintaining and improving a search back-end, evaluating tests, and actively solving operational problems, all of which require problem-solving and a pragmatic approach."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "The entire team is responsible for the operations of our services."
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        "Build RAG solutions for editorial domain"
-                    ],
-                    "justification": "The task of building RAG solutions suggests an element of innovation and taking ownership of developing new AI-driven features."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Keep up with developments in the field of Information Retrieval (e.g. semantic search)."
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "AWS"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Kafka"
+                },
+                {
+                    "category": "TECH11: Data Analysis",
+                    "phrase": "Elasticsearch"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "FastAPI"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "SQL"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Docker"
+                },
+                {
+                    "category": "TECH5: Vector Stores & Search",
+                    "phrase": "vector databases"
+                },
+                {
+                    "category": "TECH11: Data Analysis",
+                    "phrase": "semantic search"
                 }
             ]
         }

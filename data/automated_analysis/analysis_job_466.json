@@ -27,269 +27,149 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on data engineering, data modeling, and ETL/ELT processes within a data warehouse context. While it mentions supporting data science and product development, it lacks the core responsibilities and technologies associated with ML Engineering or GenAI Engineering, such as algorithm development, model training, or fine-tuning generative models."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on data engineering, data modeling, and ETL processes, with a strong emphasis on building and maintaining data infrastructure and pipelines. While it mentions supporting data scientists and working with data, it does not describe the core responsibilities of developing, fine-tuning, or deploying generative AI models, nor does it focus on predictive modeling in the way an ML Engineer would. The role appears to be a traditional data engineering or analytics engineering role, which falls outside the scope of GenAI or ML Engineering as defined in the coding book. Therefore, it is classified as 'Ambiguous' as it is not a technical AI role as defined."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "Business Understanding",
-                    "phrases": [
-                        {
-                            "text": "collect business requirements",
-                            "justification": "This phrase directly indicates the need to understand and gather requirements from business stakeholders."
-                        },
-                        {
-                            "text": "gain an analytical understanding of these datasets",
-                            "justification": "This implies understanding the business context and implications of the data being worked with."
-                        },
-                        {
-                            "text": "solve complex technical challenges",
-                            "justification": "While broad, solving complex challenges often requires understanding the underlying business problem they are intended to solve."
-                        }
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'build and maintain ETL pipelines' directly relates to the process of designing, building, and maintaining data pipelines.",
+                    "phrase": "build and maintain ETL pipelines"
                 },
                 {
-                    "task": "Data Engineering",
-                    "phrases": [
-                        {
-                            "text": "build and maintain ETL pipelines",
-                            "justification": "This is a core data engineering activity focused on extracting, transforming, and loading data."
-                        },
-                        {
-                            "text": "integrate new data sources",
-                            "justification": "This involves the technical process of connecting and incorporating new data into existing systems."
-                        },
-                        {
-                            "text": "DataOps best practices",
-                            "justification": "DataOps is a set of practices for data management and data science that aims to improve the speed and quality of data analytics."
-                        },
-                        {
-                            "text": "data processing at DeepL",
-                            "justification": "This broadly refers to the engineering tasks involved in handling and managing data."
-                        },
-                        {
-                            "text": "Leverage raw data in our data warehouse",
-                            "justification": "This implies working with and transforming raw data, a key aspect of data engineering."
-                        },
-                        {
-                            "text": "Write production quality ELT code",
-                            "justification": "ELT (Extract, Load, Transform) is a data engineering pattern, and writing production-quality code is a core engineering task."
-                        },
-                        {
-                            "text": "Maintain our data catalog",
-                            "justification": "Data cataloging is an important part of data governance and management, often handled by data engineers."
-                        },
-                        {
-                            "text": "help our team maintain and improve the infrastructure for data collection, processing, management and analysis",
-                            "justification": "This explicitly mentions infrastructure related to the data lifecycle, a data engineering responsibility."
-                        },
-                        {
-                            "text": "Research, design, implement and drive new solutions and software for solving complex data processing problems",
-                            "justification": "This describes the full lifecycle of developing and implementing data processing solutions."
-                        }
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'create foundational data models in our data warehouse' describes the process of structuring and organizing data within a data warehouse, a key aspect of data engineering.",
+                    "phrase": "create foundational data models in our data warehouse"
                 },
                 {
-                    "task": "Modeling",
-                    "phrases": [
-                        {
-                            "text": "create foundational data models",
-                            "justification": "This refers to the design and creation of data structures, often within a data warehouse context."
-                        },
-                        {
-                            "text": "design data models",
-                            "justification": "This is a direct mention of the process of creating data models."
-                        },
-                        {
-                            "text": "build a curated data models",
-                            "justification": "This involves structuring and organizing data into usable models."
-                        },
-                        {
-                            "text": "Provide data modeling expertise",
-                            "justification": "This highlights the role's focus on the principles and practices of data modeling."
-                        },
-                        {
-                            "text": "deliver optimal, DRY, and scalable database designs and queries",
-                            "justification": "This emphasizes the quality and architectural aspects of data modeling and database design."
-                        }
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'integrate new data sources' involves bringing in data from various origins into the existing data infrastructure.",
+                    "phrase": "integrate new data sources"
                 },
                 {
-                    "task": "Software Development",
-                    "phrases": [
-                        {
-                            "text": "integrate new data sources",
-                            "justification": "This involves software integration tasks to bring in new data."
-                        },
-                        {
-                            "text": "Write production quality ELT code (Python, SQL)",
-                            "justification": "Writing production-quality code in languages like Python and SQL is a fundamental software development skill applied to data pipelines."
-                        },
-                        {
-                            "text": "internal tools to make the data easily accessible",
-                            "justification": "This implies developing software tools for data accessibility."
-                        },
-                        {
-                            "text": "Research, design, implement and drive new solutions and software",
-                            "justification": "This covers the software development lifecycle from research to implementation."
-                        }
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'DataOps best practices, including documentation and testing' refers to operational practices applied to data management and pipelines.",
+                    "phrase": "DataOps best practices, including documentation and testing"
                 },
                 {
-                    "task": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        {
-                            "text": "DataOps best practices",
-                            "justification": "DataOps is closely related to MLOps, focusing on operational excellence in data pipelines."
-                        },
-                        {
-                            "text": "testing",
-                            "justification": "Testing is a crucial part of operations engineering to ensure reliability and quality."
-                        },
-                        {
-                            "text": "maintain ETL pipelines",
-                            "justification": "Maintenance of production pipelines falls under operations."
-                        },
-                        {
-                            "text": "maintain foundational data models",
-                            "justification": "Ongoing maintenance of data infrastructure components is an operational task."
-                        },
-                        {
-                            "text": "maintain our data catalog",
-                            "justification": "Keeping operational systems like data catalogs up-to-date and functional is an operations task."
-                        },
-                        {
-                            "text": "improve, manage, and teach code maintainability and performance standards",
-                            "justification": "This relates to ensuring the operational health and efficiency of code and systems."
-                        },
-                        {
-                            "text": "maintain and improve the infrastructure for data collection, processing, management and analysis",
-                            "justification": "This explicitly covers the operational aspects of data infrastructure."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "tech": "TECH1: Programming Languages",
-                    "items": [
-                        "Python",
-                        "SQL"
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'support other data specialists in their work to make their queries and tables efficient and their use of data effective' implies optimizing data structures and access for other data professionals.",
+                    "phrase": "support other data specialists in their work to make their queries and tables efficient and their use of data effective"
                 },
                 {
-                    "tech": "TECH10: Data Modeling",
-                    "items": [
-                        "data models"
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'build and maintain data models, libraries and the tooling supporting data processing' encompasses the creation and upkeep of data structures and the systems that process them.",
+                    "phrase": "build and maintain data models, libraries and the tooling supporting data processing"
                 },
                 {
-                    "tech": "TECH6: MLOps & Data Pipelines",
-                    "items": [
-                        "ETL pipelines",
-                        "ELT code",
-                        "DataOps"
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'The data platform combines various data sources, both internal and external, and makes them available to our stakeholders' describes the core function of a data platform, which is a data engineering responsibility.",
+                    "phrase": "The data platform combines various data sources, both internal and external, and makes them available to our stakeholders"
                 },
                 {
-                    "tech": "TECH11: Data Analysis",
-                    "items": [
-                        "queries",
-                        "tables"
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'collect business requirements, define successful outcomes' directly relates to understanding the business context and aligning technical work with business goals.",
+                    "phrase": "collect business requirements, define successful outcomes"
                 },
                 {
-                    "tech": "TECH9: Data Storage",
-                    "items": [
-                        "data warehouse"
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'design data models' involves the conceptual and logical structuring of data, which is a form of modeling.",
+                    "phrase": "design data models"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Leverage raw data in our data warehouse to build a curated data models' describes the transformation and structuring of data for analytical purposes.",
+                    "phrase": "Leverage raw data in our data warehouse to build a curated data models"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Write production quality ELT code (Python, SQL) with an eye towards performance and maintainability' involves writing code for data transformation and integration, which falls under software development practices applied to data.",
+                    "phrase": "Write production quality ELT code (Python, SQL) with an eye towards performance and maintainability"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Create and maintain architecture and systems documentation' is crucial for data infrastructure management and understanding.",
+                    "phrase": "Create and maintain architecture and systems documentation"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Maintain our data catalog as a scalable resource to support self-service and serve as single source of truth for data definition' is about managing metadata and data governance, a data engineering task.",
+                    "phrase": "Maintain our data catalog as a scalable resource to support self-service and serve as single source of truth for data definition"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Provide data modeling expertise to all team members through code reviews, pair programming, and training to help deliver optimal, DRY, and scalable database designs and queries' highlights the skill in designing and optimizing database structures.",
+                    "phrase": "Provide data modeling expertise to all team members through code reviews, pair programming, and training to help deliver optimal, DRY, and scalable database designs and queries"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Become a domain expert in the data you are work with' implies understanding the business context and meaning of the data.",
+                    "phrase": "Become a domain expert in the data you are work with"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Improve, manage, and teach code maintainability and performance standards in code submitted and reviewed' relates to ensuring the quality and efficiency of data processing code.",
+                    "phrase": "Improve, manage, and teach code maintainability and performance standards in code submitted and reviewed"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'help our team maintain and improve the infrastructure for data collection, processing, management and analysis' directly addresses the upkeep and enhancement of data systems.",
+                    "phrase": "help our team maintain and improve the infrastructure for data collection, processing, management and analysis"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Research, design, implement and drive new solutions and software for solving complex data processing problems' involves developing new systems for handling data.",
+                    "phrase": "Research, design, implement and drive new solutions and software for solving complex data processing problems"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Work on our internal tools to make the data easily accessible to our internal stakeholders' involves developing software tools for data access.",
+                    "phrase": "Work on our internal tools to make the data easily accessible to our internal stakeholders"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        {
-                            "text": "Collaborate with team members"
-                        },
-                        {
-                            "text": "support other data specialists"
-                        },
-                        {
-                            "text": "work in a cross-functional team with product managers, data scientists, data engineers and developers"
-                        },
-                        {
-                            "text": "Provide data modeling expertise to all team members through code reviews, pair programming, and training"
-                        },
-                        {
-                            "text": "Open communication, regular feedback"
-                        },
-                        {
-                            "text": "smooth collaboration, direct and actionable feedback"
-                        },
-                        {
-                            "text": "foster effective and seamless collaboration"
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate with team members"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        {
-                            "text": "gain an analytical understanding of these datasets"
-                        },
-                        {
-                            "text": "Become a domain expert in the data you are work with"
-                        },
-                        {
-                            "text": "Annual learning budget"
-                        },
-                        {
-                            "text": "don't check all the boxes, don't let that hold you back. At DeepL, it's all about the value you bring and the growth we can foster together."
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "work in a cross-functional team with product managers, data scientists, data engineers and developers"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        {
-                            "text": "solve complex technical challenges"
-                        },
-                        {
-                            "text": "Research, design, implement and drive new solutions and software for solving complex data processing problems"
-                        },
-                        {
-                            "text": "make their queries and tables efficient and their use of data effective"
-                        },
-                        {
-                            "text": "eye towards performance and maintainability"
-                        },
-                        {
-                            "text": "deliver optimal, DRY, and scalable database designs and queries"
-                        },
-                        {
-                            "text": "Improve, manage, and teach code maintainability and performance standards"
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Provide data modeling expertise to all team members through code reviews, pair programming, and training"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        {
-                            "text": "drive new solutions and software"
-                        },
-                        {
-                            "text": "Hack Fridays, where you can spend your time diving into a project you're passionate about"
-                        },
-                        {
-                            "text": "we value your initiatives, impact, and creativity"
-                        },
-                        {
-                            "text": "it's all about the value you bring and the growth we can foster together."
-                        }
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Annual learning budget"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "drive new solutions and software"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Hack Fridays, where you can spend your time diving into a project you're passionate about"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "solve complex technical challenges"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "solving complex data processing problems"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "SQL"
                 }
             ]
         }

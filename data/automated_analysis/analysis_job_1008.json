@@ -27,102 +27,117 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional backend software engineering for product catalogs, with only a minor mention of AI/LLMs for product enhancement. The core responsibilities and technologies listed are not indicative of a specialized AI or ML engineering role."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on backend software engineering for product catalogs, with a mention of leveraging AI and LLMs for product enhancement. However, the core responsibilities and technologies listed are primarily related to traditional software development, data engineering, and operations, rather than specialized AI/ML model development or generative AI application building. The AI/LLM usage is described as a feature enhancement rather than the primary focus of the role, making it lean towards a traditional software engineering role with AI integration rather than a dedicated AI/ML or GenAI Engineer role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "phrase": "Catalog System Scaling - In order to support larger and more sophisticated advertisers, we must scale our system to support millions of products per customer. You'd have the opportunity to load test, identify bottlenecks, and deploy optimizations to make these customers successful.",
                     "category": "TASK4: Software Development",
-                    "justification": "This phrase describes scaling a backend system, identifying bottlenecks, and deploying optimizations, which are core software development and system engineering tasks."
+                    "justification": "The responsibilities include 'Develop, maintain, and scale our product catalogs backend' and 'Contribute to the development of features to make our product easier to use', which are core software development activities.",
+                    "phrase": "Develop, maintain, and scale our product catalogs backend"
                 },
                 {
-                    "phrase": "Catalog Management - With millions of products, advertisers need tools to manage those products, identify errors, and build campaigns based on subsets of products.",
                     "category": "TASK4: Software Development",
-                    "justification": "This describes building tools and features for managing product data, which falls under software development for user-facing or internal applications."
+                    "justification": "The responsibility 'Produce robust and sustainable code and demonstrate proficiency in debugging systems beyond your immediate responsibilities' points to general software engineering practices.",
+                    "phrase": "Produce robust and sustainable code and demonstrate proficiency in debugging systems beyond your immediate responsibilities"
                 },
                 {
-                    "phrase": "Product Enhancement - Leveraging AI and LLMs to make our products more appealing to users by showcasing products popular with Redditors, enhancing product image backgrounds with GenAI, and much more!",
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Catalog System Scaling - In order to support larger and more sophisticated advertisers, we must scale our system to support millions of products per customer. You'd have the opportunity to load test, identify bottlenecks, and deploy optimizations to make these customers successful.' describes scaling and optimization of a system, which is a software development task.",
+                    "phrase": "Catalog System Scaling"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Catalog Management - With millions of products, advertisers need tools to manage those products, identify errors, and build campaigns based on subsets of products.' implies building tools and features for managing products, a software development task.",
+                    "phrase": "Catalog Management"
+                },
+                {
                     "category": "TASK3: Modeling",
-                    "justification": "This phrase explicitly mentions leveraging 'AI and LLMs' and 'GenAI' for product enhancement, indicating the use or development of generative models."
+                    "justification": "The phrase 'Product Enhancement - Leveraging AI and LLMs to make our products more appealing to users by showcasing products popular with Redditors, enhancing product image backgrounds with GenAI, and much more!' directly mentions leveraging AI and LLMs for product enhancement, which falls under modeling, specifically generative AI.",
+                    "phrase": "Leveraging AI and LLMs to make our products more appealing to users by showcasing products popular with Redditors, enhancing product image backgrounds with GenAI"
                 },
                 {
-                    "phrase": "Develop, maintain, and scale our product catalogs backend",
-                    "category": "TASK4: Software Development",
-                    "justification": "This is a direct statement of core software development responsibilities, focusing on backend systems."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of 'Kubernetes' and 'Airflow' as tools used on the team indicates involvement in operations and pipeline management, which are key components of MLOps.",
+                    "phrase": "Kubernetes, Airflow"
                 },
                 {
-                    "phrase": "Contribute to the development of features to make our product easier to use",
-                    "category": "TASK4: Software Development",
-                    "justification": "This describes building new features, a fundamental software development task."
-                },
-                {
-                    "phrase": "Produce robust and sustainable code and demonstrate proficiency in debugging systems beyond your immediate responsibilities.",
-                    "category": "TASK4: Software Development",
-                    "justification": "This highlights core software engineering practices like writing quality code and debugging."
-                },
-                {
-                    "phrase": "Uphold high-quality standards within the team.",
-                    "category": "SKILL3: Problem Solving & Pragmatism",
-                    "justification": "Upholding quality standards implies a pragmatic and results-oriented approach to development."
-                }
-            ],
-            "technologies": [
-                {
-                    "phrase": "Python",
-                    "category": "TECH1: Programming Languages"
-                },
-                {
-                    "phrase": "Scala",
-                    "category": "TECH1: Programming Languages"
-                },
-                {
-                    "phrase": "Go",
-                    "category": "TECH1: Programming Languages"
-                },
-                {
-                    "phrase": "gRPC",
-                    "category": "TECH4: LLM Frameworks & Libraries"
-                },
-                {
-                    "phrase": "Thrift",
-                    "category": "TECH4: LLM Frameworks & Libraries"
-                },
-                {
-                    "phrase": "Baseplate",
-                    "category": "TECH4: LLM Frameworks & Libraries"
-                },
-                {
-                    "phrase": "Kafka",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "phrase": "Postgres",
-                    "category": "TECH9: Data Storage"
-                },
-                {
-                    "phrase": "BigQuery",
-                    "category": "TECH9: Data Storage"
-                },
-                {
-                    "phrase": "Redis",
-                    "category": "TECH9: Data Storage"
-                },
-                {
-                    "phrase": "Kubernetes",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "phrase": "Airflow",
-                    "category": "TECH6: MLOps & Data Pipelines"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The mention of 'BigQuery' as a datastore suggests involvement in data handling and potentially data pipeline management, which is part of data engineering.",
+                    "phrase": "BigQuery"
                 }
             ],
             "soft_skills": [
                 {
-                    "phrase": "Uphold high-quality standards within the team.",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "identify bottlenecks, and deploy optimizations"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "identify errors"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Uphold high-quality standards within the team"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Scala"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Go"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "LLMs"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "GenAI"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "gRPC"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Thrift"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Baseplate"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Kafka"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "Postgres"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "BigQuery"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "Redis"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Kubernetes"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Airflow"
                 }
             ]
         }

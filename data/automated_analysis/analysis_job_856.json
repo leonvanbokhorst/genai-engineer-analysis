@@ -27,113 +27,88 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional software engineering principles and soft skills, with only a brief mention of generative AI as a training area. It lacks specific tasks or technologies related to building or deploying AI models, making it not a direct fit for an AI-focused role."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on general software engineering principles, multidisciplinary teamwork, and soft skills development. While it mentions 'generative AI' as a training area, it does not specify any core responsibilities or required technologies related to building, fine-tuning, or deploying generative AI models. The emphasis is on general software craftsmanship and impact, rather than specialized AI engineering tasks. Therefore, it falls under the 'Ambiguous' category as it's not a dedicated AI role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrase": "transforming environments from \"A to Better\"",
-                    "justification": "This phrase implies understanding the current state and improving it, which aligns with understanding business needs and translating them into technical improvements."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description emphasizes 'software craftsmanship', 'greenfield projects', and transforming environments, which are core to traditional software development.",
+                    "phrase": "tackle complex greenfield projects, transforming environments"
                 },
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrase": "making impact",
-                    "justification": "This phrase indicates a focus on the business outcome and value of the work, which is a key aspect of business understanding."
+                    "category": "TASK4: Software Development",
+                    "justification": "The mention of 'microservices' is a common architectural pattern in software development.",
+                    "phrase": "microservices"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "Senior JVM Polyglot Software Engineer",
-                    "justification": "This directly indicates a role focused on software engineering, specifically with JVM languages and polyglot capabilities."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The description highlights 'making impact' and boosting productivity, indicating a need to understand business goals and translate them into technical solutions.",
+                    "phrase": "making impact"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "microservices",
-                    "justification": "Microservices architecture is a common pattern in modern software development, falling under the umbrella of software engineering tasks."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The job description explicitly mentions training in 'how to communicate effectively, ask the right questions, present ideas, and get people on board with your vision'.",
+                    "phrase": "how to communicate effectively, ask the right questions, present ideas, and get people on board with your vision"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "event sourcing",
-                    "justification": "Event sourcing is a software design pattern that is part of building robust and scalable applications, fitting within software development."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "justification": "The role emphasizes 'growth is part of your DNA' and provides 'training and guidance', indicating a strong focus on continuous learning and adapting to new areas.",
+                    "phrase": "growth is part of your DNA"
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrase": "Cloud Native",
-                    "justification": "While 'Cloud Native' can touch on MLOps, in this context, it's more broadly about building applications designed for cloud environments, which is a software development and operations concern."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "TypeScript",
-                    "category": "TECH1: Programming Languages"
-                },
-                {
-                    "technology": "Go",
-                    "category": "TECH1: Programming Languages"
-                },
-                {
-                    "technology": "JVM",
-                    "category": "TECH1: Programming Languages"
-                },
-                {
-                    "technology": "generative AI",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "justification": "The phrase 'transforming environments from \"A to Better\"' suggests a proactive and ownership-driven approach to improvement.",
+                    "phrase": "transforming environments from \"A to Better\""
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrase": "working in multidisciplinary teams"
-                },
-                {
-                    "skill": "SKILL1: Communication & Collaboration",
+                    "category": "SKILL1: Communication & Collaboration",
                     "phrase": "collaborating with people as passionate and talented as you are"
                 },
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrase": "how to communicate effectively"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "how to communicate effectively, ask the right questions, present ideas, and get people on board with your vision"
                 },
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrase": "present ideas"
-                },
-                {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrase": "get people on board with your vision"
-                },
-                {
-                    "skill": "SKILL2: Learning & Adaptability",
+                    "category": "SKILL2: Learning & Adaptability",
                     "phrase": "growth is part of your DNA"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
+                    "category": "SKILL2: Learning & Adaptability",
                     "phrase": "You'll receive training and guidance not only in technical areas"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "phrase": "adapt to new technologies"
-                },
-                {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
+                    "category": "SKILL3: Problem Solving & Pragmatism",
                     "phrase": "tackle complex greenfield projects"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "ask the right questions"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "transforming environments from \"A to Better\""
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "TypeScript"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "boost productivity"
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Go"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrase": "passion for software craftsmanship"
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "JVM"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrase": "commitment to excellence"
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "generative AI"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "event sourcing"
                 }
             ]
         }

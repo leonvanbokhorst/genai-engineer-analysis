@@ -28,54 +28,45 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description emphasizes developing AI tools for a specific process (grant applications), mentioning AI, NLP, and software development. The focus on creating an AI tool that makes a process 'smarter, faster, and easier' aligns with building user-facing applications powered by generative AI."
+            "rationale": "The job description explicitly mentions 'Generative AI Engineer' and highlights the development of AI tools using 'AI, NLP' to improve a specific process (subsidieaanvraagproces). The focus on developing AI tools and the mention of NLP align directly with the core responsibilities and definition of a GenAI Engineer, particularly in building and deploying AI-driven applications."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrase": "softwareontwikkeling",
-                    "justification": "Directly mentions software development as a required skill."
-                },
-                {
-                    "task_name": "TASK4: Software Development",
-                    "phrase": "ontwikkelen hiervoor AI-tool",
-                    "justification": "Indicates the creation and building of an AI tool, which falls under software development."
-                },
-                {
-                    "task_name": "TASK3: Modeling",
-                    "phrase": "AI",
-                    "justification": "General mention of AI, implying the use or development of AI models."
-                },
-                {
-                    "task_name": "TASK3: Modeling",
-                    "phrase": "NLP",
-                    "justification": "Natural Language Processing (NLP) is a core component of generative AI modeling."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH1: Programming Languages",
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'softwareontwikkeling' directly relates to building and developing software, which is a core component of developing AI tools and applications.",
                     "phrase": "softwareontwikkeling"
                 },
                 {
-                    "tech_name": "TECH3: LLM / Generative Models",
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'AI' and 'NLP' (Natural Language Processing) indicates a focus on developing and utilizing models, which falls under the modeling category.",
                     "phrase": "AI"
                 },
                 {
-                    "tech_name": "TECH3: LLM / Generative Models",
+                    "category": "TASK3: Modeling",
+                    "justification": "NLP is a subfield of AI that involves developing models to understand and process human language, fitting within the Modeling task category.",
                     "phrase": "NLP"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The description mentions developing AI tools to make the 'subsidieaanvraagproces' (subsidy application process) smarter, faster, and easier, indicating an understanding of a specific business process and the goal of improving it with technology.",
+                    "phrase": "subsidieaanvraagproces slimmer, sneller en eenvoudiger maakt"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
+                    "category": "SKILL5: Innovation & Ownership",
                     "phrase": "pionier in AI"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
+                    "category": "SKILL5: Innovation & Ownership",
                     "phrase": "bijdragen aan een innovatie"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Generative AI"
                 }
             ]
         }

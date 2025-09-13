@@ -27,30 +27,24 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 1,
-            "rationale": "The job description focuses on compiler engineering for DPUs using LLVM, which is a traditional software engineering role. It does not involve the core responsibilities or technologies associated with ML Engineering or GenAI Engineering as defined in the coding book."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on compiler engineering within the LLVM framework, which is a specialized area of software development. While LLVM can be used in AI/ML contexts, the description itself does not mention any generative AI models, LLM frameworks, or specific AI/ML tasks like model training, RAG, or fine-tuning. The core responsibilities revolve around compiler optimization and code generation, aligning more with traditional software engineering or systems programming rather than the specialized roles of ML Engineer or GenAI Engineer as defined in the coding book. Therefore, it falls under the 'Ambiguous' category due to its lack of direct relevance to AI/ML roles as defined."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "Senior DPU Compiler Engineer",
-                        "LLVM"
-                    ],
-                    "justification": "The role involves engineering and development within the LLVM compiler infrastructure, which is a core software development activity. While LLVM is used in ML contexts, the description focuses on compiler engineering itself, not the application of ML models."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves working with LLVM, a compiler infrastructure, which implies significant software development, optimization, and integration tasks.",
+                    "phrase": "DPU Compiler Engineer, LLVM"
                 }
             ],
+            "soft_skills": [],
             "technologies": [
                 {
-                    "tech_name": "TECH1: Programming Languages",
-                    "technologies": [
-                        "LLVM"
-                    ]
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "LLVM"
                 }
-            ],
-            "soft_skills": []
+            ]
         }
     }
 }

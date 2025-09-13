@@ -26,95 +26,77 @@
         "full_text": "Automation Engineer\n\n+ Design and Develop: Analyze complex business processes and design, build, and implement innovative automation solutions.\n          + Leverage Cutting-Edge Tools: Utilize industry-leading automation tools such as UiPath, Node-RED, RobotFramework, and emerging technologies.\n          + Optimize Operations: Improve efficiency and effectiveness by automating repetitive tasks and reducing manual effort. We have automated more than ten-thousand-man hours this year already.\n          + Collaborate and Innovate: Work closely with cross-functional teams to identify automation opportunities and deliver impactful solutions.\n          + Maintain and Enhance: Ensure the reliability and performance of automation processes through ongoing maintenance and optimization.\n     *\n\nFunctie-eisen"
     },
     "analysis": {
-        "job_profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on business process automation using tools like UiPath and Node-RED, which are primarily for Robotic Process Automation (RPA) and workflow automation, not core AI/ML model development or deployment. While it mentions 'emerging technologies', it lacks specific details about AI/ML tasks, models, or frameworks."
+        "profile_classification": {
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on process automation using tools like UiPath and Node-RED, which are primarily for Robotic Process Automation (RPA) and workflow automation, rather than the core AI/ML model development, fine-tuning, or generative AI applications described in the ML Engineer or GenAI Engineer profiles. While it mentions 'emerging technologies' and 'innovative automation solutions', it lacks specific details about AI model building, data science, or advanced AI engineering tasks. The emphasis is on automating existing business processes, which aligns more with traditional automation engineering or RPA, and thus falls under the 'Ambiguous' category as it's not a core AI/ML role as defined in the Coding Book."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "Analyze complex business processes",
-                        "design, build, and implement innovative automation solutions",
-                        "Improve efficiency and effectiveness by automating repetitive tasks and reducing manual effort",
-                        "identify automation opportunities"
-                    ],
-                    "justification": "These phrases indicate a need to understand business needs, translate them into automation solutions, and identify areas for improvement through automation."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Analyze complex business processes and design, build, and implement innovative automation solutions' indicates an understanding of business processes to design solutions.",
+                    "phrase": "Analyze complex business processes and design, build, and implement innovative automation solutions"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "design, build, and implement innovative automation solutions",
-                        "Maintain and Enhance: Ensure the reliability and performance of automation processes"
-                    ],
-                    "justification": "The description involves building and implementing solutions, and maintaining their performance, which aligns with software development principles applied to automation."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'design, build, and implement innovative automation solutions' implies software development activities to create these solutions, though the focus is on automation rather than general application development.",
+                    "phrase": "design, build, and implement innovative automation solutions"
                 },
                 {
-                    "task_category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Work closely with cross-functional teams to identify automation opportunities and deliver impactful solutions."
-                    ],
-                    "justification": "This phrase explicitly mentions working with cross-functional teams to achieve project goals."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'automating repetitive tasks and reducing manual effort' describes a core function of software development in the context of automation.",
+                    "phrase": "automating repetitive tasks and reducing manual effort"
                 },
                 {
-                    "task_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Analyze complex business processes",
-                        "design, build, and implement innovative automation solutions",
-                        "Optimize Operations: Improve efficiency and effectiveness by automating repetitive tasks and reducing manual effort."
-                    ],
-                    "justification": "The role requires analyzing complex problems (business processes) and designing practical solutions (automation) to improve efficiency."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'identify automation opportunities' requires understanding business needs and contexts to find areas for improvement.",
+                    "phrase": "identify automation opportunities"
                 },
                 {
-                    "task_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "design, build, and implement innovative automation solutions",
-                        "Leverage Cutting-Edge Tools",
-                        "emerging technologies",
-                        "innovative automation solutions"
-                    ],
-                    "justification": "The emphasis on 'innovative' solutions and leveraging 'cutting-edge'/'emerging' technologies suggests a need for proactive and novel approaches."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology_name": "UiPath",
-                    "category": "TECH12: Other"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'deliver impactful solutions' suggests the development and implementation of functional systems.",
+                    "phrase": "deliver impactful solutions"
                 },
                 {
-                    "technology_name": "Node-RED",
-                    "category": "TECH12: Other"
-                },
-                {
-                    "technology_name": "RobotFramework",
-                    "category": "TECH12: Other"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Ensure the reliability and performance of automation processes through ongoing maintenance and optimization' aligns with operational aspects of deployed solutions.",
+                    "phrase": "Ensure the reliability and performance of automation processes through ongoing maintenance and optimization"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Work closely with cross-functional teams to identify automation opportunities and deliver impactful solutions."
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Work closely with cross-functional teams"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Analyze complex business processes",
-                        "design, build, and implement innovative automation solutions",
-                        "Optimize Operations: Improve efficiency and effectiveness by automating repetitive tasks and reducing manual effort."
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "design, build, and implement innovative automation solutions"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "design, build, and implement innovative automation solutions",
-                        "Leverage Cutting-Edge Tools",
-                        "emerging technologies",
-                        "innovative automation solutions"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Optimize Operations: Improve efficiency and effectiveness by automating repetitive tasks and reducing manual effort."
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "identify automation opportunities"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "deliver impactful solutions"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "UiPath"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Node-RED"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "RobotFramework"
                 }
             ]
         }

@@ -26,82 +26,78 @@
         "full_text": "Automation Engineer\n\no Design and Develop: Analyze complex business processes and design, build, and implement innovative automation solutions.\n               o Leverage Cutting-Edge Tools: Utilize industry-leading automation tools such as UiPath, Node-RED, RobotFramework, and emerging technologies.\n               o Optimize Operations: Improve efficiency and effectiveness by automating repetitive tasks and reducing manual effort. We have automated more than ten-thousand-man hours this year already.\n               o Collaborate and Innovate: Work closely with cross-functional teams to identify automation opportunities and deliver impactful solutions.\n               o Maintain and Enhance: Ensure the reliability and performance of automation processes through ongoing maintenance and optimization.\n          + Functie-eisen"
     },
     "analysis": {
-        "job_profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on process automation using tools like UiPath and Node-RED, which are not core to ML or GenAI engineering. While it mentions 'emerging technologies', it lacks specific details about AI/ML model development, training, or deployment, making it fall outside the defined ML Engineer and GenAI Engineer profiles."
+        "profile_classification": {
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on process automation using tools like UiPath and Node-RED, which are primarily for Robotic Process Automation (RPA) and workflow automation, not core AI/ML model development or generative AI applications. While it mentions 'emerging technologies' and 'optimizing operations', it lacks specific details about AI model training, fine-tuning, RAG, or LLMs, which are central to the GenAI Engineer and ML Engineer profiles. The emphasis is on automating existing business processes rather than building AI-driven products or predictive systems."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "Analyze complex business processes",
-                        "design innovative automation solutions",
-                        "Improve efficiency and effectiveness by automating repetitive tasks",
-                        "identify automation opportunities"
-                    ],
-                    "justification": "These phrases indicate an understanding of business needs and the translation of those needs into automated solutions to improve operations."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Analyze complex business processes and design, build, and implement innovative automation solutions' indicates a need to understand business needs to design solutions.",
+                    "phrase": "Analyze complex business processes and design, build, and implement innovative automation solutions"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "design, build, and implement innovative automation solutions",
-                        "Maintain and Enhance: Ensure the reliability and performance of automation processes"
-                    ],
-                    "justification": "The description involves building and implementing solutions, and ensuring their ongoing performance, which aligns with software development principles applied to automation."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'design, build, and implement innovative automation solutions' implies software development, though it's focused on automation tools rather than general application development.",
+                    "phrase": "design, build, and implement innovative automation solutions"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Maintain and Enhance: Ensure the reliability and performance of automation processes through ongoing maintenance and optimization."
-                    ],
-                    "justification": "This task involves ensuring the ongoing operational health and performance of implemented solutions, which is a key aspect of operations engineering."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "UiPath",
-                    "category": "TECH6: MLOps & Data Pipelines"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'automating repetitive tasks and reducing manual effort' describes a core function of developing automated processes, which falls under software development in this context.",
+                    "phrase": "automating repetitive tasks and reducing manual effort"
                 },
                 {
-                    "technology": "Node-RED",
-                    "category": "TECH6: MLOps & Data Pipelines"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'identify automation opportunities' requires understanding business needs and processes to find areas for improvement.",
+                    "phrase": "identify automation opportunities"
                 },
                 {
-                    "technology": "RobotFramework",
-                    "category": "TECH6: MLOps & Data Pipelines"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'deliver impactful solutions' suggests the development and implementation of functional automation systems.",
+                    "phrase": "deliver impactful solutions"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Ensure the reliability and performance of automation processes through ongoing maintenance and optimization' aligns with the operational aspects of managing deployed solutions.",
+                    "phrase": "Ensure the reliability and performance of automation processes through ongoing maintenance and optimization"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'Work closely with cross-functional teams' directly indicates a need for collaboration.",
+                    "phrase": "Work closely with cross-functional teams"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Work closely with cross-functional teams"
-                    ],
-                    "justification": "This phrase directly indicates the need for collaboration with other teams."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Work closely with cross-functional teams"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Analyze complex business processes",
-                        "design, build, and implement innovative automation solutions",
-                        "Optimize Operations",
-                        "automating repetitive tasks and reducing manual effort",
-                        "identify automation opportunities",
-                        "deliver impactful solutions",
-                        "Ensure the reliability and performance of automation processes through ongoing maintenance and optimization."
-                    ],
-                    "justification": "The role requires analyzing complex problems, designing solutions, optimizing processes, and ensuring the effectiveness and reliability of implemented automations, all of which point to strong problem-solving and pragmatic skills."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Analyze complex business processes and design, build, and implement innovative automation solutions"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "design, build, and implement innovative automation solutions",
-                        "emerging technologies",
-                        "deliver impactful solutions"
-                    ],
-                    "justification": "The emphasis on 'innovative' solutions, using 'emerging technologies', and delivering 'impactful' results suggests a need for initiative and a drive for impactful outcomes."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Optimize Operations"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "innovative automation solutions"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Node-RED"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "UiPath"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "RobotFramework"
                 }
             ]
         }

@@ -27,127 +27,93 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on using AI as a tool to enhance existing software development processes and productivity, rather than building or deploying core AI models or systems. It lacks specific technical details about AI model development, MLOps, or deep learning frameworks."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on the use of AI as a tool to enhance existing software development processes and productivity, rather than on the core development, fine-tuning, or deployment of AI models themselves. Phrases like 'AI as their co-pilot', 'elevating your coding skills', 'crafting AI tools that clarify complex concepts', and 'AI as our guide' suggest an emphasis on AI-assisted development and productivity gains, which aligns with the definition of the 'Ambiguous' profile. There is a lack of specific technical details regarding AI model development, MLOps, or deep generative AI techniques that would point towards an ML Engineer or GenAI Engineer profile."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "elevate our enterprise software solutions, ensuring they lead the market in innovation, user satisfaction, and overall experience.",
-                            "justification": "This phrase describes the business objective of improving software solutions to achieve market leadership, user satisfaction, and a better overall experience, which aligns with understanding business goals."
-                        },
-                        {
-                            "phrase": "elevating your coding skills to superhero status.",
-                            "justification": "This metaphorical phrase suggests a focus on improving overall development capabilities and outcomes, which is a business-level objective for the team."
-                        },
-                        {
-                            "phrase": "clarify complex concepts",
-                            "justification": "This indicates a business need to make information more accessible and understandable, likely for users or internal teams."
-                        },
-                        {
-                            "phrase": "streamline knowledge across products, domains, or corporate intelligence, boosting team efficiency.",
-                            "justification": "This directly addresses business needs for efficiency and knowledge management."
-                        },
-                        {
-                            "phrase": "improving software development processes",
-                            "justification": "This points to a business goal of optimizing internal workflows and productivity."
-                        },
-                        {
-                            "phrase": "Drive the integration of AI into our development process, setting new standards in innovation, efficiency, and customer satisfaction for Skyvera's product suite.",
-                            "justification": "This clearly outlines a strategic business objective for integrating AI to achieve specific business outcomes like innovation, efficiency, and customer satisfaction."
-                        }
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves 'enhancing everything from feature development' and 'crafting AI tools' which are core software development activities, albeit with an AI focus.",
+                    "phrase": "enhancing everything from feature development"
                 },
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "AI as their co-pilot. Think less routine, more innovation.",
-                            "justification": "This suggests AI is being used to augment the software development process, implying integration into coding workflows."
-                        },
-                        {
-                            "phrase": "elevating your coding skills to superhero status.",
-                            "justification": "This implies the use of AI to enhance the act of coding itself, a core software development activity."
-                        },
-                        {
-                            "phrase": "Imagine conjuring code like magic",
-                            "justification": "This is a metaphorical description of writing code, enhanced by AI."
-                        },
-                        {
-                            "phrase": "implementing AI from the ground up in projects, enhancing everything from feature development to problem-solving.",
-                            "justification": "This indicates the integration of AI into the software development lifecycle, specifically for feature development and problem-solving within projects."
-                        },
-                        {
-                            "phrase": "Showcasing the power of AI in improving software development processes, emphasizing its role as a booster, not a replacement.",
-                            "justification": "This explicitly mentions improving software development processes, with AI acting as an enhancement."
-                        },
-                        {
-                            "phrase": "Concentrate on what you do best-coding and creating innovative solutions-rather than getting sidetracked by managerial tasks.",
-                            "justification": "This emphasizes the core software development activities of coding and creating solutions."
-                        }
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions 'coding skills' and 'coding and creating innovative solutions', which are fundamental to software development.",
+                    "phrase": "coding skills"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role is described as 'AI-First Software Engineer' and involves 'software development'.",
+                    "phrase": "software development"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The job involves 'implementing AI from the ground up in projects', which implies integrating AI into software projects.",
+                    "phrase": "Implementing AI from the ground up in projects"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role aims to 'elevate our enterprise software solutions' and 'Drive the integration of AI into our development process', which are software engineering objectives.",
+                    "phrase": "elevate our enterprise software solutions"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The job description emphasizes 'coding and creating innovative solutions'.",
+                    "phrase": "coding and creating innovative solutions"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves 'Drive the integration of AI into our development process'.",
+                    "phrase": "Drive the integration of AI into our development process"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role aims to 'elevate our enterprise software solutions, ensuring they lead the market in innovation, user satisfaction, and overall experience', which requires understanding business goals and market positioning.",
+                    "phrase": "ensuring they lead the market in innovation, user satisfaction, and overall experience"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The job involves 'crafting AI-generated summaries to streamline knowledge across products, domains, or corporate intelligence, boosting team efficiency', which relates to understanding business needs for knowledge management and efficiency.",
+                    "phrase": "streamline knowledge across products, domains, or corporate intelligence, boosting team efficiency"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role aims to 'Drive the integration of AI into our development process, setting new standards in innovation, efficiency, and customer satisfaction for Skyvera's product suite', which requires aligning AI integration with business objectives.",
+                    "phrase": "setting new standards in innovation, efficiency, and customer satisfaction"
                 }
             ],
-            "technologies": [],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        {
-                            "phrase": "predicting and squashing bugs before they even emerge"
-                        },
-                        {
-                            "phrase": "problem-solving"
-                        },
-                        {
-                            "phrase": "identify and resolve issues swiftly"
-                        }
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "tech trailblazers"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        {
-                            "phrase": "tech trailblazers"
-                        },
-                        {
-                            "phrase": "innovation"
-                        },
-                        {
-                            "phrase": "pushing the boundaries of what's possible"
-                        },
-                        {
-                            "phrase": "creating innovative solutions"
-                        }
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "innovation"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        {
-                            "phrase": "ready to dive headfirst into the next wave of software development"
-                        },
-                        {
-                            "phrase": "ready to explore new horizons"
-                        },
-                        {
-                            "phrase": "Are you up for the challenge?"
-                        }
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "curious"
                 },
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        {
-                            "phrase": "AI-generated summaries to streamline knowledge across products, domains, or corporate intelligence, boosting team efficiency."
-                        }
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "innovative individuals"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "explore new horizons"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "problem-solving"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "creating innovative solutions"
                 }
-            ]
+            ],
+            "technologies": []
         }
     }
 }

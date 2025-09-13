@@ -27,76 +27,66 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on traditional enterprise application development using Java and Mendix, with some integration of external systems via REST APIs and Python. It lacks specific mentions of AI/ML tasks, models, or frameworks, making it not a fit for ML or GenAI Engineer profiles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on traditional software development using Java and Mendix, with some integration of external systems via REST APIs and Python. It does not involve the core responsibilities or technologies associated with ML Engineering or GenAI Engineering, such as model development, training, fine-tuning, or advanced generative AI techniques. The role is primarily about building and integrating enterprise applications, which falls outside the scope of AI-specific engineering roles as defined in the coding book."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "Creating and maintaining assets and components with java, Mendix and other technologies to leverage usage and/or integrate with external (cloud) platforms.",
-                        "Closely collaborating with customers and partners to create innovative products that bring cloud-and external platform capabilities into Mendix web applications.",
-                        "Working on an Enterprise App development platform",
-                        "Diving into all sorts of technologies to integrate our platform with external systems.",
-                        "While our current focus is on Mendix with Java, we also utilize REST APIs, Python, and cloud technologies, and are open to adopting any new technology necessary to achieve our goals."
-                    ],
-                    "justification": "The description heavily emphasizes building and maintaining applications, integrating with external systems, and developing on an enterprise app platform, which are core software development activities."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions 'Creating and maintaining assets and components with java, Mendix and other technologies' and 'Enterprise App development platform', which are core software development activities.",
+                    "phrase": "Creating and maintaining assets and components with java, Mendix and other technologies"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "Closely collaborating with customers and partners to create innovative products",
-                        "Thousands of developers and millions of end users across the globe rely on your work and each commit can make a lot of impact."
-                    ],
-                    "justification": "The role involves collaboration with customers and partners to create products, and understanding the impact of their work on a large user base, indicating a need for business context."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "java",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'integrate our platform with external systems' and 'REST APIs' points to software integration tasks.",
+                    "phrase": "integrate our platform with external systems"
                 },
                 {
-                    "tech_name": "Mendix",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Closely collaborating with customers and partners to create innovative products' indicates a need to understand business needs and collaborate with stakeholders.",
+                    "phrase": "Closely collaborating with customers and partners to create innovative products"
                 },
                 {
-                    "tech_name": "cloud platforms",
-                    "category": "TECH2: Cloud Platforms & Services"
-                },
-                {
-                    "tech_name": "REST APIs",
-                    "category": "TECH4: LLM Frameworks & Libraries"
-                },
-                {
-                    "tech_name": "Python",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK4: Software Development",
+                    "justification": "The mention of 'thousands of developers and millions of end users' and 'your work and each commit can make a lot of impact' implies building scalable and impactful software applications.",
+                    "phrase": "Thousands of developers and millions of end users across the globe rely on your work and each commit can make a lot of impact."
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        "Closely collaborating with customers and partners"
-                    ],
-                    "justification": "Direct mention of collaboration with customers and partners."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Closely collaborating with customers and partners"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        "open to adopting any new technology necessary to achieve our goals."
-                    ],
-                    "justification": "Indicates a need to learn and adapt to new technologies."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "create innovative products"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        "create innovative products",
-                        "Thousands of developers and millions of end users across the globe rely on your work and each commit can make a lot of impact."
-                    ],
-                    "justification": "Focus on creating innovative products and the significant impact of commits suggests a need for ownership and initiative."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "each commit can make a lot of impact"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "java"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "cloud technologies"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "Mendix"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "REST APIs"
                 }
             ]
         }

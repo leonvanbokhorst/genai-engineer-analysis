@@ -27,85 +27,74 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 1,
-            "rationale": "The job description focuses on traditional .NET and JavaScript development within a business software context. It mentions AI-related projects like 'robotic accounting' and 'cash flow prediction' but does not require specialized AI engineering skills or the use of generative models, LLMs, or MLOps practices."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on traditional software engineering roles using .NET and JavaScript, with a mention of AI-related projects like 'robotic accounting', 'intelligent payment matching', and 'cash flow prediction'. However, it lacks specific details on developing, fine-tuning, or deploying generative AI models, RAG systems, or advanced prompt engineering, which are core to the GenAI Engineer profile. The emphasis is on enhancing an existing product with these functionalities rather than building AI-native applications. Therefore, it falls under the 'Ambiguous' category as it's not a clear AI-focused technical role as defined in the Coding Book."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "help make smarter business decisions for 675,000 companies globally",
-                        "enhancing our product, Exact Online",
-                        "your coding expertise directly impacts thousands of businesses worldwide",
-                        "contribute innovative functionalities to our software"
-                    ],
-                    "justification": "These phrases highlight the role's connection to business outcomes, product enhancement, and the impact on a large customer base, indicating an understanding of business needs."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role is described as a 'Graduate Software Engineer' focused on enhancing a product ('Exact Online') and contributing 'innovative functionalities' using .NET and JavaScript, which are core software development activities.",
+                    "phrase": "Software Engineers play a vital role in this mission by enhancing our product, Exact Online."
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "Graduate Software Engineer .NET and Frontend JavaScript",
-                        "your engineering skills",
-                        "your coding expertise",
-                        "Work with our Microsoft tech stack including .NET Framework (transitioning to .NET Core), VB.NET and C# (moving towards full C#), SQL Server",
-                        "Frontend JavaScript"
-                    ],
-                    "justification": "The core of the role is described as software engineering with specific mentions of .NET and JavaScript technologies, indicating traditional software development responsibilities."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": ".NET Framework",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions contributing 'innovative functionalities' to the software, which is a direct software development task.",
+                    "phrase": "you will contribute innovative functionalities to our software."
                 },
                 {
-                    "technology": ".NET Core",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role is framed around helping companies 'make smarter business decisions' and enhancing a product that serves 'thousands of businesses worldwide', indicating a need to understand business context.",
+                    "phrase": "help make smarter business decisions for 675,000 companies globally."
                 },
                 {
-                    "technology": "VB.NET",
-                    "category": "TECH1: Programming Languages"
-                },
-                {
-                    "technology": "C#",
-                    "category": "TECH1: Programming Languages"
-                },
-                {
-                    "technology": "SQL Server",
-                    "category": "TECH9: Data Storage"
-                },
-                {
-                    "technology": "Azure",
-                    "category": "TECH2: Cloud Platforms & Services"
-                },
-                {
-                    "technology": "AWS",
-                    "category": "TECH2: Cloud Platforms & Services"
-                },
-                {
-                    "technology": "JavaScript",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK3: Modeling",
+                    "justification": "Mentions of 'robotic accounting', 'intelligent payment matching', and 'cash flow prediction' suggest the application of models, though the specific type (generative vs. predictive) is not detailed, it leans towards modeling tasks.",
+                    "phrase": "robotic accounting, scanning services, intelligent payment matching, and cash flow prediction."
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "take your engineering skills to the next level",
-                        "continuous development for both our solutions and our employees",
-                        "We invest in your growth through various training opportunities and events such as Tech Talks, global hackathons, and tech summits"
-                    ],
-                    "justification": "The description emphasizes employee growth, continuous development, and investment in training, indicating a need for learning and adaptability."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "We invest in your growth through various training opportunities and events such as Tech Talks, global hackathons, and tech summits."
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "contribute innovative functionalities to our software",
-                        "robotic accounting, scanning services, intelligent payment matching, and cash flow prediction"
-                    ],
-                    "justification": "The mention of contributing 'innovative functionalities' and specific project areas suggests a need for proactive contribution and taking ownership of new features."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "contribute innovative functionalities to our software."
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": ".NET Framework"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": ".NET Core"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "VB.NET"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "C#"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "JavaScript"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "SQL Server"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "AWS"
                 }
             ]
         }

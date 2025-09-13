@@ -28,104 +28,93 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 5,
-            "rationale": "The job description heavily emphasizes developing and fine-tuning LLMs for specific applications, integrating multimodal inputs (text and image), and building APIs around these models. This aligns directly with the core responsibilities and typical projects of a GenAI Engineer, focusing on generative models and user-facing applications."
+            "rationale": "The job description heavily emphasizes the development, fine-tuning, and deployment of Large Language Models (LLMs) for specific applications within the entertainment industry. It highlights core GenAI Engineer responsibilities such as LLM fine-tuning, multimodal integration (text and image), API development for LLM integration, and the use of LLM frameworks. The focus on generative content and interaction aligns perfectly with the definition of a GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "Modeling",
-                    "phrases": [
-                        "het ontwikkelen en verfijnen van Large Language Models (LLM)",
-                        "LLM Fine-Tuning en Aanpassing",
-                        "Werken aan het verfijnen van bestaande LLM's (zoals GPT, LLaMA, etc.) om ze te specialiseren voor entertainmenttaken",
-                        "beeldgebaseerde verhalen, en het genereren van creatieve content",
-                        "Modelintegratie",
-                        "Implementatie van Trainingspijplijnen",
-                        "Model Evaluatie en Iteratie",
-                        "modelprestaties optimaliseren door iteratieve verbeteringen"
-                    ],
-                    "justification": "These phrases directly relate to the creation, adaptation, training, and refinement of generative models, which is the core of the Modeling task for GenAI."
+                    "category": "TASK3: Modeling",
+                    "justification": "The description explicitly mentions 'LLM Fine-Tuning en Aanpassing' (LLM Fine-Tuning and Adaptation), 'verfijnen van bestaande LLM's' (refining existing LLMs), and 'genereren van creatieve content' (generating creative content), which are core modeling activities for generative AI.",
+                    "phrase": "LLM Fine-Tuning en Aanpassing"
                 },
                 {
-                    "task": "Software Development",
-                    "phrases": [
-                        "Ontwikkelen en onderhouden van API's die de LLM integreren met multimodale input (bijv. tekst- en beeldprompts combineren), wat veelzijdige contentgeneratie en interactie mogelijk maakt.",
-                        "integratie binnen de bredere infrastructuur te garanderen."
-                    ],
-                    "justification": "This task involves building and maintaining APIs to integrate LLMs into applications and ensuring their integration into the broader infrastructure, which falls under Software Development."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Modelintegratie en API-ontwikkeling' (Model integration and API development) directly relates to integrating and exposing models, a key part of the modeling lifecycle, especially when building applications around them.",
+                    "phrase": "Modelintegratie en API-ontwikkeling"
                 },
                 {
-                    "task": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Samenwerken aan het implementeren van schaalbare trainingspijplijnen",
-                        "Samenwerkingsgericht Ontwikkelen: Nauw samenwerken met data engineers en MLOps engineers om een naadloze datastroom, modelimplementatie en integratie binnen de bredere infrastructuur te garanderen."
-                    ],
-                    "justification": "The mention of implementing scalable training pipelines and collaborating with MLOps engineers for seamless data flow and model deployment points to Operations Engineering."
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'Implementatie van Trainingspijplijnen' (Implementation of Training Pipelines) with ML libraries points to the practical aspects of preparing and running model training processes.",
+                    "phrase": "Implementatie van Trainingspijplijnen"
                 },
                 {
-                    "task": "Data Engineering",
-                    "phrases": [
-                        "naadloze datastroom"
-                    ],
-                    "justification": "Ensuring a seamless data flow is a component of data engineering, supporting the modeling and deployment processes."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "TECH3: LLM / Generative Models",
-                    "items": [
-                        "Large Language Models (LLM)",
-                        "GPT",
-                        "LLaMA"
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The task of 'Model Evaluatie en Iteratie' (Model Evaluation and Iteration) with custom metrics and performance optimization is a fundamental part of the modeling process.",
+                    "phrase": "Model Evaluatie en Iteratie"
                 },
                 {
-                    "technology": "TECH1: Programming Languages",
-                    "items": [
-                        "Python"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions 'ontwikkelen en verfijnen van Large Language Models (LLM) specifiek gericht op toepassingen' (developing and refining LLMs specifically for applications) and 'ontwikkelen en onderhouden van API's die de LLM integreren' (developing and maintaining APIs that integrate the LLM), which are software development tasks focused on building applications around AI models.",
+                    "phrase": "ontwikkelen en verfijnen van Large Language Models (LLM) specifiek gericht op toepassingen"
                 },
                 {
-                    "technology": "TECH10: Data Modeling",
-                    "items": [
-                        "PyTorch",
-                        "TensorFlow"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'ontwikkelen en onderhouden van API's die de LLM integreren met multimodale input' (developing and maintaining APIs that integrate the LLM with multimodal input) clearly indicates software development for creating interfaces to AI models.",
+                    "phrase": "ontwikkelen en onderhouden van API's die de LLM integreren met multimodale input"
                 },
                 {
-                    "technology": "TECH4: LLM Frameworks & Libraries",
-                    "items": [
-                        "multimodale systemen"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of 'Samenwerken met data engineers en MLOps engineers om een naadloze datastroom, modelimplementatie en integratie binnen de bredere infrastructuur te garanderen' (Collaborating with data engineers and MLOps engineers to ensure seamless data flow, model implementation, and integration within the broader infrastructure) points to operational aspects of deploying and maintaining models.",
+                    "phrase": "Samenwerken met data engineers en MLOps engineers om een naadloze datastroom, modelimplementatie en integratie binnen de bredere infrastructuur te garanderen"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Samenwerken met data engineers... om een naadloze datastroom... te garanderen' (Collaborating with data engineers... to ensure seamless data flow) implies involvement with or understanding of data pipelines and flow, which is part of data engineering.",
+                    "phrase": "naadloze datastroom"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Samenwerkingsgericht Ontwikkelen: Nauw samenwerken met data engineers en MLOps engineers"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Samenwerkingsgericht Ontwikkelen"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "ervaren Python ontwikkelaar met kennis van grote taalmodellen en interesse in multimodale systemen"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Nauw samenwerken met data engineers en MLOps engineers"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "creativiteit",
-                        "snelle iteraties",
-                        "modelprestaties optimaliseren door iteratieve verbeteringen"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "optimaliseren door iteratieve verbeteringen"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "creëren van creatieve content"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "interesse in multimodale systemen"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLM"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "GPT"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLaMA"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "PyTorch"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "TensorFlow"
                 }
             ]
         }

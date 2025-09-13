@@ -28,212 +28,109 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 3,
-            "rationale": "The role focuses heavily on compiler development, optimization, and hardware-aware transformations for neural networks, aligning with the core of ML Engineer responsibilities. While generative AI is mentioned, the primary emphasis is on the underlying compilation and optimization infrastructure rather than building generative applications."
+            "rationale": "The job description emphasizes the development and optimization of a Neural Network compiler, focusing on hardware-aware transformations, supporting diverse workloads including generative AI, and ensuring performance and accuracy. This aligns with the core responsibilities of an ML Engineer, particularly in algorithm development, model optimization, and productionizing systems, rather than building user-facing generative AI applications which would be characteristic of a GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrases": [
-                        {
-                            "text": "driving the technical direction",
-                            "justification": "This phrase indicates a need to understand the strategic technical goals and guide the development accordingly, which is a component of business understanding in a technical context."
-                        },
-                        {
-                            "text": "setting priorities for high-impact projects",
-                            "justification": "This involves understanding which projects will have the most significant impact, requiring an awareness of business objectives and their technical implications."
-                        },
-                        {
-                            "text": "shape Axelera AI's software systems",
-                            "justification": "This implies understanding the broader impact and direction of the company's software, linking technical work to business strategy."
-                        },
-                        {
-                            "text": "advance our AI platform",
-                            "justification": "This phrase directly connects the technical work to the overall advancement and strategic goals of the company's AI platform."
-                        },
-                        {
-                            "text": "ensure alignment on technical strategy",
-                            "justification": "This highlights the need to understand and contribute to the overarching technical direction, which is tied to business goals."
-                        }
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'design compiler optimizations, focusing on hardware-aware transformations' and 'ensure our compiler supports workloads beyond classical CNNs (e.g. generative AI)' directly relates to the process of creating, adapting, and optimizing models for specific hardware and workloads.",
+                    "phrase": "design compiler optimizations, focusing on hardware-aware transformations"
                 },
                 {
-                    "task": "TASK2: Data Engineering",
-                    "phrases": [],
-                    "justification": "The job description does not contain explicit mentions of data pipelines, data collection, cleaning, preprocessing, or feature engineering."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'ensure our compiler supports workloads beyond classical CNNs (e.g. generative AI) and upcoming generations of our heterogeneous compute platform' indicates the adaptation and optimization of models for various AI workloads.",
+                    "phrase": "ensure our compiler supports workloads beyond classical CNNs (e.g. generative AI)"
                 },
                 {
-                    "task": "TASK3: Modeling",
-                    "phrases": [
-                        {
-                            "text": "Axelera AI's Neural Network compiler",
-                            "justification": "The core of the role involves working with neural networks, which are machine learning models, and developing the tools to compile and optimize them."
-                        },
-                        {
-                            "text": "designing compiler optimizations, focusing on hardware-aware transformations for In-Memory Computing",
-                            "justification": "This describes the process of optimizing and adapting models (neural networks) for specific hardware, a key aspect of model development and performance tuning."
-                        },
-                        {
-                            "text": "compiler supports workloads beyond classical CNNs (e.g. generative AI)",
-                            "justification": "This indicates the need to adapt and optimize models, including generative AI models, within the compiler framework."
-                        },
-                        {
-                            "text": "upcoming generations of our heterogeneous compute platform",
-                            "justification": "This implies working with and optimizing models for new and evolving computational architectures."
-                        },
-                        {
-                            "text": "optimizing the Axelera software stack for scalability and performance",
-                            "justification": "This relates to optimizing the performance of the entire software stack, which includes the underlying models being compiled."
-                        },
-                        {
-                            "text": "best-in-class functional coverage, performance and accuracy",
-                            "justification": "These are key metrics for evaluating and improving the performance and correctness of models and the compilation process."
-                        },
-                        {
-                            "text": "testing methodologies for compilers",
-                            "justification": "Ensuring the correctness and performance of the compiler, which directly impacts the models it processes, is a form of model validation."
-                        }
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Lead the design, architecture, and hands-on development of Axelera AI's Neural Network compiler and SDK' involves the core software engineering tasks of building and architecting a complex software system (compiler and SDK).",
+                    "phrase": "Lead the design, architecture, and hands-on development of Axelera AI's Neural Network compiler and SDK"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrases": [
-                        {
-                            "text": "Lead the design, architecture, and hands-on development of Axelera AI's Neural Network compiler and SDK",
-                            "justification": "This is a direct description of software development, focusing on the design, architecture, and implementation of a core software component (compiler and SDK)."
-                        },
-                        {
-                            "text": "hands-on development",
-                            "justification": "Indicates direct involvement in writing and building software."
-                        },
-                        {
-                            "text": "SDK",
-                            "justification": "Software Development Kits are core software development artifacts."
-                        },
-                        {
-                            "text": "collaborate with cross-functional teams",
-                            "justification": "While also a soft skill, in this context, it implies integrating the compiler/SDK with other software components and teams."
-                        },
-                        {
-                            "text": "optimizing the Axelera software stack",
-                            "justification": "This involves improving the performance and functionality of the overall software system, which includes the compiler and its integration."
-                        }
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'optimizing the Axelera software stack for scalability and performance' refers to the engineering effort to make the software system robust and efficient.",
+                    "phrase": "optimizing the Axelera software stack for scalability and performance"
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        {
-                            "text": "Oversee holistically our compilation pipeline",
-                            "justification": "This implies managing and optimizing the end-to-end process of compilation, which is analogous to managing an ML pipeline in MLOps."
-                        },
-                        {
-                            "text": "propose changes to ensure best-in-class functional coverage, performance and accuracy",
-                            "justification": "This involves continuous improvement and monitoring of the pipeline's output, akin to monitoring model performance in production."
-                        },
-                        {
-                            "text": "Ensure best practices in the team, especially regarding testing methodologies for compilers",
-                            "justification": "Focus on testing methodologies and best practices for a critical software component (compiler) aligns with the operational aspects of ensuring reliability and quality in production."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "tech": "TECH3: LLM / Generative Models",
-                    "items": [
-                        "generative AI"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Oversee holistically our compilation pipeline and proactively propose changes to ensure best-in-class functional coverage, performance and accuracy' relates to managing and improving the end-to-end process of model compilation, which is akin to MLOps for compilers.",
+                    "phrase": "Oversee holistically our compilation pipeline"
                 },
                 {
-                    "tech": "TECH10: Data Modeling",
-                    "items": [
-                        "Neural Network"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Ensure best practices in the team, especially regarding testing methodologies for compilers' points to the operational aspects of ensuring quality and reliability in the development and deployment of the compiler system.",
+                    "phrase": "Ensure best practices in the team, especially regarding testing methodologies for compilers"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'driving the technical direction, solving complex, open-ended problems, and setting priorities for high-impact projects' indicates an understanding of strategic goals and translating them into technical initiatives.",
+                    "phrase": "driving the technical direction, solving complex, open-ended problems, and setting priorities for high-impact projects"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Your work will shape Axelera AI's software systems and extend beyond your immediate team, with a focus on delivering scalable, flexible solutions to advance our AI platform' shows alignment with broader company objectives and platform advancement.",
+                    "phrase": "shape Axelera AI's software systems and extend beyond your immediate team, with a focus on delivering scalable, flexible solutions to advance our AI platform"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        {
-                            "text": "solving complex, open-ended problems",
-                            "justification": "Directly states the requirement for complex problem-solving abilities."
-                        },
-                        {
-                            "text": "designing compiler optimizations",
-                            "justification": "Requires creative and analytical problem-solving to improve compiler efficiency."
-                        },
-                        {
-                            "text": "hardware-aware transformations",
-                            "justification": "Implies solving complex technical challenges related to hardware and software interaction."
-                        }
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "driving the technical direction"
                 },
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        {
-                            "text": "Collaborate with cross-functional teams",
-                            "justification": "Explicitly mentions the need to work with other teams."
-                        },
-                        {
-                            "text": "ensure alignment on technical strategy",
-                            "justification": "Requires communication to achieve consensus and shared understanding."
-                        },
-                        {
-                            "text": "partner to your manager and peers",
-                            "justification": "Indicates the need for effective working relationships and communication."
-                        }
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "solving complex, open-ended problems"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        {
-                            "text": "driving the technical direction",
-                            "justification": "Implies taking initiative and ownership of the technical path forward."
-                        },
-                        {
-                            "text": "Drive innovation by designing compiler optimizations",
-                            "justification": "Directly calls for innovation and proactive development."
-                        },
-                        {
-                            "text": "proactively propose changes",
-                            "justification": "Demonstrates a proactive and ownership-driven approach."
-                        },
-                        {
-                            "text": "take full responsibility for the quality and success of one's work",
-                            "justification": "This is a direct statement of ownership and responsibility."
-                        }
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "setting priorities for high-impact projects"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        {
-                            "text": "Mentor and guide junior and senior engineers",
-                            "justification": "This involves taking ownership of team development and knowledge sharing."
-                        },
-                        {
-                            "text": "modeling a standard of excellence and leadership",
-                            "justification": "Implies taking ownership of setting high standards and leading by example."
-                        }
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Drive innovation by designing compiler optimizations"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        {
-                            "text": "upcoming generations of our heterogeneous compute platform",
-                            "justification": "Suggests a need to adapt to and learn about new hardware and platform developments."
-                        },
-                        {
-                            "text": "workloads beyond classical CNNs (e.g. generative AI)",
-                            "justification": "Indicates a need to adapt to and support new types of AI models."
-                        }
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "technically guide complex projects"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate with cross-functional teams"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "ensure alignment on technical strategy"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "proactively propose changes"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Ensure best practices in the team"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Mentor and guide junior and senior engineers"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "modeling a standard of excellence and leadership"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "valuable partner to your manager and peers"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "generative AI"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Neural Network compiler"
                 }
             ]
         }

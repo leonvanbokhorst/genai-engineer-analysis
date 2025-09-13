@@ -27,77 +27,81 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on traditional web development using Drupal, with no mention of AI, machine learning, or generative models. While it mentions tools like Docker and Jenkins, these are general development tools and not specific to AI/ML operations. The core responsibilities are centered around building websites and web applications, not AI model development or deployment."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on Drupal development, web application creation, and traditional software engineering tasks. While it mentions modern front-end frameworks and agile methodologies, it lacks any mention of AI, machine learning, generative models, or related technologies, which are central to the ML Engineer and GenAI Engineer profiles. Therefore, it falls under the 'Ambiguous' category as it is not an AI-focused technical role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "Je realiseert doordachte en gebruiksvriendelijke webapplicaties.",
-                        "Je werkt met Drupal en schrikt niet terug van OO en MVC.",
-                        "Je staat open voor moderne front-end frameworks zoals React en NextJS."
-                    ],
-                    "justification": "These phrases describe the core activities of building and developing web applications, which falls under traditional software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description explicitly mentions working with Drupal, realizing user-friendly web applications, and being familiar with OO and MVC, which are core software development activities.",
+                    "phrase": "realiseert doordachte en gebruiksvriendelijke webapplicaties"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Je bent bekend met tools zoals Docker, Jenkins en Git."
-                    ],
-                    "justification": "While Docker and Jenkins are MLOps tools, in this context they are presented as general development and CI/CD tools for web applications, not specifically for ML model deployment or management."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Je werkt met Drupal en schrikt niet terug van OO en MVC' directly points to software development practices and technologies.",
+                    "phrase": "Je werkt met Drupal en schrikt niet terug van OO en MVC"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "Als Drupal Developer bij Finalist werk je aan uitdagende en complexe websites en webapplicaties. Denk aan universiteitswebsites om nieuwe studenten te werven of aan een portaal voor de bibliotheek dat zowel een community als een samenwerkingsomgeving biedt."
-                    ],
-                    "justification": "This phrase describes the context and purpose of the web applications being built, relating the technical work to business goals like student recruitment and community building."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH1: Programming Languages",
-                    "technologies": [
-                        "OO",
-                        "MVC"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Familiarity with tools like Docker and Jenkins is indicative of operations engineering practices, commonly used in CI/CD and deployment pipelines.",
+                    "phrase": "Docker, Jenkins"
                 },
                 {
-                    "tech_name": "TECH6: MLOps & Data Pipelines",
-                    "technologies": [
-                        "Docker",
-                        "Jenkins"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "Mentioning Git is a standard software development practice for version control.",
+                    "phrase": "Git"
                 },
                 {
-                    "tech_name": "TECH4: LLM Frameworks & Libraries",
-                    "technologies": [
-                        "React",
-                        "NextJS"
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Contributing to website accessibility according to specific guidelines ('Digitoegankelijkheid') implies understanding and adhering to external requirements and standards, which relates to business or regulatory understanding.",
+                    "phrase": "toegankelijkheid van websites volgens de richtlijnen van Digitoegankelijkheid"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Being open to modern front-end frameworks like React and NextJS indicates a software development focus on building user interfaces and applications.",
+                    "phrase": "moderne front-end frameworks zoals React en NextJS"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "Agile working within a Scrum team is a collaborative methodology that requires strong communication and teamwork skills.",
+                    "phrase": "Agile werken binnen een Scrum-team"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Agile werken binnen een Scrum-team is voor jou geen probleem."
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Agile werken binnen een Scrum-team"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "OO"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "Je staat open voor moderne front-end frameworks zoals React en NextJS."
-                    ]
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "MVC"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Je realiseert doordachte en gebruiksvriendelijke webapplicaties."
-                    ]
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Docker"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Jenkins"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Git"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "React"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "NextJS"
                 }
             ]
         }

@@ -28,132 +28,95 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The role heavily emphasizes building and maintaining frameworks for evaluating and validating AI models, including designing technical evaluators for LLM assessment and optimizing performance across ML evaluation systems. While it mentions LLMs, the core focus is on the engineering and operational aspects of model validation rather than developing generative AI applications."
+            "rationale": "The job description emphasizes building frameworks for evaluating and ensuring the reliability of AI models, optimizing dataset management, and scaling validation infrastructure. While it mentions LLMs, the core focus is on the evaluation and validation of models, aligning with the 'ML Engineer' profile's emphasis on algorithm development, data preprocessing, model training, evaluation, and productionizing prototypes, particularly in the context of ensuring model quality and reliability."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "Design and implement technical evaluators for LLM assessment.",
                     "category": "TASK3: Modeling",
-                    "justification": "This phrase directly relates to creating and implementing methods for assessing the performance and quality of Large Language Models, which falls under the core process of model evaluation and adaptation."
+                    "justification": "The role involves designing technical evaluators for LLM assessment, building scalable evaluation pipelines and frameworks, and developing evaluation metrics, all of which are core to the modeling process, specifically in the context of evaluating and validating models.",
+                    "phrase": "Design and implement technical evaluators for LLM assessment"
                 },
                 {
-                    "task": "Contribute to evaluation infrastructure consolidation efforts.",
+                    "category": "TASK3: Modeling",
+                    "justification": "Building scalable evaluation pipelines and frameworks directly relates to the process of creating and maintaining systems for model assessment and validation.",
+                    "phrase": "Build scalable evaluation pipelines and frameworks"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "Developing and managing datasets and evaluation metrics are crucial steps in the modeling lifecycle, particularly for ensuring the quality and performance of AI models.",
+                    "phrase": "Develop and manage datasets and evaluation metrics"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "Optimizing performance across ML evaluation systems is a direct task related to refining and improving the effectiveness of models and their assessment processes.",
+                    "phrase": "Optimize performance across ML evaluation systems"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "Supporting improvements to AI-powered tools through validation is about ensuring the quality and reliability of models that power these tools.",
+                    "phrase": "Support improvements to GitLab's AI-powered tools through validation"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role requires integrating validation solutions with feature teams, which involves software development to embed these validation capabilities into existing or new applications.",
+                    "phrase": "Collaborate with feature teams to integrate validation solutions"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Ensuring solutions align with infrastructure and security protocols involves the software development practices needed to deploy and maintain systems within an established environment.",
+                    "phrase": "Ensure all solutions align with GitLab's infrastructure and security protocols"
+                },
+                {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "Consolidating evaluation infrastructure implies building and managing the systems and pipelines necessary for consistent and scalable model evaluation, a key aspect of MLOps."
+                    "justification": "Contributing to evaluation infrastructure consolidation efforts and building scalable evaluation pipelines and frameworks are key aspects of operationalizing and maintaining AI evaluation systems.",
+                    "phrase": "Contribute to evaluation infrastructure consolidation efforts"
                 },
                 {
-                    "task": "Build scalable evaluation pipelines and frameworks.",
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "Building pipelines and frameworks for evaluation is a direct responsibility within Operations Engineering, focusing on the operationalization and scalability of ML/AI processes."
+                    "justification": "The role focuses on scaling validation infrastructure, which is a core component of MLOps, ensuring that evaluation processes can handle increased load and complexity.",
+                    "phrase": "scale our validation infrastructure"
                 },
                 {
-                    "task": "Develop and manage datasets and evaluation metrics.",
                     "category": "TASK2: Data Engineering",
-                    "justification": "Developing and managing datasets is a fundamental part of data engineering, and in this context, it's specifically for evaluation purposes. Managing evaluation metrics also ties into data preparation for assessment."
-                },
-                {
-                    "task": "Collaborate with feature teams to integrate validation solutions.",
-                    "category": "TASK4: Software Development",
-                    "justification": "Integrating validation solutions into existing feature teams suggests the need to build or adapt software components to incorporate these validation mechanisms, aligning with software development practices."
-                },
-                {
-                    "task": "Optimize performance across ML evaluation systems.",
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "Optimizing the performance of evaluation systems is a crucial part of ensuring they are efficient and effective in production, which is a core MLOps concern."
-                },
-                {
-                    "task": "Support improvements to GitLab's AI-powered tools through validation.",
-                    "category": "TASK1: Business Understanding",
-                    "justification": "This task highlights the role's connection to the broader business objective of improving AI-powered tools, indicating an understanding of how technical validation contributes to business value and product quality."
-                },
-                {
-                    "task": "Ensure all solutions align with GitLab's infrastructure and security protocols.",
-                    "category": "TASK4: Software Development",
-                    "justification": "Ensuring solutions align with infrastructure and security protocols involves the practical application of software development principles to integrate new components into an existing system responsibly."
-                },
-                {
-                    "task": "designing scalable solutions for LLM evaluation",
-                    "category": "TASK3: Modeling",
-                    "justification": "This phrase directly points to the design and implementation of methods for evaluating LLMs, which is a core modeling task, specifically focused on assessment rather than generation."
-                },
-                {
-                    "task": "consolidating disparate validation tools",
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "Consolidating tools implies building a unified system or framework for managing and executing validation processes, which falls under operational engineering."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech": "LLM",
-                    "category": "TECH3: LLM / Generative Models"
-                },
-                {
-                    "tech": "AI",
-                    "category": "TECH3: LLM / Generative Models"
+                    "justification": "Optimizing dataset management is a direct task related to the preparation and handling of data for AI models.",
+                    "phrase": "optimize dataset management"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "play a critical role in shaping the future of AI-powered features",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Working closely with other AI feature teams"
                 },
                 {
-                    "skill": "work on impactful projects that directly influence the quality of GitLab's AI capabilities",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate with feature teams to integrate validation solutions"
                 },
                 {
-                    "skill": "Working closely with other AI feature teams",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "designing scalable solutions for LLM evaluation"
                 },
                 {
-                    "skill": "ensure that every AI feature we deliver is robust, reliable, and meets the highest quality standards",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "consolidating disparate validation tools"
                 },
                 {
-                    "skill": "designing scalable solutions",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "shaping the future of AI-powered features at GitLab"
                 },
                 {
-                    "skill": "consolidating disparate validation tools",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "contributing to GitLab's innovative AI roadmap"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLM"
                 },
                 {
-                    "skill": "contributing to GitLab's innovative AI roadmap",
-                    "category": "SKILL5: Innovation & Ownership"
-                },
-                {
-                    "skill": "Collaborate with feature teams",
-                    "category": "SKILL1: Communication & Collaboration"
-                },
-                {
-                    "skill": "Support improvements to GitLab's AI-powered tools",
-                    "category": "SKILL5: Innovation & Ownership"
-                },
-                {
-                    "skill": "ensure all solutions align with GitLab's infrastructure and security protocols",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
-                },
-                {
-                    "skill": "focus on building robust evaluation frameworks, consolidating tools, and streamlining processes",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
-                },
-                {
-                    "skill": "partners with AI feature teams",
-                    "category": "SKILL1: Communication & Collaboration"
-                },
-                {
-                    "skill": "deliver quality-focused solutions that enhance user trust and product performance",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
-                },
-                {
-                    "skill": "candidates with varying levels of experience; many successful candidates do not meet every single requirement.",
-                    "category": "SKILL2: Learning & Adaptability"
-                },
-                {
-                    "skill": "If you're excited about this role, please apply and allow our recruiters to assess your application.",
-                    "category": "SKILL2: Learning & Adaptability"
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "ML evaluation systems"
                 }
             ]
         }

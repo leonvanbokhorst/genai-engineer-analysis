@@ -27,133 +27,72 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on 'responsible AI applications' and client interaction, but lacks specific technical details about the AI models or development processes. It emphasizes business understanding and client advisory over core AI engineering tasks like modeling or data engineering."
+            "profile": "GenAI Engineer",
+            "rationale": "The job description emphasizes designing, building, and managing responsible AI applications, including from initial design to a mature integrated AI application. It highlights working with AI applications, staying updated on Responsible AI developments, and collaborating with partners, aligning well with the core responsibilities of a GenAI Engineer focused on developing and deploying AI-powered systems. While it mentions 'AI applications' broadly, the context of building and integrating them points towards the GenAI Engineer profile rather than a purely predictive modeling specialist (ML Engineer)."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "het ontwerpen, bouwen en beheren van responsible AI-toepassingen voor onze klanten",
-                            "justification": "This phrase indicates understanding client needs and designing AI solutions to meet them, which falls under business understanding."
-                        },
-                        {
-                            "phrase": "helpt mee van initieel ontwerp, naar een eerste prototype tot een volwassen geïntegreerde AI-toepassing",
-                            "justification": "This describes the lifecycle of an AI application from conception to deployment, requiring an understanding of business goals and user needs."
-                        },
-                        {
-                            "phrase": "Het onderhouden van contact met de klant, om ze zo goed van (technisch) advies te kunnen voorzien",
-                            "justification": "Direct client interaction and providing technical advice clearly aligns with understanding business requirements and translating them into solutions."
-                        },
-                        {
-                            "phrase": "meedenken over de richting waarin Brush AI zich gaat ontwikkelen",
-                            "justification": "This implies strategic thinking and aligning technical development with business growth and direction."
-                        },
-                        {
-                            "phrase": "energie krijgt van het bijdragen aan onze gezamenlijke missie",
-                            "justification": "This points to understanding and aligning with the company's overall mission and goals."
-                        }
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'van initieel ontwerp, naar een eerste prototype tot een volwassen geïntegreerde AI-toepassing' indicates the full lifecycle of building and integrating AI into applications.",
+                    "phrase": "van initieel ontwerp, naar een eerste prototype tot een volwassen geïntegreerde AI-toepassing"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "het ontwerpen, bouwen en beheren van responsible AI-toepassingen",
-                            "justification": "While broad, 'bouwen' (building) and 'beheren' (managing) AI applications implies software development aspects."
-                        },
-                        {
-                            "phrase": "naar een eerste prototype tot een volwassen geïntegreerde AI-toepassing",
-                            "justification": "Developing prototypes and integrated applications involves software development practices."
-                        },
-                        {
-                            "phrase": "Het inrichten, opzetten en implementeren van responsible AI-toepassingen",
-                            "justification": "Implementing applications involves software development and deployment."
-                        }
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Het inrichten, opzetten en implementeren van responsible AI-toepassingen' describes the practical development and deployment of AI solutions.",
+                    "phrase": "Het inrichten, opzetten en implementeren van responsible AI-toepassingen"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        {
-                            "phrase": "beheren van responsible AI-toepassingen",
-                            "justification": "Managing applications in production can encompass MLOps responsibilities."
-                        },
-                        {
-                            "phrase": "een volwassen geïntegreerde AI-toepassing",
-                            "justification": "Bringing an application to a 'mature' state implies ongoing maintenance and operational considerations."
-                        },
-                        {
-                            "phrase": "Het inrichten, opzetten en implementeren van responsible AI-toepassingen",
-                            "justification": "Setting up and implementing applications can involve deployment and infrastructure management, which are MLOps related."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Het onderhouden van contact met de klant, om ze zo goed van (technisch) advies te kunnen voorzien' shows the need to understand client needs and provide technical guidance.",
+                    "phrase": "Het onderhouden van contact met de klant, om ze zo goed van (technisch) advies te kunnen voorzien"
+                },
                 {
-                    "tech_name": "Responsible AI",
-                    "category": "TECH_OTHER"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "While not explicitly stated as 'data engineering', the phrase 'opzetten en implementeren van responsible AI-toepassingen' implies the underlying data handling and infrastructure required for AI applications.",
+                    "phrase": "opzetten en implementeren van responsible AI-toepassingen"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'responsible AI-toepassingen' implies working with and potentially fine-tuning or adapting AI models, which falls under the modeling category.",
+                    "phrase": "responsible AI-toepassingen"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'beheren van responsible AI-toepassingen' suggests ongoing management and maintenance of deployed AI systems, which aligns with MLOps.",
+                    "phrase": "beheren van responsible AI-toepassingen"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        {
-                            "phrase": "je hebt altijd jouw collega's waar je om advies kan vragen"
-                        },
-                        {
-                            "phrase": "Het onderhouden van contact met de klant, om ze zo goed van (technisch) advies te kunnen voorzien"
-                        },
-                        {
-                            "phrase": "Sparren en samenwerken met Brush AI's partners in Nederland en België"
-                        }
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Op de hoogte blijven van de nieuwste technologische ontwikkelingen op het gebied van Responsible AI"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        {
-                            "phrase": "Op de hoogte blijven van de nieuwste technologische ontwikkelingen op het gebied van Responsible AI"
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Sparren en samenwerken met Brush AI's partners in Nederland en België"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        {
-                            "phrase": "helpt mee van initieel ontwerp, naar een eerste prototype tot een volwassen geïntegreerde AI-toepassing"
-                        },
-                        {
-                            "phrase": "Het inrichten, opzetten en implementeren van responsible AI-toepassingen"
-                        }
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "meedenken over de richting waarin Brush AI zich gaat ontwikkelen"
                 },
                 {
-                    "skill_name": "Ethical & Legal Responsibility",
-                    "phrases": [
-                        {
-                            "phrase": "responsible AI-toepassingen"
-                        }
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "comfortabel voelt bij het nemen en dragen van veel verantwoordelijkheid"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        {
-                            "phrase": "meedenken over de richting waarin Brush AI zich gaat ontwikkelen"
-                        },
-                        {
-                            "phrase": "dat je je comfortabel voelt bij het nemen en dragen van veel verantwoordelijkheid"
-                        },
-                        {
-                            "phrase": "energie krijgt van het bijdragen aan onze gezamenlijke missie"
-                        }
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "energie krijgt van het bijdragen aan onze gezamenlijke missie"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "je hebt altijd jouw collega's waar je om advies kan vragen"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "responsible AI-toepassingen"
                 }
             ]
         }

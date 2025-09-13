@@ -27,85 +27,69 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on creative tooling, rendering technology, and artist collaboration, rather than core AI/ML model development or deployment. While it mentions 'pipeline' and 'automation', it lacks specific AI/ML tasks or technologies, making it lean towards traditional software engineering or technical art roles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on pipeline engineering for rendering technology, involving creative tooling and artistic collaboration. While it mentions building, testing, and deploying changes, it lacks specific details about AI/ML models, generative techniques, or predictive tasks that would align it with ML Engineer or GenAI Engineer profiles. The emphasis is on traditional software development and infrastructure for creative workflows, making it fall under the 'Ambiguous' category as it's not primarily an AI-focused technical role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        "In close collaboration with our CTO and different technical and artistic teams define, develop and run the next version of our rendering technology",
-                        "define the future architecture of our technology platform",
-                        "identify shared (technical) approaches"
-                    ],
-                    "justification": "These phrases indicate a need to understand the business goals (next version of rendering technology), align technical direction (architecture), and collaborate with various teams to achieve shared objectives."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves defining, developing, and running rendering technology, including creative tooling and end-user software. It also mentions building, testing, and deploying frequent changes and updates to the pipeline, which are core software development activities.",
+                    "phrase": "define, develop and run the next version of our rendering technology (both from a creative tooling & pipeline perspective and our end-user software)"
                 },
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        "develop and run the next version of our rendering technology (both from a creative tooling & pipeline perspective and our end-user software)",
-                        "Guiding and make pipeline technology choices",
-                        "define the future architecture of our technology platform",
-                        "Collaborating with our artists to develop the tools and automation they need",
-                        "Build, test & deploy frequent changes and updates to the pipeline",
-                        "implement directly"
-                    ],
-                    "justification": "The description involves developing software (rendering technology, end-user software, tools, automation), making technology choices, defining architecture, and building, testing, and deploying changes, which are core software development activities."
+                    "category": "TASK4: Software Development",
+                    "justification": "Making technology choices and defining the future architecture of the technology platform are key aspects of software architecture and development.",
+                    "phrase": "Guiding and make pipeline technology choices and define the future architecture of our technology platform"
                 },
                 {
-                    "task_name": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "run the next version of our rendering technology",
-                        "Build, test & deploy frequent changes and updates to the pipeline"
-                    ],
-                    "justification": "The mention of 'run', 'build', 'test', and 'deploy' for the pipeline and technology suggests operational aspects, though without specific AI/ML model context, it's a general form of operations engineering."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Close collaboration with technical and artistic teams, and identifying shared technical approaches, indicates a need to understand different team's needs and align technical strategies.",
+                    "phrase": "In close collaboration with our CTO and different technical and artistic teams"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Collaborating with artists to develop tools and automation directly relates to building software solutions for specific user needs.",
+                    "phrase": "Collaborating with our artists to develop the tools and automation they need"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Build, test & deploy frequent changes and updates to the pipeline' directly describes the operational aspects of software development, including deployment and maintenance.",
+                    "phrase": "Build, test & deploy frequent changes and updates to the pipeline"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Documenting and training artists on how to use the pipeline and implement enhancements involves understanding user needs and facilitating adoption, which aligns with business understanding and user enablement.",
+                    "phrase": "Document and possibly train artists to use the pipeline, pick up enhancements and implement directly"
                 }
             ],
-            "technologies": [],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "In close collaboration with our CTO and different technical and artistic teams",
-                        "Close collaboration with our Grip development and technical teams",
-                        "Collaborating with our artists"
-                    ],
-                    "justification": "The job explicitly emphasizes working closely with multiple teams (CTO, technical, artistic, development) and artists."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "In close collaboration with our CTO and different technical and artistic teams"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "define, develop and run the next version of our rendering technology",
-                        "define the future architecture of our technology platform"
-                    ],
-                    "justification": "The role involves defining and developing future versions and architectures, implying a need to adapt to evolving technologies and requirements."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Close collaboration with our Grip development and technical teams"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "define, develop and run the next version of our rendering technology",
-                        "Guiding and make pipeline technology choices",
-                        "identify shared (technical) approaches",
-                        "develop the tools and automation they need",
-                        "Build, test & deploy frequent changes and updates to the pipeline"
-                    ],
-                    "justification": "The role requires making technology choices, identifying solutions for artists' needs, and building/deploying pipeline updates, indicating a problem-solving and practical approach."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborating with our artists"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "Lead Pipeline Engineer/Head of Pipeline",
-                        "define, develop and run the next version of our rendering technology",
-                        "Guiding and make pipeline technology choices",
-                        "define the future architecture of our technology platform",
-                        "Build, test & deploy frequent changes and updates to the pipeline",
-                        "Document and possibly train artists to use the pipeline, pick up enhancements and implement directly"
-                    ],
-                    "justification": "The 'Lead' and 'Head' titles, along with responsibilities for defining technology, architecture, and implementing changes, suggest a high degree of ownership and initiative."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Document and possibly train artists"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "define, develop and run the next version of our rendering technology"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Guiding and make pipeline technology choices and define the future architecture of our technology platform"
                 }
-            ]
+            ],
+            "technologies": []
         }
     }
 }

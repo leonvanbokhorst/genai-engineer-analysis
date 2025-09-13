@@ -27,87 +27,115 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on network engineering, data center operations, and traditional system administration. While it mentions 'machine-learning clusters', the core responsibilities and technologies described do not align with the specialized tasks of an ML Engineer or GenAI Engineer."
+            "profile": "Ambiguous",
+            "rationale": "The job description is for a 'Network Engineer' and focuses heavily on network operations, hardware, and traditional networking tasks. While it mentions 'machine-learning clusters', the core responsibilities and technologies described do not align with the specialized skills of an ML Engineer or GenAI Engineer. The role is primarily infrastructure and operations-focused, making it fall under the 'Ambiguous' category as it's not a technical AI development role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK1: Business Understanding",
-                    "justification": "The phrase 'dedicated to providing a reliable foundation for our services and the platform' and 'help us break down language barriers' suggests an understanding of how the network supports business functions and potentially a broader company mission, though not deeply detailed."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The role involves operating Data Centers' Network using modern DevOps tools, automation, and classic administration methods, configuring, maintaining, and monitoring the network environment, and contributing to the automation stack. This aligns with the operational and maintenance aspects of MLOps.",
+                    "phrase": "operating our Data Centers' Network using modern DevOps tools, automation and classic administration methods"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "justification": "The mention of 'automation stack (Golang, Templating)' and 'modern DevOps tools' implies software development for automation and infrastructure management, which is a component of software development, albeit focused on infrastructure."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Maintaining and improving an automation stack is a key part of operations engineering, ensuring efficient and reliable systems.",
+                    "phrase": "Maintain, improve and extend our automation stack"
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "The core responsibilities revolve around 'operating our Data Centers' Network using modern DevOps tools, automation and classic administration methods', 'Configure, maintain and monitor the network environment', and 'Troubleshooting physical and logical networking issues', which are all central to operations engineering, specifically in a network context."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Golang",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK4: Software Development",
+                    "justification": "While the primary focus is networking, the mention of Golang and Templating in the context of extending an automation stack implies some level of software development for infrastructure tooling.",
+                    "phrase": "Golang, Templating"
                 },
                 {
-                    "technology": "Linux",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Troubleshooting physical and logical networking issues is a core operational task for maintaining network infrastructure, especially in a production environment.",
+                    "phrase": "Troubleshooting physical and logical networking issues on routers, switches and Linux hosts"
                 },
                 {
-                    "technology": "DevOps",
-                    "category": "TECH6: MLOps & Data Pipelines"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role is described as providing a 'reliable foundation for our services and the platform', indicating an understanding of how network infrastructure supports broader business services.",
+                    "phrase": "providing a reliable foundation for our services and the platform"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'break down language barriers' in the context of a network engineer role suggests an understanding of how the network supports communication and collaboration, which is a business objective.",
+                    "phrase": "help us break down language barriers"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Coordinating staff on-site and remote hands in data centers is an operational responsibility for managing infrastructure.",
+                    "phrase": "Coordinating staff on-site"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Being part of a 24/7 on-call rotation is a direct responsibility within operations engineering for ensuring service availability.",
+                    "phrase": "part of our 24/7 on-call rotation"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The job explicitly mentions working in close partnership with teams and collaborating with team members on larger work.",
+                    "phrase": "work in close partnership with your team"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The description emphasizes collaboration with team members on larger work.",
+                    "phrase": "Collaborate with team members on larger work"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "justification": "The mention of an 'Annual learning budget' and the continuous learning aspect of the field implies a need for adaptability.",
+                    "phrase": "Annual learning budget"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "justification": "Troubleshooting networking issues is a direct application of problem-solving skills.",
+                    "phrase": "Troubleshooting physical and logical networking issues"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "justification": "The mention of 'Hack Fridays' where employees can dive into projects they are passionate about and work with other teams suggests a culture that values initiative and creativity.",
+                    "phrase": "Monthly full-day hacking sessions"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "work in close partnership with your team, the wider DevOps team and the Engineering department",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "work in close partnership with your team"
                 },
                 {
-                    "skill": "you will be able to visit the sites from time to time",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate with team members on larger work"
                 },
                 {
-                    "skill": "You will join a team of broadly skilled engineers who will be able to support and kick-start your projects.",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Open communication, regular feedback"
                 },
                 {
-                    "skill": "Collaborate with team members on larger work",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Annual learning budget"
                 },
                 {
-                    "skill": "part of our 24/7 on-call rotation",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Troubleshooting physical and logical networking issues"
                 },
                 {
-                    "skill": "Diverse and internationally distributed team: joining our team means becoming part of a large, global community with people of more than 90 nationalities.",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Monthly full-day hacking sessions"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Golang"
                 },
                 {
-                    "skill": "Open communication, regular feedback: as a language-focused company, we value the importance of clear, honest communication. We value smooth collaboration, direct and actionable feedback, and believe that leading with empathy makes us better together.",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "DevOps tools"
                 },
                 {
-                    "skill": "Remote work, flexible hours",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
-                },
-                {
-                    "skill": "trust in your productivity",
-                    "category": "SKILL5: Innovation & Ownership"
-                },
-                {
-                    "skill": "Regular in-person team events",
-                    "category": "SKILL1: Communication & Collaboration"
-                },
-                {
-                    "skill": "Monthly full-day hacking sessions: every month, we have Hack Fridays, where you can spend your time diving into a project you're passionate about and get the opportunity to work with other teams-we value your initiatives, impact, and creativity.",
-                    "category": "SKILL5: Innovation & Ownership"
-                },
-                {
-                    "skill": "Annual learning budget: because we never stop learning, we've set up an annual budget for your professional development-pick a learning path which contributes to your career development and we'll back you up.",
-                    "category": "SKILL2: Learning & Adaptability"
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "machine-learning clusters"
                 }
             ]
         }

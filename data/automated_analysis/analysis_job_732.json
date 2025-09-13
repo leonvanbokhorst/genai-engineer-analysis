@@ -28,218 +28,287 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description emphasizes the development, implementation, and maintenance of machine learning models, including predictive modeling tasks like image recognition, NLP, and recommendation systems. While generative AI is mentioned, the core focus remains on traditional ML engineering principles and productionizing models within applications."
+            "rationale": "The job description emphasizes the development, implementation, and maintenance of machine learning models, including predictive modeling tasks like image recognition, NLP, speech recognition, and recommendation systems. While generative AI is mentioned, the core focus remains on traditional ML model lifecycle management, data pipelines, and integrating these models into applications, aligning with the 'ML Engineer' profile. The mention of 'productionizing prototypes' and 'building and maintaining production-grade systems' further supports this classification."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "Denk je mee met opdrachtgevers over het implementeren van machine learning modellen.",
-                            "justification": "This phrase indicates collaboration with clients to understand their needs and how ML models can be implemented to solve their problems, aligning technical solutions with business objectives."
-                        },
-                        {
-                            "phrase": "Zorg je voor de vertaling van complexe Machine Learning naar bruikbare applicaties.",
-                            "justification": "This highlights the need to bridge the gap between technical ML concepts and practical, user-facing applications, demonstrating an understanding of how ML serves business needs."
-                        },
-                        {
-                            "phrase": "Denk je mee in vraagstukken rondom kaders en ethiek binnen de context van artificial intelligence.",
-                            "justification": "This involves understanding the broader implications and constraints (ethical, legal) of AI within the government context, which is a business/organizational concern."
-                        }
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'ontwikkeling, implementatie en onderhoud van machine learning modellen' directly refers to the creation and management of ML models.",
+                    "phrase": "ontwikkeling, implementatie en onderhoud van machine learning modellen"
                 },
                 {
-                    "task_name": "TASK2: Data Engineering",
-                    "phrases": [
-                        {
-                            "phrase": "Bouw je model training scripts en data pipelines.",
-                            "justification": "Directly refers to the creation of scripts for training models and the construction of data pipelines, which are core components of data engineering."
-                        },
-                        {
-                            "phrase": "Ben je bezig met het verzamelen, opschonen en evalueren van data en met verbindingen maken met data bronnen.",
-                            "justification": "This describes essential data engineering activities: data collection, cleaning, evaluation, and establishing connections to data sources."
-                        }
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Bouw, implementeer, verbeter en onderhoud je AI standaard oplossions en ML/Deep Learning oplossions in nieuwe en bestaande applicaties (apps, webservices, en evt. andere frontends etc.)' describes building and integrating AI/ML solutions into software applications.",
+                    "phrase": "Bouw, implementeer, verbeter en onderhoud je AI standaard oplossions en ML/Deep Learning oplossions in nieuwe en bestaande applicaties (apps, webservices, en evt. andere frontends etc.)"
                 },
                 {
-                    "task_name": "TASK3: Modeling",
-                    "phrases": [
-                        {
-                            "phrase": "de ontwikkeling, implementatie en onderhoud van machine learning modellen.",
-                            "justification": "This is a broad statement encompassing the entire lifecycle of ML models, from development to deployment and maintenance."
-                        },
-                        {
-                            "phrase": "Pas je verschillende vormen van Machine Learning toe in de contexten van beeldherkenning, Natural Language Processing, Spraakherkenning, Spraakgeneratie en Recommending Systems alsmede nieuwe en andere vormen van ML en het inbouwen hiervan in bestaande applicaties.",
-                            "justification": "This explicitly lists various ML tasks including classification (image recognition), NLP, speech processing, and recommendation systems, all falling under model development and application."
-                        },
-                        {
-                            "phrase": "Participeer je in projecten waar generatieve AI wordt gebruikt. Je implementeert daar ook oplossingen met retrieval-augmented generation of andere relevante technieken in de context van generatieve AI.",
-                            "justification": "This indicates involvement with generative AI, specifically mentioning RAG, which is a form of model adaptation and implementation."
-                        },
-                        {
-                            "phrase": "Gebruik je actuele frameworks zoals TensorFlow en Pytorch in Python 3.",
-                            "justification": "TensorFlow and PyTorch are primary frameworks for building and training ML models."
-                        },
-                        {
-                            "phrase": "Het gebruiken van diverse mobiele AI frameworks, zoals CreateML etc.",
-                            "justification": "CreateML is a framework for building ML models, particularly for Apple devices."
-                        }
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Zorg je voor de vertaling van complexe Machine Learning naar bruikbare applicaties' highlights the task of making complex ML models accessible and functional within applications.",
+                    "phrase": "Zorg je voor de vertaling van complexe Machine Learning naar bruikbare applicaties"
                 },
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "Bouw, implementeer, verbeter en onderhoud je AI standaard oplossingen en ML/Deep Learning oplossingen in nieuwe en bestaande applicaties (apps, webservices, en evt. andere frontends etc.).",
-                            "justification": "This describes building and deploying ML/AI solutions within various application types (apps, webservices, frontends), which is a core software development activity."
-                        },
-                        {
-                            "phrase": "het inbouwen hiervan in bestaande applicaties.",
-                            "justification": "Refers to integrating ML models into existing software applications."
-                        }
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Pas je verschillende vormen van Machine Learning toe in de contexten van beeldherkenning, Natural Language Processing, Spraakherkenning, Spraakgeneratie en Recommending Systems alsmede nieuwe en andere vormen van ML en het inbouwen hiervan in bestaande applicaties' lists specific ML applications and tasks.",
+                    "phrase": "Pas je verschillende vormen van Machine Learning toe in de contexten van beeldherkenning, Natural Language Processing, Spraakherkenning, Spraakgeneratie en Recommending Systems alsmede nieuwe en andere vormen van ML en het inbouwen hiervan in bestaande applicaties"
                 },
                 {
-                    "task_name": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        {
-                            "phrase": "implementatie en onderhoud van machine learning modellen.",
-                            "justification": "Maintenance of ML models in production is a key aspect of MLOps."
-                        },
-                        {
-                            "phrase": "Bouw je model training scripts en data pipelines.",
-                            "justification": "While also data engineering, building pipelines for training and deployment is a foundational MLOps activity."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH1: Programming Languages",
-                    "items": [
-                        "Python 3"
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Bouw je model training scripts en data pipelines' directly refers to the creation of data pipelines for model training.",
+                    "phrase": "Bouw je model training scripts en data pipelines"
                 },
                 {
-                    "tech_name": "TECH2: Cloud Platforms & Services",
-                    "items": []
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Ben je bezig met het verzamelen, opschonen en evalueren van data en met verbindingen maken met data bronnen' describes core data preprocessing and collection activities.",
+                    "phrase": "Ben je bezig met het verzamelen, opschonen en evalueren van data en met verbindingen maken met data bronnen"
                 },
                 {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "items": [
-                        "generatieve AI"
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Participeer je in projecten waar generatieve AI wordt gebruikt. Je implementeert daar ook oplossingen met retrieval-augmented generation of andere relevante technieken in de context van generatieve AI' indicates involvement in generative AI projects and implementation of specific techniques like RAG.",
+                    "phrase": "Participeer je in projecten waar generatieve AI wordt gebruikt. Je implementeert daar ook oplossingen met retrieval-augmented generation of andere relevante technieken in de context van generatieve AI"
                 },
                 {
-                    "tech_name": "TECH4: LLM Frameworks & Libraries",
-                    "items": [
-                        "retrieval-augmented generation"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'implementeert daar ook oplossingen met retrieval-augmented generation of andere relevante technieken in de context van generatieve AI' implies building and integrating GenAI solutions into applications.",
+                    "phrase": "implementeert daar ook oplossingen met retrieval-augmented generation of andere relevante technieken in de context van generatieve AI"
                 },
                 {
-                    "tech_name": "TECH5: Vector Stores & Search",
-                    "items": []
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Denk je mee met opdrachtgevers over het implementeren van machine learning modellen' involves understanding client needs and translating them into technical implementations.",
+                    "phrase": "Denk je mee met opdrachtgevers over het implementeren van machine learning modellen"
                 },
                 {
-                    "tech_name": "TECH6: MLOps & Data Pipelines",
-                    "items": [
-                        "data pipelines"
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Denk je mee met opdrachtgevers over het implementeren van machine learning modellen' shows an understanding of client needs and business context for ML implementation.",
+                    "phrase": "Denk je mee met opdrachtgevers over het implementeren van machine learning modellen"
                 },
                 {
-                    "tech_name": "TECH7: Data Visualization",
-                    "items": []
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'en het inbouwen hiervan in bestaande applicaties' refers to integrating ML models into existing software.",
+                    "phrase": "en het inbouwen hiervan in bestaande applicaties"
                 },
                 {
-                    "tech_name": "TECH8: Data Processing",
-                    "items": []
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'en evt. andere frontends etc.' indicates the development of various user interfaces for applications.",
+                    "phrase": "en evt. andere frontends etc."
                 },
                 {
-                    "tech_name": "TECH9: Data Storage",
-                    "items": []
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'en onderhoud van machine learning modellen' implies ongoing maintenance of deployed models within applications.",
+                    "phrase": "en onderhoud van machine learning modellen"
                 },
                 {
-                    "tech_name": "TECH10: Data Modeling",
-                    "items": [
-                        "TensorFlow",
-                        "Pytorch",
-                        "CreateML"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'implementatie en onderhoud van machine learning modellen' refers to deploying and maintaining ML models, which is part of the software lifecycle.",
+                    "phrase": "implementatie en onderhoud van machine learning modellen"
                 },
                 {
-                    "tech_name": "TECH11: Data Analysis",
-                    "items": [
-                        "Natural Language Processing",
-                        "Spraakherkenning",
-                        "Spraakgeneratie",
-                        "Recommending Systems",
-                        "beeldherkenning"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'onderhoud van machine learning modellen' implies maintaining the software components related to ML models.",
+                    "phrase": "onderhoud van machine learning modellen"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'implementatie van machine learning modellen' refers to deploying ML models into applications.",
+                    "phrase": "implementatie van machine learning modellen"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'ontwikkeling, implementatie en onderhoud van machine learning modellen' covers the full lifecycle of ML models within a software context.",
+                    "phrase": "ontwikkeling, implementatie en onderhoud van machine learning modellen"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'ontwikkeling van machine learning modellen' implies the software engineering aspects of creating ML models.",
+                    "phrase": "ontwikkeling van machine learning modellen"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'onderhoud van AI standaard oplossions' refers to maintaining AI-based software solutions.",
+                    "phrase": "onderhoud van AI standaard oplossions"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'implementeer je AI standaard oplossions' refers to deploying AI-based software solutions.",
+                    "phrase": "implementeer je AI standaard oplossions"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Bouw je AI standaard oplossions' refers to building AI-based software solutions.",
+                    "phrase": "Bouw je AI standaard oplossions"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'onderhoud van ML/Deep Learning oplossions' refers to maintaining ML/Deep Learning software solutions.",
+                    "phrase": "onderhoud van ML/Deep Learning oplossions"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'implementeer je ML/Deep Learning oplossions' refers to deploying ML/Deep Learning software solutions.",
+                    "phrase": "implementeer je ML/Deep Learning oplossions"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Bouw je ML/Deep Learning oplossions' refers to building ML/Deep Learning software solutions.",
+                    "phrase": "Bouw je ML/Deep Learning oplossions"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'in nieuwe en bestaande applicaties' indicates the development and integration of solutions into software applications.",
+                    "phrase": "in nieuwe en bestaande applicaties"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'en webservices' refers to building backend services, a core software development task.",
+                    "phrase": "en webservices"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'en evt. andere frontends etc.' implies developing various user interfaces for applications.",
+                    "phrase": "en evt. andere frontends etc."
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'en het inbouwen hiervan in bestaande applicaties' refers to integrating ML/AI solutions into existing software.",
+                    "phrase": "en het inbouwen hiervan in bestaande applicaties"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'beeldherkenning' is a specific application of machine learning models.",
+                    "phrase": "beeldherkenning"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Natural Language Processing' is a field within ML focused on language understanding and generation.",
+                    "phrase": "Natural Language Processing"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Spraakherkenning' is a specific application of machine learning models.",
+                    "phrase": "Spraakherkenning"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Spraakgeneratie' is a specific application of machine learning models.",
+                    "phrase": "Spraakgeneratie"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Recommending Systems' is a type of predictive model.",
+                    "phrase": "Recommending Systems"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'nieuwe en andere vormen van ML' refers to the application of various machine learning techniques.",
+                    "phrase": "nieuwe en andere vormen van ML"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Bouw je model training scripts' refers to creating scripts for the data processing and preparation phase of model training.",
+                    "phrase": "Bouw je model training scripts"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'data pipelines' directly refers to the infrastructure for data movement and transformation.",
+                    "phrase": "data pipelines"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'verzamelen, opschonen en evalueren van data' describes the core activities of data preprocessing and cleaning.",
+                    "phrase": "verzamelen, opschonen en evalueren van data"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'verbindingen maken met data bronnen' refers to establishing connections to data sources, a data engineering task.",
+                    "phrase": "verbindingen maken met data bronnen"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'generatieve AI' refers to a class of models focused on generating new content.",
+                    "phrase": "generatieve AI"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'retrieval-augmented generation' is a specific technique used with generative models.",
+                    "phrase": "retrieval-augmented generation"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'andere relevante technieken in de context van generatieve AI' refers to other methods used with generative models.",
+                    "phrase": "andere relevante technieken in de context van generatieve AI"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'implementeert daar ook oplossingen' refers to the implementation of GenAI solutions within a software context.",
+                    "phrase": "implementeert daar ook oplossingen"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Denk je mee in vraagstukken rondom kaders en ethiek binnen de context van artificial intelligence' shows an understanding of the broader implications and constraints of AI.",
+                    "phrase": "Denk je mee in vraagstukken rondom kaders en ethiek binnen de context van artificial intelligence"
+                },
+                {
+                    "category": "SKILL4: Ethical & Legal Responsibility",
+                    "justification": "The phrase 'kaders en ethiek binnen de context van artificial intelligence' directly relates to ethical considerations in AI development.",
+                    "phrase": "kaders en ethiek binnen de context van artificial intelligence"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'Geef je samen met de AI architect presentaties over AI' indicates presenting technical information to others, requiring communication skills.",
+                    "phrase": "Geef je samen met de AI architect presentaties over AI"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'Denk je mee met opdrachtgevers' implies collaboration and understanding client needs.",
+                    "phrase": "Denk je mee met opdrachtgevers"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        {
-                            "phrase": "Denk je mee met opdrachtgevers over het implementeren van machine learning modellen.",
-                            "justification": "Implies collaboration with clients to understand requirements and propose solutions."
-                        },
-                        {
-                            "phrase": "Geef je samen met de AI architect presentaties over AI.",
-                            "justification": "Indicates presenting technical information to others, requiring communication skills."
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Denk je mee met opdrachtgevers"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        {
-                            "phrase": "ambitieuze machine learning engineer",
-                            "justification": "Ambition often correlates with a desire to learn and adapt in a fast-evolving field."
-                        },
-                        {
-                            "phrase": "nieuwe en andere vormen van ML",
-                            "justification": "Suggests a need to stay updated with and apply emerging ML techniques."
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Geef je samen met de AI architect presentaties over AI"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        {
-                            "phrase": "Zorg je voor de vertaling van complexe Machine Learning naar bruikbare applicaties.",
-                            "justification": "This requires problem-solving to make complex technical concepts practical and usable."
-                        },
-                        {
-                            "phrase": "Bouw, implementeer, verbeter en onderhoud je AI standaard oplossingen en ML/Deep Learning oplossingen in nieuwe en bestaande applicaties",
-                            "justification": "This involves a practical, hands-on approach to building and maintaining solutions."
-                        }
-                    ]
+                    "category": "SKILL4: Ethical & Legal Responsibility",
+                    "phrase": "kaders en ethiek binnen de context van artificial intelligence"
                 },
                 {
-                    "skill_name": "SKILL4: Ethical & Legal Responsibility",
-                    "phrases": [
-                        {
-                            "phrase": "Denk je mee in vraagstukken rondom kaders en ethiek binnen de context van artificial intelligence.",
-                            "justification": "Directly addresses the need to consider ethical frameworks and guidelines related to AI."
-                        }
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "vertaling van complexe Machine Learning naar bruikbare applicaties"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        {
-                            "phrase": "ambitieuze machine learning engineer",
-                            "justification": "Ambition suggests a proactive and driven approach, often associated with innovation and ownership."
-                        },
-                        {
-                            "phrase": "wil je AI inzetten voor een verbetere dienstverlening van de Nederlandse overheid?",
-                            "justification": "Indicates a desire to drive improvements and take initiative in applying AI."
-                        }
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "ambitieuze machine learning engineer"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "TensorFlow"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Pytorch"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python 3"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "CreateML"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "generatieve AI"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "retrieval-augmented generation"
                 }
             ]
         }

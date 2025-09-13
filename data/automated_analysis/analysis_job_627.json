@@ -28,100 +28,76 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 5,
-            "rationale": "The job description heavily emphasizes building applications powered by LLMs, including prompt engineering, fine-tuning, and integrating these models into backend systems. The core responsibilities align directly with the definition of a GenAI Engineer, focusing on user-facing applications and generative AI technologies."
+            "rationale": "The job description heavily emphasizes building and deploying LLM-based solutions for a specific application (grant-writing assistant), aligning with the core responsibilities of a GenAI Engineer. Key phrases like 'LLM-based solutions', 'large datasets for data preprocessing and engineering', 'integrate models into backend systems', 'optimize the AI model for text quality and accuracy', and 'POC testing, validate model output, and iterate for performance improvements' directly map to the 'Modeling', 'Software Development', and 'Operations Engineering' tasks characteristic of this profile. The mention of specific LLMs (GPT-3, GPT-4) further solidifies this classification."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK3: Modeling",
-                    "phrase": "design and deploy LLM-based solutions",
-                    "justification": "This phrase directly refers to the creation and implementation of models, specifically LLM-based solutions, which falls under the core definition of modeling."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Lead the technical design and implementation of the project using LLM's (e.g., GPT-3, GPT-4) for the grant writing assistant' and 'Optimize the AI model for text quality and accuracy based on historical grant data' directly relate to developing and refining generative models.",
+                    "phrase": "Lead the technical design and implementation of the project using LLM's (e.g., GPT-3, GPT-4) for the grant writing assistant"
                 },
                 {
-                    "task": "TASK3: Modeling",
-                    "phrase": "Optimize the AI model for text quality and accuracy based on historical grant data",
-                    "justification": "Optimization and accuracy improvement of an AI model are key aspects of the modeling process."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Conduct POC testing, validate model output, and iterate for performance improvements' describes the iterative process of model development and refinement.",
+                    "phrase": "Conduct POC testing, validate model output, and iterate for performance improvements"
                 },
                 {
-                    "task": "TASK3: Modeling",
-                    "phrase": "Conduct POC testing, validate model output, and iterate for performance improvements",
-                    "justification": "Testing, validation, and iteration for performance are integral parts of the model development lifecycle."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Work with large datasets for data preprocessing and engineering and manage the data annotation process' clearly indicates tasks related to preparing and managing data for model training.",
+                    "phrase": "Work with large datasets for data preprocessing and engineering and manage the data annotation process"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "Integrate models into backend systems using frameworks like Django or Flask",
-                    "justification": "Integrating AI models into backend systems using web frameworks like Django or Flask is a core software development task."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Integrate models into backend systems using frameworks like Django or Flask' describes the process of embedding AI models into functional software applications.",
+                    "phrase": "Integrate models into backend systems using frameworks like Django or Flask"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "Collaborate with frontend developers to create seamless user experiences",
-                    "justification": "Working with frontend developers to build user experiences is a direct software development responsibility."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Collaborate with frontend developers to create seamless user experiences' points to the software development aspect of building user-facing applications.",
+                    "phrase": "Collaborate with frontend developers to create seamless user experiences"
                 },
                 {
-                    "task": "TASK2: Data Engineering",
-                    "phrase": "Work with large datasets for data preprocessing and engineering",
-                    "justification": "Preprocessing and engineering large datasets are fundamental data engineering tasks."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Ensure all AI/ML operations comply with data privacy and other security regulations' touches upon the operational and compliance aspects of deploying AI systems.",
+                    "phrase": "Ensure all AI/ML operations comply with data privacy and other security regulations"
                 },
                 {
-                    "task": "TASK2: Data Engineering",
-                    "phrase": "manage the data annotation process",
-                    "justification": "Managing data annotation is a crucial part of preparing data for model training, falling under data engineering."
-                },
-                {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrase": "Ensure all AI/ML operations comply with data privacy and other security regulations",
-                    "justification": "Ensuring compliance with regulations in AI/ML operations is a key aspect of MLOps and responsible AI deployment."
-                },
-                {
-                    "task": "TASK1: Business Understanding",
-                    "phrase": "transforming the grant-writing process with cutting-edge AI technology",
-                    "justification": "Understanding the business goal of transforming grant-writing with AI is essential for aligning technical work with business objectives."
-                },
-                {
-                    "task": "TASK1: Business Understanding",
-                    "phrase": "simplify and elevate how grant proposals are crafted, directly impacting organizations' mission in driving meaningful innovation projects",
-                    "justification": "This phrase describes the business impact and strategic goals of the project, demonstrating business understanding."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "TECH3: LLM / Generative Models",
-                    "name": "GPT-3"
-                },
-                {
-                    "technology": "TECH3: LLM / Generative Models",
-                    "name": "GPT-4"
-                },
-                {
-                    "technology": "TECH4: LLM Frameworks & Libraries",
-                    "name": "Django"
-                },
-                {
-                    "technology": "TECH4: LLM Frameworks & Libraries",
-                    "name": "Flask"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The introductory paragraph, 'At Catalyze, we're committed to transforming the grant-writing process with cutting-edge AI technology... directly impacting organizations' mission in driving meaningful innovation projects,' demonstrates an understanding of the business context and the impact of the AI solution.",
+                    "phrase": "transforming the grant-writing process with cutting-edge AI technology"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "curious, a natural problem solver"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "natural problem solver"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "phrase": "passionate about NLP and machine learning"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "curious"
                 },
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
+                    "category": "SKILL1: Communication & Collaboration",
                     "phrase": "Collaborate with frontend developers"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrase": "Lead the technical design and implementation of the project"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "play a pivotal role in building the most advanced AI-powered grant-writing assistant in the industry"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLM's (e.g., GPT-3, GPT-4)"
                 },
                 {
-                    "skill": "SKILL4: Ethical & Legal Responsibility",
-                    "phrase": "Ensure all AI/ML operations comply with data privacy and other security regulations"
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "Django"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "Flask"
                 }
             ]
         }

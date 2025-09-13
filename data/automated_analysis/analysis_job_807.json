@@ -26,161 +26,201 @@
         "full_text": "Full stack software engineer - Ecommerce (Shopify Plus / React)\n\nAre you our new Fullstack Developer who's not just technically skilled but also practical and business-minded? In this role, you'll lead the technical direction of our Shopify Plus e-commerce platform, combining hands-on development with smart decision-making. Your goal will be to deliver solutions that boost user experience and drive business value. You'll always aim for the fastest, most robust solution that meets our needs, prioritizing what works best for the business. You'll collaborate closely with our small team to ensure our technology supports and advances our business objectives., * E-commerce Development: Lead the development and optimization of our Shopify Plus platform across multiple domains, ensuring a seamless integration with multiple systems and high-performing user experience\n     * Lead Development & Team: Write code while managing a small team. Balance hands-on coding with leadership to keep projects on track.\n     * Product ownership: Work with team members to prioritize development tasks that align with business goals and deliver real value.\n     * Process & Tools: Improve code reliability, CI/CD pipelines, ensure robust QA, and manage code reviews using GitLab/GitHub., * E-commerce: Shopify Plus powers our online store across six domains (JS, HTML, CSS, Liquid), React apps (algolia), GTM server-side + GA4 for analytics\n     * ERP: ODOO V16, self-hosted.\n     * Data & Cloud: Google Cloud for data lake (bigquery and dataform) and cloud functions\n     * Automation & AI: N8N for automation and exploring integrations with Dify for LLM (Large Language Model) capabilities., * Flexible Working: While we prefer candidates in our Eindhoven office, we accept remote candidates, provided you are within a 3-hour time zone of the Netherlands. You'll need to be available during Dutch office hours.\n     * High Responsibility & Growth: Enjoy a high level of responsibility and impact, with continuous learning and professional growth opportunities.\n     * Team Collaboration: We value collaboration and regularly hold team gatherings, both virtual and in-person, to ensure everyone feels connected and aligned.\n\n   If you're someone who enjoys both the strategic and the practical aspects of development and wants to be part of a small but ambitious team building the future of automated e-commerce, we'd love to hear from you!\n\nImportant\n\n   The job requires to be available minimally 32 hours per week, with work scheduled during Dutch office hours. If you apply for a remote position and you're located outside of the Netherlands, you can join us full-time as an independent contractor. To some extent, we ignore geography in order to find the best person for each role. Due to the substantial differences between labor and business laws in each country, the easiest way to hire talent outside of our registered countries is through freelance contracts."
     },
     "analysis": {
-        "job_profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description heavily emphasizes traditional full-stack e-commerce development using technologies like Shopify Plus, React, and cloud platforms for data storage and functions. While AI tools like Dify are mentioned for exploration, the core responsibilities and technologies do not align with a specialized GenAI or ML Engineer role. The role is primarily focused on business value and user experience within an e-commerce context, rather than core AI model development or deployment."
+        "profile_classification": {
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on traditional full-stack e-commerce development using Shopify Plus, React, and related web technologies. While it mentions exploring integrations with Dify for LLM capabilities, this is a minor aspect and not the core focus. The primary responsibilities and technologies listed do not align with the core definitions of ML Engineer or GenAI Engineer, which require deep expertise in model development, training, or advanced generative AI applications. The role is more aligned with traditional software engineering and business-focused e-commerce development, making it 'Ambiguous' according to the provided coding book."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
                     "category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "practical and business-minded",
-                        "deliver solutions that boost user experience and drive business value",
-                        "fastest, most robust solution that meets our needs, prioritizing what works best for the business",
-                        "ensure our technology supports and advances our business objectives",
-                        "prioritize development tasks that align with business goals and deliver real value",
-                        "building the future of automated e-commerce"
-                    ],
-                    "justification": "These phrases highlight the need to understand business goals, translate them into technical requirements, and prioritize work based on business value and strategic objectives."
+                    "justification": "Phrases like 'practical and business-minded', 'deliver solutions that boost user experience and drive business value', 'fastest, most robust solution that meets our needs, prioritizing what works best for the business', 'align with business goals and deliver real value', and 'building the future of automated e-commerce' indicate a strong focus on understanding and aligning technical work with business objectives.",
+                    "phrase": "practical and business-minded"
                 },
                 {
-                    "category": "TASK4: Software Development",
-                    "phrases": [
-                        "Full stack software engineer",
-                        "Fullstack Developer",
-                        "Lead the technical direction of our Shopify Plus e-commerce platform",
-                        "combining hands-on development",
-                        "Lead the development and optimization of our Shopify Plus platform",
-                        "ensuring a seamless integration with multiple systems",
-                        "Write code",
-                        "Balance hands-on coding with leadership",
-                        "E-commerce Development",
-                        "React apps",
-                        "Google Cloud for data lake (bigquery and dataform) and cloud functions",
-                        "N8N for automation"
-                    ],
-                    "justification": "The description explicitly mentions 'Full stack software engineer' and 'Fullstack Developer', and details responsibilities like leading development, writing code, integrating systems, and working with specific web technologies and cloud functions, all of which fall under traditional software development."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Phrases like 'deliver solutions that boost user experience and drive business value' highlight the need to connect technical work to tangible business outcomes.",
+                    "phrase": "deliver solutions that boost user experience and drive business value"
                 },
                 {
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Improve code reliability, CI/CD pipelines, ensure robust QA, and manage code reviews using GitLab/GitHub"
-                    ],
-                    "justification": "This phrase directly mentions CI/CD pipelines, QA, and code reviews, which are core components of operations engineering and MLOps practices, albeit in a general software development context here."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The emphasis on 'prioritizing what works best for the business' shows a clear alignment with business needs over purely technical solutions.",
+                    "phrase": "prioritizing what works best for the business"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'align with business goals and deliver real value' directly links development tasks to strategic business objectives.",
+                    "phrase": "align with business goals and deliver real value"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The concluding sentence 'building the future of automated e-commerce' points towards a strategic, business-oriented vision for the role.",
+                    "phrase": "building the future of automated e-commerce"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The mention of 'Google Cloud for data lake (bigquery and dataform)' indicates involvement in data infrastructure and processing pipelines.",
+                    "phrase": "Google Cloud for data lake (bigquery and dataform)"
                 },
                 {
                     "category": "TASK3: Modeling",
-                    "phrases": [
-                        "exploring integrations with Dify for LLM (Large Language Model) capabilities"
-                    ],
-                    "justification": "The mention of 'exploring integrations with Dify for LLM capabilities' suggests an interest in leveraging generative models, which falls under the modeling category, though it's framed as exploration rather than core development."
-                }
-            ],
-            "technologies": [
-                {
-                    "category": "TECH1: Programming Languages",
-                    "technologies": [
-                        "JS",
-                        "HTML",
-                        "CSS"
-                    ]
+                    "justification": "The mention of 'exploring integrations with Dify for LLM (Large Language Model) capabilities' suggests an interest in generative modeling, although it's exploratory rather than a core requirement.",
+                    "phrase": "exploring integrations with Dify for LLM (Large Language Model) capabilities"
                 },
                 {
-                    "category": "TECH2: Cloud Platforms & Services",
-                    "technologies": [
-                        "Shopify Plus",
-                        "Google Cloud",
-                        "Dify"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The core of the job description revolves around 'Full stack software engineer - Ecommerce (Shopify Plus / React)', 'Lead the technical direction of our Shopify Plus e-commerce platform', and 'hands-on development'.",
+                    "phrase": "Full stack software engineer - Ecommerce (Shopify Plus / React)"
                 },
                 {
-                    "category": "TECH3: LLM / Generative Models",
-                    "technologies": [
-                        "LLM"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The responsibility to 'Lead the development and optimization of our Shopify Plus platform' is a direct software development task.",
+                    "phrase": "Lead the development and optimization of our Shopify Plus platform"
                 },
                 {
-                    "category": "TECH4: LLM Frameworks & Libraries",
-                    "technologies": [
-                        "Dify"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Write code while managing a small team' clearly indicates hands-on software development.",
+                    "phrase": "Write code"
                 },
                 {
-                    "category": "TECH6: MLOps & Data Pipelines",
-                    "technologies": [
-                        "CI/CD pipelines",
-                        "GitLab",
-                        "GitHub",
-                        "N8N",
-                        "dataform"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The mention of 'React apps (algolia)' points to building user-facing applications using specific frameworks.",
+                    "phrase": "React apps (algolia)"
                 },
                 {
-                    "category": "TECH7: Data Visualization",
-                    "technologies": []
+                    "category": "TASK4: Software Development",
+                    "justification": "The mention of 'Google Cloud for data lake (bigquery and dataform) and cloud functions' implies development work on cloud-based services.",
+                    "phrase": "Google Cloud for data lake (bigquery and dataform) and cloud functions"
                 },
                 {
-                    "category": "TECH8: Data Processing",
-                    "technologies": [
-                        "React"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Improve code reliability, CI/CD pipelines, ensure robust QA' directly relates to operational aspects of software development and deployment.",
+                    "phrase": "Improve code reliability, CI/CD pipelines, ensure robust QA"
                 },
                 {
-                    "category": "TECH9: Data Storage",
-                    "technologies": [
-                        "bigquery"
-                    ]
-                },
-                {
-                    "category": "TECH10: Data Modeling",
-                    "technologies": []
-                },
-                {
-                    "category": "TECH11: Data Analysis",
-                    "technologies": [
-                        "GA4",
-                        "GTM server-side"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of 'N8N for automation' suggests involvement in workflow automation and operational processes.",
+                    "phrase": "N8N for automation"
                 }
             ],
             "soft_skills": [
                 {
                     "category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "collaborate closely with our small team",
-                        "Work with team members",
-                        "Team Collaboration",
-                        "regularly hold team gatherings, both virtual and in-person, to ensure everyone feels connected and aligned"
-                    ]
+                    "phrase": "collaborate closely with our small team"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Work with team members"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Team Collaboration"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "ensure everyone feels connected and aligned"
                 },
                 {
                     "category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "exploring integrations with Dify for LLM (Large Language Model) capabilities",
-                        "continuous learning and professional growth opportunities"
-                    ]
+                    "phrase": "continuous learning and professional growth opportunities"
                 },
                 {
                     "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "practical and business-minded",
-                        "smart decision-making",
-                        "fastest, most robust solution that meets our needs, prioritizing what works best for the business",
-                        "Balance hands-on coding with leadership to keep projects on track",
-                        "prioritize development tasks that align with business goals and deliver real value"
-                    ]
+                    "phrase": "practical and business-minded"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "smart decision-making"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "fastest, most robust solution that meets our needs"
                 },
                 {
                     "category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "Lead the technical direction",
-                        "Lead Development & Team",
-                        "Product ownership",
-                        "High Responsibility & Growth",
-                        "take full responsibility for the quality and success of one's work"
-                    ]
+                    "phrase": "lead the technical direction"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Lead Development & Team"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Product ownership"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "High Responsibility & Growth"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "take initiative"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "JS"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "HTML"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "CSS"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Liquid"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "Dify"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLM (Large Language Model)"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Google Cloud"
+                },
+                {
+                    "category": "TECH11: Data Analysis",
+                    "phrase": "bigquery"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "dataform"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "cloud functions"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "N8N"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "algolia"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "React"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Shopify Plus"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "CI/CD pipelines"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "ODOO V16"
                 }
             ]
         }

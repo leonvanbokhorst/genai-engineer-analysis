@@ -28,90 +28,82 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 5,
-            "rationale": "The job description heavily emphasizes building applications and user-facing systems powered by Generative AI and NLP. Core responsibilities include designing user workflows, productizing experimental subprocesses into SaaS, and working with AI agents, which are hallmarks of a GenAI Engineer."
+            "rationale": "The job description heavily emphasizes building applications and agents powered by Generative AI and NLP, including creating user workflows, interactions, and productizing experimental subprocesses into a SaaS codebase. The core responsibilities align with designing, developing, and deploying generative AI solutions, which is the primary focus of a GenAI Engineer. While there's mention of ML tasks and MLOps, the context points towards applying these within the generative AI domain for user-facing products."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "Design and run experiments & evaluations on various Machine Learning tasks (Generative AI, classic NLP or other)",
-                        "create or adapt functionality"
-                    ],
-                    "justification": "These phrases directly relate to the core process of creating, training, or adapting machine learning models, specifically mentioning Generative AI and NLP tasks."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Design and run experiments & evaluations on various Machine Learning tasks (Generative AI, classic NLP or other)' directly relates to the core process of creating, training, and evaluating models, with a specific emphasis on Generative AI and NLP.",
+                    "phrase": "Design and run experiments & evaluations on various Machine Learning tasks (Generative AI, classic NLP or other)"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "building a Co-Pilot for commercial real estate (CRE) professionals",
-                        "Reavant's AI Agents can help real estate professionals create, parse, interpret, and interrogate documents",
-                        "Design and build a user workflow, interaction, or widget",
-                        "Productize i.e., translate an experimental subprocess from a notebook to the SaaS code base",
-                        "(Re)architect the solution at all levels and morph it into a better version of itself",
-                        "Adhere to modern coding standards, write unit tests where necessary"
-                    ],
-                    "justification": "These phrases describe the development of user-facing applications, integration of AI features into software, building user interfaces, and general software engineering practices necessary for production systems."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Design and build a user workflow, interaction, or widget' clearly indicates the development of user-facing software components and interfaces.",
+                    "phrase": "Design and build a user workflow, interaction, or widget"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Design and engineer an offline or online MLOps workflow"
-                    ],
-                    "justification": "This phrase explicitly mentions the design and engineering of MLOps workflows, which is a key component of deploying and maintaining AI models in production."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Design and engineer an offline or online MLOps workflow' directly maps to the category of building and managing infrastructure for deploying and maintaining models.",
+                    "phrase": "Design and engineer an offline or online MLOps workflow"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "building a Co-Pilot for commercial real estate (CRE) professionals",
-                        "help real estate professionals create, parse, interpret, and interrogate documents",
-                        "act autonomously to perform otherwise manually time-consuming tasks"
-                    ],
-                    "justification": "These phrases indicate an understanding of the business domain (commercial real estate) and how AI can be applied to solve specific business problems and automate tasks for professionals."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Productize i.e., translate an experimental subprocess from a notebook to the SaaS code base' describes the process of taking research outputs and integrating them into a production software system.",
+                    "phrase": "Productize i.e., translate an experimental subprocess from a notebook to the SaaS code base"
                 },
                 {
-                    "task_name": "Learning & Adaptability",
-                    "phrases": [
-                        "Follow the newest technologies and smartly pick the most promising and relevant ones",
-                        "shipping imperfect functionality and learning from its usage by customers is more important than producing perfection"
-                    ],
-                    "justification": "These phrases highlight the need to stay updated with new technologies and adapt to learnings from customer usage, reflecting a dynamic and evolving field."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "phrase": "Generative AI"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase '(Re)architect the solution at all levels and morph it into a better version of itself' implies significant software engineering effort in improving and restructuring existing systems.",
+                    "phrase": "(Re)architect the solution at all levels and morph it into a better version of itself"
                 },
                 {
-                    "tech_name": "TECH3: LLM / Generative Models",
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Adhere to modern coding standards, write unit tests where necessary' are fundamental practices in software development for ensuring code quality and maintainability.",
+                    "phrase": "Adhere to modern coding standards, write unit tests where necessary"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'create, parse, interpret, and interrogate documents' implies processing and understanding data from documents, which falls under data engineering tasks, especially in the context of NLP.",
+                    "phrase": "create, parse, interpret, and interrogate documents"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'AI Agents' and 'Generative AI' directly points to the use and development of generative models and agentic systems.",
                     "phrase": "AI Agents"
                 },
                 {
-                    "tech_name": "TECH1: Programming Languages",
-                    "phrase": "coding standards"
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'classic NLP' indicates work with traditional natural language processing models.",
+                    "phrase": "classic NLP"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Follow the newest technologies and smartly pick the most promising and relevant ones."
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "shipping imperfect functionality and learning from its usage by customers is more important than producing perfection."
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
                     "phrase": "As our first technical hire, you will have a significant and visible impact on our product, service, and company."
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "create or adapt functionality with the right balance of quality, performance, speed, and usability"
-                },
-                {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrase": "Follow the newest technologies and smartly pick the most promising and relevant ones"
-                },
-                {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "shipping imperfect functionality and learning from its usage by customers is more important than producing perfection"
-                },
-                {
-                    "skill_name": "SKILL1: Communication & Collaboration",
+                    "category": "SKILL1: Communication & Collaboration",
                     "phrase": "Working closely with our hands-on CTO"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Generative AI"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "NLP"
                 }
             ]
         }

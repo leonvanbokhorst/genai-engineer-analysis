@@ -28,80 +28,88 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description emphasizes developing generative AI solutions with LLMs and integrating image and language models into business processes. It also highlights building production-grade solutions and working with specific GenAI technologies like Azure AI, OpenAI, and Databricks, aligning well with the GenAI Engineer profile."
+            "rationale": "The job description emphasizes developing generative AI solutions with LLMs, integrating image and language models, and building solutions that run in production environments. It mentions specific generative AI technologies like Azure AI, OpenAI, and ML Studio, and highlights the integration of these models into business processes, aligning with the core responsibilities of a GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK3: Modeling",
-                    "phrase": "ontwikkelen van generatieve AI-oplossingen met LLM's",
-                    "justification": "This phrase directly refers to developing generative AI solutions using Large Language Models (LLMs), which is a core aspect of the Modeling task in the context of GenAI."
+                    "category": "TASK3",
+                    "justification": "The phrase 'automatiseren van besluitvorming met machine learning' directly refers to the creation and application of machine learning models for decision automation.",
+                    "phrase": "automatiseren van besluitvorming met machine learning"
                 },
                 {
-                    "task": "TASK3: Modeling",
-                    "phrase": "integreren van beeld- en taalmodellen in bedrijfsprocessen",
-                    "justification": "This indicates the adaptation and application of AI models (image and language) for specific business tasks, falling under the Modeling category."
+                    "category": "TASK3",
+                    "justification": "The phrase 'ontwikkelen van generatieve AI-oplossingen met LLM's' explicitly mentions the development of generative AI solutions using Large Language Models, which is a core aspect of the Modeling task category.",
+                    "phrase": "ontwikkelen van generatieve AI-oplossingen met LLM's"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "bouwt aan oplossingen die niet in de la belanden, maar daadwerkelijk draaien in productieomgevingen",
-                    "justification": "This implies building and deploying functional software solutions that are production-ready, which is a key part of Software Development."
+                    "category": "TASK3",
+                    "justification": "The phrase 'integreren van beeld- en taalmodellen in bedrijfsprocessen' indicates the application and integration of generative models (image and language) into business contexts, falling under the Modeling category.",
+                    "phrase": "integreren van beeld- en taalmodellen in bedrijfsprocessen"
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrase": "da daadwerkelijk draaien in productieomgevingen",
-                    "justification": "The emphasis on solutions 'actually running in production environments' points to the operational aspects of deploying and maintaining AI systems."
+                    "category": "TASK4",
+                    "justification": "The phrase 'schakelt moeiteloos tussen techniek en toepassing' suggests the ability to bridge the gap between technical AI development and its practical application in business, which is a key aspect of Software Development for AI solutions.",
+                    "phrase": "schakelt moeiteloos tussen techniek en toepassing"
                 },
                 {
-                    "task": "TASK2: Data Engineering",
-                    "phrase": "Samen met data engineers",
-                    "justification": "While not directly performing data engineering, the mention of working alongside data engineers suggests an understanding and integration with data pipelines and infrastructure."
+                    "category": "TASK4",
+                    "justification": "The phrase 'bouwt aan oplossingen die niet in de la belanden, maar daadwerkelijk draaien in productieomgevingen' implies building and deploying functional software solutions, a core part of Software Development.",
+                    "phrase": "bouwt aan oplossingen die niet in de la belanden, maar daadwerkelijk draaien in productieomgevingen"
                 },
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrase": "maak je AI praktisch én schaalbaar. Je werkt aan innovatieve oplossingen met een bewezen waarde voor onze klanten.",
-                    "justification": "This phrase highlights the goal of making AI practical and scalable, focusing on solutions with proven value for clients, indicating an understanding of business needs and impact."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "TECH3: LLM / Generative Models",
-                    "phrase": "LLM's"
+                    "category": "TASK5",
+                    "justification": "The phrase 'je werkt met Azure AI, OpenAI, ML Studio en Databricks' mentions specific platforms and services used for AI development and deployment, which are often part of MLOps and production environments.",
+                    "phrase": "je werkt met Azure AI, OpenAI, ML Studio en Databricks"
                 },
                 {
-                    "technology": "TECH2: Cloud Platforms & Services",
-                    "phrase": "Azure AI"
-                },
-                {
-                    "technology": "TECH2: Cloud Platforms & Services",
-                    "phrase": "OpenAI"
-                },
-                {
-                    "technology": "TECH2: Cloud Platforms & Services",
-                    "phrase": "Databricks"
-                },
-                {
-                    "technology": "TECH10: Data Modeling",
-                    "phrase": "machine learning"
+                    "category": "TASK2",
+                    "justification": "The phrase 'je weet hoe je AI inricht als onderdeel van een schaalbare data-architectuur' indicates the need to design and integrate AI within a broader data infrastructure, which involves data engineering principles for scalability and architecture.",
+                    "phrase": "je weet hoe je AI inricht als onderdeel van een schaalbare data-architectuur"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "maak je AI praktisch én schaalbaar. Je werkt aan innovatieve oplossingen met een bewezen waarde voor onze klanten."
+                    "category": "SKILL1",
+                    "phrase": "schakelt moeiteloos tussen techniek en toepassing"
                 },
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrase": "Samen met data engineers, data scientists en cloudspecialisten"
+                    "category": "SKILL5",
+                    "phrase": "maakt AI praktisch én schaalbaar"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "phrase": "Je schakelt moeiteloos tussen techniek en toepassing."
+                    "category": "SKILL5",
+                    "phrase": "werkt aan innovatieve oplossingen met een bewezen waarde"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "generatieve AI"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrase": "innovatieve oplossingen"
+                    "category": "TECH3",
+                    "phrase": "LLM's"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "beeld- en taalmodellen"
+                },
+                {
+                    "category": "TECH2",
+                    "phrase": "Azure AI"
+                },
+                {
+                    "category": "TECH2",
+                    "phrase": "OpenAI"
+                },
+                {
+                    "category": "TECH2",
+                    "phrase": "ML Studio"
+                },
+                {
+                    "category": "TECH2",
+                    "phrase": "Databricks"
                 }
             ]
         }

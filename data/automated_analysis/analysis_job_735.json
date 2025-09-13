@@ -27,124 +27,110 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on Azure infrastructure, CI/CD, and scripting for system management, aligning with traditional DevOps roles. While it mentions exploring GenAI and LLMs, these are not core responsibilities or areas of deep technical involvement, making it not a primary GenAI or ML Engineer role."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on Azure Systems Engineering, Infrastructure as Code, CI/CD pipelines, and scripting for system management. While it mentions an interest in exploring GenAI, LLM, and Copilots, these are framed as areas for future exploration rather than core responsibilities. The primary duties align with traditional cloud infrastructure and DevOps roles, not with the development, fine-tuning, or deployment of generative AI models or applications, which are central to the GenAI Engineer profile. Therefore, it falls under the 'Ambiguous' category as it's a technical role but not directly focused on AI development."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "Operations Engineering (MLOps)",
-                    "phrase": "Lead the implementation and management of Azure cloud services with a focus on Infrastructure as Code (IaC)",
-                    "justification": "This phrase directly relates to managing and implementing cloud infrastructure, which is a core component of MLOps for deploying and maintaining systems."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The job description emphasizes developing and maintaining CI/CD pipelines, managing cloud services, and ensuring system reliability and scalability, which are core aspects of MLOps and general DevOps.",
+                    "phrase": "Develop and maintain continuous integration and continuous delivery (CI/CD) pipelines"
                 },
                 {
-                    "task": "Operations Engineering (MLOps)",
-                    "phrase": "Develop and maintain continuous integration and continuous delivery (CI/CD) pipelines using tools such as Azure DevOps, GitHub or GitLab",
-                    "justification": "CI/CD pipelines are fundamental to MLOps for automating the deployment and management of software and infrastructure."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Managing and maintaining cloud infrastructure, including cost-effectiveness, scalability, and resilience, is a key responsibility in operations engineering.",
+                    "phrase": "Configure, monitor and maintain cost-effective, scalable and resilient Microsoft Azure solutions"
                 },
                 {
-                    "task": "Operations Engineering (MLOps)",
-                    "phrase": "Configure, monitor and maintain cost-effective, scalable and resilient Microsoft Azure solutions",
-                    "justification": "Monitoring, maintaining, and ensuring the scalability and resilience of cloud solutions are key aspects of operations engineering, particularly in an MLOps context."
+                    "category": "TASK4: Software Development",
+                    "justification": "Writing and maintaining reusable code and managing configurations through scripting languages is a fundamental software development task, particularly in system administration and automation.",
+                    "phrase": "Write and maintain high-quality, reusable code and manage configurations through scripting languages such as Python, Bash or PowerShell"
                 },
                 {
-                    "task": "Operations Engineering (MLOps)",
-                    "phrase": "Provide technical direction for DevOps initiatives across different solution groups and third-party vendors",
-                    "justification": "This explicitly mentions DevOps initiatives and providing technical direction, which aligns with the operational aspects of managing systems and pipelines."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Ensuring compliance with client security, quality, scalability, resiliency and regulatory standards requires understanding business and client requirements.",
+                    "phrase": "Ensure compliance with client security, quality, scalability, resiliency and regulatory standards"
                 },
                 {
-                    "task": "Software Development",
-                    "phrase": "Write and maintain high-quality, reusable code and manage configurations through scripting languages such as Python, Bash or PowerShell",
-                    "justification": "Writing and maintaining code, especially for configuration management and scripting, falls under software development practices, even if it's for infrastructure."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Creating technical support documentation and guidance materials requires understanding the system and how it will be used by others, aligning with business needs for support and knowledge sharing.",
+                    "phrase": "Create clear, comprehensive technical support documentation, reusable assets and guidance materials"
                 },
                 {
-                    "task": "Business Understanding",
-                    "phrase": "Ensure compliance with client security, quality, scalability, resiliency and regulatory standards",
-                    "justification": "Understanding and ensuring adherence to client standards and regulatory requirements is a key aspect of aligning technical solutions with business needs and constraints."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Providing technical direction for DevOps initiatives and collaborating with vendors is a leadership role within operations and infrastructure management.",
+                    "phrase": "Provide technical direction for DevOps initiatives across different solution groups and third-party vendors"
                 },
                 {
-                    "task": "Business Understanding",
-                    "phrase": "Create clear, comprehensive technical support documentation, reusable assets and guidance materials",
-                    "justification": "Creating documentation and guidance materials requires understanding the technical solution and how it serves users or other systems, linking to business needs for support and knowledge sharing."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "Collaborating effectively with cross-functional teams to achieve project goals and resolve issues is a direct indicator of communication and collaboration skills.",
+                    "phrase": "Collaborate effectively with cross-functional teams to achieve project goals and resolve issues"
                 },
                 {
-                    "task": "Learning & Adaptability",
-                    "phrase": "Demonstrate a proactive mindset and a strong desire to learn and explore new technologies, including GenAI, LLM and Copilots",
-                    "justification": "This directly describes the soft skill of continuous learning and adaptability to new technologies."
-                },
-                {
-                    "task": "Communication & Collaboration",
-                    "phrase": "Collaborate effectively with cross-functional teams to achieve project goals and resolve issues",
-                    "justification": "This phrase explicitly mentions collaboration with teams to achieve goals, which is a core aspect of communication and collaboration."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "TECH2: Cloud Platforms & Services",
-                    "name": "Azure"
-                },
-                {
-                    "technology": "TECH2: Cloud Platforms & Services",
-                    "name": "Azure DevOps"
-                },
-                {
-                    "technology": "TECH2: Cloud Platforms & Services",
-                    "name": "GitHub"
-                },
-                {
-                    "technology": "TECH2: Cloud Platforms & Services",
-                    "name": "GitLab"
-                },
-                {
-                    "technology": "TECH1: Programming Languages",
-                    "name": "Python"
-                },
-                {
-                    "technology": "TECH1: Programming Languages",
-                    "name": "Bash"
-                },
-                {
-                    "technology": "TECH1: Programming Languages",
-                    "name": "PowerShell"
-                },
-                {
-                    "technology": "TECH3: LLM / Generative Models",
-                    "name": "GenAI"
-                },
-                {
-                    "technology": "TECH3: LLM / Generative Models",
-                    "name": "LLM"
-                },
-                {
-                    "technology": "TECH3: LLM / Generative Models",
-                    "name": "Copilots"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "justification": "The phrase explicitly mentions a desire to learn and explore new technologies, including GenAI, LLM, and Copilots.",
+                    "phrase": "Demonstrate a proactive mindset and a strong desire to learn and explore new technologies, including GenAI, LLM and Copilots"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
+                    "category": "SKILL2: Learning & Adaptability",
                     "phrase": "Demonstrate a proactive mindset and a strong desire to learn and explore new technologies, including GenAI, LLM and Copilots"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrase": "Lead the implementation and management of Azure cloud services with a focus on Infrastructure as Code (IaC)"
-                },
-                {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrase": "Provide technical direction for DevOps initiatives across different solution groups and third-party vendors"
-                },
-                {
-                    "skill": "SKILL1: Communication & Collaboration",
+                    "category": "SKILL1: Communication & Collaboration",
                     "phrase": "Collaborate effectively with cross-functional teams to achieve project goals and resolve issues"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "Ensure compliance with client security, quality, scalability, resiliency and regulatory standards"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Lead the implementation and management of Azure cloud services"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "Create clear, comprehensive technical support documentation, reusable assets and guidance materials"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Provide technical direction for DevOps initiatives"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Azure DevOps"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "GitHub"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "GitLab"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Bash"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "PowerShell"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "GenAI"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLM"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Copilots"
                 }
             ]
         }

@@ -26,69 +26,58 @@
         "full_text": "Application Support Engineer, Trilogy (Remote) - $60,000/year USD\n\n* AI-Augmented Customer Resolutions: Analyze complex tickets escalated by AI systems, apply human expertise to areas where AI falls short, and then close the gap by improving the AI system\n     * AI Training and Improvement: Review AI-generated solutions and provide detailed feedback and participate in AI model fine-tuning sessions\n     * Cutting-Edge AI Integration: Prototype and test new AI tools and methodologies\n\n   What you will NOT be doing\n\n     * Taking two whole months to get up to speed; you will be expected to ramp up one several products within the first month (we are aware this is aggressive)\n     * Relying on your managers for help; if you are not adept at unblocking yourself, you will likely struggle in this role, * Integrate technical human expertise and AI capabilities to deliver exceptional customer support, focusing on complex issues that AI cannot yet fully resolve"
     },
     "analysis": {
-        "job_profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The role focuses on using and improving existing AI systems for customer support rather than developing or engineering new AI models or applications. While it involves interacting with AI and providing feedback for improvement, it lacks the core responsibilities of an ML or GenAI Engineer, such as algorithm development, model training, or building production-grade AI systems."
+        "profile_classification": {
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on supporting and improving existing AI systems by analyzing escalated tickets and providing feedback for fine-tuning. While it involves interacting with AI and improving its performance, it does not involve the core development, research, or deployment of AI models or applications from scratch. The primary focus is on customer support and enhancing AI capabilities through human oversight and feedback, rather than building AI-driven products or solutions. This aligns more with using AI tools to enhance productivity in a support role rather than being a core AI development role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "improve the AI system",
-                        "AI model fine-tuning sessions"
-                    ],
-                    "justification": "These phrases indicate involvement in refining or adjusting existing AI models, which falls under the broader category of modeling, even if it's not from scratch."
+                    "category": "TASK3",
+                    "justification": "The phrase 'participate in AI model fine-tuning sessions' directly relates to adapting or improving machine learning models.",
+                    "phrase": "participate in AI model fine-tuning sessions"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "Prototype and test new AI tools and methodologies"
-                    ],
-                    "justification": "Prototyping and testing new tools, while related to AI, is a software development activity focused on integration and evaluation rather than core AI model creation."
+                    "category": "TASK4",
+                    "justification": "The phrase 'Prototype and test new AI tools and methodologies' involves developing and evaluating new technical approaches, which falls under software development in the context of integrating AI.",
+                    "phrase": "Prototype and test new AI tools and methodologies"
                 },
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "Analyze complex tickets escalated by AI systems",
-                        "apply human expertise to areas where AI falls short",
-                        "Integrate technical human expertise and AI capabilities to deliver exceptional customer support"
-                    ],
-                    "justification": "These phrases highlight the need to understand customer issues, how AI performs, and how to bridge the gap to provide effective support, indicating a business/customer-centric focus."
+                    "category": "TASK4",
+                    "justification": "The phrase 'Integrate technical human expertise and AI capabilities to deliver exceptional customer support' implies building or enhancing systems that combine human and AI elements for a specific function, which is a form of software development.",
+                    "phrase": "Integrate technical human expertise and AI capabilities to deliver exceptional customer support"
+                },
+                {
+                    "category": "TASK3",
+                    "justification": "The phrase 'improving the AI system' suggests a direct involvement in enhancing the performance or capabilities of an AI model or system.",
+                    "phrase": "improving the AI system"
+                },
+                {
+                    "category": "TASK1",
+                    "justification": "The phrase 'Analyze complex tickets escalated by AI systems' indicates understanding and working within the context of customer issues and how AI is applied to them, which relates to business understanding in a support context.",
+                    "phrase": "Analyze complex tickets escalated by AI systems"
+                },
+                {
+                    "category": "TASK1",
+                    "justification": "The phrase 'Review AI-generated solutions and provide detailed feedback' involves understanding the output of AI in relation to customer needs and providing input for improvement, linking to business understanding and quality assurance.",
+                    "phrase": "Review AI-generated solutions and provide detailed feedback"
                 }
             ],
-            "technologies": [],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "ramp up one several products within the first month (we are aware this is aggressive)"
-                    ],
-                    "justification": "The description explicitly mentions an aggressive ramp-up period, requiring the candidate to learn and adapt quickly to multiple products."
+                    "category": "SKILL2",
+                    "phrase": "ramp up one several products within the first month"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Analyze complex tickets escalated by AI systems",
-                        "apply human expertise to areas where AI falls short",
-                        "close the gap by improving the AI system",
-                        "Review AI-generated solutions and provide detailed feedback",
-                        "Prototype and test new AI tools and methodologies",
-                        "unblocking yourself"
-                    ],
-                    "justification": "The role requires analyzing complex issues, finding solutions where AI fails, improving systems, and self-sufficiency in problem-solving."
+                    "category": "SKILL3",
+                    "phrase": "adept at unblocking yourself"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "improving the AI system",
-                        "AI model fine-tuning sessions",
-                        "Prototype and test new AI tools and methodologies"
-                    ],
-                    "justification": "The job involves actively improving AI systems and testing new methodologies, suggesting a proactive and ownership-oriented approach."
+                    "category": "SKILL5",
+                    "phrase": "unblocking yourself"
                 }
-            ]
+            ],
+            "technologies": []
         }
     }
 }

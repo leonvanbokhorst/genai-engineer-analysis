@@ -27,72 +27,76 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional back-end development, API design, and microservices architecture using ASP.NET Core and Python. While it mentions Azure and CI/CD, there is no indication of AI, machine learning, or generative models, making it not relevant to the GenAI Engineer or ML Engineer profiles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on traditional back-end development using ASP.NET Core and Python, RESTful API design, microservices, and cloud deployment (Azure, GitHub Actions). While it mentions collaboration and CI/CD, there is no mention of AI, machine learning, generative models, or related technologies, making it a non-AI technical role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "Ontwikkelen, implementeren en onderhouden van schaalbare en veilige back-end oplossingen met behulp van ASP.NET Core en Python.",
-                        "Ontwerpen en bouwen van RESTful API's voor integratie met verschillende front-end systemen.",
-                        "Samenwerken met andere ontwikkelaars en architecten om oplossingen te ontwerpen volgens SOLID- en MVC-principes.",
-                        "Ondersteunen van cross-functionele teams bij het integreren van back-end diensten in een microservice architectuur."
-                    ],
-                    "justification": "These phrases describe the core activities of building and maintaining software systems, designing APIs, adhering to architectural principles, and integrating services, which are all hallmarks of traditional software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description explicitly mentions developing, implementing, and maintaining back-end solutions, designing and building RESTful APIs, and working with microservice architecture, which are core software development activities.",
+                    "phrase": "Ontwikkelen, implementeren en onderhouden van schaalbare en veilige back-end oplossingen"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Werken met Azure voor deployment, resource management en schaalbaarheid.",
-                        "Bijdragen aan CI/CD-processen met GitHub Actions en versiebeheer met GitHub."
-                    ],
-                    "justification": "The mention of Azure for deployment and resource management, along with CI/CD processes using GitHub Actions, directly relates to the operational aspects of deploying and managing software, which aligns with the broader principles of MLOps, even if not AI-specific."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "ASP.NET Core",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK4: Software Development",
+                    "justification": "Designing and building APIs is a fundamental software development task for enabling system integration.",
+                    "phrase": "Ontwerpen en bouwen van RESTful API's voor integratie met verschillende front-end systemen"
                 },
                 {
-                    "technology": "Python",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK4: Software Development",
+                    "justification": "Collaboration with other developers and architects on solution design, adhering to architectural principles like SOLID and MVC, falls under software development practices.",
+                    "phrase": "Samenwerken met andere ontwikkelaars en architecten om oplossingen te ontwerpen volgens SOLID- en MVC-principes"
                 },
                 {
-                    "technology": "Azure",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Working with Azure for deployment, resource management, and scalability, along with CI/CD processes using GitHub Actions, are operational aspects of software deployment and management.",
+                    "phrase": "Werken met Azure voor deployment, resource management en schaalbaarheid"
                 },
                 {
-                    "technology": "GitHub Actions",
-                    "category": "TECH6: MLOps & Data Pipelines"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Contributing to CI/CD processes and version control are key components of modern software operations and deployment pipelines.",
+                    "phrase": "Bijdragen aan CI/CD-processen met GitHub Actions en versiebeheer met GitHub"
                 },
                 {
-                    "technology": "GitHub",
-                    "category": "TECH6: MLOps & Data Pipelines"
+                    "category": "TASK4: Software Development",
+                    "justification": "Supporting cross-functional teams in integrating back-end services within a microservice architecture involves software integration and development support.",
+                    "phrase": "Ondersteunen van cross-functionele teams bij het integreren van back-end diensten in een microservice architectuur"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Samenwerken met andere ontwikkelaars en architecten",
-                        "Ondersteunen van cross-functionele teams"
-                    ],
-                    "justification": "These phrases indicate the need to work effectively with other team members and departments."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Samenwerken met andere ontwikkelaars en architecten"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Ontwikkelen, implementeren en onderhouden van schaalbare en veilige back-end oplossingen",
-                        "Ontwerpen en bouwen van RESTful API's",
-                        "oplossingen te ontwerpen volgens SOLID- en MVC-principes",
-                        "resource management en schaalbaarheid",
-                        "integreren van back-end diensten in een microservice architectuur"
-                    ],
-                    "justification": "The job requires designing, building, and maintaining complex systems, adhering to principles, and ensuring scalability and integration, which implies problem-solving and a pragmatic approach to development."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Ondersteunen van cross-functionele teams"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "ontwikkelen, implementeren en onderhouden van schaalbare en veilige back-end oplossingen"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "ASP.NET Core"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "GitHub Actions"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "GitHub"
                 }
             ]
         }

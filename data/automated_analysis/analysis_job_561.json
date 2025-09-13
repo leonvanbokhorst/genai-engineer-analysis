@@ -28,119 +28,82 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description emphasizes building and operationalizing predictive models and statistical algorithms to uncover patterns and generate business value. While generative AI is mentioned, the core focus remains on traditional machine learning engineering tasks like model development, deployment, and MLOps."
+            "rationale": "The job description emphasizes building and operationalizing end-to-end solutions using statistical models and predictive algorithms, with a focus on production-grade systems beyond PoCs. While generative AI is mentioned, the core focus remains on traditional ML tasks like data mining, deep learning, and predictive modeling, aligning with the definition of an ML Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "verwerken van complexe data door middel van machine learning, data mining en deep learning technologieën",
-                        "statistische modellen en voorspellende algoritmes inzetten",
-                        "PoC's maar ook robuuste oplossingen die in productie worden gebruikt",
-                        "toepassen van machine learning en AI-technieken"
-                    ],
-                    "justification": "These phrases directly relate to the creation, training, and application of machine learning models, including predictive algorithms and deep learning techniques, for uncovering patterns and generating business value."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'statistische modellen en voorspellende algoritmes' directly refers to the creation and application of models for prediction and pattern discovery.",
+                    "phrase": "statistische modellen en voorspellende algoritmes"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "ontwikkel je end-tot-end oplossingen om je werk te operationaliseren",
-                        "robuuste oplossingen die in productie worden gebruikt",
-                        "Hoe kunnen we ervoor zorgen dat onze modellen efficiënt werken blijven doorontwikkelen?"
-                    ],
-                    "justification": "The description highlights the need to operationalize solutions, deploy robust systems into production, and ensure models continue to work efficiently, which are core aspects of MLOps."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'deep learning technologieën' indicates the use and development of deep learning models.",
+                    "phrase": "deep learning technologieën"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "helpt onze klanten vertrouwd te maken met het verwerken van complexe data",
-                        "verborgen patronen te onthullen",
-                        "Hoe zorgen we ervoor dat onze modellen businesswaarde genereren?"
-                    ],
-                    "justification": "The role involves understanding client needs regarding data processing, uncovering insights (patterns), and ensuring the models generate business value, indicating a need for business context."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'ontwikkel je end-tot-end oplossingen om je werk te operationaliseren' implies building complete solutions that go beyond just model development, including integration and deployment aspects.",
+                    "phrase": "ontwikkel je end-tot-end oplossingen om je werk te operationaliseren"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "ontwikkel je end-tot-end oplossingen"
-                    ],
-                    "justification": "The phrase 'develop end-to-end solutions' implies the software development aspect required to bring models into a functional state, though the primary focus is on the ML aspects of these solutions."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'robuuste oplossingen die in productie worden gebruikt' highlights the need for production-grade systems, which is a core aspect of MLOps.",
+                    "phrase": "robuuste oplossingen die in productie worden gebruikt"
                 },
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "verwerken van complexe data"
-                    ],
-                    "justification": "While not explicitly detailed, processing complex data is a foundational step that often involves data engineering practices."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH10: Data Modeling",
-                    "phrases": [
-                        "machine learning",
-                        "data mining",
-                        "deep learning technologieën",
-                        "statistische modellen",
-                        "voorspellende algoritmes"
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The question 'Hoe zorgen we ervoor dat onze modellen businesswaarde genereren?' directly addresses the need to align technical solutions with business goals and demonstrate value.",
+                    "phrase": "Hoe zorgen we ervoor dat onze modellen businesswaarde genereren?"
                 },
                 {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "phrases": [
-                        "generative AI"
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'generative AI' indicates the use of generative models, although the primary focus of the role appears to be broader ML.",
+                    "phrase": "generative AI"
                 },
                 {
-                    "tech_name": "TECH1: Programming Languages",
-                    "phrases": [
-                        "Python"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'PoC's' refers to Proofs of Concept, which are often the initial stages of software development for AI solutions.",
+                    "phrase": "PoC's"
                 },
                 {
-                    "tech_name": "TECH6: MLOps & Data Pipelines",
-                    "phrases": [
-                        "operationaliseren",
-                        "productie"
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'verwerken van complexe data' implies tasks related to handling and preparing data for machine learning models.",
+                    "phrase": "verwerken van complexe data"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'data mining' refers to the process of discovering patterns in large datasets, which is a form of modeling.",
+                    "phrase": "data mining"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "samen met het Center of Excellence (CoE) van ons AI-team",
-                        "in directe samenwerking met de klant"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "samen met het Center of Excellence (CoE) van ons AI-team, of in directe samenwerking met de klant"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "verwerken van complexe data",
-                        "statistische modellen en voorspellende algoritmes inzetten om verborgen patronen te onthullen",
-                        "ontwikkel je end-tot-end oplossingen",
-                        "robuuste oplossingen die in productie worden gebruikt"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "creëert echte impact door middel van het toepassen van machine learning en AI-technieken"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "creëer je echte impact"
-                    ]
+                    "category": "SKILL4: Ethical & Legal Responsibility",
+                    "phrase": "Hoe kunnen we generative AI veilig en ethisch inzetten?"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "machine learning"
                 },
                 {
-                    "skill_name": "SKILL4: Ethical & Legal Responsibility",
-                    "phrases": [
-                        "Hoe kunnen we generative AI veilig en ethisch inzetten?"
-                    ]
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "deep learning"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "Hoe kunnen we ervoor zorgen dat onze modellen efficiënt werken blijven doorontwikkelen?"
-                    ]
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "generative AI"
                 }
             ]
         }

@@ -73,8 +73,9 @@ A Chi-Squared test was performed to determine if the observed differences in the
 
 | category_type   |   chi2_statistic |     p_value |
 |:----------------|-----------------:|------------:|
-| job_task        |         326.532  | 6.07207e-65 |
-| soft_skill      |          40.2041 | 1.15049e-06 |
+| job_task        |          93.9741 | 2.76383e-15 |
+| technology      |          88.7005 | 2.47546e-13 |
+| soft_skill      |          18.4337 | 0.0182      |
 
 **Interpretation:**
 For both `job_task` and `soft_skill` categories, the p-value is effectively zero (p < 0.001). This indicates that the differences in which tasks and skills are required for GenAI Engineers versus ML Engineers are **highly statistically significant**. The variations we see are not due to random chance; they represent genuine, distinct requirements for each profile. (Note: The test for `technology` was skipped as some sub-categories had too few observations for a valid test).
@@ -96,91 +97,39 @@ The following tables show the distribution of tasks, technologies, and skills *w
 
 | category_name                  |   GenAI Engineer |   ML Engineer |
 |:-------------------------------|-----------------:|--------------:|
-| Business Understanding         |            14.46 |         17.49 |
-| Communication & Collaboration  |             1.2  |          2.14 |
-| Data Engineering               |             3.62 |         11.01 |
-| Ethical & Legal Responsibility |             0.02 |          0.05 |
-| Innovation & Ownership         |             0.64 |          1.48 |
-| Learning & Adaptability        |             0.79 |          1.68 |
-| Modeling                       |            30.5  |         22.79 |
-| Operations Engineering (MLOps) |            10.29 |         16.37 |
-| Problem Solving & Pragmatism   |             0.48 |          1.27 |
-| Software Development           |            38    |         25.7  |
+| Business Understanding         |            17.67 |         15.2  |
+| Cloud Platforms & Services     |             0.07 |          0    |
+| Communication & Collaboration  |             2.52 |          6.41 |
+| Data Engineering               |             4.75 |         14.49 |
+| Ethical & Legal Responsibility |             0.07 |          0.24 |
+| Innovation & Ownership         |             0.97 |          1.19 |
+| Learning & Adaptability        |             1.26 |          1.9  |
+| Modeling                       |            23.09 |         24.7  |
+| Operations Engineering (MLOps) |            16.78 |         19.71 |
+| Problem Solving & Pragmatism   |             0.74 |          0.71 |
+| Programming Languages          |             0.07 |          0    |
+| Software Development           |            32    |         15.44 |
 
 #### Technologies (Normalized)
 
-| tool_name                            |   GenAI Engineer |   ML Engineer |
-|:-------------------------------------|-----------------:|--------------:|
-| AI                                   |             1.83 |          1.61 |
-| AI tools                             |             0.92 |          0    |
-| AWS                                  |             6.06 |          3.76 |
-| Airflow                              |             0.09 |          2.42 |
-| Amazon CodeWhisperer                 |             2.66 |          0    |
-| Azure                                |             1.83 |          4.84 |
-| Azure DevOps                         |             0.55 |          2.15 |
-| Azure OpenAI                         |             0.83 |          0.27 |
-| CI/CD                                |             0.64 |          1.88 |
-| ChatGPT                              |             0.83 |          0.27 |
-| Claude                               |             3.03 |          0    |
-| Docker                               |             2.2  |          1.88 |
-| ElasticSearch                        |             0.18 |          2.15 |
-| FAISS                                |             0.92 |          0.81 |
-| FastAPI                              |             0.64 |          1.34 |
-| GCP                                  |             1.47 |          2.69 |
-| GPT-4                                |             2.94 |          0    |
-| GPT-4 Vision                         |             2.66 |          0    |
-| GenAI                                |             3.76 |          3.49 |
-| Generative AI                        |             3.12 |          2.42 |
-| Git                                  |             0.73 |          2.15 |
-| Go                                   |             0.73 |          0.81 |
-| Java                                 |             1.01 |          3.49 |
-| JavaScript                           |             1.65 |          0.54 |
-| Kafka                                |             1.1  |          0.81 |
-| Kubernetes                           |             1.83 |          2.42 |
-| LLM                                  |             3.39 |          2.42 |
-| LLM's                                |             1.19 |          0    |
-| LLMs                                 |             5.41 |          0.54 |
-| LangChain                            |             2.94 |          0.81 |
-| LangGraph                            |             0.92 |          0.27 |
-| Large Language Models                |             1.65 |          0    |
-| Large Language Models (LLMs)         |             1.1  |          0    |
-| Linux                                |             0.83 |          1.08 |
-| ML                                   |             0.46 |          1.61 |
-| Machine Learning                     |             0.55 |          3.23 |
-| NLP                                  |             1.28 |          1.08 |
-| Node.js                              |             0.92 |          0    |
-| OpenAI                               |             2.48 |          0.27 |
-| Pinecone                             |             0.73 |          0.54 |
-| PyTorch                              |             0.92 |          2.96 |
-| Python                               |             8.9  |         19.09 |
-| RAG                                  |             1.19 |          0    |
-| React                                |             1.47 |          0.27 |
-| Retrieval-Augmented Generation (RAG) |             1.93 |          0    |
-| SQL                                  |             0.83 |          2.69 |
-| TensorFlow                           |             0.92 |          2.69 |
-| Terraform                            |             0.55 |          3.49 |
-| TypeScript                           |             1.65 |          1.08 |
-| deep learning                        |             0.37 |          2.69 |
-| generatieve AI                       |             1.01 |          1.08 |
-| generatieve AI-modellen              |             2.39 |          0    |
-| generative AI                        |             4.22 |          3.76 |
-| generative AI models                 |             1.19 |          0.81 |
-| grote taalkundige AI-modellen        |             1.93 |          0    |
-| large language models                |             1.83 |          1.34 |
-| machine learning                     |             0.64 |          4.03 |
+| tool_name     |   GenAI Engineer |   ML Engineer |
+|:--------------|-----------------:|--------------:|
+| Python        |               68 |          62.5 |
+| generative AI |               32 |          37.5 |
 
 #### Soft Skills (Normalized)
 
 | category_name                  |   GenAI Engineer |   ML Engineer |
 |:-------------------------------|-----------------:|--------------:|
-| Business Understanding         |             0.04 |          0.27 |
-| Communication & Collaboration  |            26.32 |         34.95 |
-| Ethical & Legal Responsibility |             1.65 |          1.82 |
-| Innovation & Ownership         |            31.16 |         25.91 |
-| Learning & Adaptability        |            19.33 |         15.24 |
-| Operations Engineering (MLOps) |             0.04 |          0    |
-| Problem Solving & Pragmatism   |            21.44 |         21.81 |
-| Software Development           |             0.04 |          0    |
+| Business Understanding         |             0.88 |          0    |
+| Communication & Collaboration  |            23.8  |         35.07 |
+| Ethical & Legal Responsibility |             1.76 |          1.39 |
+| Innovation & Ownership         |            26.95 |         25    |
+| Learning & Adaptability        |            19.02 |         13.54 |
+| Modeling                       |             0.13 |          0    |
+| Operations Engineering (MLOps) |             0.13 |          0    |
+| Problem Solving & Pragmatism   |            27.08 |         25    |
+| Software Development           |             0.25 |          0    |
 
 **Interpretation:**
 These tables offer clear, comparative insights:
@@ -200,15 +149,15 @@ The following table shows the distribution of our established profiles across th
 
 |   dominant_topic |   Ambiguous / Not Relevant |   GenAI Engineer |   ML Engineer | top_words                                                                                                                                                        |
 |-----------------:|---------------------------:|-----------------:|--------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                0 |                          3 |               24 |             0 | student | frontend | thousand | not | will | educational | development | learn | web | product | work | integrate | application | backend | learner              |
-|                1 |                        119 |              165 |            58 | aimodellen | werken | ontwikkelen | saman | oplossingen | nieuwe | engineer | klanten | werk | maken | datum | helpen | trainen | developer | team               |
-|                3 |                          6 |               17 |             0 | support | ignitetech | internal | ticket | end | quality | software | upgrade | industry | maintain | workflow | enduser | codewhisperer | create | service      |
-|                4 |                         55 |               22 |             5 | model | train | help | code | project | outlier | generative | expertise | software | opportunity | human | freelance | like | lend | previous                   |
-|                5 |                          9 |               11 |             3 | operational | customer | satisfaction | efficiency | task | advanced | aidriven | system | technical | support | service | automate | enhance | prompt | totogi  |
-|                6 |                         15 |                2 |             0 | engineer | software | machine | learn | medior | genai | llm | junior | end | platform | data | developer | frontend | adept | leadership                        |
-|                7 |                        326 |              261 |           107 | team | solution | work | engineer | product | datum | software | develop | design | development | customer | model | technology | ensure | business              |
-|                8 |                         11 |                0 |             8 | annual | modellen | event | health | value | data | insurance | sure | netherlands | regular | professional | medium | online | applicatie | team                |
-|                9 |                         20 |               17 |             0 | developer | senior | engineer | datum | data | verantwoordelijk | onderhouden | stack | backend | lead | generatieve | python | ontwerpen | science | schaalbare |
+|                0 |                          3 |               12 |             0 | student | frontend | thousand | not | will | educational | development | learn | web | product | work | integrate | application | backend | learner              |
+|                1 |                        158 |               74 |            32 | aimodellen | werken | ontwikkelen | saman | oplossingen | nieuwe | engineer | klanten | werk | maken | datum | helpen | trainen | developer | team               |
+|                3 |                          7 |               14 |             0 | support | ignitetech | internal | ticket | end | quality | software | upgrade | industry | maintain | workflow | enduser | codewhisperer | create | service      |
+|                4 |                         62 |               11 |             0 | model | train | help | code | project | outlier | generative | expertise | software | opportunity | human | freelance | like | lend | previous                   |
+|                5 |                         14 |                0 |             0 | operational | customer | satisfaction | efficiency | task | advanced | aidriven | system | technical | support | service | automate | enhance | prompt | totogi  |
+|                6 |                          8 |                6 |             3 | engineer | software | machine | learn | medior | genai | llm | junior | end | platform | data | developer | frontend | adept | leadership                        |
+|                7 |                        285 |              174 |            83 | team | solution | work | engineer | product | datum | software | develop | design | development | customer | model | technology | ensure | business              |
+|                8 |                          5 |                0 |             6 | annual | modellen | event | health | value | data | insurance | sure | netherlands | regular | professional | medium | online | applicatie | team                |
+|                9 |                         25 |               11 |             0 | developer | senior | engineer | datum | data | verantwoordelijk | onderhouden | stack | backend | lead | generatieve | python | ontwerpen | science | schaalbare |
 
 **Interpretation:**
 This analysis provides a powerful, data-driven validation of our primary classification schema.

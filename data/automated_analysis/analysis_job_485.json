@@ -28,111 +28,96 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The role heavily emphasizes implementing and productionalizing cloud solutions using Generative AI and LLM technologies, specifically mentioning DialogFlow and Vertex AI. While it involves cloud infrastructure (GCP), the core focus is on building applications around generative models and conversational systems, aligning with the GenAI Engineer profile."
+            "rationale": "The job description heavily emphasizes the implementation and productionalization of cloud solutions using Generative AI and LLM technologies, specifically mentioning DialogFlow, Vertex AI Search, and Conversation API. It also involves creating data pipelines, making technical decisions for conversational systems, and writing code to interact with GCP APIs, aligning with the core responsibilities of a GenAI Engineer focused on building and deploying AI-powered applications."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Implementation and productionalization of cloud solutions using Generative AI and LLM technologies",
-                        "Automation of team bottlenecks"
-                    ],
-                    "justification": "Phrases like 'productionalization' and 'automation' directly relate to deploying and managing AI systems in a production environment, which is a core aspect of MLOps."
+                    "category": "TASK3",
+                    "justification": "The role involves implementing cloud solutions using Generative AI and LLM technologies, and working with Vertex AI Search and Conversation API, which are core to generative modeling.",
+                    "phrase": "Implementation and productionalization of cloud solutions using Generative AI and LLM technologies"
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "Generative AI and LLM technologies",
-                        "conversational systems projects",
-                        "Vertex AI Search and Conversation API"
-                    ],
-                    "justification": "The description explicitly mentions 'Generative AI and LLM technologies', 'conversational systems', and specific tools like 'Vertex AI Search and Conversation API', all of which fall under the modeling aspect of GenAI."
+                    "category": "TASK3",
+                    "justification": "The role involves making technical decisions for conversational systems projects, which are a key application area for GenAI.",
+                    "phrase": "Making cloud designs and technical decisions for conversational systems projects"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "Making cloud designs and technical decisions for conversational systems projects",
-                        "Writing code to interact with GCP API's"
-                    ],
-                    "justification": "The role involves designing technical solutions for conversational systems and writing code to interact with cloud APIs, which are key software development activities for integrating AI features."
+                    "category": "TASK2",
+                    "justification": "The role requires creating data pipelines that interact with DialogFlow, a component often used in conversational AI systems.",
+                    "phrase": "Creating data pipelines that interact with DialogFlow"
                 },
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "Creating data pipelines that interact with DialogFlow",
-                        "BigQuery datasets/views"
-                    ],
-                    "justification": "The mention of 'creating data pipelines' and working with 'BigQuery datasets/views' indicates responsibilities related to data infrastructure and preparation."
+                    "category": "TASK3",
+                    "justification": "The role involves implementing GCP native ML architectures, which falls under the modeling aspect of AI.",
+                    "phrase": "Implementing GCP native ML architectures"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "Advice on which Google Cloud Platform products to use",
-                        "Contributing to strengthening the cloud capability within the team"
-                    ],
-                    "justification": "Advising on product selection and contributing to team capabilities suggest an understanding of how technical solutions align with broader team and project goals."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "GCP Cloud Engineer",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK4",
+                    "justification": "The role requires writing code to interact with GCP APIs, which is a fundamental software development task for integrating services.",
+                    "phrase": "Writing code to interact with GCP API's"
                 },
                 {
-                    "tech_name": "Generative AI",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK5",
+                    "justification": "The role involves automation of team bottlenecks, which can be seen as an operational improvement task, often related to MLOps or general DevOps practices.",
+                    "phrase": "Automation of team bottlenecks"
                 },
                 {
-                    "tech_name": "LLM",
-                    "category": "TECH3: LLM / Generative Models"
-                },
-                {
-                    "tech_name": "DialogFlow",
-                    "category": "TECH4: LLM Frameworks & Libraries"
-                },
-                {
-                    "tech_name": "Looker Dashboards",
-                    "category": "TECH7: Data Visualization"
-                },
-                {
-                    "tech_name": "BigQuery",
-                    "category": "TECH9: Data Storage"
-                },
-                {
-                    "tech_name": "Vertex AI Search and Conversation API",
-                    "category": "TECH4: LLM Frameworks & Libraries"
-                },
-                {
-                    "tech_name": "GCP API's",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK3",
+                    "justification": "Working with Vertex AI Search and Conversation API directly relates to leveraging and implementing generative AI models and services.",
+                    "phrase": "working with Vertex AI Search and Conversation API"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Making cloud designs and technical decisions",
-                        "Automation of team bottlenecks"
-                    ],
-                    "justification": "The role requires making technical decisions and automating processes to solve team inefficiencies, indicating a problem-solving and pragmatic approach."
+                    "category": "SKILL5",
+                    "phrase": "Contributing to strengthening the cloud capability within the team"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        "Advice on which Google Cloud Platform products to use",
-                        "Contributing to strengthening the cloud capability within the team"
-                    ],
-                    "justification": "The need to advise on GCP products and contribute to team capabilities suggests a requirement for continuous learning and adapting to new cloud technologies and team needs."
+                    "category": "SKILL3",
+                    "phrase": "Automation of team bottlenecks"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2",
+                    "phrase": "Google Cloud Platform"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        "Implementation and productionalization of cloud solutions",
-                        "Making cloud designs and technical decisions"
-                    ],
-                    "justification": "Taking ownership of implementing and productionalizing solutions, as well as making design decisions, points to an innovative and ownership-driven mindset."
+                    "category": "TECH2",
+                    "phrase": "GCP"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "Generative AI"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "LLM"
+                },
+                {
+                    "category": "TECH4",
+                    "phrase": "DialogFlow"
+                },
+                {
+                    "category": "TECH10",
+                    "phrase": "ML architectures"
+                },
+                {
+                    "category": "TECH7",
+                    "phrase": "Looker Dashboards"
+                },
+                {
+                    "category": "TECH9",
+                    "phrase": "BigQuery"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "Vertex AI Search"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "Conversation API"
                 }
             ]
         }

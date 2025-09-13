@@ -27,105 +27,54 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on data platform development and data access, with limited mention of AI or ML modeling. While it involves collaboration with data scientists, the core responsibilities do not align with either ML Engineer or GenAI Engineer profiles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on data engineering tasks within an Azure environment, including data platform development, data source integration, and collaboration with business and legal teams. While it mentions collaboration with data analysts and scientists, it does not describe core activities related to building, training, or deploying AI models, nor does it mention specific generative AI technologies or frameworks. The emphasis is on data infrastructure and enabling insights rather than AI model development or application building, making it fall outside the scope of ML Engineer or GenAI Engineer profiles and aligning with the 'Ambiguous' category due to its primary focus on data engineering and business enablement rather than AI model specialization."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "Sparren met zowel business stakeholders",
-                            "justification": "This phrase indicates interaction with business stakeholders to understand their needs and align technical solutions with business goals."
-                        },
-                        {
-                            "phrase": "om uit te zoeken wat wel en niet kan alvorens te implementeren",
-                            "justification": "This implies understanding constraints and requirements before implementation, which is part of aligning technical work with business and regulatory needs."
-                        }
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Het uitbreiden van ons dataplatform en zorgen voor een optimale ontsluiting van meerdere bronnen' directly describes the process of building and maintaining data infrastructure and integrating various data sources.",
+                    "phrase": "Het uitbreiden van ons dataplatform en zorgen voor een optimale ontsluiting van meerdere bronnen"
                 },
                 {
-                    "task_category": "TASK2: Data Engineering",
-                    "phrases": [
-                        {
-                            "phrase": "Het uitbreiden van ons dataplatform",
-                            "justification": "Directly refers to the development and expansion of a data platform, a core aspect of data engineering."
-                        },
-                        {
-                            "phrase": "zorgen voor een optimale ontsluiting van meerdere bronnen",
-                            "justification": "This involves building and maintaining data pipelines to make data accessible from various sources."
-                        },
-                        {
-                            "phrase": "in staat zijn data te kunnen volgen",
-                            "justification": "Refers to data lineage and tracking, a data engineering concern for governance and auditing."
-                        },
-                        {
-                            "phrase": "data retentie",
-                            "justification": "Data retention policies are a key aspect of data engineering and data governance."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Sparren met zowel business stakeholders als onze Security Officer, Privacy Officer en Legal team om uit te zoeken wat wel en niet kan alvorens te implementeren' indicates interaction with business and legal/privacy teams to understand constraints and requirements before implementation.",
+                    "phrase": "Sparren met zowel business stakeholders als onze Security Officer, Privacy Officer en Legal team om uit te zoeken wat wel en niet kan alvorens te implementeren"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "implementeren",
-                            "justification": "While general, in the context of expanding a data platform and ensuring security/privacy, it implies the development and integration of features."
-                        },
-                        {
-                            "phrase": "row-level security",
-                            "justification": "Implementing security measures like row-level security involves software development within the data platform."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'bijv. row-level security, in staat zijn data te kunnen volgen, data retentie, etc.' refers to understanding and implementing business-driven data governance and security requirements.",
+                    "phrase": "row-level security, in staat zijn data te kunnen volgen, data retentie, etc."
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        {
-                            "phrase": "Privacy Officer en Legal team om uit te zoeken wat wel en niet kan",
-                            "justification": "Ensuring compliance with privacy and legal regulations is part of the operational considerations for data systems, though not strictly MLOps in the AI context."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_category": "TECH2: Cloud Platforms & Services",
-                    "technologies": [
-                        "Azure"
-                    ]
-                },
-                {
-                    "tech_category": "TECH9: Data Storage",
-                    "technologies": [
-                        "dataplatform"
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Samenwerken met data analysts en data scientists om diepgaande inzichten te genereren die de basis vormen voor procesoptimalisatie, automatisering en productontwikkeling' describes the role of preparing data and infrastructure to enable insights generation, which is a data engineering function supporting downstream users.",
+                    "phrase": "Samenwerken met data analysts en data scientists om diepgaande inzichten te genereren die de basis vormen voor procesoptimalisatie, automatisering en productontwikkeling"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "skills": [
-                        "Sparren met zowel business stakeholders",
-                        "Samenwerken met data analysts en data scientists"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Sparren met zowel business stakeholders als onze Security Officer, Privacy Officer en Legal team"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "skills": [
-                        "zorgen voor een optimale ontsluiting",
-                        "uit te zoeken wat wel en niet kan"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Samenwerken met data analysts en data scientists"
                 },
                 {
-                    "skill_category": "SKILL4: Ethical & Legal Responsibility",
-                    "skills": [
-                        "Security Officer, Privacy Officer en Legal team",
-                        "row-level security",
-                        "data retentie"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "uit te zoeken wat wel en niet kan alvorens te implementeren"
+                },
+                {
+                    "category": "SKILL4: Ethical & Legal Responsibility",
+                    "phrase": "Security Officer, Privacy Officer en Legal team"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure"
                 }
             ]
         }

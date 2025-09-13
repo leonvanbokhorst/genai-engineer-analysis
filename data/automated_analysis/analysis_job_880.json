@@ -27,76 +27,96 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on client relationships, pre-sales technical consulting, and demonstrating a platform's value. While it mentions data and analytics, it lacks specific details on core AI/ML engineering tasks like model development, training, or deployment, making it not a direct fit for ML or GenAI Engineer profiles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on a Solutions Engineer role, emphasizing customer relationships, technical advisement on architecture and design, and demonstrating a platform's value. While it mentions 'data science' and 'analytics', it lacks specific details about building, training, or deploying AI/ML models, fine-tuning LLMs, or developing generative AI applications. The core responsibilities lean towards pre-sales technical support and customer engagement rather than hands-on AI/ML engineering or development. Therefore, it does not fit the criteria for ML Engineer or GenAI Engineer and is best classified as Ambiguous."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrases": [
-                        "provide technical and business value",
-                        "make informed decisions that push their business forward",
-                        "turn insights into action",
-                        "help customers solve their complex data challenges",
-                        "help customers achieve their goals and guide their businesses forward",
-                        "become an independently operating Solutions Engineer"
-                    ],
-                    "justification": "These phrases highlight the need to understand customer business needs, translate them into technical solutions, and demonstrate business value through the platform."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves understanding customer challenges and aligning the Databricks platform to solve them, demonstrating business value, and guiding businesses forward.",
+                    "phrase": "demonstrate how our Databricks Data Intelligence Platform can help customers solve their complex data challenges"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrases": [
-                        "Spark programming",
-                        "integrating with the wider cloud ecosystem and 3rd party applications",
-                        "authoring reference architectures, how-tos, and demo applications"
-                    ],
-                    "justification": "Mentions of Spark programming and integration with cloud/3rd party applications suggest software development aspects, particularly in demonstrating platform capabilities and building reference solutions."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Spark",
-                    "category": "TECH11: Data Analysis"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires forming relationships with clients and working with account executives to provide technical and business value.",
+                    "phrase": "Form successful relationships with clients throughout your assigned territory, working with an account executive to provide technical and business value."
                 },
                 {
-                    "technology": "Databricks Data Intelligence Platform",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves advising customers on architecture and design aspects of Big Data Analytics.",
+                    "phrase": "Become a Big Data Analytics advisor on aspects of architecture and design."
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves hands-on evaluation and Spark programming, integrating with the cloud ecosystem and third-party applications, which implies some level of software integration and development for demonstration purposes.",
+                    "phrase": "Gain excitement from clients about Databricks through hands-on evaluation and Spark programming, integrating with the wider cloud ecosystem and 3rd party applications."
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role requires authoring reference architectures, how-tos, and demo applications, which involves creating technical documentation and examples.",
+                    "phrase": "Support your customers by authoring reference architectures, how-tos, and demo applications."
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The role involves becoming an independently operating Solutions Engineer, which implies understanding the operational aspects of deploying and supporting solutions, though not explicitly MLOps.",
+                    "phrase": "Develop both technically and in the pre-sales aspect with the goal of becoming an independently operating Solutions Engineer."
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Form successful relationships with clients",
-                        "working with an account executive",
-                        "Gain excitement from clients",
-                        "customer-focused team",
-                        "collaborative"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "customer-centric mindset"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "proactiveness",
-                        "innovation and creativity",
-                        "take initiative",
-                        "ownership"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "collaborative, customer-focused team"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "help customers solve their complex data challenges",
-                        "create customized solutions"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "working with an account executive"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "Develop both technically and in the pre-sales aspect"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "continuous improvement"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Develop both technically"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "solve their complex data challenges"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "create customized solutions"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "proactiveness"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "innovation and creativity"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "take initiative"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Spark programming"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "wider cloud ecosystem"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Databricks Data Intelligence Platform"
                 }
             ]
         }

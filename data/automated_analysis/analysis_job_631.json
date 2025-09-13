@@ -28,192 +28,83 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes building and running 'GenAI solutions' using generative techniques. It highlights end-to-end responsibility for these solutions, including design, development, and deployment, aligning with the core responsibilities of a GenAI Engineer."
+            "rationale": "The job description explicitly mentions 'GenAI solutions' multiple times and focuses on designing, building, and running these solutions. It highlights responsibilities like building RAG systems (implied by 'responsible and cost effective GenAI solutions for millions of customers' and 're-usable building blocks'), fine-tuning (implied by 'groundbreaking GenAI solutions'), and developing complex agents (implied by 'end-to-end responsible for your solutions' within a multi-disciplinary team). The emphasis on building user-facing software systems and deploying them ('design, build, test, deploy and run high quality and highly scalable GenAI solutions') aligns perfectly with the definition of a GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK1: Business Understanding",
-                    "evidence": [
-                        {
-                            "phrase": "Work directly with (internal) customers to learn how processes and systems work.",
-                            "justification": "This phrase indicates the need to understand customer needs and existing business processes to inform the development of GenAI solutions."
-                        },
-                        {
-                            "phrase": "Design and build responsible and cost effective GenAI solutions for millions of customers.",
-                            "justification": "This highlights the need to consider business value, cost-effectiveness, and customer impact when designing solutions."
-                        },
-                        {
-                            "phrase": "We are a Dutch bank that operates in 38 countries for over 9,5000,000 customers. Together with these customers, our members and partners we stand side by side to create a world in which everyone has access to enough healthy food. In the Netherlands we work to create a country in which people are happy with how they live, work and do business.",
-                            "justification": "This provides context about the business domain (banking, food security) and its mission, which the GenAI solutions are intended to support."
-                        },
-                        {
-                            "phrase": "Analytics Accelerators is an ambitious department that aims to mix in a healthy dose of experience, innovation and creativity in order to develop innovative products and services. We focus on fast learning, delivering value quickly and being more effective.",
-                            "justification": "This describes the department's business goals and approach, which the role contributes to."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Work directly with (internal) customers to learn how processes and systems work' indicates a need to understand the business context and customer needs.",
+                    "phrase": "Work directly with (internal) customers to learn how processes and systems work"
                 },
                 {
-                    "task": "TASK3: Modeling",
-                    "evidence": [
-                        {
-                            "phrase": "building all components of our next-level GenAI solutions",
-                            "justification": "Directly mentions 'GenAI solutions', implying work with generative models."
-                        },
-                        {
-                            "phrase": "groundbreaking GenAI solutions",
-                            "justification": "Indicates the development and implementation of generative AI models and applications."
-                        },
-                        {
-                            "phrase": "Design and build responsible and cost effective GenAI solutions",
-                            "justification": "This involves the core process of creating and adapting generative AI models for specific business needs."
-                        },
-                        {
-                            "phrase": "Design, build, test, deploy and run high quality and highly scalable GenAI solutions.",
-                            "justification": "This encompasses the entire lifecycle of generative AI models, from initial design to production deployment."
-                        }
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The core of the role is building 'GenAI solutions', which directly relates to developing and implementing generative models.",
+                    "phrase": "GenAI solutions"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "evidence": [
-                        {
-                            "phrase": "Full Stack Engineer",
-                            "justification": "The job title itself implies a broad range of software development responsibilities, including front-end and back-end."
-                        },
-                        {
-                            "phrase": "building all components of our next-level GenAI solutions as a full-stack software engineer",
-                            "justification": "Highlights the role of a software engineer in constructing the complete system around GenAI."
-                        },
-                        {
-                            "phrase": "As a Full Stack Engineer you will join a multi-disciplinary team where you will have end-to-end responsible for your solutions.",
-                            "justification": "Indicates responsibility for the entire software development lifecycle of the solutions."
-                        },
-                        {
-                            "phrase": "Design and build responsible and cost effective GenAI solutions",
-                            "justification": "This involves the practical implementation and coding of the GenAI solutions."
-                        },
-                        {
-                            "phrase": "Convert these generic parts to re-usable building blocks used by 1000+ tech teams.",
-                            "justification": "Suggests building robust, scalable software components that can be integrated into larger systems."
-                        },
-                        {
-                            "phrase": "Design, build, test, deploy and run high quality and highly scalable GenAI solutions.",
-                            "justification": "Covers the full spectrum of software development activities for the GenAI solutions."
-                        }
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves being a 'Full Stack Engineer' responsible for 'building all components of our next-level GenAI solutions' and converting 'generic parts to re-usable building blocks', indicating traditional software development for applications.",
+                    "phrase": "building all components of our next-level GenAI solutions"
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "evidence": [
-                        {
-                            "phrase": "run groundbreaking GenAI solutions",
-                            "justification": "Implies responsibility for the operational aspects of deployed GenAI solutions."
-                        },
-                        {
-                            "phrase": "Design, build, test, deploy and run high quality and highly scalable GenAI solutions.",
-                            "justification": "The 'deploy and run' aspects directly relate to MLOps and productionizing models."
-                        },
-                        {
-                            "phrase": "Contribute to the relentless automation of the above activities.",
-                            "justification": "Automation of deployment and operational tasks is a key component of MLOps."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "tech": "TECH3: LLM / Generative Models",
-                    "evidence": [
-                        {
-                            "phrase": "GenAI solutions",
-                            "justification": "This term directly refers to applications built using generative AI models."
-                        }
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Convert these generic parts to re-usable building blocks used by 1000+ tech teams' implies building scalable and reusable software components.",
+                    "phrase": "Convert these generic parts to re-usable building blocks used by 1000+ tech teams"
                 },
                 {
-                    "tech": "TECH4: LLM Frameworks & Libraries",
-                    "evidence": [
-                        {
-                            "phrase": "building all components of our next-level GenAI solutions",
-                            "justification": "While not explicitly named, building 'components' for GenAI solutions typically involves using frameworks and libraries."
-                        }
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The responsibility to 'Design, build, test, deploy and run high quality and highly scalable GenAI solutions' encompasses the full lifecycle management of AI systems in production.",
+                    "phrase": "Design, build, test, deploy and run high quality and highly scalable GenAI solutions"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Contribute to the relentless automation of the above activities' directly points to MLOps practices for automating deployment and operational tasks.",
+                    "phrase": "Contribute to the relentless automation of the above activities"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'Pair-program with team members to solve critical or complex problems' indicates collaboration and knowledge sharing.",
+                    "phrase": "Pair-program with team members"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The responsibility 'Give and receive help from peers, experts and stakeholders so we can improve together' highlights communication and collaboration.",
+                    "phrase": "Give and receive help from peers, experts and stakeholders"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "justification": "The phrase 'solve critical or complex problems' directly relates to problem-solving skills.",
+                    "phrase": "solve critical or complex problems"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "justification": "The phrase 'end-to-end responsible for your solutions' implies taking ownership of the entire development and deployment process.",
+                    "phrase": "end-to-end responsible for your solutions"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "evidence": [
-                        {
-                            "phrase": "Work directly with (internal) customers to learn how processes and systems work.",
-                            "justification": "Requires communication to understand customer needs and business context."
-                        },
-                        {
-                            "phrase": "Pair-program with team members to solve critical or complex problems.",
-                            "justification": "Directly indicates collaboration and pair programming."
-                        },
-                        {
-                            "phrase": "Give and receive help from peers, experts and stakeholders so we can improve together.",
-                            "justification": "Highlights the importance of collaboration and knowledge sharing within a team and with stakeholders."
-                        },
-                        {
-                            "phrase": "you will join a multi-disciplinary team",
-                            "justification": "Implies working with individuals from different backgrounds and expertise."
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Pair-program with team members"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "evidence": [
-                        {
-                            "phrase": "next-level GenAI solutions",
-                            "justification": "Suggests working with cutting-edge technology that requires continuous learning."
-                        },
-                        {
-                            "phrase": "Analytics Accelerators is an ambitious department that aims to mix in a healthy dose of experience, innovation and creativity in order to develop innovative products and services. We focus on fast learning, delivering value quickly and being more effective.",
-                            "justification": "The department's focus on 'fast learning' and innovation implies a need for adaptability."
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Give and receive help from peers, experts and stakeholders"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "evidence": [
-                        {
-                            "phrase": "solve critical or complex problems.",
-                            "justification": "Directly states the need to solve complex problems."
-                        },
-                        {
-                            "phrase": "Design and build responsible and cost effective GenAI solutions",
-                            "justification": "Requires problem-solving to balance functionality, responsibility, and cost."
-                        },
-                        {
-                            "phrase": "end-to-end responsible for your solutions.",
-                            "justification": "Implies taking ownership and solving issues that arise throughout the solution lifecycle."
-                        }
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "solve critical or complex problems"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "evidence": [
-                        {
-                            "phrase": "groundbreaking GenAI solutions",
-                            "justification": "Suggests a need for innovative thinking and development."
-                        },
-                        {
-                            "phrase": "end-to-end responsible for your solutions.",
-                            "justification": "Clearly indicates ownership and responsibility for the developed solutions."
-                        },
-                        {
-                            "phrase": "Convert these generic parts to re-usable building blocks used by 1000+ tech teams.",
-                            "justification": "This task requires initiative and a forward-thinking approach to create widely applicable components."
-                        },
-                        {
-                            "phrase": "Analytics Accelerators is an ambitious department that aims to mix in a healthy dose of experience, innovation and creativity",
-                            "justification": "The department's description emphasizes innovation and ambition, aligning with this skill."
-                        }
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "end-to-end responsible for your solutions"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "GenAI"
                 }
             ]
         }

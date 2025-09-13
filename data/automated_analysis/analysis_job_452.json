@@ -28,74 +28,54 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes implementing LLM services for search and summarization, building RAG-like systems, and developing production-grade applications around these models. While it mentions 'Machine Learning Engineer' in the title, the core responsibilities align more closely with a GenAI Engineer focused on language models and user-facing applications."
+            "rationale": "The job description heavily emphasizes the implementation of LLM services for search and text summarization, building RAG systems, and developing end-to-end services with a focus on user-facing applications. This aligns directly with the core responsibilities and typical projects of a GenAI Engineer, particularly the focus on generative models and building production-grade software around them, rather than purely predictive modeling."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK3: Modeling",
-                    "phrase": "Implementing a search/text summarisation product using the provided LLM services.",
-                    "justification": "This phrase directly relates to using and implementing models (LLMs) for specific generative tasks like summarization."
+                    "category": "TASK3",
+                    "justification": "The phrase 'Implementing a search/text summarisation product using the provided LLM services' directly relates to using and adapting generative models for specific tasks.",
+                    "phrase": "Implementing a search/text summarisation product using the provided LLM services"
                 },
                 {
-                    "task": "TASK3: Modeling",
-                    "phrase": "translate them into LLM solutions.",
-                    "justification": "This indicates the adaptation or creation of solutions specifically using Large Language Models."
+                    "category": "TASK4",
+                    "justification": "The phrase 'Implementing proper architecture solutions by taking into account cost, business requirements, emerging technologies, and technology requirements, like latency, throughput, and scale' describes the software development aspect of building robust and scalable systems.",
+                    "phrase": "Implementing proper architecture solutions by taking into account cost, business requirements, emerging technologies, and technology requirements, like latency, throughput, and scale"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "Implementing proper architecture solutions by taking into account cost, business requirements, emerging technologies, and technology requirements, like latency, throughput, and scale",
-                    "justification": "This involves designing and implementing the technical architecture for a product, which is a core software development activity."
+                    "category": "TASK5",
+                    "justification": "The phrase 'Leading a service end to end by actively monitoring application health and performance, setting and monitoring relevant metrics, and acting accordingly when violated' describes operational aspects of managing production systems.",
+                    "phrase": "Leading a service end to end by actively monitoring application health and performance, setting and monitoring relevant metrics, and acting accordingly when violated"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "Maintain clean, scalable code, ensuring reproducibility and easy integration of models into production environments",
-                    "justification": "This describes standard software engineering practices focused on code quality, scalability, and integration."
+                    "category": "TASK4",
+                    "justification": "The phrase 'Maintain clean, scalable code, ensuring reproducibility and easy integration of models into production environments' refers to software development practices for production readiness.",
+                    "phrase": "Maintain clean, scalable code, ensuring reproducibility and easy integration of models into production environments"
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrase": "Leading a service end to end by actively monitoring application health and performance, setting and monitoring relevant metrics, and acting accordingly when violated",
-                    "justification": "This describes the operational aspects of managing a service in production, including monitoring and performance management, which falls under MLOps."
-                },
-                {
-                    "task": "TASK1: Business Understanding",
-                    "phrase": "understand business requirements",
-                    "justification": "This directly refers to the need to comprehend the business context and needs."
-                },
-                {
-                    "task": "SKILL1: Communication & Collaboration",
-                    "phrase": "Collaborate with multidisciplinary teams",
-                    "justification": "This explicitly mentions working with diverse teams."
-                },
-                {
-                    "task": "SKILL1: Communication & Collaboration",
-                    "phrase": "understand business requirements and translate them into LLM solutions.",
-                    "justification": "This involves communicating business needs and translating them into technical solutions, requiring collaboration and understanding."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "LLM services",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK1",
+                    "justification": "The phrase 'Collaborate with multidisciplinary teams: understand business requirements and translate them into LLM solutions' indicates understanding business needs and translating them into technical solutions.",
+                    "phrase": "Collaborate with multidisciplinary teams: understand business requirements and translate them into LLM solutions"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrase": "Collaborate with multidisciplinary teams"
+                    "category": "SKILL1",
+                    "phrase": "Collaborate with multidisciplinary teams: understand business requirements and translate them into LLM solutions"
                 },
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrase": "understand business requirements and translate them into LLM solutions."
+                    "category": "SKILL3",
+                    "phrase": "Implementing proper architecture solutions by taking into account cost, business requirements, emerging technologies, and technology requirements, like latency, throughput, and scale"
                 },
                 {
-                    "skill": "TASK1: Business Understanding",
-                    "phrase": "understand business requirements"
-                },
-                {
-                    "skill": "TASK5: Operations Engineering (MLOps)",
+                    "category": "SKILL5",
                     "phrase": "Leading a service end to end by actively monitoring application health and performance, setting and monitoring relevant metrics, and acting accordingly when violated"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "LLM services"
                 }
             ]
         }

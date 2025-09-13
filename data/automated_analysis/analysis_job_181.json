@@ -27,73 +27,61 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on test automation using tools like Tosca, Playwright, and Selenium, which are traditional software testing practices. While Agile and DevOps are mentioned, there is no indication of AI, machine learning, or generative models being a core part of the role."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on test automation engineering, utilizing tools like Tosca, Playwright, and Selenium, and emphasizes Agile and DevOps practices. While it mentions understanding business needs and process improvements, it does not involve the core responsibilities or technologies associated with ML Engineering or GenAI Engineering, such as model development, training, fine-tuning, or working with LLMs. Therefore, it falls outside the scope of AI-specific technical roles and is classified as Ambiguous."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "Jij begrijpt de behoeften van de business, waardoor jij als verbindende schakel kunt optreden tussen verschillende partijen."
-                    ],
-                    "justification": "This phrase directly indicates understanding business needs and acting as a liaison, which aligns with understanding the broader business context and translating needs."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Jij begrijpt de behoeften van de business, waardoor jij als verbindende schakel kunt optreden tussen verschillende partijen' directly indicates an understanding of business needs and acting as a liaison.",
+                    "phrase": "Jij begrijpt de behoeften van de business, waardoor jij als verbindende schakel kunt optreden tussen verschillende partijen"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "Je schrijft scripts, onderhoudt frameworks en breidt bestaande test-automation-oplossingen uit."
-                    ],
-                    "justification": "Writing scripts, maintaining frameworks, and extending automation solutions are core software development activities within the context of test automation."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions writing scripts, maintaining frameworks, and expanding test automation solutions, which are software development activities within the context of testing.",
+                    "phrase": "Je schrijft scripts, onderhoudt frameworks en breidt bestaande test-automation-oplossingen uit"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "duikt in de wereld van Agile en DevOps."
-                    ],
-                    "justification": "While not strictly MLOps, the mention of Agile and DevOps indicates involvement in operational practices for software development and deployment, which is a related concept."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Tosca",
-                    "category": "TECH10: Data Modeling"
-                },
-                {
-                    "technology": "Playwright",
-                    "category": "TECH10: Data Modeling"
-                },
-                {
-                    "technology": "Selenium",
-                    "category": "TECH10: Data Modeling"
-                },
-                {
-                    "technology": "Robot Framework",
-                    "category": "TECH10: Data Modeling"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of 'Agile en DevOps' indicates involvement in operational practices related to software development and deployment, though not specifically MLOps in an AI context.",
+                    "phrase": "Agile en DevOps"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "waardoor jij als verbindende schakel kunt optreden tussen verschillende partijen."
-                    ],
-                    "justification": "This phrase highlights the ability to act as a link between different parties, which is a key aspect of communication and collaboration."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "verbindende schakel kunt optreden tussen verschillende partijen"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Je gaat actief aan de slag met procesverbeteringen en bent betrokken bij het realiseren van de allerhoogste kwaliteit binnen je team."
-                    ],
-                    "justification": "Actively working on process improvements and ensuring high quality points to a pragmatic, results-oriented approach to problem-solving."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "actief aan de slag met procesverbeteringen"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "Je gaat actief aan de slag met procesverbeteringen"
-                    ],
-                    "justification": "Taking initiative in process improvements suggests a proactive and ownership-driven mindset."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "realiseren van de allerhoogste kwaliteit binnen je team"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "scripts"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Tosca"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Playwright"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Selenium"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Robot Framework"
                 }
             ]
         }

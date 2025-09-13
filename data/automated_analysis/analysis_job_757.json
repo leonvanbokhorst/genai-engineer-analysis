@@ -27,25 +27,28 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description is for a 'Middle Python developer with LLM experience' but the company description focuses on project management software. There is insufficient detail about specific AI/ML tasks or generative AI responsibilities to confidently classify it as an ML Engineer or GenAI Engineer. It leans towards a general software development role with a potential AI component that is not elaborated upon."
+            "profile": "Ambiguous",
+            "rationale": "The job description is very brief and focuses on 'Middle Python developer with LLM experience' without detailing specific tasks related to building, fine-tuning, or deploying generative AI models. It mentions enhancing existing project management tools but doesn't specify how LLMs would be integrated or what the core responsibilities would be in terms of AI development. The primary focus appears to be on Python development with some LLM exposure, rather than a dedicated GenAI Engineer role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrase": "Middle Python developer",
-                    "justification": "This phrase directly indicates a role focused on software development using Python, which is a core component of TASK4."
+                    "category": "TASK4",
+                    "justification": "The description mentions 'Middle Python developer', indicating a need for traditional software development skills.",
+                    "phrase": "Middle Python developer"
                 }
             ],
+            "soft_skills": [],
             "technologies": [
                 {
-                    "tech_category": "TECH1: Programming Languages",
-                    "tech_name": "Python"
+                    "category": "TECH1",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "LLM"
                 }
-            ],
-            "soft_skills": []
+            ]
         }
     }
 }

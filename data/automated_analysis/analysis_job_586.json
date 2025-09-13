@@ -26,176 +26,99 @@
         "full_text": "Staff Security Engineer - Cyber Defense\n\nWe are seeking a talented and experienced Staff Security Engineer to join our Cyber Defense team and lead the development of the next generation AI-powered security platform. This platform will be instrumental in enhancing our cyber defense capabilities across security operations, incident response, threat intelligence, and more. The security landscape is constantly evolving, and with the adoption of ML/GenAI backed by extensive heterogeneous data, security threats are inevitably broadened. With your deep and comprehensive expertise across major technology stacks, you will architect, implement and scale industry-leading security solutions for cyber defense. As a Staff Security Engineer, you are not only role models, but also empathic leaders. You are humble teachers, technically mentoring passionate engineers while also delivering uniquely challenging projects. You will have the opportunity to work on cutting-edge technologies, collaborate with cross-functional security and engineering\n   teams, and play a key role in shaping our cybersecurity strategy.\n\n   What the Candidate Will do\n     * Design and develop scalable, reliable, and high-performance platform and services for Uber's cyber defense\n     * Leverage AI models and algorithms to transform threat defense and response from human-driven to AI-driven\n     * Collaborate with cybersecurity experts to understand their requirements and translate them into scalable technical solutions\n     * Collaborate with cross-functional engineering teams to build end-to-end cyber defense solutions\n     * Deliver high-quality code, conduct code reviews, identify areas for improvement, and mentor junior security engineers\n\n   About the Team:\n\n   Our mission is to protect, defend, and secure Uber's products, infrastructure and data by building highly available, scalable and extensible security platforms and services. We are focused on proactively identifying and remediating security risks as well as swiftly detecting and mitigating security incidents. In the ever-evolving landscape of cybersecurity, we continuously adapt and evolve our defenses in order to always stay one step ahead of potential threats."
     },
     "analysis": {
-        "job_profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on security engineering and cyber defense, mentioning AI/ML and GenAI as tools to enhance these capabilities. However, it does not describe the core responsibilities of building, fine-tuning, or deploying generative models themselves, nor does it emphasize traditional ML model development. The primary focus is on applying AI to security problems rather than developing AI systems."
+        "profile_classification": {
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on security engineering and the application of AI/ML to enhance security operations. While it mentions AI models and algorithms, it does not detail the development, fine-tuning, or deployment of these models as core responsibilities. Instead, it emphasizes leveraging existing AI capabilities for security purposes and building security platforms. This aligns more with the use of AI tools to enhance productivity within a specific domain (cyber defense) rather than the core development of AI systems, making it fall under the 'Ambiguous' profile as per the coding book's definition."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "enhance our cyber defense capabilities across security operations, incident response, threat intelligence, and more",
-                            "justification": "This phrase describes the business domain and the specific areas where the security platform will be applied, indicating an understanding of the business context."
-                        },
-                        {
-                            "phrase": "architect, implement and scale industry-leading security solutions for cyber defense",
-                            "justification": "This highlights the need to align technical solutions with strategic security goals and the business's defense needs."
-                        },
-                        {
-                            "phrase": "shape our cybersecurity strategy",
-                            "justification": "This directly relates to understanding and influencing the business's strategic direction in cybersecurity."
-                        },
-                        {
-                            "phrase": "transform threat defense and response from human-driven to AI-driven",
-                            "justification": "This indicates a goal to translate business needs (improved threat defense) into technical solutions leveraging AI."
-                        },
-                        {
-                            "phrase": "Collaborate with cybersecurity experts to understand their requirements and translate them into scalable technical solutions",
-                            "justification": "This explicitly states the need to understand business/domain requirements and translate them into technical specifications."
-                        },
-                        {
-                            "phrase": "Our mission is to protect, defend, and secure Uber's products, infrastructure and data",
-                            "justification": "This defines the core business objective and mission of the team, which the role must understand and contribute to."
-                        },
-                        {
-                            "phrase": "proactively identifying and remediating security risks as well as swiftly detecting and mitigating security incidents",
-                            "justification": "This describes key business functions and goals within cybersecurity that the platform will support."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires understanding the broader business context of cybersecurity and aligning technical solutions with strategic goals for cyber defense.",
+                    "phrase": "architect, implement and scale industry-leading security solutions for cyber defense"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "lead the development of the next generation AI-powered security platform",
-                            "justification": "This indicates a core responsibility in building and developing a software platform."
-                        },
-                        {
-                            "phrase": "architect, implement and scale industry-leading security solutions",
-                            "justification": "This involves the design, coding, and deployment of software systems."
-                        },
-                        {
-                            "phrase": "Design and develop scalable, reliable, and high-performance platform and services for Uber's cyber defense",
-                            "justification": "This is a direct description of software development tasks, focusing on platform and service creation."
-                        },
-                        {
-                            "phrase": "build end-to-end cyber defense solutions",
-                            "justification": "This implies the development of complete software solutions."
-                        },
-                        {
-                            "phrase": "Deliver high-quality code, conduct code reviews, identify areas for improvement",
-                            "justification": "These are standard software development practices."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves understanding the needs of cybersecurity experts and translating them into technical requirements.",
+                    "phrase": "Collaborate with cybersecurity experts to understand their requirements and translate them into scalable technical solutions"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        {
-                            "phrase": "scale industry-leading security solutions",
-                            "justification": "Scaling solutions implies operational considerations for production environments."
-                        },
-                        {
-                            "phrase": "Design and develop scalable, reliable, and high-performance platform and services",
-                            "justification": "Scalability and reliability are key aspects of operations engineering for production systems."
-                        },
-                        {
-                            "phrase": "building highly available, scalable and extensible security platforms and services",
-                            "justification": "These terms directly relate to the operational requirements of production systems."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
+                    "category": "TASK3: Modeling",
+                    "justification": "The role explicitly mentions leveraging AI models and algorithms to transform threat defense and response.",
+                    "phrase": "Leverage AI models and algorithms to transform threat defense and response from human-driven to AI-driven"
+                },
                 {
-                    "technology_category": "TECH3: LLM / Generative Models",
-                    "technologies": [
-                        {
-                            "name": "AI models",
-                            "type": "TECH3"
-                        },
-                        {
-                            "name": "ML/GenAI",
-                            "type": "TECH3"
-                        }
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves designing and developing scalable, reliable, and high-performance platforms and services.",
+                    "phrase": "Design and develop scalable, reliable, and high-performance platform and services for Uber's cyber defense"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role requires building end-to-end cyber defense solutions by collaborating with engineering teams.",
+                    "phrase": "Collaborate with cross-functional engineering teams to build end-to-end cyber defense solutions"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role includes delivering high-quality code, conducting code reviews, and mentoring junior engineers, which are core software development practices.",
+                    "phrase": "Deliver high-quality code, conduct code reviews, identify areas for improvement, and mentor junior security engineers"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The role focuses on building and scaling industry-leading security solutions for cyber defense, which implies operationalizing and maintaining these systems.",
+                    "phrase": "architect, implement and scale industry-leading security solutions for cyber defense"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mission of the team is to build highly available, scalable and extensible security platforms and services, and to swiftly detect and mitigate security incidents, which involves operational aspects.",
+                    "phrase": "building highly available, scalable and extensible security platforms and services. We are focused on proactively identifying and remediating security risks as well as swiftly detecting and mitigating security incidents."
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "skills": [
-                        {
-                            "name": "collaborate with cross-functional security and engineering teams",
-                            "type": "SKILL1"
-                        },
-                        {
-                            "name": "collaborate with cybersecurity experts",
-                            "type": "SKILL1"
-                        },
-                        {
-                            "name": "collaborate with cross-functional engineering teams",
-                            "type": "SKILL1"
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "collaborate with cross-functional security and engineering teams"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "skills": [
-                        {
-                            "name": "architect, implement and scale industry-leading security solutions",
-                            "type": "SKILL3"
-                        },
-                        {
-                            "name": "Design and develop scalable, reliable, and high-performance platform and services",
-                            "type": "SKILL3"
-                        },
-                        {
-                            "name": "transform threat defense and response from human-driven to AI-driven",
-                            "type": "SKILL3"
-                        },
-                        {
-                            "name": "build end-to-end cyber defense solutions",
-                            "type": "SKILL3"
-                        },
-                        {
-                            "name": "proactively identifying and remediating security risks as well as swiftly detecting and mitigating security incidents",
-                            "type": "SKILL3"
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate with cybersecurity experts to understand their requirements"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "skills": [
-                        {
-                            "name": "lead the development of the next generation AI-powered security platform",
-                            "type": "SKILL5"
-                        },
-                        {
-                            "name": "play a key role in shaping our cybersecurity strategy",
-                            "type": "SKILL5"
-                        },
-                        {
-                            "name": "take initiative",
-                            "type": "SKILL5"
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate with cross-functional engineering teams"
                 },
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "skills": [
-                        {
-                            "name": "The security landscape is constantly evolving",
-                            "type": "SKILL2"
-                        },
-                        {
-                            "name": "continuously adapt and evolve our defenses",
-                            "type": "SKILL2"
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "technically mentoring passionate engineers"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "architect, implement and scale industry-leading security solutions for cyber defense"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "transform threat defense and response from human-driven to AI-driven"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "lead the development of the next generation AI-powered security platform"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "play a key role in shaping our cybersecurity strategy"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "mentor junior security engineers"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "AI models"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "ML/GenAI"
                 }
             ]
         }

@@ -28,97 +28,79 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The role heavily emphasizes prompt engineering, fine-tuning LLMs, and developing AI-driven solutions using generative models. This aligns directly with the core responsibilities of a GenAI Engineer, focusing on language models and their application in user-facing systems."
+            "rationale": "The job description heavily emphasizes working with Large Language Models (LLMs), including fine-tuning them with localized datasets and developing advanced prompting techniques like chain-of-thought. The core responsibilities align with building and refining AI-driven solutions using generative models, which is the primary focus of a GenAI Engineer. While some software development and data engineering aspects are implied, the central theme is the application and optimization of LLMs."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "leveraging large language models (LLMs)",
-                        "fine-tune models",
-                        "develop effective prompts",
-                        "Design, develop, and refine prompts using advanced techniques such as one-shot prompting, few-shot prompting, chain-of-thought, and tree-of-thought",
-                        "Fine-tune LLMs with localized datasets, structuring data into relevant tokens to enhance performance"
-                    ],
-                    "justification": "These phrases directly relate to the creation, adaptation, and optimization of generative models, specifically LLMs, including techniques for improving their output and performance."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Fine-tune LLMs with localized datasets, structuring data into relevant tokens to enhance performance' directly relates to the process of adapting and training machine learning models, specifically LLMs.",
+                    "phrase": "Fine-tune LLMs with localized datasets, structuring data into relevant tokens to enhance performance."
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "drive successful outcomes across projects",
-                        "ensure results align with objectives",
-                        "deliver optimized AI-driven solutions"
-                    ],
-                    "justification": "These phrases indicate the application of AI models to achieve specific project goals and deliver functional solutions, which is a key aspect of software development in an AI context."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Design, develop, and refine prompts using advanced techniques such as one-shot prompting, few-shot prompting, chain-of-thought, and tree-of-thought' describes the core activity of optimizing and creating inputs for generative models to achieve desired outputs.",
+                    "phrase": "Design, develop, and refine prompts using advanced techniques such as one-shot prompting, few-shot prompting, chain-of-thought, and tree-of-thought."
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "align with objectives",
-                        "Analyze project requirements"
-                    ],
-                    "justification": "Understanding project requirements and aligning AI solutions with business objectives are crucial for effective business understanding in a technical role."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Analyze project requirements and deliver optimized AI-driven solutions' indicates the need to understand business needs and translate them into technical AI solutions.",
+                    "phrase": "Analyze project requirements and deliver optimized AI-driven solutions."
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Record and transfer project-related knowledge to ensure effective documentation and scalability"
-                    ],
-                    "justification": "Ensuring documentation and scalability points towards operational considerations for deployed AI solutions."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "LLM / Generative Models",
-                    "type": "TECH3",
-                    "mentions": [
-                        "large language models (LLMs)"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'ensure results align with objectives' and 'deliver optimized AI-driven solutions' implies the development and integration of AI capabilities into a functional outcome, which can be considered a software development aspect.",
+                    "phrase": "ensure results align with objectives"
                 },
                 {
-                    "tech_name": "LLM Frameworks & Libraries",
-                    "type": "TECH4",
-                    "mentions": [
-                        "one-shot prompting",
-                        "few-shot prompting",
-                        "chain-of-thought",
-                        "tree-of-thought"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'deliver optimized AI-driven solutions' implies the creation and delivery of functional solutions that leverage AI.",
+                    "phrase": "deliver optimized AI-driven solutions."
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Record and transfer project-related knowledge to ensure effective documentation and scalability' touches upon knowledge management and documentation, which are important for maintaining and scaling AI systems in production.",
+                    "phrase": "Record and transfer project-related knowledge to ensure effective documentation and scalability."
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "type": "SKILL1",
-                    "mentions": [
-                        "collaborating with teams"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "collaborating with teams"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "type": "SKILL2",
-                    "mentions": [
-                        "innovative"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "drive successful outcomes"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "type": "SKILL3",
-                    "mentions": [
-                        "drive successful outcomes",
-                        "ensure results align with objectives",
-                        "deliver optimized AI-driven solutions"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "deliver optimized AI-driven solutions"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "type": "SKILL5",
-                    "mentions": [
-                        "innovative",
-                        "Instrumental in leveraging"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "innovative Prompt Engineer"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "large language models (LLMs)"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "one-shot prompting"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "few-shot prompting"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "chain-of-thought"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "tree-of-thought"
                 }
             ]
         }

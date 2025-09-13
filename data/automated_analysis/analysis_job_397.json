@@ -27,103 +27,96 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description mentions 'machine learning' and 'GenAI technologies' but focuses heavily on general software development, prototyping, and customer engagement across a broad range of disciplines. It lacks specific details on core AI/ML tasks like model training, fine-tuning, or advanced generative model development, making it difficult to classify as a specialized AI role."
+            "profile": "Ambiguous",
+            "rationale": "The job description emphasizes a broad range of software development disciplines including back-end, front-end, networking, DevOps, machine learning, and data science. While it mentions 'GenAI technologies' and 'machine learning', it does not go into sufficient detail about specific generative AI tasks, model fine-tuning, RAG systems, or LLM frameworks to classify it as a 'GenAI Engineer'. Similarly, it lacks the specific focus on predictive modeling and MLOps required for an 'ML Engineer'. The role appears to be a generalist software development role that *uses* AI technologies rather than specializing in their development or deployment, fitting the 'Ambiguous' profile."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "Design, develop, test and deploy well-architected software",
-                        "back-end, front-end, networking, DevOps, machine learning, data science, data architecture",
-                        "rapidly design and develop prototypes to solve them",
-                        "showcase the functionality you've written in demos",
-                        "The code we write provides immediate value for customers by showing how technology can solve their problems."
-                    ],
-                    "justification": "The job explicitly states designing, developing, testing, and deploying software, and mentions various engineering disciplines including back-end, front-end, and DevOps, which are core to software development. The emphasis on rapid prototyping and showcasing functionality further aligns with software development practices."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description explicitly states 'Design, develop, test and deploy well-architected software' and mentions 'back-end, front-end, networking, DevOps', which are core software development activities.",
+                    "phrase": "Design, develop, test and deploy well-architected software"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "learn about their business challenges",
-                        "prototypes to solve them",
-                        "see the difference you've made when customers deploy solutions into their production environments.",
-                        "work on our customer's challenges that don't have cookie-cutter solutions."
-                    ],
-                    "justification": "The role requires understanding customer business challenges and developing solutions to address them, indicating a need to align technical work with business needs and customer problems."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'practice a range of disciplines: back-end, front-end, networking, DevOps, machine learning, data science, data architecture' indicates a broad software engineering scope.",
+                    "phrase": "practice a range of disciplines: back-end, front-end, networking, DevOps, machine learning, data science, data architecture"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "DevOps"
-                    ],
-                    "justification": "The job description explicitly lists 'DevOps' as one of the disciplines the engineer will practice, which falls under Operations Engineering."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The description mentions 'Collaborate with customers through full engagements; you'll learn about their business challenges, rapidly design and develop prototypes to solve them', indicating a need to understand business problems.",
+                    "phrase": "learn about their business challenges"
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "machine learning",
-                        "data science",
-                        "GenAI technologies"
-                    ],
-                    "justification": "The job mentions 'machine learning', 'data science', and 'GenAI technologies' as areas of practice, which are related to modeling, although the depth of involvement is not specified."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "Cloud Platforms & Services",
-                    "type": "TECH2",
-                    "mentions": [
-                        "AWS"
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'machine learning, data science' suggests involvement in modeling tasks, although not specified as generative or predictive.",
+                    "phrase": "machine learning, data science"
                 },
                 {
-                    "tech_name": "LLM / Generative Models",
-                    "type": "TECH3",
-                    "mentions": [
-                        "GenAI"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'rapidly design and develop prototypes to solve them' points to software development for creating solutions.",
+                    "phrase": "rapidly design and develop prototypes to solve them"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The description states 'showcase the functionality you've written in demos and finally see the difference you've made when customers deploy solutions into their production environments', which involves building and deploying software.",
+                    "phrase": "showcase the functionality you've written in demos and finally see the difference you've made when customers deploy solutions into their production environments"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of 'DevOps' as one of the disciplines practiced indicates involvement in operations engineering.",
+                    "phrase": "DevOps"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'GenAI technologies' suggests some level of involvement with generative AI models, though the specifics are not detailed.",
+                    "phrase": "GenAI technologies"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Dive Deep to figure out the best approach' in the context of customer challenges and technologies implies research and development, which can include modeling.",
+                    "phrase": "Dive Deep to figure out the best approach"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The statement 'The code we write provides immediate value for customers by showing how technology can solve their problems' highlights the software development aspect of creating solutions.",
+                    "phrase": "The code we write provides immediate value for customers by showing how technology can solve their problems"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "type": "SKILL1",
-                    "mentions": [
-                        "Collaborate with customers",
-                        "showcase the functionality you've written in demos"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "problem-solvers"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "type": "SKILL2",
-                    "mentions": [
-                        "practice a range of disciplines",
-                        "We are curious generalists who don't pigeon-hole ourselves",
-                        "pick the right tools for the job",
-                        "Dive Deep to figure out the best approach"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "customer's challenges that don't have cookie-cutter solutions"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "type": "SKILL3",
-                    "mentions": [
-                        "problem-solvers and builders",
-                        "customer's challenges that don't have cookie-cutter solutions",
-                        "Dive Deep to figure out the best approach",
-                        "prototypes to solve them"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "We are curious generalists who don't pigeon-hole ourselves as particular \"flavors\" of engineer and never say \"that's not my job\"."
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "type": "SKILL5",
-                    "mentions": [
-                        "rapidly design and develop prototypes",
-                        "pick the right tools for the job",
-                        "We often don't have the answers right away, and are expected to Dive Deep"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate with customers through full engagements"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "rapidly design and develop prototypes"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Dive Deep to figure out the best approach"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "AWS"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "open-source technologies"
                 }
             ]
         }

@@ -28,91 +28,67 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description emphasizes integrating ML models into deployable applications and microservices, aligning with the ML Engineer profile's focus on productionizing models. While it mentions design reviews and code feedback, the core tasks revolve around model integration and deployment rather than building user-facing generative AI applications."
+            "rationale": "The job description emphasizes integrating ML models into deployable applications and microservices, focusing on productionization and code reviews, which aligns with the core responsibilities of an ML Engineer. While Generative AI is not explicitly mentioned, the focus on building and deploying ML models into production systems points towards an ML Engineer profile."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Software Development",
-                    "phrase": "Integrate ML models into deployable Python applications and microservices",
-                    "justification": "This phrase directly describes the process of taking trained ML models and embedding them into functional software applications and services, which is a core aspect of software development in an ML context."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Integrate ML models into deployable Python applications and microservices' directly relates to building and deploying software applications.",
+                    "phrase": "Integrate ML models into deployable Python applications and microservices"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrase": "using cloud infrastructure",
-                    "justification": "This indicates the use of cloud platforms for deploying and running applications, a common practice in modern software development, especially for ML-powered services."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'using cloud infrastructure' implies the deployment and management of ML models within a cloud environment, a key aspect of MLOps.",
+                    "phrase": "using cloud infrastructure"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrase": "Integrate ML models into deployable Python applications and microservices",
-                    "justification": "The act of making models 'deployable' and part of 'microservices' inherently involves operational considerations for production environments, fitting into MLOps."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrases 'Participate in and lead design reviews with peers and stakeholders' and 'Review code developed by other developers and provide feedback' indicate strong communication and collaboration skills.",
+                    "phrase": "Participate in and lead design reviews with peers and stakeholders"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrase": "using cloud infrastructure",
-                    "justification": "Deployment and management of applications on cloud infrastructure are key components of MLOps."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrases 'Participate in and lead design reviews with peers and stakeholders' and 'Review code developed by other developers and provide feedback' indicate strong communication and collaboration skills.",
+                    "phrase": "Review code developed by other developers and provide feedback"
                 },
                 {
-                    "task_name": "Communication & Collaboration",
-                    "phrase": "Participate in and lead design reviews with peers and stakeholders.",
-                    "justification": "This directly relates to the ability to discuss technical designs and solutions with colleagues and other interested parties."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'Contribute to system documentation and team knowledge sharing' highlights the importance of sharing information and collaborating within the team.",
+                    "phrase": "Contribute to system documentation and team knowledge sharing"
                 },
                 {
-                    "task_name": "Communication & Collaboration",
-                    "phrase": "Review code developed by other developers and provide feedback to ensure the consistent application of team best practices and standards.",
-                    "justification": "This involves interacting with other team members to ensure code quality and adherence to standards, a key aspect of collaboration."
-                },
-                {
-                    "task_name": "Communication & Collaboration",
-                    "phrase": "Contribute to system documentation and team knowledge sharing.",
-                    "justification": "Sharing information and creating documentation are essential for effective team communication and knowledge management."
-                },
-                {
-                    "task_name": "Learning & Adaptability",
-                    "phrase": "ensure the consistent application of team best practices and standards.",
-                    "justification": "Maintaining and applying best practices implies a need to stay updated with and adapt to evolving team standards and methodologies."
-                },
-                {
-                    "task_name": "Problem Solving & Pragmatism",
-                    "phrase": "Integrate ML models into deployable Python applications and microservices",
-                    "justification": "Integrating models into production systems often involves overcoming technical challenges and finding practical solutions to make them work reliably."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH1: Programming Languages",
-                    "phrase": "Python"
-                },
-                {
-                    "tech_name": "TECH2: Cloud Platforms & Services",
-                    "phrase": "cloud infrastructure"
-                },
-                {
-                    "tech_name": "TECH10: Data Modeling",
-                    "phrase": "ML models"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "justification": "The phrase 'provide feedback to ensure the consistent application of team best practices and standards' implies a focus on quality and adherence to established methods, suggesting a pragmatic approach to problem-solving.",
+                    "phrase": "provide feedback to ensure the consistent application of team best practices and standards"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrase": "Participate in and lead design reviews with peers and stakeholders."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Participate in and lead design reviews with peers and stakeholders"
                 },
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrase": "Review code developed by other developers and provide feedback to ensure the consistent application of team best practices and standards."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Review code developed by other developers and provide feedback"
                 },
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrase": "Contribute to system documentation and team knowledge sharing."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Contribute to system documentation and team knowledge sharing"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrase": "ensure the consistent application of team best practices and standards."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "provide feedback to ensure the consistent application of team best practices and standards"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "Integrate ML models into deployable Python applications and microservices"
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "cloud infrastructure"
                 }
             ]
         }

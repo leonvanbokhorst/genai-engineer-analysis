@@ -27,119 +27,145 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The role focuses heavily on performance analysis and optimization of AI workloads, particularly LLM training, but lacks the core development, fine-tuning, or deployment of generative models or predictive systems. It is more about understanding and improving the performance of existing AI infrastructure rather than building AI models or applications."
+            "profile": "ML Engineer",
+            "rationale": "The job description heavily emphasizes profiling, analyzing, and optimizing AI workloads, specifically large-scale deep learning LLM training, with a focus on distributed systems, communication, and networking. While it mentions LLMs, the core tasks revolve around performance analysis, bottleneck identification, and optimization of existing models and infrastructure, aligning with the 'ML Engineer' profile's focus on building and maintaining production-grade systems and optimizing models, rather than developing novel generative AI applications or advanced prompt engineering, which are central to the 'GenAI Engineer' profile."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "AI workloads",
-                        "DL models",
-                        "distributed Deep Learning LLM training",
-                        "deep learning LLM training",
-                        "AI workloads and benchmarking for distributed LLM training"
-                    ],
-                    "justification": "The job description repeatedly mentions 'AI workloads' and 'DL models', specifically focusing on 'LLM training', which falls under the domain of creating or adapting machine learning models, even if the primary focus is on their performance rather than their creation."
+                    "category": "TASK3: Modeling",
+                    "justification": "The job involves researching AI workloads and DL models specifically tailored for large-scale deep learning LLM training, which directly relates to the creation, adaptation, and optimization of models.",
+                    "phrase": "research AI workloads and DL models specifically tailored for large-scale deep learning LLM training"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "Implement performance analysis tools",
-                        "Programming Languages: Python, Bash and C languages"
-                    ],
-                    "justification": "The role requires implementing tools and uses programming languages like Python, Bash, and C, which are core to software development, even if the output is for analysis rather than a user-facing application."
+                    "category": "TASK3: Modeling",
+                    "justification": "Benchmarking, profiling, and analyzing performance to find bottlenecks and identify areas for improvement and optimization are core activities in model performance tuning.",
+                    "phrase": "Benchmarking, Profiling, and Analyzing the performance to find bottlenecks and identify areas of improvement and optimizations"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "large GPUs and CPUs scale clusters",
-                        "distributed Deep Learning LLM training",
-                        "performance analysis tools and methodologies",
-                        "Benchmarking, Profiling, and Analyzing the performance",
-                        "networking aspects",
-                        "performance test planning",
-                        "set performance expectations",
-                        "work to reach the performance targets limits",
-                        "high-performance Networking (RDMA, MPI)",
-                        "NVIDIA GPUs, CUDA library",
-                        "networking collective communication libraries (such as NCCL)",
-                        "protocols (such as RoCE and RDMA)",
-                        "Linux OS distros",
-                        "CUDA, and NCCL libraries",
-                        "Congestion Control algorithms",
-                        "System knowledge and understanding (Intel / AMD / ARM CPUs, NVIDIA GPUs, HCA, Memory, PCI)"
-                    ],
-                    "justification": "The role involves working with large-scale clusters, analyzing performance, defining targets, and understanding system components and networking protocols crucial for production environments, aligning with the operational aspects of managing and optimizing AI systems."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology_category": "TECH3: LLM / Generative Models",
-                    "technologies": [
-                        "LLM"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "Implementing performance analysis tools requires software development skills to create and maintain the necessary utilities.",
+                    "phrase": "Implement performance analysis tools"
                 },
                 {
-                    "technology_category": "TECH10: Data Modeling",
-                    "technologies": [
-                        "TensorFlow",
-                        "PyTorch"
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Collaborating with various teams (HW to SW) to provide performance analysis insights requires understanding the impact of performance on different parts of the system and business.",
+                    "phrase": "Collaborating with many teams from HW to SW to provide performance analysis insights"
                 },
                 {
-                    "technology_category": "TECH1: Programming Languages",
-                    "technologies": [
-                        "Python",
-                        "Bash",
-                        "C"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Defining performance test planning, setting performance expectations, and working to reach performance targets are crucial aspects of ensuring models and systems perform as expected in a production-like environment.",
+                    "phrase": "Define performance test planning , set performance expectations for new technologies and solutions, and work to reach the performance targets limits"
                 },
                 {
-                    "technology_category": "TECH2: Cloud Platforms & Services",
-                    "technologies": [
-                        "NVIDIA GPUs",
-                        "CUDA library",
-                        "NCCL",
-                        "HCA",
-                        "Intel / AMD / ARM CPUs"
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'distributed Deep Learning LLM training' directly points to the core activity of training and optimizing deep learning models.",
+                    "phrase": "distributed Deep Learning LLM training"
                 },
                 {
-                    "technology_category": "TECH6: MLOps & Data Pipelines",
-                    "technologies": [
-                        "RDMA",
-                        "MPI",
-                        "RoCE"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves working with and developing performance analysis tools and methodologies, which falls under software development.",
+                    "phrase": "develop performance analysis tools and methodologies"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "profile and analyze",
-                        "dive deeply into the details",
-                        "understand performance expectation, limitations, and bottlenecks",
-                        "find bottlenecks and identify areas of improvement and optimizations",
-                        "strong analytical and problem-solving skills",
-                        "Strong Performance Analysis skills and methodologies"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Fast and self-learning capabilities"
                 },
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "Fast and self-learning capabilities"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "strong analytical and problem-solving skills"
                 },
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Collaborating with many teams from HW to SW",
-                        "Team player with good communication and interpersonal skills"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Team player with good communication and interpersonal skills"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "research AI workloads"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLM"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Bash"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "C languages"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "deep learning frameworks"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "TensorFlow"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "PyTorch"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "NVIDIA GPUs"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "CUDA library"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "NCCL"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "RDMA"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "MPI"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "RoCE"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "networking collective communication libraries"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Congestion Control algorithms"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "HCAs"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Switches"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "CPUs"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Systems"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Linux OS distros"
                 }
             ]
         }

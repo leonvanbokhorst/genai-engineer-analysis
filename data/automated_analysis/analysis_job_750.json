@@ -27,53 +27,43 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job title and description focus heavily on cloud infrastructure and general AI solutions without specifying generative AI technologies or core ML tasks. While it mentions 'GenAI Acceleration Team', the responsibilities are too broad and lack the specific technical depth required for ML Engineer or GenAI Engineer profiles."
+            "profile": "Ambiguous",
+            "rationale": "The job title is 'Cloud Engineer' and the description focuses on designing, building, and managing cloud solutions. While it mentions 'GenAI Acceleration Team' and 'AI solutions', it lacks specific details about core AI/ML tasks such as model development, fine-tuning, or deep involvement with generative models. The responsibilities listed are general engineering tasks rather than specialized AI engineering roles. Therefore, it does not fit the criteria for ML Engineer or GenAI Engineer and is classified as Ambiguous."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "improve the efficiency and effectiveness of our grid management operations",
-                        "reducing the pressure on scarce staff capacity",
-                        "advancing the energy transition"
-                    ],
-                    "justification": "These phrases indicate an understanding of the business context and strategic goals related to grid management, staff capacity, and the energy transition."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'design, build and implement advanced cloud and AI solutions' and 'designing, building, and managing your solutions' implies the development and deployment of software systems, which falls under software development.",
+                    "phrase": "design, build and implement advanced cloud and AI solutions"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "design, build and implement advanced cloud and AI solutions"
-                    ],
-                    "justification": "This phrase directly relates to the development and implementation of technical solutions, which falls under software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'designing, building, and managing your solutions' directly relates to the creation and maintenance of software or systems.",
+                    "phrase": "designing, building, and managing your solutions"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "designing, building, and managing your solutions"
-                    ],
-                    "justification": "The responsibility to 'manage' solutions implies operational aspects, which can overlap with MLOps, especially in a cloud context."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'improve the efficiency and effectiveness of our grid management operations, with a focus on reducing the pressure on scarce staff capacity and advancing the energy transition' indicates an understanding of business goals and how technical solutions contribute to them.",
+                    "phrase": "improve the efficiency and effectiveness of our grid management operations, with a focus on reducing the pressure on scarce staff capacity and advancing the energy transition"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "justification": "The phrase 'think along with the team about how we can best use our techniques and tools' suggests a problem-solving approach and a pragmatic consideration of how to leverage existing resources effectively.",
+                    "phrase": "think along with the team about how we can best use our techniques and tools"
                 }
             ],
-            "technologies": [],
             "soft_skills": [
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        "think along with the team about how we can best use our techniques and tools"
-                    ],
-                    "justification": "This phrase suggests a need to explore and adapt to new techniques and tools."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "think along with the team about how we can best use our techniques and tools"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        "You take responsibility for designing, building, and managing your solutions."
-                    ],
-                    "justification": "This highlights taking initiative and ownership of the solutions developed."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "You take responsibility for designing, building, and managing your solutions."
                 }
-            ]
+            ],
+            "technologies": []
         }
     }
 }

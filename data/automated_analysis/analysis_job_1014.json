@@ -28,79 +28,69 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The role emphasizes building applications that leverage internal documents using AI, specifically mentioning GPT models and machine learning. It also involves developing a 'case-builder' and improving a codebase, aligning with the GenAI Engineer's focus on user-facing systems and integrating generative models."
+            "rationale": "The job description emphasizes building systems that utilize internal documents (RAG), setting up a case builder, and experimenting with machine learning models including GPT. This aligns with the core responsibilities of a GenAI Engineer, focusing on developing applications with generative models and integrating them into user-facing systems, rather than purely predictive modeling or data engineering."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "experimenten om het product te verbeteren met machine learning modellen (zowel open-source als GPT)"
-                    ],
-                    "justification": "This phrase directly refers to improving a product using machine learning models, including generative models like GPT, which is a core aspect of the Modeling task in GenAI."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves working on the codebase, which is a core aspect of software development. The mention of 'back-end developer' also directly points to this category.",
+                    "phrase": "back-end developer"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "back-end developer",
-                        "het mogelijk maken om interne documenten van onze klanten te gebruiken",
-                        "een case-builder helpen op te zetten",
-                        "continue verbeteringen aan onze codebase door te voeren"
-                    ],
-                    "justification": "The role is explicitly for a 'back-end developer' and involves building functionalities like using customer documents, setting up a 'case-builder', and maintaining the codebase, all of which fall under traditional software development for applications."
+                    "category": "TASK4: Software Development",
+                    "justification": "The responsibility to 'continue improvements to our codebase' is a direct software development task.",
+                    "phrase": "continue improvements to our codebase"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "continue verbeteringen aan onze codebase door te voeren"
-                    ],
-                    "justification": "While not explicitly MLOps, 'continuous improvements to our codebase' implies a need for robust deployment and maintenance practices, which are foundational to MLOps, especially when integrating ML models."
+                    "category": "TASK3: Modeling",
+                    "justification": "The description explicitly mentions working with 'machine learning models' and specifically 'GPT', which falls under generative modeling.",
+                    "phrase": "machine learning models (zowel open-source als GPT)"
                 },
                 {
-                    "task_category": "TASK2: Data Engineering",
-                    "phrases": [
-                        "het mogelijk maken om interne documenten van onze klanten te gebruiken"
-                    ],
-                    "justification": "Enabling the use of internal customer documents implies the need to process, store, and make this data accessible for AI models, which touches upon data engineering aspects."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'experimenteren om het product te verbeteren' implies the development and adaptation of models.",
+                    "phrase": "experimenteren om het product te verbeteren"
                 },
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "interne documenten van onze klanten te gebruiken",
-                        "een case-builder helpen op te zetten"
-                    ],
-                    "justification": "Understanding how to leverage customer documents and build a 'case-builder' requires understanding the business needs and how AI can address them."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology_category": "TECH3: LLM / Generative Models",
-                    "technologies": [
-                        "GPT"
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'GPT' directly refers to using large language models.",
+                    "phrase": "GPT"
                 },
                 {
-                    "technology_category": "TECH10: Data Modeling",
-                    "technologies": [
-                        "machine learning modellen"
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The task of 'making it possible to use internal documents of our clients' implies data handling and preparation for use in AI models, which is part of data engineering.",
+                    "phrase": "internal documents of our clients"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Setting up a 'case-builder' suggests building or integrating a functional component of a software system.",
+                    "phrase": "case-builder"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "justification": "The statement 'opportunity to increase your AI knowledge' and 'when desired, you can get started with experiments' indicates a focus on learning and adapting to new AI technologies.",
+                    "phrase": "opportunity to increase your AI knowledge"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "skills": [
-                        "interesse in AI",
-                        "krijg je de mogelijkheid om je AI kennis te vergroten",
-                        "wanneer gewenst, zelf aan de slag kan gaan met experimenten"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "opportunity to increase your AI knowledge"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "skills": [
-                        "zelf aan de slag kan gaan met experimenten om het product te verbeteren"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "experimenteren om het product te verbeteren"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "GPT"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "machine learning models"
                 }
             ]
         }

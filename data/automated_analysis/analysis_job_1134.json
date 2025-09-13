@@ -28,109 +28,95 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes building user-facing applications powered by generative AI, including prompt engineering, fine-tuning, and integrating AI into full-stack products. The focus on end-to-end product lifecycle and creating novel educational experiences with LLMs aligns directly with the GenAI Engineer profile."
+            "rationale": "The job description heavily emphasizes the development and deployment of applications built on generative AI, including 'architecting this AI-powered learning revolution', 'seamlessly weave AI magic across front-end interfaces, back-end algorithms, and end-to-end product experiences', and 'continually experimenting with and integrating the latest generative AI tech'. The core responsibilities align with building user-facing software systems and leveraging LLMs, which are hallmarks of a GenAI Engineer profile. While there's mention of 'full-stack AI wizard' and 'full-stack applications', the focus is on integrating AI capabilities into these applications rather than traditional full-stack development in isolation."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        "redefine the frontier of K-12 learning",
-                        "transforming education",
-                        "align development with learner needs",
-                        "gather requirements",
-                        "learner needs"
-                    ],
-                    "justification": "These phrases indicate an understanding of the educational domain, the business goals of transforming learning, and the need to align technical development with user (learner) requirements."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'continually experimenting with and integrating the latest generative AI tech to pioneer novel educational experiences' directly points to the development and adaptation of generative AI models.",
+                    "phrase": "continually experimenting with and integrating the latest generative AI tech to pioneer novel educational experiences"
                 },
                 {
-                    "task_name": "TASK3: Modeling",
-                    "phrases": [
-                        "cutting-edge AI",
-                        "architecting this AI-powered learning revolution",
-                        "seamlessly weave AI magic across front-end interfaces, back-end algorithms",
-                        "integrating the latest generative AI tech",
-                        "pioneer novel educational experiences",
-                        "Leveraging AI-driven automation across testing, debugging and beyond",
-                        "Develop and deliver engaging, human-centered AI applications"
-                    ],
-                    "justification": "The description repeatedly mentions 'AI', 'generative AI tech', and 'AI-powered learning revolution', indicating a focus on developing and integrating AI models, particularly generative ones, into applications."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions 'architecting this AI-powered learning revolution', 'code, and ship sophisticated full-stack applications and interactive AI tools', and 'seamlessly weave AI magic across front-end interfaces, back-end algorithms, and end-to-end product experiences', indicating the development of software systems that incorporate AI.",
+                    "phrase": "architecting this AI-powered learning revolution"
                 },
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        "full-stack AI wizard",
-                        "architecting this AI-powered learning revolution",
-                        "envision, code, and ship sophisticated full-stack applications",
-                        "interactive AI tools",
-                        "seamlessly weave AI magic across front-end interfaces, back-end algorithms, and end-to-end product experiences",
-                        "full-stack applications",
-                        "coding narrow AI features in isolation of overarching product goals",
-                        "Develop and deliver engaging, human-centered AI applications"
-                    ],
-                    "justification": "The role explicitly calls for 'full-stack' development, 'coding', 'shipping applications', and integrating AI across front-end and back-end, which are core software development activities."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'code, and ship sophisticated full-stack applications and interactive AI tools' clearly describes the development and deployment of software applications.",
+                    "phrase": "code, and ship sophisticated full-stack applications and interactive AI tools"
                 },
                 {
-                    "task_name": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Owning end-to-end product lifecycle, from gathering requirements to development, launch and iterative enhancement",
-                        "Leveraging AI-driven automation across testing, debugging and beyond to maximize development velocity and robustness",
-                        "Wasting hours on manual QA; you'll leverage AI-powered testing to maximize efficiency"
-                    ],
-                    "justification": "The emphasis on owning the 'end-to-end product lifecycle', including 'launch and iterative enhancement', and using 'AI-driven automation across testing, debugging' points to operational aspects of deploying and maintaining AI systems."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "phrases": [
-                        "generative AI tech"
-                    ],
-                    "justification": "Directly mentions 'generative AI tech' as a core component of the role."
+                    "category": "TASK4: Software Development",
+                    "justification": "The statement 'seamlessly weave AI magic across front-end interfaces, back-end algorithms, and end-to-end product experiences' highlights the integration of AI into various layers of software development.",
+                    "phrase": "seamlessly weave AI magic across front-end interfaces, back-end algorithms, and end-to-end product experiences"
                 },
                 {
-                    "tech_name": "TECH4: LLM Frameworks & Libraries",
-                    "phrases": [
-                        "interactive AI tools"
-                    ],
-                    "justification": "While not explicitly naming frameworks, 'interactive AI tools' implies the use of libraries and frameworks to build these."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'own and optimize the entire product lifecycle' implies managing the development and maintenance of a product, which is a core software development responsibility.",
+                    "phrase": "own and optimize the entire product lifecycle"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'partnering closely with stakeholders to ensure we're nailing learner needs' indicates an understanding of business context and translating user needs into technical solutions.",
+                    "phrase": "partnering closely with stakeholders to ensure we're nailing learner needs"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Leveraging AI-driven automation across testing, debugging and beyond to maximize development velocity and robustness' points to using AI for operational tasks like testing and debugging, which falls under MLOps principles.",
+                    "phrase": "Leveraging AI-driven automation across testing, debugging and beyond to maximize development velocity and robustness"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Develop and deliver engaging, human-centered AI applications that demonstrably accelerate learning outcomes and efficiency' describes the core task of building and deploying AI-powered software.",
+                    "phrase": "Develop and deliver engaging, human-centered AI applications that demonstrably accelerate learning outcomes and efficiency"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Partnering with stakeholders to align development with learner needs and garner insights to fuel cycles of innovation' shows an understanding of business goals and user needs to drive development.",
+                    "phrase": "Partnering with stakeholders to align development with learner needs and garner insights to fuel cycles of innovation"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'you'll leverage AI-powered testing to maximize efficiency' indicates the use of AI for automating testing processes, which is part of MLOps.",
+                    "phrase": "you'll leverage AI-powered testing to maximize efficiency"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Partnering with stakeholders to align development with learner needs and garner insights to fuel cycles of innovation",
-                        "Partnering closely with stakeholders to ensure we're nailing learner needs"
-                    ],
-                    "justification": "The role requires close collaboration with stakeholders to understand needs and drive innovation."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "You'll wield autonomy and creative freedom"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "architecting this AI-powered learning revolution",
-                        "envision, code, and ship sophisticated full-stack applications",
-                        "drive learning efficiency to unprecedented heights",
-                        "pioneer novel educational experiences",
-                        "maximize development velocity and robustness",
-                        "demonstrably accelerate learning outcomes and efficiency"
-                    ],
-                    "justification": "The job involves solving complex problems in education through AI, with a focus on tangible outcomes and efficiency."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "You'll own and optimize the entire product lifecycle"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "full-stack AI wizard",
-                        "redefine the frontier of K-12 learning",
-                        "wield autonomy and creative freedom",
-                        "envision, code, and ship sophisticated full-stack applications",
-                        "seamlessly weave AI magic",
-                        "Own and optimize the entire product lifecycle",
-                        "pioneer novel educational experiences",
-                        "lead the charge"
-                    ],
-                    "justification": "The description emphasizes autonomy, creative freedom, ownership of the product lifecycle, and a pioneering spirit to redefine learning."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "partnering closely with stakeholders"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "ensure we're nailing learner needs"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "fuel cycles of innovation"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "lead the charge"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Continually experimenting with and integrating the latest generative AI tech"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "generative AI tech"
                 }
             ]
         }

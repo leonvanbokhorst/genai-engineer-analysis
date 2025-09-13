@@ -27,99 +27,95 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on business understanding and client-facing consultancy rather than core AI/ML engineering tasks. While it mentions NLP and time series modeling, it lacks specific details on model development, MLOps, or generative AI techniques, making it difficult to classify as a specialized AI role."
+            "profile": "Ambiguous",
+            "rationale": "The job description is for a 'Data Engineer' but the responsibilities described are very broad and lean towards consultancy and business understanding rather than deep technical AI/ML engineering. While it mentions NLP, time series modeling, and image recognition, it doesn't specify building or fine-tuning models, nor does it mention specific generative AI technologies or frameworks. The focus is on translating business demands into solutions, data analysis, and leading less experienced colleagues, which aligns more with a consulting or general data role rather than a specialized ML or GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "the place where technology and business come together is the platform",
-                        "works with its clients to enable them to make the best out of their digital transformation",
-                        "support clients in their migration from classical application to the digital world",
-                        "address these objectives",
-                        "create insights that solve business problems in all industries and for all business functions",
-                        "facing clients with business demands to be translated into solutions"
-                    ],
-                    "justification": "These phrases highlight the role's focus on understanding client needs, business goals, and translating them into technical solutions, which is the core of Business Understanding."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The description emphasizes working closely with consultants, engineers, and architects to create insights that solve business problems, translating client business demands into solutions, and acting as a trusted advisor.",
+                    "phrase": "create insights that solve business problems"
                 },
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "diverse data Architect projects",
-                        "Data Engineering, Science, Consultancy and Architecture"
-                    ],
-                    "justification": "The job title and mention of 'Data Engineering' and 'data Architect projects' directly point to tasks related to data infrastructure and architecture, fitting the Data Engineering category."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves translating client business demands into solutions with respect to scope, code criteria, engineering frameworks, data analysis and recommendations.",
+                    "phrase": "translating client business demands into solutions"
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "natural language processing",
-                        "time series modelling",
-                        "image recognition"
-                    ],
-                    "justification": "The mention of specific AI/ML domains like NLP, time series modeling, and image recognition indicates involvement in modeling tasks, even if the depth is not fully specified."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The job title is 'Data Engineer' and the description mentions diverse data Architect projects and specializing in Data Engineering.",
+                    "phrase": "diverse data Architect projects"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "migration from classical application to the digital world",
-                        "implementation and production"
-                    ],
-                    "justification": "Phrases related to digital transformation and bringing solutions to 'implementation and production' suggest software development aspects, though not the primary focus."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The role involves data analysis as part of translating business demands into solutions.",
+                    "phrase": "data analysis"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [],
-                    "justification": "There are no explicit mentions of deploying, monitoring, or maintaining models in production, which are key aspects of MLOps."
+                    "category": "TASK3: Modeling",
+                    "justification": "The description mentions working on projects spanning fields such as natural language processing, time series modelling and image recognition, which are areas involving modeling.",
+                    "phrase": "natural language processing, time series modelling and image recognition"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves translating business demands into solutions with respect to code criteria and engineering frameworks, and leading to implementation and production.",
+                    "phrase": "code criteria, engineering frameworks"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions leading to implementation and production as part of the day-to-day activities.",
+                    "phrase": "implementation and production"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The role requires working closely with consultants, engineers, and architects, and in a multi-disciplinary agile team.",
+                    "phrase": "work closely with our consultants, engineers, and architects"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The description mentions knowledge-sharing and cooperation across competences is very much encouraged and expected.",
+                    "phrase": "Knowledge-sharing and cooperation across competences"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "justification": "The role is about creating insights that solve business problems and translating business demands into solutions.",
+                    "phrase": "create insights that solve business problems"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "justification": "The description states that in this dynamic position, the candidate has lots of freedom and responsibility, and a lead role is expected.",
+                    "phrase": "lots of freedom and responsibility as part of a young and growing team, a lead role is expected"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "justification": "The description explicitly states that leadership capabilities are expected to lead less experienced colleagues.",
+                    "phrase": "leadership capabilities to lead less experienced colleagues"
                 }
             ],
-            "technologies": [],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        "work closely with a lot of tech and innovation enthusiasts",
-                        "work closely together with our consultants, engineers, and architects",
-                        "knowledge-sharing and cooperation across competences is very much encouraged and expected",
-                        "lead less experienced colleagues in their work"
-                    ],
-                    "justification": "These phrases emphasize teamwork, cross-functional collaboration, and mentoring, aligning with Communication & Collaboration."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "work closely with our consultants, engineers, and architects"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        "dynamic position",
-                        "lots of freedom and responsibility",
-                        "diverse data Architect projects, spanning different fields"
-                    ],
-                    "justification": "The dynamic nature of the role and exposure to diverse projects suggest a need for continuous learning and adaptability."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Knowledge-sharing and cooperation across competences"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "create insights that solve business problems",
-                        "business demands to be translated into solutions"
-                    ],
-                    "justification": "The core function of translating business demands into solutions and solving business problems directly relates to Problem Solving & Pragmatism."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "create insights that solve business problems"
                 },
                 {
-                    "skill_name": "Ethical & Legal Responsibility",
-                    "phrases": [],
-                    "justification": "There are no specific mentions related to ethical considerations or legal responsibilities in the job description."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "lots of freedom and responsibility as part of a young and growing team, a lead role is expected"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        "lead role is expected",
-                        "lots of freedom and responsibility",
-                        "leadership capabilities to lead less experienced colleagues"
-                    ],
-                    "justification": "The expectation of a 'lead role', 'freedom and responsibility', and 'leadership capabilities' points towards Innovation & Ownership."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "leadership capabilities to lead less experienced colleagues"
                 }
-            ]
+            ],
+            "technologies": []
         }
     }
 }

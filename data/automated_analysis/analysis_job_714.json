@@ -26,114 +26,120 @@
         "full_text": "Machine Learning Engineer\n\nIn de rol van ML Engineer ben je verantwoordelijk voor het end-to-end implementeren van ML modellen binnen het domein van digital advertising. Je bouwt en onderhoudt ook data pipelines & werkt mee aan onze web applicaties. Daarnaast coach je Machine Learning engineers en rolt best practises uit.\n\n* Modellen die voorspellen welke advertentie banner/creative het meest geschikt is voor een online bezoeker\n     * Predictieve modellen voor most likely converters/clickers van advertentie campagnes\n     * Predictieve modellen voor het voorspellen van leeftijd en gender van DPG Media online bezoekers obv geconsumeerde content\n     * Toevoegen van profile enrichments in batch & real-time flows in een big data environment\n     * Data pipelines & dashboards voor quality monitoring & alerting\n\n   Taken\n\n   Je versterkt ons scrum team bestaande uit Product Owner, Scrum Master & 8 developers.\n     * Je neemt deel aan standups, refinements, retro's & demo's (2-week)\n     * You build it, you run it mentaliteit (development & devops, infra-as-code, CICD, …)\n     * Je analyseert requirements, experimenteert met verschillende modellen, onderbouwt je keuzes adhv quality parameters, implementeert & presenteert resultaten naar het dev & business team\n     * Je bouwt mee aan onze onderliggende data stack & data pipelines (python, PySpark, ElasticSearch, Terraform, Airflow,..)\n     * Je bouwt samen met de Data & ML engineers ons ML Ops platform uit\n     * Je integreert onze services met andere DPG teams die van onze data services gebruik maken\n     * Je neemt ownership & accountability voor bepaalde modellen, jobs & applicaties\n     * Indien gewenst, bouw je mee aan onze web-applicaties (voor interne & externe gebruikers) die onze data-producten ontsluiten"
     },
     "analysis": {
-        "job_profile_classification": {
+        "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The role heavily emphasizes building and maintaining predictive models for digital advertising, including tasks like classification and regression. It also involves significant data engineering, MLOps, and productionizing models, aligning directly with the core responsibilities of an ML Engineer."
+            "rationale": "The job description heavily emphasizes the development and implementation of predictive ML models for digital advertising, including tasks like fraud detection (most likely converters/clickers) and user profiling (age/gender prediction). It also highlights building and maintaining data pipelines, productionizing models (MLOps), and integrating services, which are core responsibilities of an ML Engineer. While there's mention of web applications, the primary focus remains on the ML model lifecycle and data infrastructure rather than building user-facing applications from scratch."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "Modellen die voorspellen welke advertentie banner/creative het meest geschikt is voor een online bezoeker",
-                        "Predictieve modellen voor most likely converters/clickers van advertentie campagnes",
-                        "Predictieve modellen voor het voorspellen van leeftijd en gender van DPG Media online bezoekers obv geconsumeerde content",
-                        "experimenteert met verschillende modellen"
-                    ],
-                    "justification": "These phrases directly describe the creation, training, and adaptation of machine learning models for predictive tasks, which is the core of the Modeling category."
+                    "category": "TASK3: Modeling",
+                    "justification": "The description explicitly mentions 'implementeren van ML modellen', 'Modellen die voorspellen', 'Predictieve modellen', and 'experimenteert met verschillende modellen', indicating core modeling activities.",
+                    "phrase": "implementeren van ML modellen"
                 },
                 {
-                    "task_category": "TASK2: Data Engineering",
-                    "phrases": [
-                        "Je bouwt en onderhoudt ook data pipelines",
-                        "Toevoegen van profile enrichments in batch & real-time flows in een big data environment",
-                        "Data pipelines & dashboards voor quality monitoring & alerting",
-                        "Je bouwt mee aan onze onderliggende data stack & data pipelines"
-                    ],
-                    "justification": "These phrases refer to the design, building, and maintenance of data pipelines, data enrichment, and infrastructure for data processing, fitting the Data Engineering category."
+                    "category": "TASK3: Modeling",
+                    "justification": "Specific examples of predictive modeling tasks are provided, such as predicting the most suitable ad creative, likely converters/clickers, and user demographics.",
+                    "phrase": "Modellen die voorspellen welke advertentie banner/creative het meest geschikt is voor een online bezoeker"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "werkt mee aan onze web applicaties",
-                        "Indien gewenst, bouw je mee aan onze web-applicaties (voor interne & externe gebruikers) die onze data-producten ontsluiten",
-                        "je integreert onze services met andere DPG teams die van onze data services gebruik maken"
-                    ],
-                    "justification": "These phrases indicate involvement in building and integrating user-facing applications and services, which falls under Software Development."
+                    "category": "TASK3: Modeling",
+                    "justification": "This phrase directly refers to building predictive models for user behavior.",
+                    "phrase": "Predictieve modellen voor most likely converters/clickers van advertentie campagnes"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "You build it, you run it mentaliteit (development & devops, infra-as-code, CICD, …)",
-                        "Je bouwt samen met de Data & ML engineers ons ML Ops platform uit"
-                    ],
-                    "justification": "The mention of 'build it, run it', 'devops', 'infra-as-code', 'CICD', and building an 'ML Ops platform' directly aligns with the responsibilities of Operations Engineering (MLOps)."
+                    "category": "TASK3: Modeling",
+                    "justification": "This describes using predictive models to infer user attributes based on content consumption.",
+                    "phrase": "Predictieve modellen voor het voorspellen van leeftijd en gender van DPG Media online bezoekers obv geconsumeerde content"
                 },
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "binnen het domein van digital advertising",
-                        "analyseert requirements",
-                        "presenteert resultaten naar het dev & business team"
-                    ],
-                    "justification": "Understanding the domain of digital advertising, analyzing requirements, and presenting results to business teams demonstrates an understanding of business context and needs."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology_category": "TECH1: Programming Languages",
-                    "name": "python"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase indicates the creation and management of data flows for enrichment purposes in a big data context.",
+                    "phrase": "Toevoegen van profile enrichments in batch & real-time flows in een big data environment"
                 },
                 {
-                    "technology_category": "TECH1: Programming Languages",
-                    "name": "PySpark"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "This refers to the construction and maintenance of data pipelines and monitoring tools.",
+                    "phrase": "Data pipelines & dashboards voor quality monitoring & alerting"
                 },
                 {
-                    "technology_category": "TECH10: Data Modeling",
-                    "name": "ML modellen"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The 'You build it, you run it' mentality, along with mentions of 'devops', 'infra-as-code', and 'CICD', points to operational responsibilities for deployed models and infrastructure.",
+                    "phrase": "You build it, you run it mentaliteit (development & devops, infra-as-code, CICD, …)"
                 },
                 {
-                    "technology_category": "TECH11: Data Analysis",
-                    "name": "ElasticSearch"
+                    "category": "TASK3: Modeling",
+                    "justification": "This involves analyzing requirements, experimenting with models, and evaluating their quality, which are key modeling steps.",
+                    "phrase": "Je analyseert requirements, experimenteert met verschillende modellen, onderbouwt je keuzes adhv quality parameters, implementeert & presenteert resultaten naar het dev & business team"
                 },
                 {
-                    "technology_category": "TECH6: MLOps & Data Pipelines",
-                    "name": "Terraform"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "This explicitly states building the underlying data stack and data pipelines.",
+                    "phrase": "Je bouwt mee aan onze onderliggende data stack & data pipelines"
                 },
                 {
-                    "technology_category": "TECH6: MLOps & Data Pipelines",
-                    "name": "Airflow"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "This phrase directly refers to the development and expansion of an ML Ops platform, a core MLOps activity.",
+                    "phrase": "Je bouwt samen met de Data & ML engineers ons ML Ops platform uit"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "This involves integrating services and making data products accessible to other teams, which requires software development skills for APIs and services.",
+                    "phrase": "Je integreert onze services met andere DPG teams die van onze data services gebruik maken"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Taking ownership and accountability for models and jobs implies responsibility for their operational status and performance.",
+                    "phrase": "Je neemt ownership & accountability voor bepaalde modellen, jobs & applicaties"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "This indicates involvement in building web applications that expose data products, a clear software development task.",
+                    "phrase": "Indien gewenst, bouw je mee aan onze web-applicaties (voor interne & externe gebruikers) die onze data-producten ontsluiten"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "You build it, you run it mentaliteit"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Je analyseert requirements, experimenteert met verschillende modellen, onderbouwt je keuzes adhv quality parameters"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
                     "phrase": "Je neemt ownership & accountability voor bepaalde modellen, jobs & applicaties"
                 },
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
+                    "category": "SKILL1: Communication & Collaboration",
                     "phrase": "presenteert resultaten naar het dev & business team"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "python"
                 },
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "phrase": "Je versterkt ons scrum team bestaande uit Product Owner, Scrum Master & 8 developers."
+                    "category": "TECH11: Data Analysis",
+                    "phrase": "PySpark"
                 },
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "phrase": "Je neemt deel aan standups, refinements, retro's & demo's (2-week)"
+                    "category": "TECH9: Data Storage",
+                    "phrase": "ElasticSearch"
                 },
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "phrase": "experimenteert met verschillende modellen"
+                    "category": "TECH5: Vector Stores & Search",
+                    "phrase": "ElasticSearch"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "analyseert requirements"
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Terraform"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrase": "coach je Machine Learning engineers en rolt best practises uit."
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Airflow"
                 }
             ]
         }

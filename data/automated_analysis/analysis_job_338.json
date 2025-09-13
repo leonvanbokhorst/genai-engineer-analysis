@@ -27,80 +27,75 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on general software development for an Asset Management platform, mentioning AI and BI as components of the platform but not as the core focus of the developer's role. There is a lack of specific tasks related to building, training, or deploying AI models, which are central to ML Engineer and GenAI Engineer roles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on general software development for an Asset Management platform that utilizes AI and BI. However, it lacks specific details about the core responsibilities, technologies, or tasks related to building, training, or deploying AI models, which are characteristic of ML Engineer or GenAI Engineer roles. The role seems to be more about developing applications that *use* AI/BI rather than being an AI specialist."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        "Je bent een developer die bouwt aan Pontifexx Paddock, ons digitale platform voor Asset Management.",
-                        "Met jouw technische expertise help je de organisatie groeien en maak je het verschil door het ontwikkelen van krachtige, gebruiksvriendelijke applicaties.",
-                        "Daarnaast pak je praktijkgerichte issues en verbetervoorstellen op die door onze klanten worden aangedragen en zorg je voor een passende oplossing.",
-                        "In deze functie krijg je de kans om de bestaande technische basis van Pontifexx Paddock verder uit te bouwen.",
-                        "Je hebt dus de ruimte om met nieuwe ideeën te komen en samen met het team te bepalen welke technische verbeteringen echt verschil maken.",
-                        "Zo draag je bij aan best practices, performance optimalisaties en de toekomstige richting van ons platform."
-                    ],
-                    "justification": "These phrases describe the core activities of building, developing, and improving a digital platform, which falls under general software development. The focus is on creating applications and technical solutions rather than AI model development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description emphasizes 'developer die bouwt aan Pontifexx Paddock, ons digitale platform voor Asset Management' and 'ontwikkelen van krachtige, gebruiksvriendelijke applicaties', indicating a focus on building software applications.",
+                    "phrase": "developer die bouwt aan Pontifexx Paddock, ons digitale platform voor Asset Management"
                 },
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        "ons digitale platform voor Asset Management",
-                        "help je de organisatie groeien",
-                        "praktijkgerichte issues en verbetervoorstellen op die door onze klanten worden aangedragen",
-                        "Vorm de toekomst van Asset Management met Pontifexx Paddock",
-                        "combineren we AI en BI om Asset Management naar een hoger niveau te brengen",
-                        "nieuwe functies en koppelingen te realiseren die onze dienstverlening versterken"
-                    ],
-                    "justification": "These phrases indicate an understanding of the business domain (Asset Management), the goal of organizational growth, customer-driven improvements, and how technology (AI/BI) serves the business objectives."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "AI",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'ontwikkelen van krachtige, gebruiksvriendelijke applicaties' directly points to software development activities.",
+                    "phrase": "ontwikkelen van krachtige, gebruiksvriendelijke applicaties"
                 },
                 {
-                    "tech_name": "BI",
-                    "category": "TECH11: Data Analysis"
+                    "category": "TASK4: Software Development",
+                    "justification": "The mention of 'praktijkgerichte issues en verbetervoorstellen op die door onze klanten worden aangedragen en zorg je voor een passende oplossing' implies software maintenance and enhancement, which falls under software development.",
+                    "phrase": "praktijkgerichte issues en verbetervoorstellen op die door onze klanten worden aangedragen en zorg je voor een passende oplossing"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role aims to 'help the organization grow' and 'make a difference', indicating an understanding of business impact and goals.",
+                    "phrase": "help je de organisatie groeien en maak je het verschil"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The description mentions 'combineren we AI en BI om Asset Management naar een hoger niveau te brengen' and working with 'specialisten op het gebied van... AI en BI', suggesting some interaction with AI/BI functionalities, though the specific tasks are not detailed.",
+                    "phrase": "combineren we AI en BI om Asset Management naar een hoger niveau te brengen"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The statement 'bestaande technische basis van Pontifexx Paddock verder uit te bouwen' and 'best practices, performance optimalisaties' hints at operational aspects of maintaining and improving a platform, though not explicitly MLOps.",
+                    "phrase": "best practices, performance optimalisaties"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The mention of 'nieuwe functies en koppelingen te realiseren die onze dienstverlening versterken' points to developing new features and integrations, a core software development task.",
+                    "phrase": "nieuwe functies en koppelingen te realiseren die onze dienstverlening versterken"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'de bestaande technische basis van Pontifexx Paddock verder uit te bouwen' refers to extending the existing technical foundation, a software development responsibility.",
+                    "phrase": "de bestaande technische basis van Pontifexx Paddock verder uit te bouwen"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The statement 'we staan open voor jouw inbreng om deze nóg beter te maken' and 'met nieuwe ideeën te komen en samen met het team te bepalen welke technische verbeteringen echt verschil maken' suggests contributing to the technical direction and improvements of the platform, which is part of software development.",
+                    "phrase": "met nieuwe ideeën te komen en samen met het team te bepalen welke technische verbeteringen echt verschil maken"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "pak je praktijkgerichte issues en verbetervoorstellen op die door onze klanten worden aangedragen en zorg je voor een passende oplossing.",
-                        "bepalen welke technische verbeteringen echt verschil maken."
-                    ],
-                    "justification": "The role involves addressing practical issues and proposing solutions, indicating a problem-solving orientation and a pragmatic approach to technical improvements."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Je werkt nauw samen met onze specialisten op het gebied van Maintenance, IFS Ultimo, AI en BI"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "we staan open voor jouw inbreng om deze nóg beter te maken.",
-                        "Je hebt dus de ruimte om met nieuwe ideeën te komen",
-                        "Zo draag je bij aan best practices, performance optimalisaties en de toekomstige richting van ons platform."
-                    ],
-                    "justification": "The description encourages bringing new ideas, contributing to best practices, and influencing the future direction of the platform, suggesting a need for initiative and ownership."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "we staan open voor jouw inbreng om deze nóg beter te maken. Je hebt dus de ruimte om met nieuwe ideeën te komen"
                 },
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Je werkt nauw samen met onze specialisten op het gebied van Maintenance, IFS Ultimo, AI en BI om nieuwe functies en koppelingen te realiseren",
-                        "samen met het team te bepalen welke technische verbeteringen echt verschil maken."
-                    ],
-                    "justification": "The role requires close collaboration with specialists from various domains and working with the team to make technical decisions."
-                },
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "pak je praktijkgerichte issues en verbetervoorstellen op die door onze klanten worden aangedragen en zorg je voor een passende oplossing"
+                }
+            ],
+            "technologies": [
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "we staan open voor jouw inbreng om deze nóg beter te maken.",
-                        "Je hebt dus de ruimte om met nieuwe ideeën te komen"
-                    ],
-                    "justification": "The company's openness to new ideas and improving the existing stack implies a need for continuous learning and adaptability to new approaches."
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "cloudservices"
                 }
             ]
         }

@@ -28,100 +28,115 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes developing user-facing applications powered by LLMs like GPT-4 and Claude, integrating them across front-end and back-end systems. It highlights building autonomous tools and interactive features, aligning directly with the core responsibilities of a GenAI Engineer."
+            "rationale": "The job description heavily emphasizes the development and integration of AI-powered web applications using large language models (LLMs) like GPT-4 or Claude. It highlights core responsibilities such as experimenting with AI technologies, creating autonomous tools and interactive features, and building Retrieval-Augmented Generation (RAG) systems (implied by 'autonomous tools and interactive features' and 'integrating AI across both front-end and back-end systems'). The role also involves building production-grade user-facing software systems and taking ownership of the entire product lifecycle, aligning perfectly with the definition and evidence profile of a GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK4: Software Development",
-                    "evidence": [
-                        "Lead Software Engineer",
-                        "seamlessly integrate AI across both front-end and back-end systems",
-                        "Architect and code sophisticated web applications that integrate both front-end and back-end components",
-                        "building and maintaining production-grade security-aware user-facing software systems",
-                        "Develop and deliver engaging, human-centered AI applications",
-                        "taking ownership of the entire product",
-                        "Drive Technical Projects: Take ownership of the entire development process, from gathering requirements to launching and iterating on products.",
-                        "Surface-Level Coding: This is not a role for those who focus only on either front-end or back-end development. You will be expected to integrate both, creating comprehensive and scalable solutions.",
-                        "Routine Maintenance: This role is not about maintaining legacy systems or making minor updates. You will be driving innovation and building new, cutting-edge applications.",
-                        "Waiting for Detailed Specifications: You won't be handed fully fleshed-out requirements. Instead, you will take high-level ideas and translate them into fully developed products, leveraging your expertise in AI and full-stack development."
-                    ],
-                    "justification": "The role requires architecting, coding, and integrating AI into both front-end and back-end systems, building user-facing applications, and taking ownership of the full development lifecycle, which are core aspects of software development in the context of AI applications."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Architect and code sophisticated web applications that integrate both front-end and back-end components' directly describes traditional software development activities for building user-facing applications.",
+                    "phrase": "Architect and code sophisticated web applications that integrate both front-end and back-end components"
                 },
                 {
-                    "task": "TASK3: Modeling",
-                    "evidence": [
-                        "Experiment and Innovate with AI",
-                        "Work with cutting-edge AI technologies, specifically large language models (LLMs) like GPT-4 or Claude",
-                        "create autonomous tools and interactive features",
-                        "leveraging your expertise in AI and full-stack development",
-                        "Develop AI-Powered Web Applications",
-                        "Narrow AI Development: You won't be working on isolated AI features that don't integrate with the overall product strategy. Your work will have a direct impact on thousands of students."
-                    ],
-                    "justification": "The job explicitly mentions working with LLMs (GPT-4, Claude) to create autonomous tools and interactive features, which falls under the generative modeling aspect of TASK3."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Work with cutting-edge AI technologies, specifically large language models (LLMs) like GPT-4 or Claude, to create autonomous tools and interactive features' indicates direct work on developing and adapting generative AI models for specific applications.",
+                    "phrase": "Work with cutting-edge AI technologies, specifically large language models (LLMs) like GPT-4 or Claude, to create autonomous tools and interactive features"
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "evidence": [
-                        "taking ownership of the entire product",
-                        "Drive Technical Projects: Take ownership of the entire development process, from gathering requirements to launching and iterating on products.",
-                        "launching and iterating on products",
-                        "building new, cutting-edge applications"
-                    ],
-                    "justification": "The emphasis on taking ownership of the entire product lifecycle, from development through launching and iteration, implies responsibilities related to deploying and maintaining AI models in production environments."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'integrate AI across both front-end and back-end systems, taking ownership of the entire product' points to the software engineering aspect of building and deploying AI features into a complete product.",
+                    "phrase": "integrate AI across both front-end and back-end systems, taking ownership of the entire product"
                 },
                 {
-                    "task": "TASK1: Business Understanding",
-                    "evidence": [
-                        "Your work will directly impact thousands of students, ensuring that our tools meet their needs and set new standards for educational technology.",
-                        "ensure that our solutions meet learner needs and push the boundaries of what's possible.",
-                        "Develop and deliver engaging, human-centered AI applications that demonstrably accelerate learning outcomes and efficiency for thousands of K-12 students."
-                    ],
-                    "justification": "The role requires understanding the needs of students and aligning AI solutions with educational goals to accelerate learning outcomes, demonstrating a clear connection to business understanding."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "TECH3: LLM / Generative Models",
-                    "name": "GPT-4"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'taking ownership of the entire product' and 'from gathering requirements to launching and iterating on products' implies responsibility for the full lifecycle, including deployment and maintenance in production.",
+                    "phrase": "from gathering requirements to launching and iterating on products"
                 },
                 {
-                    "technology": "TECH3: LLM / Generative Models",
-                    "name": "Claude"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'ensure that our tools meet their needs and set new standards for educational technology' and 'ensure that our solutions meet learner needs' shows an understanding of how technical solutions align with user needs and strategic goals in the educational domain.",
+                    "phrase": "ensure that our tools meet their needs and set new standards for educational technology"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Develop and deliver engaging, human-centered AI applications that demonstrably accelerate learning outcomes and efficiency' clearly links technical development to business objectives of improving learning outcomes.",
+                    "phrase": "Develop and deliver engaging, human-centered AI applications that demonstrably accelerate learning outcomes and efficiency"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'create autonomous tools and interactive features' suggests the development of AI systems that can perform tasks independently, a key aspect of generative AI applications.",
+                    "phrase": "create autonomous tools and interactive features"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'You won't be working on isolated AI features that don't integrate with the overall product strategy' and 'You won't be working on isolated AI features' emphasizes the integration of AI into a larger software product.",
+                    "phrase": "You won't be working on isolated AI features that don't integrate with the overall product strategy"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'This is not a role for those who focus only on either front-end or back-end development. You will be expected to integrate both, creating comprehensive and scalable solutions' directly addresses the need for full-stack software development skills.",
+                    "phrase": "integrate both, creating comprehensive and scalable solutions"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'You will take high-level ideas and translate them into fully developed products, leveraging your expertise in AI and full-stack development' highlights the software development process from ideation to a complete product.",
+                    "phrase": "translate them into fully developed products, leveraging your expertise in AI and full-stack development"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "evidence": [
-                        "innovative thinkers",
-                        "taking ownership of the entire product",
-                        "Drive Technical Projects: Take ownership of the entire development process",
-                        "push the boundaries of what's possible",
-                        "driving innovation"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "taking ownership of the entire product"
                 },
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "evidence": [
-                        "Collaborate and Communicate: Partner with a global team of developers, designers, and educational experts. Your ability to communicate complex ideas simply and effectively will be key to your success.",
-                        "Working in Isolation: Collaboration with other developers, product managers, and educational experts is key to ensuring that the solutions you build are impactful and user-centered."
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Take ownership of the entire development process"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "evidence": [
-                        "Continuous Improvement: Stay ahead of the curve by continually learning and applying the latest advancements in AI and web development to our platform."
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate and Communicate"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "evidence": [
-                        "innovative thinkers",
-                        "Architect and code sophisticated web applications",
-                        "take high-level ideas and translate them into fully developed products"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Partner with a global team of developers, designers, and educational experts"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Your ability to communicate complex ideas simply and effectively will be key to your success"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Continuous Improvement"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Stay ahead of the curve by continually learning and applying the latest advancements in AI and web development"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "You won't be handed fully fleshed-out requirements. Instead, you will take high-level ideas and translate them into fully developed products"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "driving innovation and building new, cutting-edge applications"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaboration with other developers, product managers, and educational experts is key"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "GPT-4"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Claude"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "AI"
                 }
             ]
         }

@@ -27,57 +27,60 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional backend software engineering tasks using Go, with no mention of AI, machine learning, or generative models. It lacks the core responsibilities and technologies associated with ML Engineer or GenAI Engineer profiles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on backend development, API creation, and data ingestion services using Go. While it mentions a lean, pragmatic team and opportunities for impact, it lacks any specific mention of AI, machine learning, generative models, or related technologies and tasks. The core responsibilities described align with traditional software engineering rather than specialized AI roles."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "backend development",
-                        "delivering product features",
-                        "developing backend APIs",
-                        "data collection and ingestion services"
-                    ],
-                    "justification": "These phrases directly relate to building and maintaining software systems, specifically focusing on the backend, APIs, and data handling services, which are core components of software development."
-                }
-            ],
-            "technologies": [
+                    "category": "TASK4: Software Development",
+                    "justification": "The description explicitly mentions 'backend development', 'delivering product features', and 'developing backend APIs', which are core activities of software development.",
+                    "phrase": "backend development"
+                },
                 {
-                    "tech_name": "Go",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'developing backend APIs' directly relates to building the interfaces for backend services.",
+                    "phrase": "developing backend APIs"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The mention of 'data collection and ingestion services' falls under the umbrella of data engineering, focusing on how data is brought into the system.",
+                    "phrase": "data collection and ingestion services"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "justification": "The phrase 'operate efficiently and pragmatically' indicates a focus on practical and effective problem-solving.",
+                    "phrase": "operate efficiently and pragmatically"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "justification": "The statement 'plenty of room to have a big impact and set directions' suggests an environment where individuals can take initiative and ownership.",
+                    "phrase": "plenty of room to have a big impact and set directions"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'everyone's voice is heard' implies a collaborative environment where communication is valued.",
+                    "phrase": "everyone's voice is heard"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        "everyone's voice is heard"
-                    ],
-                    "justification": "This phrase indicates an environment where open communication and collaboration are valued."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "operate efficiently and pragmatically"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        "rapidly scaling"
-                    ],
-                    "justification": "The mention of rapid scaling implies a dynamic environment where adaptability and learning are likely necessary."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "plenty of room to have a big impact and set directions"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "operate efficiently and pragmatically"
-                    ],
-                    "justification": "This phrase directly points to a pragmatic and efficient approach to problem-solving."
-                },
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "everyone's voice is heard"
+                }
+            ],
+            "technologies": [
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        "plenty of room to have a big impact and set directions"
-                    ],
-                    "justification": "This suggests an environment where individuals can take initiative, influence direction, and own their work."
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Go"
                 }
             ]
         }

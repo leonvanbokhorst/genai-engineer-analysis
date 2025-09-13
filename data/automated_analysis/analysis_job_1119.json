@@ -27,70 +27,47 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on using and improving existing AI systems for customer support rather than developing or engineering AI models. While it mentions AI training and fine-tuning, the core responsibilities are application support and integrating human expertise with AI, not core AI development."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on using and improving existing AI systems for customer support, rather than developing new AI models or building AI-powered applications from scratch. While it involves AI, the core tasks are about application support, ticket analysis, and feedback for AI improvement, which aligns more with leveraging AI tools for productivity rather than core AI engineering roles like ML Engineer or GenAI Engineer. The emphasis is on 'Application Support' and 'AI-Augmented Customer Resolutions', indicating a user/support-centric role rather than a development-centric one."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK3: Modeling",
-                    "phrases": [
-                        "improve the AI system",
-                        "AI Training and Improvement",
-                        "participate in AI model fine-tuning sessions"
-                    ],
-                    "justification": "These phrases directly relate to modifying and enhancing AI models, which falls under the 'Modeling' category, specifically fine-tuning and improvement."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves understanding customer issues and how AI systems are used to resolve them, implying a need to grasp the business context of customer support.",
+                    "phrase": "AI-Augmented Customer Resolutions"
                 },
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        "Prototype and test new AI tools and methodologies",
-                        "Integrate technical human expertise and AI capabilities"
-                    ],
-                    "justification": "Prototyping and testing new tools, and integrating different capabilities (human and AI) into a system, are aspects of software development and integration."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'participate in AI model fine-tuning sessions' directly relates to adapting or improving existing AI models.",
+                    "phrase": "participate in AI model fine-tuning sessions"
                 },
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        "Application Support Engineer",
-                        "Analyze complex tickets escalated by AI systems",
-                        "apply human expertise to areas where AI falls short",
-                        "deliver exceptional customer support"
-                    ],
-                    "justification": "The role is framed around customer support and analyzing tickets, indicating an understanding of business needs and customer-facing operations."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves 'Prototype and test new AI tools and methodologies', which suggests some level of development or integration work.",
+                    "phrase": "Prototype and test new AI tools and methodologies"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The task of 'improving the AI system' based on analysis of tickets suggests a feedback loop for system maintenance and enhancement, which is related to operational aspects of AI systems.",
+                    "phrase": "improving the AI system"
                 }
             ],
-            "technologies": [],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "ramp up one several products within the first month (we are aware this is aggressive)",
-                        "Integrate technical human expertise and AI capabilities"
-                    ],
-                    "justification": "The aggressive ramp-up time and the need to integrate diverse capabilities highlight the importance of learning and adapting quickly."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "ramp up one several products within the first month"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Analyze complex tickets escalated by AI systems",
-                        "apply human expertise to areas where AI falls short",
-                        "close the gap by improving the AI system",
-                        "unblocking yourself"
-                    ],
-                    "justification": "The role involves analyzing complex issues, identifying AI limitations, and self-sufficiently finding solutions, which are core to problem-solving and pragmatism."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "adept at unblocking yourself"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "Prototype and test new AI tools and methodologies",
-                        "improve the AI system",
-                        "unblocking yourself"
-                    ],
-                    "justification": "Prototyping new tools, taking initiative to improve systems, and self-sufficiency point towards innovation and ownership."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Prototype and test new AI tools and methodologies"
                 }
-            ]
+            ],
+            "technologies": []
         }
     }
 }

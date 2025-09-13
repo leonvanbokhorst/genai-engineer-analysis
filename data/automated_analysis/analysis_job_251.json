@@ -27,147 +27,157 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional test automation engineering, including programming languages, API testing, and CI/CD pipelines. While there's a mention of 'Affiniteit hebt met GenAI', it lacks specific tasks or responsibilities related to developing, fine-tuning, or deploying generative AI models, which are core to the GenAI Engineer profile."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on test automation, API testing, and CI/CD pipelines, which are core to traditional software engineering and quality assurance roles. While it mentions 'affinity with GenAI', this is not a primary focus or a core responsibility. The role does not involve building, fine-tuning, or deploying generative models, nor does it emphasize predictive modeling or data-driven algorithms. Therefore, it does not align with the core responsibilities of an ML Engineer or a GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "phrase": "Jij spreekt de taal van developers en begrijpt de behoeften van de business.",
-                    "category": "TASK1: Business Understanding",
-                    "justification": "This phrase indicates an understanding of both technical (developers) and business needs, aligning technical solutions with business requirements."
-                },
-                {
-                    "phrase": "Ondernemerschap, persoonlijke ontwikkeling en Agile werken staan bij jou hoog in het vaandel.",
-                    "category": "SKILL5: Innovation & Ownership",
-                    "justification": "Mentions 'Ondernemerschap' (entrepreneurship) and 'persoonlijke ontwikkeling' (personal development), aligning with taking initiative and continuous learning."
-                },
-                {
-                    "phrase": "Jij weet hoe je jouw loopbaan wil vormgeven en gaat daar actief mee aan de slag.",
-                    "category": "SKILL2: Learning & Adaptability",
-                    "justification": "Highlights proactive career shaping and engagement, indicating a focus on personal growth and adaptability."
-                },
-                {
-                    "phrase": "Je wordt gelukkig van Test Automation scripts schrijven",
                     "category": "TASK4: Software Development",
-                    "justification": "Writing automation scripts is a form of software development, specifically for testing purposes."
+                    "justification": "The role involves writing test automation scripts, analyzing complex systems, and working with developers, which are all aspects of software development, specifically in the context of testing and quality assurance.",
+                    "phrase": "Test Automation Engineer"
                 },
                 {
-                    "phrase": "je vindt het leuk om complexe systemen te analyseren",
-                    "category": "SKILL3: Problem Solving & Pragmatism",
-                    "justification": "Analyzing complex systems is a core aspect of problem-solving in a technical context."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions understanding the needs of the business and connecting parties, which implies a role in translating business requirements into technical solutions, a facet of software development.",
+                    "phrase": "begrijpt de behoeften van de business"
                 },
                 {
-                    "phrase": "en je houd je graag bezig met procesverbeteringen.",
-                    "category": "SKILL3: Problem Solving & Pragmatism",
-                    "justification": "Focusing on process improvements indicates a pragmatic and results-oriented approach to problem-solving."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'complex systemen te analyseren' relates to understanding and dissecting software systems, a common task in software development and testing.",
+                    "phrase": "complexe systemen te analyseren"
                 },
                 {
-                    "phrase": "Zo werk je samen met je team aan het realiseren van de allerhoogste kwaliteit.",
+                    "category": "TASK4: Software Development",
+                    "justification": "The mention of 'procesverbeteringen' in the context of quality and automation points to improving the software development lifecycle.",
+                    "phrase": "procesverbeteringen"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Working with developers and aiming for the highest quality is directly related to software development practices.",
+                    "phrase": "werk je samen met je team aan het realiseren van de allerhoogste kwaliteit"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Experience with CI/CD pipelines is a direct indicator of involvement in operations engineering for software deployment and integration.",
+                    "phrase": "CI/CD pipelines"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Jij spreekt de taal van developers en begrijpt de behoeften van de business' indicates an understanding of business context and the ability to bridge technical and business needs.",
+                    "phrase": "Jij spreekt de taal van developers en begrijpt de behoeften van de business"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "justification": "The mention of 'Ondernemerschap' and actively shaping one's career points to an ownership and proactive mindset.",
+                    "phrase": "Ondernemerschap"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "justification": "The emphasis on personal development and continuous learning ('All You Can Train') highlights adaptability.",
+                    "phrase": "persoonlijke ontwikkeling"
+                },
+                {
                     "category": "SKILL1: Communication & Collaboration",
-                    "justification": "Working collaboratively with a team to achieve a common goal (highest quality) falls under communication and collaboration."
+                    "justification": "Being a 'spin in het web' and connecting parties implies strong communication and collaboration skills.",
+                    "phrase": "spin in het web partijen goed met elkaar kunt verbinden"
                 },
                 {
-                    "phrase": "Affiniteit hebt met GenAI.",
-                    "category": "TASK3: Modeling",
-                    "justification": "While not a core task, 'affinity with GenAI' suggests a connection to generative AI technologies, which are related to modeling."
-                }
-            ],
-            "technologies": [
-                {
-                    "phrase": "Python",
-                    "category": "TECH1: Programming Languages"
-                },
-                {
-                    "phrase": "Java",
-                    "category": "TECH1: Programming Languages"
-                },
-                {
-                    "phrase": "C#",
-                    "category": "TECH1: Programming Languages"
-                },
-                {
-                    "phrase": ".NET",
-                    "category": "TECH1: Programming Languages"
-                },
-                {
-                    "phrase": "Robot Framework",
-                    "category": "TECH4: LLM Frameworks & Libraries"
-                },
-                {
-                    "phrase": "Tosca",
-                    "category": "TECH4: LLM Frameworks & Libraries"
-                },
-                {
-                    "phrase": "API testen",
-                    "category": "TASK4: Software Development"
-                },
-                {
-                    "phrase": "Postman",
-                    "category": "TECH4: LLM Frameworks & Libraries"
-                },
-                {
-                    "phrase": "SoapUI",
-                    "category": "TECH4: LLM Frameworks & Libraries"
-                },
-                {
-                    "phrase": "REST-Assured",
-                    "category": "TECH4: LLM Frameworks & Libraries"
-                },
-                {
-                    "phrase": "CI/CD pipelines",
-                    "category": "TASK5: Operations Engineering (MLOps)"
-                },
-                {
-                    "phrase": "Azure DevOps",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "phrase": "GitLab",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "phrase": "Jenkins",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "phrase": "GenAI",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "justification": "The role of analyzing complex systems and writing automation scripts suggests a problem-solving orientation.",
+                    "phrase": "complexe systemen te analyseren"
                 }
             ],
             "soft_skills": [
                 {
-                    "phrase": "Jij spreekt de taal van developers en begrijpt de behoeften van de business.",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Jij spreekt de taal van developers en begrijpt de behoeften van de business"
                 },
                 {
-                    "phrase": "Ondernemerschap",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "spin in het web partijen goed met elkaar kunt verbinden"
                 },
                 {
-                    "phrase": "persoonlijke ontwikkeling",
-                    "category": "SKILL2: Learning & Adaptability"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Ondernemerschap"
                 },
                 {
-                    "phrase": "Agile werken",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "persoonlijke ontwikkeling"
                 },
                 {
-                    "phrase": "Jij weet hoe je jouw loopbaan wil vormgeven en gaat daar actief mee aan de slag.",
-                    "category": "SKILL2: Learning & Adaptability"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "All You Can Train"
                 },
                 {
-                    "phrase": "complexe systemen te analyseren",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "complexe systemen te analyseren"
                 },
                 {
-                    "phrase": "procesverbeteringen",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "procesverbeteringen"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
                 },
                 {
-                    "phrase": "samen met je team aan het realiseren van de allerhoogste kwaliteit.",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Java"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "C#"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": ".NET"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "Robot Framework"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "Tosca"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "API testen"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "Postman"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "SoapUI"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "REST-Assured"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "CI/CD pipelines"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Azure DevOps"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "GitLab"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Jenkins"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "GenAI"
                 }
             ]
         }

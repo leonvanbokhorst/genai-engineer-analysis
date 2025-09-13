@@ -28,92 +28,74 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes working with Large Language Models (LLMs), including foundational model training, data collection for LLMs, and model alignment. The responsibilities focus on designing distributed training infrastructure, experimenting with deep learning methods for model quality, augmenting training data, and optimizing inference, all core aspects of developing and deploying generative AI technologies."
+            "rationale": "The job description emphasizes the development of a cutting-edge LLM technological stack, including foundational model training, data collection, efficient inference, model alignment, and evaluation. The responsibilities focus on designing and developing distributed training and data processing infrastructure, experimenting with deep learning methods for model quality enhancement, augmenting training data, and optimizing training and inference infrastructure. These activities strongly align with the core responsibilities and typical projects of a GenAI Engineer, particularly in building and maintaining production-grade systems around generative models."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "Web-scale data collection",
-                        "Designing and developing our distributed training and data processing infrastructure",
-                        "Exploring techniques to augment the quality and volume of our training data"
-                    ],
-                    "justification": "These phrases directly relate to the collection, processing, and augmentation of data, which are fundamental aspects of data engineering, especially in the context of large-scale model training."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Designing and developing our distributed training and data processing infrastructure' directly relates to building and maintaining the systems for handling and processing data, which is a core aspect of data engineering.",
+                    "phrase": "Designing and developing our distributed training and data processing infrastructure"
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "Foundational model training",
-                        "Model alignment",
-                        "Model evaluation",
-                        "Experimenting with innovative deep learning methods to enhance the quality of our models"
-                    ],
-                    "justification": "These phrases describe the core activities of building, training, fine-tuning, and evaluating machine learning models, specifically focusing on generative models (LLMs) and deep learning techniques."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Exploring techniques to augment the quality and volume of our training data' involves improving and expanding the datasets used for model training, a key data engineering task.",
+                    "phrase": "Exploring techniques to augment the quality and volume of our training data"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "state-of-the-art language generation technology for internal use and customer applications",
-                        "propelling the development of the next generation of AI-powered products"
-                    ],
-                    "justification": "While not the primary focus, the mention of developing technology for 'internal use and customer applications' and 'AI-powered products' implies the need for software development to integrate and deploy these models."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Experimenting with innovative deep learning methods to enhance the quality of our models' directly refers to the process of creating, training, and improving machine learning models, specifically using deep learning techniques.",
+                    "phrase": "Experimenting with innovative deep learning methods to enhance the quality of our models"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Efficient inference",
-                        "Optimizing our training and inference infrastructure to squeeze out every FLOP out of hardware"
-                    ],
-                    "justification": "These phrases highlight the operational aspects of making models efficient and performant in production environments, which falls under MLOps."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "technologies": [
-                        "Large Language Models (LLM)"
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'Foundational model training', 'Model alignment', and 'Model evaluation' are all core activities within the modeling phase of machine learning and generative AI development.",
+                    "phrase": "Foundational model training"
                 },
                 {
-                    "tech_name": "TECH10: Data Modeling",
-                    "technologies": [
-                        "deep learning methods"
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'Foundational model training', 'Model alignment', and 'Model evaluation' are all core activities within the modeling phase of machine learning and generative AI development.",
+                    "phrase": "Model alignment"
                 },
                 {
-                    "tech_name": "TECH6: MLOps & Data Pipelines",
-                    "technologies": [
-                        "distributed training",
-                        "data processing infrastructure",
-                        "inference infrastructure"
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'Foundational model training', 'Model alignment', and 'Model evaluation' are all core activities within the modeling phase of machine learning and generative AI development.",
+                    "phrase": "Model evaluation"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'creating state-of-the-art language generation technology for internal use and customer applications, propelling the development of the next generation of AI-powered products' implies building software systems that utilize LLMs, which falls under software development.",
+                    "phrase": "creating state-of-the-art language generation technology for internal use and customer applications"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Efficient inference' relates to optimizing the deployment and performance of models in production, a key aspect of MLOps.",
+                    "phrase": "Efficient inference"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Optimizing our training and inference infrastructure to squeeze out every FLOP out of hardware' directly addresses the operational aspects of making training and inference efficient and performant, which is a core MLOps responsibility.",
+                    "phrase": "Optimizing our training and inference infrastructure to squeeze out every FLOP out of hardware"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "diverse skill sets",
-                        "passion for large language models"
-                    ],
-                    "justification": "The requirement for 'diverse skill sets' and 'passion' suggests a need for individuals who are adaptable and eager to learn within the rapidly evolving LLM field."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "diverse skill sets and a passion for large language models"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "Experimenting with innovative deep learning methods",
-                        "Optimizing our training and inference infrastructure"
-                    ],
-                    "justification": "The emphasis on 'experimenting with innovative methods' and 'optimizing infrastructure' indicates a need for proactive individuals who take ownership of improving and advancing the technology."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "committed to developing a cutting-edge LLM technological stack"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Large Language Models (LLM)"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "squeeze out every FLOP out of hardware"
-                    ],
-                    "justification": "The phrase 'squeeze out every FLOP out of hardware' implies a pragmatic and problem-solving approach to maximize efficiency and performance, which is a key aspect of engineering."
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "deep learning methods"
                 }
             ]
         }

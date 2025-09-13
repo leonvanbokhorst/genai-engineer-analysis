@@ -27,96 +27,62 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description is very high-level and lacks specific technical details about tasks or technologies. While it mentions AI solutions and a team of data scientists and ML professionals, it doesn't provide enough concrete information to classify it as an ML Engineer or GenAI Engineer."
+            "profile": "GenAI Engineer",
+            "rationale": "The job title 'Azure GenAI DevOps Engineer' and the description's emphasis on working with data scientists and ML professionals to optimize and innovate customer service with AI solutions, coupled with the mention of an 'Engineering' guild for knowledge exchange, strongly indicate a role focused on generative AI applications and their deployment. While DevOps is mentioned, the core focus is on leveraging AI solutions, aligning with the GenAI Engineer profile's emphasis on developing and deploying applications built on generative models."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "optimize and innovate customer service, processes, and quality",
-                            "justification": "This phrase indicates a focus on improving business operations and customer experience through technical solutions."
-                        },
-                        {
-                            "phrase": "deliver maximum value with our AI solutions",
-                            "justification": "This highlights the goal of ensuring AI solutions contribute effectively to business objectives."
-                        }
-                    ]
+                    "category": "TASK3",
+                    "justification": "The phrase 'optimize and innovate customer service, processes, and quality' in the context of working with data scientists and ML professionals implies the application and refinement of AI models to achieve business objectives.",
+                    "phrase": "optimize and innovate customer service, processes, and quality"
                 },
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "a small group of software and machine learning professionals",
-                            "justification": "Mentions the presence of software professionals, implying software development is part of the team's activities."
-                        }
-                    ]
+                    "category": "TASK4",
+                    "justification": "The mention of working with 'software and machine learning professionals' and the overall context of developing AI solutions suggests involvement in building and integrating these solutions into functional systems.",
+                    "phrase": "software and machine learning professionals"
                 },
                 {
-                    "task_name": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        {
-                            "phrase": "Azure GenAI DevOps Engineer",
-                            "justification": "The job title explicitly includes 'DevOps Engineer' and 'GenAI', strongly suggesting a focus on operational aspects of GenAI."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
+                    "category": "TASK5",
+                    "justification": "The job title explicitly includes 'DevOps Engineer' and the description mentions working with AI solutions, implying a focus on the operational aspects of deploying and maintaining these systems.",
+                    "phrase": "GenAI DevOps Engineer"
+                },
                 {
-                    "tech_name": "TECH2: Cloud Platforms & Services",
-                    "phrases": [
-                        {
-                            "phrase": "Azure"
-                        }
-                    ]
+                    "category": "TASK1",
+                    "justification": "The description highlights the goal of 'optimizing and innovating customer service, processes, and quality' through AI solutions, demonstrating an understanding of how technical work aligns with business outcomes.",
+                    "phrase": "optimize and innovate customer service, processes, and quality"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        {
-                            "phrase": "You will, of course, work closely with the team's data scientist"
-                        },
-                        {
-                            "phrase": "together with these colleagues, we work with great enthusiasm and dedication"
-                        },
-                        {
-                            "phrase": "you exchange knowledge and experiences with peers"
-                        },
-                        {
-                            "phrase": "every engineer can learn something from their peers, and vice versa"
-                        }
-                    ]
+                    "category": "SKILL1",
+                    "phrase": "work closely with the team's data scientist"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        {
-                            "phrase": "exchange knowledge and experiences with peers"
-                        },
-                        {
-                            "phrase": "every engineer can learn something from their peers, and vice versa"
-                        },
-                        {
-                            "phrase": "accelerate your career"
-                        }
-                    ]
+                    "category": "SKILL1",
+                    "phrase": "work with great enthusiasm and dedication"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        {
-                            "phrase": "optimize and innovate customer service, processes, and quality"
-                        },
-                        {
-                            "phrase": "deliver maximum value with our AI solutions"
-                        }
-                    ]
+                    "category": "SKILL1",
+                    "phrase": "exchange knowledge and experiences with peers"
+                },
+                {
+                    "category": "SKILL2",
+                    "phrase": "accelerate your career"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "deliver maximum value with our AI solutions"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2",
+                    "phrase": "Azure"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "GenAI"
                 }
             ]
         }

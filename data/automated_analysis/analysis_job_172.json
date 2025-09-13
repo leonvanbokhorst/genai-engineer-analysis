@@ -27,97 +27,57 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on security, risk analysis, and operational aspects of AI systems rather than core AI model development or application building. While it mentions AI, the emphasis on DevSecOps and cybersecurity guidelines suggests a role more aligned with traditional engineering and security practices applied to AI, rather than a specialized AI Engineer profile."
+            "profile": "ML Engineer",
+            "rationale": "The job description emphasizes developing methods and tools to analyze and mitigate risks within AI systems, focusing on security and reliability. While it mentions generative AI models and multi-agent systems, the core responsibilities lean towards building frameworks for investigation, setting up test environments based on cybersecurity guidelines, implementing automated workflows for infrastructure, and applying the latest developments in AI and cybersecurity. This aligns more closely with the operational and engineering aspects of ensuring AI systems are robust and secure, which is a key component of MLOps (Operations Engineering) and the productionization of models, rather than the core development of generative models themselves. The emphasis on 'DevSecOps' further points to operational security and reliability."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "phrase": "Het opzetten en configureren van een testomgeving voor het evalueren van generatieve AI-modellen op basis van cybersecurity-richtlijnen.",
-                    "justification": "This phrase describes setting up and configuring environments for evaluating AI models, which falls under the operational and testing aspects of MLOps."
-                },
-                {
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "phrase": "Het implementeren van geautomatiseerde workflows en coding standards voor reproduceerbare en onderhoudbare infrastructuur.",
-                    "justification": "Implementing automated workflows and coding standards for infrastructure directly relates to the principles of MLOps and DevOps for AI systems."
-                },
-                {
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "phrase": "AI DevSecOps Engineer",
-                    "justification": "The job title itself explicitly mentions DevSecOps, which is a specialized form of Operations Engineering focused on security."
-                },
-                {
                     "category": "TASK3: Modeling",
-                    "phrase": "het onderzoeken van geavanceerde AI-toepassingen",
-                    "justification": "While not directly building models, researching and investigating AI applications implies understanding and potentially adapting or evaluating models."
-                },
-                {
-                    "category": "TASK3: Modeling",
-                    "phrase": "het evalueren van generatieve AI-modellen",
-                    "justification": "Evaluating generative AI models is a core part of understanding and working with models, even if not directly training them."
-                },
-                {
-                    "category": "TASK1: Business Understanding",
-                    "phrase": "het waarborgen van de veiligheid en betrouwbaarheid van AI-systemen",
-                    "justification": "This highlights the overarching goal and business context of the role, focusing on security and reliability."
-                },
-                {
-                    "category": "TASK1: Business Understanding",
-                    "phrase": "risico's binnen AI-systemen te analyseren en te beperken",
-                    "justification": "Analyzing and mitigating risks is a business-level concern that guides technical implementation."
-                },
-                {
-                    "category": "TASK2: Data Engineering",
-                    "phrase": "Het ontwikkelen van een framework om multi-agent AI-systemen te onderzoeken.",
-                    "justification": "Developing a framework for investigating systems, especially multi-agent ones, can involve data collection, structuring, and pipeline considerations, aligning with data engineering principles."
+                    "justification": "The phrase 'evalueren van generatieve AI-modellen' directly relates to the process of assessing and potentially fine-tuning or adapting AI models.",
+                    "phrase": "evalueren van generatieve AI-modellen"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "phrase": "het ontwikkelen van methoden en tools",
-                    "justification": "Developing methods and tools implies software development, though the context leans towards security and operations."
-                }
-            ],
-            "technologies": [
-                {
-                    "category": "TECH3: LLM / Generative Models",
-                    "phrase": "generatieve AI-modellen",
-                    "justification": "Explicitly mentions generative AI models."
+                    "justification": "The phrase 'ontwikkelen van een framework om multi-agent AI-systemen te onderzoeken' implies building a structured system or application to facilitate research and investigation of AI systems.",
+                    "phrase": "ontwikkelen van een framework om multi-agent AI-systemen te onderzoeken"
                 },
                 {
-                    "category": "TECH4: LLM Frameworks & Libraries",
-                    "phrase": "multi-agent AI-systemen",
-                    "justification": "Multi-agent systems often leverage frameworks like LangChain or similar libraries for orchestration."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'opzetten en configureren van een testomgeving voor het evalueren van generatieve AI-modellen op basis van cybersecurity-richtlijnen' involves setting up and managing environments for testing and evaluation, which is a core MLOps activity.",
+                    "phrase": "opzetten en configureren van een testomgeving voor het evalueren van generatieve AI-modellen op basis van cybersecurity-richtlijnen"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'implementeren van geautomatiseerde workflows en coding standards voor reproduceerbare en onderhoudbare infrastructuur' directly refers to building automated processes and standards for infrastructure management, a key aspect of MLOps and DevSecOps.",
+                    "phrase": "implementeren van geautomatiseerde workflows en coding standards voor reproduceerbare en onderhoudbare infrastructuur"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'waarborgen van de veiligheid en betrouwbaarheid van AI-systemen' and 'analyseren en beperken van risico's binnen AI-systemen' indicates an understanding of the business need for secure and reliable AI, and the alignment of technical work with these goals.",
+                    "phrase": "waarborgen van de veiligheid en betrouwbaarheid van AI-systemen"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'impact te hebben op de veiligheid en ethische implementatie van AI binnen een maatschappelijk relevante context' shows an understanding of the broader business and societal implications of AI.",
+                    "phrase": "impact te hebben op de veiligheid en ethische implementatie van AI binnen een maatschappelijk relevante context"
                 }
             ],
             "soft_skills": [
                 {
-                    "category": "SKILL2: Learning & Adaptability",
-                    "phrase": "Het volgen van de nieuwste ontwikkelingen op het gebied van AI en cybersecurity en deze toepassen in het onderzoek.",
-                    "justification": "This directly indicates a need for continuous learning and adapting to new technologies."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "delen van kennis en begeleiden van junior engineers en onderzoekers"
                 },
                 {
-                    "category": "SKILL1: Communication & Collaboration",
-                    "phrase": "Het delen van kennis en begeleiden van junior engineers en onderzoekers.",
-                    "justification": "Sharing knowledge and guiding others is a clear indicator of communication and collaboration skills."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "volgen van de nieuwste ontwikkelingen op het gebied van AI en cybersecurity en deze toepassen in het onderzoek"
                 },
                 {
                     "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "risico's binnen AI-systemen te analyseren en te beperken",
-                    "justification": "Analyzing and mitigating risks is a core problem-solving activity."
-                },
-                {
-                    "category": "SKILL4: Ethical & Legal Responsibility",
-                    "phrase": "ethische implementatie van AI",
-                    "justification": "The mention of ethical implementation directly relates to ethical and legal responsibility."
-                },
-                {
-                    "category": "SKILL5: Innovation & Ownership",
-                    "phrase": "innovatief laboratorium",
-                    "justification": "Working in an innovative lab suggests a need for innovation and taking initiative."
+                    "phrase": "ontwikkelen van methoden en tools om risico's binnen AI-systemen te analyseren en te beperken"
                 }
-            ]
+            ],
+            "technologies": []
         }
     }
 }

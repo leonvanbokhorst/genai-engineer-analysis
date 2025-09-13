@@ -27,56 +27,50 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on MLOps and cloud solutions engineering within a banking context, but lacks specific details about core AI/ML tasks like model development or generative AI applications. It appears to be more infrastructure and operations-focused rather than a direct AI/ML engineering role."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on MLOps and cloud solutions engineering within an analytics unit, but lacks specific details about core AI/ML model development or generative AI tasks. It emphasizes implementation and collaboration rather than the creation or adaptation of predictive or generative models, aligning more with a traditional engineering or operations role that utilizes AI/ML outputs rather than developing them. Therefore, it does not fit the specific criteria for ML Engineer or GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "ING Analytics is a new unit responsible for realizing this vision for ING, differentiating ING as a leader in data-driven organization, within the banking sector and beyond.",
-                        "The team consists of several Global Analytics Centre of Excellences around the bank's key capabilities (such as Pricing, Risk Management, Financial Crime, Customer Intelligence, and People Analytics.) as well as strong coordination areas around data management, technology, customer journey, UX, as well as external partnerships.",
-                        "Specifically, you will help creating innovative-scalable-data driven solutions in the space of Customer Dialogue Analytics."
-                    ],
-                    "justification": "These phrases highlight the role's connection to business goals, understanding the banking sector's needs, and aligning technical solutions with business capabilities like Customer Dialogue Analytics."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The job title explicitly mentions 'MLOps cloud solution engineer' and the description discusses 'implementing these solutions across the organization', indicating a focus on operationalizing and deploying solutions.",
+                    "phrase": "MLOps cloud solution engineer"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "MLOps cloud solution engineer",
-                        "creating innovative-scalable-data driven solutions"
-                    ],
-                    "justification": "The title 'cloud solution engineer' and the mention of 'creating solutions' imply software development aspects, particularly in building and deploying systems."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role is within 'ING Analytics' and aims to 'realizing this vision for ING, differentiating ING as a leader in data-driven organization, within the banking sector and beyond', indicating a need to understand business context and strategic goals.",
+                    "phrase": "realizing this vision for ING, differentiating ING as a leader in data-driven organization, within the banking sector and beyond"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "MLOps cloud solution engineer",
-                        "implement these solutions across the organization"
-                    ],
-                    "justification": "The explicit mention of 'MLOps' in the title and the responsibility to 'implement solutions across the organization' directly point to operational and deployment aspects of AI/ML systems."
-                }
-            ],
-            "technologies": [
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions 'creating innovative-scalable-data driven solutions' and 'implement these solutions across the organization', which implies software development and integration aspects.",
+                    "phrase": "creating innovative-scalable-data driven solutions"
+                },
                 {
-                    "tech_name": "TECH2: Cloud Platforms & Services",
-                    "phrase": "cloud solution engineer"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves working with 'global and local Retail Contact Center teams', suggesting interaction with business stakeholders to understand their needs.",
+                    "phrase": "work collaboratively with an extended group of stakeholders, including global and local Retail Contact Center teams"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrase": "You will work collaboratively with an extended group of stakeholders, including global and local Retail Contact Center teams."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "work collaboratively with an extended group of stakeholders"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "proactively work with teams"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
                     "phrase": "creating innovative-scalable-data driven solutions"
-                },
+                }
+            ],
+            "technologies": [
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrase": "proactively work with teams to implement these solutions"
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "cloud"
                 }
             ]
         }

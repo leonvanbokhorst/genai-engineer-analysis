@@ -27,130 +27,179 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on data warehousing, data governance, and customer-facing technical sales support rather than core AI/ML model development or generative AI applications. While Databricks is mentioned, the role's emphasis is on traditional data warehousing and governance solutions."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on data warehousing, data governance, and customer-facing technical sales and support roles using Databricks. While it involves data modeling and performance tuning, it does not emphasize the development, training, or fine-tuning of predictive or generative AI models, nor the core software development of AI-powered applications. The role is more aligned with traditional data engineering and solution architecture within a specific platform (Databricks) rather than a specialized AI engineering role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "phrase": "guide customers in their cloud data warehousing transformation and enterprise governance",
-                    "category": "TASK1",
-                    "justification": "This phrase indicates understanding customer needs and aligning technical solutions (cloud data warehousing, enterprise governance) with business goals."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires guiding customers in their cloud data warehousing transformation and aligning their technical roadmap for the Databricks Data Intelligence Platform, which involves understanding business needs and strategic goals.",
+                    "phrase": "guide customers in their cloud data warehousing transformation and enterprise governance with Databricks that span a variety of use cases"
                 },
                 {
-                    "phrase": "working with and supporting Solution Architects",
-                    "category": "SKILL1",
-                    "justification": "This implies collaboration with other technical roles to achieve a common goal, fitting communication and collaboration."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves aligning technical roadmaps with customer business objectives for the Databricks platform.",
+                    "phrase": "aligning their technical roadmap for the Databricks Data Intelligence Platform"
                 },
                 {
-                    "phrase": "hands-on production experience with large scale data warehousing technologies, enterprise data catalogues and lake house architecture",
-                    "category": "TASK2",
-                    "justification": "This points to practical experience in building and managing data infrastructure and architecture, which falls under data engineering."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires providing technical leadership to guide customers through transformations, implying an understanding of their business objectives.",
+                    "phrase": "Provide technical leadership to guide strategic customers to successful cloud transformations"
                 },
                 {
-                    "phrase": "aligning their technical roadmap for the Databricks Data Intelligence Platform",
-                    "category": "TASK1",
-                    "justification": "This involves understanding business strategy and mapping it to a technical platform's capabilities."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves understanding customer organizational requirements for governance and mapping them to product usage.",
+                    "phrase": "Understand the built-in roles and identity concepts in Databricks, and how to map those to fit organizational requirements"
                 },
                 {
-                    "phrase": "performance tuning, data modelling, winning competitive evaluations, architecture design, enterprise data governance, integration with other catalogues and production migration planning",
-                    "category": "TASK2",
-                    "justification": "These are all aspects of designing, building, and managing data systems and infrastructure, fitting within data engineering and architecture."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires educating customers on governance models and their mapping to data governance products, which involves understanding business processes.",
+                    "phrase": "Communicate and educate customers on organizational models of governance and how they map to usage of data governance products in Databricks"
                 },
                 {
-                    "phrase": "Provide technical leadership to guide strategic customers to successful cloud transformations on large-scale data warehousing workloads, ranging from evaluation to architecture design to production deployment.",
-                    "category": "TASK1",
-                    "justification": "This highlights guiding customers through technical solutions and aligning them with business objectives (cloud transformations)."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves partnering with Solution Architects on technical sales, including estimating workload sizing and performance, which requires understanding the business impact of performance.",
+                    "phrase": "Partner with Solution Architects on more advanced aspects of the technical sale, including custom proof of concept content, estimating workload sizing and performance, and tuning workloads for production"
                 },
                 {
-                    "phrase": "Become a technical expert in an area such as competitive data warehousing evaluations or helping set up successful workload migrations.",
-                    "category": "TASK1",
-                    "justification": "This involves understanding the technical landscape and customer needs to guide them towards solutions, aligning with business goals."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The role requires hands-on production experience with large-scale data warehousing technologies and lakehouse architecture.",
+                    "phrase": "hands-on production experience with large scale data warehousing technologies, enterprise data catalogues and lake house architecture"
                 },
                 {
-                    "phrase": "Understand the built-in roles and identity concepts in Databricks, and how to map those to fit organizational requirements.",
-                    "category": "TASK1",
-                    "justification": "This requires understanding business/organizational needs and mapping them to technical configurations."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The role involves architecture design for data warehousing workloads.",
+                    "phrase": "architecture design"
                 },
                 {
-                    "phrase": "Communicate and educate customers on organizational models of governance and how they map to usage of data governance products in Databricks.",
-                    "category": "SKILL1",
-                    "justification": "This involves explaining technical concepts (governance) to customers and educating them, fitting communication and collaboration."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The role involves enterprise data governance and integration with other catalogues.",
+                    "phrase": "enterprise data governance, integration with other catalogues"
                 },
                 {
-                    "phrase": "Partner with Solution Architects on more advanced aspects of the technical sale, including custom proof of concept content, estimating workload sizing and performance, and tuning workloads for production.",
-                    "category": "TASK4",
-                    "justification": "While customer-facing, this involves technical implementation details like proof of concepts, sizing, and tuning, which are aspects of software/solution development and engineering."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The role involves planning for production migration of data warehousing workloads.",
+                    "phrase": "production migration planning"
                 },
                 {
-                    "phrase": "Provide tutorials and training to improve community adoption (including hackathons and conference presentations)",
-                    "category": "SKILL1",
-                    "justification": "This involves educating and communicating technical knowledge to a broader audience."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The role involves guiding customers through successful production planning for business intelligence workloads.",
+                    "phrase": "successful production planning for their business intelligence workloads"
                 },
                 {
-                    "phrase": "Contribute to the Databricks Community.",
-                    "category": "SKILL5",
-                    "justification": "This suggests taking initiative and ownership in contributing to a community, aligning with innovation and ownership."
-                }
-            ],
-            "technologies": [
-                {
-                    "phrase": "Databricks",
-                    "category": "TECH2",
-                    "justification": "Databricks is a cloud-based platform for data engineering, data science, and machine learning."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The role involves guiding customers through architecture design to production deployment for data warehousing workloads.",
+                    "phrase": "architecture design to production deployment"
                 },
                 {
-                    "phrase": "data warehousing",
-                    "category": "TECH10",
-                    "justification": "Data modeling in the context of data warehousing is a core concept."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The role involves helping customers set up successful workload migrations.",
+                    "phrase": "helping set up successful workload migrations"
                 },
                 {
-                    "phrase": "lake house architecture",
-                    "category": "TECH2",
-                    "justification": "Lakehouse architecture is a concept often implemented on cloud platforms like Databricks."
+                    "category": "TASK3: Modeling",
+                    "justification": "The role requires expertise in data modelling within the context of data warehousing.",
+                    "phrase": "data modelling"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The role involves performance tuning of data warehousing workloads.",
+                    "phrase": "performance tuning"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The role involves tuning workloads for production, which relates to optimizing model performance.",
+                    "phrase": "tuning workloads for production"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves partnering on custom proof of concept content, which can involve some development aspects.",
+                    "phrase": "custom proof of concept content"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves providing tutorials and training, including hackathons and conference presentations, which can involve demonstrating or developing solutions.",
+                    "phrase": "Provide tutorials and training to improve community adoption (including hackathons and conference presentations)"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The role requires hands-on production experience with data warehousing technologies and lakehouse architecture, implying involvement in production environments.",
+                    "phrase": "hands-on production experience with large scale data warehousing technologies, enterprise data catalogues and lake house architecture"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The role involves guiding customers through production deployment of data warehousing workloads.",
+                    "phrase": "production deployment"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The role involves tuning workloads for production, which relates to operational readiness and performance.",
+                    "phrase": "tuning workloads for production"
                 }
             ],
             "soft_skills": [
                 {
-                    "phrase": "customer-facing role",
-                    "category": "SKILL1",
-                    "justification": "Indicates a need for strong communication and interpersonal skills when interacting with clients."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "customer-facing role"
                 },
                 {
-                    "phrase": "working with and supporting Solution Architects",
-                    "category": "SKILL1",
-                    "justification": "Requires collaboration and effective communication within a technical team."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "working with and supporting Solution Architects"
                 },
                 {
-                    "phrase": "technical leadership",
-                    "category": "SKILL3",
-                    "justification": "Implies problem-solving and guiding others through complex technical challenges."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Communicate and educate customers"
                 },
                 {
-                    "phrase": "Communicate and educate customers",
-                    "category": "SKILL1",
-                    "justification": "Directly relates to the ability to convey technical information clearly and effectively."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Partner with Solution Architects"
                 },
                 {
-                    "phrase": "Partner with Solution Architects",
-                    "category": "SKILL1",
-                    "justification": "Highlights the importance of teamwork and collaboration."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Provide tutorials and training"
                 },
                 {
-                    "phrase": "Provide tutorials and training",
-                    "category": "SKILL1",
-                    "justification": "Requires strong communication and teaching abilities."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "continue to strengthen your technical skills through mentorship, learning, and internal training programs"
                 },
                 {
-                    "phrase": "strengthen your technical skills through mentorship, learning, and internal training programs",
-                    "category": "SKILL2",
-                    "justification": "Demonstrates a commitment to continuous learning and development."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "winning competitive evaluations"
                 },
                 {
-                    "phrase": "Contribute to the Databricks Community.",
-                    "category": "SKILL5",
-                    "justification": "Suggests initiative, proactivity, and ownership in contributing to a larger ecosystem."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "performance tuning"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "architecture design"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "production migration planning"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "deep go-to-expert"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "take full responsibility for the quality and success of one's work"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Databricks"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "data modelling"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "lake house architecture"
                 }
             ]
         }

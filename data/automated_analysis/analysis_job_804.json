@@ -28,77 +28,51 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description emphasizes building scalable data and AI products on the cloud, specifically mentioning Generative AI and Machine Learning expertise. This aligns with the GenAI Engineer profile's focus on developing and deploying applications built on generative models, combined with cloud competency."
+            "rationale": "The job description emphasizes building scalable data and AI products on the cloud, specifically mentioning expertise in generative AI, data engineering, and machine learning. This aligns with the GenAI Engineer profile's focus on developing and deploying applications built on generative models and integrating them into production systems."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "data engineering",
-                        "building scalable data and AI products on the cloud"
-                    ],
-                    "justification": "The phrase 'data engineering' directly maps to this category. 'Building scalable data and AI products on the cloud' implies the infrastructure and pipeline work inherent in data engineering for AI products."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'expertise in data engineering' directly maps to this category, indicating responsibilities related to data pipelines and infrastructure.",
+                    "phrase": "expertise in data engineering"
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "Generative AI",
-                        "artificial intelligence",
-                        "machine learning"
-                    ],
-                    "justification": "Directly mentions 'Generative AI' and 'machine learning', which are core to the modeling task. 'Artificial intelligence' is a broader term encompassing these."
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'generative AI' and 'machine learning' points to the core process of creating, training, or adapting models.",
+                    "phrase": "generative AI"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "building scalable data and AI products on the cloud"
-                    ],
-                    "justification": "The description focuses on building 'products', which implies software development to integrate AI capabilities into usable systems, especially when combined with cloud deployment."
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'generative AI' and 'machine learning' points to the core process of creating, training, or adapting models.",
+                    "phrase": "machine learning"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "cloud competency",
-                        "building scalable data and AI products on the cloud"
-                    ],
-                    "justification": "'Cloud competency' and 'building scalable data and AI products on the cloud' suggest the operational aspects of deploying and maintaining AI systems in a cloud environment."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "Cloud Platforms & Services",
-                    "phrases": [
-                        "cloud competency",
-                        "on the cloud"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'building scalable data and AI products' implies the development of software applications that incorporate AI capabilities.",
+                    "phrase": "building scalable data and AI products"
                 },
                 {
-                    "tech_name": "LLM / Generative Models",
-                    "phrases": [
-                        "Generative AI"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of 'cloud competency' and 'building scalable data and AI products on the cloud' suggests the need for deploying and managing AI models in a production environment.",
+                    "phrase": "cloud competency"
                 },
                 {
-                    "tech_name": "Data Modeling",
-                    "phrases": [
-                        "machine learning"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of 'cloud competency' and 'building scalable data and AI products on the cloud' suggests the need for deploying and managing AI models in a production environment.",
+                    "phrase": "building scalable data and AI products on the cloud"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        "drive innovation"
-                    ]
-                },
+                    "category": "SKILL5: Innovation and Ownership",
+                    "phrase": "drive innovation"
+                }
+            ],
+            "technologies": [
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "focussing on building scalable data and AI products"
-                    ]
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "cloud"
                 }
             ]
         }

@@ -27,97 +27,64 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on backend development, application maintenance, and integrating with existing systems, rather than core AI model development or generative AI applications. While it mentions learning about AI, the primary responsibilities do not align with the core tasks of an ML Engineer or GenAI Engineer."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on backend development, application maintenance, bug fixing, and interface development for data warehousing and consuming systems. While it mentions learning about AI and working within a Speech Analytics team, it lacks specific details about developing, fine-tuning, or deploying generative models, RAG systems, or advanced prompt engineering, which are core to a GenAI Engineer role. It also doesn't emphasize predictive modeling or MLOps in the context of ML Engineer roles. The primary focus is on software development and system maintenance rather than AI model development or application."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "je onderhoudt de applicatie",
-                        "de applicatie onderhoud je door bugs te fixen en het verbeteren van de code",
-                        "je zorgt ervoor dat nieuwe gebruikers binnen a.s.r. worden aangesloten",
-                        "bouwt interfaces voor nieuwe bronnen en consumerende systemen",
-                        "je ontwikkelt interfaces voor het aansluiten op het DataWareHouse en nieuwe features"
-                    ],
-                    "justification": "These phrases describe traditional software engineering activities such as maintaining applications, fixing bugs, improving code, and developing interfaces for system integration."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'je onderhoudt de applicatie' (you maintain the application) and 'de applicatie onderhoud je door bugs te fixen en het verbeteren van de code' (you maintain the application by fixing bugs and improving the code) directly relate to software maintenance and improvement.",
+                    "phrase": "je onderhoudt de applicatie"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "richt de LTB-processen in",
-                        "richt de onboarding volgens de Cloud standaarden van a.s.r. in",
-                        "alerting en monitoring in Application Insights"
-                    ],
-                    "justification": "These phrases relate to setting up processes, onboarding according to standards, and implementing monitoring and alerting, which are aspects of operations and infrastructure management."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'je bouwt interfaces voor nieuwe bronnen en consumerende systemen' (you build interfaces for new sources and consuming systems) and 'je ontwikkelt interfaces voor het aansluiten op het DataWareHouse en nieuwe features' (you develop interfaces for connecting to the DataWareHouse and new features) describe the development of software interfaces and connections.",
+                    "phrase": "je bouwt interfaces voor nieuwe bronnen en consumerende systemen"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "Speech Analytics Team",
-                        "grote zichtbaarheid van onze tool",
-                        "kan je in korte tijd veel waarde creëren"
-                    ],
-                    "justification": "These phrases indicate an understanding of the business context, the visibility of the tool, and the potential to create value within the organization."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "Cloud Platforms & Services",
-                    "type": "TECH2",
-                    "instances": [
-                        "Cloud standaarden van a.s.r."
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'je ontwikkelt interfaces voor het aansluiten op het DataWareHouse en nieuwe features' (you develop interfaces for connecting to the DataWareHouse and new features) indicates the development of software components to integrate with data systems and add functionality.",
+                    "phrase": "je ontwikkelt interfaces voor het aansluiten op het DataWareHouse en nieuwe features"
                 },
                 {
-                    "tech_name": "MLOps & Data Pipelines",
-                    "type": "TECH6",
-                    "instances": [
-                        "LTB-processen",
-                        "alerting en monitoring in Application Insights"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'alerting en monitoring in Application Insights' (alerting and monitoring in Application Insights) refers to operational aspects of maintaining and observing application performance and health.",
+                    "phrase": "alerting en monitoring in Application Insights"
                 },
                 {
-                    "tech_name": "Data Storage",
-                    "type": "TECH9",
-                    "instances": [
-                        "DataWareHouse"
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'je richt de onboarding volgens de Cloud standaarden van a.s.r. in' (you set up onboarding according to a.s.r.'s Cloud standards) implies setting up and configuring systems, which can involve data-related infrastructure and processes, especially in a cloud context.",
+                    "phrase": "je richt de onboarding volgens de Cloud standaarden van a.s.r. in"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Om de verbinding met elkaar te houden, zoeken we elkaar gemiddeld twee keer per week op op ons hoofdkantoor in Utrecht' (To maintain connection with each other, we meet on average twice a week at our head office in Utrecht) describes team collaboration and operational cadence, which relates to understanding how the business operates.",
+                    "phrase": "Om de verbinding met elkaar te houden, zoeken we elkaar gemiddeld twee keer per week op op ons hoofdkantoor in Utrecht"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "type": "SKILL2",
-                    "instances": [
-                        "verder bijleren over AI"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "We werken samen met interne en externe collega's"
                 },
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "type": "SKILL1",
-                    "instances": [
-                        "werken samen met interne en externe collega's",
-                        "zoeken elkaar gemiddeld twee keer per week op op ons hoofdkantoor in Utrecht"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "kan je in korte tijd veel waarde creëren én verder bijleren over AI"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "type": "SKILL5",
-                    "instances": [
-                        "grote mate van flexibiliteit, waardoor je baas over je eigen agenda bent"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "je hebt verder een grote mate van flexibiliteit, waardoor je baas over je eigen agenda bent"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Cloud standaarden van a.s.r."
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "type": "SKILL3",
-                    "instances": [
-                        "bugs te fixen",
-                        "het verbeteren van de code",
-                        "kan je in korte tijd veel waarde creëren"
-                    ]
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Application Insights"
                 }
             ]
         }

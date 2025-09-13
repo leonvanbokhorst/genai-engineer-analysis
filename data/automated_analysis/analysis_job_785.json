@@ -27,87 +27,86 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on data processing, reporting, and advising on data quality and existing technologies like business rule engines. While generative AI is mentioned as a technology to advise on, the core responsibilities do not align with building, fine-tuning, or deploying generative models, nor with the core MLOps or advanced modeling tasks typically associated with ML or GenAI Engineer roles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on data engineering tasks, data quality, and advising clients on data-related matters. While it mentions 'generative AI' as a technology to advise on, the core responsibilities and tasks described do not align with the core responsibilities of a GenAI Engineer or ML Engineer, which involve building, fine-tuning, or deploying generative models or predictive models. The role appears to be more focused on traditional data engineering and business intelligence, with an advisory capacity on emerging AI technologies rather than hands-on development."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK2: Data Engineering",
-                    "phrases": [
-                        "ontwikkel en onderhoud je slimme IT-oplossingen die enorme hoeveelheden data verwerken",
-                        "optimaliseert onze dataprocessen"
-                    ],
-                    "justification": "These phrases directly describe the development, maintenance, and optimization of IT solutions for processing large volumes of data, which is the core of data engineering."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'ontwikkel en onderhoud je slimme IT-oplossingen die enorme hoeveelheden data verwerken' directly relates to building and maintaining data processing solutions. 'optimaliseert onze dataprocessen' also clearly falls under data engineering.",
+                    "phrase": "ontwikkel en onderhoud je slimme IT-oplossingen die enorme hoeveelheden data verwerken"
                 },
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "vertalen naar internationale wet- en regelgeving",
-                        "adviseren nieuwe klanten over datakwaliteit",
-                        "Klanten adviseren over datakwaliteit, datamapping en modellering"
-                    ],
-                    "justification": "The role involves understanding and translating complex data into regulatory contexts and advising clients on data-related aspects, indicating a need to grasp business and domain-specific requirements."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'optimaliseert onze dataprocessen' refers to improving existing data workflows.",
+                    "phrase": "optimaliseert onze dataprocessen"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "ontwikkel en onderhoud je slimme IT-oplossingen"
-                    ],
-                    "justification": "While not explicitly building user-facing applications, the development and maintenance of IT solutions implies software development activities."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'vertalen naar internationale wet- en regelgeving' indicates understanding business context and translating it into technical solutions.",
+                    "phrase": "vertalen naar internationale wet- en regelgeving"
                 },
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "Klanten adviseren over datakwaliteit, datamapping en modellering"
-                    ],
-                    "justification": "The mention of 'modellering' (modeling) in the context of advising clients on data quality and mapping suggests involvement in data modeling concepts, though not necessarily ML model building."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'adviseren nieuwe klanten over datakwaliteit' shows an understanding of business needs and providing solutions.",
+                    "phrase": "adviseren nieuwe klanten over datakwaliteit"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [],
-                    "justification": "There are no specific phrases in the job description that directly relate to building, deploying, monitoring, or maintaining ML/GenAI models in production environments."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "generative AI",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'rapportages en dashboards te creëren' implies developing outputs that could be considered software components or features.",
+                    "phrase": "rapportages en dashboards te creëren"
                 },
                 {
-                    "technology": "business rule engines",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Klanten adviseren over datakwaliteit, datamapping en modellering' includes advising on modeling, which is a core part of Task 3, although the role itself is not described as building models.",
+                    "phrase": "Klanten adviseren over datakwaliteit, datamapping en modellering"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Rapportages en dashboards ontwikkelen samen met interne teams' indicates the development of specific outputs, which can be considered software development.",
+                    "phrase": "Rapportages en dashboards ontwikkelen samen met interne teams"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Vakspecialisten ondersteunen met het oplossen van complexe datavraagstukken' implies understanding business problems related to data.",
+                    "phrase": "Vakspecialisten ondersteunen met het oplossen van complexe datavraagstukken"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "Samen met je collega's",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Samen met je collega's"
                 },
                 {
-                    "skill": "input maakt direct impact",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "werk je nauw samen met onze compliance analisten"
                 },
                 {
-                    "skill": "ruimte om nieuwe technologieën te ontdekken en te implementeren",
-                    "category": "SKILL2: Learning & Adaptability"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Vakspecialisten ondersteunen"
                 },
                 {
-                    "skill": "adviseren",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Klanten adviseren"
                 },
                 {
-                    "skill": "Vakspecialisten ondersteunen met het oplossen van complexe datavraagstukken",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "nieuwe technologieën te ontdekken en te implementeren"
                 },
                 {
-                    "skill": "Klanten adviseren",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "adviseren over innovatieve technologieën"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "generative AI"
                 },
                 {
-                    "skill": "samen met interne teams",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "IT-oplossingen"
                 }
             ]
         }

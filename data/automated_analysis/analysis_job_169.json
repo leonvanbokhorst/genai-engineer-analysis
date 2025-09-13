@@ -28,80 +28,71 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description emphasizes building and implementing LLM and ML infrastructure and models, specifically mentioning LLM pipelines and the use of Azure. The responsibilities include setting up CI/CD, testing, validating, optimizing, and deploying models, which aligns with the core duties of a GenAI Engineer focused on productionizing generative AI solutions."
+            "rationale": "The job description emphasizes building and maintaining LLM and ML infrastructure and models, specifically mentioning LLM pipelines, CI/CD for models, testing, validation, optimization, containerization, deployment, version control, and monitoring. It also highlights collaboration with GenAI Developers and the use of Azure platform, aligning strongly with the 'GenAI Engineer' profile's focus on generative models, software development around them, and MLOps."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrase": "Bouwen en implementeren van cloudoplossingen en het bouwen van LLM en ML-pijplijnen op Azure",
-                    "justification": "This phrase directly relates to building and implementing infrastructure and pipelines for LLM and ML models in a cloud environment (Azure), which is a core aspect of MLOps."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Phrases like 'bouwen en implementeren van cloudoplossingen en het bouwen van LLM en ML-pijplijnen', 'Opzetten en beheren van CI/CD-pijplijnen', 'Testen, valideren, optimaliseren en automatiseren van LLM en ML modellen, inclusief code refactoring, containerisatie, deployment, versiebeheer en monitoring van modelprestaties' directly relate to the operational aspects of deploying and maintaining ML/GenAI models in production.",
+                    "phrase": "bouwen en implementeren van cloudoplossingen en het bouwen van LLM en ML-pijplijnen"
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrase": "Opzetten en beheren van CI/CD-pijplijnen met behulp van tools zoals Azure DevOps of vergelijkbare tools",
-                    "justification": "Setting up and managing CI/CD pipelines is a fundamental MLOps activity for automating the deployment and management of models."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Setting up and managing CI/CD pipelines is a core component of MLOps.",
+                    "phrase": "Opzetten en beheren van CI/CD-pijplijnen"
                 },
                 {
-                    "task": "TASK3: Modeling",
-                    "phrase": "Testen, valideren, optimaliseren en automatiseren van LLM en ML modellen",
-                    "justification": "This phrase describes the core activities of working with models, including testing, validation, and optimization, which falls under the Modeling task."
+                    "category": "TASK3: Modeling",
+                    "justification": "Testing, validating, optimizing, and automating LLM and ML models, including refactoring, containerization, deployment, version control, and monitoring model performance, are all part of the model lifecycle and improvement process.",
+                    "phrase": "Testen, valideren, optimaliseren en automatiseren van LLM en ML modellen, inclusief code refactoring, containerisatie, deployment, versiebeheer en monitoring van modelprestaties"
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrase": "inclusief code refactoring, containerisatie, deployment, versiebeheer en monitoring van modelprestaties om de kwaliteit en efficiëntie te verbeteren",
-                    "justification": "These are all key MLOps activities related to deploying, managing, and monitoring models in production environments."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves building and implementing cloud solutions and pipelines, which requires software development skills to integrate and deploy these systems.",
+                    "phrase": "bouwen en implementeren van cloudoplossingen"
                 },
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrase": "Samenwerken met de bredere Athora organisatie (o.a. Architecten, DevOps Engineers, GenAI Developers en Data Scientists) om technische oplossingen te ontwikkelen die aansluiten bij de organisatorische behoeften",
-                    "justification": "This involves understanding organizational needs and collaborating with various teams to align technical solutions, indicating business understanding and cross-functional collaboration."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Collaborating with various teams to develop technical solutions that align with organizational needs indicates an understanding of business requirements and translating them into technical implementations.",
+                    "phrase": "Samenwerken met de bredere Athora organisatie (o.a. Architecten, DevOps Engineers, GenAI Developers en Data Scientists) om technische oplossingen te ontwikkelen die aansluiten bij de organisatorische behoeften"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrase": "ontwikkelen van technische oplossingen",
-                    "justification": "While broad, developing technical solutions in collaboration with other teams implies software development aspects, especially when integrating models into broader systems."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "TECH2: Cloud Platforms & Services",
-                    "name": "Azure"
-                },
-                {
-                    "technology": "TECH6: MLOps & Data Pipelines",
-                    "name": "Azure DevOps"
-                },
-                {
-                    "technology": "TECH3: LLM / Generative Models",
-                    "name": "LLM"
-                },
-                {
-                    "technology": "TECH10: Data Modeling",
-                    "name": "ML"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'Samenwerken met de bredere Athora organisatie' and mentioning collaboration with various roles like Architects, DevOps Engineers, GenAI Developers, and Data Scientists highlights the importance of teamwork and interdisciplinary collaboration.",
+                    "phrase": "Samenwerken met de bredere Athora organisatie"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
+                    "category": "SKILL1: Communication & Collaboration",
                     "phrase": "Samenwerken met de bredere Athora organisatie (o.a. Architecten, DevOps Engineers, GenAI Developers en Data Scientists)"
                 },
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrase": "in een team te werken dat impact maakt"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "technische expertise"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "phrase": "passie voor machine learning en AI"
-                },
-                {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "technische diepgang"
-                },
-                {
-                    "skill": "SKILL5: Innovation & Ownership",
+                    "category": "SKILL5: Innovation & Ownership",
                     "phrase": "bruggenbouwers van Athora"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLM"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "ML"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Azure DevOps"
                 }
             ]
         }

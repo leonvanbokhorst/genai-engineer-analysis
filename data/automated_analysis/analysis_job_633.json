@@ -28,151 +28,70 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description emphasizes building and running GenAI solutions, including developing reusable building blocks and contributing to automation. It highlights end-to-end responsibility for these solutions, aligning with the core responsibilities of a GenAI Engineer focused on productionizing generative models."
+            "rationale": "The job description heavily emphasizes building and running 'groundbreaking Gen AI solutions' and 'responsible and cost-effective Gen AI solutions'. It highlights end-to-end responsibility for these solutions, including building, testing, deploying, and running them, which aligns with the core responsibilities of a GenAI Engineer. The mention of converting generic parts to reusable building blocks also suggests application development around GenAI, further supporting this classification."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        "build and run groundbreaking Gen AI solutions",
-                        "build web applications autonomously from scratch",
-                        "end-to-end responsibility for your solutions",
-                        "Convert these generic parts to re-usable building blocks used by 1000+ tech teams",
-                        "Build, test, deploy and run high quality and highly scalable Gen AI solutions"
-                    ],
-                    "justification": "These phrases indicate the development of user-facing applications and infrastructure to support GenAI solutions, including building from scratch, creating reusable components, and ensuring scalability and quality."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'build web applications autonomously from scratch' and 'Convert these generic parts to re-usable building blocks' indicates traditional software development activities to create user-facing applications and components.",
+                    "phrase": "Build web applications autonomously from scratch"
                 },
                 {
-                    "task_name": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "run groundbreaking Gen AI solutions",
-                        "end-to-end responsibility for your solutions",
-                        "Build, test, deploy and run high quality and highly scalable Gen AI solutions",
-                        "Contribute to the relentless automation of the above activities"
-                    ],
-                    "justification": "The description explicitly mentions running, deploying, testing, and automating GenAI solutions, which are core components of MLOps and productionizing AI systems."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Convert these generic parts to re-usable building blocks used by 1000+ tech teams' implies building software components that are integrated into larger systems.",
+                    "phrase": "Convert these generic parts to re-usable building blocks used by 1000+ tech teams"
                 },
                 {
-                    "task_name": "TASK3: Modeling",
-                    "phrases": [
-                        "groundbreaking Gen AI solutions",
-                        "responsible and cost-effective Gen AI solutions"
-                    ],
-                    "justification": "The focus on 'Gen AI solutions' implies working with and adapting generative models, even if specific fine-tuning or RAG details are not explicitly stated."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Build responsible and cost-effective Gen AI solutions' directly points to the development and implementation of generative AI models.",
+                    "phrase": "Build responsible and cost-effective Gen AI solutions"
                 },
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        "valuable for our customers to use",
-                        "Build responsible and cost-effective Gen AI solutions for millions of customers"
-                    ],
-                    "justification": "The job requires understanding customer value and building solutions that are cost-effective and serve a large customer base, indicating a need to align technical work with business objectives."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Build, test, deploy and run high quality and highly scalable Gen AI solutions' encompasses the entire lifecycle of an AI solution in production, including deployment and operational aspects.",
+                    "phrase": "Build, test, deploy and run high quality and highly scalable Gen AI solutions"
                 },
                 {
-                    "task_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "join a multi-disciplinary team",
-                        "Work within a squad to learn how processes and systems work",
-                        "Pair-program with other team members",
-                        "Receive help from peers, experts, and stakeholders so we can improve together"
-                    ],
-                    "justification": "Phrases like 'multi-disciplinary team', 'squad', 'pair-program', and 'receive help from peers' highlight the collaborative nature of the role."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Contribute to the relentless automation of the above activities' suggests a focus on automating the deployment and operational processes, which is a key part of MLOps.",
+                    "phrase": "Contribute to the relentless automation of the above activities"
                 },
                 {
-                    "task_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "learn how processes and systems work",
-                        "Receive help from peers, experts, and stakeholders so we can improve together"
-                    ],
-                    "justification": "The emphasis on learning within a squad and improving together suggests a need for continuous learning and adaptability."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'Work within a squad to learn how processes and systems work' implies collaboration within a team structure.",
+                    "phrase": "Work within a squad to learn how processes and systems work"
                 },
                 {
-                    "task_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "build web applications autonomously from scratch",
-                        "end-to-end responsibility for your solutions",
-                        "solve critical or complex problems",
-                        "responsible and cost-effective Gen AI solutions"
-                    ],
-                    "justification": "The ability to build autonomously, take end-to-end responsibility, solve complex problems, and focus on cost-effectiveness points to strong problem-solving and pragmatic skills."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'Pair-program with other team members to solve critical or complex problems' directly indicates collaborative problem-solving and knowledge sharing.",
+                    "phrase": "Pair-program with other team members to solve critical or complex problems"
                 },
                 {
-                    "task_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "build and run groundbreaking Gen AI solutions",
-                        "build web applications autonomously from scratch",
-                        "end-to-end responsibility for your solutions",
-                        "Convert these generic parts to re-usable building blocks"
-                    ],
-                    "justification": "The description emphasizes building 'groundbreaking' solutions autonomously, taking 'end-to-end responsibility', and creating 're-usable building blocks', indicating a need for innovation and ownership."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "phrase": "Gen AI solutions",
-                    "category": "TECH3"
-                },
-                {
-                    "tech_name": "TECH4: LLM Frameworks & Libraries",
-                    "phrase": "Gen AI solutions",
-                    "category": "TECH4"
-                },
-                {
-                    "tech_name": "TECH6: MLOps & Data Pipelines",
-                    "phrase": "Build, test, deploy and run",
-                    "category": "TECH6"
-                },
-                {
-                    "tech_name": "TECH6: MLOps & Data Pipelines",
-                    "phrase": "automation of the above activities",
-                    "category": "TECH6"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'Receive help from peers, experts, and stakeholders so we can improve together' highlights the importance of collaboration and seeking input from others.",
+                    "phrase": "Receive help from peers, experts, and stakeholders so we can improve together"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrase": "join a multi-disciplinary team",
-                    "category": "SKILL1"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Work within a squad"
                 },
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrase": "Pair-program with other team members",
-                    "category": "SKILL1"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Pair-program with other team members"
                 },
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrase": "Receive help from peers, experts, and stakeholders",
-                    "category": "SKILL1"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Receive help from peers, experts, and stakeholders"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrase": "learn how processes and systems work",
-                    "category": "SKILL2"
-                },
-                {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "solve critical or complex problems",
-                    "category": "SKILL3"
-                },
-                {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "responsible and cost-effective",
-                    "category": "SKILL3"
-                },
-                {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrase": "build web applications autonomously from scratch",
-                    "category": "SKILL5"
-                },
-                {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrase": "end-to-end responsibility for your solutions",
-                    "category": "SKILL5"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "end-to-end responsibility for your solutions"
                 }
-            ]
+            ],
+            "technologies": []
         }
     }
 }

@@ -27,114 +27,111 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on technical support for a data science platform (Dataiku) rather than the development or engineering of AI/ML models. While it involves technical problem-solving and collaboration, it lacks the core elements of ML/GenAI engineering such as model building, data engineering for ML, or MLOps."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on technical support for a specific software (Dataiku) and does not involve the core responsibilities of developing, training, or deploying AI/ML models. The tasks described are primarily customer-facing technical assistance, issue resolution, and knowledge documentation, which fall outside the scope of ML Engineer or GenAI Engineer profiles. The role is more aligned with traditional technical support or customer success engineering."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "contribute to the growth of our global support function as we continue to scale up our operations",
-                            "justification": "This phrase indicates an understanding of the company's growth strategy and the role of support in achieving it."
-                        },
-                        {
-                            "phrase": "help ensure a proper and efficient / timely resolution",
-                            "justification": "This highlights an understanding of customer satisfaction and operational efficiency as business goals."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires understanding customer issues with Dataiku and collaborating with internal teams to ensure efficient resolution, implying a need to understand the business context of customer problems and product usage.",
+                    "phrase": "help contribute to the growth of our global support function as we continue to scale up our operations"
                 },
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "installation, security, and integration with other big data technologies",
-                            "justification": "While not direct software development, supporting installation, security, and integration implies a need to understand the software's architecture and how it interacts with other systems."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves understanding customer needs and technical challenges related to Dataiku.",
+                    "phrase": "help our EMEA and global customers solve their wide range of technical issues with Dataiku"
                 },
                 {
-                    "task_name": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        {
-                            "phrase": "solve their wide range of technical issues with Dataiku",
-                            "justification": "Troubleshooting and resolving technical issues, especially in a production environment, can overlap with operational aspects, though it's more reactive support than proactive MLOps."
-                        },
-                        {
-                            "phrase": "escalate customer issues as needed",
-                            "justification": "This involves understanding the support lifecycle and escalation paths, which are operational concerns."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "Dataiku",
-                    "tech_type": "TECH10: Data Modeling"
+                    "category": "TASK4: Software Development",
+                    "justification": "While not developing new software, the role involves understanding and troubleshooting technical issues related to software installation, security, and integration, which requires a technical understanding of software systems.",
+                    "phrase": "installation, security, and integration with other big data technologies"
                 },
                 {
-                    "tech_name": "big data technologies",
-                    "tech_type": "TECH11: Data Analysis"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires collaborating with internal teams to resolve customer issues, indicating a need to understand internal processes and stakeholder needs.",
+                    "phrase": "collaborate with various internal teams to solve and escalate customer issues as needed"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves direct customer interaction to resolve technical problems, requiring an understanding of customer needs and product functionality.",
+                    "phrase": "Help EMEA and global customers solve their technical issues with Dataiku through a variety of communication channels"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires communication with R&D to resolve issues and provide customer feedback, indicating an understanding of product development cycles and customer impact.",
+                    "phrase": "Communicate with our R&D team to solve complex issues and/or share feedback from our EMEA customers for future product improvement"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves working with other customer-facing teams to ensure efficient issue resolution, requiring an understanding of cross-functional collaboration and customer satisfaction.",
+                    "phrase": "Work with other customer-facing teams when escalating or rerouting issues to help ensure a proper and efficient / timely resolution"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves creating technical documentation and contributing to knowledge bases, which requires understanding how to articulate technical information clearly for users and internal teams.",
+                    "phrase": "Document knowledge in the form of technical articles and contribute to knowledge bases or forums within specific areas of expertise"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires flexibility and the ability to contribute to various activities in a startup environment, implying a broad understanding of business operations and team needs.",
+                    "phrase": "Occasionally wear multiple hats and help out with other activities in a fast-paced and dynamic startup team environment"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        {
-                            "phrase": "comfortable working in a complex and dynamic environment"
-                        },
-                        {
-                            "phrase": "help our EMEA and global customers solve their wide range of technical issues"
-                        },
-                        {
-                            "phrase": "collaborate with various internal teams"
-                        },
-                        {
-                            "phrase": "Communicate with our R&D team"
-                        },
-                        {
-                            "phrase": "Work with other customer-facing teams"
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "collaborate with various internal teams"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        {
-                            "phrase": "complex and dynamic environment"
-                        },
-                        {
-                            "phrase": "fast-paced and dynamic startup team environment"
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Communicate with our R&D team"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        {
-                            "phrase": "solve their wide range of technical issues"
-                        },
-                        {
-                            "phrase": "solve complex issues"
-                        },
-                        {
-                            "phrase": "help ensure a proper and efficient / timely resolution"
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Work with other customer-facing teams"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        {
-                            "phrase": "Occasionally wear multiple hats and help out with other activities"
-                        },
-                        {
-                            "phrase": "take full responsibility for the quality and success of one's work"
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "through a variety of communication channels"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "comfortable working in a complex and dynamic environment"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "fast-paced and dynamic startup team environment"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "solve their wide range of technical issues"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "solve complex issues"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "escalating or rerouting issues to help ensure a proper and efficient / timely resolution"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "help contribute to the growth of our global support function"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Occasionally wear multiple hats and help out with other activities"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Dataiku"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "big data technologies"
                 }
             ]
         }

@@ -27,122 +27,98 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on client-facing advisory, strategy, and relationship management, with a broad mention of AI solutions. It lacks specific details on the hands-on development, modeling, or MLOps required for an ML or GenAI Engineer role."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on client interaction, strategy, and the application of AI solutions rather than the core development, fine-tuning, or deep technical implementation of AI models. While it mentions AI, it lacks specific technical tasks related to building or deploying models, making it more of a strategic or consulting role that leverages AI rather than a hands-on engineering role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "Architect and implement data driven strategies, aiding clients in recognizing and harnessing the value of AI, ensuring synergy with their business objectives.",
-                            "justification": "This phrase directly addresses understanding client business objectives and translating them into AI strategies."
-                        },
-                        {
-                            "phrase": "Contribute to complex data & AI transformation initiatives, ensuring seamless integration of Microsoft technologies into client business workflows, aligning with client goals and industry best practices.",
-                            "justification": "Highlights aligning technical solutions with client goals and business workflows."
-                        },
-                        {
-                            "phrase": "Collaborate closely with internal stakeholders and senior management to comprehend their challenges and devise AI-driven solutions.",
-                            "justification": "Focuses on understanding business challenges and needs to propose solutions."
-                        },
-                        {
-                            "phrase": "Cultivate and sustain strong client relationships, establishing yourself, and PwC as a trusted advisor and showcasing the transformative potential of AI solutions.",
-                            "justification": "Emphasizes understanding client needs and positioning AI solutions within their business context."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves architecting data-driven strategies, aiding clients in recognizing and harnessing AI value, ensuring synergy with business objectives, and aligning solutions with client goals and industry best practices.",
+                    "phrase": "Architect and implement data driven strategies, aiding clients in recognizing and harnessing the value of AI, ensuring synergy with their business objectives."
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "ensuring seamless integration of Microsoft technologies into client business workflows",
-                            "justification": "Implies the need to integrate AI solutions into existing software systems, a form of software development."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires contributing to transformation initiatives, ensuring integration of technologies into client workflows, and aligning with client goals.",
+                    "phrase": "Contribute to complex data & AI transformation initiatives, ensuring seamless integration of Microsoft technologies into client business workflows, aligning with client goals and industry best practices."
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        {
-                            "phrase": "ensuring seamless integration of Microsoft technologies into client business workflows",
-                            "justification": "While not explicitly MLOps, 'seamless integration' into workflows can involve operational aspects of deployment and maintenance."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves collaborating with stakeholders to comprehend challenges and devise AI-driven solutions.",
+                    "phrase": "Collaborate closely with internal stakeholders and senior management to comprehend their challenges and devise AI-driven solutions."
+                },
                 {
-                    "tech_name": "Microsoft",
-                    "tech_type": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role focuses on cultivating client relationships and establishing trust as an advisor, showcasing AI solutions' potential.",
+                    "phrase": "Cultivate and sustain strong client relationships, establishing yourself, and PwC as a trusted advisor and showcasing the transformative potential of AI solutions."
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves fostering partnerships to stay abreast of AI trends and technologies, indicating a need to understand the market and its offerings.",
+                    "phrase": "Foster partnerships with Microsoft and other tech entities to stay abreast of evolving AI trends and technologies."
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role emphasizes thought leadership and sharing knowledge to enhance AI capabilities and methodologies, which requires a deep understanding of the business context and application of AI.",
+                    "phrase": "Thought leadership, sharing your knowledge and expertise, contributing to the enhancement of our AI capabilities and methodologies."
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "justification": "The role involves mentoring junior team members and instilling a culture of continuous learning.",
+                    "phrase": "Mentor and develop junior team members, instilling a culture of innovation, excellence, and continuous learning."
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires upholding high standards of quality and compliance in solution delivery, which is a business-oriented responsibility.",
+                    "phrase": "Uphold the highest standards of quality and compliance in all solution delivery endeavors."
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        {
-                            "phrase": "Collaborate closely with internal stakeholders and senior management to comprehend their challenges and devise AI-driven solutions."
-                        },
-                        {
-                            "phrase": "Cultivate and sustain strong client relationships, establishing yourself, and PwC as a trusted advisor"
-                        },
-                        {
-                            "phrase": "Foster partnerships with Microsoft and other tech entities to stay abreast of evolving AI trends and technologies."
-                        },
-                        {
-                            "phrase": "Thought leadership, sharing your knowledge and expertise, contributing to the enhancement of our AI capabilities and methodologies."
-                        },
-                        {
-                            "phrase": "Mentor and develop junior team members, instilling a culture of innovation, excellence, and continuous learning."
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate closely with internal stakeholders and senior management"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        {
-                            "phrase": "Foster partnerships with Microsoft and other tech entities to stay abreast of evolving AI trends and technologies."
-                        },
-                        {
-                            "phrase": "Mentor and develop junior team members, instilling a culture of innovation, excellence, and continuous learning."
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Cultivate and sustain strong client relationships"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        {
-                            "phrase": "Architect and implement data driven strategies, aiding clients in recognizing and harnessing the value of AI, ensuring synergy with their business objectives."
-                        },
-                        {
-                            "phrase": "Contribute to complex data & AI transformation initiatives, ensuring seamless integration of Microsoft technologies into client business workflows, aligning with client goals and industry best practices."
-                        },
-                        {
-                            "phrase": "Collaborate closely with internal stakeholders and senior management to comprehend their challenges and devise AI-driven solutions."
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "establishing yourself, and PwC as a trusted advisor"
                 },
                 {
-                    "skill_name": "Ethical & Legal Responsibility",
-                    "phrases": [
-                        {
-                            "phrase": "Uphold the highest standards of quality and compliance in all solution delivery endeavors."
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Foster partnerships with Microsoft and other tech entities"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        {
-                            "phrase": "Architect and implement data driven strategies, aiding clients in recognizing and harnessing the value of AI, ensuring synergy with their business objectives."
-                        },
-                        {
-                            "phrase": "Mentor and develop junior team members, instilling a culture of innovation, excellence, and continuous learning."
-                        }
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Thought leadership"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "contributing to the enhancement of our AI capabilities and methodologies"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "continuous learning"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "instilling a culture of innovation"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "devising AI-driven solutions"
+                },
+                {
+                    "category": "SKILL4: Ethical & Legal Responsibility",
+                    "phrase": "Uphold the highest standards of quality and compliance"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Microsoft technologies"
                 }
             ]
         }

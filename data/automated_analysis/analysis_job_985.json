@@ -27,56 +27,38 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on providing human feedback to train AI models, primarily by answering computer science questions and evaluating AI-generated code. It lacks the core responsibilities of developing, fine-tuning, or deploying AI models, which are characteristic of ML or GenAI Engineer roles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on training and evaluating AI models by providing human feedback and answering questions related to computer science. While it mentions 'generative AI models' and 'large language models', it does not involve the core responsibilities of developing, fine-tuning, or deploying these models as a primary function. The role seems more focused on the 'use of AI tools to enhance productivity' or acting as a human-in-the-loop for AI training, rather than being a developer or engineer of AI systems. There is a lack of evidence for core tasks like algorithm development, data engineering, or building production-grade software systems around AI."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "trainen van AI-modellen",
-                        "helpen geavanceerde generatieve AI-modellen betere code te schrijven",
-                        "interactie vereisen met deze modellen terwijl ze leren coderen",
-                        "helpen bij het trainen van generatieve AI-modellen",
-                        "Het maken en beantwoorden van vragen met betrekking tot informatica om AI-modellen te helpen trainen",
-                        "Het evalueren en rangschikken van code die door AI-modellen wordt gegenereerd"
-                    ],
-                    "justification": "These phrases directly relate to the process of training and interacting with AI models, specifically generative AI models, by providing feedback and data for them to learn and improve."
+                    "category": "TASK3",
+                    "justification": "The phrase 'trainen van generatieve AI-modellen' and 'helpen AI-modellen te trainen' directly relates to the process of creating or adapting machine learning models.",
+                    "phrase": "trainen van generatieve AI-modellen"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "Outlier helpt 's werelds meest innovatieve bedrijven bij het verbeteren van hun AI-modellen door menselijke feedback te leveren."
-                    ],
-                    "justification": "This phrase describes the company's business and its core service of providing human feedback to improve AI models for innovative companies."
+                    "category": "TASK3",
+                    "justification": "The phrase 'evalueren en rangschikken van code die door AI-modellen wordt gegenereerd' involves assessing the output of models, which is part of the model development and refinement process.",
+                    "phrase": "evalueren en rangschikken van code die door AI-modellen wordt gegenereerd"
+                },
+                {
+                    "category": "TASK1",
+                    "justification": "The phrase 'vragen met betrekking tot informatica om AI-modellen te helpen trainen' implies understanding computer science concepts to guide AI training, which touches upon understanding the domain to inform technical tasks.",
+                    "phrase": "vragen met betrekking tot informatica om AI-modellen te helpen trainen"
                 }
             ],
-            "technologies": [],
             "soft_skills": [
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        "Er is geen eerdere ervaring met AI vereist."
-                    ],
-                    "justification": "The statement that no prior AI experience is required implies a need for individuals who can learn and adapt to AI concepts and tools quickly."
+                    "category": "SKILL2",
+                    "phrase": "geen eerdere ervaring met AI vereist"
                 },
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        "Het maken en beantwoorden van vragen met betrekking tot informatica om AI-modellen te helpen trainen."
-                    ],
-                    "justification": "Creating and answering questions requires clear communication of computer science concepts to facilitate AI model training."
-                },
-                {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        "Outlier helpt 's werelds meest innovatieve bedrijven bij het verbeteren van hun AI-modellen"
-                    ],
-                    "justification": "Working with innovative companies suggests a need for individuals who can contribute to cutting-edge advancements and potentially take ownership of feedback processes."
+                    "category": "SKILL5",
+                    "phrase": "flexibele werkuren"
                 }
-            ]
+            ],
+            "technologies": []
         }
     }
 }

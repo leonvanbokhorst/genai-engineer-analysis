@@ -27,113 +27,79 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional infrastructure and systems engineering, particularly Linux and datacenter management. While it mentions a 'DevOps mindset' and 'automation tooling', it lacks any specific mention of AI, machine learning, generative models, or related technologies, making it not relevant to the GenAI or ML Engineer profiles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on infrastructure, system administration, and DevOps principles for a Linux environment, including managing servers, networks, and Kubernetes. It does not involve the development, fine-tuning, or deployment of AI models, which are core to the ML Engineer and GenAI Engineer profiles. The role is primarily infrastructure-focused and does not align with the technical requirements of AI/ML engineering."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "Provide a flexible infrastructure to the rest of the company up to and including the base OS layer and kubernetes.",
-                            "justification": "This phrase indicates the need to understand how the infrastructure supports the company's overall operations and product delivery."
-                        },
-                        {
-                            "phrase": "Work with a DevOps mindset with other teams within the company to bring our products to a large number of corporate customers worldwide.",
-                            "justification": "This highlights the need to collaborate with other teams and understand how infrastructure impacts product delivery to customers."
-                        }
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The description mentions 'Operate and improve our automation tooling' and 'Work with a DevOps mindset', which are core components of MLOps and general operations engineering, focusing on maintaining and improving systems.",
+                    "phrase": "Operate and improve our automation tooling"
                 },
                 {
-                    "task_name": "TASK2: Data Engineering",
-                    "phrases": []
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Managing physical servers, OS's, networks, and providing flexible infrastructure up to the base OS layer and Kubernetes are fundamental responsibilities within operations and infrastructure engineering, aligning with the broader scope of MLOps.",
+                    "phrase": "Manage and expand the physical servers, OS's and networks in multiple datacenters"
                 },
                 {
-                    "task_name": "TASK3: Modeling",
-                    "phrases": []
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Providing a flexible infrastructure up to the base OS layer and Kubernetes is a key aspect of infrastructure engineering and operations, ensuring the underlying systems are robust and available.",
+                    "phrase": "Provide a flexible infrastructure to the rest of the company up to and including the base OS layer and kubernetes"
                 },
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "Provide a flexible infrastructure to the rest of the company up to and including the base OS layer and kubernetes.",
-                            "justification": "While not traditional application development, managing and providing infrastructure, especially with Kubernetes, involves software development principles for deployment and management."
-                        }
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Working with a DevOps mindset is explicitly mentioned, indicating a focus on collaboration, automation, and continuous improvement in system operations.",
+                    "phrase": "Work with a DevOps mindset"
                 },
                 {
-                    "task_name": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        {
-                            "phrase": "Achieve uptime >99.99%.",
-                            "justification": "This is a key operational metric related to system reliability and availability, a core concern in MLOps and general operations engineering."
-                        },
-                        {
-                            "phrase": "Manage and expand the physical servers, OS's and networks in multiple datacenters.",
-                            "justification": "This describes core infrastructure management and maintenance, which is foundational to operations engineering."
-                        },
-                        {
-                            "phrase": "Operate and improve our automation tooling.",
-                            "justification": "Automation is a critical component of efficient operations engineering and MLOps."
-                        },
-                        {
-                            "phrase": "Participate in 24/7 on-call rotation schedule.",
-                            "justification": "This indicates a responsibility for maintaining production systems and responding to incidents, a common aspect of operations engineering."
-                        },
-                        {
-                            "phrase": "Provide a flexible infrastructure to the rest of the company up to and including the base OS layer and kubernetes.",
-                            "justification": "Ensuring the infrastructure is available and flexible for other teams is an operational responsibility."
-                        },
-                        {
-                            "phrase": "Work with a DevOps mindset with other teams within the company to bring our products to a large number of corporate customers worldwide.",
-                            "justification": "The mention of a 'DevOps mindset' directly relates to operations engineering principles and practices."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH6: MLOps & Data Pipelines",
-                    "technologies": [
-                        "kubernetes"
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Understanding a complex technical architecture with a high degree of customisation is crucial for aligning infrastructure decisions with business needs and ensuring the systems support company objectives.",
+                    "phrase": "Understand a complex technical architecture with a high degree of customisation"
                 },
                 {
-                    "tech_name": "TECH1: Programming Languages",
-                    "technologies": [
-                        "Linux"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Achieving high uptime targets (>99.99%) is a critical operational goal for infrastructure and system engineers.",
+                    "phrase": "Achieve uptime >99.99%"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Participating in a 24/7 on-call rotation is a common responsibility for operations and infrastructure roles to ensure system availability.",
+                    "phrase": "Participate in 24/7 on-call rotation schedule"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "skills": [
-                        "Work with a DevOps mindset with other teams within the company"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "Working with a DevOps mindset with other teams implies a need for strong collaboration and communication skills.",
+                    "phrase": "Work with a DevOps mindset with other teams"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "skills": [
-                        "Understand a complex technical architecture with a high degree of customisation."
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "justification": "Managing and expanding infrastructure, improving automation, and achieving high uptime require significant problem-solving and a pragmatic approach to system design and maintenance.",
+                    "phrase": "Manage and expand the physical servers, OS's and networks"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "skills": [
-                        "Achieve uptime >99.99%.",
-                        "Manage and expand the physical servers, OS's and networks in multiple datacenters.",
-                        "Operate and improve our automation tooling.",
-                        "Provide a flexible infrastructure to the rest of the company up to and including the base OS layer and kubernetes."
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "justification": "Understanding a complex technical architecture with a high degree of customisation suggests a need for continuous learning and adaptation to the specific environment.",
+                    "phrase": "Understand a complex technical architecture with a high degree of customisation"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "skills": [
-                        "Operate and improve our automation tooling."
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "justification": "Operating and improving automation tooling, and managing infrastructure, often requires taking ownership and driving improvements.",
+                    "phrase": "Operate and improve our automation tooling"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "justification": "Kubernetes is a container orchestration system commonly used in DevOps and MLOps for deploying and managing applications.",
+                    "phrase": "kubernetes"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "justification": "Linux is an operating system, and while not a programming language itself, it is the foundational environment for many programming languages and system administration tasks.",
+                    "phrase": "Linux"
                 }
             ]
         }

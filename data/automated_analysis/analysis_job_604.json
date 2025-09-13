@@ -27,51 +27,54 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on building a platform and custom applications, with a mention of AI's added value. However, it lacks specific details on AI model development, training, or deployment, leaning more towards traditional software development and platform engineering."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on building and scaling custom applications based on an internal platform, with a mention of identifying where AI can add value. However, it lacks specific details about core AI/ML tasks such as model development, training, fine-tuning, or deployment of generative models. The emphasis is on software development and platform building, rather than specialized AI engineering roles. Therefore, it falls under the 'Ambiguous' category as it's primarily a software development role with a potential AI component, but not a dedicated AI engineering position."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        "wij helpen organisaties identificeren waar AI van toegevoegde waarde kan zijn (en waar niet)",
-                        "Jij vindt het gaaf om aan de basis te staan van een impactvolle organisatie",
-                        "Jij vindt transparantie en betrokkenheid belangrijk en denkt graag mee over hoe we samen successen kunnen behalen",
-                        "Jij krijgt graag de ruimte om te werken aan zaken die bijdragen aan de groei en ontwikkeling van Algemi"
-                    ],
-                    "justification": "These phrases indicate an understanding of how AI can provide business value and the importance of aligning technical work with organizational goals and growth."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'wij helpen organisaties identificeren waar AI van toegevoegde waarde kan zijn (en waar niet)' indicates an understanding of business needs and aligning AI solutions with them.",
+                    "phrase": "wij helpen organisaties identificeren waar AI van toegevoegde waarde kan zijn (en waar niet)"
                 },
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        "Het opzetten en doorontwikkelen van ons interne, composable platform",
-                        "Deze bouwstenen vormen de basis van onze maatwerkapplicaties",
-                        "Het opzetten en opschalen van maatwerkapplicaties, gebaseerd op al bestaande (GenAI-)oplossingen en/of ons platform",
-                        "Jij zorgt ervoor dat deze precies aansluiten op de behoeften van (de eindgebruikers van) onze klanten"
-                    ],
-                    "justification": "The core of the role involves building, developing, and scaling custom applications and an internal platform, which are fundamental software development activities."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description emphasizes 'het bouwen en opschalen van deze maatwerkoplossingen (gebaseerd op ons eigen platform)' and 'Het opzetten en doorontwikkelen van ons interne, composable platform', which are core software development activities.",
+                    "phrase": "het bouwen en opschalen van deze maatwerkoplossingen (gebaseerd op ons eigen platform)"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Het opzetten en doorontwikkelen van ons interne, composable platform. Deze bouwstenen vormen de basis van onze maatwerkapplicaties.' describes the development of a foundational platform for applications.",
+                    "phrase": "Het opzetten en doorontwikkelen van ons interne, composable platform"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Het opzetten en opschalen van maatwerkapplicaties, gebaseerd op al bestaande (GenAI-)oplossingen en/of ons platform.' points to building and scaling applications, a software development task.",
+                    "phrase": "Het opzetten en opschalen van maatwerkapplicaties"
                 }
             ],
-            "technologies": [],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Jij vindt transparantie en betrokkenheid belangrijk en denkt graag mee over hoe we samen successen kunnen behalen",
-                        "Jij begrijpt hoe belangrijk het is dat je als téam goed opereert. Dit betekent dat je elkaar goed kent, elkaar respecteert, elkaar beter maakt en samen successen viert."
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Jij vindt transparantie en betrokkenheid belangrijk en denkt graag mee over hoe we samen successen kunnen behalen."
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "Het opzetten en doorontwikkelen van ons interne, composable platform",
-                        "Deze bouwstenen vormen de basis van onze maatwerkapplicaties",
-                        "mede-grondlegger van het technische fundament van Algemi",
-                        "Jij vindt het gaaf om aan de basis te staan van een impactvolle organisatie",
-                        "Jij krijgt graag de ruimte om te werken aan zaken die bijdragen aan de groei en ontwikkeling van Algemi"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Jij begrijpt hoe belangrijk het is dat je als téam goed opereert. Dit betekent dat je elkaar goed kent, elkaar respecteert, elkaar beter maakt en samen successen viert."
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Jij vindt het gaaf om aan de basis te staan van een impactvolle organisatie."
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Jij krijgt graag de ruimte om te werken aan zaken die bijdragen aan de groei en ontwikkeling van Algemi."
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "GenAI"
                 }
             ]
         }

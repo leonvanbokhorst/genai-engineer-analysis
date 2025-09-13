@@ -27,49 +27,32 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on data engineering and traditional software development tasks related to streaming and real-time data processing. There is no mention of machine learning, generative AI, or specific AI modeling techniques, which are central to the ML Engineer and GenAI Engineer profiles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on data engineering tasks related to Kafka streaming and real-time data processing. While it involves software development and maintenance, it lacks specific mentions of AI/ML models, generative techniques, or advanced AI-specific frameworks, which are central to the GenAI Engineer and ML Engineer profiles. The role appears to be more aligned with traditional data engineering and backend development rather than AI/ML specialization."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK2: Data Engineering",
-                    "phrases": [
-                        "Redesign and optimize our Kafka streaming components to reduce latency, increase throughput, and increase event consumption rate.",
-                        "Upgrading/Developing new components of a multilayered application to enable near real-time data processing."
-                    ],
-                    "justification": "These phrases describe the core activities of building, optimizing, and maintaining data pipelines and infrastructure, specifically involving streaming technologies like Kafka and enabling real-time data processing."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Redesign and optimize our Kafka streaming components to reduce latency, increase throughput, and increase event consumption rate' directly relates to building and maintaining data pipelines and infrastructure for real-time data flow.",
+                    "phrase": "Redesign and optimize our Kafka streaming components to reduce latency, increase throughput, and increase event consumption rate"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "Upgrading/Developing new components of a multilayered application to enable near real-time data processing."
-                    ],
-                    "justification": "This phrase indicates the development of application components, which falls under traditional software engineering, even though it's for data processing."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Upgrading/Developing new components of a multilayered application to enable near real-time data processing' describes the creation and enhancement of software components within a larger system, which is a core aspect of software development.",
+                    "phrase": "Upgrading/Developing new components of a multilayered application to enable near real-time data processing"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Monitor, maintain and debug all components daily to ensure stability and consistency."
-                    ],
-                    "justification": "This describes the operational aspects of ensuring the reliability and stability of deployed components, which aligns with the principles of operations engineering, though not specifically MLOps in an AI context."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Monitor, maintain and debug all components daily to ensure stability and consistency' refers to the operational aspects of keeping software systems running smoothly in production, which aligns with operations engineering.",
+                    "phrase": "Monitor, maintain and debug all components daily to ensure stability and consistency"
                 }
             ],
+            "soft_skills": [],
             "technologies": [
                 {
-                    "technology": "Kafka",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                }
-            ],
-            "soft_skills": [
-                {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "reduce latency, increase throughput, and increase event consumption rate",
-                        "ensure stability and consistency"
-                    ],
-                    "justification": "These phrases imply a need to analyze performance issues and implement practical solutions to improve system efficiency and reliability."
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Kafka"
                 }
             ]
         }

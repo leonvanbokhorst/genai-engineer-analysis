@@ -27,93 +27,88 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on data engineering tasks and infrastructure for AI applications, but lacks specific details on model development or generative AI techniques. While it mentions collaboration with LLM engineers, the core responsibilities are centered around data pipelines and architecture, not the direct development or fine-tuning of AI models themselves."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on data engineering tasks, pipeline development, and data architecture, particularly in the context of supporting AI applications. However, it lacks specific details about core AI modeling, generative model development, or the creation of user-facing AI applications that would be characteristic of an ML Engineer or GenAI Engineer. The primary responsibilities and technologies mentioned align more with a supporting data infrastructure role rather than a direct AI development role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "designing, developing, and optimizing data architectures",
-                        "building reliable data pipelines",
-                        "transforming innovative prototypes into functional solutions",
-                        "Design and manage scalable data architectures for LLM use cases",
-                        "Develop and maintain robust data pipelines from various sources to a vector database in AWS",
-                        "Implement role-based access control and data masking",
-                        "Monitor and optimize data processes using dashboards, logging, and incident management"
-                    ],
-                    "justification": "These phrases directly relate to the creation, maintenance, and optimization of data infrastructure and pipelines, which are core to data engineering."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'designing, developing, and optimizing data architectures to ensure seamless and secure data access for AI applications' directly relates to building and maintaining data infrastructure.",
+                    "phrase": "designing, developing, and optimizing data architectures to ensure seamless and secure data access for AI applications"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "ensure seamless and secure data access for AI applications",
-                        "transforming innovative prototypes into functional solutions"
-                    ],
-                    "justification": "These phrases indicate the need to build functional solutions and ensure access to data for applications, which involves software development principles."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'building reliable data pipelines' is a core responsibility of data engineering.",
+                    "phrase": "building reliable data pipelines"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Monitor and optimize data processes using dashboards, logging, and incident management"
-                    ],
-                    "justification": "Monitoring, logging, and incident management are key components of operationalizing and maintaining systems, aligning with MLOps principles for data pipelines."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'transforming innovative prototypes into functional solutions' implies taking existing models or ideas and making them work with data, which is a data engineering support function.",
+                    "phrase": "transforming innovative prototypes into functional solutions"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "ensure seamless and secure data access for AI applications",
-                        "Design and manage scalable data architectures for LLM use cases",
-                        "Present findings to stakeholders and contribute to the AI assistant's development",
-                        "Work in an Agile environment to achieve project goals"
-                    ],
-                    "justification": "Understanding the needs of AI applications, presenting findings to stakeholders, and working in an Agile environment demonstrate an understanding of business context and project goals."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "AWS",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The bullet point 'Design and manage scalable data architectures for LLM use cases' explicitly mentions data architecture design for AI contexts.",
+                    "phrase": "Design and manage scalable data architectures for LLM use cases"
                 },
                 {
-                    "tech_name": "vector database",
-                    "category": "TECH5: Vector Stores & Search"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The bullet point 'Develop and maintain robust data pipelines from various sources to a vector database' describes the creation and upkeep of data flow mechanisms.",
+                    "phrase": "Develop and maintain robust data pipelines from various sources to a vector database"
                 },
                 {
-                    "tech_name": "LLM",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The bullet point 'Implement role-based access control and data masking' pertains to data security and governance within the data infrastructure.",
+                    "phrase": "Implement role-based access control and data masking"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The bullet point 'Monitor and optimize data processes using dashboards, logging, and incident management' involves operational aspects of managing data systems.",
+                    "phrase": "Monitor and optimize data processes using dashboards, logging, and incident management"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Present findings to stakeholders and contribute to the AI assistant's development' involves communicating technical information to non-technical audiences and understanding the broader project goals.",
+                    "phrase": "Present findings to stakeholders and contribute to the AI assistant's development"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'collaborating with LLM engineers' indicates teamwork with other technical roles.",
+                    "phrase": "collaborating with LLM engineers"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "justification": "The phrase 'Work in an Agile environment to achieve project goals' suggests a pragmatic approach to project execution and collaboration.",
+                    "phrase": "Work in an Agile environment to achieve project goals"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        "collaborating with LLM engineers",
-                        "Present findings to stakeholders"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "collaborating with LLM engineers"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        "Work in an Agile environment"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Present findings to stakeholders"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "designing, developing, and optimizing data architectures",
-                        "building reliable data pipelines",
-                        "transforming innovative prototypes into functional solutions",
-                        "Monitor and optimize data processes"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Work in an Agile environment to achieve project goals"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLM"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        "transforming innovative prototypes into functional solutions"
-                    ]
+                    "category": "TECH5: Vector Stores & Search",
+                    "phrase": "vector database"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "AWS"
                 }
             ]
         }

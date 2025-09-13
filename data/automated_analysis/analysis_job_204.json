@@ -27,57 +27,53 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on building web applications and mentions AI technologies in the context of product features rather than core AI/ML development. It lacks specific details on model building, data engineering, or MLOps, leaning more towards traditional full-stack development with AI as a product component."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on building web applications and leveraging AI technologies within those applications, but it does not specify deep involvement in core AI model development, training, or fine-tuning. The emphasis is on the application layer and utilizing AI tools rather than creating or significantly modifying AI models themselves. Therefore, it aligns best with the 'Ambiguous' profile as it's primarily a software engineering role with AI integration, not a core AI/ML engineering role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "Craft elegant, modern web applications using cutting-edge technologies and frameworks",
-                        "Shape our engineering culture through thoughtful code reviews and best practice implementation"
-                    ],
-                    "justification": "These phrases directly relate to building and maintaining software applications, including code quality and best practices, which are core to software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Craft elegant, modern web applications using cutting-edge technologies and frameworks' directly relates to building and maintaining software applications.",
+                    "phrase": "Craft elegant, modern web applications using cutting-edge technologies and frameworks"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Pioneer new frontiers in cloud computing with advanced AWS serverless architectures"
-                    ],
-                    "justification": "While not explicitly MLOps, building advanced cloud architectures, especially serverless, is a key component of deploying and managing applications, which overlaps with operational aspects."
-                }
-            ],
-            "technologies": [
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Pioneer new frontiers in cloud computing with advanced AWS serverless architectures' indicates work related to cloud infrastructure and deployment, which falls under operations engineering.",
+                    "phrase": "Pioneer new frontiers in cloud computing with advanced AWS serverless architectures"
+                },
                 {
-                    "tech_name": "AWS",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Shape our engineering culture through thoughtful code reviews and best practice implementation' relates to software development practices and team collaboration within an engineering context.",
+                    "phrase": "Shape our engineering culture through thoughtful code reviews and best practice implementation"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        "Shape our engineering culture through thoughtful code reviews and best practice implementation"
-                    ],
-                    "justification": "Code reviews and implementing best practices require collaboration and communication within the engineering team."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "visionary"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        "visionary Full-Stack Engineer",
-                        "mission of transforming learning experiences",
-                        "Pioneer new frontiers in cloud computing"
-                    ],
-                    "justification": "Phrases like 'visionary', 'mission', and 'pioneer' suggest a need for initiative, leadership, and a proactive approach to innovation."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "innovators"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        "cutting-edge technologies and frameworks"
-                    ],
-                    "justification": "The mention of 'cutting-edge technologies' implies a need for continuous learning and adaptation to new tools and frameworks."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "exciting challenges"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "global team"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "AWS"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "AI"
                 }
             ]
         }

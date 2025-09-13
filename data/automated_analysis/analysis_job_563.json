@@ -26,110 +26,83 @@
         "full_text": "Data AI Engineer\n\nGaat jouw hart sneller kloppen als het gaat om het koppelen, organiseren en ontsluiten van data? Is het creëren van waardevolle inzichten op basis van complexe datastructuren voor jou de leukste puzzel die er is? Wil je deel uitmaken van een team dat het onderwijs van de toekomst ondersteunt door middel van geavanceerde data-analyse en kunstmatige intelligentie? Dan zijn wij op zoek naar jou!\n\nWaar ga jij je mee bezig houden als AI Data Engineer bij Somtoday?\n\n   Als Data AI Engineer bij Somtoday speel je een sleutelrol in het ontrafelen van de complexe datastructuren die het onderwijslandschap kenmerken. Als Data AI Engineer bij Somtoday ben jij verantwoordelijk voor:\n     * Data-extractie: Je haalt gegevens op uit diverse bronnen, zoals databases, API's en platte bestanden;\n     * Datareiniging en -voorverwerking: Je zorgt ervoor dat ruwe data wordt schoongemaakt, getransformeerd en correct wordt geformatteerd voor analyse;\n     * Data-transformatie en -modellering: Je ontwikkelt modellen met statistische methoden om complexe relaties in data te begrijpen voor voorspellende analyses en optimalisatieproblemen;\n     * Datawarehousing: Je ontwerpt en onderhoudt infrastructuren voor het opslaan en organiseren van grote datasets, inclusief databaseconfiguratie en query-optimalisatie;\n     * Datavisualisatie: Je creëert grafieken, diagrammen en andere visualisaties om belanghebbenden te helpen bij het nemen van beslissingen op basis van data-inzichten."
     },
     "analysis": {
-        "job_profile": "ML Engineer",
-        "confidence_score": 4,
-        "rationale": "The job description heavily emphasizes data extraction, cleaning, transformation, and modeling using statistical methods for predictive analysis and optimization. It also includes data warehousing and visualization, aligning strongly with the core responsibilities of an ML Engineer focused on data-driven predictive models and MLOps.",
+        "profile_classification": {
+            "profile": "ML Engineer",
+            "rationale": "The job description heavily emphasizes data extraction, cleaning, transformation, and modeling using statistical methods for predictive analysis and optimization. It also includes data warehousing and visualization, aligning with the core responsibilities of an ML Engineer focused on data-driven predictive modeling and building production-grade systems. While AI is mentioned, the focus is on traditional ML tasks rather than generative AI applications."
+        },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        {
-                            "phrase": "Data-extractie: Je haalt gegevens op uit diverse bronnen, zoals databases, API's en platte bestanden",
-                            "justification": "This phrase directly describes the process of collecting data from various sources, which is a core component of data engineering."
-                        },
-                        {
-                            "phrase": "Datareiniging en -voorverwerking: Je zorgt ervoor dat ruwe data wordt schoongemaakt, getransformeerd en correct wordt geformatteerd voor analyse",
-                            "justification": "This describes the essential steps of cleaning and preprocessing raw data, a fundamental task in data engineering."
-                        },
-                        {
-                            "phrase": "Datawarehousing: Je ontwerpt en onderhoudt infrastructuren voor het opslaan en organiseren van grote datasets, inclusief databaseconfiguratie en query-optimalisatie",
-                            "justification": "Designing and maintaining data warehousing infrastructure is a key responsibility within data engineering."
-                        }
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The description explicitly mentions 'Data-extractie: Je haalt gegevens op uit diverse bronnen, zoals databases, API's en platte bestanden;' and 'Datareiniging en -voorverwerking: Je zorgt ervoor dat ruwe data wordt schoongemaakt, getransformeerd en correct wordt geformatteerd voor analyse;' which are core data engineering activities.",
+                    "phrase": "Data-extractie: Je haalt gegevens op uit diverse bronnen, zoals databases, API's en platte bestanden"
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        {
-                            "phrase": "Data-transformatie en -modellering: Je ontwikkelt modellen met statistische methoden om complexe relaties in data te begrijpen voor voorspellende analyses en optimalisatieproblemen",
-                            "justification": "This phrase explicitly mentions developing models using statistical methods for predictive analysis and optimization, which is central to ML modeling."
-                        }
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Datareiniging en -voorverwerking: Je zorgt ervoor dat ruwe data wordt schoongemaakt, getransformeerd en correct wordt geformatteerd voor analyse;' directly describes data cleaning and preprocessing.",
+                    "phrase": "Datareiniging en -voorverwerking: Je zorgt ervoor dat ruwe data wordt schoongemaakt, getransformeerd en correct wordt geformatteerd voor analyse"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [],
-                    "justification": "While data engineering and modeling are present, there's no explicit mention of building user-facing applications or backend services, which are hallmarks of software development in this context."
+                    "category": "TASK3: Modeling",
+                    "justification": "The description states 'Data-transformatie en -modellering: Je ontwikkelt modellen met statistische methoden om complexe relaties in data te begrijpen voor voorspellende analyses en optimalisatieproblemen;' which clearly falls under model development for predictive tasks.",
+                    "phrase": "Data-transformatie en -modellering: Je ontwikkelt modellen met statistische methoden om complexe relaties in data te begrijpen voor voorspellende analyses en optimalisatieproblemen"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [],
-                    "justification": "There is no mention of deploying, monitoring, or maintaining models in production, which are key aspects of MLOps."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The responsibility 'Datawarehousing: Je ontwerpt en onderhoudt infrastructuren voor het opslaan en organiseren van grote datasets, inclusief databaseconfiguratie en query-optimalisatie;' is a key aspect of data engineering and infrastructure management for data.",
+                    "phrase": "Datawarehousing: Je ontwerpt en onderhoudt infrastructuren voor het opslaan en organiseren van grote datasets, inclusief databaseconfiguratie en query-optimalisatie"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "Is het creëren van waardevolle inzichten op basis van complexe datastructuren voor jou de leukste puzzel die er is?",
-                            "justification": "This phrase indicates an understanding of the goal of deriving insights from data, which relates to business understanding."
-                        },
-                        {
-                            "phrase": "Wil je deel uitmaken van een team dat het onderwijs van de toekomst ondersteunt door middel van geavanceerde data-analyse en kunstmatige intelligentie?",
-                            "justification": "This shows alignment with a broader business goal (supporting education) through technical means."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "databases",
-                    "category": "TECH9: Data Storage"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Datawarehousing: Je ontwerpt en onderhoudt infrastructuren voor het opslaan en organiseren van grote datasets, inclusief databaseconfiguratie en query-optimalisatie;' also involves database configuration and query optimization, which are data engineering tasks.",
+                    "phrase": "databaseconfiguratie en query-optimalisatie"
                 },
                 {
-                    "technology": "API's",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The description mentions 'Datavisualisatie: Je creëert grafieken, diagrammen en andere visualisaties om belanghebbenden te helpen bij het nemen van beslissingen op basis van data-inzichten.' While visualization is a distinct task, its purpose here is to make data accessible and understandable, which is often part of the data engineering pipeline to deliver insights.",
+                    "phrase": "Datavisualisatie: Je creëert grafieken, diagrammen en andere visualisaties om belanghebbenden te helpen bij het nemen van beslissingen op basis van data-inzichten"
                 },
                 {
-                    "technology": "statistische methoden",
-                    "category": "TECH10: Data Modeling"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The introductory paragraph 'Gaat jouw hart sneller kloppen als het gaat om het koppelen, organiseren en ontsluiten van data? Is het creëren van waardevolle inzichten op basis van complexe datastructuren voor jou de leukste puzzel die er is? Wil je deel uitmaken van een team dat het onderwijs van de toekomst ondersteunt door middel van geavanceerde data-analyse en kunstmatige intelligentie?' indicates an understanding of the business context (education) and the value of data insights.",
+                    "phrase": "creëren van waardevolle inzichten op basis van complexe datastructuren"
                 },
                 {
-                    "technology": "voorspellende analyses",
-                    "category": "TECH10: Data Modeling"
-                },
-                {
-                    "technology": "query-optimalisatie",
-                    "category": "TECH11: Data Analysis"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Wil je deel uitmaken van een team dat het onderwijs van de toekomst ondersteunt door middel van geavanceerde data-analyse en kunstmatige intelligentie?' shows alignment with the business goal of supporting the future of education.",
+                    "phrase": "ondersteunt door middel van geavanceerde data-analyse en kunstmatige intelligentie"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        {
-                            "phrase": "Is het creëren van waardevolle inzichten op basis van complexe datastructuren voor jou de leukste puzzel die er is?"
-                        },
-                        {
-                            "phrase": "Je ontwikkelt modellen met statistische methoden om complexe relaties in data te begrijpen voor voorspellende analyses en optimalisatieproblemen"
-                        }
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "leukste puzzel die er is"
                 },
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        {
-                            "phrase": "Je creëert grafieken, diagrammen en andere visualisaties om belanghebbenden te helpen bij het nemen van beslissingen op basis van data-inzichten."
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "helpen bij het nemen van beslissingen op basis van data-inzichten"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        {
-                            "phrase": "Gaat jouw hart sneller kloppen als het gaat om het koppelen, organiseren en ontsluiten van data?"
-                        }
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "speel je een sleutelrol"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "API's"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "databases"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "statistische methoden"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "databaseconfiguratie"
                 }
             ]
         }

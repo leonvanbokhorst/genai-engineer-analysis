@@ -27,93 +27,63 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on sales enablement and technical pre-sales support rather than core AI/ML development or engineering. While it mentions 'Dataiku' which is a data science platform, the core responsibilities are about demonstrating value, answering technical questions, and supporting sales activities, not building or deploying models."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on sales enablement, customer demonstrations, and technical guidance within a sales context, rather than core AI/ML development, engineering, or research. While it involves technical aspects related to a data science platform (Dataiku), it does not align with the core responsibilities or evidence profiles of an ML Engineer or GenAI Engineer. The role is primarily customer-facing and sales-support oriented, fitting the definition of 'Ambiguous' as it's not a technical AI development role and primarily focuses on the use of AI tools (Dataiku) to demonstrate value."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "Execute demonstrations, POCs, and evaluations through coordination of the physical and human resources of Dataiku and the customer; lead the combined team to carry out the agreed upon course of action to prove that Dataiku delivers the needed value better than our competitors",
-                            "justification": "This phrase describes understanding customer needs and demonstrating how a product (Dataiku) provides business value, which aligns with understanding business context and translating technical capabilities into business benefits."
-                        },
-                        {
-                            "phrase": "Answer questions and provide technical guidance to the customer's technical team regarding the demonstrated or evaluated solutions",
-                            "justification": "This involves understanding the technical solution and explaining its business value and application to customers, fitting the business understanding aspect."
-                        },
-                        {
-                            "phrase": "Assist in sales pipeline building activities including attendance at live and/or virtual trade-shows and industry conferences, working with marketing and or partners on campaign design and execution and other activities specified by sales and pre-sales management",
-                            "justification": "This directly relates to understanding sales processes and contributing to business development and strategy."
-                        },
-                        {
-                            "phrase": "Provide regular updates on your activities to support accurate regional forecasting",
-                            "justification": "Forecasting is a key business activity, and providing updates to support it demonstrates business understanding."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves understanding customer needs and demonstrating how the product (Dataiku) delivers value, which requires aligning technical capabilities with business objectives.",
+                    "phrase": "prove that Dataiku delivers the needed value better than our competitors"
                 },
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "Answer questions and provide technical guidance to the customer's technical team regarding the demonstrated or evaluated solutions",
-                            "justification": "While not direct development, providing technical guidance on solutions implies an understanding of how software/platforms are built and function, which is a component of software development knowledge."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Assisting in sales pipeline building and working with marketing/partners on campaign design are business-focused activities.",
+                    "phrase": "Assist in sales pipeline building activities"
+                },
                 {
-                    "tech_name": "Dataiku",
-                    "category": "TECH10: Data Modeling"
+                    "category": "TASK4: Software Development",
+                    "justification": "While not building applications from scratch, the role requires technical guidance and understanding of solutions being demonstrated, which touches upon the application of software.",
+                    "phrase": "provide technical guidance to the customer's technical team regarding the demonstrated or evaluated solutions"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The role involves executing demonstrations and POCs, which requires understanding and presenting the operational aspects of the Dataiku platform.",
+                    "phrase": "Execute demonstrations, POCs, and evaluations"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "justification": "Participating in continuous development activities and staying updated with new product releases and initiatives indicates a need for learning and adaptability.",
+                    "phrase": "participate in continuous development activities that expand or build on your knowledge and skills with new product releases, GTM programs and initiatives & relevant enablement sessions"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        {
-                            "phrase": "Execute demonstrations, POCs, and evaluations through coordination of the physical and human resources of Dataiku and the customer; lead the combined team to carry out the agreed upon course of action"
-                        },
-                        {
-                            "phrase": "Answer questions and provide technical guidance to the customer's technical team"
-                        },
-                        {
-                            "phrase": "working with marketing and or partners on campaign design and execution"
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Answer questions and provide technical guidance to the customer's technical team"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        {
-                            "phrase": "participate in continuous development activities that expand or build on your knowledge and skills with new product releases, GTM programs and initiatives & relevant enablement sessions"
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "lead the combined team to carry out the agreed upon course of action"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        {
-                            "phrase": "Execute demonstrations, POCs, and evaluations ... to prove that Dataiku delivers the needed value better than our competitors"
-                        },
-                        {
-                            "phrase": "Answer questions and provide technical guidance to the customer's technical team regarding the demonstrated or evaluated solutions"
-                        }
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Execute demonstrations, POCs, and evaluations through coordination of the physical and human resources of Dataiku and the customer; lead the combined team to carry out the agreed upon course of action to prove that Dataiku delivers the needed value better than our competitors"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        {
-                            "phrase": "lead the combined team to carry out the agreed upon course of action"
-                        },
-                        {
-                            "phrase": "Assist in sales pipeline building activities"
-                        }
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Assist in sales pipeline building activities including attendance at live and/or virtual trade-shows and industry conferences, working with marketing and or partners on campaign design and execution and other activities specified by sales and pre-sales management"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "participate in continuous development activities that expand or build on your knowledge and skills with new product releases, GTM programs and initiatives & relevant enablement sessions"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Dataiku"
                 }
             ]
         }

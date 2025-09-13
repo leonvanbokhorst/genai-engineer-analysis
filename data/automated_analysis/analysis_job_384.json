@@ -28,128 +28,97 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes working with Conversational AI, LLMs, Chatbots, and Voicebots, aligning with the core focus of a GenAI Engineer. The mention of RAG systems (implied by 'evaluating LLM prompts' and 'data architecture for analyses workflows'), fine-tuning (implied by 'enhancing' and 'innovating' solutions), and building production-grade systems ('maintain and improve our Conversational AI workflows') further supports this classification."
+            "rationale": "The job description heavily emphasizes working with Conversational AI, LLMs, Chatbots, Voicebots, and LLM-based Advisor Assist. It mentions implementing pipelines to evaluate LLM prompts and classification algorithms, and a significant migration to MS Copilot while empowering solutions with LLMs. These align directly with the core responsibilities and typical projects of a GenAI Engineer, particularly in building and maintaining production-grade user-facing software systems powered by generative models."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK3: Modeling",
-                    "phrases": [
-                        "automating the data and ml processes",
-                        "implementing pipelines to evaluate LLM prompts",
-                        "implementing pipelines to evaluate classification algorithms",
-                        "empower our solutions with LLMs"
-                    ],
-                    "justification": "These phrases directly relate to the creation, evaluation, and adaptation of machine learning and generative models, including LLMs and classification algorithms."
+                    "category": "TASK3",
+                    "justification": "The phrase 'implementing pipelines to evaluate LLM prompts' directly relates to the core process of adapting and evaluating generative models.",
+                    "phrase": "implementing pipelines to evaluate LLM prompts"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrases": [
-                        "maintain and improve our Conversational AI workflows",
-                        "maintain and innovate on top of our conversational bot",
-                        "maintaining, enhancing, and innovating our conversational solutions",
-                        "design how we store and manually annotate data",
-                        "massive migration from a major cloud based conversational AI platform to MS Copilot"
-                    ],
-                    "justification": "These phrases indicate the development and maintenance of user-facing applications and systems, including chatbots, IVRs, and advisor assist tools, as well as the integration of new platforms and LLMs."
+                    "category": "TASK3",
+                    "justification": "The phrase 'implementing pipelines to evaluate classification algorithms' indicates work on model training and evaluation, a key aspect of the modeling task.",
+                    "phrase": "implementing pipelines to evaluate classification algorithms"
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "automating the data and ml processes",
-                        "implementing pipelines to evaluate LLM prompts",
-                        "implementing pipelines to evaluate classification algorithms",
-                        "Setting up a medallion data architecture for analyses workflows"
-                    ],
-                    "justification": "The mention of automating processes, setting up data architectures, and implementing pipelines for evaluation points to the operational aspects of deploying and managing AI systems."
+                    "category": "TASK2",
+                    "justification": "The phrase 'Setting up a medallion data architecture for analyses workflows' points to the design and building of data infrastructure and pipelines.",
+                    "phrase": "Setting up a medallion data architecture for analyses workflows"
                 },
                 {
-                    "task": "TASK2: Data Engineering",
-                    "phrases": [
-                        "automating the data and ml processes",
-                        "Setting up a medallion data architecture for analyses workflows",
-                        "design how we store and manually annotate data"
-                    ],
-                    "justification": "These phrases relate to the infrastructure and processes for handling data, including architecture setup and data annotation, which are key components of data engineering."
+                    "category": "TASK4",
+                    "justification": "The mention of 'backend developers' in the working environment and the overall context of maintaining and improving conversational AI workflows implies building and integrating AI features into systems.",
+                    "phrase": "backend developers"
                 },
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrases": [
-                        "shape the future of Conversational AI",
-                        "resolve in an effective and friction free manner",
-                        "meet evolving customer needs and industry standards"
-                    ],
-                    "justification": "These phrases demonstrate an understanding of the business goals, customer experience, and market standards that the AI solutions are intended to serve."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech": "TECH3: LLM / Generative Models",
-                    "items": [
-                        "LLM",
-                        "MS Copilot"
-                    ]
+                    "category": "TASK5",
+                    "justification": "The phrase 'automating the data and ml processes' and 'maintaining and improving our Conversational AI workflows' suggests involvement in operationalizing and managing AI processes.",
+                    "phrase": "automating the data and ml processes"
                 },
                 {
-                    "tech": "TECH4: LLM Frameworks & Libraries",
-                    "items": [
-                        "LangChain",
-                        "LangGraph"
-                    ]
+                    "category": "TASK5",
+                    "justification": "The phrase 'maintaining and innovating on top of our conversational bot, Interactive voice response (IVR), and internal Advisor Assist tooling' implies the operational aspect of keeping these systems running and improving them.",
+                    "phrase": "maintaining and innovating on top of our conversational bot, Interactive voice response (IVR), and internal Advisor Assist tooling"
                 },
                 {
-                    "tech": "TECH6: MLOps & Data Pipelines",
-                    "items": [
-                        "Airflow",
-                        "Docker"
-                    ]
+                    "category": "TASK3",
+                    "justification": "The phrase 'empower our solutions with LLMs' directly relates to the application and fine-tuning of large language models.",
+                    "phrase": "empower our solutions with LLMs"
                 },
                 {
-                    "tech": "TECH10: Data Modeling",
-                    "items": [
-                        "Scikit-learn",
-                        "TensorFlow"
-                    ]
-                },
-                {
-                    "tech": "TECH2: Cloud Platforms & Services",
-                    "items": [
-                        "GCP"
-                    ]
+                    "category": "TASK4",
+                    "justification": "The phrase 'design how we store and manually annotate data' relates to the software development aspects of data management for AI systems.",
+                    "phrase": "design how we store and manually annotate data"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "part of a multidisciplinary scrum team",
-                        "working alongside data engineers, user experience designers, content writers and front- and backend developers"
-                    ]
+                    "category": "SKILL1",
+                    "phrase": "multidisciplinary scrum team"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "enthusiastic colleague",
-                        "innovate on top of our conversational bot",
-                        "innovating our conversational solutions"
-                    ]
+                    "category": "SKILL1",
+                    "phrase": "working alongside data engineers, user experience designers, content writers and front- and backend developers"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "maintain and improve our Conversational AI workflows",
-                        "resolve in an effective and friction free manner",
-                        "ensure they meet evolving customer needs"
-                    ]
+                    "category": "SKILL2",
+                    "phrase": "enthusiastic colleague"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "shape the future of Conversational AI",
-                        "innovate on top of our conversational bot",
-                        "maintaining, enhancing, and innovating our conversational solutions"
-                    ]
+                    "category": "SKILL3",
+                    "phrase": "improve solutions"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "shape the future"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "LLM"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "Conversational AI"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "Chatbot Anna"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "Conversational IVR (Voicebot)"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "LLM-based Advisor Assist"
+                },
+                {
+                    "category": "TECH4",
+                    "phrase": "MS Copilot"
                 }
             ]
         }

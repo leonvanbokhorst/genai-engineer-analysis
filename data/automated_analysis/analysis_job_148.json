@@ -27,87 +27,53 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on DevOps principles and security testing within a cloud environment (Azure). While it mentions integrating solutions that support security testing, it lacks specific details about AI/ML model development, training, or deployment, which are central to ML Engineer and GenAI Engineer roles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on DevOps principles and security testing within a cloud environment (Azure). While it mentions integrating solutions that support security testing, it does not describe the development, fine-tuning, or deployment of AI models, nor does it involve predictive modeling. The core responsibilities align with traditional DevOps and security engineering rather than ML Engineering or GenAI Engineering."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "integrating and maintaining solution that are supporting the security testing activities within ABN AMRO",
-                            "justification": "This phrase indicates an understanding of the business need for security testing and the integration of solutions to meet that need."
-                        },
-                        {
-                            "phrase": "improving the overall security posture of the bank",
-                            "justification": "This highlights the alignment of technical work with a broader business objective of enhancing security."
-                        },
-                        {
-                            "phrase": "helping development teams to bring security by design in their day-to-day work",
-                            "justification": "This shows an understanding of how to translate security requirements into actionable guidance for development teams, aligning with business goals."
-                        },
-                        {
-                            "phrase": "ensuring compliance with applicable ABN AMRO policies, procedures, and regulations",
-                            "justification": "This demonstrates an understanding of the regulatory and policy landscape relevant to the business."
-                        }
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The role is explicitly titled 'DevOps Engineer' and focuses on integrating and maintaining solutions that support security testing activities, which aligns with the operational aspects of managing and deploying systems, albeit in a security context.",
+                    "phrase": "DevOps Engineer"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "integrating and maintaining solution that are supporting the security testing activities",
-                            "justification": "While not explicitly building user-facing applications, integrating and maintaining solutions implies software development and integration work."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role aims to improve the 'overall security posture of the bank' and ensure 'compliance with applicable ABN AMRO policies, procedures, and regulations', indicating a need to understand business objectives and regulatory requirements.",
+                    "phrase": "improving the overall security posture of the bank"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        {
-                            "phrase": "DevOps Engineer",
-                            "justification": "The title itself directly indicates a focus on DevOps principles and practices, which are foundational to MLOps."
-                        },
-                        {
-                            "phrase": "integrating and maintaining solution",
-                            "justification": "This implies the operational aspect of ensuring solutions are functional and kept up-to-date in a production-like environment."
-                        },
-                        {
-                            "phrase": "Azure cloud services",
-                            "justification": "Working with cloud services is a key component of modern MLOps and DevOps for deployment and management."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "Cloud Platforms & Services",
-                    "technologies": [
-                        "Azure cloud services"
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves helping development teams 'bring security by design in their day-to-day work', which requires understanding business processes and integrating security considerations into them.",
+                    "phrase": "helping development teams to bring security by design in their day-to-day work"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "skills": [
-                        "able to learn quickly and apply the learned skills immediately"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "able to learn quickly and apply the learned skills immediately"
                 },
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "skills": [
-                        "like to work together with other specialists",
-                        "teamwork sets changes in motion"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "like to work together with other specialists"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "skills": [
-                        "getting things done!"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "teamwork sets changes in motion"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "getting things done"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Work on achieving your goals and develop yourself professionally and personally."
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure cloud services"
                 }
             ]
         }

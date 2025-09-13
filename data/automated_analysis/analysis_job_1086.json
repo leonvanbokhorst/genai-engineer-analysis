@@ -28,99 +28,85 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes the development and deployment of applications built on large language models (LLMs) and other generative AI technologies. Key responsibilities include creating autonomous support platforms, integrating state-of-the-art AI like GPT-4 Vision, and enhancing AI solutions, aligning directly with the core functions of a GenAI Engineer."
+            "rationale": "The job description heavily emphasizes the development, fine-tuning, and deployment of applications built on large language models (LLMs) and other generative AI technologies. Key responsibilities include creating autonomous support platforms using LLMs, integrating state-of-the-art AI like GPT-4 Vision, and building systems that interact with users (e.g., customer support chatbots). The role also involves software development for these AI systems and their deployment on cloud platforms like AWS, aligning directly with the definition and evidence profile of a GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "Create and improve autonomous support platforms using LLMs",
-                        "Test and integrate state-of-the-art AI technologies, like GPT-4 Vision"
-                    ],
-                    "justification": "These phrases directly relate to the development, fine-tuning, and integration of generative AI models (LLMs, GPT-4 Vision) for specific applications."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Create and improve autonomous support platforms using LLMs' directly relates to building and adapting generative models for specific applications.",
+                    "phrase": "Create and improve autonomous support platforms using LLMs"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "Create and improve autonomous support platforms",
-                        "creating an assistant able to guide customers through an upgrade process",
-                        "providing support and guidance for internal teams on how to best utilize these technologies within their workflows",
-                        "Improve support for both internal and external clients"
-                    ],
-                    "justification": "These phrases indicate the need to build and integrate AI capabilities into user-facing or internal systems, develop applications around AI models, and provide support for their use."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions 'development but also troubleshooting, maintaining, and updating tools' and 'creating an assistant able to guide customers through an upgrade process', which are core software engineering activities for user-facing applications.",
+                    "phrase": "development but also troubleshooting, maintaining, and updating tools"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "troubleshooting, maintaining, and updating tools based on user feedback and support tickets",
-                        "Evaluate and enhance the performance and integration of AI solutions across different infrastructures",
-                        "ensures support is available for end-users experiencing issues, focusing on maintaining high service quality and satisfaction"
-                    ],
-                    "justification": "These phrases describe the ongoing maintenance, monitoring, performance enhancement, and support of AI systems in production environments."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'creating an assistant able to guide customers through an upgrade process' describes the development of a user-facing application powered by AI.",
+                    "phrase": "creating an assistant able to guide customers through an upgrade process"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "significantly boosting the company's innovation capacity and service quality"
-                    ],
-                    "justification": "This phrase highlights the strategic impact of the AI initiatives on the company's overall goals of innovation and service quality."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "LLM / Generative Models",
-                    "category": "TECH3",
-                    "examples": [
-                        "LLMs",
-                        "GPT-4 Vision"
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Test and integrate state-of-the-art AI technologies, like GPT-4 Vision' involves working with and implementing advanced generative AI models.",
+                    "phrase": "Test and integrate state-of-the-art AI technologies, like GPT-4 Vision"
                 },
                 {
-                    "tech_name": "Cloud Platforms & Services",
-                    "category": "TECH2",
-                    "examples": [
-                        "AWS"
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'providing support and guidance for internal teams on how to best utilize these technologies within their workflows' indicates understanding how AI can benefit business operations and guiding others on its use.",
+                    "phrase": "providing support and guidance for internal teams on how to best utilize these technologies within their workflows"
                 },
                 {
-                    "tech_name": "LLM Frameworks & Libraries",
-                    "category": "TECH4",
-                    "examples": [
-                        "Amazon CodeWhisperer"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Evaluate and enhance the performance and integration of AI solutions across different infrastructures' points to operational aspects of managing and improving deployed AI systems.",
+                    "phrase": "Evaluate and enhance the performance and integration of AI solutions across different infrastructures"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The mention of 'ensures support is available for end-users experiencing issues, focusing on maintaining high service quality and satisfaction' relates to the software development lifecycle and user support.",
+                    "phrase": "ensures support is available for end-users experiencing issues, focusing on maintaining high service quality and satisfaction"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Improve support for both internal and external clients, significantly boosting the company's innovation capacity and service quality' highlights the alignment of AI solutions with business goals and service improvement.",
+                    "phrase": "Improve support for both internal and external clients, significantly boosting the company's innovation capacity and service quality"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "category": "SKILL2",
-                    "phrases": [
-                        "Test and integrate state-of-the-art AI technologies"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "providing support and guidance for internal teams"
                 },
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "category": "SKILL1",
-                    "phrases": [
-                        "providing support and guidance for internal teams on how to best utilize these technologies within their workflows"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "troubleshooting, maintaining, and updating tools based on user feedback and support tickets"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "category": "SKILL3",
-                    "phrases": [
-                        "troubleshooting, maintaining, and updating tools based on user feedback and support tickets",
-                        "Evaluate and enhance the performance and integration of AI solutions"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Test and integrate state-of-the-art AI technologies"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "category": "SKILL5",
-                    "phrases": [
-                        "significantly boosting the company's innovation capacity"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "significantly boosting the company's innovation capacity"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLMs"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "GPT-4 Vision"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "AWS"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Amazon CodeWhisperer"
                 }
             ]
         }

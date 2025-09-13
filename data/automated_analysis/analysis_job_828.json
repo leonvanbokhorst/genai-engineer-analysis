@@ -28,122 +28,151 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description emphasizes developing AI solutions using GenAI, specifically mentioning voicebots and revolutionizing document interaction. It highlights working with LLMs, experimenting with technologies like ChatGPT, and building scalable products, aligning strongly with the GenAI Engineer profile."
+            "rationale": "The job description heavily emphasizes the development and deployment of AI solutions leveraging Generative AI (GenAI), including specific mentions of 'voicebot' and 'chatGPT'. It highlights core responsibilities like building AI systems, developing scalable products, experimenting with new AI technologies, and working with LLMs. The role involves the full development cycle from ideation to production, with a focus on user-facing applications and integrating AI into business initiatives, aligning with the definition and evidence profile of a GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "Business Understanding",
-                    "phrases": [
-                        "feel for business",
-                        "understand the business context within which AI solutions are embedded",
-                        "work directly with entrepreneurs and business counterparts",
-                        "Support initiatives at S&I (new value propositions, innovations) with data-driven insights",
-                        "work with Client Units on some of the hardest AI problems within ABN AMRO"
-                    ],
-                    "justification": "These phrases indicate a need to understand business goals, translate them into technical requirements, and work with business stakeholders to deliver AI solutions that provide value."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The job description mentions working with 'entrepreneurs and business counterparts', 'feel for business', 'business context', 'intrapreneurs and business experts', and 'client units', indicating a need to understand and align with business goals.",
+                    "phrase": "feel for business"
                 },
                 {
-                    "task": "Data Engineering",
-                    "phrases": [
-                        "data-driven insights"
-                    ],
-                    "justification": "While not a primary focus, the mention of 'data-driven insights' suggests some level of data handling and preparation is involved."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves understanding the business context and translating it into technical requirements for AI solutions.",
+                    "phrase": "understanding of the business context within which AI solutions are embedded"
                 },
                 {
-                    "task": "Modeling",
-                    "phrases": [
-                        "develop disruptive Artificial Intelligence (AI) solutions",
-                        "develop AI systems and solutions",
-                        "Experiment and implement new AI technologies (like chatGPT), algorithms and methods",
-                        "leveraging GenAI",
-                        "LLM",
-                        "Machine Learning Models"
-                    ],
-                    "justification": "The core of the role involves developing AI systems, experimenting with new AI technologies like ChatGPT, leveraging GenAI, and working with LLMs and ML models, which directly maps to the modeling task."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The job involves working with business experts to ideate and design AI solutions.",
+                    "phrase": "Participate in the ideation and design of AI solutions with intrapreneurs and business experts"
                 },
                 {
-                    "task": "Software Development",
-                    "phrases": [
-                        "develop AI solutions from idea to production",
-                        "developing scalable products",
-                        "Backend to Frontend to API's",
-                        "build user-facing software systems"
-                    ],
-                    "justification": "The role requires building and deploying AI solutions into production, including developing scalable products and working with various software components like Backend, Frontend, and APIs, indicating a strong software development component."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role supports business initiatives with data-driven insights, showing an understanding of business needs.",
+                    "phrase": "Support initiatives at S&I (new value propositions, innovations) with data-driven insights"
                 },
                 {
-                    "task": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "develop AI solutions from idea to production",
-                        "developing scalable products",
-                        "production-grade user-facing software systems"
-                    ],
-                    "justification": "The emphasis on taking solutions from idea to production and developing scalable, production-grade systems implies the need for MLOps practices to ensure smooth deployment and maintenance."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "chatGPT",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The goal is to drive the adoption of AI across the bank by working with client units on AI problems, indicating a business-focused approach.",
+                    "phrase": "drive the adoption of AI across the bank by working with Client Units on some of the hardest AI problems within ABN AMRO"
                 },
                 {
-                    "technology": "GenAI",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK3: Modeling",
+                    "justification": "The role involves developing AI systems and solutions, which includes creating and implementing models.",
+                    "phrase": "develop AI systems and solutions"
                 },
                 {
-                    "technology": "LLM",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK3: Modeling",
+                    "justification": "The job explicitly mentions experimenting with and implementing new AI technologies, algorithms, and methods, which falls under model development.",
+                    "phrase": "Experiment and implement new AI technologies (like chatGPT), algorithms and methods"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The description states that the focus can be on a variety of Engineering solutions including Machine Learning Models.",
+                    "phrase": "Machine Learning Models"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The role involves leveraging GenAI for tasks like revolutionizing document interaction, which is a core aspect of generative modeling.",
+                    "phrase": "leveraging GenAI"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The job involves creating prototypes as part of the development cycle.",
+                    "phrase": "creating prototypes"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves bringing AI solutions from idea to production, which requires software development skills.",
+                    "phrase": "bring AI solutions from idea to production"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions developing scalable products, which is a key software development activity.",
+                    "phrase": "developing scalable products"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role requires developing AI systems and solutions, implying software engineering practices.",
+                    "phrase": "develop AI systems and solutions"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The job involves a variety of engineering solutions including Backend, Frontend, and APIs.",
+                    "phrase": "Backend to Frontend to API's"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves developing AI solutions for initiatives and client units, requiring software development to deliver these.",
+                    "phrase": "develop AI systems and solutions for our initiatives and for our client units"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The job involves building AI solutions and integrating them into the bank's operations.",
+                    "phrase": "develop disruptive Artificial Intelligence (AI) solutions"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The job description mentions taking care of the 'full development cycle from exploring and identifying opportunities, experimenting, and creating prototypes, to developing scalable products', which encompasses aspects of MLOps for production readiness.",
+                    "phrase": "full development cycle from exploring and identifying opportunities, experimenting, and creating prototypes, to developing scalable products"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The role aims to bring AI solutions from idea to production, which inherently involves operationalizing models and systems.",
+                    "phrase": "bring AI solutions from idea to production"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "Innovation & Ownership",
-                    "phrases": [
-                        "innovative mindset",
-                        "entrepreneurial drive",
-                        "creative and passionate people",
-                        "go get it mentality",
-                        "initiative is encouraged",
-                        "take initiative"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "innovative mindset"
                 },
                 {
-                    "skill": "Business Understanding",
-                    "phrases": [
-                        "feel for business",
-                        "understand the business context",
-                        "work directly with entrepreneurs and business counterparts",
-                        "Support initiatives at S&I (new value propositions, innovations) with data-driven insights",
-                        "work with Client Units on some of the hardest AI problems within ABN AMRO"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "entrepreneurial drive"
                 },
                 {
-                    "skill": "Learning & Adaptability",
-                    "phrases": [
-                        "work at the forefront of the changes",
-                        "Experiment and implement new AI technologies",
-                        "daily coaching for juniors"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "creative"
                 },
                 {
-                    "skill": "Communication & Collaboration",
-                    "phrases": [
-                        "work directly with entrepreneurs and business counterparts",
-                        "Participate in the ideation and design of AI solutions with intrapreneurs and business experts",
-                        "open team atmosphere"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "passionate people with a \"go get it\" mentality"
                 },
                 {
-                    "skill": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "develop disruptive Artificial Intelligence (AI) solutions",
-                        "develop AI systems and solutions",
-                        "creating prototypes",
-                        "developing scalable products",
-                        "drive the adoption of AI across the bank"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "multi-skilled"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "work directly with entrepreneurs and business counterparts"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "initiative is encouraged"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "daily coaching for juniors"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "chatGPT"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "GenAI"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "LLM"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Machine Learning Models"
                 }
             ]
         }

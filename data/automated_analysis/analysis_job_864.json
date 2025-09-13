@@ -27,138 +27,133 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The role focuses heavily on educational measurement and content creation, using AI as a tool rather than building AI systems. While generative AI is mentioned, the core responsibilities and stated exclusions point away from a technical AI engineering role and towards a business/educational specialist role."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on the application of AI tools for educational content creation and analysis, rather than the development or engineering of AI models or systems. While generative AI is mentioned, the role emphasizes psychometrics, educational measurement, and content quality control, with a clear statement that 'our engineers handle the technical implementation' and that the role does not involve 'developing code to automate systems'. This aligns with the 'Ambiguous' profile's definition of roles primarily focused on the 'USE of AI tools to enhance productivity' and not being a technical AI engineering role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrases": [
-                        "revolutionizing education through AI and data-driven insights",
-                        "enhance our entire learning ecosystem",
-                        "play a crucial role in optimizing our entire curriculum for student success",
-                        "synthesizing complex educational frameworks into AI prompts",
-                        "elevate our overall learning materials",
-                        "ensuring all content aligns with rigorous standards and ignites curiosity",
-                        "holistic view of the learning process",
-                        "identify knowledge gaps",
-                        "address these in our curriculum",
-                        "refining our instructional approach",
-                        "foster continuous improvement",
-                        "contribute to and learn from our collective expertise",
-                        "optimize our overall educational offerings",
-                        "contributing to the overall improvement of our learning ecosystem"
-                    ],
-                    "justification": "These phrases indicate a deep understanding of the educational domain, business goals (student success, curriculum optimization), and how AI can be applied to achieve them, rather than building the AI itself."
+                    "category": "TASK1",
+                    "justification": "The role requires understanding educational frameworks, learning science, and mastery-based learning to align AI-generated content with educational goals and student success.",
+                    "phrase": "harness the power of generative AI to design personalized, engaging assessments while also analyzing learning data, quality-controling educational materials, and collaborating with Learning Strategists. Your impact will extend beyond testing-you'll play a crucial role in optimizing our entire curriculum for student success."
                 },
                 {
-                    "task": "TASK3: Modeling",
-                    "phrases": [
-                        "harness the power of generative AI to design personalized, engaging assessments",
-                        "synthesizing complex educational frameworks into AI prompts",
-                        "craft AI-first rubrics",
-                        "Creating and refining test content to meet rigorous educational standards, using a blend of psychometrics and generative AI tools",
-                        "Developing assessment rubrics with the help of AI",
-                        "Applying your psychometric expertise to develop and refine test content with the help of AI"
-                    ],
-                    "justification": "While generative AI is mentioned, it's in the context of using it to create content and assessments, not for core model development or fine-tuning in the ML/GenAI engineering sense. The focus is on prompt engineering for content generation."
+                    "category": "TASK1",
+                    "justification": "The role involves synthesizing complex educational frameworks into AI prompts, which requires a deep understanding of the subject matter and how to translate it for AI.",
+                    "phrase": "synthesizing complex educational frameworks into AI prompts"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrases": [
-                        "Developing code to automate systems - you will focus on learning measurement and content design using AI, while our engineers handle the technical implementation"
-                    ],
-                    "justification": "Explicitly states that software development and technical implementation are NOT part of this role, handled by others."
+                    "category": "TASK1",
+                    "justification": "The role requires analyzing data to identify knowledge gaps and collaborating with experts to address them, which is a business/educational understanding task.",
+                    "phrase": "analyze data to identify knowledge gaps, then collaborate with subject matter experts to address these in our curriculum."
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Creating and refining test content to meet rigorous educational standards, using a blend of psychometrics and generative AI tools",
-                        "Developing assessment rubrics with the help of AI that evaluate the depth, alignment, and educational impact of the test content and learning materials",
-                        "Quality controlling learning content to ensure it meets high standards of engagement, accuracy, and effectiveness",
-                        "Analyzing test results, student data, and learning analytics to identify knowledge gaps and areas for improvement in our curriculum",
-                        "Collaborating with subject-matter experts to optimize our overall educational offerings, including test content and instructional materials",
-                        "Applying principles of learning science and mastery-based learning to enhance our curriculum and assessment strategies",
-                        "Participating in our \"second brain\" knowledge-sharing practices to contribute to and learn from our collective expertise",
-                        "Creating test content or curriculum materials manually - you will be leveraging AI tools for all content creation tasks",
-                        "Working in isolation - this role requires active collaboration across multiple teams and disciplines",
-                        "Applying your psychometric expertise to develop and refine test content with the help of AI, ensuring the assessments are personalized, rigorous, and aligned with educational standards, while contributing to the overall improvement of our learning ecosystem through cross-functional collaboration and data-driven insights."
-                    ],
-                    "justification": "These tasks involve the application and quality control of AI-generated content and learning materials, data analysis for improvement, and collaboration, but not the engineering or maintenance of the AI systems themselves."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech": "TECH3: LLM / Generative Models",
-                    "items": [
-                        "generative AI",
-                        "AI"
-                    ]
+                    "category": "TASK1",
+                    "justification": "The role involves applying principles of learning science and mastery-based learning to enhance curriculum and assessment strategies, demonstrating a deep understanding of the educational domain.",
+                    "phrase": "Applying principles of learning science and mastery-based learning to enhance our curriculum and assessment strategies"
                 },
                 {
-                    "tech": "TECH4: LLM Frameworks & Libraries",
-                    "items": [
-                        "AI prompts"
-                    ]
+                    "category": "TASK3",
+                    "justification": "The role explicitly mentions using generative AI to create assessments and rubrics, which falls under the modeling category, albeit in an applied, user-focused manner.",
+                    "phrase": "Creating and refining test content to meet rigorous educational standards, using a blend of psychometrics and generative AI tools"
+                },
+                {
+                    "category": "TASK3",
+                    "justification": "Developing assessment rubrics with AI assistance is a form of model/structure creation for evaluation.",
+                    "phrase": "Developing assessment rubrics with the help of AI"
+                },
+                {
+                    "category": "TASK3",
+                    "justification": "The role involves applying psychometric expertise to develop and refine test content with AI, indicating a focus on the output of generative models for assessment purposes.",
+                    "phrase": "Applying your psychometric expertise to develop and refine test content with the help of AI"
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "While the role states 'you will focus on learning measurement and content design using AI, while our engineers handle the technical implementation', the creation of AI prompts and the integration of AI tools for content generation implies a level of application development within the scope of content creation.",
+                    "phrase": "synthesizing complex educational frameworks into AI prompts, yielding not just effective assessments but also insights that elevate our overall learning materials."
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "The role involves quality controlling learning content, which is an application-level task to ensure the output meets standards.",
+                    "phrase": "Quality controlling learning content to ensure it meets high standards of engagement, accuracy, and effectiveness"
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "The role explicitly states 'Creating test content or curriculum materials manually - you will be leveraging AI tools for all content creation tasks', indicating the use of AI as a tool within a development/creation process.",
+                    "phrase": "Creating test content or curriculum materials manually - you will be leveraging AI tools for all content creation tasks"
+                },
+                {
+                    "category": "TASK5",
+                    "justification": "The role mentions participating in 'second brain' knowledge-sharing practices, which can be seen as a form of collaborative knowledge management and continuous improvement, akin to operational practices in a team setting.",
+                    "phrase": "Participating in our 'second brain' knowledge-sharing practices to contribute to and learn from our collective expertise"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "items": [
-                        "collaborating with Learning Strategists",
-                        "collaborate across disciplines",
-                        "Collaborating with subject-matter experts",
-                        "cross-functional collaboration",
-                        "Working in isolation - this role requires active collaboration across multiple teams and disciplines"
-                    ]
+                    "category": "SKILL1",
+                    "phrase": "collaborating with Learning Strategists"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "items": [
-                        "continuous improvement",
-                        "contribute to and learn from our collective expertise",
-                        "Applying principles of learning science and mastery-based learning"
-                    ]
+                    "category": "SKILL1",
+                    "phrase": "collaborating with subject-matter experts"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "items": [
-                        "design personalized, engaging assessments",
-                        "synthesizing complex educational frameworks",
-                        "elevate our overall learning materials",
-                        "craft AI-first rubrics",
-                        "ensuring all content aligns with rigorous standards",
-                        "holistic view of the learning process",
-                        "analyze data to identify knowledge gaps",
-                        "address these in our curriculum",
-                        "refining our instructional approach",
-                        "optimize our overall educational offerings",
-                        "ensure the assessments are personalized, rigorous, and aligned with educational standards"
-                    ]
+                    "category": "SKILL1",
+                    "phrase": "collaborate across disciplines"
                 },
                 {
-                    "skill": "SKILL4: Ethical & Legal Responsibility",
-                    "items": [
-                        "rigorous educational standards",
-                        "high standards of engagement, accuracy, and effectiveness",
-                        "rigorous"
-                    ]
+                    "category": "SKILL1",
+                    "phrase": "cross-functional collaboration"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "items": [
-                        "revolutionizing education through AI",
-                        "innovative team",
-                        "transformative role",
-                        "harness the power of generative AI",
-                        "AI-first rubrics",
-                        "ignites curiosity",
-                        "shape the future of learning",
-                        "Applying your psychometric expertise to develop and refine test content with the help of AI"
-                    ]
+                    "category": "SKILL2",
+                    "phrase": "continuous improvement"
+                },
+                {
+                    "category": "SKILL3",
+                    "phrase": "analyzing learning data"
+                },
+                {
+                    "category": "SKILL3",
+                    "phrase": "analyzing test results, student data, and learning analytics"
+                },
+                {
+                    "category": "SKILL3",
+                    "phrase": "identify knowledge gaps"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "innovative team"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "transformative role"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "play a crucial role in optimizing our entire curriculum"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "Your experience will be vital"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "make a lasting impact on educational outcomes"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "help us shape the future of learning"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "generative AI"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "AI"
                 }
             ]
         }

@@ -26,70 +26,93 @@
         "full_text": "QA Manual Engineer\n\nAre you ready to shape the future of digital content creation?\n       We're seeking a QA Manual Engineer to join our innovative team! As a vital part of our growing team, you'll focus on managing and monitoring defects, ensuring timely resolutions, and collaborating closely with our development teams to deliver top-quality results. At , you'll move beyond traditional QA roles and work with cutting-edge technology and 3D content automation that brings creativity to life.\n       About\n       is an end-to-end content automation platform that empowers brands to produce infinite ad variations through CGI, rule-based generative AI, and post-production automation. It transforms master ad creatives into countless variations, enabling marketers to create visual adaptations effortlessly, maintain brand consistency, and save millions in production costs. turns master content into modular configurators for quick and easy creative adjustments, providing unparalleled scalability., + Thoroughly understand project specifications, designs, and requirements to ensure comprehensive test coverage.\n          + Create, maintain, and support detailed test documentation including test plans, suites, cases, checklists, and test data.\n          + Conduct detailed manual functional and non-functional testing to identify potential issues.\n          + Efficiently manage and monitor defects, ensuring timely resolutions and maintaining communication with development teams.\n          + Proactively identify opportunities for process improvements in the testing lifecycle and implement effective solutions.\n          + Work closely with development, design, and product management teams in an Agile manner to ensure software functionality aligns with user requirements and is delivered within project timelines."
     },
     "analysis": {
-        "profile": "Ambiguous / Not Relevant",
-        "confidence_score": 2,
-        "rationale": "The job description focuses on manual QA engineering, defect management, and traditional testing processes. While it mentions 'generative AI' in the context of the company's platform, the core responsibilities of the role do not involve developing, fine-tuning, or deploying AI models, nor do they align with the core tasks of an ML or GenAI Engineer.",
+        "profile_classification": {
+            "profile": "Ambiguous",
+            "rationale": "The job description is for a QA Manual Engineer, which is a traditional software testing role. While the company uses generative AI and automation, the role itself does not involve developing, fine-tuning, or deploying AI models. It focuses on manual testing, defect management, and ensuring software quality, which falls outside the scope of ML Engineer or GenAI Engineer profiles. The role primarily focuses on the *use* of AI-powered tools and platforms rather than the engineering of AI itself."
+        },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "Thoroughly understand project specifications, designs, and requirements to ensure comprehensive test coverage.",
-                            "justification": "This phrase directly relates to understanding project requirements and specifications to inform testing strategy, which is a key aspect of business understanding in a QA context."
-                        },
-                        {
-                            "phrase": "Work closely with development, design, and product management teams in an Agile manner to ensure software functionality aligns with user requirements and is delivered within project timelines.",
-                            "justification": "This highlights collaboration with various teams to ensure alignment with user requirements and project timelines, demonstrating an understanding of business and product goals."
-                        }
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves collaborating with development teams, ensuring software functionality aligns with user requirements, and delivering within project timelines, which are core aspects of software development lifecycle support.",
+                    "phrase": "collaborating closely with our development teams to deliver top-quality results"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "collaborating closely with our development teams",
-                            "justification": "While not directly developing software, the role requires close collaboration with development teams, implying an understanding of the software development lifecycle and integration points."
-                        }
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions ensuring software functionality aligns with user requirements and is delivered within project timelines, which is a key aspect of software development.",
+                    "phrase": "ensure software functionality aligns with user requirements and is delivered within project timelines"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires understanding project specifications, designs, and requirements to ensure comprehensive test coverage, which involves understanding the business context and translating it into testable requirements.",
+                    "phrase": "Thoroughly understand project specifications, designs, and requirements to ensure comprehensive test coverage"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Creating and maintaining test documentation is a crucial part of the software development lifecycle, ensuring quality and traceability.",
+                    "phrase": "Create, maintain, and support detailed test documentation including test plans, suites, cases, checklists, and test data"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Conducting manual functional and non-functional testing is a direct activity within the software development quality assurance process.",
+                    "phrase": "Conduct detailed manual functional and non-functional testing to identify potential issues"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Managing and monitoring defects and ensuring their resolution is a key part of the software development quality assurance process.",
+                    "phrase": "Efficiently manage and monitor defects, ensuring timely resolutions and maintaining communication with development teams"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The job description mentions 'rule-based generative AI' in the context of the company's platform, indicating the use of AI models, though the role itself is not directly involved in their creation or modification.",
+                    "phrase": "rule-based generative AI"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The description mentions 'post-production automation' as part of the company's platform, which relates to operational aspects of deployed systems, although the QA role itself is not directly performing MLOps.",
+                    "phrase": "post-production automation"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Identifying opportunities for process improvements in the testing lifecycle and implementing solutions is a proactive approach to enhancing the software development process.",
+                    "phrase": "Proactively identify opportunities for process improvements in the testing lifecycle and implement effective solutions"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Working closely with development, design, and product management teams in an Agile manner is a core practice in modern software development.",
+                    "phrase": "Work closely with development, design, and product management teams in an Agile manner"
                 }
             ],
-            "technologies": [],
             "soft_skills": [
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        {
-                            "phrase": "collaborating closely with our development teams",
-                            "justification": "Directly indicates collaboration with development teams."
-                        },
-                        {
-                            "phrase": "Work closely with development, design, and product management teams in an Agile manner",
-                            "justification": "Highlights close collaboration with multiple teams."
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "collaborating closely with our development teams"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        {
-                            "phrase": "managing and monitoring defects, ensuring timely resolutions",
-                            "justification": "Implies problem-solving to identify, track, and ensure resolution of issues."
-                        },
-                        {
-                            "phrase": "Proactively identify opportunities for process improvements in the testing lifecycle and implement effective solutions.",
-                            "justification": "Demonstrates a pragmatic approach to problem-solving by seeking and implementing improvements."
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "maintaining communication with development teams"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        {
-                            "phrase": "work with cutting-edge technology and 3D content automation",
-                            "justification": "Suggests the need to adapt to and work with new technologies."
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Work closely with development, design, and product management teams"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "identify potential issues"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Proactively identify opportunities for process improvements"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "move beyond traditional QA roles and work with cutting-edge technology"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "generative AI"
                 }
             ]
         }

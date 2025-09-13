@@ -28,53 +28,56 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 5,
-            "rationale": "The job description explicitly mentions working with large language models (LLMs) and developing AI solutions for applications. The core responsibilities align directly with fine-tuning models, preparing data for them, and ensuring responsible AI application, which are hallmarks of a GenAI Engineer."
+            "rationale": "The job description emphasizes designing and implementing AI solutions based on large language models (LLMs), improving text models, and ensuring responsible AI application. These core responsibilities align directly with the definition and core responsibilities of a GenAI Engineer, particularly in building and fine-tuning generative models and applying them to specific use cases."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "Ontwerpen en implementeren van AI-oplossingen gebaseerd op large language models (LLM's)",
-                        "Verbeteren van de kwaliteit en nauwkeurigheid van tekstmodellen"
-                    ],
-                    "justification": "These phrases directly relate to the creation, adaptation, and improvement of AI models, specifically mentioning LLMs and text models, which falls under the 'Modeling' category."
+                    "category": "TASK3",
+                    "justification": "The phrase 'Ontwerpen en implementeren van AI-oplossingen gebaseerd op large language models (LLM\\'s)' directly refers to the creation and application of models, which is the core of TASK3.",
+                    "phrase": "Ontwerpen en implementeren van AI-oplossingen gebaseerd op large language models (LLM's)"
                 },
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "Analyseren en voorbereiden van datasets voor optimale modelprestaties"
-                    ],
-                    "justification": "This phrase describes the process of preparing and cleaning data for use in AI models, which is a core component of 'Data Engineering'."
+                    "category": "TASK2",
+                    "justification": "The phrase 'Analyseren en voorbereiden van datasets voor optimale modelprestaties' describes the necessary steps of data handling before model training, fitting the definition of data engineering.",
+                    "phrase": "Analyseren en voorbereiden van datasets voor optimale modelprestaties"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Testen, valideren en continu optimaliseren van ontwikkelde oplossingen"
-                    ],
-                    "justification": "This task involves the testing, validation, and ongoing optimization of deployed solutions, which aligns with the principles of 'Operations Engineering (MLOps)' for maintaining production-grade systems."
+                    "category": "TASK3",
+                    "justification": "The phrase 'Verbeteren van de kwaliteit en nauwkeurigheid van tekstmodellen' indicates direct work on model performance and fine-tuning, which falls under TASK3.",
+                    "phrase": "Verbeteren van de kwaliteit en nauwkeurigheid van tekstmodellen"
                 },
                 {
-                    "task_name": "Ethical & Legal Responsibility",
-                    "phrases": [
-                        "Zorgen voor een veilige en verantwoorde toepassing van AI-technologieën"
-                    ],
-                    "justification": "This phrase directly addresses the ethical considerations and responsible deployment of AI technologies, fitting the 'Ethical & Legal Responsibility' soft skill."
-                }
-            ],
-            "technologies": [
+                    "category": "TASK5",
+                    "justification": "The phrase 'Testen, valideren en continu optimaliseren van ontwikkelde oplossingen' covers the post-development lifecycle of AI solutions, including testing and optimization, which aligns with MLOps principles in TASK5.",
+                    "phrase": "Testen, valideren en continu optimaliseren van ontwikkelde oplossingen"
+                },
                 {
-                    "tech_name": "LLM / Generative Models",
-                    "type": "TECH3",
-                    "phrase": "large language models (LLM's)"
+                    "category": "TASK4",
+                    "justification": "While not explicitly 'software development', the phrase 'toepassing die met behulp van kunstmatige intelligentie subsidieaanvragen naar een hoger niveau tilt' implies building a user-facing application where AI models are integrated, which is part of TASK4.",
+                    "phrase": "innovatieve toepassing die met behulp van kunstmatige intelligentie subsidieaanvragen naar een hoger niveau tilt"
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "The phrase 'oplossingen die directe impact hebben op onze klanten' suggests the development of customer-facing solutions, which is a key aspect of TASK4.",
+                    "phrase": "oplossingen die directe impact hebben op onze klanten"
+                },
+                {
+                    "category": "SKILL4",
+                    "justification": "The phrase 'Zorgen voor een veilige en verantwoorde toepassing van AI-technologieën' directly relates to ethical considerations and responsible AI development.",
+                    "phrase": "Zorgen voor een veilige en verantwoorde toepassing van AI-technologieën"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Ethical & Legal Responsibility",
-                    "type": "SKILL4",
-                    "phrase": "Zorgen voor een veilige en verantwoorde toepassing van AI-technologieën"
+                    "category": "SKILL4",
+                    "phrase": "veilige en verantwoorde toepassing van AI-technologieën"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "large language models (LLM's)"
                 }
             ]
         }

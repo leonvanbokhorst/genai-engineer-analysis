@@ -28,153 +28,179 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes building AI-centric products, utilizing generative AI, LLMs, RAG, and agents. While it mentions full-stack development, the core focus is on integrating and developing applications around generative AI technologies, aligning with the GenAI Engineer profile."
+            "rationale": "The job description emphasizes building AI-centric products, utilizing generative AI for products and productivity, and working with LLMs, RAG, and Agents. While it mentions full-stack development, the core focus is on integrating and developing applications around generative AI technologies, aligning with the GenAI Engineer profile."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        "Work with product owners and curators to understand requirements and guide new features",
-                        "Collaborate to identify new feature impacts on existing services and teams"
-                    ],
-                    "justification": "These phrases indicate the need to understand business needs and how new features (especially AI-centric ones) impact existing systems and teams."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Work with product owners and curators to understand requirements and guide new features' indicates a need to comprehend business needs and translate them into technical guidance.",
+                    "phrase": "Work with product owners and curators to understand requirements and guide new features"
                 },
                 {
-                    "task_name": "TASK3: Modeling",
-                    "phrases": [
-                        "Some knowledge and experience of AI/ML software engineering",
-                        "Utilize and apply generative AI for products and for daily productivity",
-                        "LLMs (OpenAI GPT-X, Claude, embedding models)",
-                        "Vector indexing/database, RAG, Agents"
-                    ],
-                    "justification": "The explicit mention of generative AI, LLMs, RAG, and agents points directly to the core of generative AI modeling and application development."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Collaborate to identify new feature impacts on existing services and teams' shows an understanding of how new features affect the broader business and technical landscape.",
+                    "phrase": "Collaborate to identify new feature impacts on existing services and teams"
                 },
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        "Full Stack Sr. Software Engineer",
-                        "collaborate to build new AI centric products",
-                        "guide new features",
-                        "design, develop, and occasionally enhance or maintain existing systems",
-                        "APIs GraphQL, REST",
-                        "React UI/UX",
-                        "Python, JavaScript, Node.js"
-                    ],
-                    "justification": "This role is explicitly for a Full Stack Software Engineer, involving the design, development, and maintenance of systems, including building user-facing products and APIs."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Utilize and apply generative AI for products and for daily productivity' directly points to the use and application of generative AI models.",
+                    "phrase": "Utilize and apply generative AI for products and for daily productivity"
                 },
                 {
-                    "task_name": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Docker, Kubernetes",
-                        "Amazon Web Services (AWS), MS Azure OpenAI"
-                    ],
-                    "justification": "The mention of containerization (Docker, Kubernetes) and cloud platforms (AWS, Azure) suggests involvement in deploying and managing AI systems in production environments."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH1: Programming Languages",
-                    "values": [
-                        "Python",
-                        "JavaScript",
-                        "Node.js"
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'LLMs (OpenAI GPT-X, Claude, embedding models)' and 'Vector indexing/database, RAG, Agents' are core components of generative AI modeling and application development.",
+                    "phrase": "LLMs (OpenAI GPT-X, Claude, embedding models), Vector indexing/database, RAG, Agents"
                 },
                 {
-                    "tech_name": "TECH2: Cloud Platforms & Services",
-                    "values": [
-                        "Amazon Web Services (AWS)",
-                        "MS Azure OpenAI"
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Periodically explore new technologies and design patterns with proof-of-concept' suggests research and development in modeling and design.",
+                    "phrase": "Periodically explore new technologies and design patterns with proof-of-concept"
                 },
                 {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "values": [
-                        "OpenAI GPT-X",
-                        "Claude",
-                        "embedding models"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The job title 'Full Stack Sr. Software Engineer' and phrases like 'collaborate to build new AI centric products' and 'design, develop, and occasionally enhance or maintain existing systems' clearly indicate software development responsibilities.",
+                    "phrase": "Full Stack Sr. Software Engineer, collaborate to build new AI centric products, design, develop, and occasionally enhance or maintain existing systems"
                 },
                 {
-                    "tech_name": "TECH4: LLM Frameworks & Libraries",
-                    "values": [
-                        "RAG",
-                        "Agents"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The mention of 'APIs GraphQL, REST' and 'React UI/UX' are typical components of building user-facing software applications.",
+                    "phrase": "APIs GraphQL, REST, React UI/UX"
                 },
                 {
-                    "tech_name": "TECH5: Vector Stores & Search",
-                    "values": [
-                        "Vector indexing/database"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Document designs and implementation to ensure consistency and alignment with standards' and 'Create documentation including system and sequence diagrams' are standard software development practices.",
+                    "phrase": "Document designs and implementation to ensure consistency and alignment with standards, Create documentation including system and sequence diagrams"
                 },
                 {
-                    "tech_name": "TECH6: MLOps & Data Pipelines",
-                    "values": [
-                        "Docker",
-                        "Kubernetes",
-                        "Kafka",
-                        "RabbitMQ",
-                        "SQS"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The inclusion of 'Docker, Kubernetes' and 'Amazon Web Services (AWS), MS Azure OpenAI' points to the infrastructure and deployment aspects of MLOps.",
+                    "phrase": "Docker, Kubernetes, Amazon Web Services (AWS), MS Azure OpenAI"
                 },
                 {
-                    "tech_name": "TECH9: Data Storage",
-                    "values": [
-                        "SQL (Postgres RDS)",
-                        "NoSQL (Cassandra, Elasticsearch)"
-                    ]
-                },
-                {
-                    "tech_name": "TECH10: Data Modeling",
-                    "values": [
-                        "React UI/UX"
-                    ]
-                },
-                {
-                    "tech_name": "TECH11: Data Analysis",
-                    "values": [
-                        "APIs GraphQL, REST"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of 'Messaging - Kafka, RabbitMQ, SQS' suggests experience with distributed systems and message queues, common in production environments.",
+                    "phrase": "Messaging - Kafka, RabbitMQ, SQS"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "collaborate to build new AI centric products",
-                        "work closely with more senior engineers who will mentor and guide them",
-                        "Work with product owners and curators to understand requirements",
-                        "Collaborate to identify new feature impacts",
-                        "Collaborate with team to design, develop",
-                        "Occasionally present research and work to socialize and share knowledge across the organization"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "collaborate to build new AI centric products"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "The successful candidate will work closely with more senior engineers who will mentor and guide them",
-                        "Research, prototype, and select appropriate COTS and in-house technology",
-                        "Periodically explore new technologies and design patterns with proof-of-concept"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "work closely with more senior engineers who will mentor and guide them"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Research, prototype, and select appropriate COTS and in-house technology and design",
-                        "guide new features",
-                        "identify new feature impacts on existing services and teams"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Work with product owners and curators to understand requirements"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "build new AI centric products",
-                        "Research, prototype, and select appropriate COTS and in-house technology",
-                        "Periodically explore new technologies and design patterns with proof-of-concept"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate to identify new feature impacts"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate with team to design, develop"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Document designs and implementation"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Occasionally present research and work to socialize and share knowledge across the organization"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Periodically explore new technologies and design patterns with proof-of-concept"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Research, prototype, and select appropriate COTS and in-house technology and design"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "build new AI centric products"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "JavaScript"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Node.js"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Amazon Web Services (AWS)"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "MS Azure OpenAI"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLMs (OpenAI GPT-X, Claude, embedding models)"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "RAG"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "Agents"
+                },
+                {
+                    "category": "TECH5: Vector Stores & Search",
+                    "phrase": "Vector indexing/database"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Docker"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Kubernetes"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Kafka"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "RabbitMQ"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "SQS"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "SQL (Postgres RDS)"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "NoSQL (Cassandra, Elasticsearch)"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "APIs GraphQL"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "APIs REST"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "React UI/UX"
                 }
             ]
         }

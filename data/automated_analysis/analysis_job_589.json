@@ -27,118 +27,72 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on developing educational materials for GenAI courses, rather than hands-on development, engineering, or deployment of GenAI systems. While it mentions GenAI, the core tasks are instructional design and content creation, not core engineering roles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on developing educational materials for AI and IT courses, including content on GenAI and prompt engineering. However, it does not involve the core technical responsibilities of building, training, fine-tuning, or deploying AI models or systems. The role is primarily educational and content-focused, rather than a technical engineering role in ML or GenAI. Therefore, it falls under the 'Ambiguous' profile as it primarily focuses on the use of AI concepts for educational purposes and lacks the deep technical implementation aspects of an ML or GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "werken aan een nog slimmere maatschappij",
-                            "justification": "This phrase indicates an understanding of the broader goal of making society 'smarter' through education, aligning with the company's mission."
-                        },
-                        {
-                            "phrase": "bijdragen aan de missie van Vijfhart: het slimmer maken van werkend Nederland",
-                            "justification": "Directly states the company's mission, which the role contributes to, showing an understanding of the business context."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves understanding the educational needs of cursists and aligning the course material with the company's mission ('het slimmer maken van werkend Nederland'). This requires understanding the business context of IT education.",
+                    "phrase": "het slimmer maken van de maatschappij"
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        {
-                            "phrase": "lesmateriaal voor een GenAI-cursus",
-                            "justification": "Indicates the subject matter involves Generative AI, which is a type of modeling, though the role is about teaching it rather than building it."
-                        },
-                        {
-                            "phrase": "module over prompts",
-                            "justification": "Prompt engineering is a key aspect of working with generative models, suggesting exposure to modeling concepts."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The job description mentions developing course material for GenAI, indicating a need to understand the business relevance and application of AI in education and the workforce.",
+                    "phrase": "lesmateriaal voor een GenAI-cursus"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "ontwerpen van interactieve oefeningen",
-                            "justification": "Designing exercises implies creating interactive elements, which can involve software development principles, though not explicitly stated as building applications."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
+                    "category": "TASK3: Modeling",
+                    "justification": "While not building models, the role involves creating educational content about 'prompts' which is a core concept in interacting with generative AI models.",
+                    "phrase": "module over prompts"
+                },
                 {
-                    "tech_name": "GenAI-cursus",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves designing interactive exercises for cursists to understand course material, which can be considered a form of developing educational software or interactive learning modules.",
+                    "phrase": "ontwerpen van interactieve oefeningen"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires staying updated on AI and IT trends to ensure course material is relevant, which implies understanding the evolving landscape and its business implications for education.",
+                    "phrase": "check je de laatste trends en ontwikkelingen in AI en IT"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Evaluating feedback from cursists and identifying improvements directly relates to understanding the effectiveness of the educational product and aligning with business goals of continuous improvement.",
+                    "phrase": "feedback van cursisten te evalueren"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        {
-                            "phrase": "ontwikkelen in een vakgebied dat constant in beweging is",
-                            "justification": "Highlights the need to adapt to a rapidly changing field."
-                        },
-                        {
-                            "phrase": "bijwerken van het nieuwste lesmateriaal",
-                            "justification": "Implies continuous learning to stay updated with the latest material."
-                        },
-                        {
-                            "phrase": "check je de laatste trends en ontwikkelingen in AI en IT",
-                            "justification": "Directly states the need to stay current with trends and developments."
-                        }
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "je jezelf ontwikkelen in een vakgebied dat constant in beweging is"
                 },
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        {
-                            "phrase": "feedback van een docent. Deze input gebruik je direct om het materiaal nog scherper te maken.",
-                            "justification": "Involves receiving and acting on feedback from colleagues, indicating collaboration."
-                        },
-                        {
-                            "phrase": "brainstormsessie in met een subject matter expert",
-                            "justification": "Directly mentions a collaborative brainstorming session."
-                        },
-                        {
-                            "phrase": "lunch breng je met collega's door",
-                            "justification": "Indicates informal collaboration and communication with colleagues."
-                        },
-                        {
-                            "phrase": "evalueren van de feedback van cursisten",
-                            "justification": "Involves understanding and responding to feedback from users/customers."
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "brainstormsessie in met een subject matter expert"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        {
-                            "phrase": "manieren om complexe IT-concepten begrijpelijk te maken voor cursisten",
-                            "justification": "Focuses on finding solutions to make complex topics understandable, a problem-solving task."
-                        },
-                        {
-                            "phrase": "inventariseren van verbeteringen",
-                            "justification": "Implies identifying areas for improvement, a problem-solving activity."
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "ontvang je feedback van een docent. Deze input gebruik je direct"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        {
-                            "phrase": "nieuwe ideeën voor morgen",
-                            "justification": "Suggests a proactive and forward-thinking approach."
-                        },
-                        {
-                            "phrase": "je sluit de dag af door de feedback van cursisten te evalueren. Zo zie je direct hoe jouw werk bijdraagt aan hun succes",
-                            "justification": "Shows a sense of ownership and focus on the impact and success of one's work."
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "ontspant met collega's"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "manieren om complexe IT-concepten begrijpelijk te maken"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "nieuwe ideeën voor morgen"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "GenAI-cursus"
                 }
             ]
         }

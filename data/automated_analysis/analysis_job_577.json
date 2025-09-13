@@ -27,114 +27,82 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description emphasizes applying machine learning to various tasks like personalization, fraud detection, and NLP, and managing the entire model lifecycle. While LLMs are mentioned, the core focus remains on traditional ML engineering principles and MLOps, aligning more closely with the ML Engineer profile."
+            "profile": "GenAI Engineer",
+            "rationale": "The job description emphasizes leveraging open-source large language models, applying AI to natural language processing, and managing the entire lifecycle of models including prototyping, deployment, and optimization. While 'Machine Learning Engineer' is in the title, the core responsibilities and technologies mentioned, particularly the focus on LLMs and NLP, align more closely with the 'GenAI Engineer' profile. The mention of MLOps and model lifecycle management is common to both, but the specific application of generative models is a key differentiator."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        "work closely with the data team, product and finance",
-                        "focus on a wide variety of projects",
-                        "shaping these initiatives from the ground up",
-                        "Design Machine Learning solutions for TicketSwap's unique product challenges",
-                        "Producing data insights: extract value from data and drive improvements and strategic decisions",
-                        "Work closely with the different stakeholders, understand their problems and come up with solutions",
-                        "With data driven decision making playing an important role the ML products you develop will have real impact on customers and the business"
-                    ],
-                    "justification": "These phrases indicate an understanding of business context, stakeholder needs, and the impact of ML solutions on business goals and customer experience."
+                    "category": "TASK3",
+                    "justification": "The job description explicitly mentions 'Apply Machine Learning / Artificial Intelligence to personalization, discovery, fraud detection and natural language processing' and 'Design Machine Learning solutions'. It also talks about 'leveraging open source large language models' and 'model prototyping and development'.",
+                    "phrase": "Apply Machine Learning / Artificial Intelligence to personalization, discovery, fraud detection and natural language processing"
                 },
                 {
-                    "task_name": "TASK2: Data Engineering",
-                    "phrases": [
-                        "Our MLEs play a critical role in shaping these initiatives from the ground up - from conceptualizing new ideas to bringing them to life through development, deployment, and ongoing optimization.",
-                        "Producing data insights: extract value from data and drive improvements and strategic decisions"
-                    ],
-                    "justification": "While not explicitly detailing data pipelines, the mention of extracting value from data and driving insights implies data handling and preparation as a foundational step."
+                    "category": "TASK3",
+                    "justification": "The phrase 'Design Machine Learning solutions for TicketSwap's unique product challenges' directly relates to the creation and adaptation of models.",
+                    "phrase": "Design Machine Learning solutions for TicketSwap's unique product challenges"
                 },
                 {
-                    "task_name": "TASK3: Modeling",
-                    "phrases": [
-                        "leveraging open source large language models to enhance our platform",
-                        "Apply Machine Learning / Artificial Intelligence to personalization, discovery, fraud detection and natural language processing",
-                        "Design Machine Learning solutions",
-                        "model prototyping and development",
-                        "experiment management",
-                        "Producing data insights",
-                        "ML products you develop"
-                    ],
-                    "justification": "This category covers the core of building and adapting models, including traditional ML tasks (personalization, fraud detection) and generative AI (LLMs), as well as the process of experimentation and development."
+                    "category": "TASK5",
+                    "justification": "The description states 'Manage models entire lifecycle from prototyping, to deployment, to continuous improvement and monitoring' and 'Help with the continuing development of our MLops pipeline'. This clearly points to Operations Engineering.",
+                    "phrase": "Manage models entire lifecycle from prototyping, to deployment, to continuous improvement and monitoring"
                 },
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        "bringing them to life through development, deployment, and ongoing optimization",
-                        "Design Machine Learning solutions for TicketSwap's unique product challenges",
-                        "ML products you develop will have real impact on customers and the business"
-                    ],
-                    "justification": "The description mentions developing and deploying ML solutions that have a real impact on customers and the business, implying the need for software development to integrate these models into applications."
+                    "category": "TASK2",
+                    "justification": "The phrase 'Producing data insights: extract value from data and drive improvements and strategic decisions' implies data processing and feature engineering to derive insights.",
+                    "phrase": "Producing data insights: extract value from data and drive improvements and strategic decisions"
                 },
                 {
-                    "task_name": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "deployment, and ongoing optimization",
-                        "on-premise hardware for model prototyping and development",
-                        "growing MLops infrastructure supports our team in experiment management, ensuring efficient tracking, smooth deployment, and meticulous monitoring of our models",
-                        "Help with the continuing development of our MLops pipeline",
-                        "continuous improvement and monitoring"
-                    ],
-                    "justification": "Explicit mentions of 'MLops infrastructure', 'experiment management', 'deployment', 'monitoring', and 'MLops pipeline' clearly indicate a strong focus on operationalizing and maintaining ML models."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "value": "open source large language models"
+                    "category": "TASK1",
+                    "justification": "The job involves working 'closely with the data team, product and finance' and 'Work closely with the different stakeholders, understand their problems and come up with solutions'. This demonstrates understanding business context and translating needs.",
+                    "phrase": "Work closely with the different stakeholders, understand their problems and come up with solutions"
                 },
                 {
-                    "tech_name": "TECH10: Data Modeling",
-                    "value": "Machine Learning"
+                    "category": "TASK5",
+                    "justification": "The mention of 'our growing MLops infrastructure supports our team in experiment management, ensuring efficient tracking, smooth deployment, and meticulous monitoring of our models' directly relates to MLOps.",
+                    "phrase": "our growing MLops infrastructure supports our team in experiment management, ensuring efficient tracking, smooth deployment, and meticulous monitoring of our models"
                 },
                 {
-                    "tech_name": "TECH6: MLOps & Data Pipelines",
-                    "value": "MLops infrastructure"
+                    "category": "TASK1",
+                    "justification": "The statement 'With data driven decision making playing an important role the ML products you develop will have real impact on customers and the business' highlights the alignment of ML products with business impact and decision making.",
+                    "phrase": "With data driven decision making playing an important role the ML products you develop will have real impact on customers and the business"
                 },
                 {
-                    "tech_name": "TECH6: MLOps & Data Pipelines",
-                    "value": "MLops pipeline"
+                    "category": "TASK3",
+                    "justification": "The core focus on 'leveraging open source large language models to enhance our platform' and applying AI to 'natural language processing' falls under generative modeling.",
+                    "phrase": "leveraging open source large language models to enhance our platform"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "work closely with the data team, product and finance",
-                        "Work closely with the different stakeholders, understand their problems and come up with solutions"
-                    ]
+                    "category": "SKILL1",
+                    "phrase": "Work closely with the different stakeholders, understand their problems and come up with solutions"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "ramping up our machine learning efforts",
-                        "continuing development of our MLops pipeline"
-                    ]
+                    "category": "SKILL5",
+                    "phrase": "shaping these initiatives from the ground up - from conceptualizing new ideas to bringing them to life through development, deployment, and ongoing optimization"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Design Machine Learning solutions for TicketSwap's unique product challenges",
-                        "Producing data insights: extract value from data and drive improvements and strategic decisions",
-                        "come up with solutions"
-                    ]
+                    "category": "SKILL3",
+                    "phrase": "Design Machine Learning solutions for TicketSwap's unique product challenges"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "shaping these initiatives from the ground up",
-                        "conceptualizing new ideas to bringing them to life"
-                    ]
+                    "category": "SKILL2",
+                    "phrase": "passionate about machine learning and eager to contribute to a variety of meaningful projects"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "large language models"
+                },
+                {
+                    "category": "TECH6",
+                    "phrase": "MLops infrastructure"
+                },
+                {
+                    "category": "TECH10",
+                    "phrase": "Machine Learning"
                 }
             ]
         }

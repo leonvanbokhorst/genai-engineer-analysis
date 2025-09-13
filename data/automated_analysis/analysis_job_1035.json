@@ -27,80 +27,58 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional software development using Python and databases, with no mention of AI/ML specific tasks, models, or frameworks. While the company's product is AI-based, the role itself appears to be a general backend developer position."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on traditional software development using Python and databases, with no mention of AI-specific tasks like model training, fine-tuning, RAG, or generative models. While the company's product is AI-based, the role itself appears to be a standard Senior Python Developer position focused on building and maintaining software, rather than developing or deploying AI models. It lacks the core elements of ML Engineer or GenAI Engineer profiles."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "Je vertaalt de klantbehoefte door naar nieuwe functionaliteit",
-                            "justification": "This phrase indicates the need to understand customer needs and translate them into technical requirements, which is a core aspect of business understanding."
-                        }
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'ontwikkelt en nieuwe functionaliteiten voor klanten creëert' and 'ontwikkelt deze functionaliteiten ook door' directly relates to building new features for software.",
+                    "phrase": "ontwikkelt en nieuwe functionaliteiten voor klanten creëert"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "innovatieve software verder ontwikkelt",
-                            "justification": "This directly refers to the development of software."
-                        },
-                        {
-                            "phrase": "nieuwe functionaliteiten voor klanten creëert",
-                            "justification": "Creating new functionalities implies software development tasks."
-                        },
-                        {
-                            "phrase": "ontwikkelt deze functionaliteiten ook door",
-                            "justification": "This emphasizes the ongoing development and implementation of features, a key part of software development."
-                        },
-                        {
-                            "phrase": "ontwerpen, implementeren en onderhouden van high-performance Python-applicaties",
-                            "justification": "This explicitly describes core software development activities: design, implementation, and maintenance of applications."
-                        },
-                        {
-                            "phrase": "kennis van objectgeoriënteerd programmeren",
-                            "justification": "Object-oriented programming is a fundamental concept in software development."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Python",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Je vertaalt de klantbehoefte door naar nieuwe functionaliteit en ontwikkelt deze functionaliteiten ook door' describes the process of taking user needs and turning them into software features.",
+                    "phrase": "Je vertaalt de klantbehoefte door naar nieuwe functionaliteit en ontwikkelt deze functionaliteiten ook door"
                 },
                 {
-                    "technology": "MongoDB",
-                    "category": "TECH9: Data Storage"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'ontwerpen, implementeren en onderhouden van high-performance Python-applicaties' clearly indicates software design, implementation, and maintenance.",
+                    "phrase": "ontwerpen, implementeren en onderhouden van high-performance Python-applicaties"
                 },
                 {
-                    "technology": "SQL Server",
-                    "category": "TECH9: Data Storage"
+                    "category": "TASK4: Software Development",
+                    "justification": "The mention of 'kennis van objectgeoriënteerd programmeren' is a fundamental software development concept.",
+                    "phrase": "kennis van objectgeoriënteerd programmeren"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        {
-                            "phrase": "innovatieve software verder ontwikkelt"
-                        },
-                        {
-                            "phrase": "nieuwe functionaliteiten voor klanten creëert"
-                        }
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "innovatieve software"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        {
-                            "phrase": "Je vertaalt de klantbehoefte door naar nieuwe functionaliteit en ontwikkelt deze functionaliteiten ook door."
-                        }
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "nieuwe functionaliteiten"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "nieuwe functionaliteit"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "MongoDB"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "SQL Server"
                 }
             ]
         }

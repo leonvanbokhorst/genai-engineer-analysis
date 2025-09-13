@@ -28,145 +28,108 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes data engineering, building and maintaining data pipelines, and optimizing data architectures for AI applications. While generative AI is mentioned, the core focus remains on the foundational data infrastructure and model integration, aligning more closely with the ML Engineer profile."
+            "rationale": "The job description heavily emphasizes data engineering, building and maintaining data pipelines, and optimizing data systems for AI applications. While generative AI is mentioned, the core focus is on the underlying data infrastructure and model integration, aligning more closely with the responsibilities of an ML Engineer who productionizes models and manages data pipelines."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK2: Data Engineering",
-                    "phrases": [
-                        "advanced data engineering solutions",
-                        "design robust, scalable, and innovative data architectures",
-                        "architectural design and planning",
-                        "advanced data pipelines",
-                        "Build and maintain data engineering solutions on cloud platforms",
-                        "Design, develop, and maintain data pipelines to efficiently collect, process, and load data from various sources into data storage systems",
-                        "Develop and maintain data models and schema designs",
-                        "Implement data validation and data cleansing processes",
-                        "Design, develop, and implement scalable data pipelines and ETL/ELT processes",
-                        "Optimize data systems for scalability and performance"
-                    ],
-                    "justification": "These phrases directly describe the creation, maintenance, and optimization of data infrastructure, pipelines, and architectures, which are core to data engineering."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The job description repeatedly mentions 'advanced data engineering solutions', 'design robust, scalable, and innovative data architectures', 'Build and maintain data engineering solutions on cloud platforms', 'Design, develop, and maintain data pipelines', 'implement data validation and data cleansing processes', and 'Design, develop, and implement scalable data pipelines and ETL/ELT processes'.",
+                    "phrase": "advanced data engineering solutions"
                 },
                 {
-                    "task": "TASK3: Modeling",
-                    "phrases": [
-                        "support the deployment and optimization of AI models",
-                        "model integration and optimization",
-                        "supporting production AI systems",
-                        "fundamental data science concepts in NLP",
-                        "selection and understanding of embedding models",
-                        "data needs for expansion of Machine Learning/Data Science capabilities including generative AI"
-                    ],
-                    "justification": "These phrases indicate involvement with AI models, specifically in their integration, optimization, and the understanding of concepts related to their functioning, including NLP and generative AI."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The role involves building and maintaining data infrastructure on cloud platforms using specific services.",
+                    "phrase": "Build and maintain data engineering solutions on cloud platforms using hyperscaler services."
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrases": [
-                        "API integrations"
-                    ],
-                    "justification": "The mention of API integrations suggests the need to connect data systems with other applications, a common software development task."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "This phrase directly describes the creation and upkeep of systems for moving and transforming data.",
+                    "phrase": "Design, develop, and maintain data pipelines to efficiently collect, process, and load data from various sources into data storage systems (e.g., data warehouses, data lakes)."
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "deployment and optimization of AI models",
-                        "scalability, performance",
-                        "production AI systems"
-                    ],
-                    "justification": "Phrases related to deployment, optimization, scalability, performance, and production systems point towards operational aspects of managing AI models."
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'fundamental data science concepts in NLP, including selection and understanding of embedding models' indicates involvement in the modeling aspect, specifically related to natural language processing.",
+                    "phrase": "Strong understanding of fundamental data science concepts in NLP, including selection and understanding of embedding models."
                 },
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrases": [
-                        "align with the unique requirements of Artificial Intelligence applications",
-                        "understand data requirements"
-                    ],
-                    "justification": "These phrases indicate a need to comprehend business or application-specific needs and translate them into technical data solutions."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "TECH1: Programming Languages",
-                    "items": [
-                        "Python"
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "Developing and maintaining data models and schema designs is a core part of data engineering for efficient storage and retrieval.",
+                    "phrase": "Develop and maintain data models and schema designs to support efficient data storage and retrieval."
                 },
                 {
-                    "technology": "TECH2: Cloud Platforms & Services",
-                    "items": [
-                        "cloud platforms",
-                        "hyperscaler services",
-                        "hyperscaler technologies"
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The use of hyperscaler technologies to support data needs for AI capabilities, including generative AI, falls under data engineering for AI.",
+                    "phrase": "Use hyperscaler technologies to support data needs for expansion of Machine Learning/Data Science capabilities including generative AI."
                 },
                 {
-                    "technology": "TECH3: LLM / Generative Models",
-                    "items": [
-                        "generative AI"
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "Ensuring data quality and consistency through validation and cleansing is a crucial data engineering task.",
+                    "phrase": "Implement data validation and data cleansing processes to ensure data quality and consistency."
                 },
                 {
-                    "technology": "TECH4: LLM Frameworks & Libraries",
-                    "items": [
-                        "embedding models"
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "This phrase explicitly mentions the design, development, and implementation of data pipelines and ETL/ELT processes, which are core data engineering activities.",
+                    "phrase": "Design, develop, and implement scalable data pipelines and ETL/ELT processes using Python, PySpark and API integrations."
                 },
                 {
-                    "technology": "TECH6: MLOps & Data Pipelines",
-                    "items": [
-                        "data pipelines",
-                        "ETL/ELT processes"
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Collaborating with cross-functional teams to understand data requirements and integrate data into applications demonstrates an understanding of how data serves business needs and applications.",
+                    "phrase": "Collaborate with cross-functional teams to understand data requirements and integrate data into various applications and analytics platforms."
                 },
                 {
-                    "technology": "TECH8: Data Processing",
-                    "items": [
-                        "PySpark"
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "Optimizing data systems for scalability and performance, and addressing bottlenecks, are key responsibilities in data engineering.",
+                    "phrase": "Optimize data systems for scalability and performance, anticipating and addressing potential bottlenecks."
                 },
                 {
-                    "technology": "TECH10: Data Modeling",
-                    "items": [
-                        "data models",
-                        "schema designs"
-                    ]
-                },
-                {
-                    "technology": "TECH11: Data Analysis",
-                    "items": [
-                        "data science concepts",
-                        "NLP"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The mention of 'API integrations' within the context of designing and implementing data pipelines suggests involvement in software development aspects related to data flow.",
+                    "phrase": "API integrations"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Collaborate with cross-functional teams"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate with cross-functional teams"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "optimize data systems for scalability and performance, anticipating and addressing potential bottlenecks"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "research and innovation"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "lead the development and implementation",
-                        "lead the development",
-                        "research and innovation"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "scalability, performance and research and innovation supporting production AI systems"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "cloud platforms"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "expansion of Machine Learning/Data Science capabilities"
-                    ]
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "hyperscaler services"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "embedding models"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "hyperscaler technologies"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH11: Data Analysis",
+                    "phrase": "PySpark"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "API integrations"
                 }
             ]
         }

@@ -26,126 +26,117 @@
         "full_text": "Fullstack Engineer\n\n* Build from the ground up: Develop new features and products from scratch, working across frontend and backend to create seamless, reactive user experiences. You'll bring your ideas and those of your team to life, designing and implementing services that propel our platform forward.\n     * Frontend & Backend development: Work across the stack, focusing on frontend frameworks (React) and backend services (Python). Design scalable APIs and craft intuitive user interfaces while implementing WebSocket functionality to deliver real-time, reactive user experiences.\n     * Pixel-perfect execution: Collaborate closely with designers to bring wireframes and prototypes to life with precision. You'll ensure that our applications not only function smoothly but also align with design specifications for a polished, professional look.\n     * Collaborate on architecture: Help scale our architecture with cloud-based services, REST APIs, and logging frameworks, ensuring high performance and reliability as we grow.\n     * Collaborate on technical roadmaps: Work closely with the CTO and other engineers to design the technical roadmap and shape the future of our product ecosystem, driving decisions that impact our tech stack and infrastructure.\n     * Feature ownership: Take end-to-end ownership of features, from concept through deployment, ensuring our applications are secure, reliable, and aligned with best practices.\n\n   Tech Stack You'll Be Working With:\n     * Cloud platforms and deployment tools\n     * FastAPI, React\n     * Database technologies (e.g., PostgreSQL, Redis)\n     * LLM providers\n     * Monitoring and CI/CD tools (e.g., GitHub Actions, CodeCov)\n     * REST APIs, Webhooks, WebSockets"
     },
     "analysis": {
-        "job_profile": "Ambiguous / Not Relevant",
-        "confidence_score": 2,
-        "rationale": "The job description focuses heavily on traditional full-stack development with a mention of LLM providers and WebSockets, but lacks depth in core AI/ML tasks like model training, fine-tuning, or advanced generative AI system design. The primary responsibilities and technologies align more with a general software engineering role.",
+        "profile_classification": {
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on traditional full-stack development, including frontend (React) and backend (Python, FastAPI) services, API design, and database technologies. While it mentions 'LLM providers' and 'Cloud platforms and deployment tools', there is no specific mention of generative models, LLM frameworks, fine-tuning, RAG, or other core GenAI engineering tasks. The role appears to be a general software engineering position that might *integrate* with AI services rather than build or engineer AI models themselves. Therefore, it does not fit the 'ML Engineer' or 'GenAI Engineer' profiles and is classified as 'Ambiguous' due to its primary focus on traditional software development."
+        },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK4: Software Development",
-                    "phrases": [
-                        "Develop new features and products from scratch",
-                        "working across frontend and backend",
-                        "designing and implementing services",
-                        "Work across the stack, focusing on frontend frameworks (React) and backend services (Python)",
-                        "Design scalable APIs",
-                        "craft intuitive user interfaces",
-                        "implementing WebSocket functionality",
-                        "ensure that our applications not only function smoothly but also align with design specifications",
-                        "REST APIs",
-                        "logging frameworks",
-                        "Take end-to-end ownership of features, from concept through deployment",
-                        "ensuring our applications are secure, reliable, and aligned with best practices"
-                    ],
-                    "justification": "These phrases describe the core activities of building, integrating, and deploying software applications, including frontend and backend development, API design, and ensuring application functionality and security."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description emphasizes building features from scratch, working across frontend and backend, designing scalable APIs, implementing user interfaces, and ensuring seamless user experiences. This directly aligns with core software development responsibilities.",
+                    "phrase": "Develop new features and products from scratch, working across frontend and backend to create seamless, reactive user experiences."
                 },
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrases": [
-                        "propel our platform forward",
-                        "Collaborate on technical roadmaps",
-                        "shape the future of our product ecosystem",
-                        "driving decisions that impact our tech stack and infrastructure"
-                    ],
-                    "justification": "These phrases indicate involvement in strategic planning, understanding product direction, and making decisions that affect the technology stack and business goals."
+                    "category": "TASK4: Software Development",
+                    "justification": "Explicitly mentions working with frontend frameworks (React) and backend services (Python), designing APIs, and implementing specific functionalities like WebSockets for real-time experiences, which are all software development tasks.",
+                    "phrase": "Work across the stack, focusing on frontend frameworks (React) and backend services (Python). Design scalable APIs and craft intuitive user interfaces while implementing WebSocket functionality to deliver real-time, reactive user experiences."
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Cloud platforms and deployment tools",
-                        "Monitoring and CI/CD tools (e.g., GitHub Actions, CodeCov)"
-                    ],
-                    "justification": "Mentions of deployment tools, monitoring, and CI/CD indicate responsibilities related to the operational aspects of software delivery and maintenance."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Cloud platforms and deployment tools",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK4: Software Development",
+                    "justification": "Describes the process of translating design specifications into functional application code, ensuring visual and functional accuracy, which is a key part of software development.",
+                    "phrase": "Collaborate closely with designers to bring wireframes and prototypes to life with precision."
                 },
                 {
-                    "technology": "FastAPI",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK4: Software Development",
+                    "justification": "Involves contributing to the overall system architecture, including cloud services, APIs, and logging, to ensure performance and reliability, a common software engineering task.",
+                    "phrase": "Help scale our architecture with cloud-based services, REST APIs, and logging frameworks, ensuring high performance and reliability as we grow."
                 },
                 {
-                    "technology": "React",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Highlights collaboration with leadership (CTO) to define the technical direction, roadmap, and influence the tech stack, indicating an understanding of business strategy and its technical implications.",
+                    "phrase": "Work closely with the CTO and other engineers to design the technical roadmap and shape the future of our product ecosystem, driving decisions that impact our tech stack and infrastructure."
                 },
                 {
-                    "technology": "PostgreSQL",
-                    "category": "TECH9: Data Storage"
-                },
-                {
-                    "technology": "Redis",
-                    "category": "TECH9: Data Storage"
-                },
-                {
-                    "technology": "LLM providers",
-                    "category": "TECH3: LLM / Generative Models"
-                },
-                {
-                    "technology": "GitHub Actions",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "technology": "CodeCov",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "technology": "REST APIs",
-                    "category": "TECH4: LLM Frameworks & Libraries"
-                },
-                {
-                    "technology": "Webhooks",
-                    "category": "TECH4: LLM Frameworks & Libraries"
-                },
-                {
-                    "technology": "WebSockets",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK4: Software Development",
+                    "justification": "Refers to taking full responsibility for features from inception to deployment, including ensuring security and reliability, which is a comprehensive software development lifecycle ownership.",
+                    "phrase": "Take end-to-end ownership of features, from concept through deployment, ensuring our applications are secure, reliable, and aligned with best practices."
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "working across frontend and backend",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate closely with designers"
                 },
                 {
-                    "skill": "Collaborate closely with designers",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate on architecture"
                 },
                 {
-                    "skill": "Collaborate on architecture",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate on technical roadmaps"
                 },
                 {
-                    "skill": "Collaborate on technical roadmaps",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Feature ownership"
                 },
                 {
-                    "skill": "Work closely with the CTO and other engineers",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Take end-to-end ownership of features"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
                 },
                 {
-                    "skill": "Feature ownership",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Cloud platforms and deployment tools"
                 },
                 {
-                    "skill": "Take end-to-end ownership of features",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "LLM providers"
                 },
                 {
-                    "skill": "ensure our applications are secure, reliable, and aligned with best practices",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "React"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "PostgreSQL"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "Redis"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Monitoring and CI/CD tools"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "GitHub Actions"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "CodeCov"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "REST APIs"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "Webhooks"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "WebSockets"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "FastAPI"
                 }
             ]
         }

@@ -26,96 +26,109 @@
         "full_text": "C# Software Developer, Trilogy (Remote) - $60,000/year USD\n\nAre you an engineer who can't stand outdated code, slow releases, or obsolete practices? Do you not just create software but craft AI-powered systems that redefine engineering efficiency? If this resonates, read on.\n\n   While many teams still cling to old coding habits-manual debugging, trial-and-error deployments, and minimal AI integration-Trilogy is rewriting the rulebook. Here, AI is at the heart of everything we do: from brainstorming features to detecting bugs, fixing defects, and optimizing performance. We don't just flirt with AI tools; we embed AI into every phase of development to cut waste, speed up delivery, and build with precision.\n\n   In this role, you'll transform existing B2B products into cloud-native applications with AI enhancements at every stage. You'll develop and launch AI-powered features, utilizing cutting-edge retrieval-augmented generation (RAG) for automated bug detection, ensuring seamless releases without outages or disruptions. If you're seeking a role where architecture debates take precedence over shipping, this isn't it.\n\n   If you're eager to push the boundaries of AI-driven software engineering and catapult your career into large-scale cloud-native development, apply now. But if you prefer sticking to familiar routines, manually writing test cases, or working with teams that shy away from automation, this isn't the place for you.\n\n   What you will be doing\n\n     * Utilizing analysis tools and RAG vector stores to pinpoint, diagnose, and rectify product defects and bugs.\n     * Employing AI development agents to design, create, and deploy innovative features for cloud-native apps.\n     * Partnering with a global team to deliver top-tier, enterprise-level solutions.\n\n   What you will NOT be doing\n\n     * Routine Repetition: We minimize tedious infrastructure tasks so you can concentrate on groundbreaking solutions.\n     * Meeting Overload: We prioritize your coding expertise over endless meetings. Expect more coding, less talking., * Develop AI-driven features to enhance workflows and equip service providers with cutting-edge tools."
     },
     "analysis": {
-        "job_profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on using AI tools to enhance traditional software development processes rather than building or fine-tuning AI models themselves. While it mentions RAG and AI agents, the core responsibilities revolve around applying these to existing software development tasks, not core AI engineering."
+        "profile_classification": {
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on the application of AI tools and AI-driven features within a software development context, rather than the core development, fine-tuning, or deployment of generative models themselves. While it mentions RAG and AI development agents, it lacks depth in the specific technical requirements for building or deeply customizing these AI components, leaning more towards using AI to enhance existing software engineering processes. The primary focus remains on C# Software Development and cloud-native applications, with AI as an enhancement rather than the core technology being engineered. This aligns with the 'Ambiguous' profile's definition of roles that primarily focus on the USE of AI tools to enhance productivity or are traditional software engineering roles with AI integration."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "transform existing B2B products into cloud-native applications with AI enhancements at every stage",
-                        "develop and launch AI-powered features",
-                        "ensuring seamless releases without outages or disruptions",
-                        "Develop AI-driven features to enhance workflows and equip service providers with cutting-edge tools"
-                    ],
-                    "justification": "These phrases indicate an understanding of business needs (B2B products, enhancing workflows, equipping service providers) and how AI can be applied to meet those needs through software development."
+                    "category": "TASK4",
+                    "justification": "The role involves transforming existing B2B products into cloud-native applications, developing and launching AI-powered features, and building enterprise-level solutions, which are core software development activities.",
+                    "phrase": "transform existing B2B products into cloud-native applications"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "C# Software Developer",
-                        "create software",
-                        "craft AI-powered systems",
-                        "transform existing B2B products into cloud-native applications",
-                        "develop and launch AI-powered features",
-                        "design, create, and deploy innovative features for cloud-native apps",
-                        "deliver top-tier, enterprise-level solutions",
-                        "Develop AI-driven features to enhance workflows"
-                    ],
-                    "justification": "The core of the role is software development, specifically in C#, building cloud-native applications, and integrating AI features into them. This includes design, creation, and deployment of software."
+                    "category": "TASK4",
+                    "justification": "The description explicitly states developing and launching AI-powered features, which falls under the umbrella of software development.",
+                    "phrase": "develop and launch AI-powered features"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "manual debugging, trial-and-error deployments, and minimal AI integration",
-                        "detecting bugs, fixing defects, and optimizing performance",
-                        "We embed AI into every phase of development to cut waste, speed up delivery, and build with precision",
-                        "ensuring seamless releases without outages or disruptions",
-                        "Utilizing analysis tools and RAG vector stores to pinpoint, diagnose, and rectify product defects and bugs",
-                        "We minimize tedious infrastructure tasks so you can concentrate on groundbreaking solutions"
-                    ],
-                    "justification": "The description emphasizes speed, precision, seamless releases, and minimizing deployment issues, which are operational concerns. While not explicitly MLOps for model deployment, it focuses on the operational aspects of software delivery enhanced by AI."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "C#",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK4",
+                    "justification": "The role involves utilizing AI development agents to design, create, and deploy innovative features for cloud-native apps, which is a software development task.",
+                    "phrase": "Employing AI development agents to design, create, and deploy innovative features for cloud-native apps"
                 },
                 {
-                    "technology": "AI",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK4",
+                    "justification": "The description mentions developing AI-driven features to enhance workflows and equip service providers with cutting-edge tools, which is a software development task.",
+                    "phrase": "Develop AI-driven features to enhance workflows and equip service providers with cutting-edge tools"
                 },
                 {
-                    "technology": "retrieval-augmented generation (RAG)",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK3",
+                    "justification": "The job description mentions utilizing retrieval-augmented generation (RAG) for automated bug detection and using RAG vector stores to pinpoint, diagnose, and rectify product defects, indicating a use of generative AI techniques.",
+                    "phrase": "utilizing cutting-edge retrieval-augmented generation (RAG) for automated bug detection"
                 },
                 {
-                    "technology": "RAG vector stores",
-                    "category": "TECH5: Vector Stores & Search"
+                    "category": "TASK3",
+                    "justification": "The role involves using RAG vector stores to identify and fix bugs, which is a direct application of generative AI technology.",
+                    "phrase": "Utilizing analysis tools and RAG vector stores to pinpoint, diagnose, and rectify product defects and bugs"
                 },
                 {
-                    "technology": "AI development agents",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK1",
+                    "justification": "The emphasis on redefining engineering efficiency, cutting waste, speeding up delivery, and building with precision suggests a focus on understanding and improving business processes through technology.",
+                    "phrase": "redefine engineering efficiency"
+                },
+                {
+                    "category": "TASK1",
+                    "justification": "The goal of cutting waste and speeding up delivery aligns with understanding business needs for efficiency and optimization.",
+                    "phrase": "cut waste, speed up delivery"
+                },
+                {
+                    "category": "TASK5",
+                    "justification": "The mention of 'trial-and-error deployments' and 'minimal AI integration' being outdated practices, and the focus on 'seamless releases without outages or disruptions' implies a need for robust deployment and operational practices, though not explicitly MLOps.",
+                    "phrase": "seamless releases without outages or disruptions"
+                },
+                {
+                    "category": "SKILL1",
+                    "justification": "The phrase 'Partnering with a global team' indicates the need for collaboration.",
+                    "phrase": "Partnering with a global team"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "engineer who can't stand outdated code, slow releases, or obsolete practices",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "SKILL3",
+                    "phrase": "can't stand outdated code, slow releases, or obsolete practices"
                 },
                 {
-                    "skill": "If you're seeking a role where architecture debates take precedence over shipping, this isn't it.",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL3",
+                    "phrase": "rewriting the rulebook"
                 },
                 {
-                    "skill": "if you prefer sticking to familiar routines, manually writing test cases, or working with teams that shy away from automation, this isn't the place for you.",
-                    "category": "SKILL2: Learning & Adaptability"
+                    "category": "SKILL2",
+                    "phrase": "eager to push the boundaries of AI-driven software engineering"
                 },
                 {
-                    "skill": "Partnering with a global team to deliver top-tier, enterprise-level solutions.",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL2",
+                    "phrase": "catapult your career into large-scale cloud-native development"
                 },
                 {
-                    "skill": "We minimize tedious infrastructure tasks so you can concentrate on groundbreaking solutions.",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "SKILL3",
+                    "phrase": "prefer sticking to familiar routines, manually writing test cases, or working with teams that shy away from automation"
                 },
                 {
-                    "skill": "Expect more coding, less talking.",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL5",
+                    "phrase": "groundbreaking solutions"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1",
+                    "phrase": "C#"
+                },
+                {
+                    "category": "TECH3",
+                    "phrase": "AI"
+                },
+                {
+                    "category": "TECH4",
+                    "phrase": "retrieval-augmented generation (RAG)"
+                },
+                {
+                    "category": "TECH5",
+                    "phrase": "RAG vector stores"
+                },
+                {
+                    "category": "TECH4",
+                    "phrase": "AI development agents"
                 }
             ]
         }

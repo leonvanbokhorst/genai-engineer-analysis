@@ -27,88 +27,98 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 1,
-            "rationale": "The job description focuses on traditional software engineering within a Microsoft tech stack and cloud platforms. There is no mention of AI, machine learning, generative models, or related concepts, making it irrelevant to the GenAI Engineer profile."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on traditional software engineering roles using a Microsoft tech stack (.NET, C#, SQL Server, Azure, AWS) and frontend JavaScript. It does not mention any generative AI technologies, LLMs, RAG, fine-tuning, or other core GenAI concepts. The role is primarily about developing business software for SMEs, which falls outside the scope of GenAI or ML Engineering as defined in the coding book. It is a traditional software engineering role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "Graduate Software Engineer .NET and Frontend JavaScript",
-                        "Work with our Microsoft tech stack including .NET Framework (transitioning to .NET Core), VB.NET and C# (moving towards full C#), SQL Server",
-                        "build, integrate, and deploy AI features into user-facing applications"
-                    ],
-                    "justification": "The core of the role is developing software using .NET and JavaScript, which falls under traditional software development. While the description mentions 'AI features', it's in the context of integrating them, not developing them from scratch or working with generative models."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions 'Graduate Software Engineer .NET and Frontend JavaScript' and working with '.NET Framework', '.NET Core', 'VB.NET', 'C#', and 'JavaScript', which are all core to software development.",
+                    "phrase": "Graduate Software Engineer .NET and Frontend JavaScript"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "Exact develops cloud software for small and medium-sized companies and their accountants.",
-                        "The products automate business processes in areas such as Finance and HR and provide specific ERP solutions for wholesale distribution, manufacturing, projects and construction.",
-                        "This saves time and provides insight. It enables customers to work efficiently, make informed decisions and continue growing."
-                    ],
-                    "justification": "The description details the company's products, target market (SMBs, accountants), and the business value proposition (automating processes, saving time, providing insight, enabling growth), indicating a need for understanding the business context."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": ".NET Framework",
-                    "category": "TECH10: Data Modeling"
+                    "category": "TASK4: Software Development",
+                    "justification": "The mention of specific programming languages and frameworks like '.NET Framework (transitioning to .NET Core), VB.NET and C# (moving towards full C#)' directly relates to software development tasks.",
+                    "phrase": ".NET Framework (transitioning to .NET Core), VB.NET and C# (moving towards full C#)"
                 },
                 {
-                    "tech_name": ".NET Core",
-                    "category": "TECH10: Data Modeling"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "SQL Server is a database management system, and working with it implies data storage and retrieval, which is a component of data engineering.",
+                    "phrase": "SQL Server"
                 },
                 {
-                    "tech_name": "VB.NET",
-                    "category": "TECH10: Data Modeling"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of 'Azure and AWS' indicates work with cloud platforms, which are essential for deploying and managing software and services, aligning with operations engineering.",
+                    "phrase": "Azure and AWS"
                 },
                 {
-                    "tech_name": "C#",
-                    "category": "TECH10: Data Modeling"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The description details that Exact develops 'cloud software for small and medium-sized companies and their accountants' and that 'products automate business processes in areas such as Finance and HR and provide specific ERP solutions', indicating a need to understand business domains.",
+                    "phrase": "Exact develops cloud software for small and medium-sized companies and their accountants. The products automate business processes in areas such as Finance and HR and provide specific ERP solutions for wholesale distribution, manufacturing, projects and construction."
                 },
                 {
-                    "tech_name": "SQL Server",
-                    "category": "TECH9: Data Storage"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "justification": "The job description explicitly states 'We invest in your growth through various training opportunities and events such as Tech Talks, global hackathons, and tech summits.' and 'Personalized development journey with training sessions, certifications related to Microsoft stack, Azure, AWS, and access to LinkedIn Learning.' This highlights a focus on continuous learning and skill development.",
+                    "phrase": "Personalized development journey with training sessions, certifications related to Microsoft stack, Azure, AWS, and access to LinkedIn Learning."
                 },
                 {
-                    "tech_name": "Azure",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The description mentions 'Our Talent Acquisition Specialist will reach out within 2-3 days to answer any questions and set up initial discussions with one of our Technology Directors.' and 'a second interview to discuss feedback with your potential manager and colleagues.' This implies interaction and communication with various team members and stakeholders.",
+                    "phrase": "discuss feedback with your potential manager and colleagues"
                 },
                 {
-                    "tech_name": "AWS",
-                    "category": "TECH2: Cloud Platforms & Services"
-                },
-                {
-                    "tech_name": "JavaScript",
-                    "category": "TECH1: Programming Languages"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "justification": "The mention of a 'coding challenge' as part of the selection process indicates an assessment of problem-solving abilities through practical application.",
+                    "phrase": "coding challenge"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        "We invest in your growth through various training opportunities and events such as Tech Talks, global hackathons, and tech summits.",
-                        "Personalized development journey with training sessions, certifications related to Microsoft stack, Azure, AWS, and access to LinkedIn Learning."
-                    ],
-                    "justification": "The emphasis on training, certifications, and continuous learning opportunities highlights the importance of adaptability in a growing tech field."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Personalized development journey with training sessions, certifications related to Microsoft stack, Azure, AWS, and access to LinkedIn Learning."
                 },
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        "Our Talent Acquisition Specialist will reach out within 2-3 days to answer any questions and set up initial discussions with one of our Technology Directors.",
-                        "If mutual interest is established, you'll undertake a coding challenge followed by a second interview to discuss feedback with your potential manager and colleagues."
-                    ],
-                    "justification": "The description outlines a multi-stage interview process involving discussions with directors, managers, and colleagues, implying a need for effective communication and collaboration."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "discuss feedback with your potential manager and colleagues"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        "At Exact, big code leads to greater opportunities, and we're excited to see where this journey will take you."
-                    ],
-                    "justification": "The phrase 'big code leads to greater opportunities' suggests a culture that values impactful contributions and potentially encourages taking ownership of significant projects."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "coding challenge"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": ".NET Framework"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": ".NET Core"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "VB.NET"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "C#"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "SQL Server"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "AWS"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "JavaScript"
                 }
             ]
         }

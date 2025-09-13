@@ -26,87 +26,69 @@
         "full_text": "AI Engineer, R&D\n\nIn this role, as part of the R&D team, you will work closely with stakeholders in understanding what the business needs and translate that into technical requirements for research and development. Your core role will be to research, prototype and develop data driven software. As an AI engineer your responsibilities will include building AI driven solutions with both external and internal models. Pushing the boundaries of what is possible in the rapidly moving AI ecosystem., * Research, Design, Prototype, Experiment, and build services, tools, systems, features and experiences that help fuel a great streaming experience.\n     * Research, prototype and build AI/ML driven systems that understand video and that use the latest innovation. From Vector databases to LLM's.\n     * Be the spear point of innovation coming up with smart ideas and solutions and rapidly prototyping potential solutions in short iterations.\n     * Work with other engineers across the company to continuously consider how to implement ideas and prototypes in large-scale applications serving millions of users. You work in the R&D department, but you will work together with other teams on a regular basis."
     },
     "analysis": {
-        "profile_classification": "GenAI Engineer",
-        "confidence_score": 4,
-        "rationale": "The job description emphasizes building AI-driven solutions with both external and internal models, including research into LLMs and Vector Databases. The role involves prototyping and developing services, tools, and systems that leverage generative AI, aligning with the core responsibilities of a GenAI Engineer.",
+        "profile_classification": {
+            "profile": "GenAI Engineer",
+            "rationale": "The job description emphasizes building AI-driven solutions with both external and internal models, including research, prototyping, and development of data-driven software. It specifically mentions 'Vector databases to LLMs' and the need to 'build services, tools, systems, features and experiences that help fuel a great streaming experience,' aligning with the core responsibilities of a GenAI Engineer focused on developing and deploying generative AI applications. The role also involves innovation, rapid prototyping, and working with other engineers to implement ideas in large-scale applications, further supporting this classification."
+        },
         "thematic_analysis": {
             "job_tasks": [
                 {
                     "category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "understanding what the business needs and translate that into technical requirements for research and development"
-                    ],
-                    "justification": "This phrase directly indicates the need to understand business requirements and translate them into technical specifications for R&D."
+                    "justification": "The phrase 'work closely with stakeholders in understanding what the business needs and translate that into technical requirements for research and development' directly indicates understanding business needs and translating them into technical requirements.",
+                    "phrase": "understanding what the business needs and translate that into technical requirements for research and development"
                 },
                 {
                     "category": "TASK3: Modeling",
-                    "phrases": [
-                        "building AI driven solutions with both external and internal models",
-                        "Research, prototype and build AI/ML driven systems that understand video and that use the latest innovation. From Vector databases to LLM's."
-                    ],
-                    "justification": "These phrases highlight the core activity of building and researching AI/ML models, specifically mentioning LLMs and the use of vector databases, which are key components of generative AI systems."
+                    "justification": "The phrase 'build AI/ML driven systems that understand video and that use the latest innovation. From Vector databases to LLM's' points to the development and utilization of AI/ML models, specifically mentioning LLMs and vector databases which are core to generative AI modeling.",
+                    "phrase": "build AI/ML driven systems that understand video and that use the latest innovation. From Vector databases to LLM's"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'research, prototype and develop data driven software' implies the creation and experimentation with data-driven models and software.",
+                    "phrase": "research, prototype and develop data driven software"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "phrases": [
-                        "prototype and develop data driven software",
-                        "build services, tools, systems, features and experiences that help fuel a great streaming experience",
-                        "rapidly prototyping potential solutions in short iterations",
-                        "consider how to implement ideas and prototypes in large-scale applications serving millions of users"
-                    ],
-                    "justification": "The description involves developing software, prototyping solutions, and considering implementation in large-scale applications, which are core software development activities."
+                    "justification": "The phrase 'build services, tools, systems, features and experiences that help fuel a great streaming experience' indicates the development of user-facing software and systems.",
+                    "phrase": "build services, tools, systems, features and experiences that help fuel a great streaming experience"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'rapidly prototyping potential solutions in short iterations' describes a software development process focused on quick development cycles.",
+                    "phrase": "rapidly prototyping potential solutions in short iterations"
                 },
                 {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "implement ideas and prototypes in large-scale applications serving millions of users"
-                    ],
-                    "justification": "While not explicitly mentioning MLOps tools, the requirement to implement prototypes in large-scale, production-like applications implies operational considerations for deployment and maintenance."
+                    "justification": "The phrase 'implement ideas and prototypes in large-scale applications serving millions of users' suggests the need for productionizing and scaling developed solutions, which falls under operations engineering.",
+                    "phrase": "implement ideas and prototypes in large-scale applications serving millions of users"
+                }
+            ],
+            "soft_skills": [
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Pushing the boundaries of what is possible in the rapidly moving AI ecosystem."
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Be the spear point of innovation coming up with smart ideas and solutions"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Work with other engineers across the company"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "rapidly moving AI ecosystem"
                 }
             ],
             "technologies": [
                 {
                     "category": "TECH3: LLM / Generative Models",
-                    "technologies": [
-                        "LLM's"
-                    ]
+                    "phrase": "LLM's"
                 },
                 {
                     "category": "TECH5: Vector Stores & Search",
-                    "technologies": [
-                        "Vector databases"
-                    ]
-                }
-            ],
-            "soft_skills": [
-                {
-                    "category": "SKILL1: Communication & Collaboration",
-                    "skills": [
-                        "work closely with stakeholders",
-                        "Work with other engineers across the company"
-                    ]
-                },
-                {
-                    "category": "SKILL2: Learning & Adaptability",
-                    "skills": [
-                        "rapidly moving AI ecosystem",
-                        "latest innovation"
-                    ]
-                },
-                {
-                    "category": "SKILL3: Problem Solving & Pragmatism",
-                    "skills": [
-                        "Research, Design, Prototype, Experiment",
-                        "coming up with smart ideas and solutions and rapidly prototyping potential solutions in short iterations"
-                    ]
-                },
-                {
-                    "category": "SKILL5: Innovation & Ownership",
-                    "skills": [
-                        "Pushing the boundaries of what is possible",
-                        "spear point of innovation",
-                        "coming up with smart ideas and solutions"
-                    ]
+                    "phrase": "Vector databases"
                 }
             ]
         }

@@ -27,101 +27,54 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on using AI tools to support a specific business process (job evaluation) rather than developing or engineering AI models or systems. It emphasizes prompt engineering for existing LLMs to achieve a business outcome, fitting the 'use of AI tools to enhance productivity' clause."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on using AI tools (ChatGPT/LLM) to support a specific business process (job evaluation) rather than developing or engineering AI models or systems. The core task is prompt engineering to achieve a specific outcome within an existing framework, which aligns with the definition of 'Ambiguous' as a role primarily focused on the use of AI tools to enhance productivity."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "Onderzoek of het functiewaarderingsproces kan worden ondersteund door AI.",
-                            "justification": "This phrase directly addresses understanding a business process ('functiewaarderingsproces' - job evaluation process) and how AI can support it."
-                        },
-                        {
-                            "phrase": "Dat wil zeggen dat we naar een toekomstsituatie streven waarbij de Formatieadviseur een functiebeschrijving in ChatGPT/LLM kan plaatsen en de AI tool een onderbouwde functiewaardering aangeeft conform de regels van de FUWADEF methode.",
-                            "justification": "This describes a future state and a business goal related to job evaluation using AI tools."
-                        },
-                        {
-                            "phrase": "In het kader van de Change zal de inhuur van een prompt engineer Regelbeheersing optimaliseren en sneller afhandelen.",
-                            "justification": "This highlights the business objective of optimizing and speeding up 'Regelbeheersing' (rule management) through the prompt engineer's role."
-                        },
-                        {
-                            "phrase": "de stap om van verschillende bronnen de beslissingen te identificeren mogelijk is.",
-                            "justification": "This relates to understanding how to extract specific business-related information (decisions) from various sources."
-                        },
-                        {
-                            "phrase": "De voorwaarden waaraan moet worden voldaan t.a.v. de beslissinguit de bronnen kan worden gehaald.",
-                            "justification": "This focuses on understanding and extracting specific business rules or conditions from data sources."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role aims to support the job evaluation process and optimize/expedite the handling of regulations, indicating a need to understand the business context and translate business needs into AI-driven solutions.",
+                    "phrase": "Onderzoek of het functiewaarderingsproces kan worden ondersteund door AI."
                 },
                 {
-                    "task_name": "TASK3: Modeling",
-                    "phrases": [
-                        {
-                            "phrase": "functiebeschrijving in ChatGPT/LLM kan plaatsen en de AI tool een onderbouwde functiewaardering aangeeft",
-                            "justification": "Implies using an existing LLM (ChatGPT/LLM) for a specific task (job evaluation), which involves the model's generative or analytical capabilities, though not building or fine-tuning it."
-                        },
-                        {
-                            "phrase": "AI-specialist/Prompt Engineer",
-                            "justification": "The title itself suggests interaction with AI models, specifically through prompt engineering, which is a form of influencing model output."
-                        }
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The description mentions placing a job description into ChatGPT/LLM and having the AI tool provide a substantiated job evaluation, which implies the use and interaction with generative models for a specific output.",
+                    "phrase": "de Formatieadviseur een functiebeschrijving in ChatGPT/LLM kan plaatsen en de AI tool een onderbouwde functiewaardering aangeeft"
                 },
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "de resultaten in het RuleSpeak formaat opgesteld kunnen worden.",
-                            "justification": "This implies a need to structure or format output according to a specific standard, which can be considered a development-related task for the AI's output."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "items": [
-                        "ChatGPT",
-                        "LLM"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves supporting and relieving the AI specialist/Prompt Engineer, and the goal of having AI tools provide structured outputs (like RuleSpeak format) suggests some level of integration or development around AI outputs.",
+                    "phrase": "de AI-specialist/Prompt Engineer ons in kunnen ondersteunen/ontlasten."
                 },
                 {
-                    "tech_name": "TECH4: LLM Frameworks & Libraries",
-                    "items": [
-                        "Prompt Engineer"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The objective to extract decisions, conditions, and format results in RuleSpeak format implies building or configuring systems that process and output information in a structured manner, which is a software development task.",
+                    "phrase": "De resultaten in het RuleSpeak formaat opgesteld kunnen worden."
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Onderzoek of het functiewaarderingsproces kan worden ondersteund door AI.",
-                        "Dat wil zeggen dat we naar een toekomstsituatie streven waarbij de Formatieadviseur een functiebeschrijving in ChatGPT/LLM kan plaatsen en de AI tool een onderbouwde functiewaardering aangeeft conform de regels van de FUWADEF methode.",
-                        "In het kader van de Change zal de inhuur van een prompt engineer Regelbeheersing optimaliseren en sneller afhandelen.",
-                        "de stap om van verschillende bronnen de beslissingen te identificeren mogelijk is.",
-                        "De voorwaarden waaraan moet worden voldaan t.a.v. de beslissinguit de bronnen kan worden gehaald.",
-                        "De resultaten in het RuleSpeak formaat opgesteld kunnen worden."
-                    ]
+                    "category": "SKILL5: Innovation and Ownership",
+                    "phrase": "AI-specialist/Prompt Engineer"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "Onderzoek of het functiewaarderingsproces kan worden ondersteund door AI.",
-                        "Dat wil zeggen dat we naar een toekomstsituatie streven waarbij de Formatieadviseur een functiebeschrijving in ChatGPT/LLM kan plaatsen en de AI tool een onderbouwde functiewaardering aangeeft conform de regels van de FUWADEF methode.",
-                        "In het kader van de Change zal de inhuur van een prompt engineer Regelbeheersing optimaliseren en sneller afhandelen."
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "toekomstsituatie streven"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "Onderzoek of het functiewaarderingsproces kan worden ondersteund door AI.",
-                        "Dat wil zeggen dat we naar een toekomstsituatie streven waarbij de Formatieadviseur een functiebeschrijving in ChatGPT/LLM kan plaatsen en de AI tool een onderbouwde functiewaardering aangeeft conform de regels van de FUWADEF methode."
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "ondersteunen/ontlasten"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "ChatGPT/LLM"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "RuleSpeak"
                 }
             ]
         }

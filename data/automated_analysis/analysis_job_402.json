@@ -28,128 +28,104 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The role emphasizes end-to-end development and deployment of AI models, including production-grade inference code and model lifecycle management. While generative models are mentioned, the core focus is on applying research to unique datasets for predictive tasks within healthcare, aligning with the ML Engineer profile's emphasis on data-driven algorithms and MLOps."
+            "rationale": "The job description emphasizes end-to-end development and deployment of AI models, including writing production-grade inference code, overseeing the model lifecycle, and applying research findings to datasets. While generative models (LLMs, GPT) are mentioned, the core focus is on applying these to specific healthcare datasets, developing models, and integrating them into production systems. The tech stack (Python, PyTorch, DVC, Docker, Azure) and responsibilities like 'In-House AI Model Development' and 'MLOps Professionalization' align strongly with the definition and evidence profile of an ML Engineer, particularly in productionizing models and managing their lifecycle, rather than solely focusing on building user-facing applications with GenAI as the primary component."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "AI Strategy Development",
                     "category": "TASK1: Business Understanding",
-                    "justification": "This phrase directly relates to formulating and implementing an AI strategy that aligns with the company's vision, indicating an understanding of business goals and how AI can support them."
+                    "justification": "The phrase 'Formulate and implement a robust AI strategy that aligns with Attendi's healthcare vision' directly indicates understanding and aligning technical work with business goals.",
+                    "phrase": "AI Strategy Development"
                 },
                 {
-                    "task_name": "In-House AI Model Development",
-                    "category": "TASK3: Modeling",
-                    "justification": "This involves leading the creation of AI models, which is the core of model development and adaptation."
-                },
-                {
-                    "task_name": "Rapid Prototyping with GPT Models",
-                    "category": "TASK3: Modeling",
-                    "justification": "Testing and experimenting with specific models (GPT) to guide development falls under the modeling category, even if it's for prototyping."
-                },
-                {
-                    "task_name": "Data Utilization",
                     "category": "TASK2: Data Engineering",
-                    "justification": "Leveraging unique data to create AI solutions implies working with and preparing data for modeling, which is a key aspect of data engineering."
+                    "justification": "The phrase 'effectively utilizing our unique dataset of spoken and written medical reports' and 'Leverage Attendi's unique and extensive in-house data to create impactful AI solutions' points to the use and manipulation of data for AI solutions.",
+                    "phrase": "Data Utilization"
                 },
                 {
-                    "task_name": "MLOps Professionalization",
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "This phrase explicitly mentions enhancing and professionalizing MLOps infrastructure for efficient deployment and maintenance, directly aligning with the MLOps category."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrases 'end-to-end development and deployment of AI models', 'writing production-grade inference code', 'Lead the creation of innovative AI models, including LLMs and other transformer models', and 'Quickly test and experiment with GPT models' all describe the core activities of building, training, and adapting models.",
+                    "phrase": "In-House AI Model Development"
                 },
                 {
-                    "task_name": "Collaboration",
-                    "category": "SKILL1: Communication & Collaboration",
-                    "justification": "Working closely with other engineers and management to integrate solutions highlights communication and collaboration."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Quickly test and experiment with GPT models from OpenAI, guiding our in-house development using insights gained' specifically mentions working with and leveraging generative models for development.",
+                    "phrase": "Rapid Prototyping with GPT Models"
                 },
                 {
-                    "task_name": "Privacy-Centric AI",
-                    "category": "SKILL4: Ethical & Legal Responsibility",
-                    "justification": "Developing AI models with a strong emphasis on privacy and considering user needs points to ethical considerations in AI development."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Develop AI models with a strong emphasis on privacy' directly relates to the creation and adaptation of models.",
+                    "phrase": "Privacy-Centric AI"
                 },
                 {
-                    "task_name": "writing production-grade inference code",
                     "category": "TASK4: Software Development",
-                    "justification": "Writing inference code that is production-grade is a software development task focused on deploying models."
+                    "justification": "The phrase 'Work closely with frontend and backend engineers, as well as the management team, to integrate AI solutions seamlessly across our platforms' indicates the need to integrate AI into broader software systems.",
+                    "phrase": "Collaboration"
                 },
                 {
-                    "task_name": "overseeing the entire lifecycle of these models, from design to deployment",
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "Managing the full lifecycle of models, including deployment, is a core MLOps responsibility."
-                },
-                {
-                    "task_name": "setting up and managing the AI infrastructure to enable rapid experimentation and testing",
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "This describes the setup and management of infrastructure for experimentation and testing, which is part of MLOps."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "Python",
-                    "category": "TECH1: Programming Languages"
-                },
-                {
-                    "tech_name": "PyTorch",
-                    "category": "TECH10: Data Modeling"
-                },
-                {
-                    "tech_name": "Jupyter",
-                    "category": "TECH11: Data Analysis"
-                },
-                {
-                    "tech_name": "DVC",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "tech_name": "Docker",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "tech_name": "Azure",
-                    "category": "TECH2: Cloud Platforms & Services"
-                },
-                {
-                    "tech_name": "GPT Models",
-                    "category": "TECH3: LLM / Generative Models"
-                },
-                {
-                    "tech_name": "OpenAI",
-                    "category": "TECH2: Cloud Platforms & Services"
-                },
-                {
-                    "tech_name": "transformer models",
-                    "category": "TECH3: LLM / Generative Models"
+                    "justification": "The phrase 'overseeing the entire lifecycle of these models, from design to deployment' and 'Enhance and professionalize our existing MLOps infrastructure, ensuring efficient deployment and maintenance of AI models' directly addresses the operational aspects of managing models in production.",
+                    "phrase": "MLOps Professionalization"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "translating recent scientific advancements into practical applications",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Work closely with frontend and backend engineers, as well as the management team"
                 },
                 {
-                    "skill_name": "strong emphasis on privacy",
-                    "category": "SKILL4: Ethical & Legal Responsibility"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "applying the latest research findings"
                 },
                 {
-                    "skill_name": "meeting the needs of healthcare professionals",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "translating recent scientific advancements into practical applications"
                 },
                 {
-                    "skill_name": "scalability, efficiency, privacy and impact",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "SKILL4: Ethical & Legal Responsibility",
+                    "phrase": "strong emphasis on privacy"
                 },
                 {
-                    "skill_name": "Work closely with frontend and backend engineers, as well as the management team",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "core part of our expanding company"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
                 },
                 {
-                    "skill_name": "Privacy-Centric AI",
-                    "category": "SKILL4: Ethical & Legal Responsibility"
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "PyTorch"
                 },
                 {
-                    "skill_name": "keeping the healthcare professional's needs at the center",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Jupyter"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "DVC"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Docker"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLMs"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "transformer models"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "GPT Models"
                 }
             ]
         }

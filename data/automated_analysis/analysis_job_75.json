@@ -28,79 +28,53 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The role focuses on developing new ML architectures and optimization algorithms for ML models, aligning with the core responsibilities of an ML Engineer. While it involves Conversational AI, the emphasis is on the underlying ML model optimization rather than building user-facing applications with generative models."
+            "rationale": "The job description emphasizes the development of new efficient ML architectures and optimization algorithms for ML models, aligning with the core responsibilities of an ML Engineer focused on algorithm development and model optimization. While Conversational AI and LLMs are mentioned, the primary focus is on the underlying ML architecture and optimization techniques rather than building user-facing applications or advanced prompt engineering, which are hallmarks of a GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Modeling",
-                    "phrase": "Create new efficient ML architectures for Conversational AI (LLM, NLP, ASR, TTS, Multimodal/Vision)",
-                    "justification": "This phrase directly relates to the creation and design of machine learning model architectures, which is a core component of the Modeling task."
+                    "category": "TASK3: Modeling",
+                    "justification": "The description explicitly mentions 'developing new efficient ML architectures' and 'model optimization algorithms' such as 'Neural Architecture Search, Pruning, Knowledge Distillation'. This directly relates to the creation, adaptation, and optimization of machine learning models.",
+                    "phrase": "Create new efficient ML architectures for Conversational AI (LLM, NLP, ASR, TTS, Multimodal/Vision)"
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrase": "Develop model optimization algorithms based on Neural Architecture Search, Pruning, Knowledge Distillation, etc.",
-                    "justification": "This describes the development of algorithms specifically for optimizing ML models, fitting the Modeling category."
+                    "category": "TASK3: Modeling",
+                    "justification": "This phrase details specific techniques for optimizing ML models, which falls under the core responsibilities of modeling.",
+                    "phrase": "Develop model optimization algorithms based on Neural Architecture Search, Pruning, Knowledge Distillation, etc."
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrase": "developing new efficient ML architectures",
-                    "justification": "While the primary focus is on research and architecture, the development of these architectures implies software implementation, fitting into Software Development."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves interacting with the scientific community and creating algorithms for Conversational AI, implying a need to understand the domain and its research landscape.",
+                    "phrase": "interact with the scientific community creating algorithms to accelerate the training and inference of ML models for Conversational AI."
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrase": "accelerate the training and inference of ML models",
-                    "justification": "Optimizing training and inference speed is a key aspect of making ML models production-ready and efficient, which falls under Operations Engineering (MLOps)."
-                },
-                {
-                    "task_name": "Business Understanding",
-                    "phrase": "Conversational AI",
-                    "justification": "Understanding the domain of Conversational AI is necessary to align the ML model development with business needs in that area."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "LLM / Generative Models",
-                    "phrase": "LLM",
-                    "category": "TECH3"
-                },
-                {
-                    "tech_name": "Data Modeling",
-                    "phrase": "ML architectures",
-                    "category": "TECH10"
-                },
-                {
-                    "tech_name": "Data Modeling",
-                    "phrase": "ML models",
-                    "category": "TECH10"
+                    "category": "TASK3: Modeling",
+                    "justification": "Working on 'large-scale multi-node ML models' directly relates to the practical application and scaling of machine learning models.",
+                    "phrase": "Work on large-scale multi-node ML models"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrase": "interact with the scientific community",
-                    "category": "SKILL1"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Work in a dynamic, applied team of engineers and researchers"
                 },
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrase": "Work in a dynamic, applied team of engineers and researchers",
-                    "category": "SKILL1"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "interact with the scientific community"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrase": "developing new efficient ML architectures",
-                    "category": "SKILL2"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Create new efficient ML architectures"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLM"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrase": "model optimization algorithms",
-                    "category": "SKILL3"
-                },
-                {
-                    "skill_name": "Innovation & Ownership",
-                    "phrase": "Create new efficient ML architectures",
-                    "category": "SKILL5"
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "ML"
                 }
             ]
         }

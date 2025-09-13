@@ -27,104 +27,130 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on frontend and full-stack development within the context of Industry 4.0 and manufacturing simulation. While it mentions 'generative AI' as a technology for experimentation, the core tasks and required skills are centered around UI/UX design, backend development (REST, websockets), and traditional software engineering practices, rather than the development or fine-tuning of AI models themselves."
+            "profile": "Ambiguous",
+            "rationale": "The job description is for a Full Stack/Frontend Developer internship focused on Industry 4.0 and manufacturing simulation. While it mentions 'generative AI' as a technology for experimentation, the core tasks involve building user interfaces, configuring simulators, and integrating third-party software using Svelte, Typescript, and Python. There is no indication of developing or fine-tuning generative models, building RAG systems, or advanced prompt engineering, which are hallmarks of a GenAI Engineer. The role is primarily software development with a tangential mention of AI, making it fall under the 'Ambiguous' category as it's not a core AI/ML role and focuses on traditional software development for a specific domain."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrases": [
-                        "Learn about Industry 4.0 and the manufacturing domain",
-                        "In the near future, the Dutch manufacturing industry needs to improve on efficiency, flexibility and collaboration.",
-                        "Industry 4.0 (i4.0) addresses these challenges by leveraging IT solutions and connectivity to access, process and use data that is being generated in manufacturing."
-                    ],
-                    "justification": "These phrases indicate a need to understand the business context of manufacturing, Industry 4.0 challenges, and how IT solutions address them."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires learning about Industry 4.0 and the manufacturing domain, indicating a need to understand the business context.",
+                    "phrase": "Learn about Industry 4.0 and the manufacturing domain"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrases": [
-                        "Full Stack / Frontend Developer",
-                        "building a user-friendly and attractive user interface for the existing simulator",
-                        "Design and implement the chosen solution in the user-interface",
-                        "Design and implement extensions for the backend, e.g. REST and websocket interfaces",
-                        "The current technology stack consists of: Frontend: Svelte + Typescript, Backend: Python (FastAPI)"
-                    ],
-                    "justification": "The core of the role involves building user interfaces and backend extensions, including API development (REST, websockets), which are fundamental software development tasks."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The task involves understanding the challenges of discrete simulation and software development, which relates to the business domain.",
+                    "phrase": "You have an interest in the challenges that come with discrete simulation and software development"
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "CI/CD: Docker, Gitlab CI, unit tests",
-                        "Write unit and integration tests"
-                    ],
-                    "justification": "Mention of CI/CD tools like Docker and Gitlab CI, along with writing unit and integration tests, points to operational aspects of software deployment and quality assurance."
+                    "category": "TASK3: Modeling",
+                    "justification": "The description mentions 'generative AI' as a technology for experimentation within the simulator, although the role itself is not focused on building or fine-tuning these models.",
+                    "phrase": "new technology (e.g. generative AI)"
                 },
                 {
-                    "task": "TASK3: Modeling",
-                    "phrases": [
-                        "generative AI"
-                    ],
-                    "justification": "While 'generative AI' is mentioned as a technology for experimentation, the job description does not detail tasks related to building, training, or fine-tuning generative models. The focus is on integrating with or experimenting using these technologies, not developing them."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "TECH1: Programming Languages",
-                    "items": [
-                        "Typescript",
-                        "Python"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The core of the assignment is building a user-friendly interface for the simulator.",
+                    "phrase": "building a user-friendly and attractive user interface for the existing simulator"
                 },
                 {
-                    "technology": "TECH4: LLM Frameworks & Libraries",
-                    "items": [
-                        "generative AI"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves investigating and evaluating concepts for integrating third-party software, which is a software development task.",
+                    "phrase": "Investigate & evaluate concepts and solutions for defining experiments and low-code integration of 3rd party software"
                 },
                 {
-                    "technology": "TECH6: MLOps & Data Pipelines",
-                    "items": [
-                        "Docker",
-                        "Gitlab CI"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "Designing and implementing solutions in the user interface is a direct software development task.",
+                    "phrase": "Design and implement the chosen solution in the user-interface"
                 },
                 {
-                    "technology": "TECH10: Data Modeling",
-                    "items": [
-                        "Svelte"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "Designing and implementing backend extensions, including REST and websocket interfaces, is a software development task.",
+                    "phrase": "Design and implement extensions for the backend, e.g. REST and websocket interfaces"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Writing unit and integration tests is a standard software development practice.",
+                    "phrase": "Write unit and integration tests"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Evaluating user experience (UX) is part of the software development lifecycle, focusing on the user-facing aspects.",
+                    "phrase": "Evaluate user experience (UX)"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Working with data scientists and a production engineer to build a simulation of a real production line involves software development in a collaborative, domain-specific context.",
+                    "phrase": "work with data scientists and a production engineer from one of our clients on building a simulation of a real production line"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Implementing missing simulation capabilities is a software development task.",
+                    "phrase": "If any simulation capabilities are missing, either you or another team member will implement those"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The CI/CD pipeline includes Docker and Gitlab CI, which are related to operations engineering.",
+                    "phrase": "CI/CD: Docker, Gitlab CI"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "you will work with data scientists and a production engineer from one of our clients",
-                        "You will join our team of experienced developers, working closely to collaborate and share expertise."
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "collaboration"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "Learn about Industry 4.0 and the manufacturing domain",
-                        "Investigate & evaluate concepts and solutions"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "work closely to collaborate and share expertise"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Investigate & evaluate concepts and solutions for defining experiments and low-code integration of 3rd party software",
-                        "If any simulation capabilities are missing, either you or another team member will implement those."
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "work in a multi-disciplinary environment"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "You have a do-er mindset",
-                        "take the lead on defining and implementing new features"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Learn about Industry 4.0 and the manufacturing domain"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Investigate & evaluate concepts and solutions"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "do-er mindset"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "innovation"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Typescript"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Gitlab CI"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "generative AI"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "low-code environment"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Docker"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "FastAPI"
                 }
             ]
         }

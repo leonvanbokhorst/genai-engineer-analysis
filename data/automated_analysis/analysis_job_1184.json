@@ -27,89 +27,90 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional data engineering tasks such as data pipelines, data warehousing, and infrastructure as code. While it mentions a 'Data & AI team' and 'data products', it lacks specific details about generative AI, LLMs, or advanced ML modeling that would align it with an ML Engineer or GenAI Engineer profile."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on traditional data engineering tasks such as data pipelines, data warehousing, and infrastructure setup using tools like Python, SQL, and Azure Databricks. While it mentions 'Data & AI team' and 'data-driven objectives', it lacks specific details about generative AI, LLMs, or predictive modeling that would align it with an ML Engineer or GenAI Engineer profile. The primary focus is on building data infrastructure rather than developing or deploying AI models."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "Modeling and structuring data.",
-                    "category": "TASK2",
-                    "justification": "This phrase directly relates to the process of designing and organizing data structures, which is a core component of data engineering."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The role involves developing scalable and maintainable data pipelines, implementing data warehousing and data lakes, and making data available from various sources.",
+                    "phrase": "Developing scalable and maintainable data pipelines that make data from REST APIs and SQL databases available in data warehouses, enabling data products."
                 },
                 {
-                    "task": "Developing scalable and maintainable data pipelines that make data from REST APIs and SQL databases available in data warehouses, enabling data products.",
-                    "category": "TASK2",
-                    "justification": "This describes the creation and maintenance of data flows from various sources to a central repository, a fundamental data engineering responsibility."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The description explicitly mentions implementing data warehousing and data lakes, which are core data engineering responsibilities.",
+                    "phrase": "Implementing data warehousing and data lakes, including automated data migrations."
                 },
                 {
-                    "task": "Implementing data warehousing and data lakes, including automated data migrations.",
-                    "category": "TASK2",
-                    "justification": "This task involves setting up and managing large-scale data storage solutions, which is a key aspect of data engineering."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "Setting up cloud infrastructure using Infrastructure as Code is a key aspect of modern data engineering.",
+                    "phrase": "Setting up cloud infrastructure based on IaC (infrastructure as code, for example, in Bicep or Terraform)."
                 },
                 {
-                    "task": "Setting up cloud infrastructure based on IaC (infrastructure as code, for example, in Bicep or Terraform).",
-                    "category": "TASK5",
-                    "justification": "This involves managing and provisioning cloud resources using code, which falls under operations engineering, specifically MLOps/DevOps practices for infrastructure."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "Analyzing existing platforms and proposing improvements is part of maintaining and optimizing data infrastructure.",
+                    "phrase": "Analyzing existing data platforms and proposing structural improvements based on your findings."
                 },
                 {
-                    "task": "Analyzing existing data platforms and proposing structural improvements based on your findings.",
-                    "category": "TASK2",
-                    "justification": "This task requires understanding and optimizing data systems, a responsibility that aligns with data engineering's focus on efficient data management."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Modeling and structuring data' directly relates to the process of organizing and preparing data for analysis or storage, which is a component of modeling.",
+                    "phrase": "Modeling and structuring data."
                 },
                 {
-                    "task": "Staying up-to-date and sharing knowledge about the latest trends and technologies in data and AI.",
-                    "category": "SKILL2",
-                    "justification": "This phrase indicates a need for continuous learning and adaptation to new information in the data and AI field."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Python",
-                    "category": "TECH1"
+                    "category": "TASK4: Software Development",
+                    "justification": "The role requires strong programming skills in Python and SQL, which are foundational for software development tasks within data engineering.",
+                    "phrase": "strong programming skills in Python (PySpark), SQL"
                 },
                 {
-                    "technology": "PySpark",
-                    "category": "TECH11"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of DevOps consultants and setting up cloud infrastructure using IaC points towards operational aspects of managing data platforms.",
+                    "phrase": "DevOps consultants. Setting up cloud infrastructure based on IaC"
                 },
                 {
-                    "technology": "SQL",
-                    "category": "TECH11"
-                },
-                {
-                    "technology": "Azure Databricks",
-                    "category": "TECH2"
-                },
-                {
-                    "technology": "REST APIs",
-                    "category": "TECH4"
-                },
-                {
-                    "technology": "SQL databases",
-                    "category": "TECH9"
-                },
-                {
-                    "technology": "Bicep",
-                    "category": "TECH1"
-                },
-                {
-                    "technology": "Terraform",
-                    "category": "TECH6"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role aims to help clients achieve their data-driven objectives, indicating a need to understand business goals related to data.",
+                    "phrase": "help our clients achieve their data-driven objectives"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "work in a versatile team with Data Scientists, Data Analysts, Software Engineers, and DevOps consultants",
-                    "category": "SKILL1"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Staying up-to-date and sharing knowledge about the latest trends and technologies in data and AI."
                 },
                 {
-                    "skill": "play a crucial connecting role within our team",
-                    "category": "SKILL1"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "work in a versatile team with Data Scientists, Data Analysts, Software Engineers, and DevOps consultants."
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
                 },
                 {
-                    "skill": "Staying up-to-date and sharing knowledge about the latest trends and technologies in data and AI.",
-                    "category": "SKILL2"
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "PySpark"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "SQL"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure Databricks"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "IaC (infrastructure as code, for example, in Bicep or Terraform)"
+                },
+                {
+                    "category": "TECH11: Data Analysis",
+                    "phrase": "REST APIs"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "SQL databases"
                 }
             ]
         }

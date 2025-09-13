@@ -28,101 +28,64 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The role focuses on building and maintaining systems around LLM infrastructure and generative AI models, including quality assurance for these models and integrating them into a product portfolio. This aligns strongly with the definition and responsibilities of a GenAI Engineer, particularly in developing and deploying user-facing software systems that leverage generative AI."
+            "rationale": "The job description emphasizes building and maintaining systems around LLM infrastructure and traditional AI models, focusing on user-facing applications and integrating AI platforms. This aligns with the core responsibilities of a GenAI Engineer, particularly in developing and deploying generative AI capabilities and ensuring their integration into broader product portfolios."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "Senior Back End Developer",
-                        "back-end engineer",
-                        "scalability and reliability of the systems we've built around and integrated with our LLM (Large Language Models) infrastructure and traditional AI models",
-                        "Alongside the services and infrastructure around our AI models the system consists of multiple separate services and databases",
-                        "provide customers with the ability to upload and manage data sources within their domain",
-                        "integration of our centralized AI platform into the rest of the CM.com product portfolio"
-                    ],
-                    "justification": "The job description explicitly mentions 'Back End Developer' and 'back-end engineer', and details responsibilities related to building, scaling, and integrating systems and services. This includes managing data sources and integrating AI platforms into a broader product portfolio, which are core software development activities for AI-powered applications."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role focuses on 'back-end engineer' responsibilities, ensuring 'scalability and reliability of the systems', and integrating AI platforms into the product portfolio, which are core software development activities.",
+                    "phrase": "back-end engineer"
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "LLM (Large Language Models) infrastructure",
-                        "traditional AI models",
-                        "quality assurance functionality that provide fine grained control over the generative AI models",
-                        "centralized AI platform"
-                    ],
-                    "justification": "The role is centered around systems 'built around and integrated with our LLM (Large Language Models) infrastructure and traditional AI models'. It also involves 'quality assurance functionality that provide fine grained control over the generative AI models', indicating direct interaction with and management of generative AI models."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions building and maintaining 'multiple separate services' and ensuring their integration, which falls under software development.",
+                    "phrase": "multiple separate services"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "scalability and reliability of the systems we've built around and integrated with our LLM (Large Language Models) infrastructure and traditional AI models",
-                        "services and infrastructure around our AI models"
-                    ],
-                    "justification": "The emphasis on 'scalability and reliability' of systems supporting LLM and AI models, and managing the 'services and infrastructure around our AI models', points to operational concerns for production-grade AI systems."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves integrating the 'centralized AI platform into the rest of the CM.com product portfolio', a clear software development task.",
+                    "phrase": "integration of our centralized AI platform into the rest of the CM.com product portfolio"
                 },
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "customers with the ability to upload and manage data sources within their domain"
-                    ],
-                    "justification": "The mention of enabling customers to 'upload and manage data sources' suggests involvement in the infrastructure and processes for handling data that feeds into or is managed by the AI systems."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "phrases": [
-                        "LLM (Large Language Models)",
-                        "generative AI models"
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The role explicitly mentions working with 'LLM (Large Language Models) infrastructure' and 'traditional AI models', and providing 'fine grained control over the generative AI models', indicating involvement in modeling.",
+                    "phrase": "LLM (Large Language Models) infrastructure"
                 },
                 {
-                    "tech_name": "TECH10: Data Modeling",
-                    "phrases": [
-                        "traditional AI models"
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The description mentions 'quality assurance functionality that provide fine grained control over the generative AI models', which implies interaction with and control over generative AI models.",
+                    "phrase": "fine grained control over the generative AI models"
                 },
                 {
-                    "tech_name": "TECH4: LLM Frameworks & Libraries",
-                    "phrases": [
-                        "LLM infrastructure"
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The role involves enabling customers to 'upload and manage data sources within their domain', which is a data engineering task related to data ingestion and management.",
+                    "phrase": "upload and manage data sources within their domain"
                 },
                 {
-                    "tech_name": "TECH6: MLOps & Data Pipelines",
-                    "phrases": [
-                        "infrastructure"
-                    ]
-                },
-                {
-                    "tech_name": "TECH9: Data Storage",
-                    "phrases": [
-                        "databases"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The focus on 'scalability and reliability of the systems we've built around and integrated with our LLM infrastructure and traditional AI models' suggests a need for operational excellence in production environments.",
+                    "phrase": "scalability and reliability of the systems"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "scalability and reliability",
-                        "fine grained control"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "scalability and reliability"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "Senior Back End Developer"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Senior Back End Developer"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLM (Large Language Models)"
                 },
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "integration of our centralized AI platform into the rest of the CM.com product portfolio"
-                    ]
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "generative AI models"
                 }
             ]
         }

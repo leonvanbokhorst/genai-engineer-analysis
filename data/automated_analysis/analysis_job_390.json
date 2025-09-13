@@ -27,55 +27,45 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on developing scripts to automate tasks for software developers and creating a proof-of-concept LLM for internal document querying. While it mentions LLMs, the core tasks lean towards scripting and automation for internal tools rather than building production-grade GenAI applications or complex ML models. The role appears more aligned with traditional software development and basic AI tool utilization."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on developing scripts to automate tasks for software developers and creating a proof of concept for an on-premise LLM for document Q&A. While it mentions LLMs, the core tasks described lean towards scripting, automation, and proof-of-concept development rather than building production-grade generative AI applications or traditional ML models. The role is also framed as an internship with a focus on supporting daily work and gaining experience, which doesn't align with the core responsibilities of an ML Engineer or GenAI Engineer. The description lacks the depth and specific technical requirements typically associated with those specialized roles."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "Support in developing scripts that would improve daily work",
-                        "scripts that would automate tasks that software developers are performing"
-                    ],
-                    "justification": "These phrases indicate the development of software tools (scripts) to enhance the efficiency of existing software development processes, which falls under traditional software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves developing scripts to automate tasks for software developers, which falls under software development practices.",
+                    "phrase": "Support in developing scripts that would improve daily work; such as scripts that would automate tasks that software developers are performing"
                 },
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "Create a proof of concept Large Language Models (LLM) on premise and offline",
-                        "train the LLM with our custom information",
-                        "be able to ask questions to documents"
-                    ],
-                    "justification": "This directly refers to the creation and training of an LLM, which is a form of model development, even if it's a proof of concept and focused on a specific application like document querying."
+                    "category": "TASK3: Modeling",
+                    "justification": "The creation of a proof of concept for an LLM, including training it with custom information, directly relates to the modeling aspect of generative AI.",
+                    "phrase": "Create a proof of concept Large Language Models (LLM) on premise and offline, where we collect, ingest documents; train the LLM with our custom information and be able to ask questions to documents"
                 },
                 {
-                    "task_category": "TASK2: Data Engineering",
-                    "phrases": [
-                        "where we collect, ingest documents"
-                    ],
-                    "justification": "Collecting and ingesting documents is a foundational step in preparing data for an LLM, which is part of the data engineering process."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Large Language Models (LLM)",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The description mentions the context of 'product wafer alignment domain' and 'optimize, monitor and diagnose wafer alignment process', indicating a need to understand the business domain.",
+                    "phrase": "Alignment Software Application Group is responsible of developing software applications on product wafer alignment domain at ASML. We create tools that helps our customers to optimize, monitor and diagnose wafer alignment process performed within Twinscan."
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "gain valuable experience in a highly innovative environment - one that sparks your imagination and creativity",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Become an intern at a Dutch company that's a global industry leader. You'll gain valuable experience in a highly innovative environment - one that sparks your imagination and creativity."
                 },
                 {
-                    "skill": "practical guidance from experts in the field",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "practical guidance from experts in the field and the chance to work in and experience a dynamic team environment."
                 },
                 {
-                    "skill": "chance to work in and experience a dynamic team environment",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "highly innovative environment - one that sparks your imagination and creativity."
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Large Language Models (LLM)"
                 }
             ]
         }

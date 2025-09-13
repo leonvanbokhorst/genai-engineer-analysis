@@ -28,291 +28,159 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes building applications using generative AI, LLMs, and RAG systems, aligning with the core responsibilities of a GenAI Engineer. It also includes significant software development and MLOps components required to deploy these AI-driven features into production."
+            "rationale": "The job description heavily emphasizes the development and integration of generative AI models, specifically mentioning Retrieval-Augmented Generation (RAG) with GPT-4, building AI features using generative AI, and implementing machine learning algorithms for predictive insights. It also highlights building production-grade user-facing software systems, developing complex agents, and leveraging LLM frameworks. These align directly with the core responsibilities and evidence profile of a GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK1: Business Understanding",
-                    "evidence": [
-                        {
-                            "phrase": "strategic product line reshaping industries and how people work and learn",
-                            "justification": "This phrase indicates an understanding of the broader business context and the impact of the company's products."
-                        },
-                        {
-                            "phrase": "integrate AI-driven solutions into these exciting product lines, offering unique opportunities to innovate",
-                            "justification": "Highlights the alignment of technical solutions with business goals and the drive for innovation."
-                        },
-                        {
-                            "phrase": "modernize our strategic product lines",
-                            "justification": "Demonstrates a focus on aligning technical efforts with business strategy to update existing products."
-                        },
-                        {
-                            "phrase": "Enhance product functionality and effectively integrate AI-driven solutions into our cloud services.",
-                            "justification": "Connects technical development directly to improving product features and business value."
-                        }
-                    ]
+                    "category": "TASK3",
+                    "justification": "The job description explicitly mentions 'integrate an AI-powered bot using a Retrieval-Augmented Generation (RAG) approach with OpenAI's GPT-4', 'Build a game-changing AI feature using generative AI', and 'implementing machine learning algorithms for predictive insights'. These directly relate to the creation and adaptation of AI models.",
+                    "phrase": "Retrieval-Augmented Generation (RAG) approach with OpenAI's GPT-4"
                 },
                 {
-                    "task": "TASK2: Data Engineering",
-                    "evidence": [
-                        {
-                            "phrase": "implementing machine learning algorithms for predictive insights",
-                            "justification": "While focused on ML, this implies the need for data preparation and feature engineering to feed these algorithms."
-                        },
-                        {
-                            "phrase": "data-driven development",
-                            "justification": "Suggests a focus on using data to inform development decisions, which often involves data handling and processing."
-                        },
-                        {
-                            "phrase": "building advanced data analytics modules",
-                            "justification": "Indicates work with data to extract insights, which is a component of data engineering."
-                        }
-                    ]
+                    "category": "TASK3",
+                    "justification": "The phrase 'using generative AI' directly points to the core of generative modeling tasks.",
+                    "phrase": "using generative AI"
                 },
                 {
-                    "task": "TASK3: Modeling",
-                    "evidence": [
-                        {
-                            "phrase": "AI-powered bot using a Retrieval-Augmented Generation (RAG) approach",
-                            "justification": "Directly mentions a specific generative AI modeling technique (RAG)."
-                        },
-                        {
-                            "phrase": "OpenAI's GPT-4",
-                            "justification": "Specifies a large language model, a core component of generative AI modeling."
-                        },
-                        {
-                            "phrase": "generative AI",
-                            "justification": "Explicitly states the use of generative AI for modeling."
-                        },
-                        {
-                            "phrase": "implementing machine learning algorithms for predictive insights",
-                            "justification": "Refers to the core process of creating and training ML models for prediction."
-                        },
-                        {
-                            "phrase": "Crafting AI 2nd Brains -AI-driven summaries of product, domain, or company knowledge",
-                            "justification": "Describes a task that involves using generative AI models to process and summarize information."
-                        }
-                    ]
+                    "category": "TASK3",
+                    "justification": "The mention of 'implementing machine learning algorithms for predictive insights' falls under the modeling category, focusing on creating predictive capabilities.",
+                    "phrase": "implementing machine learning algorithms for predictive insights"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "evidence": [
-                        {
-                            "phrase": "Back End Developer",
-                            "justification": "The job title itself indicates a focus on software development."
-                        },
-                        {
-                            "phrase": "develop a seamless sidebar widget",
-                            "justification": "Involves building user-facing components, which is part of software development."
-                        },
-                        {
-                            "phrase": "build a robust logging mechanism",
-                            "justification": "Requires software development to implement monitoring and tracking features."
-                        },
-                        {
-                            "phrase": "AI integration, UI/UX design",
-                            "justification": "Mentions UI/UX design, which is closely related to front-end software development, and AI integration into applications."
-                        },
-                        {
-                            "phrase": "AI architecture",
-                            "justification": "Implies designing the structure of AI-powered software systems."
-                        },
-                        {
-                            "phrase": "API design",
-                            "justification": "Focuses on the design of interfaces for software components."
-                        },
-                        {
-                            "phrase": "Develop and deploy efficient back-end solutions using serverless technologies",
-                            "justification": "Directly relates to building and deploying backend software."
-                        },
-                        {
-                            "phrase": "building scalable, serverless applications",
-                            "justification": "Indicates the development of robust and scalable software applications."
-                        },
-                        {
-                            "phrase": "writing, testing, and refactoring code",
-                            "justification": "Core activities of software development."
-                        },
-                        {
-                            "phrase": "developing new features with AI",
-                            "justification": "Combines software development with AI integration."
-                        },
-                        {
-                            "phrase": "abstract the AI provider for flexibility",
-                            "justification": "Requires software design to create interchangeable AI components."
-                        }
-                    ]
+                    "category": "TASK4",
+                    "justification": "The description includes 'develop a seamless sidebar widget', 'build a robust logging mechanism', 'build a game-changing AI feature', 'optimize search functionality', 'Develop a cutting-edge CRM solution', 'creating intuitive data visualization tools', and 'Develop and deploy efficient back-end solutions using serverless technologies, focusing on creating robust, cloud-native applications'. These are all indicative of software development tasks to build and integrate features.",
+                    "phrase": "develop a seamless sidebar widget"
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "evidence": [
-                        {
-                            "phrase": "implement feature flags",
-                            "justification": "A common practice in MLOps and software deployment for managing releases."
-                        },
-                        {
-                            "phrase": "build a robust logging mechanism to capture KPIs",
-                            "justification": "Essential for monitoring and maintaining deployed AI systems."
-                        },
-                        {
-                            "phrase": "optimize search functionality",
-                            "justification": "Performance optimization is a key aspect of production systems."
-                        },
-                        {
-                            "phrase": "deploy efficient back-end solutions using serverless technologies",
-                            "justification": "Deployment and operational aspects of backend services."
-                        },
-                        {
-                            "phrase": "cloud-native applications",
-                            "justification": "Implies working with cloud infrastructure for deployment and operations."
-                        },
-                        {
-                            "phrase": "Conduct comprehensive code reviews",
-                            "justification": "Part of ensuring quality and maintainability in production code."
-                        },
-                        {
-                            "phrase": "collaborate with a global team to ensure best practices and high standards",
-                            "justification": "Relates to team collaboration in maintaining production systems."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "tech": "TECH3: LLM / Generative Models",
-                    "items": [
-                        "GPT-4",
-                        "generative AI"
-                    ]
+                    "category": "TASK4",
+                    "justification": "The phrase 'build a robust logging mechanism' is a software development task for monitoring and debugging applications.",
+                    "phrase": "build a robust logging mechanism"
                 },
                 {
-                    "tech": "TECH4: LLM Frameworks & Libraries",
-                    "items": [
-                        "Retrieval-Augmented Generation (RAG)"
-                    ]
+                    "category": "TASK4",
+                    "justification": "The description mentions 'optimize search functionality', which is a common software development task to improve performance and user experience.",
+                    "phrase": "optimize search functionality"
                 },
                 {
-                    "tech": "TECH2: Cloud Platforms & Services",
-                    "items": [
-                        "OpenAI",
-                        "serverless technologies",
-                        "cloud-native technologies"
-                    ]
+                    "category": "TASK4",
+                    "justification": "The role involves 'Develop a cutting-edge CRM solution that seamlessly integrates sales, marketing, and support into a sophisticated, user-friendly interface', which is a core software development responsibility.",
+                    "phrase": "Develop a cutting-edge CRM solution"
                 },
                 {
-                    "tech": "TECH1: Programming Languages",
-                    "items": [
-                        "Python"
-                    ]
+                    "category": "TASK4",
+                    "justification": "The phrase 'creating intuitive data visualization tools' involves building user interfaces for data presentation, a software development task.",
+                    "phrase": "creating intuitive data visualization tools"
                 },
                 {
-                    "tech": "TECH6: MLOps & Data Pipelines",
-                    "items": [
-                        "feature flags",
-                        "logging mechanism"
-                    ]
+                    "category": "TASK4",
+                    "justification": "The description states 'Develop and deploy efficient back-end solutions using serverless technologies, focusing on creating robust, cloud-native applications', which is a direct software development task.",
+                    "phrase": "Develop and deploy efficient back-end solutions using serverless technologies"
                 },
                 {
-                    "tech": "TECH10: Data Modeling",
-                    "items": [
-                        "machine learning algorithms"
-                    ]
+                    "category": "TASK4",
+                    "justification": "The mention of 'Conduct comprehensive code reviews' is a standard software development practice.",
+                    "phrase": "Conduct comprehensive code reviews"
                 },
                 {
-                    "tech": "TECH7: Data Visualization",
-                    "items": [
-                        "data visualization tools"
-                    ]
+                    "category": "TASK5",
+                    "justification": "The job mentions 'implement feature flags' and 'build a robust logging mechanism to capture KPIs', which are related to operational aspects of deploying and monitoring software features.",
+                    "phrase": "implement feature flags"
                 },
                 {
-                    "tech": "TECH11: Data Analysis",
-                    "items": [
-                        "data analytics modules"
-                    ]
+                    "category": "TASK5",
+                    "justification": "The phrase 'leveraging the full potential of cloud-native technologies' and 'scalable, serverless applications' points towards operational considerations for deployment and maintenance in a cloud environment.",
+                    "phrase": "leveraging the full potential of cloud-native technologies"
+                },
+                {
+                    "category": "TASK1",
+                    "justification": "The job description states 'We're looking for someone eager to use AI to craft intelligent, forward-thinking solutions that will bring our 100+ product portfolio into the modern world' and 'At Trilogy's core, we have a strategic product line reshaping industries and how people work and learn.' This shows an understanding of business goals and strategic alignment.",
+                    "phrase": "bring our 100+ product portfolio into the modern world"
+                },
+                {
+                    "category": "TASK1",
+                    "justification": "The phrase 'strategic product line reshaping industries' indicates an understanding of the business context and its strategic importance.",
+                    "phrase": "strategic product line reshaping industries"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "evidence": [
-                        {
-                            "phrase": "eager to use AI to craft intelligent, forward-thinking solutions",
-                            "justification": "Indicates a proactive approach to problem-solving with AI."
-                        },
-                        {
-                            "phrase": "navigate the complexities of integrating AI-driven solutions",
-                            "justification": "Highlights the ability to handle complex challenges."
-                        },
-                        {
-                            "phrase": "collaborating with AI to diagnose and solve problems",
-                            "justification": "Directly points to problem-solving using AI tools."
-                        },
-                        {
-                            "phrase": "focus on creating innovative solutions",
-                            "justification": "Emphasizes a results-oriented and creative approach to problem-solving."
-                        }
-                    ]
+                    "category": "SKILL1",
+                    "phrase": "collaborate with a global team"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "evidence": [
-                        {
-                            "phrase": "eager to use AI to craft intelligent, forward-thinking solutions",
-                            "justification": "Shows initiative and a forward-thinking mindset."
-                        },
-                        {
-                            "phrase": "innovate",
-                            "justification": "Directly states the expectation of innovation."
-                        },
-                        {
-                            "phrase": "leading the charge in integrating AI into software engineering",
-                            "justification": "Implies taking initiative and ownership of AI integration."
-                        },
-                        {
-                            "phrase": "Are you up for the challenge? Trilogy is for the brave, the curious, and the forward-thinking.",
-                            "justification": "Describes the desired proactive and innovative mindset."
-                        }
-                    ]
+                    "category": "SKILL2",
+                    "phrase": "rapidly gaining and applying new knowledge"
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "evidence": [
-                        {
-                            "phrase": "eager to use AI to craft intelligent, forward-thinking solutions",
-                            "justification": "Suggests a willingness to learn and apply new technologies."
-                        },
-                        {
-                            "phrase": "modern world",
-                            "justification": "Implies adapting to current technological trends."
-                        },
-                        {
-                            "phrase": "Grow your expertise",
-                            "justification": "Directly indicates a focus on continuous learning and skill development."
-                        },
-                        {
-                            "phrase": "rapidly gaining and applying new knowledge",
-                            "justification": "Highlights the need for adaptability and quick learning."
-                        },
-                        {
-                            "phrase": "AI as our compass",
-                            "justification": "Suggests a focus on evolving with AI technology."
-                        }
-                    ]
+                    "category": "SKILL3",
+                    "phrase": "diagnose and solve problems"
                 },
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "evidence": [
-                        {
-                            "phrase": "collaborate with a global team",
-                            "justification": "Directly mentions collaboration with a team."
-                        },
-                        {
-                            "phrase": "AI-assisted programming",
-                            "justification": "Implies working with AI tools, which can involve communication and understanding AI outputs."
-                        }
-                    ]
+                    "category": "SKILL5",
+                    "phrase": "innovate"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "innovative features"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "innovative solutions"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "innovating"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "pioneer"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "leading the charge"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "GPT-4"
+                },
+                {
+                    "category": "TECH4",
+                    "phrase": "Retrieval-Augmented Generation (RAG)"
+                },
+                {
+                    "category": "TECH2",
+                    "phrase": "OpenAI"
+                },
+                {
+                    "category": "TECH1",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH4",
+                    "phrase": "LangChain"
+                },
+                {
+                    "category": "TECH4",
+                    "phrase": "LangGraph"
+                },
+                {
+                    "category": "TECH10",
+                    "phrase": "machine learning algorithms"
+                },
+                {
+                    "category": "TECH7",
+                    "phrase": "data visualization tools"
+                },
+                {
+                    "category": "TECH2",
+                    "phrase": "cloud-native technologies"
+                },
+                {
+                    "category": "TECH2",
+                    "phrase": "serverless technologies"
                 }
             ]
         }

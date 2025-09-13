@@ -28,81 +28,100 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 5,
-            "rationale": "The job description heavily emphasizes the development and deployment of applications using Large Language Models (LLMs), including Retrieval Augmented Generation (RAG) and custom GPTs. The core responsibilities align directly with building user-facing systems powered by generative AI technologies."
+            "rationale": "The job description heavily emphasizes the use and development of applications leveraging Large Language Models (LLMs), specifically mentioning Retrieval Augmented Generation (RAG) and building custom GPTs. The core responsibilities include developing applications and components using Python, which aligns with the software development aspect of a GenAI Engineer. The mention of 'AchmeaGPT/Chatbots' and 'custom GPTs' further solidifies this classification, as these are direct applications of generative AI technologies. While there's a mention of 'data, moral and ethical questions', this is a secondary consideration to the primary focus on building and deploying generative AI applications."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "Software Development",
-                    "phrase": "ontwikkelt applicaties en componenten met bijv. Python",
-                    "justification": "This phrase directly refers to the creation of software applications and their components using a programming language, which is a core aspect of software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'ontwikkelt applicaties en componenten' directly refers to building software applications and their constituent parts.",
+                    "phrase": "ontwikkelt applicaties en componenten"
                 },
                 {
-                    "task": "Software Development",
-                    "phrase": "bouwen aan applicaties zoals AchmeaGPT en custom GPT's",
-                    "justification": "This indicates the development of specific applications, including those based on GPT technology, which falls under software development."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'ontwikkelen van componenten voor gebruik van LLM zoals Retrieval Augmented Generation' indicates work directly involving the development and application of generative AI models and techniques.",
+                    "phrase": "ontwikkelen van componenten voor gebruik van LLM zoals Retrieval Augmented Generation"
                 },
                 {
-                    "task": "Modeling",
-                    "phrase": "ontwikkelen van componenten voor gebruik van LLM zoals Retrieval Augmented Generation",
-                    "justification": "This explicitly mentions developing components for using LLMs, specifically RAG, which is a key generative AI modeling technique."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'bouwen aan applicaties zoals AchmeaGPT en custom GPT's' describes the creation of specific software applications that utilize generative AI.",
+                    "phrase": "bouwen aan applicaties zoals AchmeaGPT en custom GPT's"
                 },
                 {
-                    "task": "Modeling",
-                    "phrase": "doorontwikkeling van bestaande technologie (AchmeaGPT/Chatbots)",
-                    "justification": "This implies working with and improving existing generative AI technologies like chatbots, which involves model adaptation and fine-tuning."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'doorontwikkeling van bestaande technologie (AchmeaGPT/Chatbots)' implies improving and extending existing software applications.",
+                    "phrase": "doorontwikkeling van bestaande technologie (AchmeaGPT/Chatbots)"
                 },
                 {
-                    "task": "Business Understanding",
-                    "phrase": "automatiseren en versnellen van onze bedrijfsvoering",
-                    "justification": "This phrase highlights the goal of using AI to improve business operations, indicating an understanding of business needs and how technology can address them."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'automatiseren en versnellen van onze bedrijfsvoering' indicates an understanding of how AI can be applied to improve business operations.",
+                    "phrase": "automatiseren en versnellen van onze bedrijfsvoering"
                 },
                 {
-                    "task": "Business Understanding",
-                    "phrase": "maximaal waarde leveren",
-                    "justification": "This phrase emphasizes delivering value, which is a business-oriented objective that technical solutions should support."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Agile team dat samen focust op maximaal waarde leveren' describes the development methodology and team focus, which is part of the software development process.",
+                    "phrase": "Agile team dat samen focust op maximaal waarde leveren"
                 },
                 {
-                    "task": "Ethical & Legal Responsibility",
-                    "phrase": "kijken naar verschillende aspecten van het gebruik van LLM zoals data, morele en ethische vraagstukken",
-                    "justification": "This directly addresses the consideration of ethical and moral issues related to LLM usage, aligning with responsible AI development."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Python",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'developer functie' explicitly states the role is focused on development.",
+                    "phrase": "developer functie"
                 },
                 {
-                    "technology": "Large Language Models (LLM)",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'doorontwikkeling van bestaande technologie' refers to the ongoing improvement and maintenance of software systems.",
+                    "phrase": "doorontwikkeling van bestaande technologie"
                 },
                 {
-                    "technology": "Retrieval Augmented Generation (RAG)",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'gebruik van LLM' directly relates to the application and utilization of Large Language Models, which falls under modeling.",
+                    "phrase": "gebruik van LLM"
                 },
                 {
-                    "technology": "AchmeaGPT",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'custom GPT's die door de verschillende merken (zoals Centraal Beheer, Interpolis en Zilveren Kruis) kunnen worden ingezet' describes the development of applications for deployment across different business units.",
+                    "phrase": "custom GPT's die door de verschillende merken (zoals Centraal Beheer, Interpolis en Zilveren Kruis) kunnen worden ingezet"
                 },
                 {
-                    "technology": "custom GPT's",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'kijk naar verschillende aspecten van het gebruik van LLM zoals data, morele en ethische vraagstukken' while touching on ethical considerations, is framed within the context of 'use of LLM' which is part of the development and application lifecycle of AI systems.",
+                    "phrase": "kijk naar verschillende aspecten van het gebruik van LLM zoals data, morele en ethische vraagstukken"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "Agile team",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Agile team dat samen focust op maximaal waarde leveren"
                 },
                 {
-                    "skill": "maximaal waarde leveren",
-                    "category": "SKILL5: Innovation & Ownership"
+                    "category": "SKILL4: Ethical & Legal Responsibility",
+                    "phrase": "morele en ethische vraagstukken"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
                 },
                 {
-                    "skill": "kijken naar verschillende aspecten van het gebruik van LLM zoals data, morele en ethische vraagstukken",
-                    "category": "SKILL4: Ethical & Legal Responsibility"
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Large Language Models (LLM)"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLM"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "Retrieval Augmented Generation"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "AchmeaGPT"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "custom GPT's"
                 }
             ]
         }

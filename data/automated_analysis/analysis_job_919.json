@@ -27,94 +27,87 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description mentions AI technologies and LLMs, but the core focus is on embedded systems, machine building, and system integration. It lacks the depth in generative AI modeling, RAG, fine-tuning, or MLOps typically associated with a GenAI Engineer role, and doesn't emphasize predictive modeling or MLOps for traditional ML as a core function of an ML Engineer."
+            "profile": "Ambiguous",
+            "rationale": "The job description mentions working with LLM, AI technologies, and data science, but the core responsibilities focus on traditional software engineering for embedded systems and machine/device building. There is a lack of specific detail on generative AI model development, fine-tuning, RAG systems, or advanced predictive modeling that would align with ML Engineer or GenAI Engineer profiles. The emphasis on embedded systems and traditional software development, coupled with a general mention of AI, leans towards a more general software engineering role with AI exposure, making 'Ambiguous' the most appropriate classification."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "junior software engineer",
-                        "Werken aan diverse softwareoplossingen samen met een team van professionals",
-                        "Applicatiesoftware en/of embedded software implementeren in een project",
-                        "Codes optimaliseren met moderne compilers"
-                    ],
-                    "justification": "These phrases directly relate to the development of software applications, including embedded systems and optimization, which falls under traditional software engineering."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'realtime applicaties met embedded besturingssystemen' and 'Applicatiesoftware en/of embedded software implementeren in een project' directly relates to building and implementing software applications, which is the core of software development.",
+                    "phrase": "realtime applicaties met embedded besturingssystemen"
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "Werken met LLM, kunstmatige intelligentie en AI technologieën"
-                    ],
-                    "justification": "While mentioning LLM, AI, and artificial intelligence, the description does not specify tasks related to building, training, fine-tuning, or adapting these models, only 'working with' them."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Werken aan diverse softwareoplossingen samen met een team van professionals' indicates involvement in developing software solutions within a team environment.",
+                    "phrase": "Werken aan diverse softwareoplossingen samen met een team van professionals"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "Actief bezig zijn in de innovatieve machine- en apparatenbouw en systeemintegratie"
-                    ],
-                    "justification": "This phrase indicates an understanding of the industry and domain (machine and device construction, system integration) where the software solutions will be applied."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Applicatiesoftware en/of embedded software implementeren in een project' explicitly states the implementation of application and embedded software.",
+                    "phrase": "Applicatiesoftware en/of embedded software implementeren in een project"
                 },
                 {
-                    "task_name": "Learning & Adaptability",
-                    "phrases": [
-                        "Je kennis ontwikkelen door trainingen en cursussen en ervaring opdoen in multidisciplinaire teams"
-                    ],
-                    "justification": "This phrase highlights the importance of continuous learning and adapting to new knowledge and experiences."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Codes optimaliseren met moderne compilers' refers to the process of improving code efficiency, a common software development task.",
+                    "phrase": "Codes optimaliseren met moderne compilers"
                 },
                 {
-                    "task_name": "Communication & Collaboration",
-                    "phrases": [
-                        "werk je in multidisciplinaire teams",
-                        "krijg je een buddy aangewezen",
-                        "Werken aan diverse softwareoplossingen samen met een team van professionals",
-                        "ervaring opdoen in multidisciplinaire teams"
-                    ],
-                    "justification": "These phrases emphasize working collaboratively within diverse teams and having a mentor ('buddy'), indicating a focus on teamwork and communication."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH1: Programming Languages",
-                    "technologies": [
-                        "Linux",
-                        "VxWorks",
-                        "RTOS",
-                        "Windows"
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Actief bezig zijn in de innovatieve machine- en apparatenbouw en systeemintegratie' suggests an understanding and involvement in the business domain of machine and device manufacturing and system integration.",
+                    "phrase": "Actief bezig zijn in de innovatieve machine- en apparatenbouw en systeemintegratie"
                 },
                 {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "technologies": [
-                        "LLM",
-                        "kunstmatige intelligentie",
-                        "AI technologieën"
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The mention of 'Data Science' in the title implies involvement in data-related tasks, which can encompass data engineering aspects.",
+                    "phrase": "Data Science"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Werken met LLM, kunstmatige intelligentie en AI technologieën' indicates engagement with AI models, which falls under the modeling category, although the specific type of modeling (generative vs. predictive) is not detailed.",
+                    "phrase": "Werken met LLM, kunstmatige intelligentie en AI technologieën"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'je werk in multidisciplinaire teams' and 'ervaring opdoen in multidisciplinaire teams' highlights the need for collaboration within diverse teams.",
+                    "phrase": "multidisciplinaire teams"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "justification": "The phrase 'Je kennis ontwikkelen door trainingen en cursussen' directly points to a commitment to continuous learning and skill development.",
+                    "phrase": "Je kennis ontwikkelen door trainingen en cursussen"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "Je kennis ontwikkelen door trainingen en cursussen"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "multidisciplinaire teams"
                 },
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "werk je in multidisciplinaire teams",
-                        "krijg je een buddy aangewezen",
-                        "Werken aan diverse softwareoplossingen samen met een team van professionals",
-                        "ervaring opdoen in multidisciplinaire teams"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Je kennis ontwikkelen door trainingen en cursussen"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLM"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "Actief bezig zijn in de innovatieve machine- en apparatenbouw en systeemintegratie"
-                    ]
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Linux"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "VxWorks"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "RTOS"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Windows"
                 }
             ]
         }

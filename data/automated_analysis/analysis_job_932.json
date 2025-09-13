@@ -28,145 +28,154 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 5,
-            "rationale": "The job description heavily emphasizes predictive modeling, data analysis, feature engineering, and model productionization. The core responsibilities align directly with the definition of an ML Engineer, focusing on building and maintaining predictive models for business problems and optimizing processes."
+            "rationale": "The job description heavily emphasizes building and maintaining predictive models for business problems, data preprocessing, feature engineering, model selection, training, evaluation, and productionizing models. It also mentions MLOps practices like logging metrics and model registries, and maintaining models in production. While GenAI is mentioned as a potential application, the core responsibilities and technologies described align more closely with traditional ML Engineering focused on predictive modeling and production systems."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
                     "category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "dompel je je volledig onder in de context van de business om de beste oplossing voor de uitdaging te bedenken",
-                        "Werken aan voorspellingsmodellen die binnen KLM Finance worden gebruikt om zakelijke problemen op te lossen of processen te optimaliseren",
-                        "Overleggen met stakeholders en inhoudsdeskundigen om de onderliggende businessvraag en vereisten beter te begrijpen",
-                        "Hoe kunnen we het risico van cash in vreemde valuta het beste beheren?",
-                        "Hoe kunnen we het contractteam ondersteunen bij het extraheren van tarieven uit contracten?",
-                        "Hoe kunnen we facturen vinden met onjuist geregistreerde btw?",
-                        "Kunnen we GenAI-modellen inzetten om inkomstenverlies tijdens ons facturatieproces te voorkomen?",
-                        "Dit biedt volop kansen om te werken aan projecten die écht kosten besparen, klanttevredenheid verhogen en de omzet vergroten."
-                    ],
-                    "justification": "These phrases highlight the need to understand business challenges, translate them into technical requirements, and align solutions with business goals, such as optimizing processes and saving costs."
+                    "justification": "The description states 'Voordat je je IDE of notebook opent om aan de slag te gaan, dompel je je volledig onder in de context van de business om de beste oplossing voor de uitdaging te bedenken.' and 'Overleggen met stakeholders en inhoudsdeskundigen om de onderliggende businessvraag en vereisten beter te begrijpen.' and 'De antwoorden op deze vragen hebben directe invloed op de operaties van KLM. Dit biedt volop kansen om te werken aan projecten die écht kosten besparen, klanttevredenheid verhogen en de omzet vergroten.'",
+                    "phrase": "dompel je je volledig onder in de context van de business om de beste oplossing voor de uitdaging te bedenken"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The description states 'Overleggen met stakeholders en inhoudsdeskundigen om de onderliggende businessvraag en vereisten beter te begrijpen.'",
+                    "phrase": "Overleggen met stakeholders en inhoudsdeskundigen om de onderliggende businessvraag en vereisten beter te begrijpen"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The description states 'De antwoorden op deze vragen hebben directe invloed op de operaties van KLM. Dit biedt volop kansen om te werken aan projecten die écht kosten besparen, klanttevredenheid verhogen en de omzet vergroten.'",
+                    "phrase": "werken aan projecten die écht kosten besparen, klanttevredenheid verhogen en de omzet vergroten"
                 },
                 {
                     "category": "TASK2: Data Engineering",
-                    "phrases": [
-                        "Uitvoeren van exploratieve data-analyse om de datakwaliteit te beoordelen en belangrijke inzichten te verkrijgen",
-                        "Creatief zijn met feature engineering: nieuwe databronnen combineren met traditionele datawarehouses of onze uitgebreide data lakes om de model performance te verbeteren."
-                    ],
-                    "justification": "This category covers the analysis of data quality, exploration, and the creative combination of data sources for feature engineering, which are crucial steps in preparing data for modeling."
+                    "justification": "The description states 'Creatief zijn met feature engineering: nieuwe databronnen combineren met traditionele datawarehouses of onze uitgebreide data lakes om de model performance te verbeteren.'",
+                    "phrase": "Creatief zijn met feature engineering: nieuwe databronnen combineren met traditionele datawarehouses of onze uitgebreide data lakes"
                 },
                 {
                     "category": "TASK3: Modeling",
-                    "phrases": [
-                        "Werken aan voorspellingsmodellen die binnen KLM Finance worden gebruikt om zakelijke problemen op te lossen of processen te optimaliseren",
-                        "Onderzoeken en selecteren van een geschikte set potentiële modellen en loss functions die aansluiten bij het probleem, en validatiestrategieën bespreken met collega data scientisten",
-                        "Creatief zijn met feature engineering: nieuwe databronnen combineren met traditionele datawarehouses of onze uitgebreide data lakes om de model performance te verbeteren.",
-                        "Experimenten uitvoeren en de metrics, parameters en metadata van je model loggen in een model registry om delen en reproduceerbaarheid te vergemakkelijken.",
-                        "Je model onderhouden en/of verbeteren door monitoring, hertrainen, toevoegen van nieuwe features, enzovoort.",
-                        "Kunnen we GenAI-modellen inzetten om inkomstenverlies tijdens ons facturatieproces te voorkomen?"
-                    ],
-                    "justification": "The core of the role involves working with predictive models, selecting appropriate models and loss functions, feature engineering, conducting experiments, logging metrics, and maintaining/improving models, all central to the modeling process."
+                    "justification": "The description states 'Werken aan voorspellingsmodellen die binnen KLM Finance worden gebruikt om zakelijke problemen op te lossen of processen te optimaliseren.'",
+                    "phrase": "Werken aan voorspellingsmodellen die binnen KLM Finance worden gebruikt om zakelijke problemen op te lossen of processen te optimaliseren"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The description states 'Onderzoeken en selecteren van een geschikte set potentiële modellen en loss functions die aansluiten bij het probleem, en validatiestrategieën bespreken met collega data scientisten.'",
+                    "phrase": "Onderzoeken en selecteren van een geschikte set potentiële modellen en loss functions"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The description states 'Experimenten uitvoeren en de metrics, parameters en metadata van je model loggen in een model registry om delen en reproduceerbaarheid te vergemakkelijken.'",
+                    "phrase": "Experimenten uitvoeren en de metrics, parameters en metadata van je model loggen in een model registry"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The description states 'Kunnen we GenAI-modellen inzetten om inkomstenverlies tijdens ons facturatieproces te voorkomen?'",
+                    "phrase": "Kunnen we GenAI-modellen inzetten om inkomstenverlies tijdens ons facturatieproces te voorkomen"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "phrases": [
-                        "Je model in productie brengen en samenwerken met engineers binnen en buiten het team om ervoor te zorgen dat de productie aan bedrijfsbrede standaarden voldoet.",
-                        "Vertalen van Data Science-vereisten naar architecturale componenten en werkwijzen."
-                    ],
-                    "justification": "This task involves bringing models into production, collaborating with engineers, and translating data science requirements into architectural components, which are aspects of software development for AI systems."
+                    "justification": "The description states 'Je model in productie brengen en samenwerken met engineers binnen en buiten het team om ervoor te zorgen dat de productie aan bedrijfsbrede standaarden voldoet.' and 'Vertalen van Data Science-vereisten naar architecturale componenten en werkwijzen.'",
+                    "phrase": "Vertalen van Data Science-vereisten naar architecturale componenten en werkwijzen"
                 },
                 {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Experimenten uitvoeren en de metrics, parameters en metadata van je model loggen in een model registry om delen en reproduceerbaarheid te vergemakkelijken.",
-                        "Je model in productie brengen en samenwerken met engineers binnen en buiten het team om ervoor te zorgen dat de productie aan bedrijfsbrede standaarden voldoet.",
-                        "Je model onderhouden en/of verbeteren door monitoring, hertrainen, toevoegen van nieuwe features, enzovoort.",
-                        "Bijdragen aan onze aankomende transitie naar de cloud: vereisten en verbeteringen identificeren en deze communiceren met de betrokken partijen."
-                    ],
-                    "justification": "The description includes logging model experiments, productionizing models, monitoring, retraining, and contributing to cloud transitions, all of which are key components of MLOps."
-                }
-            ],
-            "technologies": [
-                {
-                    "category": "TECH2: Cloud Platforms & Services",
-                    "technologies": [
-                        "cloud"
-                    ],
-                    "justification": "The job description mentions contributing to a cloud transition, indicating the use of cloud platforms."
+                    "justification": "The description states 'Je model in productie brengen en samenwerken met engineers binnen en buiten het team om ervoor te zorgen dat de productie aan bedrijfsbrede standaarden voldoet.'",
+                    "phrase": "Je model in productie brengen en samenwerken met engineers binnen en buiten het team om ervoor te zorgen dat de productie aan bedrijfsbrede standaarden voldoet"
                 },
                 {
-                    "category": "TECH3: LLM / Generative Models",
-                    "technologies": [
-                        "GenAI-modellen"
-                    ],
-                    "justification": "The job description explicitly mentions the potential use of GenAI models for specific business problems."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The description states 'Je model onderhouden en/of verbeteren door monitoring, hertrainen, toevoegen van nieuwe features, enzovoort.'",
+                    "phrase": "Je model onderhouden en/of verbeteren door monitoring, hertrainen, toevoegen van nieuwe features, enzovoort"
                 },
                 {
-                    "category": "TECH6: MLOps & Data Pipelines",
-                    "technologies": [
-                        "model registry"
-                    ],
-                    "justification": "The mention of a 'model registry' directly relates to MLOps practices for tracking and managing models."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The description states 'Bijdragen aan onze aankomende transitie naar de cloud: vereisten en verbeteringen identificeren en deze communiceren met de betrokken partijen.'",
+                    "phrase": "Bijdragen aan onze aankomende transitie naar de cloud"
                 },
                 {
-                    "category": "TECH10: Data Modeling",
-                    "technologies": [
-                        "loss functions",
-                        "feature engineering"
-                    ],
-                    "justification": "The role involves selecting 'loss functions' and performing 'feature engineering', which are core concepts in data modeling and machine learning."
-                },
-                {
-                    "category": "TECH11: Data Analysis",
-                    "technologies": [
-                        "data lakes",
-                        "data warehouses",
-                        "explorative data analysis"
-                    ],
-                    "justification": "The job requires performing 'explorative data analysis' and working with 'data lakes' and 'data warehouses'."
+                    "category": "TASK3: Modeling",
+                    "justification": "The description states 'Uitvoeren van exploratieve data-analyse om de datakwaliteit te beoordelen en belangrijke inzichten te verkrijgen.'",
+                    "phrase": "Uitvoeren van exploratieve data-analyse om de datakwaliteit te beoordelen en belangrijke inzichten te verkrijgen"
                 }
             ],
             "soft_skills": [
                 {
                     "category": "SKILL1: Communication & Collaboration",
-                    "skills": [
-                        "Overleggen met stakeholders en inhoudsdeskundigen om de onderliggende businessvraag en vereisten beter te begrijpen",
-                        "validatiestrategieën bespreken met collega data scientisten",
-                        "samenwerken met engineers binnen en buiten het team",
-                        "communiceren met de betrokken partijen",
-                        "Je belangrijkste inzichten delen tijdens community-evenementen."
-                    ],
-                    "justification": "The role requires extensive collaboration with stakeholders, data scientists, and engineers, as well as sharing insights."
+                    "phrase": "Overleggen met stakeholders en inhoudsdeskundigen"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "bespreken met collega data scientisten"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "samenwerken met engineers binnen en buiten het team"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "communiceren met de betrokken partijen"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Je belangrijkste inzichten delen tijdens community-evenementen"
                 },
                 {
                     "category": "SKILL2: Learning & Adaptability",
-                    "skills": [
-                        "Dit moedigen we je aan - en verwachten ook - dat je 15-20% van je tijd besteedt aan leren, onderzoek doen en jezelf ontwikkelen. Dit kun je doen door cursussen te volgen, papers te lezen of gave hackprojecten uit te voeren met je collega's.",
-                        "De projecten die je in deze ontwikkeltijd oppakt, moeten gerelateerd zijn aan jouw rol, maar hoeven niet direct aan te sluiten bij de projecten waaraan je normaal werkt."
-                    ],
-                    "justification": "A significant portion of time is allocated for learning, research, and self-development, emphasizing continuous learning and adaptability."
+                    "phrase": "15-20% van je tijd besteedt aan leren, onderzoek doen en jezelf ontwikkelen"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "cursussen te volgen, papers te lezen of gave hackprojecten uit te voeren"
                 },
                 {
                     "category": "SKILL3: Problem Solving & Pragmatism",
-                    "skills": [
-                        "dompel je je volledig onder in de context van de business om de beste oplossing voor de uitdaging te bedenken",
-                        "Werken aan voorspellingsmodellen die binnen KLM Finance worden gebruikt om zakelijke problemen op te lossen of processen te optimaliseren",
-                        "Hoe kunnen we het risico van cash in vreemde valuta het beste beheren?",
-                        "Hoe kunnen we het contractteam ondersteunen bij het extraheren van tarieven uit contracten?",
-                        "Hoe kunnen we facturen vinden met onjuist geregistreerde btw?",
-                        "Kunnen we GenAI-modellen inzetten om inkomstenverlies tijdens ons facturatieproces te voorkomen?",
-                        "Dit biedt volop kansen om te werken aan projecten die écht kosten besparen, klanttevredenheid verhogen en de omzet vergroten."
-                    ],
-                    "justification": "The role is focused on solving business problems using predictive models and identifying opportunities to save costs, increase satisfaction, and grow revenue, requiring a pragmatic and problem-solving approach."
+                    "phrase": "zakelijke problemen op te lossen of processen te optimaliseren"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "de beste oplossing voor de uitdaging te bedenken"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "belangrijke inzichten te verkrijgen"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Hoe kunnen we het risico van cash in vreemde valuta het beste beheren?"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Hoe kunnen we het contractteam ondersteunen bij het extraheren van tarieven uit contracten?"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Hoe kunnen we facturen vinden met onjuist geregistreerde btw?"
                 },
                 {
                     "category": "SKILL5: Innovation & Ownership",
-                    "skills": [
-                        "Creatief zijn met feature engineering",
-                        "Experimenten uitvoeren",
-                        "Bijdragen aan onze aankomende transitie naar de cloud: vereisten en verbeteringen identificeren en deze communiceren met de betrokken partijen."
-                    ],
-                    "justification": "The job encourages creativity in feature engineering, experimentation, and proactive contribution to cloud transitions, suggesting a need for innovation and ownership."
+                    "phrase": "Creatief zijn met feature engineering"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Plezier hebben en genieten van wat je doet!"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "GenAI-modellen"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "voorspellingsmodellen"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "model registry"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "cloud"
                 }
             ]
         }

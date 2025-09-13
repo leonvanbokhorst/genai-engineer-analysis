@@ -28,99 +28,102 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes working with LLMs and Retrieval-Augmented Generation (RAG), which are core to GenAI. While it mentions ML algorithms, the focus on these specific generative techniques and their deployment into user-facing solutions aligns more with a GenAI Engineer than a traditional ML Engineer."
+            "rationale": "The job description heavily emphasizes the development and deployment of applications built on top of large language models (LLMs) and Retrieval-Augmented Generation (RAG) systems. While it mentions 'Machine Learning Engineer' in the title, the core responsibilities like 'Craft, implement, and fine-tune machine learning algorithms, focusing on Retrieval-Augmented Generation and LLM,' 'Partner closely with medical specialists to translate their expertise into our AI engine,' and the mention of 'vectorial representations' strongly align with the definition and core responsibilities of a GenAI Engineer, particularly in building user-facing AI systems and integrating generative models. The emphasis on MLOps and production deployment further supports this classification."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK3: Modeling",
-                    "phrases": [
-                        "Craft, implement, and fine-tune machine learning algorithms, focusing on Retrieval-Augmented Generation and LLM.",
-                        "translate their expertise into our AI engine."
-                    ],
-                    "justification": "The phrases directly relate to the creation, adaptation, and application of machine learning models, specifically mentioning LLMs and RAG, which are generative modeling techniques."
+                    "category": "TASK3",
+                    "justification": "The phrase 'Craft, implement, and fine-tune machine learning algorithms, focusing on Retrieval-Augmented Generation and LLM' directly relates to the creation and adaptation of models, specifically generative ones.",
+                    "phrase": "Craft, implement, and fine-tune machine learning algorithms, focusing on Retrieval-Augmented Generation and LLM"
                 },
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        "bridge the gap between model development and production.",
-                        "Collaborate with our tech team to construct a resilient, scalable infrastructure for our ML solutions."
-                    ],
-                    "justification": "These phrases indicate the need to integrate ML models into larger systems and build the underlying infrastructure, which are software development activities."
+                    "category": "TASK1",
+                    "justification": "The phrase 'Partner closely with medical specialists to translate their expertise into our AI engine' indicates the need to understand and integrate domain-specific knowledge into technical solutions.",
+                    "phrase": "Partner closely with medical specialists to translate their expertise into our AI engine"
                 },
                 {
-                    "task_name": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "integral part of the smooth deployment, scalability, and maintenance of our machine learning solutions.",
-                        "Ensure seamless deployment, monitoring, and scalability of our ML models in production environments.",
-                        "Champion robust ML-Ops practices, including continuous integration, continuous delivery, and automated testing for ML systems.",
-                        "Monitor model performance, ensuring real-time diagnostics and speedy troubleshooting."
-                    ],
-                    "justification": "All these phrases directly describe MLOps responsibilities, including deployment, monitoring, CI/CD, and maintenance of ML models in production."
+                    "category": "TASK5",
+                    "justification": "The phrase 'Ensure seamless deployment, monitoring, and scalability of our ML models in production environments' is a core aspect of MLOps.",
+                    "phrase": "Ensure seamless deployment, monitoring, and scalability of our ML models in production environments"
                 },
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        "collaborating closely with medical experts",
-                        "Partner closely with medical specialists to translate their expertise into our AI engine."
-                    ],
-                    "justification": "These phrases highlight the need to understand the domain (medical expertise) and translate it into technical requirements for the AI engine."
+                    "category": "TASK5",
+                    "justification": "The phrase 'Champion robust ML-Ops practices, including continuous integration, continuous delivery, and automated testing for ML systems' explicitly mentions MLOps practices.",
+                    "phrase": "Champion robust ML-Ops practices, including continuous integration, continuous delivery, and automated testing for ML systems"
                 },
                 {
-                    "task_name": "TASK2: Data Engineering",
-                    "phrases": [
-                        "domain knowledge into vectorial representations"
-                    ],
-                    "justification": "Vectorial representations are a key output of data processing and feature engineering steps, often involving data engineering practices for ML models."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "phrase": "LLM"
+                    "category": "TASK4",
+                    "justification": "The phrase 'Collaborate with our tech team to construct a resilient, scalable infrastructure for our ML solutions' involves building and maintaining the systems that support ML models, which falls under software development for AI systems.",
+                    "phrase": "Collaborate with our tech team to construct a resilient, scalable infrastructure for our ML solutions"
                 },
                 {
-                    "tech_name": "TECH4: LLM Frameworks & Libraries",
-                    "phrase": "Retrieval-Augmented Generation"
+                    "category": "TASK5",
+                    "justification": "The phrase 'Monitor model performance, ensuring real-time diagnostics and speedy troubleshooting' is a key responsibility in maintaining models in production.",
+                    "phrase": "Monitor model performance, ensuring real-time diagnostics and speedy troubleshooting"
                 },
                 {
-                    "tech_name": "TECH10: Data Modeling",
-                    "phrase": "machine learning algorithms"
+                    "category": "TASK2",
+                    "justification": "The phrase 'bring substantial domain knowledge into vectorial representations' implies data preprocessing and feature engineering, specifically for generative models.",
+                    "phrase": "bring substantial domain knowledge into vectorial representations"
                 },
                 {
-                    "tech_name": "TECH6: MLOps & Data Pipelines",
-                    "phrase": "ML-Ops practices, including continuous integration, continuous delivery, and automated testing for ML systems."
+                    "category": "TASK2",
+                    "justification": "The phrase 'bridge the gap between model development and production' implies tasks related to data pipelines and integration, which are part of data engineering.",
+                    "phrase": "bridge the gap between model development and production"
+                },
+                {
+                    "category": "TASK2",
+                    "justification": "The phrase 'Stay in the loop with the latest trends in AI, ML, and ML-Ops' relates to understanding and potentially implementing new data processing and modeling techniques.",
+                    "phrase": "Stay in the loop with the latest trends in AI, ML, and ML-Ops"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
+                    "category": "SKILL1",
                     "phrase": "collaborating closely with medical experts and our dev/ops engineers"
                 },
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
+                    "category": "SKILL1",
                     "phrase": "Partner closely with medical specialists"
                 },
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
+                    "category": "SKILL1",
                     "phrase": "Collaborate with our tech team"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrase": "Stay in the loop with the latest trends in AI, ML, and ML-Ops to continually push our boundaries."
+                    "category": "SKILL2",
+                    "phrase": "Stay in the loop with the latest trends in AI, ML, and ML-Ops"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "speedy troubleshooting."
+                    "category": "SKILL5",
+                    "phrase": "You won't just contribute to building our AI engine; you'll also be an integral part of the smooth deployment, scalability, and maintenance of our machine learning solutions."
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrase": "integral part of the smooth deployment, scalability, and maintenance of our machine learning solutions."
-                },
-                {
-                    "skill_name": "SKILL5: Innovation & Ownership",
+                    "category": "SKILL5",
                     "phrase": "Champion robust ML-Ops practices"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "LLM"
+                },
+                {
+                    "category": "TECH4",
+                    "phrase": "Retrieval-Augmented Generation"
+                },
+                {
+                    "category": "TECH10",
+                    "phrase": "machine learning algorithms"
+                },
+                {
+                    "category": "TECH5",
+                    "phrase": "vectorial representations"
+                },
+                {
+                    "category": "TECH6",
+                    "phrase": "ML-Ops"
                 }
             ]
         }

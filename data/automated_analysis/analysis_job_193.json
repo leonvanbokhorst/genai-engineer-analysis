@@ -26,95 +26,74 @@
         "full_text": "Software engineer bij Prime Contact\n\n* Ontwerpen, ontwikkelen en onderhouden van de backend-architectuur van onze SaaS-oplossing WFM Buddy, die draait op het AWS Cloud platform.\n     * Samenwerken met je team om producten continu te verbeteren op het gebied van performance, security, reliability en scalability.\n     * Verantwoordelijkheid nemen voor het oplossen van complexe technische vraagstukken en het implementeren van nieuwe functionaliteiten.\n     * Verzorgen van software-updates en bugfixes om de kwaliteit en werking van de software te waarborgen.\n     * Testen van code en het bewaken van de best practices in softwareontwikkeling.\n     * Deelnemen aan brainstormsessies en technische besluitvormingsprocessen om het product verder te innoveren.\n     * Proactief leren en ontwikkelen van je technische vaardigheden en bijdragen aan kennisdeling binnen het team."
     },
     "analysis": {
-        "job_profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on traditional backend software engineering for a SaaS solution, with no mention of AI, machine learning, or generative models. While it involves software development and cloud platforms, it lacks the core elements required for ML Engineer or GenAI Engineer profiles."
+        "profile_classification": {
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on traditional software engineering tasks such as backend architecture, performance, security, reliability, scalability, software updates, bug fixes, and code testing. While it mentions innovation and technical decision-making, there is no specific mention of AI, machine learning, generative models, or related technologies. Therefore, it does not fit the criteria for ML Engineer or GenAI Engineer and is classified as Ambiguous."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "Ontwerpen, ontwikkelen en onderhouden van de backend-architectuur van onze SaaS-oplossing WFM Buddy",
-                        "Samenwerken met je team om producten continu te verbeteren op het gebied van performance, security, reliability en scalability",
-                        "Verantwoordelijkheid nemen voor het oplossen van complexe technische vraagstukken en het implementeren van nieuwe functionaliteiten",
-                        "Verzorgen van software-updates en bugfixes om de kwaliteit en werking van de software te waarborgen",
-                        "Testen van code en het bewaken van de best practices in softwareontwikkeling"
-                    ],
-                    "justification": "These phrases describe the core activities of designing, building, maintaining, and improving software systems, including aspects of performance, security, and scalability, which are central to software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description explicitly mentions designing, developing, and maintaining the backend architecture of a SaaS solution, implementing new functionalities, providing software updates and bug fixes, and testing code. These are core software development activities.",
+                    "phrase": "Ontwerpen, ontwikkelen en onderhouden van de backend-architectuur van onze SaaS-oplossing"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Samenwerken met je team om producten continu te verbeteren op het gebied van performance, security, reliability en scalability",
-                        "Verzorgen van software-updates en bugfixes om de kwaliteit en werking van de software te waarborgen",
-                        "Testen van code"
-                    ],
-                    "justification": "While not explicitly MLOps, the focus on improving performance, security, reliability, scalability, software updates, bug fixes, and code testing are operational aspects of ensuring a software product runs smoothly in production, aligning with the broader principles of operations engineering."
+                    "category": "TASK4: Software Development",
+                    "justification": "Collaborating with the team to improve product aspects like performance, security, reliability, and scalability are typical responsibilities within software development to ensure a robust application.",
+                    "phrase": "Samenwerken met je team om producten continu te verbeteren op het gebied van performance, security, reliability en scalability."
                 },
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "Ontwerpen, ontwikkelen en onderhouden van de backend-architectuur van onze SaaS-oplossing WFM Buddy"
-                    ],
-                    "justification": "Understanding the SaaS solution 'WFM Buddy' and its backend architecture implies a need to grasp the business context and how the technical solution serves it."
+                    "category": "TASK3: Modeling",
+                    "justification": "While not explicitly AI/ML modeling, 'oplossen van complexe technische vraagstukken' can encompass problem-solving that might involve algorithmic thinking or model-based solutions in a broader software engineering context, though it's a weak signal.",
+                    "phrase": "Verantwoordelijkheid nemen voor het oplossen van complexe technische vraagstukken"
                 },
                 {
-                    "task_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Verantwoordelijkheid nemen voor het oplossen van complexe technische vraagstukken",
-                        "Deelnemen aan brainstormsessies en technische besluitvormingsprocessen om het product verder te innoveren"
-                    ],
-                    "justification": "These phrases highlight the need to tackle complex technical challenges and contribute to innovation through problem-solving and decision-making."
+                    "category": "TASK4: Software Development",
+                    "justification": "Ensuring software quality and functionality through updates and bug fixes is a fundamental part of the software development lifecycle.",
+                    "phrase": "Verzorgen van software-updates en bugfixes om de kwaliteit en werking van de software te waarborgen."
                 },
                 {
-                    "task_category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "Proactief leren en ontwikkelen van je technische vaardigheden en bijdragen aan kennisdeling binnen het team"
-                    ],
-                    "justification": "This directly indicates a requirement for continuous learning and skill development in a technical field."
+                    "category": "TASK4: Software Development",
+                    "justification": "Testing code and adhering to best practices are essential components of professional software development.",
+                    "phrase": "Testen van code en het bewaken van de best practices in softwareontwikkeling."
                 },
                 {
-                    "task_category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Samenwerken met je team",
-                        "Deelnemen aan brainstormsessies en technische besluitvormingsprocessen",
-                        "bijdragen aan kennisdeling binnen het team"
-                    ],
-                    "justification": "These phrases emphasize teamwork, participation in discussions, and sharing knowledge, all of which are key aspects of communication and collaboration."
-                }
-            ],
-            "technologies": [
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Participating in brainstorming and technical decision-making processes to innovate the product indicates an understanding of how technical decisions impact business goals and product direction.",
+                    "phrase": "Deelnemen aan brainstormsessies en technische besluitvormingsprocessen om het product verder te innoveren."
+                },
                 {
-                    "tech_category": "TECH2: Cloud Platforms & Services",
-                    "tech_name": "AWS"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "justification": "Proactively learning and developing technical skills and contributing to knowledge sharing demonstrates a commitment to continuous learning and adaptability.",
+                    "phrase": "Proactief leren en ontwikkelen van je technische vaardigheden en bijdragen aan kennisdeling binnen het team."
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "skill_name": "Samenwerken met je team"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Samenwerken met je team"
                 },
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "skill_name": "Deelnemen aan brainstormsessies en technische besluitvormingsprocessen"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Verantwoordelijkheid nemen voor het oplossen van complexe technische vraagstukken"
                 },
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "skill_name": "bijdragen aan kennisdeling binnen het team"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Deelnemen aan brainstormsessies"
                 },
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "skill_name": "Proactief leren en ontwikkelen van je technische vaardigheden"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Proactief leren en ontwikkelen van je technische vaardigheden"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "skill_name": "Verantwoordelijkheid nemen voor het oplossen van complexe technische vraagstukken"
-                },
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "bijdragen aan kennisdeling binnen het team"
+                }
+            ],
+            "technologies": [
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "skill_name": "Deelnemen aan brainstormsessies en technische besluitvormingsprocessen om het product verder te innoveren"
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "AWS Cloud platform"
                 }
             ]
         }

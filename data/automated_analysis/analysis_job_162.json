@@ -27,119 +27,151 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional backend software development, microservices, and cloud infrastructure (Azure, Kubernetes). While it mentions modern technologies and CI/CD, there is no mention of AI, machine learning, generative models, or related tasks, making it irrelevant to the GenAI Engineer profile."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on traditional backend development, software engineering best practices, and cloud infrastructure (Azure, Kubernetes, Kafka, Kotlin). While it mentions 'employee experience platform' and 'app', there is no mention of Generative AI, LLMs, diffusion models, or related technologies. The role appears to be a Senior Backend Engineer position, not directly involved in AI model development or deployment, thus falling under the 'Ambiguous' category as it's not an AI-specific technical role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
                     "category": "TASK4: Software Development",
-                    "evidence": [
-                        "develop code",
-                        "enforce code quality",
-                        "develop best practices",
-                        "write tests",
-                        "manage the continuous integration of code",
-                        "develop a feature-rich product",
-                        "technically scale the services",
-                        "combine best agile development practices in combination with a services-based architecture",
-                        "your own domain (Kotlin back-end services on our Azure Kubernetes platform)",
-                        "liaise with other senior engineers and their respective technologies (Front and Back End)",
-                        "Everything we build in the app is scalable, using Azure and Microservices, Kubernetes, CI/CD pipelines",
-                        "We work in small increments so we're able to put things live straight away, hence reduce our time to market",
-                        "building an employee app",
-                        "technical part of the app",
-                        "the way we work in this project is a blueprint for other teams",
-                        "share knowledge and best practices with other teams",
-                        "senior back end engineer"
-                    ],
-                    "justification": "The job description extensively details responsibilities related to writing code, ensuring code quality, testing, CI/CD, building scalable services, and working with microservices and Kubernetes, all of which fall under traditional software development."
+                    "justification": "The description emphasizes 'develop code', 'enforce code quality', 'develop best practices', 'write tests', 'manage the continuous integration of code', 'Lead software engineer, guiding other back- and front-end developers', 'develop a feature-rich product', 'combine best agile development practices in combination with a services-based architecture', 'building backend services', and 'Microservices'. These are all core software development activities.",
+                    "phrase": "develop code"
                 },
                 {
-                    "category": "TASK1: Business Understanding",
-                    "evidence": [
-                        "support product or platform architects",
-                        "technical point of contact for product owners and heads of tech",
-                        "Understand how to technically scale the services in the 'employee experience platform', which empowers the \"@AH app\"",
-                        "Understand how to combine best agile development practices in combination with a services-based architecture",
-                        "Are an expert on 'your' domain",
-                        "this initiative, building an employee app for your own colleagues, is a priority project for Albert Heijn, with the potential of scaling to other brands within Ahold Delhaize",
-                        "As a Senior engineer you have an impact on the direction of the (technical) part of the app",
-                        "the way we work in this project is a blueprint for other teams in our Retail Tech Platform"
-                    ],
-                    "justification": "The role involves acting as a technical point of contact for product owners, understanding the business context of the 'employee experience platform', and influencing the technical direction of a priority project, indicating a need for business understanding."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description emphasizes 'develop code', 'enforce code quality', 'develop best practices', 'write tests', 'manage the continuous integration of code', 'Lead software engineer, guiding other back- and front-end developers', 'develop a feature-rich product', 'combine best agile development practices in combination with a services-based architecture', 'building backend services', and 'Microservices'. These are all core software development activities.",
+                    "phrase": "enforce code quality"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The description emphasizes 'develop code', 'enforce code quality', 'develop best practices', 'write tests', 'manage the continuous integration of code', 'Lead software engineer, guiding other back- and front-end developers', 'develop a feature-rich product', 'combine best agile development practices in combination with a services-based architecture', 'building backend services', and 'Microservices'. These are all core software development activities.",
+                    "phrase": "develop best practices"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The description emphasizes 'develop code', 'enforce code quality', 'develop best practices', 'write tests', 'manage the continuous integration of code', 'Lead software engineer, guiding other back- and front-end developers', 'develop a feature-rich product', 'combine best agile development practices in combination with a services-based architecture', 'building backend services', and 'Microservices'. These are all core software development activities.",
+                    "phrase": "write tests"
                 },
                 {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "evidence": [
-                        "manage the continuous integration of code",
-                        "Azure Kubernetes platform",
-                        "CI/CD pipelines"
-                    ],
-                    "justification": "The mention of managing CI/CD pipelines and working with Azure Kubernetes platform points to operational aspects of deploying and maintaining software, which aligns with Operations Engineering, though not specifically MLOps."
-                }
-            ],
-            "technologies": [
-                {
-                    "category": "TECH1: Programming Languages",
-                    "evidence": [
-                        "Kotlin"
-                    ]
+                    "justification": "The phrase 'manage the continuous integration of code' directly relates to CI/CD pipelines, which are a fundamental part of MLOps and general DevOps practices for automated software deployment and integration.",
+                    "phrase": "manage the continuous integration of code"
                 },
                 {
-                    "category": "TECH2: Cloud Platforms & Services",
-                    "evidence": [
-                        "Azure"
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves being the 'technical point of contact for product owners and heads of tech', and supporting 'product or platform architects', indicating a need to understand business requirements and translate them into technical solutions.",
+                    "phrase": "technical point of contact for product owners and heads of tech"
                 },
                 {
-                    "category": "TECH6: MLOps & Data Pipelines",
-                    "evidence": [
-                        "Kafka",
-                        "Kubernetes",
-                        "CI/CD pipelines"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The role explicitly states 'Are the Lead software engineer, guiding other back- and front-end developers in developing a feature-rich product for our employees.' This highlights a leadership role in software development.",
+                    "phrase": "Lead software engineer, guiding other back- and front-end developers"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions 'develop a feature-rich product for our employees', which is a direct software development objective.",
+                    "phrase": "developing a feature-rich product"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Understand how to technically scale the services in the 'employee experience platform'' points to the software engineering challenge of designing scalable systems.",
+                    "phrase": "technically scale the services"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The description states 'Understand how to combine best agile development practices in combination with a services-based architecture', which is a core software engineering principle.",
+                    "phrase": "combine best agile development practices in combination with a services-based architecture"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role requires being an 'expert on 'your' domain (Kotlin back-end services on our Azure Kubernetes platform)', indicating deep involvement in backend service development.",
+                    "phrase": "Kotlin back-end services"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of 'Microservices, Kubernetes, CI/CD pipelines' points to operational aspects of deploying and managing software systems, which falls under MLOps/DevOps.",
+                    "phrase": "Microservices, Kubernetes, CI/CD pipelines"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'put things live straight away, hence reduce our time to market' implies a focus on efficient deployment and release cycles, a key aspect of MLOps.",
+                    "phrase": "put things live straight away"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The role involves being a 'technical point of contact for product owners and heads of tech' and contributing to the 'AH Tech community via Guilds, inner source initiatives', requiring strong communication and collaboration skills.",
+                    "phrase": "contribute to the AH Tech community via Guilds, inner source initiatives"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "justification": "As a Senior Engineer, the role has 'impact on the direction of the (technical) part of the app' and encourages sharing knowledge, indicating a need for ownership and proactive contribution.",
+                    "phrase": "have impact on the direction of the (technical) part of the app"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The description mentions working in a 'multi-disciplinarian team; with dedicated QA, UX designer, developers, product owner', which necessitates strong collaboration skills.",
+                    "phrase": "multi-disciplinarian team"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "justification": "The statement 'the way we work in this project is a blueprint for other teams in our Retail Tech Platform. Therefore, we encourage you to share knowledge and best practices with other teams' implies a need for ownership and proactive knowledge sharing.",
+                    "phrase": "share knowledge and best practices with other teams"
                 }
             ],
             "soft_skills": [
                 {
                     "category": "SKILL1: Communication & Collaboration",
-                    "evidence": [
-                        "participate in standups and refinements",
-                        "technical point of contact for product owners and heads of tech",
-                        "liaise with other senior engineers",
-                        "work in a multi-disciplinarian team; with dedicated QA, UX designer, developers, product owner",
-                        "share knowledge and best practices with other teams"
-                    ]
+                    "phrase": "technical point of contact for product owners and heads of tech"
                 },
                 {
-                    "category": "SKILL3: Problem Solving & Pragmatism",
-                    "evidence": [
-                        "develop best practices",
-                        "technically scale the services",
-                        "combine best agile development practices in combination with a services-based architecture",
-                        "work in small increments so we're able to put things live straight away, hence reduce our time to market",
-                        "As a Senior engineer you have an impact on the direction of the (technical) part of the app"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "contribute to the AH Tech community via Guilds, inner source initiatives"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "multi-disciplinarian team"
                 },
                 {
                     "category": "SKILL5: Innovation & Ownership",
-                    "evidence": [
-                        "Are the Lead software engineer, guiding other back- and front-end developers",
-                        "Are an expert on 'your' domain",
-                        "As a Senior engineer you have an impact on the direction of the (technical) part of the app",
-                        "the way we work in this project is a blueprint for other teams",
-                        "Therefore, we encourage you to share knowledge and best practices with other teams"
-                    ]
+                    "phrase": "have impact on the direction of the (technical) part of the app"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "share knowledge and best practices with other teams"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Understand how to technically scale the services"
                 },
                 {
                     "category": "SKILL2: Learning & Adaptability",
-                    "evidence": [
-                        "work with modern technologies",
-                        "we have zero legacy",
-                        "liaise with other senior engineers and their respective technologies (Front and Back End)"
-                    ]
+                    "phrase": "work with modern technologies"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Kotlin"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Kafka"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "CI/CD pipelines"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure Kubernetes platform"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "Microservices"
                 }
             ]
         }

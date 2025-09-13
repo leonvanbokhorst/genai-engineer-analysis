@@ -27,204 +27,100 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on exam development, localization, and quality assurance within an educational context. While it mentions integrating generative AI and writing machine learning algorithms, these appear to be secondary tasks supporting the core function of exam development, rather than the primary focus of an AI engineering role."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on exam development, localization, and maintenance, with a secondary mention of integrating generative AI solutions. While it mentions translating guidelines into machine learning algorithms and staying updated on AI/ML research, the core responsibilities and tasks are centered around educational content development and quality assurance rather than the core engineering of AI models or systems. The role appears to be more about applying AI tools to existing processes rather than building AI systems, fitting the 'Ambiguous' profile as it primarily focuses on the use of AI tools to enhance productivity within an educational context."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "coordinate all the activities related to developing new exams",
-                            "justification": "This phrase indicates an understanding of the overall process and goals of exam development, aligning with the business context."
-                        },
-                        {
-                            "phrase": "translating existing exams to several different languages",
-                            "justification": "This involves understanding the business need for localization and adapting content accordingly."
-                        },
-                        {
-                            "phrase": "updating the exams to current standards during maintenance",
-                            "justification": "This shows an understanding of evolving business requirements and the need to keep products relevant."
-                        },
-                        {
-                            "phrase": "implementing exam products in the various systems",
-                            "justification": "This implies understanding how exam products fit into broader systems and business processes."
-                        },
-                        {
-                            "phrase": "review the quality of the exams through item and test analysis",
-                            "justification": "This demonstrates an understanding of quality metrics and business objectives related to exam effectiveness."
-                        },
-                        {
-                            "phrase": "work on all exams that form part of EXIN's certification portfolio",
-                            "justification": "This shows an understanding of the scope and strategic importance of the work within the organization's offerings."
-                        },
-                        {
-                            "phrase": "Ensuring that deliverables are in line with high-quality standards, are within budget, and delivered on time",
-                            "justification": "This directly relates to understanding and meeting business constraints and objectives."
-                        },
-                        {
-                            "phrase": "Supporting our Customer Success Center by preparing responses to customer questions on the content of the exams",
-                            "justification": "This involves understanding customer needs and business support functions."
-                        },
-                        {
-                            "phrase": "Representing EXIN through attending (online) events",
-                            "justification": "This indicates a role in external communication and understanding the company's market presence."
-                        }
-                    ]
+                    "category": "TASK1",
+                    "justification": "The role involves coordinating activities related to exam development, localization, and maintenance, which requires understanding the business context of certification and educational standards.",
+                    "phrase": "coordinate all the activities related to developing new exams, translating existing exams to several different languages, updating the exams to current standards during maintenance, and implementing exam products in the various systems."
                 },
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": []
+                    "category": "TASK1",
+                    "justification": "The role requires understanding and applying guidelines for educational measurement, which is a business-specific requirement.",
+                    "phrase": "(Co)developing and improving exam products in line with guidelines for educational measurement"
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        {
-                            "phrase": "translate internal guidelines into machine learning algorithms",
-                            "justification": "This involves the process of creating or adapting algorithms based on specific requirements."
-                        },
-                        {
-                            "phrase": "Independently writing and maintaining machine learning algorithms",
-                            "justification": "This directly refers to the core activity of developing and managing ML models."
-                        },
-                        {
-                            "phrase": "Detecting (using test analysis) and resolving issues related to the exam products, and performing root cause analyses",
-                            "justification": "While primarily analytical, test analysis can involve statistical modeling to understand performance and identify issues."
-                        }
-                    ]
+                    "category": "TASK3",
+                    "justification": "The role explicitly mentions writing and maintaining machine learning algorithms, indicating a direct involvement in model development.",
+                    "phrase": "Independently writing and maintaining machine learning algorithms complying with standards, best practices and company policies"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "implementing exam products in the various systems",
-                            "justification": "This suggests integrating exam products into existing software systems."
-                        },
-                        {
-                            "phrase": "cooperating with third parties in creating, localizing, implementing and maintaining exam products",
-                            "justification": "This implies working with external systems or developers for implementation."
-                        }
-                    ]
+                    "category": "TASK4",
+                    "justification": "The role involves implementing exam products in various systems and potentially integrating AI solutions into these systems, suggesting software development aspects.",
+                    "phrase": "implementing exam products in the various systems"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        {
-                            "phrase": "maintaining machine learning algorithms",
-                            "justification": "This implies ongoing management and upkeep of deployed algorithms, which is a component of MLOps."
-                        },
-                        {
-                            "phrase": "Detecting (using test analysis) and resolving issues related to the exam products, and performing root cause analyses to take corrective actions",
-                            "justification": "Monitoring, identifying, and resolving issues in production systems is a key aspect of MLOps."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "machine learning algorithms",
-                    "tech_type": "TECH10: Data Modeling"
+                    "category": "TASK4",
+                    "justification": "The role mentions collaborating closely with Exam Developers to integrate generative AI solutions into processes, which implies building or integrating software components.",
+                    "phrase": "collaborate closely with the Exam Developers to integrate generative AI solutions into our processes."
                 },
                 {
-                    "tech_name": "generative AI solutions",
-                    "tech_type": "TECH3: LLM / Generative Models"
+                    "category": "TASK5",
+                    "justification": "The role mentions translating internal guidelines into machine learning algorithms while maintaining legal, qualitative and ethical compliance in the outcomes, which touches upon operational aspects of AI development and deployment.",
+                    "phrase": "translate internal guidelines into machine learning algorithms while maintaining legal, qualitative and ethical compliance in the outcomes."
+                },
+                {
+                    "category": "TASK2",
+                    "justification": "The role involves reviewing the quality of exams through item and test analysis, which can be considered a form of data analysis on exam performance.",
+                    "phrase": "review the quality of the exams through item and test analysis."
+                },
+                {
+                    "category": "TASK2",
+                    "justification": "Detecting and resolving issues related to exam products using test analysis and performing root cause analyses are data-driven problem-solving activities.",
+                    "phrase": "Detecting (using test analysis) and resolving issues related to the exam products, and performing root cause analyses to take corrective actions"
+                },
+                {
+                    "category": "SKILL2",
+                    "justification": "The phrase 'stay up to date with the latest research and developments in the field of AI and machine learning' directly indicates a need for continuous learning and adaptability.",
+                    "phrase": "stay up to date with the latest research and developments in the field of AI and machine learning."
+                },
+                {
+                    "category": "SKILL4",
+                    "justification": "The phrase 'maintaining legal, qualitative and ethical compliance in the outcomes' points to a responsibility for ethical and legal considerations in the developed algorithms.",
+                    "phrase": "maintaining legal, qualitative and ethical compliance in the outcomes"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        {
-                            "phrase": "coordinate all the activities related to developing new exams",
-                            "justification": "Coordination implies communication and collaboration with various parties."
-                        },
-                        {
-                            "phrase": "translating existing exams to several different languages",
-                            "justification": "Localization requires understanding and communicating nuances across languages and cultures."
-                        },
-                        {
-                            "phrase": "collaborate closely with the Exam Developers",
-                            "justification": "Explicit mention of collaboration."
-                        },
-                        {
-                            "phrase": "Coordinating work with subject matter experts and cooperating with third parties",
-                            "justification": "Directly states coordination and cooperation."
-                        },
-                        {
-                            "phrase": "Supporting our Customer Success Center by preparing responses to customer questions",
-                            "justification": "Requires clear communication to support external inquiries."
-                        },
-                        {
-                            "phrase": "Representing EXIN through attending (online) events",
-                            "justification": "External representation requires strong communication skills."
-                        }
-                    ]
+                    "category": "SKILL1",
+                    "phrase": "cooperate with third parties"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        {
-                            "phrase": "updating the exams to current standards during maintenance",
-                            "justification": "Implies adapting to new standards and requirements."
-                        },
-                        {
-                            "phrase": "stay up to date with the latest research and developments in the field of AI and machine learning",
-                            "justification": "Directly states the need for continuous learning."
-                        },
-                        {
-                            "phrase": "Keeping your knowledge in the domain up-to-date",
-                            "justification": "Explicit requirement for continuous learning."
-                        }
-                    ]
+                    "category": "SKILL1",
+                    "phrase": "Supporting our Customer Success Center by preparing responses to customer questions"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        {
-                            "phrase": "review the quality of the exams through item and test analysis",
-                            "justification": "Analysis implies problem identification and understanding."
-                        },
-                        {
-                            "phrase": "Detecting (using test analysis) and resolving issues related to the exam products, and performing root cause analyses to take corrective actions",
-                            "justification": "Directly describes problem-solving, issue detection, and corrective actions."
-                        },
-                        {
-                            "phrase": "Independently writing and maintaining machine learning algorithms",
-                            "justification": "Requires problem-solving to translate guidelines into functional algorithms."
-                        }
-                    ]
+                    "category": "SKILL2",
+                    "phrase": "Keeping your knowledge in the domain up-to-date"
                 },
                 {
-                    "skill_name": "Ethical & Legal Responsibility",
-                    "phrases": [
-                        {
-                            "phrase": "maintaining legal, qualitative and ethical compliance in the outcomes",
-                            "justification": "Explicitly mentions legal, qualitative, and ethical compliance."
-                        },
-                        {
-                            "phrase": "complying with standards, best practices and company policies",
-                            "justification": "Adherence to established rules and guidelines."
-                        }
-                    ]
+                    "category": "SKILL3",
+                    "phrase": "review the quality of the exams through item and test analysis."
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        {
-                            "phrase": "coordinate all the activities related to developing new exams",
-                            "justification": "Implies taking ownership of the exam development process."
-                        },
-                        {
-                            "phrase": "(Co)developing and improving exam products",
-                            "justification": "Suggests a proactive role in product enhancement."
-                        },
-                        {
-                            "phrase": "Independently writing and maintaining machine learning algorithms",
-                            "justification": "Indicates autonomy and ownership of the algorithm development and maintenance."
-                        }
-                    ]
+                    "category": "SKILL3",
+                    "phrase": "Detecting (using test analysis) and resolving issues related to the exam products, and performing root cause analyses to take corrective actions"
+                },
+                {
+                    "category": "SKILL4",
+                    "phrase": "maintaining legal, qualitative and ethical compliance in the outcomes"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "Independently writing and maintaining machine learning algorithms"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "generative AI solutions"
+                },
+                {
+                    "category": "TECH10",
+                    "phrase": "machine learning algorithms"
                 }
             ]
         }

@@ -27,114 +27,114 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "`Ambiguous / Not Relevant`",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on business development and analysis within the mortgage sector, with a strong emphasis on understanding business needs and translating them into functional requirements for developers. While it mentions \"digital solutions\" and \"innovative applications\" like chatbots, it lacks the core technical depth required for an ML Engineer or GenAI Engineer role, such as algorithm development, model training, or deep generative AI implementation."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on business development and analysis within the financial/mortgage sector, involving digital solutions and collaboration with IT teams. While it mentions digital applications like chatbots and online identification, it does not detail the development, fine-tuning, or deployment of AI models or generative technologies. The core responsibilities are centered around understanding business needs, translating requirements, and managing product roadmaps, rather than specialized AI engineering tasks. Therefore, it falls under the 'Ambiguous' category as it's primarily a business-focused role with some digital aspects, but not a core AI engineering position."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "`TASK1: Business Understanding`",
-                    "phrases": [
-                        "Als Business Developer Digital / business analist binnen Florius/Moneyou werk je samen met je team aan digitale oplossingen",
-                        "Je team bestaat uit 1 of 2 Digital collega's en 5 a 8 developers vanuit IT.",
-                        "Samen werken jullie aan innovatieve toepassingen voor Florius, Moneyou en ABN AMRO (intermediaire distributie hypotheken).",
-                        "Het team is verantwoordelijk voor de verdere invulling en realisatie van het product.",
-                        "Je werkt mee aan de roadmaps voor MijnFlorius/MijnMoneyou, maar ook onderdelen van de extranetten of toepassingen zoals de chatbot, de Florius apps, digitaal ondertekenen, online identificeren etc..",
-                        "Complexe vraagstukken (functionaliteit voor klanten en adviseurs zoals wettelijke aanpassingen in de aanvraagmodules, inloggen voor adviseurs en klanten, extra aflossen via iDeal, indienen en wijzigingen van hypotheekverzoeken) vind je uitdagend om samen met je team op te lossen.",
-                        "Om je werk goed te doen, moet je je zelf regelmatig verdiepen in de materie, zodat de beste oplossing voor adviseur of klant kan worden gemaakt.",
-                        "Je werkt dagelijks in het agile team en samen ben je van idee tot en met realisatie en gebruik verantwoordelijk.",
-                        "Met je team breng je dit van \"een idee\" naar werkende functionaliteit waar adviseurs en klanten dagelijks gebruik van maken.",
-                        "Een deel van de werkzaamheden bevat het vertalen van wet- en regelgeving naar concrete stories die developers kunnen oppakken."
-                    ],
-                    "justification": "The phrases highlight understanding business needs, translating them into product features, working with roadmaps, and solving complex functional issues for customers and advisors, all of which fall under business understanding and requirements gathering."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves working with digital solutions for mortgage advisors and customers, contributing to roadmaps, and translating legal and regulatory requirements into actionable stories for developers. This demonstrates a need to understand the business context and translate business needs into technical requirements.",
+                    "phrase": "Als Business Developer Digital / business analist binnen Florius/Moneyou werk je samen met je team aan digitale oplossingen voor (onafhankelijk) hypotheekadviseurs en klanten."
                 },
                 {
-                    "task": "`TASK4: Software Development`",
-                    "phrases": [
-                        "je team aan digitale oplossingen",
-                        "innovatieve toepassingen",
-                        "onderdelen van de extranetten of toepassingen zoals de chatbot, de Florius apps, digitaal ondertekenen, online identificeren etc..",
-                        "het werk door 1 van de circa 10 business / IT teams wordt opgepakt.",
-                        "het team is verantwoordelijk voor de verdere invulling en realisatie van het product.",
-                        "na oplevering (\"You build it, you run it\").",
-                        "naar werkende functionaliteit waar adviseurs en klanten dagelijks gebruik van maken.",
-                        "concrete stories die developers kunnen oppakken."
-                    ],
-                    "justification": "Phrases like 'digital solutions', 'innovative applications', 'extranets', 'chatbot', 'apps', 'digital signing', 'online identification', and 'working functionality' indicate involvement in the development and realization of software products, even if the role is more on the business/analyst side of defining them."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The description mentions working on complex functional issues for customers and advisors, such as legal adjustments in application modules, login functionalities, and mortgage request submissions. This requires understanding business needs and challenges.",
+                    "phrase": "Complexe vraagstukken (functionaliteit voor klanten en adviseurs zoals wettelijke aanpassingen in de aanvraagmodules, inloggen voor adviseurs en klanten, extra aflossen via iDeal, indienen en wijzigingen van hypotheekverzoeken) vind je uitdagend om samen met je team op te lossen."
                 },
                 {
-                    "task": "`TASK5: Operations Engineering (MLOps)`",
-                    "phrases": [
-                        "Het team houdt die verantwoordelijkheid ook na oplevering (\"You build it, you run it\").",
-                        "Maar ook storingen komen direct bij het team terecht, dus moeten in worden gepast."
-                    ],
-                    "justification": "The 'You build it, you run it' principle and the responsibility for handling 'storingen' (failures/incidents) directly imply operational responsibility for the developed applications."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "chatbot",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires translating legal and regulatory frameworks into concrete stories that developers can implement, which is a key aspect of understanding business and regulatory requirements.",
+                    "phrase": "Een deel van de werkzaamheden bevat het vertalen van wet- en regelgeving naar concrete stories die developers kunnen oppakken."
                 },
                 {
-                    "technology": "Florius apps",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves working on digital solutions and applications like chatbots, apps, and digital signing, which are user-facing software systems. The team is responsible for the realization and use of these products.",
+                    "phrase": "Je werkt mee aan de roadmaps voor MijnFlorius/MijnMoneyou, maar ook onderdelen van de extranetten of toepassingen zoals de chatbot, de Florius apps, digitaal ondertekenen, online identificeren etc."
                 },
                 {
-                    "technology": "digitaal ondertekenen",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'You build it, you run it' indicates a responsibility for the operational aspects of the products after they are delivered, which aligns with the principles of MLOps.",
+                    "phrase": "Het team houdt die verantwoordelijkheid ook na oplevering ('You build it, you run it')."
                 },
                 {
-                    "technology": "online identificeren",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The description states that the team directly receives and addresses issues and malfunctions, which is part of the operational responsibility for running systems.",
+                    "phrase": "Maar ook storingen komen direct bij het team terecht, dus moeten in worden gepast."
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The role emphasizes working together with a team of Digital colleagues and developers, as well as collaborating intensively with IT colleagues.",
+                    "phrase": "Je team bestaat uit 1 of 2 Digital collega's en 5 a 8 developers vanuit IT. Samen werken jullie aan innovatieve toepassingen..."
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The job description highlights working daily in an agile team and being jointly responsible from idea to realization and use, implying close collaboration.",
+                    "phrase": "Je werkt dagelijks in het agile team en samen ben je van idee tot en met realisatie en gebruik verantwoordelijk."
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "justification": "The text states that to do the job well, one must regularly delve into the subject matter to create the best solution, indicating a need for continuous learning and adaptation.",
+                    "phrase": "Om je werk goed te doen, moet je je zelf regelmatig verdiepen in de materie, zodat de beste oplossing voor adviseur of klant kan worden gemaakt."
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "justification": "The role involves tackling complex functional issues and finding solutions collaboratively with the team, which requires problem-solving skills.",
+                    "phrase": "Complexe vraagstukken (functionaliteit voor klanten en adviseurs zoals wettelijke aanpassingen in de aanvraagmodules, inloggen voor adviseurs en klanten, extra aflossen via iDeal, indienen en wijzigingen van hypotheekverzoeken) vind je uitdagend om samen met je team op te lossen."
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "justification": "The description mentions working on innovative applications and realizing ideas with the team, suggesting a drive for innovation and taking ownership of the product's lifecycle.",
+                    "phrase": "Samen werken jullie aan innovatieve toepassingen voor Florius, Moneyou en ABN AMRO (intermediaire distributie hypotheken)."
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "justification": "The 'You build it, you run it' principle implies taking full ownership of the product's development and maintenance.",
+                    "phrase": "Het team houdt die verantwoordelijkheid ook na oplevering ('You build it, you run it')."
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "`SKILL1: Communication & Collaboration`",
-                    "phrases": [
-                        "werk je samen met je team",
-                        "Je team bestaat uit 1 of 2 Digital collega's en 5 a 8 developers vanuit IT.",
-                        "Samen werken jullie aan",
-                        "Je bepaalt samen met de Team Product Owner (Digital collega) en het team jullie eigen backlog.",
-                        "Complexe vraagstukken ... vind je uitdagend om samen met je team op te lossen.",
-                        "je werkt zeer intensief samen met de IT-collega's",
-                        "Je werkt dagelijks in het agile team en samen ben je van idee tot en met realisatie en gebruik verantwoordelijk.",
-                        "Met je team breng je dit van \"een idee\" naar werkende functionaliteit",
-                        "een samenspel van culturen, kennis en ervaring."
-                    ],
-                    "justification": "The job description repeatedly emphasizes teamwork, collaboration with digital colleagues and developers, and joint responsibility for product realization."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "samen met je team aan digitale oplossingen"
                 },
                 {
-                    "skill": "`SKILL2: Learning & Adaptability`",
-                    "phrases": [
-                        "Om je werk goed te doen, moet je je zelf regelmatig verdiepen in de materie",
-                        "alle mogelijkheden om je als professional te ontwikkelen"
-                    ],
-                    "justification": "The need to 'regularly delve into the subject matter' and the mention of 'opportunities to develop as a professional' indicate a requirement for continuous learning and adaptation."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Samen werken jullie aan innovatieve toepassingen"
                 },
                 {
-                    "skill": "`SKILL3: Problem Solving & Pragmatism`",
-                    "phrases": [
-                        "Complexe vraagstukken (functionaliteit voor klanten en adviseurs zoals wettelijke aanpassingen in de aanvraagmodules, inloggen voor adviseurs en klanten, extra aflossen via iDeal, indienen en wijzigingen van hypotheekverzoeken) vind je uitdagend om samen met je team op te lossen.",
-                        "zodat de beste oplossing voor adviseur of klant kan worden gemaakt.",
-                        "Maar ook storingen komen direct bij het team terecht, dus moeten in worden gepast."
-                    ],
-                    "justification": "The role involves tackling complex functional issues, finding the 'best solution', and addressing operational issues like 'storingen', all of which require strong problem-solving and pragmatic approaches."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "je werkt zeer intensief samen met de IT-collega's"
                 },
                 {
-                    "skill": "`SKILL5: Innovation & Ownership`",
-                    "phrases": [
-                        "aan innovatieve toepassingen",
-                        "het team is verantwoordelijk voor de verdere invulling en realisatie van het product.",
-                        "Het team houdt die verantwoordelijkheid ook na oplevering (\"You build it, you run it\").",
-                        "Je bepaalt samen met de Team Product Owner (Digital collega) en het team jullie eigen backlog.",
-                        "Met je team breng je dit van \"een idee\" naar werkende functionaliteit waar adviseurs en klanten dagelijks gebruik van maken.",
-                        "Het succes van onze organisatie staat of valt met de kwaliteit van onze mensen en de ideeen die zij hebben.",
-                        "Echt verrassende inzichten en innovatieve oplossingen voor onze klanten ontstaan door een samenspel van culturen, kennis en ervaring."
-                    ],
-                    "justification": "The emphasis on 'innovative applications', 'ownership' ('You build it, you run it'), defining their own backlog, and bringing ideas to life highlights innovation and a sense of ownership."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Je werkt dagelijks in het agile team en samen ben je van idee tot en met realisatie en gebruik verantwoordelijk."
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Om je werk goed te doen, moet je je zelf regelmatig verdiepen in de materie"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Complexe vraagstukken ... vind je uitdagend om samen met je team op te lossen."
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "innovatieve toepassingen"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "realiseren met je team"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "'You build it, you run it'"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "chatbot"
                 }
             ]
         }

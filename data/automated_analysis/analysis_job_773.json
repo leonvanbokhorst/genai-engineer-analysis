@@ -27,107 +27,85 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job title is 'DevOps Engineer' and while it mentions GenAI, the core responsibilities focus on DevOps practices, solution delivery, and automation rather than deep ML/GenAI model development or fine-tuning. The emphasis is on 'using and embedding' GenAI, not building it from scratch."
+            "profile": "Ambiguous",
+            "rationale": "The job title is 'DevOps Engineer' and while it mentions 'Generative AI (GenAI)' and 'GenAI solutions', the core responsibilities and tasks described focus heavily on DevOps practices, collaboration, and solution delivery rather than the deep technical development, fine-tuning, or advanced prompt engineering typically associated with a GenAI Engineer. The role seems to be about embedding existing GenAI capabilities into solutions and managing their deployment, rather than building the GenAI models themselves. It also lacks specific technical depth in AI modeling or data engineering required for ML/GenAI Engineer roles. Therefore, it leans towards a role that uses AI tools rather than develops them, fitting the 'Ambiguous' profile."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        "Work directly with stakeholders to understand processes and system requirements.",
-                        "design, build, and run cutting-edge solutions that bring value to users"
-                    ],
-                    "justification": "These phrases indicate a need to understand business needs, translate them into technical requirements, and ensure solutions deliver value."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Work directly with stakeholders to understand processes and system requirements' directly relates to understanding the business context and translating needs.",
+                    "phrase": "Work directly with stakeholders to understand processes and system requirements"
                 },
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        "design, build, and run cutting-edge software solutions",
-                        "end-to-end solution delivery, from design to deployment",
-                        "Develop reusable components from the solutions you create.",
-                        "Design, build, test, deploy, and run GenAI-based solutions that are robust and maintainable."
-                    ],
-                    "justification": "These phrases describe the core activities of building, deploying, and maintaining software systems, including reusable components and ensuring robustness."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Design and implement responsible and cost-effective GenAI solutions' and 'Develop reusable components from the solutions you create' implies building and integrating software components.",
+                    "phrase": "Design and implement responsible and cost-effective GenAI solutions"
                 },
                 {
-                    "task_name": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "DevOps practices",
-                        "experience with cloud environments",
-                        "end-to-end solution delivery, from design to deployment",
-                        "Design, build, test, deploy, and run GenAI-based solutions",
-                        "Continuously automate processes and workflows to enhance productivity and scalability."
-                    ],
-                    "justification": "The job title itself is 'DevOps Engineer', and the responsibilities explicitly mention DevOps practices, deployment, automation, and running solutions in production."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH2: Cloud Platforms & Services",
-                    "phrases": [
-                        "cloud environments"
-                    ],
-                    "justification": "Mentions experience with cloud environments, a common platform for DevOps and GenAI solutions."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Develop reusable components from the solutions you create' implies building software components.",
+                    "phrase": "Develop reusable components from the solutions you create"
                 },
                 {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "phrases": [
-                        "Generative AI (GenAI)",
-                        "GenAI solutions"
-                    ],
-                    "justification": "The job explicitly mentions working with Generative AI models and solutions."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Collaborate with team members through pair-programming to tackle critical challenges' describes a software development practice.",
+                    "phrase": "Collaborate with team members through pair-programming to tackle critical challenges"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Design, build, test, deploy, and run GenAI-based solutions that are robust and maintainable' covers the full lifecycle of deploying and maintaining software, which is core to MLOps/DevOps.",
+                    "phrase": "Design, build, test, deploy, and run GenAI-based solutions that are robust and maintainable"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Continuously automate processes and workflows to enhance productivity and scalability' is a key aspect of DevOps and MLOps.",
+                    "phrase": "Continuously automate processes and workflows to enhance productivity and scalability"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'Share knowledge and collaborate with peers and stakeholders to improve solutions and practices across the board' indicates strong communication and collaboration skills.",
+                    "phrase": "Share knowledge and collaborate with peers and stakeholders to improve solutions and practices across the board"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "collaborate with internal teams and clients",
-                        "Work directly with stakeholders",
-                        "Collaborate with team members through pair-programming",
-                        "Share knowledge and collaborate with peers and stakeholders"
-                    ],
-                    "justification": "Multiple phrases highlight the need for collaboration with various groups, including internal teams, clients, and peers."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate with internal teams and clients"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "passionate about using and embedding Generative AI (GenAI) responsibly",
-                        "innovative solutions"
-                    ],
-                    "justification": "The emphasis on using new technologies like GenAI and developing innovative solutions implies a need for continuous learning and adaptation."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate with team members through pair-programming"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "design, build, and run cutting-edge solutions that bring value to users while being enjoyable to develop",
-                        "responsible for end-to-end solution delivery, from design to deployment, ensuring they meet high standards of quality and cost-effectiveness",
-                        "tackle critical challenges",
-                        "cost-effective GenAI solutions",
-                        "robust and maintainable",
-                        "enhance productivity and scalability"
-                    ],
-                    "justification": "The description focuses on delivering valuable, high-quality, cost-effective, robust, and scalable solutions, indicating a pragmatic problem-solving approach."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Share knowledge and collaborate with peers and stakeholders"
                 },
                 {
-                    "skill_name": "SKILL4: Ethical & Legal Responsibility",
-                    "phrases": [
-                        "embedding Generative AI (GenAI) responsibly",
-                        "responsible and cost-effective GenAI solutions"
-                    ],
-                    "justification": "The job explicitly mentions the need to use GenAI 'responsibly'."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "tackle critical challenges"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "design, build, and run cutting-edge solutions",
-                        "develop innovative solutions",
-                        "end-to-end solution delivery",
-                        "Develop reusable components"
-                    ],
-                    "justification": "Phrases like 'cutting-edge', 'innovative', and 'end-to-end delivery' suggest a proactive and ownership-driven approach to developing new solutions."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "cost-effective GenAI solutions"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "design, build, and run cutting-edge solutions"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "end-to-end solution delivery"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Generative AI (GenAI)"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "GenAI solutions"
                 }
             ]
         }

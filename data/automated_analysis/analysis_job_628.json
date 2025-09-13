@@ -26,46 +26,28 @@
         "full_text": "Azure platform & AI ontwikkelaar\n\nBeschrijf de gevraagde producten of resultaten die geleverd moeten worden.\n     * Een innovatieplatform dat functioneert en waarmee we proeven kunnen opbouwen en aanbieden aan gebruikers\n     * Een of meerdere proeven waarbij een bijdrage is geleverd aan het operationaliseren van de proof of concept, proof of value of pilo"
     },
     "analysis": {
-        "job_profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description is very brief and lacks specific technical details about AI model development, MLOps, or software engineering tasks. It focuses on building an 'innovation platform' and 'experiments' without detailing the AI technologies or methodologies involved, making it difficult to classify into a specific AI engineering role."
+        "profile_classification": {
+            "profile": "Ambiguous",
+            "rationale": "The job description is very brief and lacks specific technical details about the tasks, technologies, or models involved. It mentions an 'innovation platform' and 'trials' but does not provide enough information to classify it as an ML Engineer or GenAI Engineer. The focus seems to be on the development and operationalization of proofs of concept, which is too general."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "een innovatieplatform dat functioneert",
-                        "proeven kunnen opbouwen en aanbieden aan gebruikers",
-                        "bijdrage is geleverd aan het operationaliseren van de proof of concept, proof of value of pilo"
-                    ],
-                    "justification": "These phrases indicate the development and operationalization of a platform and experiments, which falls under building and deploying software systems."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_category": "TECH2: Cloud Platforms & Services",
-                    "tech_name": "Azure platform",
-                    "justification": "Explicitly mentioned as the cloud platform for development."
-                }
-            ],
-            "soft_skills": [
-                {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "innovatieplatform",
-                        "proeven kunnen opbouwen",
-                        "operationaliseren van de proof of concept, proof of value of pilo"
-                    ],
-                    "justification": "The emphasis on building an innovation platform and operationalizing proofs of concept suggests a need for initiative, ownership, and driving new ideas."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions building an 'innovation platform' and operationalizing proofs of concept, which implies software development to create functional systems.",
+                    "phrase": "innovatieplatform dat functioneert"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "operationaliseren van de proof of concept, proof of value of pilo"
-                    ],
-                    "justification": "Operationalizing proofs of concept requires a pragmatic approach to problem-solving and bringing ideas to a functional state."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'operationaliseren van de proof of concept, proof of value or pilo' suggests the process of taking experimental ideas and making them functional or ready for production, which is a software development activity.",
+                    "phrase": "operationaliseren van de proof of concept, proof of value or pilo"
+                }
+            ],
+            "soft_skills": [],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure platform"
                 }
             ]
         }

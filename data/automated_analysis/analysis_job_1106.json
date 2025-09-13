@@ -27,68 +27,82 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on using AI tools to enhance operational efficiency and automate tasks rather than building or developing AI models or systems. It emphasizes application support and system configuration with AI assistance, aligning more with a user or operator role of AI tools than a developer or engineer."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on using AI tools to enhance operational efficiency and automate tasks, rather than on the core development, fine-tuning, or deep technical implementation of AI models themselves. It emphasizes 'using AI tools' and 'AI-driven systems' in a support and configuration context, which aligns more with the 'use of AI tools to enhance productivity' aspect of the Ambiguous profile, rather than the specialized engineering roles of ML Engineer or GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "AI System Building",
-                    "phrase": "Designing and implementing AI-driven systems and monitoring tools to enhance operational efficiency.",
-                    "justification": "This phrase directly mentions 'designing and implementing AI-driven systems', which could imply building AI, but the context of 'monitoring tools' and 'operational efficiency' suggests the application and integration of existing AI solutions rather than core AI model development."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The description highlights understanding industry issues like 'operational inefficiency and customer dissatisfaction' and how AI can 'revolutionizing this landscape' and 'reshaping the entire support process' to meet 'strategic decisions'.",
+                    "phrase": "In the telecommunications industry, operational inefficiency and customer dissatisfaction are persistent issues, exacerbated by the complexity and volume of tasks that must be managed manually."
                 },
                 {
-                    "task_name": "Service Configuration and Maintenance",
-                    "phrase": "Using AI tools to configure AAA, PCRF, SMSC, and MMSC network functions, ensuring seamless service delivery and customer satisfaction.",
-                    "justification": "This task focuses on configuring and maintaining network functions using AI tools, which is an application of AI in an operational context, not the development of AI itself."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role is framed around 'revolutionizing this landscape by leveraging cutting-edge, AI-driven systems to automate these tasks, significantly enhancing operational efficiency and customer satisfaction.'",
+                    "phrase": "Totogi is revolutionizing this landscape by leveraging cutting-edge, AI-driven systems to automate these tasks, significantly enhancing operational efficiency and customer satisfaction."
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrase": "In the telecommunications industry, operational inefficiency and customer dissatisfaction are persistent issues, exacerbated by the complexity and volume of tasks that must be managed manually.",
-                    "justification": "This section clearly outlines the business problem and context within the telecommunications industry, highlighting operational inefficiencies and customer dissatisfaction."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role requires 'scripting, system configuration, and deep technical troubleshooting' and 'implementing and managing AI-driven systems'.",
+                    "phrase": "If you excel at scripting, system configuration, and deep technical troubleshooting, and are excited by the prospect of continuously improving processes through technology, this job is for you."
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrase": "Totogi is revolutionizing this landscape by leveraging cutting-edge, AI-driven systems to automate these tasks, significantly enhancing operational efficiency and customer satisfaction.",
-                    "justification": "This describes the company's strategic approach and the business goal of using AI to solve industry problems and improve efficiency and satisfaction."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves 'implementing and managing AI-driven systems to enhance operational efficiency and customer satisfaction.'",
+                    "phrase": "In this role, you will be a crucial part of our dynamic team, implementing and managing AI-driven systems to enhance operational efficiency and customer satisfaction."
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrase": "Your work will directly contribute to our strategic decisions and elevate our customer support to new heights.",
-                    "justification": "This highlights how the role's contributions align with broader company strategy and business objectives."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology_name": "AI-driven systems",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions 'configure and maintain network functions' which implies system configuration and management.",
+                    "phrase": "You will configure and maintain network functions to ensure seamless service delivery, analyze data to derive actionable insights, and manage incidents to ensure timely resolution."
                 },
                 {
-                    "technology_name": "AI tools",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK3: Modeling",
+                    "justification": "The job involves 'AI System Building: Designing and implementing AI-driven systems and monitoring tools to enhance operational efficiency.' This suggests working with AI systems, though the depth of modeling is not specified.",
+                    "phrase": "AI System Building: Designing and implementing AI-driven systems and monitoring tools to enhance operational efficiency."
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The task explicitly states 'Using AI tools to configure AAA, PCRF, SMSC, and MMSC network functions, ensuring seamless service delivery and customer satisfaction.' This involves configuration and management of systems using AI tools.",
+                    "phrase": "Service Configuration and Maintenance: Using AI tools to configure AAA, PCRF, SMSC, and MMSC network functions, ensuring seamless service delivery and customer satisfaction."
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role aims to 'empower your career with advanced AI technology and make a significant impact', indicating a focus on leveraging technology for business outcomes.",
+                    "phrase": "If you are ready to empower your career with advanced AI technology and make a significant impact, we encourage you to apply and join our forward-thinking team."
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "If you excel at scripting, system configuration, and deep technical troubleshooting, and are excited by the prospect of continuously improving processes through technology, this job is for you."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "deep technical troubleshooting"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrase": "This role is designed for those who thrive in high-tech, innovative environments."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "continuously improving processes through technology"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrase": "This role is designed for those who thrive in high-tech, innovative environments."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "thrive in high-tech, innovative environments"
                 },
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrase": "You will be a crucial part of our dynamic team"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "crucial part of our dynamic team"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "scripting"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrase": "If you are ready to empower your career with advanced AI technology and make a significant impact, we encourage you to apply and join our forward-thinking team."
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "AI-driven systems"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "AI tools"
                 }
             ]
         }

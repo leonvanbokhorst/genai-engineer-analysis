@@ -28,131 +28,115 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The role heavily emphasizes building data processing pipelines, preparing datasets for large models using machine learning techniques, and working with Big Data tools. While generative models are mentioned, the core focus is on the data engineering and modeling aspects for these models, aligning with the ML Engineer profile."
+            "rationale": "The job description heavily emphasizes building data processing pipelines, preparing datasets for large models, and leveraging machine learning algorithms for data preparation. While LLMs are mentioned in the context of TTS systems, the core focus remains on data engineering and ML model training preparation, aligning more closely with the 'ML Engineer' profile's emphasis on data-driven algorithms and productionizing prototypes. The mention of 'LLM-based TTS system' and specific TTS models like Voicebox and Whisper are relevant but do not shift the primary focus away from the data engineering and ML modeling aspects."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "build data processing pipelines",
-                        "preparing ready-to-train datasets for large models",
-                        "Designing, developing, and maintaining data processing pipelines, utilising machine learning techniques to handle vast amounts of text and audio data, while ensuring data quality and accessibility.",
-                        "Use Big Data tools and frameworks to process, analyse, and derive insights from structured and unstructured data.",
-                        "Monitoring the performance of data pipeline and machine learning models, troubleshoot data-related issues, and perform root cause analysis to implement strategic solutions.",
-                        "Document data pipeline architecture and workflow"
-                    ],
-                    "justification": "These phrases directly describe the creation, maintenance, and optimization of data infrastructure and pipelines, including handling large volumes of text and audio data, which are core to data engineering."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The description repeatedly mentions 'dealing with large quantities of text and audio data', 'build data processing pipelines', 'preparing ready-to-train datasets', 'Designing, developing, and maintaining data processing pipelines', and 'Monitoring the performance of data pipeline'.",
+                    "phrase": "dealing with large quantities of text and audio data"
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "using machine learning techniques to build data processing pipelines",
-                        "preparing ready-to-train datasets for large models",
-                        "Leveraging your understanding of machine learning algorithms and workflows to prepare data most effectively for usage in large scale models.",
-                        "help develop our LLM-based TTS system",
-                        "voice clones that are indistinguishable from real voices"
-                    ],
-                    "justification": "The job involves preparing data for large models and understanding ML algorithms, as well as developing an LLM-based TTS system, indicating a focus on model preparation and application."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The description explicitly states 'preparing ready-to-train datasets for large models' and 'prepare data most effectively for usage in large scale models'.",
+                    "phrase": "preparing ready-to-train datasets for large models"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "code and build working systems",
-                        "experience with the software development life cycle, from ideation through implementation, to testing and release.",
-                        "create high quality, production ready code",
-                        "take ownership of production pipelines"
-                    ],
-                    "justification": "The description highlights the need to write code, build systems, and follow the full software development lifecycle, including testing and release, which are fundamental to software development."
+                    "category": "TASK3: Modeling",
+                    "justification": "The role involves 'using machine learning techniques to build data processing pipelines' and 'Leveraging your understanding of machine learning algorithms and workflows to prepare data most effectively for usage in large scale models'. The mention of 'LLM-based TTS system' also points to generative modeling.",
+                    "phrase": "using machine learning techniques"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "take ownership of production pipelines",
-                        "Monitoring the performance of data pipeline and machine learning models, troubleshoot data-related issues, and perform root cause analysis to implement strategic solutions.",
-                        "Stay up-to-date with emerging technologies and tools in machine learning and data engineering to continually improve our data infrastructure."
-                    ],
-                    "justification": "This task category is supported by phrases related to owning production pipelines, monitoring performance, troubleshooting, and improving data infrastructure, which are key MLOps responsibilities."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description states 'You will be someone who loves to code and build working systems' and 'You will have experience with the software development life cycle, from ideation through implementation, to testing and release.' It also mentions 'create high quality, production ready code'.",
+                    "phrase": "build working systems"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "Our aim is to make video content creation available for all - not only to studio production!",
-                        "help develop our LLM-based TTS system that will provide our customers with voice clones that are indistinguishable from real voices."
-                    ],
-                    "justification": "These phrases indicate an understanding of the company's mission and the business value of the developed technology, connecting technical work to broader goals."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "LLM / Generative Models",
-                    "classification": "TECH3",
-                    "mentions": [
-                        "LLM-based TTS system",
-                        "Voicebox",
-                        "Whisper",
-                        "VALL-E",
-                        "SPEAR-TTS"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions 'experience with the software development life cycle, from ideation through implementation, to testing and release.'",
+                    "phrase": "software development life cycle"
                 },
                 {
-                    "tech_name": "Programming Languages",
-                    "classification": "TECH1",
-                    "mentions": [
-                        "code"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The role involves 'take ownership of production pipelines' and 'Monitoring the performance of data pipeline and machine learning models, troubleshoot data-related issues, and perform root cause analysis to implement strategic solutions.'",
+                    "phrase": "ownership of production pipelines"
                 },
                 {
-                    "tech_name": "Data Processing",
-                    "classification": "TECH8",
-                    "mentions": [
-                        "NumPy",
-                        "SciPy"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The description mentions 'Monitoring the performance of data pipeline and machine learning models, troubleshoot data-related issues, and perform root cause analysis to implement strategic solutions.'",
+                    "phrase": "Monitoring the performance of data pipeline and machine learning models"
                 },
                 {
-                    "tech_name": "Data Analysis",
-                    "classification": "TECH11",
-                    "mentions": [
-                        "Pandas",
-                        "PySpark",
-                        "SQL"
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The job description states 'Our aim is to make video content creation available for all - not only to studio production!' and 'develop our LLM-based TTS system that will provide our customers with voice clones that are indistinguishable from real voices.'",
+                    "phrase": "make video content creation available for all"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The job description mentions specific generative models like 'Voicebox, Whisper, VALL-E and SPEAR-TTS', indicating work with generative AI.",
+                    "phrase": "Voicebox, Whisper, VALL-E and SPEAR-TTS"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The role involves developing an 'LLM-based TTS system' which is a form of generative modeling.",
+                    "phrase": "LLM-based TTS system"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "classification": "SKILL2",
-                    "mentions": [
-                        "Stay up-to-date with emerging technologies and tools in machine learning and data engineering to continually improve our data infrastructure."
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "take ownership of production pipelines"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "classification": "SKILL3",
-                    "mentions": [
-                        "troubleshoot data-related issues",
-                        "perform root cause analysis to implement strategic solutions."
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Stay up-to-date with emerging technologies and tools"
                 },
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "classification": "SKILL1",
-                    "mentions": [
-                        "Collaborating with other ML Engineers and Researchers to understand their data requirements and provide them with ready-to-train datasets.",
-                        "present findings to relevant stakeholders, and provide training as needed."
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborating with other ML Engineers and Researchers"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "classification": "SKILL5",
-                    "mentions": [
-                        "take ownership of production pipelines",
-                        "You will be someone who loves to code and build working systems.",
-                        "You are used to working in a fast-paced start-up environment."
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "present findings to relevant stakeholders"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "troubleshoot data-related issues, and perform root cause analysis"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "code"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Voicebox"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Whisper"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "VALL-E"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "SPEAR-TTS"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLM"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "data processing pipelines"
+                },
+                {
+                    "category": "TECH11: Data Analysis",
+                    "phrase": "Big Data tools and frameworks"
                 }
             ]
         }

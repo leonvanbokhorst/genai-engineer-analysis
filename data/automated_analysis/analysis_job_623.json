@@ -28,100 +28,83 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The role heavily emphasizes Generative AI, LLMs, and building AI-driven assistants, aligning with the core definition of a GenAI Engineer. While ML concepts are present, the focus on LLMs, RAG (implied by 'autonomous AI agents' and 'customizable'), and building user-facing applications points towards GenAI specialization."
+            "rationale": "The job description emphasizes designing and implementing solutions using Large Language Models (LLMs) and Generative AI, building AI-driven assistants, and developing customer-facing products. While it mentions traditional ML techniques like classification and clustering, the core focus is on generative AI applications, RAG systems (implied by 'functionality and control around Large Language Models'), and building AI agents, aligning strongly with the GenAI Engineer profile. The mention of 'custom-built inference engine' and 'optimizing the engine's performance and efficiency' also points towards building and maintaining production-grade systems."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK3: Modeling",
-                    "phrases": [
-                        "design and implement cutting-edge solutions on our centralized AI platform",
-                        "designing and developing state-of-the-art machine learning models and algorithms",
-                        "including LLMs, classification, and clustering techniques",
-                        "optimize the engine's performance and efficiency"
-                    ],
-                    "justification": "These phrases directly relate to the creation, development, and optimization of machine learning models, including specific mention of LLMs and traditional ML techniques."
+                    "category": "TASK3",
+                    "justification": "The job explicitly mentions designing and developing 'state-of-the-art machine learning models and algorithms, including LLMs, classification, and clustering techniques'. This directly relates to the core process of creating and adapting models.",
+                    "phrase": "designing and developing state-of-the-art machine learning models and algorithms, including LLMs, classification, and clustering techniques"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrases": [
-                        "empowering CM.com's customers to manage and control AI-driven assistants",
-                        "build innovative products that are either customer-facing or integrated across the broader CM.com platform and product portfolio",
-                        "custom-built inference engine that's able to process any question/instruction from the end-user providing fully customizable, autonomous AI agents"
-                    ],
-                    "justification": "These phrases highlight the development of user-facing products and systems, including AI-driven assistants and inference engines, which are core to software development in this context."
+                    "category": "TASK4",
+                    "justification": "The role involves building 'innovative products that are either customer-facing or integrated across the broader CM.com platform and product portfolio', and working with a 'custom-built inference engine' to provide 'fully customizable, autonomous AI agents'. This indicates traditional software development to integrate AI capabilities into applications.",
+                    "phrase": "build innovative products that are either customer-facing or integrated across the broader CM.com platform and product portfolio"
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "optimize the engine's performance and efficiency",
-                        "staying informed of industry advancements to ensure our solutions remain at the forefront of technology"
-                    ],
-                    "justification": "Optimizing engine performance and ensuring solutions remain at the forefront of technology imply ongoing maintenance, monitoring, and improvement of deployed AI systems, which falls under Operations Engineering."
+                    "category": "TASK4",
+                    "justification": "The description mentions optimizing a 'custom-built inference engine' for performance and efficiency, which is a software development task related to backend systems powering AI functionalities.",
+                    "phrase": "optimize the engine's performance and efficiency"
                 },
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrases": [
-                        "fully service our customers' use-cases",
-                        "customer service, marketing, internal automation…"
-                    ],
-                    "justification": "These phrases indicate an understanding of customer needs and various business domains where AI solutions are applied."
+                    "category": "TASK5",
+                    "justification": "The role is part of a 'Generative AI team' that 'focusses on providing functionality and control around Large Language Models' and building 'AI-driven assistants' on a 'centralized AI platform'. This implies the operational aspects of deploying and managing these AI systems.",
+                    "phrase": "design and implement cutting-edge solutions on our centralized AI platform, empowering CM.com's customers to manage and control AI-driven assistants"
                 },
                 {
-                    "task": "TASK3: Modeling",
-                    "phrases": [
-                        "traditional NLP concepts"
-                    ],
-                    "justification": "This phrase refers to established techniques within the field of Natural Language Processing, which are often integrated into broader modeling efforts."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "TECH3: LLM / Generative Models",
-                    "name": "LLMs"
+                    "category": "TASK1",
+                    "justification": "The job involves contributing to 'shaping the technical vision and strategic roadmap of our Generative AI initiatives, driving the future of intelligent customer interactions'. This requires understanding business goals and translating them into technical strategy.",
+                    "phrase": "contribute to shaping the technical vision and strategic roadmap of our Generative AI initiatives"
                 },
                 {
-                    "technology": "TECH10: Data Modeling",
-                    "name": "TensorFlow"
-                },
-                {
-                    "technology": "TECH10: Data Modeling",
-                    "name": "PyTorch"
-                },
-                {
-                    "technology": "TECH10: Data Modeling",
-                    "name": "scikit-learn"
+                    "category": "TASK3",
+                    "justification": "The role specifically mentions working with 'Large Language Models' as part of the Generative AI team's focus.",
+                    "phrase": "Large Language Models"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
+                    "category": "SKILL1",
                     "phrase": "work closely with the team"
                 },
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
+                    "category": "SKILL1",
                     "phrase": "collaborative environment"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrase": "innovate by designing and developing state-of-the-art machine learning models and algorithms"
+                    "category": "SKILL5",
+                    "phrase": "Leading the way"
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "phrase": "shaping the technical vision and strategic roadmap"
+                    "category": "SKILL5",
+                    "phrase": "mentor junior colleagues"
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "optimize the engine's performance and efficiency"
-                },
-                {
-                    "skill": "SKILL2: Learning & Adaptability",
+                    "category": "SKILL2",
                     "phrase": "staying informed of industry advancements"
                 },
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "phrase": "mentor junior colleagues, nurturing talent and sharing expertise"
+                    "category": "SKILL3",
+                    "phrase": "optimize the engine's performance and efficiency"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "LLMs"
+                },
+                {
+                    "category": "TECH10",
+                    "phrase": "TensorFlow"
+                },
+                {
+                    "category": "TECH10",
+                    "phrase": "PyTorch"
+                },
+                {
+                    "category": "TECH10",
+                    "phrase": "scikit-learn"
                 }
             ]
         }

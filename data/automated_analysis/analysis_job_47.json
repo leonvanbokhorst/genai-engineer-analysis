@@ -27,126 +27,93 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The role emphasizes developing end-to-end web applications that integrate LLMs, focusing on user-facing systems and productionizing GenAI capabilities. While it involves software development and coaching, the core is building applications around generative AI, aligning with the GenAI Engineer profile."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on traditional full-stack development (Python, Django, web applications, code reviews, coaching junior developers) and business stakeholder collaboration. While it mentions integrating LLMs and staying updated on GenAI, these aspects appear to be secondary to the core software development responsibilities and do not demonstrate the deep specialization in generative models, prompt engineering, RAG, or fine-tuning required for a GenAI Engineer. The role is more about building applications that *use* AI rather than developing or deeply customizing the AI models themselves, aligning more with a traditional software engineering role that incorporates AI components, or potentially an ambiguous role if the AI integration is not sufficiently detailed."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "ontwikkelen van end-to-end webapplicaties",
-                        "ontwikkelen van web-applicaties op verschillende manieren",
-                        "schrijven van efficiënte, onderhoudsvriendelijke en schaalbare code voor verschillende applicaties van het platform",
-                        "bouwen van backend services",
-                        "het geven van constructieve feedback om onze 'coding standards' en 'best practices' te blijven hanteren",
-                        "leveren van hoogwaardige softwareproducten"
-                    ],
-                    "justification": "These phrases directly relate to building, maintaining, and ensuring the quality of software applications, which is a core aspect of software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description emphasizes developing end-to-end web applications using Python and Django, writing efficient, maintainable, and scalable code, performing code reviews, and adhering to coding standards and best practices. This directly aligns with traditional software engineering tasks.",
+                    "phrase": "ontwikkelen van end-to-end webapplicaties met behulp van Python en Django"
                 },
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "integreren van LLM's",
-                        "ontwikkelen van (generatieve) AI-toepassingen",
-                        "de nieuwste ontwikkelingen op het gebied van GenAI, LLM"
-                    ],
-                    "justification": "The job description explicitly mentions integrating LLMs and developing generative AI applications, indicating involvement in the modeling aspect of GenAI."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves coaching junior developers and sharing knowledge, which is a common aspect of senior software development roles focused on team growth and technical excellence.",
+                    "phrase": "het team te coachen op technische aspecten"
                 },
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "helpen van andere teams bij het gebruik en implementatie van de nieuwste technologieën",
-                        "Werk je nauw samen met je stakeholders om de behoeftes te begrijpen",
-                        "technische oplossingen te adviseren",
-                        "binnen het budget te leveren"
-                    ],
-                    "justification": "These phrases highlight the need to understand business needs, advise on technical solutions, and deliver within constraints, which are key aspects of business understanding."
+                    "category": "TASK3: Modeling",
+                    "justification": "The job involves collaborating with data scientists and data engineers to integrate LLMs, which falls under the modeling category, specifically in the context of using pre-trained generative models.",
+                    "phrase": "data scientist en data engineers om LLM's te integreren"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "platform waar heel Deloitte Nederland op een veilige manier (generatieve) AI-toepassingen kan gebruiken en ontwikkelen",
-                        "platform optimaal functioneert en presteert",
-                        "instaat bent om met nieuwe inzichten en aanbevelingen te komen ter optimalisatie van onze producten"
-                    ],
-                    "justification": "The focus on a secure platform for using and developing AI applications, ensuring optimal functioning and performance, and optimizing products points towards operational considerations for AI systems."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "justification": "The requirement to stay updated on the latest developments in GenAI, LLM, and software development, and to provide new insights and recommendations, highlights the need for continuous learning and adaptability.",
+                    "phrase": "Je bent op de hoogte van de nieuwste ontwikkelingen op het gebied van GenAI, LLM en softwareontwikkeling"
                 },
                 {
-                    "task_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "Het Technology & Innovation-team",
-                        "instaat bent om met nieuwe inzichten en aanbevelingen te komen ter optimalisatie van onze producten",
-                        "creëren van een innovatieve werkomgeving",
-                        "begeleid je junior developers, deel je jouw kennis en ervaring"
-                    ],
-                    "justification": "Phrases related to innovation, bringing new insights, coaching, and sharing knowledge indicate a proactive and ownership-driven approach."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The role involves guiding junior developers, sharing knowledge, and contributing to an innovative environment, which requires strong communication and collaborative skills.",
+                    "phrase": "begeleid je junior developers, deel je jouw kennis en ervaring"
                 },
                 {
-                    "task_category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "werk je nauw samen met data scientist en data engineers",
-                        "begeleid je junior developers, deel je jouw kennis en ervaring",
-                        "Werk je nauw samen met je stakeholders om de behoeftes te begrijpen"
-                    ],
-                    "justification": "The job requires close collaboration with data scientists, data engineers, junior developers, and stakeholders, emphasizing communication and teamwork."
+                    "category": "TASK4: Software Development",
+                    "justification": "Performing code reviews and providing constructive feedback to maintain coding standards and best practices are core software development activities.",
+                    "phrase": "uitvoeren van code-reviews, het geven van constructieve feedback"
                 },
                 {
-                    "task_category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "implementatie van de nieuwste technologieën",
-                        "Je bent op de hoogte van de nieuwste ontwikkelingen op het gebied van GenAI, LLM en softwareontwikkeling"
-                    ],
-                    "justification": "The emphasis on staying updated with the latest technologies in GenAI, LLMs, and software development highlights the need for continuous learning and adaptability."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_category": "TECH1: Programming Languages",
-                    "tech_name": "Python"
-                },
-                {
-                    "tech_category": "TECH4: LLM Frameworks & Libraries",
-                    "tech_name": "Django"
-                },
-                {
-                    "tech_category": "TECH3: LLM / Generative Models",
-                    "tech_name": "GenAI"
-                },
-                {
-                    "tech_category": "TECH3: LLM / Generative Models",
-                    "tech_name": "LLM"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The description explicitly states working closely with stakeholders to understand needs, advise on technical solutions, and deliver high-quality software products on time and within budget, which is a key aspect of business understanding and alignment.",
+                    "phrase": "Werk je nauw samen met je stakeholders om de behoeftes te begrijpen, technische oplossingen te adviseren"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "skill_name": "coachen op technische aspecten"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "het team te coachen op technische aspecten"
                 },
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "skill_name": "werk je nauw samen met data scientist en data engineers"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Je bent op de hoogte van de nieuwste ontwikkelingen op het gebied van GenAI, LLM en softwareontwikkeling"
                 },
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "skill_name": "Je bent op de hoogte van de nieuwste ontwikkelingen op het gebied van GenAI, LLM en softwareontwikkeling"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "begeleid je junior developers, deel je jouw kennis en ervaring"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "skill_name": "begeleid je junior developers, deel je jouw kennis en ervaring"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "creëren van een innovatieve werkomgeving"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "skill_name": "creëren van een innovatieve werkomgeving"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "uitvoeren van code-reviews, het geven van constructieve feedback"
                 },
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "skill_name": "Werk je nauw samen met je stakeholders om de behoeftes te begrijpen"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Werk je nauw samen met je stakeholders om de behoeftes te begrijpen"
                 },
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "skill_name": "technische oplossingen te adviseren"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "technische oplossingen te adviseren en hoogwaardige softwareproducten op tijd en binnen het budget te leveren"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "LLM's"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "GenAI"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLM"
                 }
             ]
         }

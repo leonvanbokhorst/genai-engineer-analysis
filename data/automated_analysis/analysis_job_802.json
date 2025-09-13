@@ -28,64 +28,57 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 5,
-            "rationale": "The job description explicitly mentions designing, implementing, and optimizing generative AI solutions, with a strong focus on RAGS, LLMs, and vector databases. This aligns directly with the core responsibilities and technologies associated with a GenAI Engineer profile."
+            "rationale": "The job description heavily emphasizes designing, implementing, and optimizing generative AI solutions, specifically mentioning Retrieval-Augmented Generation Systems (RAGS), Large Language Models (LLMs), and vector databases. These are core components of a GenAI Engineer's responsibilities, aligning with the definition and evidence profile for this role. The focus is on building AI systems that deliver specific outputs for customers, which is a key characteristic of this profile."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Modeling",
-                    "phrase": "ontwerpen, implementeren en optimaliseren van generatieve AI-oplossingen",
-                    "justification": "This phrase directly refers to the creation, implementation, and refinement of generative AI models, which is the core of the Modeling task."
+                    "category": "TASK3",
+                    "justification": "The phrase 'ontwerpen, implementeren en optimaliseren van generatieve AI-oplossingen' directly relates to the creation and refinement of AI models, which falls under the Modeling category. The mention of 'Large Language Models (LLMs)' further solidifies this.",
+                    "phrase": "ontwerpen, implementeren en optimaliseren van generatieve AI-oplossingen"
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrase": "Retrieval-Augmented Generation Systems (RAGS)",
-                    "justification": "RAGS is a specific technique within generative AI modeling, indicating hands-on work with advanced generative models."
-                },
-                {
-                    "task_name": "Modeling",
-                    "phrase": "Large Language Models (LLMs)",
-                    "justification": "LLMs are a fundamental component of generative AI, and working with them falls under the Modeling task."
-                },
-                {
-                    "task_name": "Data Engineering",
-                    "phrase": "zorg je ervoor dat onze modellen precies datgene leveren wat onze klanten nodig hebben.",
-                    "justification": "This implies ensuring the models are trained and fine-tuned to meet specific customer needs, which involves data preparation and ensuring model output aligns with requirements."
-                },
-                {
-                    "task_name": "Software Development",
-                    "phrase": "implementeren en optimaliseren van generatieve AI-oplossingen",
-                    "justification": "Implementing solutions implies building and integrating AI capabilities into systems, which is part of software development."
-                },
-                {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrase": "implementeren en optimaliseren van generatieve AI-oplossingen",
-                    "justification": "Implementing and optimizing solutions in a production context often involves MLOps practices to ensure performance and maintainability."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "phrase": "Large Language Models (LLMs)"
-                },
-                {
-                    "tech_name": "TECH5: Vector Stores & Search",
-                    "phrase": "vector databases"
-                },
-                {
-                    "tech_name": "TECH4: LLM Frameworks & Libraries",
+                    "category": "TASK3",
+                    "justification": "Retrieval-Augmented Generation Systems (RAGS) are a specific type of generative AI model architecture and implementation technique, fitting squarely within the Modeling task.",
                     "phrase": "Retrieval-Augmented Generation Systems (RAGS)"
+                },
+                {
+                    "category": "TASK4",
+                    "justification": "The phrase 'zorg je voor AI-systemen die snel, nauwkeurig en impactvol zijn' implies building and maintaining functional AI systems, which involves software development aspects to ensure performance and impact.",
+                    "phrase": "zorg je voor AI-systemen die snel, nauwkeurig en impactvol zijn"
+                },
+                {
+                    "category": "TASK1",
+                    "justification": "The statement 'je bent de schakel tussen data en output - je zorgt ervoor dat onze modellen precies datgene leveren wat onze klanten nodig hebben' indicates an understanding of how AI solutions should meet customer needs and translate data into valuable output, aligning with business understanding.",
+                    "phrase": "je bent de schakel tussen data en output - je zorgt ervoor dat onze modellen precies datgene leveren wat onze klanten nodig hebben"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "zorg je voor AI-systemen die snel, nauwkeurig en impactvol zijn."
+                    "category": "SKILL3",
+                    "phrase": "snel, nauwkeurig en impactvol zijn"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "Je bent de schakel tussen data en output - je zorgt ervoor dat onze modellen precies datgene leveren wat onze klanten nodig hebben."
+                    "category": "SKILL3",
+                    "phrase": "schakel tussen data en output"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "zorgt ervoor dat onze modellen precies datgene leveren wat onze klanten nodig hebben"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "Large Language Models (LLMs)"
+                },
+                {
+                    "category": "TECH5",
+                    "phrase": "vector databases"
+                },
+                {
+                    "category": "TECH4",
+                    "phrase": "Retrieval-Augmented Generation Systems (RAGS)"
                 }
             ]
         }

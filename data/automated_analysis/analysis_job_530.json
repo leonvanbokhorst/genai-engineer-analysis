@@ -27,109 +27,72 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on traditional IT infrastructure and service delivery, with no mention of AI, machine learning, or generative models. The tasks described are typical of a systems administrator or infrastructure engineer, not an AI-focused role."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on Linux engineering, IT service delivery, and infrastructure architecture, with mentions of Azure and Redhat certifications. It does not contain specific keywords or responsibilities related to AI, machine learning, or generative models, which are central to the ML Engineer and GenAI Engineer profiles. Therefore, it falls under the 'Ambiguous' category as it is not an AI-specific technical role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "meet the needs of the client",
-                            "justification": "This phrase indicates an understanding of client requirements and aligning technical delivery with business objectives."
-                        },
-                        {
-                            "phrase": "advise and consult where they see possibility for improvement on delivery related to the project",
-                            "justification": "This highlights the ability to understand project delivery and suggest improvements, linking technical work to business outcomes."
-                        }
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'properly engineered high quality IT services and products' and 'architecting server solutions' implies the development and integration of IT systems, which aligns with software development principles, albeit at an infrastructure level.",
+                    "phrase": "properly engineered high quality IT services and products"
                 },
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": []
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'architecting server solutions to address client requirements' points to the design and implementation of technical solutions, a core aspect of software development.",
+                    "phrase": "architecting server solutions to address client requirements"
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrases": []
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The requirement to 'meet the needs of the client' and 'advise and consult where they see possibility for improvement on delivery related to the project' indicates a need to understand business context and align technical delivery with client requirements.",
+                    "phrase": "meet the needs of the client"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "building proof-of-concept solutions with server system technology",
-                            "justification": "While not traditional application development, building proof-of-concept solutions involves creating functional systems, which aligns with software development principles in an infrastructure context."
-                        },
-                        {
-                            "phrase": "architecting server solutions",
-                            "justification": "This involves designing and building technical solutions, which is a form of software/system development."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'advise and consult where they see possibility for improvement on delivery related to the project' shows an understanding of business needs and the ability to suggest improvements.",
+                    "phrase": "advise and consult where they see possibility for improvement on delivery related to the project"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        {
-                            "phrase": "implement and deliver properly engineered high quality IT services and products",
-                            "justification": "This implies a focus on the operational aspects of delivering and maintaining IT services, akin to DevOps principles but not specifically MLOps."
-                        },
-                        {
-                            "phrase": "Automation",
-                            "justification": "Automation is a key component of operations engineering and MLOps, focusing on streamlining processes."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "Linux Engineer",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK3: Modeling",
+                    "justification": "The mention of 'building proof-of-concept solutions with server system technology' can be interpreted as a form of modeling or prototyping, though not in the ML/GenAI sense.",
+                    "phrase": "building proof-of-concept solutions with server system technology"
                 },
                 {
-                    "tech_name": "Azure",
-                    "category": "TECH2: Cloud Platforms & Services"
-                },
-                {
-                    "tech_name": "Redhat",
-                    "category": "TECH1: Programming Languages"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of 'Automation' as a certification needed for the role suggests a focus on operational efficiency and automated processes, which is a component of MLOps.",
+                    "phrase": "Automation"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        {
-                            "phrase": "advise and consult where they see possibility for improvement on delivery related to the project"
-                        }
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "properly engineered high quality IT services and products"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        {
-                            "phrase": "Keep knowledge up to date with certification needed for the role at the specific client"
-                        }
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "architecting server solutions to address client requirements"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        {
-                            "phrase": "plan, implement and deliver properly engineered high quality IT services and products"
-                        },
-                        {
-                            "phrase": "architecting server solutions to address client requirements"
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "advise and consult"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        {
-                            "phrase": "Accustomed to handle multiple projects and deliver on-time"
-                        }
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "deliver on-time"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Keep knowledge up to date with certification needed for the role"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Redhat"
                 }
             ]
         }

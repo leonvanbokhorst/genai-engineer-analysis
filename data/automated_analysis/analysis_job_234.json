@@ -27,100 +27,59 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 5,
-            "rationale": "The job description focuses on pre-sales engineering, customer demonstrations, and sales pipeline support, rather than core AI/ML development or engineering. While it mentions evaluating solutions, it lacks specific details on building, training, or deploying AI models."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on demonstrating a product (Dataiku), assisting sales, and providing technical guidance to customers. It does not involve core AI/ML engineering tasks such as model development, training, fine-tuning, or productionizing AI systems. The role is primarily customer-facing and sales-support oriented, aligning with the definition of an 'Ambiguous' profile as it is not a technical AI/ML role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        {
-                            "phrase": "Execute demonstrations, POCs, and evaluations through coordination of the physical and human resources of Dataiku and the customer; lead the combined team to carry out the agreed upon course of action to prove that Dataiku delivers the needed value better than our competitors",
-                            "justification": "This phrase demonstrates understanding of how to align technical capabilities (Dataiku) with customer business value and competitive positioning."
-                        },
-                        {
-                            "phrase": "Assist in sales pipeline building activities including attendance at live and/or virtual trade-shows and industry conferences, working with marketing and or partners on campaign design and execution and other activities specified by sales and pre-sales management",
-                            "justification": "This involves understanding sales processes and contributing to business development efforts."
-                        },
-                        {
-                            "phrase": "Provide regular updates on your activities to support accurate regional forecasting",
-                            "justification": "This requires understanding business needs for reporting and forecasting."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves understanding customer needs and demonstrating how a product (Dataiku) delivers value, which requires understanding the business context and aligning technical solutions with customer goals.",
+                    "phrase": "prove that Dataiku delivers the needed value better than our competitors"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        {
-                            "phrase": "Answer questions and provide technical guidance to the customer's technical team regarding the demonstrated or evaluated solutions",
-                            "justification": "While not direct development, providing technical guidance on solutions implies a level of understanding of how software/platforms function and are integrated."
-                        }
-                    ]
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Assisting in sales pipeline building and working with marketing/partners on campaign design indicates involvement in business strategy and go-to-market activities.",
+                    "phrase": "Assist in sales pipeline building activities including attendance at live and/or virtual trade-shows and industry conferences, working with marketing and or partners on campaign design and execution"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        {
-                            "phrase": "Execute demonstrations, POCs, and evaluations through coordination of the physical and human resources of Dataiku and the customer",
-                            "justification": "Coordinating resources for evaluations and POCs touches on the operational aspects of deploying and showcasing solutions, though not in a production MLOps sense."
-                        }
-                    ]
-                }
-            ],
-            "technologies": [
+                    "category": "TASK4: Software Development",
+                    "justification": "Providing technical guidance to a customer's technical team regarding solutions implies a need for understanding and explaining technical aspects of software or platforms.",
+                    "phrase": "Answer questions and provide technical guidance to the customer's technical team regarding the demonstrated or evaluated solutions"
+                },
                 {
-                    "tech_name": "Dataiku",
-                    "category": "TECH10: Data Modeling"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Participating in continuous development activities that expand or build on knowledge and skills with new product releases and enablement sessions suggests a focus on keeping skills updated for product deployment and maintenance.",
+                    "phrase": "participate in continuous development activities that expand or build on your knowledge and skills with new product releases, GTM programs and initiatives & relevant enablement sessions"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        {
-                            "phrase": "Execute demonstrations, POCs, and evaluations through coordination of the physical and human resources of Dataiku and the customer; lead the combined team to carry out the agreed upon course of action"
-                        },
-                        {
-                            "phrase": "Answer questions and provide technical guidance to the customer's technical team"
-                        },
-                        {
-                            "phrase": "working with marketing and or partners on campaign design and execution"
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Execute demonstrations, POCs, and evaluations through coordination of the physical and human resources of Dataiku and the customer; lead the combined team to carry out the agreed upon course of action"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        {
-                            "phrase": "participate in continuous development activities that expand or build on your knowledge and skills with new product releases, GTM programs and initiatives & relevant enablement sessions"
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Answer questions and provide technical guidance to the customer's technical team"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        {
-                            "phrase": "Execute demonstrations, POCs, and evaluations ... to prove that Dataiku delivers the needed value better than our competitors"
-                        },
-                        {
-                            "phrase": "Answer questions and provide technical guidance to the customer's technical team regarding the demonstrated or evaluated solutions"
-                        }
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "working with marketing and or partners on campaign design and execution"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        {
-                            "phrase": "lead the combined team to carry out the agreed upon course of action"
-                        },
-                        {
-                            "phrase": "Assist in sales pipeline building activities"
-                        }
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "participate in continuous development activities that expand or build on your knowledge and skills with new product releases, GTM programs and initiatives & relevant enablement sessions"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "lead the combined team to carry out the agreed upon course of action"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Provide regular updates on your activities to support accurate regional forecasting"
                 }
-            ]
+            ],
+            "technologies": []
         }
     }
 }

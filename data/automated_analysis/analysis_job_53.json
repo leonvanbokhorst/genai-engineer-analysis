@@ -27,57 +27,47 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on data infrastructure and processing systems, with a mention of collaboration with data scientists and analysts. However, it lacks specific details about AI/ML model development, generative AI techniques, or MLOps, which are central to ML Engineer and GenAI Engineer roles. The emphasis is on data engineering and general development rather than AI-specific tasks."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on data engineering tasks such as developing and maintaining data infrastructure and architecture, data processing systems, and data quality/integrity. While it mentions collaboration with data scientists and stakeholders to understand data processing needs, it lacks specific details about model development, generative AI techniques, or the deployment of AI-specific applications. The title 'Data Engineer/Fullstack Developer' and the responsibilities described align more with traditional data engineering and software development rather than a specialized AI engineering role. Therefore, it falls under the 'Ambiguous' category as it's not a clear AI-focused role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "ontwikkelen, implementeren en onderhouden van geavanceerde data-infrastructuur en -architectuur",
-                        "organisatie te voorzien van schaalbare en betrouwbare dataverwerkingssystemen",
-                        "opzetten van best practices en het identificeren en oplossen van problemen met betrekking tot gegevenskwaliteit, gegevensintegriteit en prestaties",
-                        "dataverwerkingsbehoeften te begrijpen en hierop in te spelen"
-                    ],
-                    "justification": "These phrases directly describe the design, building, maintenance, and optimization of data systems and pipelines, which are core to data engineering."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The description explicitly mentions 'developing, implementing and maintaining advanced data infrastructure and architecture' and 'scalable and reliable data processing systems'.",
+                    "phrase": "developing, implementing and maintaining advanced data infrastructure and architecture"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "werkt nauw samen met cross-functionele teams en stakeholders",
-                        "samen met data scientisten, analisten, interne teams en stakeholders om de dataverwerkingsbehoeften te begrijpen en hierop in te spelen"
-                    ],
-                    "justification": "These phrases indicate interaction with various teams and stakeholders to understand their needs and align data solutions with business requirements."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The role involves setting up 'best practices' and addressing issues related to 'data quality, data integrity, and performance'.",
+                    "phrase": "setting up best practices and identifying and solving problems related to data quality, data integrity, and performance"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "Fullstack Developer",
-                        "ontwikkelen, implementeren en onderhouden van geavanceerde data-infrastructuur en -architectuur"
-                    ],
-                    "justification": "The title 'Fullstack Developer' implies software development capabilities, and the development/implementation of infrastructure also falls under this umbrella, though the focus is on data systems."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role requires collaboration with 'data scientists, analysts, internal teams and stakeholders to understand the data processing needs'.",
+                    "phrase": "collaborate with data scientists, analysts, internal teams and stakeholders to understand the data processing needs"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The title 'Fullstack Developer' implies involvement in building and maintaining software applications, although the description focuses more on data infrastructure.",
+                    "phrase": "Fullstack Developer"
                 }
             ],
-            "technologies": [],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        "werkt nauw samen met cross-functionele teams en stakeholders",
-                        "samen met data scientisten, analisten, interne teams en stakeholders"
-                    ],
-                    "justification": "These phrases highlight the collaborative nature of the role, requiring interaction with diverse groups."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "work closely with cross-functional teams and stakeholders"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "identificeren en oplossen van problemen met betrekking tot gegevenskwaliteit, gegevensintegriteit en prestaties"
-                    ],
-                    "justification": "This phrase directly points to the need for analytical and problem-solving skills to address data-related issues."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "identifying and solving problems related to data quality, data integrity, and performance"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "understand the data processing needs"
                 }
-            ]
+            ],
+            "technologies": []
         }
     }
 }

@@ -28,71 +28,62 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes building, implementing, and maintaining AI/ML/Deep Learning solutions, including model training scripts, data pipelines, and data preprocessing. While it mentions NLP and speech, the core focus is on traditional ML tasks and productionizing models within applications, aligning with the ML Engineer profile."
+            "rationale": "The job description heavily emphasizes building, implementing, and maintaining AI and ML/Deep Learning solutions, including model training scripts, data pipelines, data collection, cleaning, and evaluation. It explicitly mentions applying various forms of Machine Learning such as image recognition, NLP, speech recognition, speech generation, and recommending systems. The core technologies listed, like TensorFlow, PyTorch, and Python, are central to traditional ML engineering. While NLP and speech generation are mentioned, the overall focus is on the predictive and analytical aspects of ML rather than generative AI applications like RAG or advanced LLM fine-tuning, which are hallmarks of a GenAI Engineer role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "implementeren, verbeteren en onderhouden van AI standaard oplossingen en ML/Deep Learning oplossingen",
-                        "Het kunnen toepassen van verschillende vormen van Machine Learning in de contexten van beeldherkenning, Natural Language Processing, Spraakherkenning, Spraakgeneratie en Recommending Systems",
-                        "Bouwen van model training scripts"
-                    ],
-                    "justification": "These phrases directly relate to the creation, training, and adaptation of machine learning models for various tasks like image recognition, NLP, speech, and recommendation systems."
+                    "category": "TASK3: Modeling",
+                    "justification": "The description mentions 'bouwen, implementeren, verbeteren en onderhouden van AI standaard oplossingen en ML/Deep Learning oplossingen', 'toepassen van verschillende vormen van Machine Learning in de contexten van beeldherkenning, Natural Language Processing, Spraakherkenning, Spraakgeneratie en Recommending Systems', and 'bouwen van model training scripts'. These directly relate to the creation, training, and adaptation of ML models.",
+                    "phrase": "bouwen, implementeren, verbeteren en onderhouden van AI standaard oplossingen en ML/Deep Learning oplossingen"
                 },
                 {
-                    "task_category": "TASK2: Data Engineering",
-                    "phrases": [
-                        "Bouwen van model training scripts en data pipelines",
-                        "Verzamelen, opschonen en evalueren van data en verbindingen maken met data bronnen"
-                    ],
-                    "justification": "These phrases describe the essential steps of building data pipelines, collecting, cleaning, and preparing data for model training, which are core data engineering activities."
+                    "category": "TASK3: Modeling",
+                    "justification": "This phrase details the specific types of ML applications the role will engage with, such as image recognition, NLP, speech recognition, speech generation, and recommending systems, all of which fall under the modeling category.",
+                    "phrase": "toepassen van verschillende vormen van Machine Learning in de contexten van beeldherkenning, Natural Language Processing, Spraakherkenning, Spraakgeneratie en Recommending Systems"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "in nieuwe en bestaande applicaties (apps, webservices, en evt. andere frontends etc.)",
-                        "het inbouwen hiervan in bestaande applicaties"
-                    ],
-                    "justification": "This indicates the need to integrate ML/AI solutions into user-facing applications and services, a key aspect of software development in this context."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The mention of 'bouwen van model training scripts en data pipelines' and 'verzamelen, opschonen en evalueren van data en verbindingen maken met data bronnen' directly points to data pipeline construction and data preparation tasks.",
+                    "phrase": "bouwen van model training scripts en data pipelines"
                 },
                 {
-                    "task_category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "onderhouden van AI standaard oplossingen en ML/Deep Learning oplossingen",
-                        "onderhouden van AI standaard oplossingen en ML/Deep Learning oplossingen"
-                    ],
-                    "justification": "The requirement to 'maintain' AI and ML solutions implies ongoing operational support and management in production environments."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_category": "TECH10: Data Modeling",
-                    "name": "TensorFlow"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "This phrase describes the essential steps of data handling, including collection, cleaning, and evaluation, which are core components of data engineering.",
+                    "phrase": "verzamelen, opschonen en evalueren van data en verbindingen maken met data bronnen"
                 },
                 {
-                    "tech_category": "TECH10: Data Modeling",
-                    "name": "Pytorch"
-                },
-                {
-                    "tech_category": "TECH1: Programming Languages",
-                    "name": "Python 3"
-                },
-                {
-                    "tech_category": "TECH10: Data Modeling",
-                    "name": "CreateML"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'inbouwen hiervan in bestaande applicaties (apps, webservices, en evt. andere frontends etc.)' indicates the integration of ML models into user-facing applications, which is a software development task.",
+                    "phrase": "inbouwen hiervan in bestaande applicaties (apps, webservices, en evt. andere frontends etc.)"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "Het kunnen toepassen van verschillende vormen van Machine Learning"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "verbeteren en onderhouden van AI standaard oplossingen"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrase": "Bouwen, implementeren, verbeteren en onderhouden van AI standaard oplossingen en ML/Deep Learning oplossingen"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "bouwen, implementeren, verbeteren en onderhouden van AI standaard oplossingen"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "TensorFlow"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Pytorch"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python 3"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "CreateML"
                 }
             ]
         }

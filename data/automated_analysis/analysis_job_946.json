@@ -28,110 +28,97 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The role emphasizes building and maintaining data environments, conducting experiments with data science techniques (especially text data), and implementing solutions. While it mentions data science, the core responsibilities lean towards data engineering, pipeline management, and applying existing techniques rather than novel generative AI model development or user-facing application building."
+            "rationale": "The job description emphasizes building a data environment, conducting experiments with data science techniques focusing on text data, and providing advice on implementing data science solutions. It explicitly mentions data pipelines, data intake/analyses, and working with data scientists and engineers. While generative AI is not explicitly mentioned, the core responsibilities align with traditional ML Engineer tasks of data engineering, modeling, and analysis, with a focus on productionizing solutions within a cloud environment."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task": "TASK2: Data Engineering",
-                    "phrases": [
-                        "bouw je een state-of-the-art dataomgeving",
-                        "Uitrollen van templates binnen Justitie & Veiligheid tenant (Terraform)",
-                        "Bijdragen aan de verbetering van deze templates",
-                        "Inrichten data pipelines binnen azure cloud (Databricks, DevOps)",
-                        "Ondersteunen bij het creëren van de data-intake koppelingen",
-                        "Uitvoeren van data-intakes/-analyses"
-                    ],
-                    "justification": "These phrases describe the creation, maintenance, and setup of data environments, pipelines, and intake processes, which are core to data engineering."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Inrichten data pipelines binnen azure cloud (Databricks, DevOps)' directly refers to building and managing data pipelines.",
+                    "phrase": "Inrichten data pipelines binnen azure cloud (Databricks, DevOps)"
                 },
                 {
-                    "task": "TASK3: Modeling",
-                    "phrases": [
-                        "voer je experimenten uit met data science-technieken, met een focus op tekstdata",
-                        "analyseren van data science-vraagstukken"
-                    ],
-                    "justification": "This indicates the application and experimentation with data science techniques, including analysis, which falls under modeling."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Ondersteunen bij het creëren van de data-intake koppelingen' indicates involvement in data ingestion processes.",
+                    "phrase": "Ondersteunen bij het creëren van de data-intake koppelingen"
                 },
                 {
-                    "task": "TASK4: Software Development",
-                    "phrases": [
-                        "bouw je een state-of-the-art dataomgeving"
-                    ],
-                    "justification": "While the primary focus is data, building a 'state-of-the-art data environment' implies software development aspects for infrastructure and tooling."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Uitvoeren van data-intakes/-analyses' involves both data ingestion and analysis, which are core data engineering activities.",
+                    "phrase": "Uitvoeren van data-intakes/-analyses"
                 },
                 {
-                    "task": "TASK1: Business Understanding",
-                    "phrases": [
-                        "lever je advies over hoe diverse data science-vraagstukken binnen het OM kunnen worden geïmplementeerd"
-                    ],
-                    "justification": "This phrase highlights the need to understand business problems ('vraagstukken binnen het OM') and translate them into technical solutions."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'voer je experimenten uit met data science-technieken, met een focus op tekstdata' points to the core activity of experimenting with and applying data science models.",
+                    "phrase": "voer je experimenten uit met data science-technieken, met een focus op tekstdata"
                 },
                 {
-                    "task": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Inrichten data pipelines binnen azure cloud (Databricks, DevOps)"
-                    ],
-                    "justification": "The mention of 'DevOps' in the context of setting up data pipelines points towards operational aspects of managing and deploying data infrastructure."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "TECH1: Programming Languages",
-                    "items": [
-                        "Python",
-                        "R"
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Als expert lever je advies over hoe diverse data science-vraagstukken binnen het OM kunnen worden geïmplementeerd' implies the application and implementation of data science models to solve business problems.",
+                    "phrase": "Als expert lever je advies over hoe diverse data science-vraagstukken binnen het OM kunnen worden geïmplementeerd"
                 },
                 {
-                    "technology": "TECH2: Cloud Platforms & Services",
-                    "items": [
-                        "azure cloud"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Uitrollen van templates binnen Justitie & Veiligheid tenant (Terraform)' and 'Bijdragen aan de verbetering van deze templates' suggests infrastructure as code and development practices for deploying environments, which aligns with software development principles in an infrastructure context.",
+                    "phrase": "Uitrollen van templates binnen Justitie & Veiligheid tenant (Terraform)"
                 },
                 {
-                    "technology": "TECH6: MLOps & Data Pipelines",
-                    "items": [
-                        "Terraform",
-                        "Databricks",
-                        "DevOps"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Bijdragen aan de verbetering van deze templates' indicates a software development lifecycle aspect for infrastructure templates.",
+                    "phrase": "Bijdragen aan de verbetering van deze templates"
                 },
                 {
-                    "technology": "TECH11: Data Analysis",
-                    "items": [
-                        "SQL"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of 'azure cloud (Databricks, DevOps)' in the context of data pipelines implies operational aspects of deploying and managing data infrastructure.",
+                    "phrase": "Inrichten data pipelines binnen azure cloud (Databricks, DevOps)"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill": "SKILL1: Communication & Collaboration",
-                    "items": [
-                        "Je werkt nauw samen met een multidisciplinair team van data-experts",
-                        "bundel je je krachten met het TestlabOM"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Je werkt nauw samen met een multidisciplinair team van data-experts bij het J&V Datalab, waaronder data scientists, engineers en architecten."
                 },
                 {
-                    "skill": "SKILL3: Problem Solving & Pragmatism",
-                    "items": [
-                        "lever je advies over hoe diverse data science-vraagstukken binnen het OM kunnen worden geïmplementeerd",
-                        "analyseren van data science-vraagstukken"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Daarnaast bundel je je krachten met het TestlabOM, dé drijvende kracht achter innovaties binnen het OM."
                 },
                 {
-                    "skill": "SKILL5: Innovation & Ownership",
-                    "items": [
-                        "ruimte voor eigen initiatief",
-                        "grote mate van zelfstandigheid bij het vormgeven van je eigen functie",
-                        "dé drijvende kracht achter innovaties binnen het OM"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Jouw analyses voer je uit in (R) of Python, waar jij je helemaal in thuis voelt."
                 },
                 {
-                    "skill": "SKILL2: Learning & Adaptability",
-                    "items": [
-                        "organisatie én omgeving die zich sterk aan het veranderen zijn"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Je krijgt veel eigen verantwoordelijkheid, afwisseling en ruimte voor eigen initiatief."
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Je hebt een grote mate van zelfstandigheid bij het vormgeven van je eigen functie"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "R"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "azure cloud"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Databricks"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "DevOps"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Terraform"
                 }
             ]
         }

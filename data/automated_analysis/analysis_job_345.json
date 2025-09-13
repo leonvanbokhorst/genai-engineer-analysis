@@ -27,81 +27,99 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 1,
-            "rationale": "The job description focuses on traditional frontend development using React and Redux/ReactQuery, with no mention of AI, machine learning, or generative models. The tasks described are standard for a frontend role, not an AI-specific engineering position."
+            "profile": "Ambiguous",
+            "rationale": "The job description is for a Frontend Developer focused on UI development using React and Redux/ReactQuery. It does not involve core AI/ML tasks such as model development, training, or deployment, nor does it heavily feature AI-specific technologies. The mention of 'Tridion Docs Genius' might suggest AI integration, but the core responsibilities and technologies listed are standard for frontend development, not AI engineering. Therefore, it falls under the 'Ambiguous' category as it's a traditional software engineering role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "Designing and developing key front-end components of our products.",
-                        "implementing new OpenAPI functions",
-                        "creating a blueprint for the future."
-                    ],
-                    "justification": "These phrases directly relate to building and integrating software components, specifically for the user interface, and interacting with APIs, which falls under traditional software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description explicitly mentions 'Frontend Developer', 'working on the new user interfaces', 'building the UI based on React and Redux/ReactQuery', 'Designing and developing key front-end components', and 'implement UI functionality'. These are all core software development activities related to building user-facing applications.",
+                    "phrase": "Frontend Developer"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "Understanding the end user's needs, have an eye for design and can implement UI functionality that is visually pleasing."
-                    ],
-                    "justification": "This phrase indicates a need to understand user requirements and translate them into functional and aesthetically pleasing UI elements, which is a form of business understanding applied to product development."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "React",
-                    "tech_type": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'implementing new OpenAPI functions' directly relates to developing and integrating APIs, a common task in software development for connecting different parts of an application or external services.",
+                    "phrase": "implementing new OpenAPI functions"
                 },
                 {
-                    "tech_name": "Redux",
-                    "tech_type": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK4: Software Development",
+                    "justification": "The responsibility 'Designing and developing key front-end components of our products' is a direct description of software development work focused on the user interface.",
+                    "phrase": "Designing and developing key front-end components of our products"
                 },
                 {
-                    "tech_name": "ReactQuery",
-                    "tech_type": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Understanding the end user's needs' indicates a requirement to comprehend the user's perspective and requirements, which is a key aspect of understanding the business context for product development.",
+                    "phrase": "Understanding the end user's needs"
                 },
                 {
-                    "tech_name": "OpenAPI",
-                    "tech_type": "TECH4: LLM Frameworks & Libraries"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The responsibilities 'Reviewing peer deliverables', 'Providing input to technical writers', 'Assisting functional and technical testers', and 'Working closely with the interaction designers' all highlight the need for effective communication and collaboration within a development team.",
+                    "phrase": "Reviewing peer deliverables"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The responsibilities 'Reviewing peer deliverables', 'Providing input to technical writers', 'Assisting functional and technical testers', and 'Working closely with the interaction designers' all highlight the need for effective communication and collaboration within a development team.",
+                    "phrase": "Providing input to technical writers"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The responsibilities 'Reviewing peer deliverables', 'Providing input to technical writers', 'Assisting functional and technical testers', and 'Working closely with the interaction designers' all highlight the need for effective communication and collaboration within a development team.",
+                    "phrase": "Assisting functional and technical testers"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The responsibilities 'Reviewing peer deliverables', 'Providing input to technical writers', 'Assisting functional and technical testers', and 'Working closely with the interaction designers' all highlight the need for effective communication and collaboration within a development team.",
+                    "phrase": "Working closely with the interaction designers"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "justification": "The phrase 'have an eye for design and can implement UI functionality that is visually pleasing' suggests a need for problem-solving skills applied to create user-friendly and aesthetically pleasing interfaces, combining technical implementation with design sensibility.",
+                    "phrase": "have an eye for design and can implement UI functionality that is visually pleasing"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        "Reviewing peer deliverables.",
-                        "Providing input to technical writers.",
-                        "Assisting functional and technical testers.",
-                        "Working closely with the interaction designers."
-                    ],
-                    "justification": "These phrases highlight the need for collaboration with peers, technical writers, testers, and designers, indicating strong communication and teamwork."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Reviewing peer deliverables"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Designing and developing key front-end components of our products.",
-                        "implementing new OpenAPI functions",
-                        "creating a blueprint for the future."
-                    ],
-                    "justification": "The act of designing, developing, and creating blueprints for future development implies problem-solving and a pragmatic approach to building software."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Providing input to technical writers"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        "creating a blueprint for the future."
-                    ],
-                    "justification": "Creating a blueprint for the future suggests a need to think ahead and adapt to evolving requirements or technologies, aligning with learning and adaptability."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Assisting functional and technical testers"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        "creating a completely new user interface, that is built from the ground up.",
-                        "creating a blueprint for the future."
-                    ],
-                    "justification": "Building a new UI from scratch and creating future blueprints indicates a proactive and ownership-driven approach to product development."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Working closely with the interaction designers"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Understanding the end user's needs"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "have an eye for design and can implement UI functionality that is visually pleasing"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "React"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "Redux"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "ReactQuery"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "OpenAPI"
                 }
             ]
         }

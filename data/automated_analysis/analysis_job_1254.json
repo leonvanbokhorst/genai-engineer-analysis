@@ -27,144 +27,119 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional data engineering tasks such as building data pipelines, managing data platforms, and preparing data for analytics and reporting. While it mentions supporting ML & GenAI Ops, it does not indicate direct involvement in developing or fine-tuning ML/GenAI models, which is the core of a GenAI Engineer role."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on traditional data engineering tasks such as building data pipelines, managing data infrastructure, and preparing data for analytics and reporting. While it mentions supporting ML & GenAI Ops, it does not indicate a primary focus on developing, fine-tuning, or deploying generative models or LLMs themselves. The core responsibilities and tasks described align more with a foundational data engineering role rather than a specialized ML or GenAI Engineer role. Therefore, it falls under the 'Ambiguous' category as it's not a clear fit for the specialized ML or GenAI profiles and is primarily a technical role focused on data infrastructure and pipelines."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "development and management of the Enterprise Data Platform",
-                        "architect and build the core data infrastructure",
-                        "build data ingestions from internal & external applications",
-                        "merge various data feeds and combining them into easy to use, valuable data sets",
-                        "design and create scalable and packaged data solutions in the form of various data services",
-                        "developing and maintaining data solutions and data pipeline infrastructure",
-                        "Design, develop and implement Data Engineering solutions",
-                        "quality documentation and adherence to Data Engineering best practices",
-                        "continuous improvement of Company's Data Engineering practices"
-                    ],
-                    "justification": "These phrases directly describe the creation, maintenance, and management of data infrastructure, pipelines, and services, which are the core activities of data engineering."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The job description explicitly states 'The team is responsible for the development and management of the Enterprise Data Platform', 'build data ingestions from internal & external applications', 'merge various data feeds and combining them into easy to use, valuable data sets', and 'design and create scalable and packaged data solutions in the form of various data services.' It also mentions 'developing and maintaining data solutions and data pipeline infrastructure'.",
+                    "phrase": "development and management of the Enterprise Data Platform"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "powering the company and all respective Data functions",
-                        "crucial for integrating, managing, and providing data across the business",
-                        "supporting broader data-heavy functions within the company, including Reporting, Analytics and Data Science",
-                        "works closely with business and product teams to ensure timeliness and efficiency of data-driven decision making",
-                        "design, develop and implement clean and structured data for use by analysts and reporting",
-                        "defining the scope and the requirements for Data Engineering projects",
-                        "acting as SME and as a contributor to business and engineering initiatives"
-                    ],
-                    "justification": "These phrases highlight the need to understand business needs, align data solutions with business goals, and work with business stakeholders to deliver value."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The job description states 'build data ingestions from internal & external applications'.",
+                    "phrase": "build data ingestions from internal & external applications"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "collaborates with Software Development and DevOps teams to maintain scalability, reliability and maintainability of the company's overall technical stack",
-                        "design and create scalable and packaged data solutions in the form of various data services"
-                    ],
-                    "justification": "While not the primary focus, the role involves collaboration with software development teams and designing scalable data services, indicating some involvement in software engineering principles."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The job description states 'merge various data feeds and combining them into easy to use, valuable data sets to support analytics'.",
+                    "phrase": "merge various data feeds and combining them into easy to use, valuable data sets"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "ML & GenAI Ops",
-                        "support infra for ML & GenAI products and applications"
-                    ],
-                    "justification": "The job description mentions supporting infrastructure for ML & GenAI Ops, indicating an awareness and indirect involvement in the operational aspects of these technologies, but not direct MLOps engineering."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH1: Programming Languages",
-                    "values": []
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The job description states 'design and create scalable and packaged data solutions in the form of various data services.'",
+                    "phrase": "design and create scalable and packaged data solutions in the form of various data services"
                 },
                 {
-                    "tech_name": "TECH2: Cloud Platforms & Services",
-                    "values": []
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The job description mentions 'developing and maintaining data solutions and data pipeline infrastructure'.",
+                    "phrase": "developing and maintaining data solutions and data pipeline infrastructure"
                 },
                 {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "values": []
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The job description states 'The primary focus of this role is to design, develop and implement clean and structured data for use by analysts and reporting.'",
+                    "phrase": "design, develop and implement clean and structured data for use by analysts and reporting"
                 },
                 {
-                    "tech_name": "TECH4: LLM Frameworks & Libraries",
-                    "values": []
+                    "category": "TASK4: Software Development",
+                    "justification": "The job description mentions 'The Data Engineer collaborates with Software Development and DevOps teams to maintain scalability, reliability and maintainability of the company's overall technical stack.'",
+                    "phrase": "collaborates with Software Development and DevOps teams"
                 },
                 {
-                    "tech_name": "TECH5: Vector Stores & Search",
-                    "values": []
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The job description states 'The Data Engineer also works closely with business and product teams to ensure timeliness and efficiency of data-driven decision making.'",
+                    "phrase": "works closely with business and product teams"
                 },
                 {
-                    "tech_name": "TECH6: MLOps & Data Pipelines",
-                    "values": []
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The job description mentions 'support infra for ML & GenAI products and applications'.",
+                    "phrase": "support infra for ML & GenAI products and applications"
                 },
                 {
-                    "tech_name": "TECH7: Data Visualization",
-                    "values": []
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The job description mentions 'ML & GenAI Ops' as a sub-discipline within Data Engineering, implying involvement in operational aspects related to ML and GenAI.",
+                    "phrase": "ML & GenAI Ops"
                 },
                 {
-                    "tech_name": "TECH8: Data Processing",
-                    "values": []
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The job description states 'Responsibilities also include quality documentation and adherence to Data Engineering best practices.'",
+                    "phrase": "quality documentation and adherence to Data Engineering best practices"
                 },
                 {
-                    "tech_name": "TECH9: Data Storage",
-                    "values": []
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The job description states 'Operate in a remote-first environment collaborating with individuals and teams distributed across multiple time zones worldwide'.",
+                    "phrase": "collaborating with individuals and teams distributed across multiple time zones worldwide"
                 },
                 {
-                    "tech_name": "TECH10: Data Modeling",
-                    "values": []
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The job description states 'Work with internal partner teams, and, occasionally, external partners on defining the scope and the requirements for Data Engineering projects'.",
+                    "phrase": "defining the scope and the requirements for Data Engineering projects"
                 },
                 {
-                    "tech_name": "TECH11: Data Analysis",
-                    "values": []
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The job description mentions 'Maintain work performance, transparency, and process compliance through usage of the company's task tracking tools and communication channels'. This implies operational oversight and process adherence.",
+                    "phrase": "Maintain work performance, transparency, and process compliance"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The job description states 'Participate in projects of a broader Engineering and Data teams by acting as SME and as a contributor to business and engineering initiatives'.",
+                    "phrase": "contributor to business and engineering initiatives"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The job description mentions 'Work on continuous improvement of Company's Data Engineering practices through platform/tools evaluation, documentation, knowledge sharing, etc'. This involves operational improvement and best practices.",
+                    "phrase": "continuous improvement of Company's Data Engineering practices"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Operate in a remote-first environment collaborating with individuals and teams distributed across multiple time zones worldwide",
-                        "Work with internal partner teams, and, occasionally, external partners on defining the scope and the requirements for Data Engineering projects",
-                        "collaborates with Software Development and DevOps teams",
-                        "works closely with business and product teams"
-                    ],
-                    "justification": "The role explicitly mentions collaboration with various internal and external teams, including those across different time zones, and working with business stakeholders."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "collaborating with individuals and teams distributed across multiple time zones worldwide"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "continuous improvement of Company's Data Engineering practices through platform/tools evaluation, documentation, knowledge sharing, etc"
-                    ],
-                    "justification": "The emphasis on continuous improvement and evaluating new platforms/tools suggests a need for learning and adapting to new technologies and practices."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Work with internal partner teams, and, occasionally, external partners"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "architect and build the core data infrastructure",
-                        "build data ingestions",
-                        "merge various data feeds and combining them into easy to use, valuable data sets",
-                        "design and create scalable and packaged data solutions",
-                        "Design, develop and implement Data Engineering solutions",
-                        "maintain scalability, reliability and maintainability of the company's overall technical stack"
-                    ],
-                    "justification": "The core responsibilities involve designing, building, and maintaining complex data systems, which inherently requires problem-solving skills to ensure scalability, reliability, and efficiency."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "contributor to business and engineering initiatives"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "architect and build the core data infrastructure",
-                        "design and create scalable and packaged data solutions",
-                        "Design, develop and implement Data Engineering solutions",
-                        "continuous improvement of Company's Data Engineering practices through platform/tools evaluation"
-                    ],
-                    "justification": "The role requires designing and building core infrastructure and solutions, and taking initiative in improving practices, suggesting a need for ownership and a proactive approach."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "continuous improvement of Company's Data Engineering practices through platform/tools evaluation, documentation, knowledge sharing, etc"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "design, develop and implement Data Engineering solutions"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "design and create scalable and packaged data solutions"
                 }
-            ]
+            ],
+            "technologies": []
         }
     }
 }

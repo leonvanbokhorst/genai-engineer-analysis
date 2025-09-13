@@ -27,72 +27,67 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on full-stack development using Laravel and Vue. While AI applications are mentioned, the core responsibilities and technologies described do not align with specialized ML or GenAI engineering roles. The emphasis is on application development rather than model building or MLOps."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on full-stack development using Laravel and Vue.js, with incidental use of AI concepts and low-code platforms. It lacks the deep specialization in AI modeling, generative techniques, or MLOps required for ML Engineer or GenAI Engineer profiles. The primary emphasis is on software development and application building, rather than core AI research or deployment."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        "Ontwikkelen van schaalbare en krachtige (AI) applicaties met behulp van het Laravel/Vue-framework",
-                        "Samenwerken met ons team van ongeveer 15 collega's aan end-to-end AI-applicatieontwikkeling",
-                        "Incidenteel gebruik van low-code platforms zoals n8n en Flutterflow i.c.m. je fullcode ervaring en skills",
-                        "Bijdragen aan het continu verbeteren van onze Software Development As A Service methode"
-                    ],
-                    "justification": "These phrases describe the core activities of building and maintaining software applications, integrating them, and improving development processes, which are hallmarks of software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The core of the job involves 'Ontwikkelen van schaalbare en krachtige (AI) applicaties met behulp van het Laravel/Vue-framework' and 'end-to-end AI-applicatieontwikkeling', which are direct software development activities.",
+                    "phrase": "Ontwikkelen van schaalbare en krachtige (AI) applicaties met behulp van het Laravel/Vue-framework"
                 },
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        "Vertalen van complexe AI-concepten naar praktische toepassingen voor onze klanten"
-                    ],
-                    "justification": "This phrase indicates the need to understand business needs and translate technical concepts (AI) into practical solutions for clients, aligning with business understanding."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "Laravel",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'end-to-end AI-applicatieontwikkeling' clearly indicates involvement in the full software development lifecycle for AI applications.",
+                    "phrase": "end-to-end AI-applicatieontwikkeling"
                 },
                 {
-                    "tech_name": "Vue",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK4: Software Development",
+                    "justification": "Mentioning 'fullcode ervaring en skills' alongside low-code platforms reinforces the software development focus.",
+                    "phrase": "fullcode ervaring en skills"
                 },
                 {
-                    "tech_name": "n8n",
-                    "category": "TECH6: MLOps & Data Pipelines"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The responsibility to 'Vertalen van complexe AI-concepten naar praktische toepassingen voor onze klanten' requires understanding business needs and translating them into technical solutions.",
+                    "phrase": "Vertalen van complexe AI-concepten naar praktische toepassingen voor onze klanten"
                 },
                 {
-                    "tech_name": "Flutterflow",
-                    "category": "TECH4: LLM Frameworks & Libraries"
+                    "category": "TASK4: Software Development",
+                    "justification": "Contributing to 'Software Development As A Service methode' is a task related to improving the software development process and delivery.",
+                    "phrase": "Bijdragen aan het continu verbeteren van onze Software Development As A Service methode"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Samenwerken met ons team van ongeveer 15 collega's",
-                        "Vertalen van complexe AI-concepten naar praktische toepassingen voor onze klanten"
-                    ],
-                    "justification": "The mention of teamwork and translating complex concepts to clients highlights communication and collaboration skills."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Samenwerken met ons team van ongeveer 15 collega's"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Ontwikkelen van schaalbare en krachtige (AI) applicaties",
-                        "Vertalen van complexe AI-concepten naar praktische toepassingen voor onze klanten",
-                        "Bijdragen aan het continu verbeteren van onze Software Development As A Service methode"
-                    ],
-                    "justification": "The need to develop scalable applications, translate complex concepts into practical solutions, and improve development methods points to problem-solving and a pragmatic approach."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Vertalen van complexe AI-concepten naar praktische toepassingen"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "Incidenteel gebruik van low-code platforms zoals n8n en Flutterflow i.c.m. je fullcode ervaring en skills"
-                    ],
-                    "justification": "The requirement to work with both full-code and low-code platforms suggests a need for adaptability and learning new tools."
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "incidenteel gebruik van low-code platforms zoals n8n en Flutterflow i.c.m. je fullcode ervaring en skills"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Laravel"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Vue"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "n8n"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "Flutterflow"
                 }
             ]
         }

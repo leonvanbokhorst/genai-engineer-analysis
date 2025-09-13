@@ -27,100 +27,76 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The role emphasizes building and maintaining automated, scalable, and secure environments for deploying AI models, with a strong focus on MLOps and cloud infrastructure. While Generative AI is mentioned, the core responsibilities lean towards productionizing models and supporting various AI workloads, aligning more closely with an ML Engineer's focus on MLOps and model deployment."
+            "profile": "GenAI Engineer",
+            "rationale": "The job description emphasizes spearheading internal initiatives on Generative AI, developing new innovative solutions using Azure AI services, and integrating AI models into Azure cloud solutions. Key responsibilities include automating deployment for AI models, setting up cloud infrastructure for AI workloads, and using Azure AI services for model development, code automation, and predictive tasks. This aligns strongly with the GenAI Engineer profile's focus on developing, fine-tuning, and deploying applications built on generative models and integrating them into production systems."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Automating deployment by building CI/CD pipelines",
-                        "Setting up the necessary cloud infrastructure",
-                        "maintain automated, scalable, and secure environments for deploying AI models",
-                        "integrating them into Azure cloud solutions"
-                    ],
-                    "justification": "These phrases directly relate to building and managing the infrastructure and pipelines for deploying and maintaining AI models in production, which is the core of MLOps."
+                    "category": "TASK5",
+                    "justification": "The role involves creating and maintaining automated, scalable, and secure environments for deploying AI models and integrating them into Azure cloud solutions, which directly relates to Operations Engineering.",
+                    "phrase": "creating and maintained automated, scalable, and secure environments for deploying AI models and integrating them into Azure cloud solutions"
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "support code automation and script generation",
-                        "predictive maintenance",
-                        "incident analysis",
-                        "anomaly detection",
-                        "develop new models and solutions"
-                    ],
-                    "justification": "These phrases indicate the application and development of models for various AI tasks, including predictive modeling and generative tasks like script generation."
+                    "category": "TASK5",
+                    "justification": "Building CI/CD pipelines is a core component of Operations Engineering (MLOps) for automating software and model deployment.",
+                    "phrase": "Automating deployment by building CI/CD pipelines"
                 },
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "support AI workloads"
-                    ],
-                    "justification": "While not explicitly detailed, supporting AI workloads often implies underlying data engineering tasks for model training and deployment."
+                    "category": "TASK5",
+                    "justification": "Setting up cloud infrastructure using Bicep to support AI workloads and optimize networking falls under the umbrella of Operations Engineering, specifically infrastructure as code for AI environments.",
+                    "phrase": "Setting up the necessary cloud infrastructure by using Bicep (similar to terraform) to support AI workloads and that networking are configured optimally"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "integrating them into Azure cloud solutions",
-                        "support code automation and script generation"
-                    ],
-                    "justification": "The integration of AI models into cloud solutions and the support for code automation suggest software development aspects, particularly in building around AI capabilities."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "Azure Cloud",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK3",
+                    "justification": "Using Azure AI services to develop new models and solutions, including tasks like code automation, script generation, predictive maintenance, incident analysis, and anomaly detection, directly involves the modeling aspect of AI.",
+                    "phrase": "Using Azure AI services to not only develop new models and solutions but also to support code automation and script generation, predictive maintenance, incident analysis, anomaly detection, and more."
                 },
                 {
-                    "tech_name": "Generative AI",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK4",
+                    "justification": "Integrating AI models into Azure cloud solutions implies software development tasks to make these models functional within a larger system.",
+                    "phrase": "integrating them into Azure cloud solutions"
                 },
                 {
-                    "tech_name": "Bicep",
-                    "category": "TECH6: MLOps & Data Pipelines"
-                },
-                {
-                    "tech_name": "Azure AI services",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK1",
+                    "justification": "Spearheading internal initiatives on Generative Artificial Intelligence and developing new innovative solutions indicates a need to understand business goals and translate them into AI-driven projects.",
+                    "phrase": "spearhead internal initiatives on Generative Artificial Intelligence and develop new innovative solutions"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        "collaborate with various data-centered teams and consultants"
-                    ],
-                    "justification": "Explicit mention of collaboration with different teams."
+                    "category": "SKILL1",
+                    "phrase": "collaborate with various data-centered teams and consultants"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        "Looking to future proof your CV and experience? This is THE opportunity for you."
-                    ],
-                    "justification": "Implies a dynamic environment where continuous learning and adaptation are valued."
+                    "category": "SKILL2",
+                    "phrase": "Looking to future proof your CV and experience?"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "develop new innovative solutions",
-                        "support code automation and script generation",
-                        "predictive maintenance",
-                        "incident analysis",
-                        "anomaly detection"
-                    ],
-                    "justification": "The responsibilities listed involve solving complex problems using AI and automation."
+                    "category": "SKILL5",
+                    "phrase": "spearhead internal initiatives"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2",
+                    "phrase": "Azure Cloud"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        "spearhead internal initiatives on Generative Artificial Intelligence",
-                        "develop new innovative solutions"
-                    ],
-                    "justification": "The role involves taking initiative and driving innovation in Generative AI."
+                    "category": "TECH3",
+                    "phrase": "Generative AI"
+                },
+                {
+                    "category": "TECH2",
+                    "phrase": "Azure AI services"
+                },
+                {
+                    "category": "TECH6",
+                    "phrase": "CI/CD pipelines"
+                },
+                {
+                    "category": "TECH6",
+                    "phrase": "Bicep"
                 }
             ]
         }

@@ -26,158 +26,168 @@
         "full_text": "Product Software Engineer\n\nWe are looking for a junior developer with experience in an object oriented programming language, who is interested in utilizing (and/or learning) Java and Python to deliver services & libraries that add value to our Search as a Service platform. You will be part of a mature, cross-functional team that is responsible for the end-to-end delivery of these services, which includes design, security, development, testing and deployment of services & back-end components.\n\n   The project is focused on the delivery of services within the search domain with a service architecture that utilizes Solr, query parsing, dictionaries, cloud platforms, and 3rd party technologies in its delivery. Joining the team would offer the opportunity to learn about technologies in the content domain, use AWS services, and learn from a mature development team. As a member of an agile team, we are looking for motivated and vocal individuals to collaborate and help build the best practices for the development team, and if lacking knowledge in one of the languages, we can provide training/resources to help learn either Java or Python.\n\n   Joining the team would offer the opportunity to learn about the latest technologies in the domain of search technology, utilize & learn AWS technologies, and participate in a collaborative, flat team structure.\n\n   You will report into the lead software engineer and work hand in hand with business, product leaders, customers, and developers. Your role is crucial to the continued growth and evolution of one of the leading companies providing expert solutions to the healthcare, compliance, legal and tax markets globally.\n\n   Tasks and responsibilities\n\n   * Write, test, review, document service-oriented applications in collaboration with onshore and offshore developers, mostly for the development of PoC's.\n\n   * Identify potential opportunities for code optimization.\n\n   * Provide input for code reviews and help with environment build deployments, release notes and build notices.\n\n   * Maintain code sanity and promote & practise coding standards/practices within the team.\n\n   * Document application design and logic\n\n   * Research, identify and recommend operational improvements resulting in improved reliability and/or efficiencies in maintaining the application.\n\n   * Contribute to driving the architecture, assets and tools required to meet our current and future needs across WK\n\n   * Collaborate with team members and QA engineers to drive deeper integration of NLP, machine learning and AI technologies to enhance uptake & delivery of components.\n\n   * Evaluate and advise on technical aspects of open work requests in the product backlog with the project lead.\n\n   * Continuously stay current on market trends and new technologies that can affect how we approach our solutions."
     },
     "analysis": {
-        "job_profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses on traditional software engineering tasks within a search domain, with only a tangential mention of AI/ML integration. It lacks the core responsibilities and technologies associated with either an ML Engineer or a GenAI Engineer."
+        "profile_classification": {
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on traditional software engineering tasks within a search domain, mentioning AI/ML and NLP as areas for integration rather than the core focus. It emphasizes object-oriented programming, service development, and collaboration within an agile team, aligning more with a general software engineering role. While it mentions learning AI/ML technologies, the primary responsibilities and technologies listed (Java, Python, Solr, AWS) do not strongly indicate a specialized ML or GenAI Engineer role. The role is described as 'junior developer' and 'Product Software Engineer', further suggesting a broader software development focus rather than a specialized AI engineering profile."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
                     "category": "TASK4: Software Development",
-                    "phrases": [
-                        "Product Software Engineer",
-                        "junior developer with experience in an object oriented programming language",
-                        "deliver services & libraries",
-                        "end-to-end delivery of these services, which includes design, security, development, testing and deployment of services & back-end components",
-                        "Write, test, review, document service-oriented applications",
-                        "development of PoC's",
-                        "code optimization",
-                        "code reviews",
-                        "environment build deployments, release notes and build notices",
-                        "Maintain code sanity and promote & practise coding standards/practices within the team",
-                        "Document application design and logic",
-                        "driving the architecture, assets and tools required to meet our current and future needs",
-                        "Evaluate and advise on technical aspects of open work requests in the product backlog"
-                    ],
-                    "justification": "These phrases describe the core activities of building, testing, deploying, and maintaining software services and back-end components, which are characteristic of traditional software development."
+                    "justification": "The description repeatedly mentions 'developer', 'design, security, development, testing and deployment of services & back-end components', 'service-oriented applications', 'code optimization', 'code reviews', 'coding standards/practices', 'document application design and logic', and 'architecture, assets and tools'. These are all core activities of software development.",
+                    "phrase": "design, security, development, testing and deployment of services & back-end components"
                 },
                 {
-                    "category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "add value to our Search as a Service platform",
-                        "delivery of services within the search domain",
-                        "work hand in hand with business, product leaders, customers, and developers",
-                        "role is crucial to the continued growth and evolution of one of the leading companies providing expert solutions to the healthcare, compliance, legal and tax markets globally",
-                        "operational improvements resulting in improved reliability and/or efficiencies in maintaining the application",
-                        "meet our current and future needs across WK",
-                        "enhance uptake & delivery of components",
-                        "technical aspects of open work requests in the product backlog"
-                    ],
-                    "justification": "These phrases indicate an understanding of how technical work contributes to business goals, product strategy, market needs, and operational efficiency within specific business domains."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Write, test, review, document service-oriented applications' directly describes software development activities.",
+                    "phrase": "Write, test, review, document service-oriented applications"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Identifying opportunities for 'code optimization' is a common task in software development to improve performance and efficiency.",
+                    "phrase": "Identify potential opportunities for code optimization"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Providing input for 'code reviews' and managing 'environment build deployments, release notes and build notices' are standard software development lifecycle activities.",
+                    "phrase": "Provide input for code reviews and help with environment build deployments, release notes and build notices"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Maintaining 'code sanity and promote & practise coding standards/practices' is fundamental to software development quality assurance.",
+                    "phrase": "Maintain code sanity and promote & practise coding standards/practices within the team"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Documenting 'application design and logic' is a crucial part of the software development process for maintainability and knowledge transfer.",
+                    "phrase": "Document application design and logic"
                 },
                 {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "deployment of services",
-                        "environment build deployments",
-                        "release notes and build notices",
-                        "operational improvements resulting in improved reliability and/or efficiencies in maintaining the application"
-                    ],
-                    "justification": "These phrases touch upon aspects of deploying services, managing builds and releases, and ensuring operational reliability, which are components of operations engineering, though not explicitly MLOps in the AI context."
+                    "justification": "Researching and recommending 'operational improvements resulting in improved reliability and/or efficiencies in maintaining the application' falls under the umbrella of operations and maintenance, which is related to MLOps in the context of AI/ML systems.",
+                    "phrase": "Research, identify and recommend operational improvements resulting in improved reliability and/or efficiencies in maintaining the application"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Contributing to 'driving the architecture, assets and tools' is a software development responsibility related to system design and infrastructure.",
+                    "phrase": "Contribute to driving the architecture, assets and tools required to meet our current and future needs across WK"
                 },
                 {
                     "category": "TASK3: Modeling",
-                    "phrases": [
-                        "query parsing",
-                        "dictionaries",
-                        "NLP, machine learning and AI technologies"
-                    ],
-                    "justification": "Mentions of 'query parsing', 'dictionaries', and 'NLP, machine learning and AI technologies' suggest some involvement with modeling or AI concepts, but without specific details on building or fine-tuning models."
+                    "justification": "The phrase 'integration of NLP, machine learning and AI technologies' indicates involvement in applying these modeling techniques, even if it's through integration rather than core development.",
+                    "phrase": "integration of NLP, machine learning and AI technologies"
                 },
                 {
-                    "category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "interested in utilizing (and/or learning) Java and Python",
-                        "opportunity to learn about technologies in the content domain",
-                        "learn from a mature development team",
-                        "utilize & learn AWS technologies",
-                        "if lacking knowledge in one of the languages, we can provide training/resources to help learn either Java or Python",
-                        "Continuously stay current on market trends and new technologies"
-                    ],
-                    "justification": "The job description explicitly mentions opportunities and willingness to learn new languages, technologies, and stay current with market trends, indicating a strong emphasis on learning and adaptability."
+                    "category": "TASK4: Software Development",
+                    "justification": "Evaluating and advising on 'technical aspects of open work requests in the product backlog' involves understanding requirements and technical feasibility, which is part of the software development process.",
+                    "phrase": "Evaluate and advise on technical aspects of open work requests in the product backlog"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The job mentions a 'Search as a Service platform' that utilizes 'Solr, query parsing, dictionaries, cloud platforms'. Solr and query parsing are related to data indexing and retrieval, which are aspects of data engineering for search systems.",
+                    "phrase": "utilizes Solr, query parsing, dictionaries"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role is described as 'crucial to the continued growth and evolution of one of the leading companies providing expert solutions to the healthcare, compliance, legal and tax markets globally', indicating a need to understand the business context and market.",
+                    "phrase": "continued growth and evolution of one of the leading companies providing expert solutions to the healthcare, compliance, legal and tax markets globally"
                 },
                 {
                     "category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "cross-functional team",
-                        "collaborate and help build the best practices for the development team",
-                        "work hand in hand with business, product leaders, customers, and developers",
-                        "Collaborate with team members and QA engineers"
-                    ],
-                    "justification": "The description highlights working within cross-functional teams, collaborating with various stakeholders (business, product, customers, developers, QA), and building team best practices, all of which point to strong communication and collaboration skills."
+                    "justification": "The description emphasizes 'collaborate with team members', 'work hand in hand with business, product leaders, customers, and developers', and being 'motivated and vocal individuals to collaborate'.",
+                    "phrase": "collaborate with team members and QA engineers"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "justification": "The job explicitly states 'interested in utilizing (and/or learning) Java and Python', 'opportunity to learn about technologies in the content domain, use AWS services, and learn from a mature development team', and 'if lacking knowledge in one of the languages, we can provide training/resources to help learn either Java or Python'. This highlights a strong emphasis on learning and adaptability.",
+                    "phrase": "interested in utilizing (and/or learning) Java and Python"
                 },
                 {
                     "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Identify potential opportunities for code optimization",
-                        "Research, identify and recommend operational improvements",
-                        "Evaluate and advise on technical aspects of open work requests"
-                    ],
-                    "justification": "Phrases related to identifying optimization opportunities, recommending improvements, and evaluating technical aspects of work requests demonstrate a problem-solving and pragmatic approach to development and operations."
+                    "justification": "The task 'Identify potential opportunities for code optimization' and 'Research, identify and recommend operational improvements' implies a problem-solving approach to enhance efficiency and reliability.",
+                    "phrase": "Identify potential opportunities for code optimization"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "justification": "The phrase 'Contribute to driving the architecture, assets and tools required to meet our current and future needs' suggests taking initiative and ownership in shaping the technical direction.",
+                    "phrase": "Contribute to driving the architecture, assets and tools required to meet our current and future needs across WK"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "justification": "The statement 'Continuously stay current on market trends and new technologies that can affect how we approach our solutions' directly points to the need for continuous learning and adaptation.",
+                    "phrase": "Continuously stay current on market trends and new technologies"
+                }
+            ],
+            "soft_skills": [
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "collaborate with team members and QA engineers"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "work hand in hand with business, product leaders, customers, and developers"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "motivated and vocal individuals to collaborate"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "interested in utilizing (and/or learning) Java and Python"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "opportunity to learn about technologies in the content domain, use AWS services, and learn from a mature development team"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "provide training/resources to help learn either Java or Python"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Continuously stay current on market trends and new technologies"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Identify potential opportunities for code optimization"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Research, identify and recommend operational improvements"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Contribute to driving the architecture, assets and tools required to meet our current and future needs across WK"
                 }
             ],
             "technologies": [
                 {
                     "category": "TECH1: Programming Languages",
-                    "items": [
-                        "Java",
-                        "Python"
-                    ]
+                    "phrase": "Java"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
                 },
                 {
                     "category": "TECH2: Cloud Platforms & Services",
-                    "items": [
-                        "AWS"
-                    ]
-                },
-                {
-                    "category": "TECH6: MLOps & Data Pipelines",
-                    "items": [
-                        "Solr"
-                    ]
+                    "phrase": "AWS"
                 },
                 {
                     "category": "TECH10: Data Modeling",
-                    "items": [
-                        "machine learning"
-                    ]
+                    "phrase": "Solr"
                 },
                 {
-                    "category": "TECH4: LLM Frameworks & Libraries",
-                    "items": [
-                        "NLP"
-                    ]
-                }
-            ],
-            "soft_skills": [
-                {
-                    "category": "SKILL2: Learning & Adaptability",
-                    "items": [
-                        "interested in utilizing (and/or learning) Java and Python",
-                        "opportunity to learn about technologies in the content domain",
-                        "learn from a mature development team",
-                        "utilize & learn AWS technologies",
-                        "if lacking knowledge in one of the languages, we can provide training/resources to help learn either Java or Python",
-                        "Continuously stay current on market trends and new technologies"
-                    ]
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "NLP"
                 },
                 {
-                    "category": "SKILL1: Communication & Collaboration",
-                    "items": [
-                        "cross-functional team",
-                        "collaborate and help build the best practices for the development team",
-                        "work hand in hand with business, product leaders, customers, and developers",
-                        "Collaborate with team members and QA engineers"
-                    ]
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "machine learning"
                 },
                 {
-                    "category": "SKILL3: Problem Solving & Pragmatism",
-                    "items": [
-                        "Identify potential opportunities for code optimization",
-                        "Research, identify and recommend operational improvements",
-                        "Evaluate and advise on technical aspects of open work requests"
-                    ]
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "AI technologies"
                 }
             ]
         }

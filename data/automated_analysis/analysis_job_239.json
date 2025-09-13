@@ -27,83 +27,76 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional backend software engineering tasks such as writing clean code, code reviews, and improving codebase health. While it mentions collaboration with other teams and product-making decisions, there is no explicit mention of AI, machine learning, generative models, or related technologies, making it difficult to classify within the provided AI-focused profiles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on traditional backend software engineering tasks such as implementing features, writing clean code, code reviews, and improving codebase health. While it mentions collaboration with product and DevOps teams, and participation in product-making decisions, it lacks specific details or requirements related to AI, machine learning, generative models, or data science. The core responsibilities described align more with a general backend engineering role rather than a specialized AI/ML role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "working on the core backend solutions",
-                        "implementing features",
-                        "From the proposal through design and implementation to maintenance",
-                        "Write clean and maintainable code using engineering best practices",
-                        "performing code reviews for your peers",
-                        "Improving the health of the codebase",
-                        "dedicate one day per week to housekeeping"
-                    ],
-                    "justification": "These phrases directly relate to the design, development, and maintenance of software systems, which are core aspects of software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The description emphasizes 'core backend solutions', 'implementing features', 'write clean and maintainable code', 'engineering best practices', 'code reviews', and 'improving the health of the codebase', which are all core activities of software development.",
+                    "phrase": "core backend solutions"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "powering PerfectScale data pipeline and business logic",
-                        "collaborating with product managers",
-                        "participate in product-making decisions",
-                        "Collaborate with product, devops, backend and frontend engineers",
-                        "deliver elegant and well thought out solutions for complex problems",
-                        "You're expected to propose things that you think can be an excellent addition to the products",
-                        "The team plans and discusses the upcoming work",
-                        "provide feedback to each other, trying to find challenges and unknowns as early as possible"
-                    ],
-                    "justification": "These phrases indicate involvement in understanding business needs, collaborating with product teams, contributing to product strategy, and participating in team planning and feedback sessions."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Implementing features. From the proposal through design and implementation to maintenance' directly describes the software development lifecycle.",
+                    "phrase": "Implementing features. From the proposal through design and implementation to maintenance"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "Collaborate with product, devops, backend and frontend engineers"
-                    ],
-                    "justification": "Mentioning collaboration with 'devops' engineers suggests an awareness of operational aspects, though not directly performing MLOps tasks."
+                    "category": "TASK4: Software Development",
+                    "justification": "The instruction to 'Write clean and maintainable code using engineering best practices' and 'perform code reviews' are fundamental software development practices.",
+                    "phrase": "Write clean and maintainable code using engineering best practices, you will also ensure clean code and best practices while performing code reviews for your peers"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The mention of 'Improving the health of the codebase' and 'accumulating technical debt' relates to maintaining and refactoring existing software systems.",
+                    "phrase": "Improving the health of the codebase. We're mindful of accumulating technical debt."
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves 'collaborating with product managers' and participating in 'product-making decisions', indicating an involvement in understanding business needs and translating them into technical solutions.",
+                    "phrase": "collaborating with product managers, and developers from other teams and also participate in product-making decisions"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The description explicitly states 'Collaborate with product, devops, backend and frontend engineers' and 'The team plans and discusses the upcoming work. We provide feedback to each other', highlighting teamwork and communication.",
+                    "phrase": "Collaborate with product, devops, backend and frontend engineers"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "justification": "The phrase 'deliver elegant and well thought out solutions for complex problems' and 'trying to find challenges and unknowns as early as possible' points to problem-solving and proactive identification of issues.",
+                    "phrase": "deliver elegant and well thought out solutions for complex problems"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "justification": "The expectation to 'propose things that you think can be an excellent addition to the products' indicates a need for initiative and ownership.",
+                    "phrase": "You're expected to propose things that you think can be an excellent addition to the products"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The statement 'We provide feedback to each other, trying to find challenges and unknowns as early as possible' demonstrates collaborative feedback and communication within the team.",
+                    "phrase": "The team plans and discusses the upcoming work. We provide feedback to each other, trying to find challenges and unknowns as early as possible"
                 }
             ],
-            "technologies": [],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "phrases": [
-                        "collaborating with product managers, and developers from other teams",
-                        "Collaborate with product, devops, backend and frontend engineers",
-                        "provide feedback to each other"
-                    ],
-                    "justification": "These phrases highlight the need to work effectively with various teams and stakeholders, and to share information and ideas."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Collaborate with product, devops, backend and frontend engineers"
                 },
                 {
-                    "skill_name": "Problem Solving & Pragmatism",
-                    "phrases": [
-                        "deliver elegant and well thought out solutions for complex problems",
-                        "Improving the health of the codebase",
-                        "trying to find challenges and unknowns as early as possible"
-                    ],
-                    "justification": "The description emphasizes solving complex problems, maintaining code quality, and proactively identifying issues."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "The team plans and discusses the upcoming work. We provide feedback to each other"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "phrases": [
-                        "participate in product-making decisions",
-                        "You're expected to propose things that you think can be an excellent addition to the products"
-                    ],
-                    "justification": "These phrases suggest a role where the individual is encouraged to contribute ideas and take initiative in product development."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "deliver elegant and well thought out solutions for complex problems"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "phrases": [
-                        "From the proposal through design and implementation to maintenance"
-                    ],
-                    "justification": "The end-to-end responsibility for features implies a need to adapt to different stages of the development lifecycle."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "You're expected to propose things that you think can be an excellent addition to the products"
                 }
-            ]
+            ],
+            "technologies": []
         }
     }
 }

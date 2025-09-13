@@ -27,77 +27,72 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The role focuses on data engineering and analytics tooling (DBT, BigQuery, Looker, LookML) and empowering business users with data. While it mentions 'Generative AI' in the context of a vision, the core responsibilities and technologies described do not align with the development or deployment of GenAI models or applications. It appears to be a data analytics or data engineering role rather than a GenAI-specific engineering position."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on data engineering and analytics tasks, specifically mentioning DBT, BigQuery, and Looker for data modeling and dataset creation. While it mentions 'Generative AI' in the context of empowering business users with a personalized data analyst, it does not describe core responsibilities or projects related to developing, fine-tuning, or deploying generative models themselves. The primary focus remains on data infrastructure, data modeling, and enabling data-driven approaches, rather than building AI systems. Therefore, it does not fit the criteria for ML Engineer or GenAI Engineer and is best classified as Ambiguous."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK2: Data Engineering",
-                    "phrases": [
-                        "Support data analysts in creating high-quality datasets using best practices in DBT, BigQuery, and Looker.",
-                        "Spearhead the creation and maintenance of a central LookML data model",
-                        "Collaborate with other IT teams to enhance real-time data using supported ingestion patterns.",
-                        "Drive continuous and iterative improvement of our data platform."
-                    ],
-                    "justification": "These phrases describe the creation, maintenance, and improvement of data infrastructure, datasets, and data models, which are core to data engineering."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Support data analysts in creating high-quality datasets using best practices in DBT, BigQuery, and Looker' directly relates to building and maintaining data infrastructure and preparing data for analysis.",
+                    "phrase": "Support data analysts in creating high-quality datasets using best practices in DBT, BigQuery, and Looker"
                 },
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "the cornerstone of our vision to empower every business user with a personalized data analyst through Generative AI.",
-                        "Empower colleagues to embrace a more data-driven approach by enabling them to work effectively on the platform."
-                    ],
-                    "justification": "These phrases highlight understanding business needs (empowering users, data-driven approach) and aligning technical work with broader organizational goals."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "DBT",
-                    "category": "TECH6: MLOps & Data Pipelines"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Spearhead the creation and maintenance of a central LookML data model' describes the process of designing and building data models, which is a core part of data engineering.",
+                    "phrase": "Spearhead the creation and maintenance of a central LookML data model"
                 },
                 {
-                    "technology": "BigQuery",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Collaborate with other IT teams to enhance real-time data using supported ingestion patterns' involves working with data pipelines and infrastructure to improve data flow.",
+                    "phrase": "Collaborate with other IT teams to enhance real-time data using supported ingestion patterns"
                 },
                 {
-                    "technology": "Looker",
-                    "category": "TECH2: Cloud Platforms & Services"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Drive continuous and iterative improvement of our data platform' indicates a focus on maintaining and enhancing the underlying data infrastructure.",
+                    "phrase": "Drive continuous and iterative improvement of our data platform"
                 },
                 {
-                    "technology": "LookML",
-                    "category": "TECH10: Data Modeling"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'empower every business user with a personalized data analyst through Generative AI' shows an understanding of how technology can serve business goals and user needs, even if the technical implementation is not detailed.",
+                    "phrase": "empower every business user with a personalized data analyst through Generative AI"
                 },
                 {
-                    "technology": "Generative AI",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'Empower colleagues to embrace a more data-driven approach by enabling them to work effectively on the platform' implies a need to guide and support others, which involves communication and collaboration.",
+                    "phrase": "Empower colleagues to embrace a more data-driven approach by enabling them to work effectively on the platform"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Support data analysts",
-                        "Collaborate with other IT teams",
-                        "Empower colleagues"
-                    ],
-                    "justification": "These phrases indicate interaction and support for other teams and individuals, requiring communication and collaboration."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Empower colleagues to embrace a more data-driven approach by enabling them to work effectively on the platform"
                 },
                 {
-                    "skill_category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "Spearhead the creation and maintenance",
-                        "Drive continuous and iterative improvement"
-                    ],
-                    "justification": "Phrases like 'spearhead' and 'drive continuous improvement' suggest a proactive and ownership-oriented approach."
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Drive continuous and iterative improvement of our data platform"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "DBT"
                 },
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "vision to empower every business user with a personalized data analyst through Generative AI."
-                    ],
-                    "justification": "The mention of Generative AI as a future vision implies a need to adapt to and learn new technologies."
+                    "category": "TECH9: Data Storage",
+                    "phrase": "BigQuery"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Looker"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "LookML"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Generative AI"
                 }
             ]
         }

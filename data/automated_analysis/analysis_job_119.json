@@ -28,78 +28,69 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The job description heavily emphasizes writing, deploying, and testing production-grade Python code, integrating ML models into applications, and developing microservices. This aligns with the core responsibilities of an ML Engineer focused on productionizing models and building robust systems."
+            "rationale": "The job description emphasizes writing, deploying, and testing production-grade Python code, integrating ML models into applications, and developing cloud-hosted microservices. It also mentions optimizing code, participating in design reviews, code reviews, and debugging production issues. These responsibilities align strongly with the core responsibilities and evidence profile of an ML Engineer, particularly the focus on productionizing models and building robust systems, rather than the generative AI-specific tasks of a GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "phrase": "Write, deploy and test production-grade product and infrastructure Python code.",
                     "category": "TASK4: Software Development",
-                    "justification": "This phrase directly relates to building and deploying software, which is a core aspect of software development, especially when integrating ML models."
+                    "justification": "The phrase 'Integrate ML models into deployable Python applications' directly relates to building software applications that incorporate ML models.",
+                    "phrase": "Integrate ML models into deployable Python applications"
                 },
                 {
-                    "phrase": "Optimize Python code for speed and memory efficiency.",
                     "category": "TASK4: Software Development",
-                    "justification": "Code optimization for performance is a fundamental software development task, ensuring applications run efficiently."
+                    "justification": "The phrase 'Develop application functionality across cloud-hosted microservices' describes building software components within a microservices architecture.",
+                    "phrase": "Develop application functionality across cloud-hosted microservices"
                 },
                 {
-                    "phrase": "Integrate ML models into deployable Python applications.",
-                    "category": "TASK4: Software Development",
-                    "justification": "This explicitly describes the process of taking ML models and embedding them into functional software applications, a key software development responsibility for ML Engineers."
-                },
-                {
-                    "phrase": "Develop application functionality across cloud-hosted microservices.",
-                    "category": "TASK4: Software Development",
-                    "justification": "Building application features within a microservices architecture, especially in a cloud environment, falls under software development."
-                },
-                {
-                    "phrase": "Participate in and lead design reviews with peers and stakeholders.",
-                    "category": "SKILL1: Communication & Collaboration",
-                    "justification": "Design reviews involve discussing technical designs with others, requiring communication and collaboration skills."
-                },
-                {
-                    "phrase": "Review code developed by other developers and provide feedback to ensure the consistent application of team best practices.",
-                    "category": "SKILL1: Communication & Collaboration",
-                    "justification": "Code reviews are a collaborative process that involves communication and ensuring adherence to team standards."
-                },
-                {
-                    "phrase": "Contribute to system documentation and team knowledge sharing.",
-                    "category": "SKILL1: Communication & Collaboration",
-                    "justification": "Documentation and knowledge sharing are collaborative activities that facilitate team understanding and efficiency."
-                },
-                {
-                    "phrase": "Triage product or system issues and debug/track/resolve by analyzing the sources of issues and the impact on hardware, network, or service operations and quality.",
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "This describes the process of identifying, diagnosing, and resolving production issues, which is a critical part of operations and MLOps."
-                }
-            ],
-            "technologies": [
-                {
-                    "phrase": "Python",
-                    "category": "TECH1: Programming Languages"
+                    "justification": "The phrase 'Write, deploy and test production-grade product and infrastructure Python code' covers the lifecycle of code in a production environment, including deployment and testing.",
+                    "phrase": "Write, deploy and test production-grade product and infrastructure Python code"
                 },
                 {
-                    "phrase": "ML models",
-                    "category": "TECH10: Data Modeling"
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Triage product or system issues and debug/track/resolve by analyzing the sources of issues and the impact on hardware, network, or service operations and quality' describes the process of identifying, debugging, and resolving production issues.",
+                    "phrase": "Triage product or system issues and debug/track/resolve by analyzing the sources of issues and the impact on hardware, network, or service operations and quality"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Optimize Python code for speed and memory efficiency' is a core software development task focused on performance.",
+                    "phrase": "Optimize Python code for speed and memory efficiency"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'Participate in and lead design reviews with peers and stakeholders' indicates collaboration and communication in technical discussions.",
+                    "phrase": "Participate in and lead design reviews with peers and stakeholders"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'Review code developed by other developers and provide feedback to ensure the consistent application of team best practices' involves communication and collaboration for quality assurance.",
+                    "phrase": "Review code developed by other developers and provide feedback to ensure the consistent application of team best practices"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'Contribute to system documentation and team knowledge sharing' highlights communication and collaboration through documentation.",
+                    "phrase": "Contribute to system documentation and team knowledge sharing"
                 }
             ],
             "soft_skills": [
                 {
-                    "phrase": "Participate in and lead design reviews with peers and stakeholders.",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Participate in and lead design reviews with peers and stakeholders"
                 },
                 {
-                    "phrase": "Review code developed by other developers and provide feedback to ensure the consistent application of team best practices.",
-                    "category": "SKILL1: Communication & Collaboration"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Review code developed by other developers and provide feedback to ensure the consistent application of team best practices"
                 },
                 {
-                    "phrase": "Contribute to system documentation and team knowledge sharing.",
-                    "category": "SKILL1: Communication & Collaboration"
-                },
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Contribute to system documentation and team knowledge sharing"
+                }
+            ],
+            "technologies": [
                 {
-                    "phrase": "debug/track/resolve by analyzing the sources of issues and the impact on hardware, network, or service operations and quality.",
-                    "category": "SKILL3: Problem Solving & Pragmatism"
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
                 }
             ]
         }

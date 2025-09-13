@@ -26,155 +26,102 @@
         "full_text": "Infrastructure Engineer | Data Platform Automation\n\nWe are looking for an Infrastructure Engineer to join a team of versatile engineers that craft the infrastructure, libraries and tooling to support data ingestion, processing, monitoring and lineage at DeepL. The main goal of the Data Platform is to combine different data sources, both internal and external, and make them available to our stakeholders company-wide: Developers, Product Development, Data Science and Management. We provide support at all stages of the data lifecycle to ensure that users can access the data they need to make data-driven decisions and to provide a framework for high data quality and transparent data security., * Administer Kafka clusters that play a central role for data exchange in the company\n     * Set up and maintain third party tools in Kubernetes that are used for data visualization, discovery and lineage\n     * Monitoring in Prometheus and Grafana - you build and set up solutions that make sure our systems are operating smoothly\n     * Help improve our CI/CD framework for reliable builds and deployments\n     * Write tools and services in Go and Python\n\n   What we offer\n\n     *\n       Diverse and internationally distributed team: joining our team means becoming part of a large, global community with people of more than 90 nationalities. We're more than just colleagues; we're a group of professionals with a shared mission to connect diverse cultures. Our global presence is growing-we've doubled in size nearly every year, with our employees based in the UK, Germany, the Netherlands, Poland, the US, and Japan, and we continue to expand our network.\n\n     * Open communication, regular feedback: as a language-focused company, we value the importance of clear, honest communication. We value smooth collaboration, direct and actionable feedback, and believe that leading with empathy makes us better together.\n\n     * Remote work, flexible hours: whether you're near or in our hubs in cities like Cologne, Berlin, Amsterdam, London, Austin, or Tokyo, or prefer the comfort of your own home, you decide where your office is. We offer remote opportunities, flexible working hours and trust in your productivity, all in sync with your team's general locations and time zones to foster effective and seamless collaboration. Our aim is to integrate your work with your lifestyle, ensuring a balance that respects both your needs and our operational requirements.\n\n     * Regular in-person team events: we bond over vibrant events that are as unique as our team, from local team and business unit gatherings, to new-joiner onboardings, to company-wide events that bring us all together-literally.\n\n     * Monthly full-day hacking sessions: every month, we have Hack Fridays, where you can spend your time diving into a project you're passionate about and get the opportunity to work with other teams-we value your initiatives, impact, and creativity.\n\n     * Comprehensive health insurance: your health comes first. With our comprehensive insurance, we'll make sure you're covered from head to toe.\n\n     * 30 days of annual leave: we value your peace of mind. With 30 days off (excluding public holidays) and access to mental health resources, we make sure you're as strong mentally as you are professionally.\n     * Annual learning budget: because we never stop learning, we've set up an annual budget for your professional development-pick a learning path which contributes to your career development and we'll back you up."
     },
     "analysis": {
-        "job_profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on infrastructure, data platform automation, and traditional engineering tasks like Kafka administration and CI/CD. While it mentions supporting data science and making data available, it lacks specific details about building, training, or deploying AI/ML models, which are central to ML Engineer and GenAI Engineer roles."
+        "profile_classification": {
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on infrastructure, data platform automation, and tooling for data ingestion, processing, monitoring, and lineage. While it mentions supporting Data Science and Management, it does not describe core ML/GenAI engineering tasks like model development, fine-tuning, or advanced prompt engineering. The technologies mentioned (Kafka, Kubernetes, Prometheus, Grafana, Go, Python) are more aligned with traditional infrastructure and data engineering roles rather than specialized ML or GenAI engineering. The role is primarily about building and maintaining the underlying systems that support data operations, not about building or deploying AI models themselves."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "phrase": "craft the infrastructure, libraries and tooling to support data ingestion, processing, monitoring and lineage",
-                    "category": "TASK2",
-                    "justification": "This phrase describes the core activities of building and maintaining the systems that handle data, which falls under data engineering."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The description explicitly mentions 'data ingestion, processing, monitoring and lineage' and 'combine different data sources, both internal and external', which are core data engineering responsibilities.",
+                    "phrase": "support data ingestion, processing, monitoring and lineage"
                 },
                 {
-                    "phrase": "make them available to our stakeholders company-wide: Developers, Product Development, Data Science and Management.",
-                    "category": "TASK1",
-                    "justification": "This highlights the goal of providing data to various business units, indicating an understanding of business needs and stakeholder requirements."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "Administering Kafka clusters is a key task in managing data pipelines and exchange within a company.",
+                    "phrase": "Administer Kafka clusters that play a central role for data exchange in the company"
                 },
                 {
-                    "phrase": "Administer Kafka clusters that play a central role for data exchange in the company",
-                    "category": "TASK2",
-                    "justification": "Administering Kafka is a key aspect of managing data pipelines and infrastructure for data exchange."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "Setting up and maintaining tools for data visualization, discovery, and lineage falls under data platform management and engineering.",
+                    "phrase": "Set up and maintain third party tools in Kubernetes that are used for data visualization, discovery and lineage"
                 },
                 {
-                    "phrase": "Set up and maintain third party tools in Kubernetes that are used for data visualization, discovery and lineage",
-                    "category": "TASK2",
-                    "justification": "Setting up and maintaining tools within Kubernetes for data-related functions (visualization, discovery, lineage) is part of data infrastructure management."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Monitoring systems using Prometheus and Grafana, and ensuring systems operate smoothly, are core aspects of operations engineering.",
+                    "phrase": "Monitoring in Prometheus and Grafana - you build and set up solutions that make sure our systems are operating smoothly"
                 },
                 {
-                    "phrase": "Monitoring in Prometheus and Grafana - you build and set up solutions that make sure our systems are operating smoothly",
-                    "category": "TASK5",
-                    "justification": "Building and setting up monitoring solutions with tools like Prometheus and Grafana is a direct application of operations engineering (MLOps/DevOps) for system health."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Improving CI/CD frameworks for reliable builds and deployments is a standard practice in operations and DevOps, applicable to data platforms.",
+                    "phrase": "Help improve our CI/CD framework for reliable builds and deployments"
                 },
                 {
-                    "phrase": "Help improve our CI/CD framework for reliable builds and deployments",
-                    "category": "TASK5",
-                    "justification": "Improving CI/CD frameworks is a core component of operations engineering, ensuring efficient and reliable software delivery."
+                    "category": "TASK4: Software Development",
+                    "justification": "Writing tools and services in Go and Python indicates software development, though the context suggests it's for infrastructure and data platform support rather than end-user applications.",
+                    "phrase": "Write tools and services in Go and Python"
                 },
                 {
-                    "phrase": "Write tools and services in Go and Python",
-                    "category": "TASK4",
-                    "justification": "Writing tools and services in programming languages is a fundamental software development task, even if it's for infrastructure."
-                }
-            ],
-            "technologies": [
-                {
-                    "phrase": "Kafka",
-                    "category": "TECH6"
-                },
-                {
-                    "phrase": "Kubernetes",
-                    "category": "TECH6"
-                },
-                {
-                    "phrase": "Prometheus",
-                    "category": "TECH5"
-                },
-                {
-                    "phrase": "Grafana",
-                    "category": "TECH7"
-                },
-                {
-                    "phrase": "Go",
-                    "category": "TECH1"
-                },
-                {
-                    "phrase": "Python",
-                    "category": "TECH1"
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The goal of making data available to stakeholders company-wide for data-driven decisions and ensuring data quality and security demonstrates an understanding of business needs and data strategy.",
+                    "phrase": "The main goal of the Data Platform is to combine different data sources, both internal and external, and make them available to our stakeholders company-wide: Developers, Product Development, Data Science and Management. We provide support at all stages of the data lifecycle to ensure that users can access the data they need to make data-driven decisions and to provide a framework for high data quality and transparent data security."
                 }
             ],
             "soft_skills": [
                 {
-                    "phrase": "versatile engineers",
-                    "category": "SKILL2"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Open communication, regular feedback"
                 },
                 {
-                    "phrase": "make them available to our stakeholders company-wide: Developers, Product Development, Data Science and Management.",
-                    "category": "SKILL1"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "smooth collaboration"
                 },
                 {
-                    "phrase": "ensure that users can access the data they need to make data-driven decisions",
-                    "category": "SKILL3"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "leading with empathy"
                 },
                 {
-                    "phrase": "provide a framework for high data quality and transparent data security",
-                    "category": "SKILL4"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "foster effective and seamless collaboration"
                 },
                 {
-                    "phrase": "Diverse and internationally distributed team",
-                    "category": "SKILL1"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Annual learning budget"
                 },
                 {
-                    "phrase": "Open communication, regular feedback",
-                    "category": "SKILL1"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "we value your initiatives, impact, and creativity"
                 },
                 {
-                    "phrase": "smooth collaboration",
-                    "category": "SKILL1"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "trust in your productivity"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Kafka"
                 },
                 {
-                    "phrase": "direct and actionable feedback",
-                    "category": "SKILL1"
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Kubernetes"
                 },
                 {
-                    "phrase": "leading with empathy",
-                    "category": "SKILL1"
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Prometheus"
                 },
                 {
-                    "phrase": "Remote work, flexible hours",
-                    "category": "SKILL5"
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Grafana"
                 },
                 {
-                    "phrase": "trust in your productivity",
-                    "category": "SKILL5"
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Go"
                 },
                 {
-                    "phrase": "foster effective and seamless collaboration",
-                    "category": "SKILL1"
-                },
-                {
-                    "phrase": "integrate your work with your lifestyle",
-                    "category": "SKILL5"
-                },
-                {
-                    "phrase": "Regular in-person team events",
-                    "category": "SKILL1"
-                },
-                {
-                    "phrase": "Monthly full-day hacking sessions",
-                    "category": "SKILL5"
-                },
-                {
-                    "phrase": "diving into a project you're passionate about",
-                    "category": "SKILL5"
-                },
-                {
-                    "phrase": "get the opportunity to work with other teams",
-                    "category": "SKILL1"
-                },
-                {
-                    "phrase": "value your initiatives, impact, and creativity",
-                    "category": "SKILL5"
-                },
-                {
-                    "phrase": "Annual learning budget",
-                    "category": "SKILL2"
-                },
-                {
-                    "phrase": "professional development",
-                    "category": "SKILL2"
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Python"
                 }
             ]
         }

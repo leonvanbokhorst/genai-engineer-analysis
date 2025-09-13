@@ -28,106 +28,95 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "confidence_score": 4,
-            "rationale": "The role emphasizes building and managing end-to-end data pipelines, training large models on GPU clusters, and conducting research on foundation models. This aligns strongly with the core responsibilities of an ML Engineer focused on data and model training, rather than application development."
+            "rationale": "The job description emphasizes building and managing end-to-end data pipelines, training large models on GPU clusters, and conducting research on foundation models for language and code. While it mentions LLMs, the core focus on data pipelines, model training from scratch, and research aligns more closely with the 'ML Engineer' profile's emphasis on algorithm development, data preprocessing, and model training/evaluation, particularly in a research context. The mention of 'BigCode' and developing models 'from scratch' further supports this, indicating a focus on foundational model development and training rather than solely application-layer GenAI development."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Data Engineering",
-                    "phrases": [
-                        "Build and manage end-to-end data pipelines and large datasets",
-                        "develops large language models from scratch",
-                        "establishes responsible data governance practices"
-                    ],
-                    "justification": "These phrases directly relate to the creation, management, and governance of data and the infrastructure to process it, which are core to data engineering."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Build and manage end-to-end data pipelines and large datasets' directly relates to the creation and maintenance of data infrastructure and processing.",
+                    "phrase": "Build and manage end-to-end data pipelines and large datasets"
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "research projects on foundation models for language and code",
-                        "Train large models on multi-node GPU clusters",
-                        "develops large language models from scratch",
-                        "conducts cutting-edge research on them"
-                    ],
-                    "justification": "The description explicitly mentions research on foundation models, training large models, and developing LLMs from scratch, all of which fall under the modeling task category."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Train large models on multi-node GPU clusters' describes the core activity of training machine learning models, which is central to this category. The mention of 'foundation models for language and code' also points to model development.",
+                    "phrase": "Train large models on multi-node GPU clusters"
                 },
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "developers who lay the foundations",
-                        "developers who ... experiment"
-                    ],
-                    "justification": "While not the primary focus, the mention of 'developers' laying foundations and experimenting suggests some level of software development is involved in research."
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'develops large language models from scratch' indicates the creation and training of models, fitting the modeling task.",
+                    "phrase": "develops large language models from scratch"
                 },
                 {
-                    "task_name": "Operations Engineering (MLOps)",
-                    "phrases": [
-                        "multi-node GPU clusters"
-                    ],
-                    "justification": "Managing and training models on multi-node GPU clusters implies operational considerations for distributed training environments, a component of MLOps."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "LLM / Generative Models",
-                    "category": "TECH3",
-                    "mentions": [
-                        "Large Language Model (LLM)",
-                        "general-purpose AI models",
-                        "Large Language Models",
-                        "foundation models for language and code"
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'conducts cutting-edge research on them' implies research and development related to models.",
+                    "phrase": "conducts cutting-edge research on them"
                 },
                 {
-                    "tech_name": "Cloud Platforms & Services",
-                    "category": "TECH2",
-                    "mentions": [
-                        "multi-node GPU clusters"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "While the primary focus is research and modeling, the role involves contributing to research projects and potentially integrating findings, which touches upon software development aspects, though less emphasized than modeling.",
+                    "phrase": "pursue research projects on foundation models for language and code"
                 },
                 {
-                    "tech_name": "LLM Frameworks & Libraries",
-                    "category": "TECH4",
-                    "mentions": [
-                        "BigCode"
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'establish responsible data governance practices' and managing pipelines implies operational considerations for data and model lifecycle, though MLOps is not explicitly detailed.",
+                    "phrase": "establishes responsible data governance practices"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "Communication & Collaboration",
-                    "category": "SKILL1",
-                    "mentions": [
-                        "In collaboration with research scientists",
-                        "Present your work in research papers of which you will become a coauthor"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "In collaboration with research scientists"
                 },
                 {
-                    "skill_name": "Learning & Adaptability",
-                    "category": "SKILL2",
-                    "mentions": [
-                        "fundamental and applied research",
-                        "research, experiment, and de-risk AI technologies",
-                        "conducts cutting-edge research"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Present your work in research papers"
                 },
                 {
-                    "skill_name": "Innovation & Ownership",
-                    "category": "SKILL5",
-                    "mentions": [
-                        "lay the foundations",
-                        "develops large language models from scratch",
-                        "research projects on foundation models"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "research, experiment, and de-risk AI technologies"
                 },
                 {
-                    "skill_name": "Ethical & Legal Responsibility",
-                    "category": "SKILL4",
-                    "mentions": [
-                        "responsible development of general-purpose AI models",
-                        "responsible data governance practices"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "lay the foundations, research, experiment, and de-risk AI technologies"
+                },
+                {
+                    "category": "SKILL4: Ethical & Legal Responsibility",
+                    "phrase": "responsible development of general-purpose AI models"
+                },
+                {
+                    "category": "SKILL4: Ethical & Legal Responsibility",
+                    "phrase": "responsible data governance practices"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "develops large language models from scratch"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Large Language Model (LLM)"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "general-purpose AI models"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "foundation models for language and code"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "large language models"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "data pipelines"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "models"
                 }
             ]
         }

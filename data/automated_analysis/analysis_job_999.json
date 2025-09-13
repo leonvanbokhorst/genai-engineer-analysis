@@ -27,62 +27,71 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on business understanding, project management, and financial considerations rather than core AI/ML engineering tasks. While it mentions 'technical architecture' and 'design risks', it lacks specific details about model development, data engineering, or MLOps, which are central to ML and GenAI Engineer roles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on business understanding, requirements interpretation, and financial validation, with no mention of specific AI models, generative techniques, or the development/deployment of AI systems. The tasks described are more aligned with a business analyst or project manager role rather than a technical AI engineering role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
                     "category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "Onderzoek en interpreteer zakelijke vereisten",
-                        "Bepaal oplossingsgerichtheid",
-                        "Lijn de oplossing uit met de technische architectuur",
-                        "Houd toezicht op de ingebouwde kwaliteit",
-                        "Binnen het budgettair kader werken om de financiële impact van ontwerpbeslissingen te valideren",
-                        "Identificeer kansen voor innovatie",
-                        "Routeplanning voor technologieplannen"
-                    ],
-                    "justification": "These phrases directly relate to understanding business needs, aligning solutions with business goals, managing project scope and budget, and planning technology roadmaps, all core aspects of business understanding."
+                    "justification": "Phrases like 'Onderzoek en interpreteer zakelijke vereisten' (Research and interpret business requirements), 'Lijn de oplossing uit met de technische architectuur' (Align the solution with the technical architecture), and 'Houd toezicht op de ingebouwde kwaliteit' (Oversee built-in quality) directly relate to understanding business needs and aligning technical solutions.",
+                    "phrase": "Onderzoek en interpreteer zakelijke vereisten"
                 },
                 {
-                    "category": "TASK4: Software Development",
-                    "phrases": [
-                        "Identificeer potentiële technische ontwerprisico's"
-                    ],
-                    "justification": "Identifying technical design risks is a component of software development, ensuring the robustness and feasibility of technical solutions."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Bepaal oplossingsgerichtheid' (Determine solution orientation) implies understanding the business problem to define a solution.",
+                    "phrase": "Bepaal oplossingsgerichtheid"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Aligning solutions with technical architecture is a key aspect of understanding the business context and how technical solutions fit within it.",
+                    "phrase": "Lijn de oplossing uit met de technische architectuur"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Identifying technical design risks is part of understanding the business context and its technical implications.",
+                    "phrase": "Identificeer potentiële technische ontwerprisico's"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Overseeing built-in quality relates to ensuring the solution meets business needs and standards.",
+                    "phrase": "Houd toezicht op de ingebouwde kwaliteit"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Validating financial impact of design decisions is a direct link to business and financial considerations.",
+                    "phrase": "Binnen het budgettair kader werken om de financiële impact van ontwerpbeslissingen te valideren"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Identifying opportunities for innovation is a business-focused task that drives strategic growth.",
+                    "phrase": "Identificeer kansen voor innovatie"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Route planning for technology plans is about strategic planning within a business context.",
+                    "phrase": "Routeplanning voor technologieplannen"
                 }
             ],
-            "technologies": [],
             "soft_skills": [
                 {
-                    "category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Onderzoek en interpreteer zakelijke vereisten",
-                        "Bepaal oplossingsgerichtheid",
-                        "Lijn de oplossing uit met de technische architectuur"
-                    ],
-                    "justification": "Interpreting business requirements and aligning solutions with technical architecture requires strong communication and collaboration skills to bridge the gap between business and technical teams."
-                },
-                {
                     "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "Bepaal oplossingsgerichtheid",
-                        "Identificeer potentiële technische ontwerprisico's",
-                        "Binnen het budgettair kader werken om de financiële impact van ontwerpbeslissingen te valideren"
-                    ],
-                    "justification": "Determining solution-orientation, identifying design risks, and validating financial impact all point to a pragmatic, problem-solving approach."
+                    "phrase": "Bepaal oplossingsgerichtheid"
                 },
                 {
                     "category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "Identificeer kansen voor innovatie",
-                        "Routeplanning voor technologieplannen"
-                    ],
-                    "justification": "Identifying innovation opportunities and planning technology routes demonstrates a proactive and ownership-driven mindset."
+                    "phrase": "Identificeer kansen voor innovatie"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Identificeer potentiële technische ontwerprisico's"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Routeplanning voor technologieplannen"
                 }
-            ]
+            ],
+            "technologies": []
         }
     }
 }

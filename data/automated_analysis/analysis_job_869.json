@@ -26,74 +26,78 @@
         "full_text": "Salesforce Developer, Trilogy (Remote) - $60,000/year USD\n\nAre you a practical, adaptable problem-solver with a hands-on approach to technology? Are you intrigued by the potential of AI to drive business outcomes and simplify complex processes?\n\n   Trilogy's AI-First Professional Services team's mission is to revitalize businesses by prioritizing customer success, AI-driven technology refactoring, and strategic realignment. As part of our 2025 strategy, we're driving innovative approaches to evolving Salesforce-native CPQ applications. Our goal is to build a lean, highly efficient team capable of addressing complex architecture challenges while streamlining workflows with AI-driven automation.\n\n   Success in this role means constantly learning, especially in the realm of AI and CPQ. If you're comfortable with fast-moving environments and have a strong background in consulting, particularly in configuring and implementing technology solutions that make a real impact for customers, then this role is for you.\n\n   What you will be doing\n\n     * Work directly with customers to gather and understand business requirements, translating them into effective CPQ configurations\n     * Handle end-to-end configuration of the CPQ system, ensuring alignment with customer requirements while adhering to best practices\n     * Apply AI tools and techniques to automate repetitive tasks, improve configuration speed, and enhance project delivery, * In this role, you'll be responsible for configuring CPQ solutions by working directly with customers to understand their business needs and translating them into effective configurations"
     },
     "analysis": {
-        "job_profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on Salesforce CPQ configuration and customer requirements gathering, with only a mention of applying AI tools for automation. It lacks the core technical depth in AI model development, MLOps, or generative AI systems required for ML Engineer or GenAI Engineer profiles."
+        "profile_classification": {
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses on Salesforce CPQ configuration and the application of AI tools to enhance productivity rather than the development, fine-tuning, or deployment of AI models. While AI is mentioned, it's in the context of using existing tools for automation, not building AI systems. The core responsibilities are centered around Salesforce configuration and consulting, which falls outside the scope of ML Engineer or GenAI Engineer profiles. The role is primarily business-focused and involves the use of AI for productivity enhancement, aligning with the 'Ambiguous' profile."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_category": "TASK1: Business Understanding",
-                    "phrases": [
-                        "gather and understand business requirements",
-                        "translating them into effective CPQ configurations",
-                        "ensuring alignment with customer requirements",
-                        "understand their business needs and translating them into effective configurations"
-                    ],
-                    "justification": "These phrases indicate a focus on understanding customer needs and translating them into technical configurations, which is a core aspect of business understanding."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'gather and understand business requirements, translating them into effective CPQ configurations' directly reflects the need to comprehend business needs and align technical solutions.",
+                    "phrase": "gather and understand business requirements, translating them into effective CPQ configurations"
                 },
                 {
-                    "task_category": "TASK4: Software Development",
-                    "phrases": [
-                        "Salesforce Developer",
-                        "configuring and implementing technology solutions",
-                        "Work directly with customers to gather and understand business requirements, translating them into effective CPQ configurations",
-                        "Handle end-to-end configuration of the CPQ system",
-                        "configuring CPQ solutions"
-                    ],
-                    "justification": "The role is explicitly titled 'Salesforce Developer' and involves configuring and implementing technology solutions, which falls under software development, albeit specific to a platform."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'understanding their business needs and translating them into effective configurations' reiterates the core requirement of aligning technical solutions with business objectives.",
+                    "phrase": "understanding their business needs and translating them into effective configurations"
                 },
                 {
-                    "task_category": "TASK3: Modeling",
-                    "phrases": [
-                        "Apply AI tools and techniques to automate repetitive tasks, improve configuration speed, and enhance project delivery"
-                    ],
-                    "justification": "While it mentions applying AI tools and techniques, it's in the context of automation and improving existing processes, not core AI model development or fine-tuning."
-                }
-            ],
-            "technologies": [
-                {
-                    "technology": "Salesforce CPQ",
-                    "category": "TECH10: Data Modeling"
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves 'Salesforce Developer' and 'configuring and implementing technology solutions', which points to software development within a specific platform.",
+                    "phrase": "Salesforce Developer"
                 },
                 {
-                    "technology": "AI tools and techniques",
-                    "category": "TECH3: LLM / Generative Models"
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'configuring and implementing technology solutions' indicates the development and deployment of functional systems.",
+                    "phrase": "configuring and implementing technology solutions"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'evolving Salesforce-native CPQ applications' suggests development work within the Salesforce ecosystem.",
+                    "phrase": "evolving Salesforce-native CPQ applications"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'configuring CPQ solutions' implies the development and setup of a specific software application.",
+                    "phrase": "configuring CPQ solutions"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Apply AI tools and techniques to automate repetitive tasks, improve configuration speed, and enhance project delivery' suggests the use of AI for operational efficiency and automation, which can be seen as a form of operational enhancement.",
+                    "phrase": "Apply AI tools and techniques to automate repetitive tasks, improve configuration speed, and enhance project delivery"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        "practical, adaptable problem-solver",
-                        "hands-on approach to technology",
-                        "addressing complex architecture challenges",
-                        "streamlining workflows"
-                    ]
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "practical, adaptable problem-solver with a hands-on approach to technology"
                 },
                 {
-                    "skill_category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "constantly learning",
-                        "comfortable with fast-moving environments"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "constantly learning, especially in the realm of AI and CPQ"
                 },
                 {
-                    "skill_category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "Work directly with customers"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "comfortable with fast-moving environments"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "strong background in consulting"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "AI"
+                },
+                {
+                    "category": "TECH4: LLM Frameworks & Libraries",
+                    "phrase": "AI tools and techniques"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Salesforce-native CPQ applications"
                 }
             ]
         }

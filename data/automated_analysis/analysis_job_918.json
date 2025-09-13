@@ -27,77 +27,77 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description mentions 'LLM, kunstmatige intelligentie en AI technologieën' but the core responsibilities focus on traditional software engineering for embedded systems and machine building. There is insufficient detail to classify it as a specialized AI role like ML Engineer or GenAI Engineer."
+            "profile": "Ambiguous",
+            "rationale": "The job description mentions working with LLM, AI technologies, and data science, but the core responsibilities and technologies described lean heavily towards traditional embedded software development and system integration rather than specialized Generative AI or ML engineering roles. The emphasis on embedded operating systems, real-time applications, and machine/device building suggests a broader software engineering focus, making it difficult to classify as a dedicated ML or GenAI Engineer role without more specific details on model development or deployment."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "Software Development",
-                    "phrases": [
-                        "junior software engineer",
-                        "Werken aan diverse softwareoplossingen samen met een team van professionals",
-                        "Applicatiesoftware en/of embedded software implementeren in een project",
-                        "Codes optimaliseren met moderne compilers",
-                        "systeemintegratie"
-                    ],
-                    "justification": "These phrases directly relate to the development, implementation, and optimization of software, including application and embedded software, which are core aspects of software development."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'realtime applicaties met embedded besturingssystemen zoals Linux, VxWorks, RTOS of Windows' directly relates to building and implementing software applications, which is a core aspect of software development.",
+                    "phrase": "realtime applicaties met embedded besturingssystemen zoals Linux, VxWorks, RTOS of Windows"
                 },
                 {
-                    "task_name": "Business Understanding",
-                    "phrases": [
-                        "projecten voor geavanceerde besturingssystemen voor machine- en apparatenbouw",
-                        "Actief bezig zijn in de innovatieve machine- en apparatenbouw en systeemintegratie"
-                    ],
-                    "justification": "These phrases indicate an understanding of the domain (machine and device manufacturing) and the context in which the software will be used, aligning technical solutions with business needs in that industry."
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Applicatiesoftware en/of embedded software implementeren in een project' describes the implementation of software, a key task in software development.",
+                    "phrase": "Applicatiesoftware en/of embedded software implementeren in een project"
                 },
                 {
-                    "task_name": "Modeling",
-                    "phrases": [
-                        "Werken met LLM, kunstmatige intelligentie en AI technologieën"
-                    ],
-                    "justification": "This phrase explicitly mentions working with LLMs and AI technologies, which falls under the modeling category, even if the depth of involvement is not specified."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH1: Programming Languages",
-                    "technologies": [
-                        "Linux",
-                        "VxWorks",
-                        "RTOS",
-                        "Windows"
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'Werken met LLM, kunstmatige intelligentie en AI technologieën' indicates involvement with AI and LLM technologies, which falls under modeling.",
+                    "phrase": "Werken met LLM, kunstmatige intelligentie en AI technologieën"
                 },
                 {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "technologies": [
-                        "LLM"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'Codes optimaliseren met moderne compilers' refers to optimizing code, a common software development practice.",
+                    "phrase": "Codes optimaliseren met moderne compilers"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The phrase 'Actief bezig zijn in de innovatieve machine- en apparatenbouw en systeemintegratie' shows an understanding of the industry and domain the software is being developed for.",
+                    "phrase": "Actief bezig zijn in de innovatieve machine- en apparatenbouw en systeemintegratie"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "justification": "The phrase 'Je kennis ontwikkelen door trainingen en cursussen' directly points to continuous learning and skill development.",
+                    "phrase": "Je kennis ontwikkelen door trainingen en cursussen"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "The phrase 'werken in multidisciplinaire teams' and 'ervaring opdoen in multidisciplinaire teams' highlights collaboration with diverse professionals.",
+                    "phrase": "werken in multidisciplinaire teams"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        "werk je in multidisciplinaire teams",
-                        "krijg je een buddy aangewezen",
-                        "Werken aan diverse softwareoplossingen samen met een team van professionals",
-                        "ervaring opdoen in multidisciplinaire teams"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "werken in multidisciplinaire teams"
                 },
                 {
-                    "skill_name": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        "Je kennis ontwikkelen door trainingen en cursussen"
-                    ]
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Je kennis ontwikkelen door trainingen en cursussen"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "LLM"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        "Actief bezig zijn in de innovatieve machine- en apparatenbouw"
-                    ]
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Linux"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "VxWorks"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "RTOS"
+                },
+                {
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "Windows"
                 }
             ]
         }

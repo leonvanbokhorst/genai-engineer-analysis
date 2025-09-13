@@ -28,100 +28,69 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "confidence_score": 4,
-            "rationale": "The role focuses on building and maintaining a platform around generative AI, specifically Large Language Models, and integrating AI capabilities into customer-facing products. This aligns strongly with the definition and responsibilities of a GenAI Engineer, emphasizing LLMs, RAG, and application development."
+            "rationale": "The job description emphasizes working with Large Language Models (LLMs) and generative AI, building a platform for managing AI-powered assistants, and integrating AI capabilities into customer-facing products. This aligns strongly with the definition and core responsibilities of a GenAI Engineer, particularly in developing and deploying systems around generative models and building production-grade software."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "task_name": "TASK4: Software Development",
-                    "phrases": [
-                        "Senior Backend Developer",
-                        "Back-End Engineer",
-                        "ensuring the scalability and reliability of our existing platform",
-                        "design and implement cutting-edge solutions",
-                        "integrate AI capabilities developed by our data scientists and ML engineers with traditional software engineering practices",
-                        "build innovative products that are either customer-facing or integrated across the broader CM.com platform and product portfolio",
-                        "custom-built CMS",
-                        "custom-built inference engine",
-                        "process any question/instruction from the end-user",
-                        "fully customizable, autonomous AI agents"
-                    ],
-                    "justification": "The job description heavily emphasizes backend development, building scalable and reliable platforms, integrating AI capabilities into applications, and developing customer-facing products and core components like CMS and inference engines. This directly maps to traditional software engineering practices needed to support AI systems."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves 'design and implement cutting-edge solutions', 'integrate AI capabilities...with traditional software engineering practices to build innovative products', and mentions 'customer-facing' applications and 'backend engineer' responsibilities, all indicative of software development.",
+                    "phrase": "design and implement cutting-edge solutions"
                 },
                 {
-                    "task_name": "TASK3: Modeling",
-                    "phrases": [
-                        "Generative AI team",
-                        "generative AI",
-                        "Large Language Models",
-                        "traditional NLP concepts",
-                        "AI capabilities",
-                        "inference engine",
-                        "autonomous AI agents"
-                    ],
-                    "justification": "The role is situated within a Generative AI team and explicitly mentions working with Large Language Models, NLP concepts, and building an inference engine for AI agents. This indicates direct involvement in the application and utilization of generative AI models."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role explicitly states 'Backend Developer' and 'Back-End Engineer', focusing on 'scalability and reliability of our existing platform' and integrating AI into products.",
+                    "phrase": "Senior Backend Developer"
                 },
                 {
-                    "task_name": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        "ensuring the scalability and reliability of our existing platform",
-                        "manage and control their generative AI powered assistants",
-                        "preparing the data for our inference engine"
-                    ],
-                    "justification": "The focus on ensuring scalability and reliability of the platform, managing AI assistants, and preparing data for the inference engine implies operational aspects of deploying and maintaining AI systems in production."
+                    "category": "TASK3: Modeling",
+                    "justification": "The job involves working with 'generative AI', 'Large Language Models', and 'inference engine' which are core to generative AI modeling.",
+                    "phrase": "generative AI"
                 },
                 {
-                    "task_name": "TASK1: Business Understanding",
-                    "phrases": [
-                        "providing a state-of-the-art centralized platform around generative AI to CM.com customers",
-                        "fully service our customers' use-cases",
-                        "customer service, marketing, internal automation"
-                    ],
-                    "justification": "The role aims to provide a platform for customers to manage AI assistants and service various customer use-cases (customer service, marketing, automation), indicating a need to understand business needs and translate them into technical solutions."
-                }
-            ],
-            "technologies": [
-                {
-                    "tech_name": "TECH3: LLM / Generative Models",
-                    "mentions": [
-                        "generative AI",
-                        "Large Language Models"
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The role focuses on 'Large Language Models' and their application in AI-powered assistants and agents.",
+                    "phrase": "Large Language Models"
                 },
                 {
-                    "tech_name": "TECH4: LLM Frameworks & Libraries",
-                    "mentions": [
-                        "autonomous AI agents"
-                    ]
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The description mentions managing data in a knowledge base, synchronizing it with external systems, and preparing data for an inference engine, which are data engineering tasks.",
+                    "phrase": "manage the data in their knowledge base, synchronize their knowledge base with external systems while also preparing the data for our inference engine"
                 },
                 {
-                    "tech_name": "TECH1: Programming Languages",
-                    "mentions": [
-                        "Backend Developer"
-                    ]
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves building and maintaining a 'centralized platform around generative AI' and 'custom-built inference engine', which are software development tasks for AI products.",
+                    "phrase": "centralized platform around generative AI"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The role involves working with 'autonomous AI agents' which are a key application of generative AI and LLMs.",
+                    "phrase": "autonomous AI agents"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role is part of a 'Generative AI team' focused on providing solutions for 'CM.com customers' and servicing 'customers' use-cases', indicating alignment with business goals and customer needs.",
+                    "phrase": "fully service our customers' use-cases"
                 }
             ],
             "soft_skills": [
                 {
-                    "skill_name": "SKILL1: Communication & Collaboration",
-                    "mentions": [
-                        "collaborating closely with the team"
-                    ]
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "collaborating closely with the team"
                 },
                 {
-                    "skill_name": "SKILL3: Problem Solving & Pragmatism",
-                    "mentions": [
-                        "design and implement cutting-edge solutions",
-                        "ensuring the scalability and reliability of our existing platform"
-                    ]
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "design and implement cutting-edge solutions"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "generative AI"
                 },
                 {
-                    "skill_name": "SKILL5: Innovation & Ownership",
-                    "mentions": [
-                        "cutting-edge solutions",
-                        "innovative products"
-                    ]
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Large Language Models"
                 }
             ]
         }

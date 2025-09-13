@@ -27,79 +27,74 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The job description focuses heavily on traditional C++ software engineering and NX CAM software development. While 'AI' is mentioned in the title, the core responsibilities and tasks described do not involve building, fine-tuning, or deploying AI models or generative systems. The role appears to be primarily focused on software development with a potential integration of AI tools rather than a core AI engineering role."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on traditional C++ software engineering tasks, including design, development, testing, and maintenance of existing software (NX CAM). While it mentions 'AI' in the title, the core responsibilities and listed tasks do not involve the development, fine-tuning, or deployment of AI models, nor do they mention specific AI technologies, frameworks, or generative models. The tasks described are primarily related to software development and business understanding, not the core competencies of an ML Engineer or GenAI Engineer as defined in the coding book."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
                     "category": "TASK4: Software Development",
-                    "phrase": "Designing, developing, modifying, and maintaining NX CAM software.",
-                    "justification": "This phrase directly describes the core activities of building and maintaining software, which falls under traditional software development."
+                    "justification": "The description explicitly mentions 'Designing, developing, modifying, and maintaining NX CAM software', 'Creating and testing feature components', and 'ensuring software quality through unit and system-level testing', which are core software development activities.",
+                    "phrase": "Designing, developing, modifying, and maintaining NX CAM software"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "phrase": "Creating and testing feature components as well as ensuring software quality through unit and system-level testing.",
-                    "justification": "This describes the process of building and verifying software components, a fundamental aspect of software development."
+                    "justification": "Phrases like 'research, design, prototyping, and other exploratory activities' point towards the initial stages of software creation and innovation.",
+                    "phrase": "Conducting research, design, prototyping, and other exploratory activities"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "phrase": "Applying best practices in coding, design, and implementation to build high-quality components and solutions.",
-                    "justification": "This highlights the application of established software engineering principles for building robust software."
+                    "justification": "The emphasis on 'Creating and testing feature components' and 'ensuring software quality through unit and system-level testing' directly relates to the development and validation of software features.",
+                    "phrase": "Creating and testing feature components as well as ensuring software quality through unit and system-level testing"
                 },
                 {
                     "category": "TASK1: Business Understanding",
-                    "phrase": "Collaborating with and supporting the Product Owner in building and refining user stories and acceptance tests.",
-                    "justification": "This indicates an understanding of product requirements and translating them into actionable development tasks, aligning with business needs."
+                    "justification": "The responsibility to 'Collaborating with and supporting the Product Owner in building and refining user stories and acceptance tests' indicates a need to understand business requirements and translate them into technical tasks.",
+                    "phrase": "Collaborating with and supporting the Product Owner in building and refining user stories and acceptance tests"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Mentioning 'paired programming and other practices for frequent code review' points to established software development methodologies aimed at improving code quality.",
+                    "phrase": "Utilising paired programming and other practices for frequent code review"
                 },
                 {
                     "category": "SKILL1: Communication & Collaboration",
-                    "phrase": "Utilising paired programming and other practices for frequent code review.",
-                    "justification": "Paired programming and code review are collaborative practices aimed at improving code quality and knowledge sharing."
+                    "justification": "The phrase 'Maintaining continuous communication to set shared expectations and fostering a transparent and safe environment' highlights the importance of interpersonal and team communication skills.",
+                    "phrase": "Maintaining continuous communication to set shared expectations and fostering a transparent and safe environment"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The instruction to 'Applying best practices in coding, design, and implementation to build high-quality components and solutions' is a direct reference to software engineering principles.",
+                    "phrase": "Applying best practices in coding, design, and implementation to build high-quality components and solutions"
                 },
                 {
                     "category": "SKILL1: Communication & Collaboration",
-                    "phrase": "Maintaining continuous communication to set shared expectations and fostering a transparent and safe environment.",
-                    "justification": "This directly addresses the need for effective communication and collaboration within a team."
-                },
-                {
-                    "category": "SKILL1: Communication & Collaboration",
-                    "phrase": "Leveraging team expertise while sharing knowledge for the team's future benefit.",
-                    "justification": "This describes collaborative knowledge sharing and leveraging collective expertise."
-                },
-                {
-                    "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "Conducting research, design, prototyping, and other exploratory activities.",
-                    "justification": "This involves investigating problems, designing solutions, and creating prototypes, which are key aspects of problem-solving and pragmatic development."
-                },
-                {
-                    "category": "SKILL2: Learning & Adaptability",
-                    "phrase": "Leveraging team expertise while sharing knowledge for the team's future benefit.",
-                    "justification": "Sharing knowledge implies a continuous learning process and adapting to new information or techniques within the team."
+                    "justification": "The statement 'Leveraging team expertise while sharing knowledge for the team's future benefit' emphasizes collaboration and knowledge transfer within a team.",
+                    "phrase": "Leveraging team expertise while sharing knowledge for the team's future benefit"
                 }
             ],
-            "technologies": [],
             "soft_skills": [
                 {
                     "category": "SKILL1: Communication & Collaboration",
-                    "phrase": "Utilising paired programming and other practices for frequent code review."
+                    "phrase": "Collaborating with and supporting the Product Owner in building and refining user stories and acceptance tests"
                 },
                 {
                     "category": "SKILL1: Communication & Collaboration",
-                    "phrase": "Maintaining continuous communication to set shared expectations and fostering a transparent and safe environment."
+                    "phrase": "Utilising paired programming and other practices for frequent code review"
                 },
                 {
                     "category": "SKILL1: Communication & Collaboration",
-                    "phrase": "Leveraging team expertise while sharing knowledge for the team's future benefit."
+                    "phrase": "Maintaining continuous communication to set shared expectations and fostering a transparent and safe environment"
                 },
                 {
-                    "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "Conducting research, design, prototyping, and other exploratory activities."
-                },
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Leveraging team expertise while sharing knowledge for the team's future benefit"
+                }
+            ],
+            "technologies": [
                 {
-                    "category": "SKILL2: Learning & Adaptability",
-                    "phrase": "Leveraging team expertise while sharing knowledge for the team's future benefit."
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "C++"
                 }
             ]
         }

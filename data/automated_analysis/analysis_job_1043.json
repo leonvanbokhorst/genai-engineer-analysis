@@ -27,240 +27,88 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous / Not Relevant",
-            "confidence_score": 2,
-            "rationale": "The role focuses heavily on cloud infrastructure management (Azure, M365) and IT operations, with AI tooling mentioned as a secondary aspect. It lacks the core responsibilities and deep focus on generative models or predictive modeling required for ML or GenAI Engineer profiles."
+            "profile": "Ambiguous",
+            "rationale": "The job description focuses heavily on cloud infrastructure management, IT operations, and general IT environments (Azure, Microsoft 365, SAP B1, SaaS). While it mentions 'AI-tooling' and 'Large Language Models (LLM)' as areas for research and implementation, these appear to be secondary to the core responsibilities of cloud administration and IT operations. The role does not demonstrate a deep focus on developing, fine-tuning, or deploying generative AI models, nor does it emphasize predictive modeling or MLOps in the context of AI model lifecycles. Therefore, it does not fit the core definitions of ML Engineer or GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "category": "TASK1: Business Understanding",
-                    "phrases": [
-                        {
-                            "text": "samenwerkt met een team om IT-omgevingen 24/7 draaiende te houden",
-                            "justification": "This phrase indicates an understanding of the business need for continuous IT operations and the collaborative effort required to achieve it."
-                        },
-                        {
-                            "text": "zorg voor de continuïteit van onze IT-systemen",
-                            "justification": "Highlights the business-critical nature of maintaining IT systems and ensuring their availability."
-                        },
-                        {
-                            "text": "schakelt met verschillende stakeholders en leveranciers om de systemen te verbeteren",
-                            "justification": "Demonstrates interaction with business stakeholders and external parties to align IT improvements with business goals."
-                        },
-                        {
-                            "text": "zorgt voor optimale prestaties, veiligheid en kostenbeheersing",
-                            "justification": "Focuses on key business drivers for IT infrastructure: performance, security, and cost management."
-                        },
-                        {
-                            "text": "manage je (interne) IT projecten",
-                            "justification": "Project management in an IT context directly relates to aligning technical work with business objectives and timelines."
-                        }
-                    ]
-                },
-                {
-                    "category": "TASK2: Data Engineering",
-                    "phrases": [],
-                    "justification": "No specific phrases related to designing, building, or maintaining data pipelines, cleaning, preprocessing, or feature engineering were found."
-                },
-                {
-                    "category": "TASK3: Modeling",
-                    "phrases": [
-                        {
-                            "text": "AI-tooling",
-                            "justification": "This is a broad term that can encompass various AI applications, but in this context, it's mentioned alongside LLMs, suggesting a potential, albeit not primary, focus on AI model application."
-                        },
-                        {
-                            "text": "AI-tool zoals Large Language Moddels (LLM)",
-                            "justification": "Directly mentions Large Language Models, indicating some level of engagement with generative AI technologies, though the depth of engagement (training, fine-tuning vs. using) is not specified."
-                        }
-                    ],
-                    "justification": "While AI tooling and LLMs are mentioned, the description focuses more on 'research and implement new technologies' rather than core model development, training, or fine-tuning."
-                },
-                {
-                    "category": "TASK4: Software Development",
-                    "phrases": [
-                        {
-                            "text": "implementeer je nieuwe technologieën",
-                            "justification": "Implies the technical implementation of new systems or features, which can include software development aspects."
-                        },
-                        {
-                            "text": "implementeren, monitoren en beheren van complexe cloudomgevingen",
-                            "justification": "The implementation and management of cloud environments often involve scripting, configuration as code, and integration, which are software development related activities."
-                        },
-                        {
-                            "text": "ondersteunt bij de configuratie en het beheer van bedrijfsapplicaties",
-                            "justification": "Configuration and management of applications, especially SaaS solutions, can involve integration and scripting, touching upon software development."
-                        }
-                    ],
-                    "justification": "The role involves implementing and managing cloud environments and applications, which often requires scripting and integration work, aligning with software development principles."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The description emphasizes managing, optimizing, and securing IT environments 24/7, ensuring continuity, and monitoring complex cloud environments. This aligns with the operational aspects of keeping systems running, which is a core part of MLOps, though not specifically for AI models in this role.",
+                    "phrase": "beheren, optimaliseren en beveiligen van onze IT-omgevingen"
                 },
                 {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "phrases": [
-                        {
-                            "text": "ervaren Cloud Engineer met expertise in Azure, Microsoft 365, AI-tooling en kostenbeheer",
-                            "justification": "Cloud expertise and cost management are core to operations engineering in a cloud context."
-                        },
-                        {
-                            "text": "IT Operations-team",
-                            "justification": "Explicitly states the role is within an IT Operations team."
-                        },
-                        {
-                            "text": "beheren, optimaliseren en beveiligen van onze IT-omgevingen",
-                            "justification": "Core responsibilities of operations engineering: managing, optimizing, and securing IT infrastructure."
-                        },
-                        {
-                            "text": "24/7 \"always-on\" omgeving",
-                            "justification": "Emphasizes the operational requirement for high availability and continuous service."
-                        },
-                        {
-                            "text": "zorgt voor de continuïteit van onze IT-systemen",
-                            "justification": "Directly relates to operational responsibilities of ensuring system uptime and reliability."
-                        },
-                        {
-                            "text": "Cloudbeheer en optimalisatie",
-                            "justification": "Cloud management and optimization are key aspects of cloud operations."
-                        },
-                        {
-                            "text": "ontwerpen, implementeren, monitoren en beheren van complexe cloudomgevingen",
-                            "justification": "These are all fundamental activities within operations engineering, particularly for cloud infrastructure."
-                        },
-                        {
-                            "text": "Het beheren en optimaliseren van Microsoft 365-omgevingen",
-                            "justification": "Specific operational task related to managing and optimizing a key cloud productivity suite."
-                        },
-                        {
-                            "text": "kostenbeheersing",
-                            "justification": "Cost management is a critical aspect of cloud operations and optimization."
-                        }
-                    ],
-                    "justification": "The role is explicitly within an IT Operations team, with a strong emphasis on managing, optimizing, securing, and ensuring the 24/7 availability of cloud environments (Azure, M365), including cost control."
-                }
-            ],
-            "technologies": [
-                {
-                    "category": "TECH1: Programming Languages",
-                    "phrases": []
+                    "justification": "The role requires ensuring the continuity of IT systems in an 'always-on' environment, which is a key operational responsibility.",
+                    "phrase": "zorgt voor de continuïteit van onze IT-systemen"
                 },
                 {
-                    "category": "TECH2: Cloud Platforms & Services",
-                    "phrases": [
-                        {
-                            "text": "Azure",
-                            "classification": "TECH2"
-                        },
-                        {
-                            "text": "Microsoft 365",
-                            "classification": "TECH2"
-                        }
-                    ]
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Focus on monitoring complex cloud environments is a direct operational task.",
+                    "phrase": "monitoren en beheren van complexe cloudomgevingen"
                 },
                 {
-                    "category": "TECH3: LLM / Generative Models",
-                    "phrases": [
-                        {
-                            "text": "Large Language Moddels (LLM)",
-                            "classification": "TECH3"
-                        }
-                    ]
+                    "category": "TASK3: Modeling",
+                    "justification": "The job description mentions researching and implementing new technologies, specifically AI tools like Large Language Models (LLM), for innovation. While not deep model development, it involves exploring and integrating AI technologies.",
+                    "phrase": "doe je onderzoek en implementeer je nieuwe technologieën voor innovaties binnen de organisatie (o.a. AI-tool zoals Large Language Moddels (LLM))"
                 },
                 {
-                    "category": "TECH4: LLM Frameworks & Libraries",
-                    "phrases": []
+                    "category": "TASK4: Software Development",
+                    "justification": "Managing internal IT projects is a software development-related task, often involving the implementation and integration of systems.",
+                    "phrase": "manage je (interne) IT projecten"
                 },
                 {
-                    "category": "TECH5: Vector Stores & Search",
-                    "phrases": []
-                },
-                {
-                    "category": "TECH6: MLOps & Data Pipelines",
-                    "phrases": []
-                },
-                {
-                    "category": "TECH7: Data Visualization",
-                    "phrases": []
-                },
-                {
-                    "category": "TECH8: Data Processing",
-                    "phrases": []
-                },
-                {
-                    "category": "TECH9: Data Storage",
-                    "phrases": []
-                },
-                {
-                    "category": "TECH10: Data Modeling",
-                    "phrases": []
-                },
-                {
-                    "category": "TECH11: Data Analysis",
-                    "phrases": []
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role involves interacting with various stakeholders and suppliers to improve systems and ensure optimal performance, security, and cost control, indicating a need to understand business requirements and translate them into technical actions.",
+                    "phrase": "Je schakelt met verschillende stakeholders en leveranciers om de systemen te verbeteren en zorgt voor optimale prestaties, veiligheid en kostenbeheersing."
                 }
             ],
             "soft_skills": [
                 {
                     "category": "SKILL1: Communication & Collaboration",
-                    "phrases": [
-                        {
-                            "text": "Ben jij een ervaren Cloud Engineer"
-                        },
-                        {
-                            "text": "Werk je graag in een \"always-on\" omgeving waar je samenwerkt met een team"
-                        },
-                        {
-                            "text": "Het team bestaat uit jou als senior engineer en twee applicatiebeheerders/support engineers. Samen zijn jullie verantwoordelijk"
-                        },
-                        {
-                            "text": "Je schakelt met verschillende stakeholders en leveranciers"
-                        }
-                    ]
+                    "phrase": "samenwerkt met een team"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "schakelt met verschillende stakeholders"
                 },
                 {
                     "category": "SKILL2: Learning & Adaptability",
-                    "phrases": [
-                        {
-                            "text": "AI-tooling en innovatie doe je onderzoek en implementeer je nieuwe technologieën"
-                        }
-                    ]
+                    "phrase": "doe je onderzoek en implementeer je nieuwe technologieën"
                 },
                 {
                     "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrases": [
-                        {
-                            "text": "beheren, optimaliseren en beveiligen van onze IT-omgevingen"
-                        },
-                        {
-                            "text": "zorgt voor de continuïteit van onze IT-systemen"
-                        },
-                        {
-                            "text": "zorgt voor optimale prestaties, veiligheid en kostenbeheersing"
-                        },
-                        {
-                            "text": "Cloudbeheer en optimalisatie"
-                        },
-                        {
-                            "text": "ontwerpen, implementeren, monitoren en beheren van complexe cloudomgevingen"
-                        },
-                        {
-                            "text": "Het beheren en optimaliseren van Microsoft 365-omgevingen"
-                        },
-                        {
-                            "text": "manage je (interne) IT projecten"
-                        }
-                    ]
-                },
-                {
-                    "category": "SKILL4: Ethical & Legal Responsibility",
-                    "phrases": []
+                    "phrase": "kostenbeheer"
                 },
                 {
                     "category": "SKILL5: Innovation & Ownership",
-                    "phrases": [
-                        {
-                            "text": "AI-tooling en innovatie doe je onderzoek en implementeer je nieuwe technologieën voor innovaties binnen de organisatie"
-                        }
-                    ]
+                    "phrase": "innovatie"
+                }
+            ],
+            "technologies": [
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Azure"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Microsoft 365"
+                },
+                {
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "Large Language Moddels (LLM)"
+                },
+                {
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "AI-tooling"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "SAP B1"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "SaaS-oplossingen"
                 }
             ]
         }
