@@ -28,72 +28,83 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "rationale": "The job description emphasizes building and maintaining large-scale compute infrastructure for ML teams, including setting up GPU clusters, establishing best practices for distributed ML, and implementing MLOps tooling. While it involves supporting ML teams, the core focus is on the platform and infrastructure rather than the direct development or fine-tuning of generative models or user-facing applications, which aligns more closely with the 'ML Engineer' profile's focus on productionizing models and MLOps."
+            "rationale": "The job description emphasizes building and maintaining large-scale compute infrastructure for ML teams, focusing on setting up and optimizing compute clusters, distributed ML infrastructure, and establishing best practices for running ML models on distributed hardware. While it mentions 'large model training', the core responsibilities lean towards the engineering and operational aspects of ML infrastructure (MLOps, compute clusters, orchestration, experiment tracking, IaC) rather than the development or fine-tuning of generative models themselves. The role supports 'deep tech ML teams' and 'research engineers' who run 'Ops, Engineering and Science', suggesting a focus on enabling predictive modeling and research rather than building user-facing GenAI applications. The mention of 'ML Platform Engineer' and 'large scale compute' strongly aligns with the 'ML Engineer' profile's focus on MLOps and production-grade systems for predictive models."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "category": "TASK2: Data Engineering",
-                    "justification": "The role involves setting up and managing compute clusters and infrastructure for ML teams, which includes aspects of data pipeline and infrastructure management for large-scale model training.",
-                    "phrase": "Setup high performance compute clusters that are easy to access by researchers, come pre-bundled with all necessary tools & packages and can be monitored easily."
-                },
-                {
-                    "category": "TASK2: Data Engineering",
-                    "justification": "Supporting research teams in setting up their distributed ML infrastructure involves data pipeline and infrastructure configuration.",
-                    "phrase": "Help our research teams set up their distributed ML infrastructure."
-                },
-                {
-                    "category": "TASK3: Modeling",
-                    "justification": "The role directly supports teams running large model training and establishes best practices for running ML models on distributed hardware, implying involvement in the operational aspects of model execution.",
-                    "phrase": "Establish best practices on running ML Models on distributed hardware."
-                },
-                {
-                    "category": "TASK4: Software Development",
-                    "justification": "While not building user-facing applications, the role involves configuring and creating infrastructure for researchers to run their large models, which requires software development skills for infrastructure setup.",
-                    "phrase": "Configure & create infrastructure for researchers to run their large models on."
-                },
-                {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "The description explicitly mentions implementing new tooling in orchestration, experiment tracking, and service deployment, which are core MLOps activities.",
-                    "phrase": "Implement new tooling in the areas of orchestration, experiment tracking, service deployment, Infrastructure as Code."
-                },
-                {
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "Owning the compute cluster on AWS and optimizing it for efficiency and utilization falls under the operational management of ML infrastructure.",
+                    "justification": "The role involves setting up and owning compute clusters, supporting distributed ML infrastructure, establishing best practices for running ML models on distributed hardware, optimizing for efficiency and utilization, and implementing tooling for orchestration, experiment tracking, and service deployment. This directly aligns with the definition of MLOps.",
                     "phrase": "set up and own our compute cluster on AWS"
                 },
                 {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "Optimizing the solution for ease-of-use, efficiency and maximum utilization is a key aspect of operational excellence in ML platforms.",
-                    "phrase": "Optimise the solution for ease-of-use, efficiency and maximum utilisation."
+                    "justification": "The role requires helping research teams set up their distributed ML infrastructure, which is a core aspect of enabling and managing ML workflows.",
+                    "phrase": "Help our research teams set up their distributed ML infrastructure"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Establishing best practices for running ML models on distributed hardware is a key responsibility in ensuring efficient and effective model deployment and operation.",
+                    "phrase": "Establish best practices on running ML Models on distributed hardware"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Optimizing solutions for ease-of-use, efficiency, and maximum utilization of compute resources is a critical operational task in ML infrastructure management.",
+                    "phrase": "Optimise the solution for ease-of-use, efficiency and maximum utilisation"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Configuring and creating infrastructure for researchers to run large models is a direct infrastructure engineering task supporting ML workflows.",
+                    "phrase": "Configure & create infrastructure for researchers to run their large models on"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Implementing new tooling in areas like orchestration, experiment tracking, and service deployment are core MLOps responsibilities.",
+                    "phrase": "Implement new tooling in the areas of orchestration, experiment tracking, service deployment, Infrastructure as Code"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "While the primary focus is ML infrastructure, the role involves implementing tooling for 'service deployment' and 'Infrastructure as Code', which are software development practices applied to infrastructure management.",
+                    "phrase": "service deployment"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "Implementing 'Infrastructure as Code' is a software development practice used to manage and provision infrastructure.",
+                    "phrase": "Infrastructure as Code"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The role supports 'large model training' and involves setting up compute clusters and distributed ML infrastructure, which are foundational elements for data processing and model training pipelines.",
+                    "phrase": "large model training"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The goal of streamlining the ML development process and accelerating research teams indicates an understanding of business needs and aligning technical solutions with research goals.",
+                    "phrase": "streamline our ML development process and accelerate our research teams"
                 }
             ],
             "soft_skills": [
+                {
+                    "category": "SKILL5: Innovation and Ownership",
+                    "phrase": "set up and own our compute cluster"
+                },
                 {
                     "category": "SKILL1: Communication & Collaboration",
                     "phrase": "supporting 7+ teams that work \"full stack\""
                 },
                 {
-                    "category": "SKILL5: Innovation & Ownership",
-                    "phrase": "set up and own our compute cluster on AWS"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "newly created ML Platform Team"
                 },
                 {
                     "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "streamline our ML development process and accelerate our research teams"
+                    "phrase": "streamline the process, adopt the right tools and super-charge the work we are doing"
                 }
             ],
             "technologies": [
                 {
                     "category": "TECH2: Cloud Platforms & Services",
                     "phrase": "AWS"
-                },
-                {
-                    "category": "TECH10: Data Modeling",
-                    "phrase": "deep tech ML teams"
-                },
-                {
-                    "category": "TECH10: Data Modeling",
-                    "phrase": "large model training"
                 },
                 {
                     "category": "TECH6: MLOps & Data Pipelines",

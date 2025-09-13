@@ -28,98 +28,121 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "rationale": "The job description emphasizes managing large datasets, building complex data pipelines, and supporting ML teams, aligning with the core responsibilities of an ML Engineer focused on data engineering, modeling support, and MLOps. While generative models are mentioned in the context of the teams being supported, the primary focus of this role is on the data infrastructure and pipelines that enable ML development, rather than the direct development or fine-tuning of generative models themselves."
+            "rationale": "The job description emphasizes managing large datasets, building complex data pipelines, and supporting ML teams with data access for training. While generative video synthesis is mentioned as the R&D focus, the core responsibilities and technologies described align more closely with data engineering, data pipeline management, and supporting ML model training, which are central to the ML Engineer profile. The role is focused on the data infrastructure and pipelines that enable ML development, rather than the direct development or fine-tuning of generative models themselves."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
                     "category": "TASK2: Data Engineering",
-                    "justification": "The role involves managing large datasets, building complex audio/visual data pipelines, setting up a data lake, and creating data transform pipelines, all of which are core to data engineering.",
+                    "justification": "The role involves managing large datasets, building complex data pipelines for audio-visual and speech data, setting up a data lake, and creating data transform pipelines.",
                     "phrase": "manage large data-sets of audio-video data"
                 },
                 {
                     "category": "TASK2: Data Engineering",
-                    "justification": "The description explicitly mentions building complex audio/visual data pipelines to organize and simplify data consumption.",
+                    "justification": "The core responsibility is to set up a world-class data function and manage a lake with PB scale data.",
+                    "phrase": "set up a world class data function, managing a lake with PB scale data"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The role explicitly mentions building complex audio/visual data pipelines.",
                     "phrase": "building complex audio/visual data pipelines"
                 },
                 {
                     "category": "TASK2: Data Engineering",
-                    "justification": "The role involves setting up a data lake and data transformation pipelines for large-scale datasets.",
-                    "phrase": "Setup of a data-lake and data transform pipelines for large scale audio-visual datasets."
+                    "justification": "The role involves setting up data pipelines for specific teams and data types.",
+                    "phrase": "help set up our audio-video data pipeline for the Video team and our speech data pipeline for the Voice team"
                 },
                 {
                     "category": "TASK2: Data Engineering",
-                    "justification": "The role requires setting up metadata stores and APIs for on-demand data access, which is crucial for data engineering in ML contexts.",
-                    "phrase": "Setup of metadata stores and APIs to access data-sets on demand for ML training."
+                    "justification": "Data Ops responsibilities include data management, versioning, usage tracking, and logging.",
+                    "phrase": "Data Ops for data management, versioning, usage tracking, logging"
                 },
                 {
                     "category": "TASK2: Data Engineering",
-                    "justification": "The job involves supporting data streaming for training large models, which is a data engineering responsibility.",
-                    "phrase": "Support for data streaming to train large models."
+                    "justification": "Setting up a data lake and transformation pipelines for large-scale datasets is a key responsibility.",
+                    "phrase": "Setup of a data-lake and data transform pipelines for large scale audio-visual datasets"
                 },
                 {
                     "category": "TASK2: Data Engineering",
-                    "justification": "The role includes deploying custom ML data transformations, a key aspect of data engineering for ML.",
-                    "phrase": "Data pipelines - deploy custom ML data transformations"
+                    "justification": "Integration of third-party annotation services for continuous data annotation and active learning falls under data preparation and pipeline management.",
+                    "phrase": "Integration of 3d party annotation services for continuous data annotation and active learning"
                 },
                 {
                     "category": "TASK2: Data Engineering",
-                    "justification": "Creating transient datasets on demand for ML model training is a data engineering task focused on providing specific data for modeling.",
-                    "phrase": "Data access - create transient data-sets on demand to support ML model training."
+                    "justification": "Setting up metadata stores and APIs to access data for ML training is a data engineering task.",
+                    "phrase": "Setup of metadata stores and APIs to access data-sets on demand for ML training"
                 },
                 {
                     "category": "TASK2: Data Engineering",
-                    "justification": "Usage tracking and monitoring across data sources falls under data management and engineering responsibilities.",
-                    "phrase": "Data tracking - usage tracking and monitoring across all data sources."
+                    "justification": "Supporting data streaming for training large models is part of data infrastructure management.",
+                    "phrase": "Support for data streaming to train large models"
                 },
                 {
                     "category": "TASK2: Data Engineering",
-                    "justification": "Establishing workflows for continual data delivery and annotation is a data engineering process.",
-                    "phrase": "Establish the workflow for continual data delivery and annotation."
+                    "justification": "Deploying custom ML data transformations and working with the ML team is a data engineering task supporting model development.",
+                    "phrase": "Data pipelines - deploy custom ML data transformations, working with our ML team"
                 },
                 {
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "The role includes 'Data Ops for data management, versioning, usage tracking, logging,' which aligns with the operational aspects of managing data for ML systems.",
-                    "phrase": "Data Ops for data management, versioning, usage tracking, logging."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "Creating transient datasets on demand for ML model training is a data provisioning task.",
+                    "phrase": "Data access - create transient data-sets on demand to support ML model training"
                 },
                 {
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "Integrating third-party annotation services for continuous data annotation and active learning is an operational task that supports the ML lifecycle.",
-                    "phrase": "Integration of 3d party annotation services for continuous data annotation and active learning."
+                    "category": "TASK2: Data Engineering",
+                    "justification": "Usage tracking and monitoring across data sources is part of data governance and management.",
+                    "phrase": "Data tracking - usage tracking and monitoring across all data sources"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "Establishing workflows for continual data delivery and annotation is a data pipeline and management task.",
+                    "phrase": "Establish the workflow for continual data delivery and annotation"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "justification": "The role involves setting up APIs to access datasets, which is a software development task to enable data access.",
-                    "phrase": "Setup of metadata stores and APIs to access data-sets on demand for ML training."
+                    "justification": "The role involves setting up APIs to access datasets, which is a software development task related to data access.",
+                    "phrase": "APIs to access data-sets on demand"
                 },
                 {
-                    "category": "TASK1: Business Understanding",
-                    "justification": "The role aims to 'super-charge our research' and 'streamline our ML development process,' indicating an understanding of how data operations support business and R&D goals.",
-                    "phrase": "You will join us to set up a world class data function, managing a lake with PB scale data and building complex audio/visual data pipelines to bring order and make data consumption simple. You are going to super-charge our research."
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The title 'DataOps Platform Engineer' and responsibilities like 'Data Ops for data management, versioning, usage tracking, logging' and 'usage tracking and monitoring' directly relate to operational aspects of data management and pipelines.",
+                    "phrase": "DataOps Platform Engineer"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The role focuses on streamlining the ML development process by managing data infrastructure and pipelines, which is an MLOps-related function.",
+                    "phrase": "streamline our ML development process"
                 }
             ],
             "soft_skills": [
                 {
-                    "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "help streamline our ML development process"
-                },
-                {
-                    "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "building complex audio/visual data pipelines to bring order and make data consumption simple"
-                },
-                {
-                    "category": "SKILL5: Innovation & Ownership",
-                    "phrase": "set up a world class data function"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "working alongside our Senior DataOps Engineer"
                 },
                 {
                     "category": "SKILL1: Communication & Collaboration",
-                    "phrase": "working alongside our Senior DataOps Engineer"
+                    "phrase": "working with our ML team"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "bring order and make data consumption simple"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "streamline our ML development process"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "super-charge our research"
                 }
             ],
             "technologies": [
                 {
                     "category": "TECH2: Cloud Platforms & Services",
                     "phrase": "PB scale data"
+                },
+                {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "DataOps"
                 },
                 {
                     "category": "TECH10: Data Modeling",

@@ -51,18 +51,81 @@ def perform_chi_squared_tests(tidy_df, profiles_df):
 
 
 def technology_cooccurrence_analysis(tidy_df):
-    """
-    Analyzes and visualizes the co-occurrence of the top 20 technologies.
-    """
+    """Analyzes and visualizes the co-occurrence of the top 20 technologies."""
     print("\n--- Performing Technology Co-occurrence Analysis ---")
     tech_df = tidy_df[tidy_df["category_type"] == "technology"].copy()
+
+    if "tool_name" not in tech_df.columns or tech_df["tool_name"].isnull().all():
+        print(
+            "Skipping technology co-occurrence analysis: 'tool_name' column is missing or empty."
+        )
+        fig, ax = plt.subplots()
+        ax.set_title("Technology Co-occurrence (No Data)")
+        plt.savefig(
+            OUTPUT_DIR / "technology_cooccurrence_heatmap.png", bbox_inches="tight"
+        )
+        return
+
     tech_df.dropna(subset=["tool_name"], inplace=True)
 
-    # Filter out tool names that are just category labels to get a true tool co-occurrence
-    tech_df = tech_df[~tech_df["tool_name"].str.contains(r"^TECH\d*:", na=False)]
-    tech_df = tech_df[
-        ~tech_df["tool_name"].str.contains(r"Retrieval-Augmented Generation", na=False)
-    ]
+    # Normalize tool names
+    def normalize_tool_name(name: str) -> str:
+        name = str(name).strip().lower()
+        synonyms = {
+            "open ai": "OpenAI",
+            "openai": "OpenAI",
+            "azure openai": "Azure OpenAI",
+            "ms azure": "Azure",
+            "microsoft azure": "Azure",
+            "azure": "Azure",
+            "amazon web services": "AWS",
+            "aws": "AWS",
+            "gcp": "GCP",
+            "google cloud": "GCP",
+            "google cloud platform": "GCP",
+            "k8s": "Kubernetes",
+            "kubernetes": "Kubernetes",
+            "docker": "Docker",
+            "git": "Git",
+            "langchain": "LangChain",
+            "huggingface": "Hugging Face",
+            "hugging face": "Hugging Face",
+            "mlflow": "MLflow",
+            "faiss": "FAISS",
+            "pinecone": "Pinecone",
+            "chromadb": "ChromaDB",
+            "postgres": "PostgreSQL",
+            "postgresql": "PostgreSQL",
+            "sql": "SQL",
+            "tensorflow": "TensorFlow",
+            "tf": "TensorFlow",
+            "pytorch": "PyTorch",
+            "scikit-learn": "scikit-learn",
+            "sklearn": "scikit-learn",
+            "apache airflow": "Airflow",
+            "airflow": "Airflow",
+            "vertex ai": "Vertex AI",
+            "anthropic": "Anthropic",
+            "claude": "Claude",
+            "gpt-4": "GPT-4",
+            "gpt4": "GPT-4",
+            "gpt": "GPT",
+            "llama": "Llama",
+            "llama 3": "Llama",
+            "llm": "LLMs",
+            "llms": "LLMs",
+            "large language models": "LLMs",
+            "mistral": "Mistral",
+            "databricks": "Databricks",
+            "power bi": "Power BI",
+            "ai": "AI",
+            "genai": "AI",
+            "generative ai": "AI",
+            "machine learning": "Machine Learning",
+        }
+        return synonyms.get(name, str(name).strip().title())
+
+    tech_df["tool_name"] = tech_df["tool_name"].apply(normalize_tool_name)
 
     # Get the top 20 most frequent tools
     top_tools = tech_df["tool_name"].value_counts().nlargest(20).index.tolist()
@@ -72,90 +135,105 @@ def technology_cooccurrence_analysis(tidy_df):
     job_tool_matrix = tech_df_top.pivot_table(
         index="job_id", columns="tool_name", aggfunc="size", fill_value=0
     )
-    job_tool_matrix[job_tool_matrix > 1] = 1  # Binarize
 
-    # Calculate co-occurrence matrix
-    cooccurrence_matrix = job_tool_matrix.T.dot(job_tool_matrix)
-    np.fill_diagonal(cooccurrence_matrix.values, 0)  # Remove self-co-occurrence
+    # Convert to binary (presence/absence)
+    job_tool_matrix[job_tool_matrix > 1] = 1
 
-    # Plot heatmap
+    # Calculate the co-occurrence matrix
+    co_occurrence_matrix = job_tool_matrix.T.dot(job_tool_matrix)
+    # Set the diagonal to zero to improve visualization
+    np.fill_diagonal(co_occurrence_matrix.values, 0)
+
+    # Plot the heatmap
     plt.figure(figsize=(12, 10))
-    sns.heatmap(cooccurrence_matrix, cmap="viridis", annot=False)
+    sns.heatmap(
+        co_occurrence_matrix,
+        cmap="viridis",
+        annot=False,
+    )
     plt.title("Co-occurrence Matrix of Top 20 Technologies")
+    plt.xlabel("Technology")
+    plt.ylabel("Technology")
+    plt.xticks(rotation=90)
+    plt.yticks(rotation=0)
     plt.tight_layout()
-    output_path = OUTPUT_DIR / "technology_cooccurrence_heatmap.png"
-    plt.savefig(output_path)
-    print(f"Saved technology co-occurrence heatmap to {output_path}")
+    plt.savefig(OUTPUT_DIR / "technology_cooccurrence_heatmap.png", bbox_inches="tight")
+    print(
+        f"Saved technology co-occurrence heatmap to {OUTPUT_DIR / 'technology_cooccurrence_heatmap.png'}"
+    )
 
 
 def generate_normalized_crosstabs(tidy_df, profiles_df):
-    """
-    Generates normalized (percentage-based) cross-tabulations for each
-    category type by profile.
-    """
+    """Generates and saves normalized crosstabs for all category types."""
     print("\n--- Generating Normalized Cross-Tabulations ---")
-    df = tidy_df.merge(profiles_df, on="job_id", how="left")
+
+    # Merge profiles into the tidy dataframe first
+    df = pd.merge(tidy_df, profiles_df, on="job_id", how="left")
     df_filtered = df[df["profile"].isin(PROFILES_TO_COMPARE)]
 
-    for category_type in ["job_task", "technology", "soft_skill"]:
-        # Use 'tool_name' for technology, otherwise 'category_name'
-        if category_type == "technology":
-            column_to_crosstab = "tool_name"
-            # Filter out rows where tool_name is NaN, as it can't be grouped
-            category_df = df_filtered[
-                df_filtered["category_type"] == category_type
-            ].dropna(subset=[column_to_crosstab])
+    category_types = ["job_task", "technology", "soft_skill"]
+    for cat_type in category_types:
+        category_df = df_filtered[df_filtered["category_type"] == cat_type].copy()
 
-            # Also filter out the category labels from this analysis
+        # Some old cleaning logic might still be trying to use tool_name
+        if "tool_name" in category_df.columns and pd.api.types.is_string_dtype(
+            category_df["tool_name"]
+        ):
             category_df = category_df[
                 ~category_df["tool_name"].str.contains(r"^TECH\d*:", na=False)
             ]
-            category_df = category_df[
-                ~category_df["tool_name"].str.contains(
-                    r"Retrieval-Augmented Generation", na=False
-                )
-            ]
-        else:
-            column_to_crosstab = "category_name"
-            category_df = df_filtered[df_filtered["category_type"] == category_type]
 
-        if category_df.empty:
-            print(f"Skipping normalized crosstab for {category_type} due to no data.")
-            continue
-
-        crosstab = pd.crosstab(
-            category_df[column_to_crosstab],
-            category_df["profile"],
+        save_normalized_crosstab(
+            category_df,
+            cat_type,
+            f"normalized_crosstab_{cat_type}.csv",
         )
 
-        if crosstab.empty:
-            print(
-                f"Skipping normalized crosstab for {category_type} as crosstab is empty."
-            )
-            # Create an empty file to avoid downstream errors
-            output_path = OUTPUT_DIR / f"normalized_crosstab_{category_type}.csv"
-            pd.DataFrame().to_csv(output_path)
-            print(f"Saved empty crosstab for {category_type} to {output_path}")
-            continue
 
-        # --- Filter for significant technologies ---
-        if category_type == "technology":
-            # A technology is significant if it's mentioned at least 10 times in total
-            significance_threshold = 10
-            total_mentions = crosstab.sum(axis=1)
-            significant_techs = total_mentions[
-                total_mentions >= significance_threshold
-            ].index
-            crosstab = crosstab.loc[significant_techs]
-            print(
-                f"-> Filtered for technologies with at least {significance_threshold} mentions. Kept {len(significant_techs)} technologies."
-            )
+def save_normalized_crosstab(category_df, category_type, output_name):
+    """
+    Generates and saves normalized (percentage-based) cross-tabulations for each
+    category type by profile.
+    """
+    if category_df.empty:
+        print(f"Skipping normalized crosstab for {category_type} due to no data.")
+        # Create an empty file to avoid downstream errors
+        output_path = OUTPUT_DIR / output_name
+        pd.DataFrame().to_csv(output_path)
+        print(f"Saved empty crosstab for {category_type} to {output_path}")
+        return
 
-        # Normalize by column (profile)
-        crosstab_norm = crosstab.div(crosstab.sum(axis=0), axis=1).mul(100).round(2)
-        output_path = OUTPUT_DIR / f"normalized_crosstab_{category_type}.csv"
-        crosstab_norm.to_csv(output_path)
-        print(f"Saved normalized cross-tabulation for {category_type} to {output_path}")
+    crosstab = pd.crosstab(
+        category_df["category_name"],
+        category_df["profile"],
+    )
+
+    if crosstab.empty:
+        print(f"Skipping normalized crosstab for {category_type} as crosstab is empty.")
+        # Create an empty file to avoid downstream errors
+        output_path = OUTPUT_DIR / output_name
+        pd.DataFrame().to_csv(output_path)
+        print(f"Saved empty crosstab for {category_type} to {output_path}")
+        return
+
+    # --- Filter for significant technologies ---
+    if category_type == "technology":
+        # A technology is significant if it's mentioned at least 10 times in total
+        significance_threshold = 10
+        total_mentions = crosstab.sum(axis=1)
+        significant_techs = total_mentions[
+            total_mentions >= significance_threshold
+        ].index
+        crosstab = crosstab.loc[significant_techs]
+        print(
+            f"-> Filtered for technologies with at least {significance_threshold} mentions. Kept {len(significant_techs)} technologies."
+        )
+
+    # Normalize by column (profile)
+    crosstab_norm = crosstab.div(crosstab.sum(axis=0), axis=1).mul(100).round(2)
+    output_path = OUTPUT_DIR / output_name
+    crosstab_norm.to_csv(output_path)
+    print(f"Saved normalized cross-tabulation for {category_type} to {output_path}")
 
 
 def analyze_topic_profile_correlation():

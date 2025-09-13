@@ -28,82 +28,88 @@
     "analysis": {
         "profile_classification": {
             "profile": "Ambiguous",
-            "rationale": "The job description focuses on infrastructure, systems, and cloud management (Linux, AWS, Kubernetes, datacenters, uptime) and DevOps principles. It does not mention any specific AI models, generative techniques, LLM frameworks, or AI-specific modeling tasks. The role appears to be a traditional Infrastructure/DevOps Engineer, not directly involved in AI development or deployment."
+            "rationale": "The job description focuses on Linux/Infra System Engineering, managing physical servers, OS, networks, and AWS cloud environments. It emphasizes uptime, automation tooling, and providing flexible infrastructure up to the OS and Kubernetes layer. While it mentions a 'DevOps mindset' and working with other teams, there is no mention of AI, machine learning, generative models, or related technologies. The core responsibilities are clearly in infrastructure and operations, not AI development or application building, making it a non-technical role in the context of AI/ML."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "category": "TASK5",
-                    "justification": "The description mentions 'Achieve uptime >99.99%', 'Manage and expand the physical servers, OS's and networks', 'Manage and expand our AWS cloud environments', 'Operate and improve our automation tooling', 'Provide a flexible infrastructure... up to and including the base OS layer and kubernetes', and 'Work with a DevOps mindset'. These all relate to the operational aspects of managing and maintaining infrastructure and systems, which falls under Operations Engineering.",
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The description mentions 'Achieve uptime >99.99%', 'Manage and expand the physical servers, OS's and networks', 'Manage and expand our AWS cloud environments', 'Operate and improve our automation tooling', and 'Provide a flexible infrastructure'. These tasks are directly related to maintaining and improving operational infrastructure, which aligns with the broader principles of MLOps, even though AI models are not explicitly mentioned.",
                     "phrase": "Achieve uptime >99.99%"
                 },
                 {
-                    "category": "TASK5",
-                    "justification": "Managing physical servers, OSs, and networks in datacenters is a core responsibility of infrastructure and operations engineering.",
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Managing physical servers, operating systems, and networks across multiple data centers is a core responsibility in infrastructure operations, aligning with the foundational aspects of MLOps.",
                     "phrase": "Manage and expand the physical servers, OS's and networks in multiple datacenters"
                 },
                 {
-                    "category": "TASK5",
-                    "justification": "Managing and expanding cloud environments, specifically AWS, is a key aspect of modern operations engineering.",
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Managing and expanding cloud environments is a key aspect of infrastructure operations and MLOps.",
                     "phrase": "Manage and expand our AWS cloud environments in multiple regions"
                 },
                 {
-                    "category": "TASK1",
-                    "justification": "Understanding a 'complex technical architecture with a high degree of customisation' requires understanding the business context and how the infrastructure supports it.",
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Understanding a complex technical architecture with a high degree of customization is crucial for aligning infrastructure decisions with business needs and technical requirements.",
                     "phrase": "Understand a complex technical architecture with a high degree of customisation"
                 },
                 {
-                    "category": "TASK5",
-                    "justification": "Operating and improving automation tooling is a direct responsibility within Operations Engineering and DevOps.",
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Operating and improving automation tooling is a direct responsibility within MLOps for streamlining operations and deployments.",
                     "phrase": "Operate and improve our automation tooling"
                 },
                 {
-                    "category": "TASK5",
-                    "justification": "Participating in a 24/7 on-call rotation is a common responsibility for roles involved in maintaining production systems and infrastructure.",
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Participating in a 24/7 on-call rotation is a common responsibility for operations engineers ensuring system availability and rapid response to incidents.",
                     "phrase": "Participate in 24/7 on-call rotation schedule"
                 },
                 {
-                    "category": "TASK5",
-                    "justification": "Providing flexible infrastructure up to the OS and Kubernetes layer is a fundamental task of infrastructure and operations engineering.",
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Providing flexible infrastructure up to the base OS layer and Kubernetes is a fundamental infrastructure engineering task, supporting the deployment and operation of services.",
                     "phrase": "Provide a flexible infrastructure to the rest of the company up to and including the base OS layer and kubernetes"
                 },
                 {
-                    "category": "TASK5",
-                    "justification": "Working with a DevOps mindset involves collaboration and operational focus on product delivery and maintenance.",
-                    "phrase": "Work with a DevOps mindset with other teams within the company"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "justification": "Working with a DevOps mindset with other teams to bring products to customers implies strong collaboration and communication skills.",
+                    "phrase": "Work with a DevOps mindset with other teams within the company to bring our products to a large number of corporate customers worldwide"
                 }
             ],
             "soft_skills": [
                 {
-                    "category": "SKILL1",
-                    "justification": "Working with a DevOps mindset with other teams implies collaboration and communication to deliver products.",
-                    "phrase": "Work with a DevOps mindset with other teams within the company"
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Work with a DevOps mindset with other teams within the company to bring our products to a large number of corporate customers worldwide"
                 },
                 {
-                    "category": "SKILL3",
-                    "justification": "Managing complex infrastructure, achieving high uptime, and operating automation tooling requires strong problem-solving and a pragmatic approach to ensure system reliability.",
+                    "category": "SKILL3: Problem Solving & Pragmatism",
                     "phrase": "Achieve uptime >99.99%"
                 },
                 {
-                    "category": "SKILL3",
-                    "justification": "Understanding a 'complex technical architecture with a high degree of customisation' requires analytical and problem-solving skills.",
-                    "phrase": "Understand a complex technical architecture with a high degree of customisation"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Manage and expand the physical servers, OS's and networks in multiple datacenters"
                 },
                 {
-                    "category": "SKILL5",
-                    "justification": "The responsibilities of managing and expanding infrastructure, operating tooling, and participating in on-call rotations suggest a need for ownership and initiative.",
-                    "phrase": "Manage and expand the physical servers, OS's and networks in multiple datacenters"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Manage and expand our AWS cloud environments in multiple regions"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Operate and improve our automation tooling"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Provide a flexible infrastructure to the rest of the company up to and including the base OS layer and kubernetes"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Understand a complex technical architecture with a high degree of customisation"
                 }
             ],
             "technologies": [
                 {
-                    "category": "TECH2",
-                    "justification": "AWS is explicitly mentioned as a cloud environment to be managed.",
+                    "category": "TECH2: Cloud Platforms & Services",
                     "phrase": "AWS"
                 },
                 {
-                    "category": "TECH6",
-                    "justification": "Kubernetes is mentioned as a layer of the infrastructure provided.",
+                    "category": "TECH6: MLOps & Data Pipelines",
                     "phrase": "kubernetes"
                 }
             ]

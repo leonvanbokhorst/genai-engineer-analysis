@@ -28,79 +28,134 @@
     "analysis": {
         "profile_classification": {
             "profile": "Ambiguous",
-            "rationale": "The job description focuses heavily on DevSecOps, CI/CD, and application security practices. While it involves software development and operations, it does not align with the core responsibilities or typical projects of an ML Engineer or GenAI Engineer, which are centered around building and deploying predictive or generative models. The role is more aligned with traditional DevOps and security engineering, making it fall under the 'Ambiguous' category as it's not a technical AI role as defined in the Coding Book."
+            "rationale": "The job description focuses heavily on DevSecOps, CI/CD, and application security practices. While it involves automation and engineering, it does not directly involve the core tasks of building, training, or fine-tuning AI/ML models, nor does it focus on generative AI applications. The role is primarily about securing the software development lifecycle and CI/CD pipelines, which falls outside the scope of ML Engineer or GenAI Engineer profiles. It is more aligned with traditional DevOps and Security Engineering."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "The role involves developing and implementing DevSecOps strategy, architecting and scaling security practices across the SDLC, developing best practices and tooling for DevSecOps, securing CI/CD pipelines, implementing guardrails and security checks, standardizing and optimizing CI/CD tools, automating security tasks, and driving continuous improvement through automated patch management and dependency updates. This aligns with the principles of MLOps, which focuses on productionizing and maintaining systems.",
-                    "phrase": "develop and implement our Engineering team's DevSecOps strategy"
-                },
-                {
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "The role requires implementing a robust end-to-end process for Code Scanning, Secret Scanning, and Dependency Reviews, which are critical components of securing the software development lifecycle and ensuring secure deployments.",
-                    "phrase": "Implement a robust end-to-end process in partnership with Application Security teams for Code Scanning, Secret Scanning, and Dependency Reviews."
-                },
-                {
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "Designing and enhancing secure CI/CD pipelines is a core responsibility, aiming for secure, automated, and reliable software delivery, which is a key aspect of MLOps.",
-                    "phrase": "Design and enhance secure CI/CD pipelines to ensure secure, automated, and reliable software delivery."
+                    "category": "TASK4: Software Development",
+                    "justification": "The role involves architecting, implementing, and scaling security practices across the software development lifecycle, which includes secure coding practices and embedding security in all stages of the SDLC.",
+                    "phrase": "architect, implement, and scale security practices across our software development lifecycle"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "justification": "The role involves championing secure coding practices and embedding security in all stages of the SDLC, which requires understanding and influencing software development processes.",
-                    "phrase": "Champion secure coding practices and lead efforts to embed security in all stages of the SDLC."
+                    "justification": "The description mentions collaborating with development teams to identify and mitigate risks early in the development lifecycle, a key aspect of secure software development.",
+                    "phrase": "Collaborate with development teams to identify and mitigate risks early in the development lifecycle"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role requires providing technical leadership for implementing industry best practices in application security and cloud-native environments, which is a software development-related leadership task.",
+                    "phrase": "Provide technical leadership for implementing industry best practices in application security and cloud-native environments"
                 },
                 {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "Developing and managing infrastructure-as-code (IaC) security processes and automating security tasks are direct applications of operations engineering principles in a security context.",
-                    "phrase": "Develop and manage infrastructure-as-code (IaC) security processes."
+                    "justification": "The core of the role is developing and implementing DevSecOps strategy, focusing on CI/CD tooling, securing pipelines, and enabling seamless deployments, which aligns with the operational aspects of DevOps and MLOps.",
+                    "phrase": "develop and implement our Engineering team's DevSecOps strategy, with a strong focus on Static Application Security Testing (SAST) and CI/CD tooling"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The role involves developing best practices and tooling for implementing a DevSecOps approach to secure CI/CD pipelines, which is a direct application of operations engineering principles in a security context.",
+                    "phrase": "Develop best practices and tooling for implementing a DevSecOps approach that helps secure BeyondTrust's CI/CD"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Implementing end-to-end processes for Code Scanning, Secret Scanning, and Dependency Reviews are operational tasks within a CI/CD pipeline.",
+                    "phrase": "Implement a robust end-to-end process in partnership with Application Security teams for Code Scanning, Secret Scanning, and Dependency Reviews"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Designing and enhancing secure CI/CD pipelines is a core responsibility for ensuring automated and reliable software delivery, fitting the operations engineering category.",
+                    "phrase": "Design and enhance secure CI/CD pipelines to ensure secure, automated, and reliable software delivery"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Implementing guardrails and security checks into CI/CD pipelines is a direct operational task to ensure security during the delivery process.",
+                    "phrase": "Implement guardrails and security checks (e.g., static/dynamic analysis, software composition analysis) into CI/CD pipelines"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Automating security tasks, including testing, monitoring, and alerting, is a key function of operations engineering.",
+                    "phrase": "Automate security tasks, including testing, monitoring, and alerting for potential threats"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Driving continuous improvement through automated patch management and dependency updates falls under the umbrella of operations engineering for maintaining secure systems.",
+                    "phrase": "Drive continuous improvement through automated patch management and dependency updates"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Ensuring CI/CD and GitHub workflows comply with regulatory requirements is an operational governance task.",
+                    "phrase": "Ensure CI/CD and GitHub workflows comply with regulatory requirements (e.g., SOC 2, GDPR)"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Developing and maintaining metrics and reporting for security program effectiveness is an operational oversight task.",
+                    "phrase": "Develop and maintain metrics and reporting to demonstrate the Engineering teams' security program effectiveness"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "Leading incident response and forensic investigations related to DevSecOps environments is a critical operational responsibility.",
+                    "phrase": "Lead incident response and forensic investigations related to DevSecOps environments"
                 },
                 {
                     "category": "TASK1: Business Understanding",
-                    "justification": "Ensuring CI/CD and GitHub workflows comply with regulatory requirements like SOC 2 and GDPR demonstrates an understanding of business and compliance needs.",
-                    "phrase": "Ensure CI/CD and GitHub workflows comply with regulatory requirements (e.g., SOC 2, GDPR)."
+                    "justification": "The role requires understanding compliance and governance standards and ensuring workflows comply with regulatory requirements, indicating a need to understand business context and regulations.",
+                    "phrase": "maintaining compliance and governance standards"
                 },
                 {
-                    "category": "SKILL1: Communication & Collaboration",
-                    "justification": "The role requires collaboration with cross-functional teams, including application security engineers, Engineering leadership, software engineers, SREs, and product managers, to drive secure development initiatives.",
-                    "phrase": "Collaborate with cross-functional teams, including application security engineers, Engineering leadership, software engineers, SREs, and product managers, to drive secure development initiatives."
-                },
-                {
-                    "category": "SKILL5: Innovation & Ownership",
-                    "justification": "Serving as a subject-matter expert and mentor for engineers on DevOps and DevSecOps principles and tooling indicates a leadership and ownership role.",
-                    "phrase": "Serve as a subject-matter expert and mentor for engineers on DevOps and DevSecOps principles and tooling."
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Ensuring CI/CD and GitHub workflows comply with regulatory requirements (e.g., SOC 2, GDPR) demonstrates an understanding of business and regulatory needs.",
+                    "phrase": "Ensure CI/CD and GitHub workflows comply with regulatory requirements (e.g., SOC 2, GDPR)"
                 }
             ],
             "soft_skills": [
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "collaboration across teams"
+                },
                 {
                     "category": "SKILL1: Communication & Collaboration",
                     "phrase": "Collaborate with cross-functional teams"
                 },
                 {
                     "category": "SKILL1: Communication & Collaboration",
-                    "phrase": "collaboration across teams"
+                    "phrase": "Collaborate with development teams"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Serve as a subject-matter expert and mentor for engineers"
                 },
                 {
                     "category": "SKILL3: Problem Solving & Pragmatism",
                     "phrase": "architect, implement, and scale security practices"
                 },
                 {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Automate remediation workflows to streamline vulnerability fixes and improve code quality"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Automate security tasks, including testing, monitoring, and alerting for potential threats"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Drive continuous improvement through automated patch management and dependency updates"
+                },
+                {
                     "category": "SKILL5: Innovation & Ownership",
                     "phrase": "technical leadership"
                 },
                 {
-                    "category": "SKILL2: Learning & Adaptability",
-                    "phrase": "deep understanding of DevOps, security, and software development workflows"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Champion secure coding practices and lead efforts to embed security in all stages of the SDLC"
                 },
                 {
                     "category": "SKILL5: Innovation & Ownership",
-                    "phrase": "Serve as a subject-matter expert and mentor"
+                    "phrase": "Provide technical leadership for implementing industry best practices"
                 },
                 {
-                    "category": "SKILL4: Ethical & Legal Responsibility",
-                    "phrase": "maintaining compliance and governance standards"
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "Lead incident response and forensic investigations"
                 }
             ],
             "technologies": [
@@ -125,36 +180,20 @@
                     "phrase": "Azure DevOps"
                 },
                 {
-                    "category": "TECH1: Programming Languages",
-                    "phrase": "code"
-                },
-                {
                     "category": "TECH6: MLOps & Data Pipelines",
                     "phrase": "Github Security Centre"
                 },
                 {
-                    "category": "TECH6: MLOps & Data Pipelines",
-                    "phrase": "Code Scanning"
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "code"
                 },
                 {
-                    "category": "TECH6: MLOps & Data Pipelines",
-                    "phrase": "Secret Scanning"
+                    "category": "TECH1: Programming Languages",
+                    "phrase": "coding practices"
                 },
                 {
-                    "category": "TECH6: MLOps & Data Pipelines",
-                    "phrase": "Dependency Reviews"
-                },
-                {
-                    "category": "TECH6: MLOps & Data Pipelines",
-                    "phrase": "static/dynamic analysis"
-                },
-                {
-                    "category": "TECH6: MLOps & Data Pipelines",
-                    "phrase": "software composition analysis"
-                },
-                {
-                    "category": "TECH6: MLOps & Data Pipelines",
-                    "phrase": "infrastructure-as-code (IaC)"
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "cloud-native environments"
                 }
             ]
         }

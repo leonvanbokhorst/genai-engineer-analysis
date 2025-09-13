@@ -28,48 +28,57 @@
     "analysis": {
         "profile_classification": {
             "profile": "ML Engineer",
-            "rationale": "The job description emphasizes building and managing end-to-end data pipelines, training large models on GPU clusters, and conducting research on foundation models for language and code. While it mentions LLMs, the core focus aligns more with the foundational aspects of model development, training, and data pipeline management, which are central to an ML Engineer role, particularly in a research context. The mention of 'foundation models' and training them from scratch points towards deep model work rather than solely application-layer generative AI."
+            "rationale": "The job description emphasizes building and managing end-to-end data pipelines, training large models on GPU clusters, and conducting research on foundation models for language and code. While it mentions LLMs, the core focus on data pipelines, model training from scratch, and research aligns more closely with the 'ML Engineer' profile's emphasis on algorithm development, data preprocessing, and model training/evaluation, particularly in a research context. The mention of 'BigCode' and developing models 'from scratch' further supports this, indicating a focus on foundational model development and training rather than solely application-layer GenAI development."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
                     "category": "TASK2: Data Engineering",
-                    "justification": "The phrase 'Build and manage end-to-end data pipelines and large datasets' directly relates to the creation and maintenance of data infrastructure and flows.",
+                    "justification": "The phrase 'Build and manage end-to-end data pipelines and large datasets' directly relates to the creation and maintenance of data infrastructure and processing.",
                     "phrase": "Build and manage end-to-end data pipelines and large datasets"
                 },
                 {
                     "category": "TASK3: Modeling",
-                    "justification": "The phrase 'Train large models on multi-node GPU clusters' and 'research projects on foundation models for language and code' clearly indicates the core activity of creating, training, and researching machine learning models.",
+                    "justification": "The phrase 'Train large models on multi-node GPU clusters' describes the core activity of training machine learning models, which is central to this category. The mention of 'foundation models for language and code' also points to model development.",
                     "phrase": "Train large models on multi-node GPU clusters"
                 },
                 {
                     "category": "TASK3: Modeling",
-                    "justification": "The phrase 'research projects on foundation models for language and code' indicates the focus on developing and understanding core AI models.",
-                    "phrase": "research projects on foundation models for language and code"
+                    "justification": "The phrase 'develops large language models from scratch' indicates the creation and training of models, fitting the modeling task.",
+                    "phrase": "develops large language models from scratch"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The phrase 'conducts cutting-edge research on them' implies research and development related to models.",
+                    "phrase": "conducts cutting-edge research on them"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "justification": "While not the primary focus, the role involves working with researchers on projects, implying some level of software development to support research and model implementation.",
-                    "phrase": "research projects on foundation models for language and code"
+                    "justification": "While the primary focus is research and modeling, the role involves contributing to research projects and potentially integrating findings, which touches upon software development aspects, though less emphasized than modeling.",
+                    "phrase": "pursue research projects on foundation models for language and code"
                 },
                 {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "The phrase 'Train large models on multi-node GPU clusters' implies managing and operating complex computing infrastructure for model training, which falls under MLOps.",
-                    "phrase": "Train large models on multi-node GPU clusters"
+                    "justification": "The phrase 'establish responsible data governance practices' and managing pipelines implies operational considerations for data and model lifecycle, though MLOps is not explicitly detailed.",
+                    "phrase": "establishes responsible data governance practices"
                 }
             ],
             "soft_skills": [
                 {
-                    "category": "SKILL2: Learning & Adaptability",
-                    "phrase": "ServiceNow Research does both fundamental and applied research to futureproof AI-powered experiences."
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "In collaboration with research scientists"
                 },
                 {
                     "category": "SKILL1: Communication & Collaboration",
-                    "phrase": "In collaboration with research scientists in the world-class BigCode core team"
+                    "phrase": "Present your work in research papers"
                 },
                 {
-                    "category": "SKILL5: Innovation & Ownership",
-                    "phrase": "You will pursue research projects"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "research, experiment, and de-risk AI technologies"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "lay the foundations, research, experiment, and de-risk AI technologies"
                 },
                 {
                     "category": "SKILL4: Ethical & Legal Responsibility",
@@ -78,6 +87,10 @@
                 {
                     "category": "SKILL4: Ethical & Legal Responsibility",
                     "phrase": "responsible data governance practices"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "develops large language models from scratch"
                 }
             ],
             "technologies": [
@@ -91,19 +104,19 @@
                 },
                 {
                     "category": "TECH3: LLM / Generative Models",
-                    "phrase": "foundation models"
+                    "phrase": "foundation models for language and code"
                 },
                 {
-                    "category": "TECH2: Cloud Platforms & Services",
-                    "phrase": "multi-node GPU clusters"
+                    "category": "TECH3: LLM / Generative Models",
+                    "phrase": "large language models"
                 },
                 {
-                    "category": "TECH1: Programming Languages",
-                    "phrase": "language"
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "data pipelines"
                 },
                 {
-                    "category": "TECH1: Programming Languages",
-                    "phrase": "code"
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "models"
                 }
             ]
         }

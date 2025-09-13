@@ -28,49 +28,49 @@
     "analysis": {
         "profile_classification": {
             "profile": "Ambiguous",
-            "rationale": "The job description focuses heavily on software development using Go and leading technical roadmaps, with a secondary mention of AI-driven tools and a chatbot. However, it lacks the depth and specific responsibilities typically associated with an ML Engineer or GenAI Engineer, such as algorithm development, model training, fine-tuning, RAG systems, or deep involvement in generative model specifics. The primary focus is on building and scaling platform components and user-facing applications, with AI being a feature rather than the core technology being developed or specialized in. Therefore, it falls under the 'Ambiguous' category as it's primarily a software engineering leadership role with AI as a component, not a specialized AI role."
+            "rationale": "The job description focuses heavily on traditional software engineering (Go, platform development, community tools, user-facing applications) and mentions AI-driven tools and a chatbot as features of the platform. However, it lacks specific details about core AI/ML tasks like model development, fine-tuning, RAG implementation, or deep involvement with generative models beyond their integration into existing products. The emphasis is on leading code quality, technical roadmaps, and building scalable services, which aligns more with a senior software engineering role that *uses* AI components rather than one that *develops* them. The mention of 'generative AI tool that has already produced over 40+ million images' and 'AI-driven tools' suggests the *use* of AI rather than the *engineering* of AI models themselves. Therefore, it doesn't fit the core responsibilities of an ML Engineer or GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
                     "category": "TASK4: Software Development",
-                    "justification": "The job description repeatedly emphasizes building 'production-grade code', 'platform and its individual components', 'launch of community tools', 'develop and deliver products and apps', and 'build and implement services that interact with the platform to ensure scalability, reliability, and security'. This clearly aligns with traditional software engineering tasks.",
+                    "justification": "Phrases like 'Build squeaky-clean (production-grade) code for our platform and its individual components', 'launch of community tools', 'build and implement services that interact with the platform to ensure scalability, reliability, and security', and 'develop and deliver products and apps' directly relate to traditional software engineering practices.",
                     "phrase": "Build squeaky-clean (production-grade) code for our platform and its individual components"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "justification": "The role involves contributing to the 'launch of community tools', which are software components designed for external use.",
+                    "justification": "Contributing to community tools falls under the development of software components.",
                     "phrase": "Contribute to the launch of community tools"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "justification": "The description mentions 'develop and deliver products and apps that are seen, utilized, and (hopefully) loved by 4m+ global users', indicating the development of user-facing software.",
-                    "phrase": "develop and deliver products and apps that are seen, utilized, and (hopefully) loved by 4m+ global users"
-                },
-                {
-                    "category": "TASK4: Software Development",
-                    "justification": "The need to 'build and implement services that interact with the platform to ensure scalability, reliability, and security' points to backend service development and integration.",
+                    "justification": "Building and implementing services to ensure scalability, reliability, and security are core software development and architecture tasks.",
                     "phrase": "build and implement services that interact with the platform to ensure scalability, reliability, and security"
                 },
                 {
                     "category": "TASK1: Business Understanding",
-                    "justification": "The phrase 'Steer technical roadmaps and guide responsible innovation' implies understanding business strategy and translating it into technical direction.",
-                    "phrase": "Steer technical roadmaps and guide responsible innovation"
+                    "justification": "Phrases like 'Ensure we stay on course', 'Steer technical roadmaps', 'guide responsible innovation', and understanding user expectations ('What does our expanding user community expect and desire from us? And how can we deliver?') indicate a need to align technical work with business goals and strategy.",
+                    "phrase": "Ensure we stay on course"
                 },
                 {
                     "category": "TASK1: Business Understanding",
-                    "justification": "The questions 'What does our expanding user community expect and desire from us? And how can we deliver?' show a focus on understanding user needs and business outcomes.",
-                    "phrase": "What does our expanding user community expect and desire from us? And how can we deliver?"
+                    "justification": "Steering technical roadmaps and guiding innovation requires understanding business objectives and future direction.",
+                    "phrase": "Steer technical roadmaps and guide responsible innovation"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The mention of 'production-grade' code and ensuring 'scalability, reliability, and security' for services implies a focus on operational aspects of deployed software, though not explicitly MLOps for AI models.",
+                    "phrase": "production-grade code"
                 },
                 {
                     "category": "TASK3: Modeling",
-                    "justification": "The mention of 'a generative AI tool that has already produced over 40+ million images' and 'AI-driven tools' suggests involvement with generative models, though the specific tasks like fine-tuning or deep model development are not detailed.",
-                    "phrase": "a generative AI tool that has already produced over 40+ million images"
+                    "justification": "The description mentions 'a generative AI tool that has already produced over 40+ million images' and 'AI-driven tools', and 'our chatbot'. While it doesn't detail the *creation* or *fine-tuning* of these models, it implies involvement in their development or integration.",
+                    "phrase": "generative AI tool"
                 },
                 {
                     "category": "TASK3: Modeling",
-                    "justification": "The mention of 'AI-driven tools' and 'our chatbot' implies working with or developing AI models, even if the core focus is on the application layer.",
-                    "phrase": "AI-driven tools, some of which are quickly maturing, while others are still in their infancy, like our chatbot"
+                    "justification": "Mentioning 'AI-driven tools' and 'chatbot' indicates work related to generative models or AI applications.",
+                    "phrase": "AI-driven tools"
                 }
             ],
             "soft_skills": [
@@ -84,19 +84,27 @@
                 },
                 {
                     "category": "SKILL1: Communication & Collaboration",
-                    "phrase": "promote agility and, together with the team, iterate fast"
+                    "phrase": "rally peers behind your vision"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "Together with fellow developers, engineers, designers, and product managers"
                 },
                 {
                     "category": "SKILL1: Communication & Collaboration",
                     "phrase": "Contribute to a culture where feedback and knowledge-sharing are a given"
                 },
                 {
-                    "category": "SKILL1: Communication & Collaboration",
-                    "phrase": "ability to rally peers behind your vision"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "promote agility"
                 },
                 {
-                    "category": "SKILL1: Communication & Collaboration",
-                    "phrase": "Together with fellow developers, engineers, designers, and product managers"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "iterate fast"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "make data-driven decisions"
                 },
                 {
                     "category": "SKILL5: Innovation & Ownership",
@@ -105,10 +113,6 @@
                 {
                     "category": "SKILL5: Innovation & Ownership",
                     "phrase": "high level of technical leadership"
-                },
-                {
-                    "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "make data-driven decisions"
                 },
                 {
                     "category": "SKILL2: Learning & Adaptability",

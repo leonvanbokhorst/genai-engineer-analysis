@@ -28,7 +28,7 @@
     "analysis": {
         "profile_classification": {
             "profile": "Ambiguous",
-            "rationale": "The job description focuses on data engineering tasks within a big data environment and mentions setting up system security, deploying on Kubernetes, and managing user access. While these involve technical skills, they are primarily in service of data accessibility for researchers and do not involve building or deploying predictive or generative AI models, nor developing user-facing applications powered by AI. The role seems to be a data engineering position supporting research rather than an AI engineering role."
+            "rationale": "The job description focuses on data engineering tasks within a research project, specifically setting up and managing a big data environment, deploying on Kubernetes, and onboarding datasets. While it involves data, it does not explicitly mention machine learning model development, generative AI, or advanced predictive modeling, which are core to ML Engineer and GenAI Engineer profiles. The role appears to be more focused on data infrastructure and accessibility for research rather than AI model creation or deployment."
         },
         "thematic_analysis": {
             "job_tasks": [
@@ -44,34 +44,42 @@
                 },
                 {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "The phrase 'Deploying the environment within the Kubernetes platform' indicates managing and deploying infrastructure, which falls under operations.",
-                    "phrase": "Deploying the environment within the Kubernetes platform"
-                },
-                {
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "The phrase 'Setting up system and data security within a bigdata environment' and 'Organizing and implementing efficient user access management' relate to securing and managing access to systems and data, which are operational concerns.",
+                    "justification": "The phrase 'Setting up system and data security within a bigdata environment' involves establishing secure operational practices for data infrastructure.",
                     "phrase": "Setting up system and data security within a bigdata environment"
                 },
                 {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "The phrase 'Organizing and implementing efficient user access management' relates to managing access and security within the operational environment.",
+                    "justification": "The phrase 'Deploying the environment within the Kubernetes platform' is a clear indicator of operational deployment and infrastructure management.",
+                    "phrase": "Deploying the environment within the Kubernetes platform"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The phrase 'Organizing and implementing efficient user access management' pertains to the operational control and security of the data environment.",
                     "phrase": "Organizing and implementing efficient user access management"
                 }
             ],
             "soft_skills": [
                 {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "project team of researchers"
+                },
+                {
                     "category": "SKILL2: Learning & Adaptability",
                     "phrase": "all-round data scientist"
                 },
                 {
-                    "category": "SKILL5: Innovation & Ownership",
-                    "phrase": "Postdoc Data engineer"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "collecting and analyzing data from companies"
                 }
             ],
             "technologies": [
                 {
                     "category": "TECH6: MLOps & Data Pipelines",
                     "phrase": "Kubernetes"
+                },
+                {
+                    "category": "TECH9: Data Storage",
+                    "phrase": "bigdata environment"
                 }
             ]
         }

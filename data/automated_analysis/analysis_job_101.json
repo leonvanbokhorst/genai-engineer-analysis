@@ -28,7 +28,7 @@
     "analysis": {
         "profile_classification": {
             "profile": "Ambiguous",
-            "rationale": "The job description focuses heavily on backend software engineering within a cloud-native, Kubernetes environment, and mentions LLM applications. However, it lacks specific details about the core generative AI tasks such as fine-tuning, prompt engineering, or building RAG systems, which are central to the GenAI Engineer profile. While it mentions LLM applications, the emphasis is on the backend infrastructure and integration rather than the direct development or adaptation of generative models. The role appears to be more of a traditional backend/cloud engineer supporting LLM applications rather than a specialist in generative AI model development or application."
+            "rationale": "The job description focuses heavily on backend cloud software engineering, Kubernetes, and distributed systems. While it mentions catering to LLM applications and streaming APIs, it lacks specific details about generative AI model development, fine-tuning, RAG systems, or advanced prompt engineering, which are core to the GenAI Engineer profile. It also doesn't emphasize predictive modeling or MLOps for traditional ML models, ruling out the ML Engineer profile. The role appears to be more of a traditional backend/cloud engineer supporting AI applications rather than directly developing AI models or GenAI systems."
         },
         "thematic_analysis": {
             "job_tasks": [
@@ -39,22 +39,22 @@
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "justification": "The role involves building and maintaining production-grade software systems, specifically a cloud platform for LLM applications.",
-                    "phrase": "designing and constructing an innovative, real-time cloud platform"
+                    "justification": "The role involves building and integrating systems within a cloud-native environment.",
+                    "phrase": "constructing an innovative, real-time cloud platform"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "justification": "The job involves implementing backend systems using infrastructure frameworks.",
-                    "phrase": "Implement robust backend systems using the selected infrastructure frameworks"
+                    "justification": "The description explicitly mentions implementing backend systems.",
+                    "phrase": "Implement robust backend systems"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "justification": "Collaboration with DevOps and front-end teams for integration points to software development and system integration responsibilities.",
+                    "justification": "Collaboration with other teams for integration is a key software development practice.",
                     "phrase": "Collaborate closely with DevOps and front-end teams to ensure seamless integration with backend systems"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "justification": "Driving test coverage, instrumentation, and documentation are standard software development practices.",
+                    "justification": "Ensuring test coverage, instrumentation, and documentation are standard software development practices for maintainability and quality.",
                     "phrase": "Drive comprehensive test coverage, instrumentation, and documentation"
                 },
                 {
@@ -64,8 +64,13 @@
                 },
                 {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "Working with 'cloud technologies such as streaming APIs, network protocols, and security best practices throughout the software stack' implies operational considerations for cloud infrastructure.",
-                    "phrase": "cloud technologies such as streaming APIs, network protocols, and security best practices"
+                    "justification": "Working with 'cloud technologies' and 'distributed systems' implies managing and operating them.",
+                    "phrase": "distributed systems"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The description mentions catering to 'modern LLM (Large Language Model) mission-critical applications', indicating an understanding or interaction with AI models, though not necessarily building them from scratch.",
+                    "phrase": "modern LLM (Large Language Model) mission-critical applications"
                 }
             ],
             "soft_skills": [
@@ -79,7 +84,7 @@
                 },
                 {
                     "category": "SKILL5: Innovation & Ownership",
-                    "phrase": "designing and constructing an innovative, real-time cloud platform"
+                    "phrase": "constructing an innovative, real-time cloud platform"
                 }
             ],
             "technologies": [

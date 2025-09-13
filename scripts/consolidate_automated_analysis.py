@@ -90,116 +90,126 @@ def consolidate(input_dir: Path) -> pd.DataFrame:
                 "soft_skills": [],
             }
 
-        thematic = analysis.get("thematic_analysis", {})
+        # Process thematic analysis for the tidy dataset
+        if "thematic_analysis" in analysis:
+            for category_type, items in analysis["thematic_analysis"].items():
+                if items:
+                    for item in items:
+                        tool_name = None
+                        if category_type == "technologies":
+                            tool_name = item.get("phrase")
 
-        # Job tasks
-        for item in thematic.get("job_tasks", []) or []:
-            # Handle nested structure (format 1)
-            if "task" in item and "evidence" in item:
-                category_name = item.get("task")
-                for evidence_item in item.get("evidence", []) or []:
-                    phrase = None
-                    justification = None
-                    if isinstance(evidence_item, dict):
-                        phrase = evidence_item.get("phrase")
-                        justification = evidence_item.get("justification")
-                    elif isinstance(evidence_item, str):
-                        phrase = evidence_item
+                        singular_category = category_type.rstrip("s")
+                        if singular_category == "technologie":
+                            singular_category = "technology"
 
-                    if phrase:
+                        tidy_row = {
+                            "job_id": job_id,
+                            "category_type": singular_category,
+                            "category_id": None,
+                            "category_name": item.get("category"),
+                            "phrase": item.get("phrase"),
+                            "tool_name": tool_name,
+                            "justification": item.get("justification"),
+                        }
+                        tidy_rows.append(tidy_row)
+
+        # Handle profile classification for the profiles dataset
+        if "profile_classification" in analysis:
+            # Initialize per-job aggregation structure
+            if job_id not in per_job:
+                per_job[job_id] = {
+                    "job_id": job_id,
+                    "profile": profile,
+                    "confidence": confidence,
+                    "rationale": rationale,
+                    "job_tasks": [],
+                    "technologies": [],
+                    "soft_skills": [],
+                }
+
+            # Technologies
+            for item in (
+                analysis["profile_classification"].get("technologies", []) or []
+            ):
+                # Handle nested structure (format 1)
+                if "tech" in item and "items" in item:
+                    category_name = item.get("tech")
+                    for tool in item.get("items", []) or []:
                         tidy_rows.append(
                             {
                                 "job_id": job_id,
-                                "category_type": "job_task",
+                                "category_type": "technology",
                                 "category_id": None,
                                 "category_name": category_name,
-                                "phrase": phrase,
-                                "tool_name": None,
-                                "justification": justification,
+                                "phrase": None,
+                                "tool_name": tool,
+                                "justification": None,
                             }
                         )
-                per_job[job_id]["job_tasks"].append(item)
-            # Handle flat structure (format 2)
-            elif "category" in item:
-                tidy_rows.append(
-                    {
-                        "job_id": job_id,
-                        "category_type": "job_task",
-                        "category_id": None,
-                        "category_name": item.get("category"),
-                        "phrase": item.get("phrase"),
-                        "tool_name": None,
-                        "justification": item.get("justification"),
-                    }
-                )
-                per_job[job_id]["job_tasks"].append(item)
-            # Handle task_category structure (format 3)
-            elif "task_category" in item:
-                category_name = item.get("task_category")
-                for phrase in item.get("phrases", []):
-                    tidy_rows.append(
-                        {
-                            "job_id": job_id,
-                            "category_type": "job_task",  # Or derive from category name
-                            "category_id": None,
-                            "category_name": category_name,
-                            "phrase": phrase,
-                            "tool_name": None,
-                            "justification": item.get("justification"),
-                        }
-                    )
-                per_job[job_id]["job_tasks"].append(item)
-
-        # Technologies
-        for item in thematic.get("technologies", []) or []:
-            # Handle nested structure (format 1)
-            if "tech" in item and "items" in item:
-                category_name = item.get("tech")
-                for tool in item.get("items", []) or []:
+                    per_job[job_id]["technologies"].append(item)
+                # Handle flat structure (format 2 & 3)
+                else:
                     tidy_rows.append(
                         {
                             "job_id": job_id,
                             "category_type": "technology",
                             "category_id": None,
-                            "category_name": category_name,
+                            "category_name": item.get("category"),
                             "phrase": None,
-                            "tool_name": tool,
-                            "justification": None,
+                            "tool_name": item.get(
+                                "technology"
+                            ),  # Format 3 has 'technology'
+                            "justification": item.get("justification"),
                         }
                     )
-                per_job[job_id]["technologies"].append(item)
-            # Handle flat structure (format 2 & 3)
-            else:
-                tidy_rows.append(
-                    {
-                        "job_id": job_id,
-                        "category_type": "technology",
-                        "category_id": None,
-                        "category_name": item.get("category"),
-                        "phrase": None,
-                        "tool_name": item.get(
-                            "technology"
-                        ),  # Format 3 has 'technology'
-                        "justification": item.get("justification"),
-                    }
-                )
-                per_job[job_id]["technologies"].append(item)
+                    per_job[job_id]["technologies"].append(item)
 
-        # Soft skills
-        for item in thematic.get("soft_skills", []) or []:
-            # Handle nested structure (format 1)
-            if "skill" in item and "evidence" in item:
-                category_name = item.get("skill")
-                for evidence_item in item.get("evidence", []) or []:
-                    phrase = None
-                    justification = None
-                    if isinstance(evidence_item, dict):
-                        phrase = evidence_item.get("phrase")
-                        justification = evidence_item.get("justification")
-                    elif isinstance(evidence_item, str):
-                        phrase = evidence_item
+            # Soft skills
+            for item in analysis["profile_classification"].get("soft_skills", []) or []:
+                # Handle nested structure (format 1)
+                if "skill" in item and "evidence" in item:
+                    category_name = item.get("skill")
+                    for evidence_item in item.get("evidence", []) or []:
+                        phrase = None
+                        justification = None
+                        if isinstance(evidence_item, dict):
+                            phrase = evidence_item.get("phrase")
+                            justification = evidence_item.get("justification")
+                        elif isinstance(evidence_item, str):
+                            phrase = evidence_item
 
-                    if phrase:
+                        if phrase:
+                            tidy_rows.append(
+                                {
+                                    "job_id": job_id,
+                                    "category_type": "soft_skill",
+                                    "category_id": None,
+                                    "category_name": category_name,
+                                    "phrase": phrase,
+                                    "tool_name": None,
+                                    "justification": justification,
+                                }
+                            )
+                    per_job[job_id]["soft_skills"].append(item)
+                # Handle flat structure (format 2)
+                elif "category" in item:
+                    tidy_rows.append(
+                        {
+                            "job_id": job_id,
+                            "category_type": "soft_skill",
+                            "category_id": None,
+                            "category_name": item.get("category"),
+                            "phrase": item.get("phrase"),
+                            "tool_name": None,
+                            "justification": item.get("justification"),
+                        }
+                    )
+                    per_job[job_id]["soft_skills"].append(item)
+                # Handle skill_category structure (format 3)
+                elif "skill_category" in item:
+                    category_name = item.get("skill_category")
+                    for phrase in item.get("phrases", []):
                         tidy_rows.append(
                             {
                                 "job_id": job_id,
@@ -208,40 +218,10 @@ def consolidate(input_dir: Path) -> pd.DataFrame:
                                 "category_name": category_name,
                                 "phrase": phrase,
                                 "tool_name": None,
-                                "justification": justification,
+                                "justification": None,  # Justification is outside phrases list
                             }
                         )
-                per_job[job_id]["soft_skills"].append(item)
-            # Handle flat structure (format 2)
-            elif "category" in item:
-                tidy_rows.append(
-                    {
-                        "job_id": job_id,
-                        "category_type": "soft_skill",
-                        "category_id": None,
-                        "category_name": item.get("category"),
-                        "phrase": item.get("phrase"),
-                        "tool_name": None,
-                        "justification": item.get("justification"),
-                    }
-                )
-                per_job[job_id]["soft_skills"].append(item)
-            # Handle skill_category structure (format 3)
-            elif "skill_category" in item:
-                category_name = item.get("skill_category")
-                for phrase in item.get("phrases", []):
-                    tidy_rows.append(
-                        {
-                            "job_id": job_id,
-                            "category_type": "soft_skill",
-                            "category_id": None,
-                            "category_name": category_name,
-                            "phrase": phrase,
-                            "tool_name": None,
-                            "justification": None,  # Justification is outside phrases list
-                        }
-                    )
-                per_job[job_id]["soft_skills"].append(item)
+                    per_job[job_id]["soft_skills"].append(item)
 
     # Flatten the collected data into a DataFrame
     tidy_df_rows = []

@@ -28,58 +28,138 @@
     "analysis": {
         "profile_classification": {
             "profile": "Ambiguous",
-            "rationale": "The job description focuses heavily on traditional software engineering, growth acquisition, and business impact. While it mentions an interest in generative AI and data analysis skills, these are not the primary focus or core responsibilities. The role is described as a Staff Software Engineer with a hands-on, full-stack approach, rather than a specialized AI/ML role. The core tasks involve building APIs, tools for signup/integrations/partnerships, writing production code, and implementing experiments, which align more with general software engineering and product development than specialized ML or GenAI engineering."
+            "rationale": "The job description focuses heavily on traditional software engineering, growth acquisition, and business impact. While it mentions an interest in generative AI and data analysis, these are not the primary focus or core responsibilities. The role emphasizes full-stack development, API building, and user experience improvement within a business context, rather than the specialized development, fine-tuning, or deployment of generative models that define a GenAI Engineer, or the predictive modeling and MLOps focus of an ML Engineer. The role is more aligned with a senior software engineer role that *uses* or *integrates* AI, rather than building AI systems from the ground up."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
                     "category": "TASK1: Business Understanding",
-                    "justification": "The role is within the 'Growth Product Group' and focuses on 'acquisition, onboarding, retention, and monetisation across the entire HubSpot product platform.' The engineer will 'help high-value users to find and start their journey with HubSpot,' 'support Acquisition, Distribution and Affiliations initiatives,' and 'envision, build and analyze new features and tools, each contributing to company growth and revenue.' The description also states the candidate will 'get exposure to how HubSpot works as a business' and have 'a strong focus on the business and our go-to-market strategies.'",
-                    "phrase": "contributing to company growth and revenue"
+                    "justification": "The role is within the 'Growth Product Group' and focuses on 'acquisition, onboarding, retention, and monetisation' to help businesses grow. It explicitly mentions aligning technical solutions with company growth and revenue, and getting exposure to how HubSpot works as a business.",
+                    "phrase": "align technical solutions with strategic goals"
                 },
                 {
                     "category": "TASK1: Business Understanding",
-                    "justification": "The engineer will 'help millions of organisations around the world grow by empowering people to discover, adopt, and buy HubSpot's products the way they want to.' This highlights a deep understanding of business goals and customer needs.",
+                    "justification": "The role is focused on 'acquisition' and motivating potential customers, ensuring a 'frictionless and conversational journey from discovery to team usage, which demonstrates the value and matches their business objective'.",
+                    "phrase": "acquisition, onboarding, retention, and monetisation across the entire HubSpot product platform"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role aims to 'help millions of organisations around the world grow by empowering people to discover, adopt, and buy HubSpot's products'.",
                     "phrase": "help millions of organisations around the world grow"
                 },
                 {
                     "category": "TASK1: Business Understanding",
-                    "justification": "The role aims to 'motivate and reassure potential customers that HubSpot is the right choice for them,' indicating a focus on understanding customer decision-making processes and business objectives.",
-                    "phrase": "motivate and reassure potential customers that HubSpot is the right choice for them"
+                    "justification": "The role is focused on 'acquisition' and motivating potential customers, ensuring a 'frictionless and conversational journey from discovery to team usage, which demonstrates the value and matches their business objective'.",
+                    "phrase": "acquisition"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role aims to 'help millions of organisations around the world grow by empowering people to discover, adopt, and buy HubSpot's products'.",
+                    "phrase": "company growth and revenue"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role is focused on 'acquisition' and motivating potential customers, ensuring a 'frictionless and conversational journey from discovery to team usage, which demonstrates the value and matches their business objective'.",
+                    "phrase": "demonstrates the value and matches their business objective"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role is focused on 'acquisition' and motivating potential customers, ensuring a 'frictionless and conversational journey from discovery to team usage, which demonstrates the value and matches their business objective'.",
+                    "phrase": "frictionless and conversational journey"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role is focused on 'acquisition' and motivating potential customers, ensuring a 'frictionless and conversational journey from discovery to team usage, which demonstrates the value and matches their business objective'.",
+                    "phrase": "help high-value users to find and start their journey with HubSpot"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role is focused on 'acquisition' and motivating potential customers, ensuring a 'frictionless and conversational journey from discovery to team usage, which demonstrates the value and matches their business objective'.",
+                    "phrase": "help HubSpot users meet their goals"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role is focused on 'acquisition' and motivating potential customers, ensuring a 'frictionless and conversational journey from discovery to team usage, which demonstrates the value and matches their business objective'.",
+                    "phrase": "go-to-market strategies"
                 },
                 {
                     "category": "TASK2: Data Engineering",
-                    "justification": "The role involves implementing experiments and analyzing user behavior to improve their experience, which requires data analysis skills. It also mentions collaborating with ops and analytics teams and diving into data analysis tools.",
+                    "justification": "The role involves implementing experiments and analyzing user behavior to improve their experience, which requires data collection and processing.",
                     "phrase": "Implement experiments that give us valuable insights into user behavior"
                 },
                 {
                     "category": "TASK2: Data Engineering",
-                    "justification": "The description explicitly mentions developing data analysis skills and using tools like Amplitude, Looker, and Excel.",
-                    "phrase": "develop data analysis skills. You're not afraid to dive into Amplitude, Looker, Excel, or other data analysis tools"
+                    "justification": "The role requires developing data analysis skills and using tools like Amplitude and Looker, implying data processing and feature engineering for insights.",
+                    "phrase": "data analysis skills"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The role requires developing data analysis skills and using tools like Amplitude and Looker, implying data processing and feature engineering for insights.",
+                    "phrase": "dive into Amplitude, Looker, Excel, or other data analysis tools"
                 },
                 {
                     "category": "TASK3: Modeling",
-                    "justification": "While not the primary focus, the job description expresses an interest in generative AI and how it can be applied to improving user experience, suggesting potential involvement in modeling or leveraging existing models.",
-                    "phrase": "an interest in generative AI and how it can be applied to improving user experience"
+                    "justification": "The role mentions an interest in 'generative AI and how it can be applied to improving user experience', indicating a potential for modeling, though not as a primary focus.",
+                    "phrase": "interest in generative AI and how it can be applied to improving user experience"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The role mentions an interest in 'generative AI and how it can be applied to improving user experience', indicating a potential for modeling, though not as a primary focus.",
+                    "phrase": "generative AI"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "justification": "The role involves being 'highly productive, impactful, and trusted engineers who leverage their skills and knowledge to work autonomously on the most complex projects and set technical direction.' It also mentions writing and shipping production code and working full stack.",
+                    "justification": "The role is for a 'Staff Software Engineer' and involves writing and shipping production code, building APIs and tools, and working full stack.",
                     "phrase": "Write and ship production code"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "justification": "The engineer will 'Support Acquisition, Distribution and Affiliations initiatives, building APIs and tools that will help Signup, Integrations and Partnerships.' This is a direct indication of software development for application integration and functionality.",
-                    "phrase": "building APIs and tools that will help Signup, Integrations and Partnerships"
+                    "justification": "The role is for a 'Staff Software Engineer' and involves writing and shipping production code, building APIs and tools, and working full stack.",
+                    "phrase": "building APIs and tools"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "justification": "The role requires working 'full stack, across a broad set of technologies,' indicating comprehensive software development responsibilities.",
-                    "phrase": "working full stack, across a broad set of technologies"
+                    "justification": "The role is for a 'Staff Software Engineer' and involves writing and shipping production code, building APIs and tools, and working full stack.",
+                    "phrase": "work autonomously on the most complex projects"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role is for a 'Staff Software Engineer' and involves writing and shipping production code, building APIs and tools, and working full stack.",
+                    "phrase": "work full stack, across a broad set of technologies"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role is for a 'Staff Software Engineer' and involves writing and shipping production code, building APIs and tools, and working full stack.",
+                    "phrase": "building backend services"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role is for a 'Staff Software Engineer' and involves writing and shipping production code, building APIs and tools, and working full stack.",
+                    "phrase": "Envision, build and analyze new features and tools"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role is for a 'Staff Software Engineer' and involves writing and shipping production code, building APIs and tools, and working full stack.",
+                    "phrase": "set technical direction"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role is for a 'Staff Software Engineer' and involves writing and shipping production code, building APIs and tools, and working full stack.",
+                    "phrase": "strong programming fundamentals"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The role is for a 'Staff Software Engineer' and involves writing and shipping production code, building APIs and tools, and working full stack.",
+                    "phrase": "building user-facing software systems"
                 },
                 {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "The role emphasizes implementing experiments and A/B tests, which involves setting up and managing these processes to gather insights, aligning with operational aspects of product development and testing.",
+                    "justification": "The role involves implementing experiments and analyzing user behavior to improve their experience, which requires monitoring and iterating on features, akin to MLOps principles for experimentation.",
+                    "phrase": "Implement experiments that give us valuable insights into user behavior and how to improve their experience"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The role involves implementing experiments and analyzing user behavior to improve their experience, which requires monitoring and iterating on features, akin to MLOps principles for experimentation.",
                     "phrase": "master of the experimentation process and A/B tests"
                 }
             ],
@@ -97,16 +177,28 @@
                     "phrase": "You are willing to be challenged by solving complex cross-team problem & opportunities"
                 },
                 {
-                    "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "You enjoy problem solving"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "You have an interest in generative AI and how it can be applied to improving user experience"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "You have or are interested in developing data analysis skills"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "You are interested in becoming a master of the experimentation process and A/B tests"
                 },
                 {
                     "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "solving complex cross-team problem & opportunities"
+                    "phrase": "You enjoy problem solving and working full stack"
                 },
                 {
                     "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "Very complex problems can include those that are very broad, very deep, or problems that require spanning across many teams."
+                    "phrase": "You are willing to be challenged by solving complex cross-team problem & opportunities"
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "You not only get excited about big, technical challenges but also about being very close to the business"
                 },
                 {
                     "category": "SKILL5: Innovation & Ownership",
@@ -114,11 +206,15 @@
                 },
                 {
                     "category": "SKILL5: Innovation & Ownership",
-                    "phrase": "We are looking for engineers who also have a track record of unique excellence, leadership, and levelling up those around them."
+                    "phrase": "We're not just looking for engineers with many years of experience. Instead we're looking for engineers who also have a track record of unique excellence, leadership, and levelling up those around them."
                 },
                 {
                     "category": "SKILL5: Innovation & Ownership",
                     "phrase": "We are looking for someone with demonstrated leadership capability."
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "helping set the direction of the group"
                 }
             ],
             "technologies": [
@@ -128,11 +224,11 @@
                 },
                 {
                     "category": "TECH1: Programming Languages",
-                    "phrase": "React"
+                    "phrase": "Java"
                 },
                 {
                     "category": "TECH1: Programming Languages",
-                    "phrase": "Java"
+                    "phrase": "React"
                 },
                 {
                     "category": "TECH2: Cloud Platforms & Services",
@@ -145,6 +241,10 @@
                 {
                     "category": "TECH3: LLM / Generative Models",
                     "phrase": "generative AI"
+                },
+                {
+                    "category": "TECH11: Data Analysis",
+                    "phrase": "data analysis skills"
                 }
             ]
         }

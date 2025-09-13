@@ -27,55 +27,50 @@
     },
     "analysis": {
         "profile_classification": {
-            "profile": "Ambiguous",
-            "rationale": "The job description focuses heavily on providing technical solutions and consulting for issues related to Databricks, Spark, and related data/AI technologies. While it mentions AI and ML, the core responsibilities revolve around troubleshooting, code-level analysis, and guiding customers on existing platforms and features rather than designing, building, or fine-tuning novel AI models or generative AI applications. The emphasis is on supporting customer use cases and resolving reported issues within a specific platform, which aligns more with a technical solutions or support role than a dedicated ML or GenAI Engineering role. The mention of 'Generative AI Fundamentals' and 'Scaling AI' in the preamble seems to be marketing content rather than core job requirements."
+            "profile": "ML Engineer",
+            "rationale": "The job description heavily emphasizes providing technical and consulting solutions for issues related to Spark, ML, AI, Delta, Streaming, and the Databricks platform. It involves deep code-level analysis of Spark internals, performance tuning, and assisting customers with data science and data integration challenges within the Spark ecosystem. While Generative AI is mentioned, the core focus is on the broader Spark/ML/AI platform, data engineering, and productionizing solutions, aligning more closely with the responsibilities of an ML Engineer who deals with data-driven predictive models and MLOps within a platform context, rather than a GenAI Engineer focused on LLMs and generative applications."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "category": "TASK1: Business Understanding",
-                    "justification": "The role involves assisting customers in their 'Databricks journey' and providing guidance to 'accomplish value and achieve their strategic goals using our products,' which requires understanding business objectives.",
-                    "phrase": "achieve their strategic goals using our products"
-                },
-                {
-                    "category": "TASK1: Business Understanding",
-                    "justification": "The role requires understanding customer needs to provide technical and consulting solutions.",
-                    "phrase": "provide technical and consulting related solutions"
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The role involves assisting customers in setting up reproducible Spark problems with solutions in areas like Spark SQL, Delta, Memory Management, Performance tuning, Streaming, Data Science, and Data Integration, which are core to data engineering and pipeline management.",
+                    "phrase": "Assist the customers in setting up reproducible Spark problems with solutions in the areas of Spark SQL, Delta, Memory Management, Performance tuning, Streaming, Data Science and Data Integration areas in Spark."
                 },
                 {
                     "category": "TASK2: Data Engineering",
-                    "justification": "The role involves troubleshooting and resolving issues related to Delta Lake and Lakehouse architecture, which are core components of data engineering.",
-                    "phrase": "Delta, Lakehouse"
-                },
-                {
-                    "category": "TASK2: Data Engineering",
-                    "justification": "The role requires assisting customers in setting up reproducible Spark problems related to data integration, a key aspect of data engineering.",
-                    "phrase": "Data Integration areas in Spark"
+                    "justification": "The role requires troubleshooting and resolving issues related to Spark core internals, Spark SQL, Structured Streaming, Delta, Lakehouse, and other Databricks runtime features, which are all components of a data platform.",
+                    "phrase": "Troubleshoot, resolve and suggest deep code-level analysis of Spark to address customer issues related to Spark core internals, Spark SQL, Structured Streaming, Delta, Lakehouse and other Databricks runtime features."
                 },
                 {
                     "category": "TASK3: Modeling",
-                    "justification": "The job involves resolving issues related to Spark's Data Science capabilities, which includes aspects of model development and application.",
-                    "phrase": "Data Science ... areas in Spark"
+                    "justification": "The job description mentions 'ML/AI' in the context of reported issues and customer journeys, indicating involvement with machine learning and artificial intelligence models, even if the primary focus is on the platform supporting them.",
+                    "phrase": "provide technical and consulting related solutions for the challenging Spark/ML/AI/Delta/Streaming/Lakehouse reported issues"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "justification": "The role requires deep code-level analysis of Spark to address customer issues, implying a need for strong software development and debugging skills within the Spark ecosystem.",
-                    "phrase": "deep code-level analysis of Spark"
+                    "justification": "The role involves providing best practices guidance for custom-built solutions developed by Databricks customers, which implies understanding and advising on the software development aspects of their AI/ML implementations.",
+                    "phrase": "Provide best practices guidance for custom-built solutions developed by Databricks customers."
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "justification": "The role involves assisting customers in setting up reproducible Spark problems with solutions, indicating a need to develop and test code.",
-                    "phrase": "setting up reproducible Spark problems with solutions"
+                    "justification": "The role requires deep code-level analysis and suggesting solutions for customer issues, which involves understanding and potentially modifying code related to Spark and its components.",
+                    "phrase": "suggest deep code-level analysis of Spark to address customer issues"
                 },
                 {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "The role requires troubleshooting and resolving issues related to Spark core internals, Spark SQL, Structured Streaming, and performance tuning, which are operational aspects of maintaining and optimizing data processing systems.",
-                    "phrase": "Spark core internals, Spark SQL, Structured Streaming, Memory Management, Performance tuning"
+                    "justification": "The role involves troubleshooting and resolving issues on the Databricks unified analytics platform, which is a production environment for data and AI workloads, and coordinating with Engineering and Backline Support to report product defects, aligning with operational aspects of maintaining such a platform.",
+                    "phrase": "resolve any challenges involving the Databricks unified analytics platform"
                 },
                 {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "The role involves coordinating with Engineering and Backline Support to report product defects, a key part of operational feedback and improvement.",
-                    "phrase": "report Product defects"
+                    "justification": "The role includes participating in on-call rotations, which is a common responsibility in operations engineering to ensure the continuous availability and performance of systems.",
+                    "phrase": "Participate in weekend (infrequent) and weekday (normal business hrs) on-call rotation."
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "The role aims to assist customers in their Databricks journey and provide guidance to help them achieve value and strategic goals using the products, indicating a need to understand customer business objectives.",
+                    "phrase": "provide them with the guidance and expertise that they need to accomplish value and achieve their strategic goals using our products."
                 }
             ],
             "soft_skills": [
@@ -85,15 +80,7 @@
                 },
                 {
                     "category": "SKILL1: Communication & Collaboration",
-                    "phrase": "Work with Account Executives, Solutions Architects and Professional Services"
-                },
-                {
-                    "category": "SKILL1: Communication & Collaboration",
-                    "phrase": "Coordinate with Engineering and Backline Support teams"
-                },
-                {
-                    "category": "SKILL2: Learning & Adaptability",
-                    "phrase": "provide them with the guidance and expertise that they need"
+                    "phrase": "Work with Account Executives, Solutions Architects and Professional Services for coordinating customer issues"
                 },
                 {
                     "category": "SKILL3: Problem Solving & Pragmatism",
@@ -105,7 +92,11 @@
                 },
                 {
                     "category": "SKILL5: Innovation & Ownership",
-                    "phrase": "Provide best practices guidance for custom-built solutions"
+                    "phrase": "Provide best practices guidance"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "assist our customers in their Databricks journey"
                 }
             ],
             "technologies": [
@@ -114,23 +105,31 @@
                     "phrase": "Spark"
                 },
                 {
-                    "category": "TECH2: Cloud Platforms & Services",
-                    "phrase": "Databricks"
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "ML"
                 },
                 {
                     "category": "TECH3: LLM / Generative Models",
                     "phrase": "AI"
                 },
                 {
-                    "category": "TECH4: LLM Frameworks & Libraries",
-                    "phrase": "ML"
+                    "category": "TECH10: Data Modeling",
+                    "phrase": "Delta"
                 },
                 {
-                    "category": "TECH6: MLOps & Data Pipelines",
+                    "category": "TECH10: Data Modeling",
                     "phrase": "Streaming"
                 },
                 {
                     "category": "TECH10: Data Modeling",
+                    "phrase": "Lakehouse"
+                },
+                {
+                    "category": "TECH2: Cloud Platforms & Services",
+                    "phrase": "Databricks"
+                },
+                {
+                    "category": "TECH11: Data Analysis",
                     "phrase": "Spark SQL"
                 }
             ]

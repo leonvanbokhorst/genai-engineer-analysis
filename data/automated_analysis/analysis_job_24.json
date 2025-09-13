@@ -28,7 +28,7 @@
     "analysis": {
         "profile_classification": {
             "profile": "Ambiguous",
-            "rationale": "The job description focuses heavily on data analysis, data engineering, and the application of LLMs for marketing tasks, but it lacks the depth in model development, productionization, and core software engineering typically associated with an ML Engineer or GenAI Engineer. The emphasis is on using AI tools for marketing insights and optimization rather than building foundational AI systems. The role is more about leveraging AI for business intelligence and marketing effectiveness, which aligns with the 'Ambiguous' category's definition of primarily focusing on the use of AI tools to enhance productivity."
+            "rationale": "The job description focuses heavily on data analysis, data engineering, and the application of LLMs for marketing tasks, but lacks the core software development and MLOps components typically associated with a GenAI Engineer. While prompt engineering and LLM usage are mentioned, the primary emphasis is on data integration, transformation, and analysis for marketing insights, aligning more with a data analyst role that leverages AI tools rather than a role focused on building and deploying generative AI systems. The role does not fit the core responsibilities or evidence profile of an ML Engineer or GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
@@ -39,13 +39,13 @@
                 },
                 {
                     "category": "TASK2: Data Engineering",
-                    "justification": "The phrases 'Clean, pre-process, transform raw data into a structured format suitable for analysis' and 'Ensure data accuracy, consistency, and integrity by implementing data quality checks and validation processes' describe essential data preprocessing and quality assurance steps in data engineering.",
+                    "justification": "The description 'Clean, pre-process, transform raw data into a structured format suitable for analysis. Ensure data accuracy, consistency, and integrity by implementing data quality checks and validation processes' details data cleaning, preprocessing, and quality assurance, which are key data engineering tasks.",
                     "phrase": "Clean, pre-process, transform raw data into a structured format suitable for analysis. Ensure data accuracy, consistency, and integrity by implementing data quality checks and validation processes"
                 },
                 {
                     "category": "TASK3: Modeling",
-                    "justification": "The phrase 'Develop, run, and optimize LLM models (applications) to process vast amounts of text data to solve marketing-related tasks such as data extraction, customer profiling, marketing signal detection' indicates the use and optimization of LLMs for specific tasks, which falls under modeling, albeit with a focus on application rather than foundational model building.",
-                    "phrase": "Develop, run, and optimize LLM models (applications) to process vast amounts of text data"
+                    "justification": "The phrase 'Develop, run, and optimize LLM models (applications) to process vast amounts of text data to solve marketing-related tasks such as data extraction, customer profiling, marketing signal detection' indicates the use and optimization of LLM models for specific tasks, which falls under modeling.",
+                    "phrase": "Develop, run, and optimize LLM models (applications) to process vast amounts of text data to solve marketing-related tasks such as data extraction, customer profiling, marketing signal detection"
                 },
                 {
                     "category": "TASK1: Business Understanding",
@@ -54,12 +54,17 @@
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "justification": "While not explicitly building user-facing applications, the phrase 'Develop, run, and optimize LLM models (applications)' suggests some level of software development to integrate and manage these models for specific marketing tasks.",
-                    "phrase": "Develop, run, and optimize LLM models (applications)"
+                    "justification": "While not explicitly building user-facing applications, the mention of 'LLM models (applications)' and optimizing them for tasks implies some level of software development to integrate and run these models.",
+                    "phrase": "LLM models (applications)"
                 },
                 {
-                    "category": "TASK1: Business Understanding",
-                    "justification": "The phrase 'Implement data governance practices to maintain data privacy and compliance with relevant regulations' shows an understanding of business and regulatory context.",
+                    "category": "TASK4: Software Development",
+                    "justification": "The phrase 'data extraction, customer profiling, marketing signal detection' describes specific applications or functionalities that would require software development to implement.",
+                    "phrase": "data extraction, customer profiling, marketing signal detection"
+                },
+                {
+                    "category": "TASK2: Data Engineering",
+                    "justification": "The phrase 'Implement data governance practices to maintain data privacy and compliance with relevant regulations' involves managing data infrastructure and policies, which is related to data engineering and data management.",
                     "phrase": "Implement data governance practices to maintain data privacy and compliance with relevant regulations"
                 }
             ],
@@ -75,20 +80,12 @@
                 {
                     "category": "SKILL4: Ethical & Legal Responsibility",
                     "phrase": "maintain data privacy and compliance with relevant regulations"
-                },
-                {
-                    "category": "SKILL2: Learning & Adaptability",
-                    "phrase": "optimize LLM models (applications)"
                 }
             ],
             "technologies": [
                 {
                     "category": "TECH3: LLM / Generative Models",
                     "phrase": "LLM models"
-                },
-                {
-                    "category": "TECH4: LLM Frameworks & Libraries",
-                    "phrase": "Prompt engineering"
                 }
             ]
         }

@@ -28,29 +28,34 @@
     "analysis": {
         "profile_classification": {
             "profile": "Ambiguous",
-            "rationale": "The job description focuses on a Senior Front-End Engineer role, emphasizing the development of user interfaces for a conversational search product that leverages generative AI. However, the core responsibilities and required skills are primarily centered around front-end development, not the core engineering of AI models or complex AI systems. While the product uses AI, the role itself is not an AI engineering role as defined by the coding book. It lacks the depth in data engineering, modeling, or MLOps that would classify it as an ML Engineer or GenAI Engineer."
+            "rationale": "The job description focuses on a Senior Front-End Engineer role, emphasizing the development of user-facing interfaces for a conversational search product. While it mentions the use of generative AI and LLMs as underlying technologies, the core responsibilities and required skills are centered around front-end development, not the design, training, or deep integration of AI models themselves. The role is primarily about building the user experience around AI, rather than building the AI systems. Therefore, it does not fit the core definitions of ML Engineer or GenAI Engineer, which require a deeper focus on model development, MLOps, or AI system architecture."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
                     "category": "TASK4",
-                    "justification": "The primary responsibility is to 'develop the frontend of a completely new product: Conversational Search', which is a core software development task for user-facing applications.",
+                    "justification": "The role explicitly states 'develop the frontend of a completely new product: Conversational Search' and 'help our users find the goods on our websites easier', which are core software development activities focused on user-facing applications.",
                     "phrase": "develop the frontend of a completely new product: Conversational Search"
                 },
                 {
+                    "category": "TASK4",
+                    "justification": "The description mentions building the user experience for a product that 'leverages technologies like generative AI and Large Language Models (LLMs)', indicating the integration of AI features into a software product.",
+                    "phrase": "build the frontend of a completely new product"
+                },
+                {
                     "category": "TASK1",
-                    "justification": "The team's mission is to 'improve the buying experience by understanding our users and surfacing inspirational content', which aligns with understanding business goals and user needs.",
+                    "justification": "The team's mission is 'to allow our marketplaces to improve the buying experience by understanding our users and surfacing inspirational content', which directly relates to understanding business goals and user needs to drive technical solutions.",
                     "phrase": "improve the buying experience by understanding our users and surfacing inspirational content"
                 }
             ],
             "soft_skills": [
                 {
-                    "category": "SKILL2",
-                    "phrase": "change the way our users interact with our websites completely"
+                    "category": "SKILL1",
+                    "phrase": "understanding our users"
                 },
                 {
                     "category": "SKILL5",
-                    "phrase": "completely new product"
+                    "phrase": "Senior Front-End Engineer"
                 }
             ],
             "technologies": [

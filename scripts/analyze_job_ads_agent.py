@@ -57,7 +57,6 @@ GENERATION_CONFIG = {
     "temperature": 0.2,  # 0.1 = low diversity, 1 = high diversity
     "top_p": 1,  # 1 = no diversity, 0 = full diversity # default is 1
     "top_k": 1,  # 1 = no diversity, 0 = full diversity # default is 1
-    "seed": 42,
     "max_output_tokens": 8192,
     "response_mime_type": "application/json",
     "response_schema": Analysis,

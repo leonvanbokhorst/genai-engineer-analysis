@@ -28,64 +28,39 @@
     "analysis": {
         "profile_classification": {
             "profile": "Ambiguous",
-            "rationale": "The job description focuses heavily on traditional systems engineering, infrastructure management (Linux, servers, networks, datacenters), and cloud operations (AWS, Terraform, EC2, VPC, EKS, S3, EFS). While it mentions a 'DevOps mindset' and 'automation tooling', there is no mention of AI, machine learning, generative models, LLMs, or related technologies. The core responsibilities are centered around infrastructure reliability, scalability, and cost optimization, which are characteristic of a Systems Engineer or DevOps Engineer role, not an ML Engineer or GenAI Engineer. Therefore, it falls under the 'Ambiguous' category as it is not an AI-specific technical role."
+            "rationale": "The job description focuses on traditional systems engineering, infrastructure management, and cloud operations (AWS, Linux, Terraform, EKS, EC2, VPC, S3, EFS). While it mentions a 'DevOps mindset' and 'automation tooling', it does not involve the development, fine-tuning, or deployment of AI/ML models, nor does it focus on generative AI technologies. The core responsibilities are centered around maintaining and improving IT infrastructure rather than building AI-powered applications or models, making it a non-AI technical role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "The description emphasizes achieving high uptime (>99.99%), managing and improving automation tooling, participating in on-call rotations, and providing flexible infrastructure, which are all core aspects of operations engineering and MLOps, albeit in a broader infrastructure context.",
-                    "phrase": "Achieve uptime >99.99%"
-                },
-                {
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "Managing and improving automation tooling is a key responsibility in operations engineering to ensure efficiency and reliability.",
+                    "justification": "The description emphasizes managing and improving automation tooling, participating in on-call rotations, ensuring high availability and fault tolerance, and working with a DevOps mindset to provide flexible infrastructure. These are core aspects of operations engineering, even if not specifically AI-focused MLOps.",
                     "phrase": "Operate and improve our automation tooling"
                 },
                 {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "Participating in a 24/7 on-call rotation is a standard duty for operations and SRE roles responsible for maintaining system availability.",
-                    "phrase": "Participate in 24/7 on-call rotation schedule"
-                },
-                {
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "The phrase 'DevOps mindset' directly relates to the principles and practices of operations engineering, focusing on collaboration and efficiency between development and operations.",
-                    "phrase": "Work with a DevOps mindset"
-                },
-                {
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "Managing and supporting cloud infrastructure, including design, deployment, monitoring, and maintenance for high availability and fault tolerance, falls under operations engineering.",
+                    "justification": "Managing and supporting cloud infrastructure, including design, deployment, optimization, monitoring, and maintenance of high availability and fault tolerance, aligns with operations engineering principles, particularly in a cloud context.",
                     "phrase": "Manage & Support our Cloud Infrastructure"
                 },
                 {
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "Deploying infrastructure using Terraform is a core practice in infrastructure as code and operations engineering.",
-                    "phrase": "deploy (via Terraform)"
-                },
-                {
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "Monitoring and maintaining high availability and fault tolerance are critical aspects of operations engineering to ensure system reliability.",
-                    "phrase": "Monitor and maintain high availability and fault tolerance of cloud services"
-                },
-                {
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "Ensuring compliance with security best practices and industry standards is a key responsibility in maintaining secure and reliable infrastructure operations.",
-                    "phrase": "Ensure compliance with security best practices and industry standards"
-                },
-                {
                     "category": "TASK4: Software Development",
-                    "justification": "While the primary focus is infrastructure, the design and deployment of cloud infrastructure components can involve software development principles, especially in defining and managing infrastructure as code.",
-                    "phrase": "Design, deploy (via Terraform), and manage AWS cloud infrastructure components"
+                    "justification": "Designing, deploying (via Terraform), and managing cloud infrastructure components like EC2, VPC, EKS, S3, EFS are software development tasks related to infrastructure as code and cloud service management.",
+                    "phrase": "Design, deploy (via Terraform), and manage AWS cloud infrastructure components (EC2 instances, VPC, EKS, S3, EFS, etc.)"
                 },
                 {
                     "category": "TASK1: Business Understanding",
-                    "justification": "Understanding a complex technical architecture with a high degree of customisation is crucial for aligning infrastructure decisions with business needs and ensuring effective support.",
+                    "justification": "The goal of achieving high uptime (>99.99%) and providing flexible infrastructure to the rest of the company demonstrates an understanding of business needs and how infrastructure supports them.",
+                    "phrase": "Achieve uptime >99.99%"
+                },
+                {
+                    "category": "TASK1: Business Understanding",
+                    "justification": "Understanding a complex technical architecture with a high degree of customization is crucial for aligning infrastructure with business requirements and ensuring effective operations.",
                     "phrase": "Understand a complex technical architecture with a high degree of customisation"
                 },
                 {
                     "category": "TASK1: Business Understanding",
-                    "justification": "Providing a flexible infrastructure to the rest of the company implies understanding and meeting the diverse needs of different business units.",
-                    "phrase": "Provide a flexible infrastructure to the rest of the company"
+                    "justification": "Working with a DevOps mindset to bring products to a large number of corporate customers worldwide indicates a focus on business objectives and customer delivery.",
+                    "phrase": "Work with a DevOps mindset with other teams within the company to bring our products to a large number of corporate customers worldwide"
                 }
             ],
             "soft_skills": [
@@ -94,20 +69,20 @@
                     "phrase": "Work with a DevOps mindset with other teams within the company"
                 },
                 {
-                    "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "Achieve uptime >99.99%"
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "Manage and expand the physical servers, OS's and networks in multiple datacenters, including our AWS cloud platforms."
                 },
                 {
                     "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "Optimize cloud resources for cost efficiency and performance"
+                    "phrase": "Optimize cloud resources for cost efficiency and performance."
                 },
                 {
                     "category": "SKILL5: Innovation & Ownership",
-                    "phrase": "Operate and improve our automation tooling"
+                    "phrase": "Operate and improve our automation tooling."
                 },
                 {
-                    "category": "SKILL5: Innovation & Ownership",
-                    "phrase": "Provide a flexible infrastructure to the rest of the company"
+                    "category": "SKILL4: Ethical & Legal Responsibility",
+                    "phrase": "Ensure compliance with security best practices and industry standards."
                 }
             ],
             "technologies": [
@@ -120,8 +95,12 @@
                     "phrase": "AWS"
                 },
                 {
+                    "category": "TECH6: MLOps & Data Pipelines",
+                    "phrase": "Terraform"
+                },
+                {
                     "category": "TECH2: Cloud Platforms & Services",
-                    "phrase": "EC2 instances"
+                    "phrase": "EC2"
                 },
                 {
                     "category": "TECH2: Cloud Platforms & Services",
@@ -138,10 +117,6 @@
                 {
                     "category": "TECH2: Cloud Platforms & Services",
                     "phrase": "EFS"
-                },
-                {
-                    "category": "TECH6: MLOps & Data Pipelines",
-                    "phrase": "Terraform"
                 }
             ]
         }

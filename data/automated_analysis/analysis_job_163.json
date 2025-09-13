@@ -28,77 +28,76 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "rationale": "The job description heavily emphasizes the development and deployment of applications built on large language models (LLMs), specifically mentioning 'Generative AI', 'language models', and 'StedinGPT, onze interne versie van ChatGPT'. It highlights core responsibilities such as understanding problems solvable by LLMs, creating features for StedinGPT, and working with RAG-like concepts ('Retrieval-Augmented Generation' is implied by solving business problems with LLMs over internal data). The role involves building and maintaining production-grade software systems ('langdurig goed werkende software af te leveren in productie') and operating as a DevOps team. This aligns strongly with the definition and evidence profile of a GenAI Engineer."
+            "rationale": "The job description heavily emphasizes the development and deployment of applications built on large language models (LLMs), specifically mentioning 'StedinGPT, onze interne versie van ChatGPT' and the use of 'taalmodellen'. It highlights core responsibilities like prompt engineering, integrating LLM solutions into business processes, and ensuring these solutions are secure and scalable. The role involves building RAG systems implicitly through the mention of solving business problems with LLMs and creating 'StedinGPT'. The emphasis on building production-grade user-facing software systems, working within a DevOps team, and the specific mention of LLM technology and its applications strongly align with the GenAI Engineer profile. While there's a mention of 'architect' and 'security', the primary focus remains on leveraging generative AI for business solutions."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
                     "category": "TASK1: Business Understanding",
-                    "justification": "The role involves understanding business problems and translating them into solutions using Generative AI, and creating value for the company's operations.",
+                    "justification": "The job description mentions understanding business problems ('hoe een probleem uit het bedrijf opgelost kan worden met de nieuwste taalmodellen') and aligning technical solutions with business needs to deliver value ('direct een bedrijfsproces mee kan verbeteren en echt resultaat oplevert voor in onze operatie', 'klanten echt geholpen zijn met de eindoplossing').",
                     "phrase": "hoe een probleem uit het bedrijf opgelost kan worden met de nieuwste taalmodellen"
                 },
                 {
                     "category": "TASK1: Business Understanding",
-                    "justification": "The role requires aligning technical solutions with business needs and ensuring they deliver tangible results for the company's operations.",
-                    "phrase": "direct een bedrijfsproces mee kan verbeteren en echt resultaat oplevert voor in onze operatie"
-                },
-                {
-                    "category": "TASK1: Business Understanding",
-                    "justification": "The job requires understanding the broader business context and aligning technical solutions with strategic goals.",
-                    "phrase": "kansen en mogelijkheden van Generative AI uit te gaan nutten"
+                    "justification": "The role involves understanding the business context and translating it into technical requirements by discussing needs with Product Owners and stakeholders.",
+                    "phrase": "Wat zijn de wensen, en kan er direct nog meer waarde gecreëerd worden op een veilige en schaalbare manier?"
                 },
                 {
                     "category": "TASK3: Modeling",
-                    "justification": "The core of the role involves working with and developing applications based on generative models, specifically LLMs.",
+                    "justification": "The core of the role involves working with and developing applications based on generative AI and large language models, including fine-tuning and adapting them for specific business problems.",
                     "phrase": "technisch uitwerken van een nieuwe feature voor StedinGPT"
                 },
                 {
                     "category": "TASK3: Modeling",
-                    "justification": "The role requires understanding which LLM solutions are suitable for specific problems.",
-                    "phrase": "jij doorziet goed voor welk probleem welke oplossing geschikt is"
+                    "justification": "The job explicitly mentions working with 'taalmodellen' and understanding which solution is suitable for which problem, indicating model selection and application.",
+                    "phrase": "LLM technologie is nog nieuw maar jij doorziet goed voor welk probleem welke oplossing geschikt is."
                 },
                 {
                     "category": "TASK3: Modeling",
-                    "justification": "The job involves fine-tuning and adapting generative models for specific tasks.",
-                    "phrase": "LLM technologie is nog nieuw"
+                    "justification": "The role involves experimenting with new ideas through Proofs of Concept (PoCs) and delivering long-term working software, which includes model development and refinement.",
+                    "phrase": "niet bang nieuwe ideeën uit te laten proberen in een kleinschalige PoC, maar bent ook sterk in langdurig goed werkende software af te leveren in productie"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The job requires staying updated with innovations in the LLM field, implying continuous learning and adaptation of modeling techniques.",
+                    "phrase": "Ook blijf je up-to-date met vernieuwingen op LLM gebied in de markt."
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "justification": "The role involves building and integrating AI features into user-facing applications and backend services.",
+                    "justification": "The role involves developing features and applications using generative AI, which requires traditional software development skills to integrate these models into functional systems.",
                     "phrase": "ontwikkeling van de laatste features"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "justification": "The job requires developing robust and scalable applications, ensuring they are secure and can be integrated into the existing IT landscape.",
-                    "phrase": "kan er direct nog meer waarde gecreëerd worden op een veilige en schaalbare manier"
-                },
-                {
-                    "category": "TASK4: Software Development",
-                    "justification": "The role involves delivering well-functioning software in production.",
+                    "justification": "The job description mentions building and maintaining production-grade software systems, which is a core aspect of software development.",
                     "phrase": "langdurig goed werkende software af te leveren in productie"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "justification": "The role involves building and maintaining production-grade software systems.",
+                    "justification": "The role involves building applications around LLMs and ensuring they are secure and scalable, which requires robust software development practices.",
+                    "phrase": "kan er direct nog meer waarde gecreëerd worden op een veilige en schaalbare manier?"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The job explicitly states the team operates as a 'DevOps team' and is responsible for moving Generative AI into production within the company's IT landscape.",
+                    "phrase": "Dit team opereert als een DevOps team binnen een groot bedrijf"
+                },
+                {
+                    "category": "TASK5: Operations Engineering (MLOps)",
+                    "justification": "The role involves deploying and maintaining AI models in production, ensuring they are secure and scalable, which falls under MLOps responsibilities.",
                     "phrase": "naar productie brengen van Generative AI binnen het IT landschap van Stedin"
                 },
                 {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "The team operates as a DevOps team, indicating a focus on the operational aspects of deploying and maintaining AI models.",
-                    "phrase": "Dit team opereert als een DevOps team"
-                },
-                {
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "The role involves ensuring solutions are secure and can be integrated into the IT landscape, with considerations for standardization and future improvements.",
-                    "phrase": "toepasbaarheid van de gemaakte oplossing en hoe die terecht moet komen in het Stedin IT landschap; wat zijn de kaders, is het plan voor de aankomende features veilig en kunnen we dit in de toekomst beter standaardiseren?"
-                },
-                {
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "The role involves deploying and maintaining AI models in production environments.",
-                    "phrase": "naar productie brengen van Generative AI"
+                    "justification": "Discussions with architects and security teams about the implementation and standardization of solutions in the IT landscape point towards operational considerations for production systems.",
+                    "phrase": "toepasbaarheid van de gemaakte oplossing en hoe die terecht moet komen in het Stedin IT landschap"
                 }
             ],
             "soft_skills": [
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "stand up van het Generative AI team"
+                },
                 {
                     "category": "SKILL1: Communication & Collaboration",
                     "phrase": "meeting met de Product Owner en de interne stakeholders"
@@ -108,32 +107,24 @@
                     "phrase": "meeting met een architect en afdeling security"
                 },
                 {
-                    "category": "SKILL2: Learning & Adaptability",
-                    "phrase": "blijf je up-to-date met vernieuwingen op LLM gebied in de markt"
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "hoe een probleem uit het bedrijf opgelost kan worden met de nieuwste taalmodellen"
                 },
                 {
                     "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "jij doorziet goed voor welk probleem welke oplossing geschikt is"
+                    "phrase": "kan er direct nog meer waarde gecreëerd worden op een veilige en schaalbare manier?"
                 },
                 {
                     "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "naar het toevoegen van waarde d.m.v. Generative AI"
+                    "phrase": "doorziet goed voor welk probleem welke oplossing geschikt is"
                 },
                 {
                     "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "kan ons hier ook van overtuigen vanuit je technische basis"
+                    "phrase": "naar meer succes te komen kan je ons hier ook van overtuigen vanuit je technische basis"
                 },
                 {
                     "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "ben ook sterk in langdurig goed werkende software af te leveren"
-                },
-                {
-                    "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "blijf je steeds scherp op het doel en de randvoorwaarden"
-                },
-                {
-                    "category": "SKILL5: Innovation & Ownership",
-                    "phrase": "bent niet bang nieuwe ideeën uit te laten proberen in een kleinschalige PoC"
+                    "phrase": "scherp blijft op het doel en de randvoorwaarden"
                 },
                 {
                     "category": "SKILL5: Innovation & Ownership",
@@ -142,6 +133,22 @@
                 {
                     "category": "SKILL5: Innovation & Ownership",
                     "phrase": "duidelijk knopen kan doorhakken op technische keuzes"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "naast een dosis creativiteit zorg jij ook dat gemaakte oplossingen veilig zijn"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "niet bang nieuwe ideeën uit te laten proberen in een kleinschalige PoC"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "sterk in langdurig goed werkende software af te leveren in productie"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "blijf je up-to-date met vernieuwingen op LLM gebied in de markt"
                 }
             ],
             "technologies": [

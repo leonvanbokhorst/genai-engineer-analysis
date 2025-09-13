@@ -28,42 +28,69 @@
     "analysis": {
         "profile_classification": {
             "profile": "Ambiguous",
-            "rationale": "The job description focuses on web and app development with AI integration, but lacks specific details on core AI engineering tasks like model development, fine-tuning, or deep generative model work. The emphasis on 'AI-centric solutions' and 'AI-driven Web / Mobile Applications' suggests a role that utilizes AI rather than building foundational AI models. The responsibilities lean more towards traditional software development and system maintenance with an AI component, rather than specializing in AI model engineering or generative AI development. Therefore, it does not strongly align with ML Engineer or GenAI Engineer profiles and is best classified as Ambiguous."
+            "rationale": "The job description focuses on web and app development with AI integration, but lacks specific details on core AI engineering tasks like model development, fine-tuning, or deep generative model work. It emphasizes collaboration, deployment, and maintenance of AI-centric solutions within web/mobile applications, which could fall under traditional software development roles that leverage AI tools rather than specializing in AI model creation or advanced generative AI engineering. The title 'Senior Web Developer/Senior App Developer' further reinforces this focus. The role appears to be more about integrating AI into existing application development paradigms rather than being a dedicated AI engineering role."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
-                    "category": "TASK4: Software Development",
+                    "category": "TASK4",
                     "justification": "The phrase 'design and implement AI-driven Web / Mobile Applications and Tools' directly relates to building software applications.",
                     "phrase": "design and implement AI-driven Web / Mobile Applications and Tools"
                 },
                 {
-                    "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "The phrase 'Oversee and assist in server and system maintenance. Promptly identify and rectify issues in both production and UAT environments' describes responsibilities related to maintaining and troubleshooting systems in production and testing environments.",
-                    "phrase": "Oversee and assist in server and system maintenance. Promptly identify and rectify issues in both production and UAT environments"
+                    "category": "TASK5",
+                    "justification": "The phrases 'Oversee and assist in server and system maintenance' and 'Promptly identify and rectify issues in both production and UAT environments' describe operational aspects of maintaining deployed systems.",
+                    "phrase": "Oversee and assist in server and system maintenance"
                 },
                 {
-                    "category": "SKILL2: Learning & Adaptability",
-                    "justification": "The phrase 'Stay informed on the latest trends and advancements in both Web / Mobile and AI technologies' indicates a need for continuous learning and adaptation to new technologies.",
-                    "phrase": "Stay informed on the latest trends and advancements in both Web / Mobile and AI technologies"
+                    "category": "TASK5",
+                    "justification": "The phrases 'Oversee and assist in server and system maintenance' and 'Promptly identify and rectify issues in both production and UAT environments' describe operational aspects of maintaining deployed systems.",
+                    "phrase": "Promptly identify and rectify issues in both production and UAT environments"
                 },
                 {
-                    "category": "SKILL1: Communication & Collaboration",
-                    "justification": "The phrase 'Collaborate with interdisciplinary teams to ideate, architect, and deploy AI-centric solutions' highlights the need to work with others.",
+                    "category": "TASK1",
+                    "justification": "The phrase 'Collaborate with interdisciplinary teams to ideate, architect, and deploy AI-centric solutions' indicates understanding and aligning technical solutions with broader project goals and working with different teams.",
                     "phrase": "Collaborate with interdisciplinary teams to ideate, architect, and deploy AI-centric solutions"
+                },
+                {
+                    "category": "TASK2",
+                    "justification": "While not explicitly data engineering, the phrase 'deploy AI-centric solutions' implies handling the infrastructure and pipelines needed for AI, which can overlap with data engineering principles.",
+                    "phrase": "deploy AI-centric solutions"
+                },
+                {
+                    "category": "TASK3",
+                    "justification": "The phrase 'AI-centric solutions' suggests some involvement with AI models, though the depth is not specified.",
+                    "phrase": "AI-centric solutions"
                 }
             ],
             "soft_skills": [
                 {
-                    "category": "SKILL1: Communication & Collaboration",
+                    "category": "SKILL1",
                     "phrase": "Collaborate with interdisciplinary teams"
                 },
                 {
-                    "category": "SKILL2: Learning & Adaptability",
+                    "category": "SKILL2",
                     "phrase": "Stay informed on the latest trends and advancements in both Web / Mobile and AI technologies"
+                },
+                {
+                    "category": "SKILL3",
+                    "phrase": "ideate, architect, and deploy AI-centric solutions"
+                },
+                {
+                    "category": "SKILL5",
+                    "phrase": "architect, and deploy AI-centric solutions"
                 }
             ],
-            "technologies": []
+            "technologies": [
+                {
+                    "category": "TECH3",
+                    "phrase": "AI technologies"
+                },
+                {
+                    "category": "TECH1",
+                    "phrase": "Web / Mobile"
+                }
+            ]
         }
     }
 }

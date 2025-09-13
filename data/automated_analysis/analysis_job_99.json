@@ -28,7 +28,7 @@
     "analysis": {
         "profile_classification": {
             "profile": "Ambiguous",
-            "rationale": "The job description mentions AI/ML and LLMs but lacks specific details on model development, fine-tuning, or deployment. The emphasis is on R&D, prototyping, and general software development across the stack, rather than specializing in a particular AI engineering profile. It leans towards using AI as a component within broader R&D efforts rather than being a dedicated AI/ML or GenAI Engineer role."
+            "rationale": "The job description mentions AI/ML and LLMs, but the core responsibilities and technologies described are broad and lean towards traditional full-stack development. There's no specific mention of core GenAI engineering tasks like fine-tuning, RAG system development, or advanced prompt engineering. The emphasis is on R&D, prototyping, and building tools/services for a streaming platform, which aligns more with general software engineering or R&D roles rather than a specialized GenAI Engineer."
         },
         "thematic_analysis": {
             "job_tasks": [
@@ -39,49 +39,71 @@
                 },
                 {
                     "category": "TASK3: Modeling",
-                    "justification": "The description mentions 'AI/ML driven systems that understand video and that use the latest innovation. From Vector databases to LLM's.' This implies working with or developing models, even if details are scarce.",
-                    "phrase": "AI/ML driven systems that understand video and that use the latest innovation. From Vector databases to LLM's."
+                    "justification": "The description explicitly mentions 'AI/ML driven systems' and 'LLM's', indicating work with models.",
+                    "phrase": "AI/ML driven systems"
+                },
+                {
+                    "category": "TASK3: Modeling",
+                    "justification": "The description explicitly mentions 'LLM's', indicating work with generative models.",
+                    "phrase": "LLM's"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "justification": "The role involves 'all aspects of software development including front-end, back-end, database management, and other integrations.' and 'prototypes and build tools and services that power the ViX streaming platform.'",
-                    "phrase": "work on all aspects of software development including front-end, back-end, database management, and other integrations."
+                    "justification": "The role involves working on 'all aspects of software development including front-end, back-end, database management, and other integrations.'",
+                    "phrase": "all aspects of software development including front-end, back-end, database management, and other integrations"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "justification": "The description mentions 'prototypes and build tools and services that power the ViX streaming platform.'",
-                    "phrase": "prototypes and build tools and services that power the ViX streaming platform."
+                    "justification": "The description mentions 'build tools and services that power the ViX streaming platform' and 'implement ideas and prototypes in large-scale applications serving millions of users.'",
+                    "phrase": "build tools and services that power the ViX streaming platform"
+                },
+                {
+                    "category": "TASK4: Software Development",
+                    "justification": "The description mentions 'implement ideas and prototypes in large-scale applications serving millions of users.'",
+                    "phrase": "implement ideas and prototypes in large-scale applications serving millions of users"
                 },
                 {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "The description mentions 'controlling and directing other engineering teams, external partners and stakeholders' and 'consider how to implement ideas and prototypes in large-scale applications serving millions of users', which suggests a need for operational considerations in deployment.",
-                    "phrase": "consider how to implement ideas and prototypes in large-scale applications serving millions of users"
+                    "justification": "The phrase 'operational excellence' suggests a consideration for how systems are run and maintained in production, which is a core aspect of MLOps.",
+                    "phrase": "operational excellence"
                 }
             ],
             "soft_skills": [
                 {
                     "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "dive headfirst into challenges and have a problem-solving mentality."
+                    "phrase": "problem-solving mentality"
                 },
                 {
                     "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "comfortable with failing often and fast on the road towards a solution."
+                    "phrase": "comfortable with failing often and fast on the road towards a solution"
                 },
                 {
                     "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "pragmatic to know when to incur technical debt versus 'doing it right'."
+                    "phrase": "pragmatic to know when to incur technical debt versus 'doing it right'"
                 },
                 {
                     "category": "SKILL1: Communication & Collaboration",
-                    "phrase": "value open communication and are willing to give and receive feedback."
+                    "phrase": "value open communication"
+                },
+                {
+                    "category": "SKILL1: Communication & Collaboration",
+                    "phrase": "willing to give and receive feedback"
                 },
                 {
                     "category": "SKILL2: Learning & Adaptability",
-                    "phrase": "self-starter, flexible and can adjust to shifting priorities."
+                    "phrase": "self-starter"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "flexible and can adjust to shifting priorities"
                 },
                 {
                     "category": "SKILL5: Innovation & Ownership",
-                    "phrase": "Be the spear point of innovation coming up with smart ideas and solutions and rapidly prototyping potential solutions in short iterations."
+                    "phrase": "spear point of innovation"
+                },
+                {
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "coming up with smart ideas and solutions"
                 }
             ],
             "technologies": [

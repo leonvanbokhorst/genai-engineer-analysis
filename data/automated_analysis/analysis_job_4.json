@@ -28,68 +28,53 @@
     "analysis": {
         "profile_classification": {
             "profile": "GenAI Engineer",
-            "rationale": "The job description emphasizes developing LLM-based systems for synthetic humans and voice clones, fine-tuning models, and building production-ready software. While it mentions ML Engineer in the title, the core responsibilities align more closely with generative AI applications, prompt engineering, and building user-facing systems using large models, which are hallmarks of a GenAI Engineer."
+            "rationale": "The job description emphasizes developing LLM-based TTS systems, creating voice clones, and working with large models for text-to-video synthesis. It highlights core responsibilities such as prompt engineering (implied through TTS and voice cloning), building RAG systems (implied through data processing pipelines for large datasets), and developing production-grade software. The technologies mentioned (Voicebox, Whisper, VALL-E, SPEAR-TTS) are all related to generative AI, specifically in speech and video. While ML Engineer is mentioned, the focus on generative models and user-facing applications aligns more closely with the GenAI Engineer profile."
         },
         "thematic_analysis": {
             "job_tasks": [
                 {
                     "category": "TASK2: Data Engineering",
-                    "justification": "The phrase 'Creating new or refining existing data processing pipelines that will run on very large amounts of data' directly relates to building and maintaining data infrastructure for large datasets.",
+                    "justification": "The phrase 'Creating new or refining existing data processing pipelines that will run on very large amounts of data' directly relates to the design, building, and maintenance of data pipelines for large datasets.",
                     "phrase": "Creating new or refining existing data processing pipelines that will run on very large amounts of data"
                 },
                 {
                     "category": "TASK3: Modeling",
-                    "justification": "The description mentions 'LLM-based TTS system', 'voice clones', 'model training and inference optimisation', and 'turning prototypes into working solutions', all of which fall under the scope of developing and optimizing generative models.",
-                    "phrase": "LLM-based TTS system"
+                    "justification": "The description mentions 'develop our LLM-based TTS system', 'work on model training and inference optimisation', and 'Taking hypotheses, ideas or papers and creating implementations of solutions on the back of these', which are all core activities in creating, training, and adapting generative models.",
+                    "phrase": "develop our LLM-based TTS system"
                 },
                 {
                     "category": "TASK3: Modeling",
-                    "justification": "The phrase 'Taking hypotheses, ideas or papers and creating implementations of solutions on the back of these' describes the process of translating research into functional models.",
-                    "phrase": "Taking hypotheses, ideas or papers and creating implementations of solutions on the back of these"
-                },
-                {
-                    "category": "TASK3: Modeling",
-                    "justification": "The phrase 'Running experiments on the back of the created implementations to evaluate and verify your hypotheses' is a core part of model development and validation.",
+                    "justification": "The phrase 'Running experiments on the back of the created implementations to evaluate and verify your hypotheses' is a key part of the model development and evaluation process.",
                     "phrase": "Running experiments on the back of the created implementations to evaluate and verify your hypotheses"
                 },
                 {
                     "category": "TASK3: Modeling",
-                    "justification": "The phrase 'Work on model training and inference optimisation' directly relates to the process of improving model performance and efficiency.",
+                    "justification": "The phrase 'Work on model training and inference optimisation' directly refers to the process of training and optimizing machine learning models.",
                     "phrase": "Work on model training and inference optimisation"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "justification": "The description states 'You will be someone who loves to code and build working systems' and 'Developing production quality software, our teams work \"full stack\" with the ability to deliver direct to product and impact the world', indicating a focus on building user-facing applications and robust code.",
-                    "phrase": "You will be someone who loves to code and build working systems"
+                    "justification": "The job requires 'creating high quality, production ready code', 'contributing to a high-quality codebase, developing tests where necessary, and participating in code reviews', and 'Developing production quality software, our teams work \"full stack\" with the ability to deliver direct to product and impact the world.' This indicates a strong focus on building and deploying user-facing software systems.",
+                    "phrase": "Creating high quality, production ready code"
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "justification": "The phrase 'Contributing to a high-quality codebase, developing tests where necessary, and participating in code reviews' is a standard software development practice.",
-                    "phrase": "Contributing to a high-quality codebase, developing tests where necessary, and participating in code reviews"
+                    "justification": "The phrase 'Developing production quality software, our teams work \"full stack\" with the ability to deliver direct to product and impact the world.' highlights the development of robust, production-ready software for end-users.",
+                    "phrase": "Developing production quality software, our teams work \"full stack\" with the ability to deliver direct to product and impact the world."
                 },
                 {
                     "category": "TASK4: Software Development",
-                    "justification": "The phrase 'Taking ownership of the full ML lifecycle from concept, development, testing, validation to deployment' encompasses the software development process for ML systems.",
-                    "phrase": "Taking ownership of the full ML lifecycle from concept, development, testing, validation to deployment"
-                },
-                {
-                    "category": "TASK4: Software Development",
-                    "justification": "The phrase 'Developing production quality software, our teams work \"full stack\" with the ability to deliver direct to product and impact the world' highlights the development of end-to-end software solutions.",
-                    "phrase": "Developing production quality software, our teams work \"full stack\" with the ability to deliver direct to product and impact the world"
-                },
-                {
-                    "category": "TASK4: Software Development",
-                    "justification": "The phrase 'Optimising for deployment - turning prototypes into working solutions' is about making developed models and systems ready for production use.",
-                    "phrase": "Optimising for deployment - turning prototypes into working solutions"
+                    "justification": "The phrase 'Optimising for deployment - turning prototypes into working solutions.' describes the process of taking developed models or features and making them functional and deployable as part of a larger system.",
+                    "phrase": "Optimising for deployment - turning prototypes into working solutions."
                 },
                 {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "The phrase 'take ownership of production pipelines' directly relates to managing and maintaining systems in a production environment.",
+                    "justification": "The mention of 'take ownership of production pipelines' and 'Taking ownership of the full ML lifecycle from concept, development, testing, validation to deployment' directly aligns with the responsibilities of MLOps, managing the end-to-end lifecycle of models in production.",
                     "phrase": "take ownership of production pipelines"
                 },
                 {
                     "category": "TASK5: Operations Engineering (MLOps)",
-                    "justification": "The phrase 'Taking ownership of the full ML lifecycle from concept, development, testing, validation to deployment' includes the operational aspects of deploying and maintaining models.",
+                    "justification": "The phrase 'Taking ownership of the full ML lifecycle from concept, development, testing, validation to deployment' encompasses the entire process of bringing a model from ideation to production and maintenance.",
                     "phrase": "Taking ownership of the full ML lifecycle from concept, development, testing, validation to deployment"
                 }
             ],
@@ -104,23 +89,31 @@
                 },
                 {
                     "category": "SKILL2: Learning & Adaptability",
+                    "phrase": "passion for working on cutting edge problems"
+                },
+                {
+                    "category": "SKILL2: Learning & Adaptability",
                     "phrase": "If you know and love Voicebox, Whisper, VALL-E, SPEAR-TTS and more - and you love machine learning and large data, then we would love to talk to you. We will also want to talk to you - if that's what you dream of doing."
                 },
                 {
                     "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "You will be someone who loves to code and build working systems."
+                    "phrase": "create highly realistic, emotional and life-like synthetic humans through text-to-video."
+                },
+                {
+                    "category": "SKILL3: Problem Solving & Pragmatism",
+                    "phrase": "Our aim is to make video content creation available for all - not only to studio production!"
                 },
                 {
                     "category": "SKILL3: Problem Solving & Pragmatism",
                     "phrase": "Taking hypotheses, ideas or papers and creating implementations of solutions on the back of these."
                 },
                 {
-                    "category": "SKILL3: Problem Solving & Pragmatism",
-                    "phrase": "Optimising for deployment - turning prototypes into working solutions."
+                    "category": "SKILL5: Innovation & Ownership",
+                    "phrase": "You will be someone who loves to code and build working systems."
                 },
                 {
                     "category": "SKILL5: Innovation & Ownership",
-                    "phrase": "take ownership of production pipelines"
+                    "phrase": "take ownership of production pipelines."
                 },
                 {
                     "category": "SKILL5: Innovation & Ownership",
@@ -151,10 +144,6 @@
                 {
                     "category": "TECH3: LLM / Generative Models",
                     "phrase": "SPEAR-TTS"
-                },
-                {
-                    "category": "TECH6: MLOps & Data Pipelines",
-                    "phrase": "production pipelines"
                 },
                 {
                     "category": "TECH10: Data Modeling",
