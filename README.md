@@ -78,3 +78,20 @@ This script assembles the plots and tables into a final `REPORT.md` file.
 ```bash
 python scripts/generate_report.py
 ```
+
+### Manual Scientific Rigor Review
+
+To manually audit the automated analyses, launch the Streamlit reviewer interface:
+
+```bash
+streamlit run scripts/research_review_app.py
+```
+
+The app will:
+
+- Draw a reproducible random sample of analysis JSON files from `data/automated_analysis`.
+- Display the AI-generated classifications, rationale, and extracted entities for each sampled job ad.
+- Let you record a scientific rigor verdict, follow-up requirements, and reviewer notes.
+- Save all inputs to `data/analysis_review_log.csv`, which can be downloaded from the sidebar for further documentation.
+
+Provide your reviewer name in the sidebar before saving so the audit trail is clearly attributed.
