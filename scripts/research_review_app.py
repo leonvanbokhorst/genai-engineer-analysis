@@ -44,7 +44,8 @@ def load_analysis_records() -> List[Dict[str, Any]]:
             "job_id": payload.get("job_id"),
             "file_name": path.name,
             "file_path": str(path.relative_to(WORKSPACE_DIR)),
-            "job_title": job_details.get("Vacaturetitel") or job_details.get("job_title"),
+            "job_title": job_details.get("Vacaturetitel")
+            or job_details.get("job_title"),
             "employer": job_details.get("Organisatienaam"),
             "location": job_details.get("Standplaats") or job_details.get("Gemeente"),
             "full_text": job_details.get("full_text")
@@ -85,17 +86,19 @@ def load_review_log() -> pd.DataFrame:
 def save_review_log(new_rows: pd.DataFrame) -> None:
     """Persist updated review log to disk."""
     existing = load_review_log()
-    if not existing.empty:
-        merged = (
-            existing.set_index("job_id")
-            .combine_first(new_rows.set_index("job_id"))
-            .combine_first(existing.set_index("job_id"))
-        )
-        merged.update(new_rows.set_index("job_id"))
-        merged = merged.reset_index()
-    else:
-        merged = new_rows
-    merged.to_csv(REVIEW_LOG_PATH, index=False, encoding="utf-8")
+
+    # Combine with existing reviews, overwriting any with the same job_id.
+    combined = pd.concat([existing, new_rows], ignore_index=True)
+    if combined.empty:
+        combined.to_csv(REVIEW_LOG_PATH, index=False, encoding="utf-8")
+        return
+
+    updated_log = (
+        combined.drop_duplicates(subset=["job_id"], keep="last")
+        .sort_values("job_id")
+        .reset_index(drop=True)
+    )
+    updated_log.to_csv(REVIEW_LOG_PATH, index=False, encoding="utf-8")
 
 
 def render_thematic_section(title: str, items: List[Dict[str, Any]]) -> None:
@@ -124,10 +127,12 @@ if not records:
     )
     st.stop()
 
-all_job_ids = [record["job_id"] for record in records if record.get("job_id") is not None]
+all_job_ids = [
+    record["job_id"] for record in records if record.get("job_id") is not None
+]
 review_log = load_review_log()
 review_lookup = (
-    review_log.set_index("job_id").to_dict(orient="index") if not review_log.empty else {}
+    {} if review_log.empty else review_log.set_index("job_id").to_dict(orient="index")
 )
 
 # --- Sidebar Controls ---
@@ -142,8 +147,9 @@ sample_size = st.sidebar.slider(
     value=default_sample_size,
 )
 seed = st.sidebar.number_input("Random seed", value=42, step=1)
-reviewer_name = st.sidebar.text_input("Reviewer name", value=st.session_state.get("reviewer", ""))
-if reviewer_name:
+if reviewer_name := st.sidebar.text_input(
+    "Reviewer name", value=st.session_state.get("reviewer", "")
+):
     st.session_state.reviewer = reviewer_name
 
 
@@ -183,7 +189,9 @@ if "sample_drawn_at" in st.session_state:
     )
 
 if not sample_records:
-    st.warning("No records in current sample. Adjust the sample size or seed and draw again.")
+    st.warning(
+        "No records in current sample. Adjust the sample size or seed and draw again."
+    )
     st.stop()
 
 st.markdown("---")
@@ -191,7 +199,9 @@ st.header("Review Queue")
 
 for record in sample_records:
     job_id = record.get("job_id")
-    with st.expander(f"Job {job_id} · {record.get('job_title', 'Untitled')}", expanded=False):
+    with st.expander(
+        f"Job {job_id} · {record.get('job_title', 'Untitled')}", expanded=False
+    ):
         st.markdown(f"**Job ID:** `{job_id}`")
         st.markdown(f"**Source file:** `{record['file_path']}`")
 
