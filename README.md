@@ -92,29 +92,19 @@ This script assembles the plots and tables into a final `REPORT.md` file.
 python scripts/generate_report.py
 ```
 
----
+### Manual Scientific Rigor Review
 
-## 🚀 Future Enhancements
+To manually audit the automated analyses, launch the Streamlit reviewer interface:
 
-See our [improvement roadmap](https://github.com/leonvanbokhorst/genai-engineer-analysis/issues) for planned enhancements including:
-
-- **Validation Study**: Manual validation for academic publication ([#21](https://github.com/leonvanbokhorst/genai-engineer-analysis/issues/21))
-- **Testing Suite**: Comprehensive test coverage ([#22](https://github.com/leonvanbokhorst/genai-engineer-analysis/issues/22))
-- **Enhanced Analytics**: Advanced error analysis and API optimization ([#24](https://github.com/leonvanbokhorst/genai-engineer-analysis/issues/24), [#25](https://github.com/leonvanbokhorst/genai-engineer-analysis/issues/25))
-- **Deployment**: Docker containerization for improved portability ([#26](https://github.com/leonvanbokhorst/genai-engineer-analysis/issues/26))
-
----
-
-## 📖 Citation
-
-If you use this methodology or findings in your research, please cite:
-
-```bibtex
-@misc{vanbokhorst2025genai,
-  title={GenAI Engineer Job Market Analysis: An AI-Powered Research Pipeline},
-  author={van Bokhorst, Leon},
-  year={2025},
-  url={https://github.com/leonvanbokhorst/genai-engineer-analysis},
-  note={Research-grade analysis with 9.2/10 assessment score}
-}
+```bash
+streamlit run scripts/research_review_app.py
 ```
+
+The app will:
+
+- Draw a reproducible random sample of analysis JSON files from `data/automated_analysis`.
+- Display the AI-generated classifications, rationale, and extracted entities for each sampled job ad.
+- Let you record a scientific rigor verdict, follow-up requirements, and reviewer notes.
+- Save all inputs to `data/analysis_review_log.csv`, which can be downloaded from the sidebar for further documentation.
+
+
