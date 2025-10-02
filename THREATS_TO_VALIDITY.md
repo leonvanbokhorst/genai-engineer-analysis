@@ -31,5 +31,3 @@ You’re extracting structure from public ads, but transparency matters. Keep an
 ## Mitigation in one breath
 
 Lock evidence to minimal spans, classify from tags-only, calibrate on a balanced dated set with blind adjudication, report κ plus percent agreement plus span-F1, control multiple testing, discount boilerplate without task verbs, distrust metadata, stratify your sample and rerun calibration on drift, and version everything. Do that, and your inferences stay science, not vibes.
-
-If you want, I’ll drop a “Validity Checklist” markdown into your repo that mirrors this flow and forces students to tick off leakage control, calibration, κ reporting, multiple-testing notes, and data-source caveats before they publish numbers.
