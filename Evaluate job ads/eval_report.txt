@@ -1,0 +1,21 @@
+Docs: 5
+
+Stage 0 — Relevance
+  Percent agreement: 1.00
+  Cohen's kappa:    1.00
+
+Stage 1 — Feature extraction (span, micro-avg)
+  Precision: 0.89
+  Recall:    0.89
+  F1:        0.89
+  (tp=8, fp=1, fn=1, IoU≥0.5)
+
+Stage 2 — Final classification
+  Percent agreement: 0.80
+  Cohen's kappa:     0.69
+
+  Confusion matrix (rows=human, cols=LLM)
+                   |      Ambiguous | GenAI Engineer |    ML Engineer |
+       Ambiguous  |              1 |              1 |              0 |   (n=2)
+  GenAI Engineer  |              0 |              2 |              0 |   (n=2)
+     ML Engineer  |              0 |              0 |              1 |   (n=1)
